@@ -125,41 +125,63 @@ def pl_squad(pl_team_id: int) -> list[dict]:
     for p in (d or {}).get("players", []):
         info = p.get("info", {}) or {}
         opta = (p.get("altIds") or {}).get("opta")
+        birth = p.get("birth") or {}
+        nat = p.get("nationalTeam") or birth.get("country") or {}
+        dob_ms = (birth.get("date") or {}).get("millis")
+        join_ms = (p.get("joinDate") or {}).get("millis")
         out.append({
             "name": (p.get("name") or {}).get("display"),
             "first": (p.get("name") or {}).get("first"),
             "last": (p.get("name") or {}).get("last"),
             "jersey": info.get("shirtNum"),
             "pos": info.get("position"),
+            "posInfo": info.get("positionInfo"),
             "photo": PL_PHOTO.format(opta=opta) if opta else None,
+            # --- 選手詳細用（成績系は入れない）
+            "dob": datetime.fromtimestamp(dob_ms / 1000, tz=timezone.utc).strftime("%Y-%m-%d") if dob_ms else None,
+            "nat": nat.get("country"),
+            "natCode": nat.get("isoCode"),
+            "height": p.get("height"),
+            "joined": datetime.fromtimestamp(join_ms / 1000, tz=timezone.utc).strftime("%Y-%m-%d") if join_ms else None,
+            "birthPlace": birth.get("place"),
         })
     return out
 
 
-def pl_all_teams_photo_index() -> dict[str, str]:
-    """リーグ全チームの 正規化名 → 写真URL（相手チームの写真用）"""
+BIO_KEYS = ("photo", "dob", "nat", "natCode", "height", "joined", "birthPlace", "posInfo")
+
+
+def bio_of(q: dict) -> dict:
+    return {k: q.get(k) for k in BIO_KEYS}
+
+
+def pl_all_teams_index() -> dict[str, dict]:
+    """リーグ全チームの 正規化名 → {name, team, 写真, 生年月日, 国籍, 身長...}（相手チームの選手用）"""
     sid = pl_current_season()
     if not sid:
         return {}
     d = get_json(f"{PL_API}/teams?pageSize=40&compSeasons={sid}&altIds=true&page=0",
                  {"Origin": "https://www.premierleague.com", "Referer": "https://www.premierleague.com/"})
-    index: dict[str, str] = {}
+    index: dict[str, dict] = {}
     for t in (d or {}).get("content", []):
         tid = t.get("id")
         if tid is None:
             continue
+        tname = t.get("name") or (t.get("club") or {}).get("name")
         for p in pl_squad(int(tid)):
-            if p["photo"] and p["name"]:
-                index[norm_name(p["name"])] = p["photo"]
-                # 姓だけのキーも（衝突したら先勝ち）
-                ln = norm_name(p["last"])
-                if ln and ln not in index:
-                    index[ln] = p["photo"]
+            if not p["name"]:
+                continue
+            rec = {"name": p["name"], "team": tname, "jersey": p["jersey"], **bio_of(p)}
+            index[norm_name(p["name"])] = rec
+            # 姓だけのキーも（衝突したら先勝ち）
+            ln = norm_name(p["last"])
+            if ln and ln not in index:
+                index[ln] = rec
         time.sleep(0.3)
     return index
 
 
-def find_photo(name: str, index: dict[str, str]) -> str | None:
+def find_in_index(name: str, index: dict[str, dict]) -> dict | None:
     n = norm_name(name)
     if n in index:
         return index[n]
@@ -167,6 +189,11 @@ def find_photo(name: str, index: dict[str, str]) -> str | None:
     if parts and parts[-1] in index:
         return index[parts[-1]]
     return None
+
+
+def find_photo(name: str, index: dict[str, dict]) -> str | None:
+    rec = find_in_index(name, index)
+    return rec.get("photo") if rec else None
 
 
 # ---------------------------------------------------------------- 配置 (フォーメーション図)
@@ -356,26 +383,34 @@ def manual_reason(name: str, match_date: datetime, entries: list[dict]) -> dict 
 
 
 # ---------------------------------------------------------------- main per team
-def build_team(team: dict, photo_index: dict[str, str]) -> None:
+def build_team(team: dict, photo_index: dict[str, dict]) -> None:
     tid = team["id"]
     league = team["league"]
     espn_id = str(team["espnTeamId"])
     tdir = DATA / tid
     log(f"== {team['name']}")
 
-    # --- 選手名鑑（ESPN + PL写真）
+    # --- 選手名鑑（ESPN + PL公式の写真・プロフィール）
     roster = espn_roster(league, espn_id)
     plsq = pl_squad(int(team["plTeamId"])) if team.get("plTeamId") else []
+    own_index = {norm_name(q["name"]): q for q in plsq if q["name"]}
+    for q in plsq:
+        ln = norm_name(q["last"])
+        if ln and ln not in own_index:
+            own_index[ln] = q
     for p in roster:
-        photo = find_photo(p["name"], {norm_name(q["name"]): q["photo"] for q in plsq if q["photo"]})
-        if not photo and p["jersey"]:
-            q = next((q for q in plsq if str(q["jersey"]) == str(p["jersey"]) and q["photo"]), None)
-            photo = q["photo"] if q else None
-        if not photo:
-            photo = find_photo(p["name"], photo_index)
-        p["photo"] = photo or p.get("photo")
+        q = find_in_index(p["name"], own_index)
+        if not q and p["jersey"]:
+            q = next((q for q in plsq if str(q["jersey"]) == str(p["jersey"])), None)
+        if not q:
+            q = find_in_index(p["name"], photo_index)
+        bio = bio_of(q) if q else {}
+        espn_photo = p.get("photo")
+        p.update(bio)
+        p["photo"] = bio.get("photo") or espn_photo
     write_json(tdir / "roster.json", {"updatedAt": iso(NOW), "players": roster})
-    log(f"  roster: {len(roster)} 人（写真あり {sum(1 for p in roster if p['photo'])} 人）")
+    log(f"  roster: {len(roster)} 人（写真あり {sum(1 for p in roster if p['photo'])} 人、"
+        f"プロフィールあり {sum(1 for p in roster if p.get('dob'))} 人）")
 
     # --- 日程
     events = espn_schedule(league, espn_id)
@@ -484,9 +519,13 @@ def build_team(team: dict, photo_index: dict[str, str]) -> None:
 def main() -> int:
     cfg = json.loads((ROOT / "teams.json").read_text(encoding="utf-8"))
     teams = cfg.get("teams", [])
-    log("PL公式から写真インデックスを作成中...")
-    photo_index = pl_all_teams_photo_index()
-    log(f"  写真 {len(photo_index)} 件")
+    log("PL公式から全チームの選手インデックスを作成中...")
+    photo_index = pl_all_teams_index()
+    log(f"  選手 {len(photo_index)} 件")
+    if photo_index:
+        # フルネームのキーだけを書き出す（相手チーム選手の詳細ポップアップ用）
+        full_only = {k: v for k, v in photo_index.items() if " " in k or norm_name(v["name"]) == k}
+        write_json(DATA / "pl-players.json", {"updatedAt": iso(NOW), "players": full_only})
     ok = True
     for team in teams:
         try:

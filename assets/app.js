@@ -71,7 +71,107 @@
     const img = p.photo ? `<img src="${esc(p.photo)}" alt="" loading="lazy" onerror="this.remove()">` : "";
     return `<div class="ph ${cls}"><span class="ini">${esc(initials(p.name))}</span>${img}${num}</div>`;
   }
-  const playerChip = (p) => `<div class="pl" title="${esc(p.name)} ・ ${esc(p.pos || "")}">${photoEl(p)}<div class="nm">${esc(shortName(p.name))}</div></div>`;
+  const playerChip = (p, side = "us", role = "starter") =>
+    `<div class="pl" data-pid="${esc(p.id)}" data-side="${side}" data-role="${role}" title="${esc(p.name)} ・ ${esc(p.pos || "")}">${photoEl(p)}<div class="nm">${esc(shortName(p.name))}</div></div>`;
+
+  async function loadMatch(eventId) {
+    if (state.matchCache.has(eventId)) return state.matchCache.get(eventId);
+    try {
+      const m = await fetchJson(`data/${state.teamId}/matches/${eventId}.json`);
+      state.matchCache.set(eventId, m);
+      return m;
+    } catch (e) { console.warn(e); return null; }
+  }
+
+  // ---------------------------------------------------------------- 選手詳細
+  const POS_JA = { G: "GK", GK: "GK", D: "DF", M: "MF", F: "FW", LB: "左SB", RB: "右SB", CB: "CB", CD: "CB", "CD-L": "左CB", "CD-R": "右CB", SW: "スイーパー",
+    LWB: "左WB", RWB: "右WB", DM: "守備的MF", CDM: "守備的MF", CM: "セントラルMF", LM: "左MF", RM: "右MF", AM: "トップ下", CAM: "トップ下",
+    "AM-L": "左の攻撃的MF", "AM-R": "右の攻撃的MF", LW: "左WG", RW: "右WG", ST: "CF", CF: "CF", FW: "FW", SS: "セカンドトップ" };
+  const posJa = a => POS_JA[(a || "").toUpperCase()] || a || "";
+  const normName = s => (s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9 ]/g, " ").replace(/\s+/g, " ").trim();
+  let plIndex = null, absencesCfg = null;
+  async function getPlIndex() { if (!plIndex) { try { plIndex = (await fetchJson("data/pl-players.json")).players || {}; } catch { plIndex = {}; } } return plIndex; }
+  async function getAbsences() { if (!absencesCfg) { try { absencesCfg = await fetchJson("absences.json"); } catch { absencesCfg = {}; } } return absencesCfg; }
+  function lookupIndex(name, idx) {
+    const n = normName(name);
+    if (idx[n]) return idx[n];
+    const last = n.split(" ").pop();
+    const hits = Object.values(idx).filter(r => normName(r.name).split(" ").pop() === last);
+    return hits.length === 1 ? hits[0] : null;
+  }
+  function ageFrom(dob) {
+    if (!dob) return null;
+    const b = new Date(dob + "T00:00:00Z"), n = new Date();
+    let a = n.getUTCFullYear() - b.getUTCFullYear();
+    const m = n.getUTCMonth() - b.getUTCMonth();
+    if (m < 0 || (m === 0 && n.getUTCDate() < b.getUTCDate())) a--;
+    return a;
+  }
+  const fmtDate = iso => { if (!iso) return ""; const [y, m, d] = iso.split("-"); return `${y}年${+m}月${+d}日`; };
+  const flagImg = code => code ? `<img class="flag" src="https://flagcdn.com/w40/${esc(code.toLowerCase())}.png" alt="" onerror="this.remove()">` : "";
+
+  async function openPlayer(p, ctx) {
+    const dlg = $("#dlg-player"), box = $("#player-body");
+    box.innerHTML = `<div class="empty">読み込み中...</div>`;
+    if (!dlg.open) dlg.showModal();
+    const ours = ctx.side !== "opp";
+    let bio = ours ? (state.roster.get(p.id) || null) : null;
+    if (!bio || !bio.dob) {
+      const r = lookupIndex(p.name, await getPlIndex());
+      if (r) bio = { ...r, ...(bio || {}), dob: (bio && bio.dob) || r.dob, photo: (bio && bio.photo) || r.photo };
+    }
+    bio = bio || {};
+    const photo = p.photo || bio.photo;
+
+    let role = "";
+    if (ctx.role === "starter") role = `先発 ・ ${esc(posJa(p.pos))}`;
+    else if (ctx.role === "bench") role = "ベンチ";
+    else if (ctx.role === "absent") role = `メンバー外 ・ ${esc(p.type || "理由不明")}${p.reason ? " ・ " + esc(p.reason) : ""}`;
+
+    // 今季の出場状況（自チームのみ、観た試合＋次に観る試合の範囲）
+    let season = "";
+    if (ours) {
+      const kinds = classify();
+      const vis = state.fixtures.filter(f => f.hasLineup && ["watched", "current", "open"].includes(kinds.get(f.eventId)));
+      const ms = await Promise.all(vis.map(f => loadMatch(f.eventId)));
+      let st = 0, be = 0, ab = 0;
+      ms.forEach(m => {
+        if (!m || !m.team) return;
+        if (m.team.starters.some(x => x.id === p.id)) st++;
+        else if (m.team.bench.some(x => x.id === p.id)) be++;
+        else if ((m.absentees || []).some(x => x.id === p.id)) ab++;
+      });
+      season = `<div class="sec"><h3>今季の出場状況<small>観た試合＋次に観る試合の ${vis.length} 試合分</small></h3>
+        <div class="stats"><div><b>${st}</b><span>先発</span></div><div><b>${be}</b><span>ベンチ</span></div><div><b>${ab}</b><span>メンバー外</span></div></div></div>`;
+    }
+
+    // 欠場の記録（absences.json の手入力分）
+    let absHist = "";
+    if (ours) {
+      const cfg = await getAbsences();
+      const n = normName(p.name);
+      const list = (cfg[state.teamId] || []).filter(e => { const en = normName(e.name); return en && (en === n || n.split(" ").includes(en) || n.endsWith(" " + en)); });
+      if (list.length) absHist = `<div class="sec"><h3>欠場の記録</h3>${list.map(e =>
+        `<div class="abs-row"><b>${esc(e.type || "欠場")}</b> ${esc(e.reason || "")}<small>${e.from ? fmtDate(e.from) : ""}${(e.from || e.until) ? " 〜 " : ""}${e.until ? fmtDate(e.until) : ""}</small></div>`).join("")}</div>`;
+    }
+
+    const age = ageFrom(bio.dob);
+    const facts = [
+      age != null ? ["年齢", `${age}歳（${fmtDate(bio.dob)}）`] : null,
+      bio.nat ? ["国籍", `${flagImg(bio.natCode)} ${esc(bio.nat)}`] : null,
+      bio.height ? ["身長", `${esc(bio.height)} cm`] : null,
+      bio.birthPlace ? ["出身地", esc(bio.birthPlace)] : null,
+      bio.joined ? ["加入", fmtDate(bio.joined)] : null,
+      (!ours && bio.team) ? ["所属", esc(bio.team)] : null,
+    ].filter(Boolean);
+    box.innerHTML = `
+      <div class="p-head">${photoEl({ ...p, photo }, "big")}<div>
+        <div class="p-name">${esc(p.name)}</div>
+        <div class="p-sub">${p.jersey ? `#${esc(p.jersey)} ・ ` : ""}${esc(bio.posInfo || posJa(p.pos))}</div>
+        ${role ? `<div class="p-role">${role}</div>` : ""}</div></div>
+      ${facts.length ? `<div class="sec facts">${facts.map(([k, v]) => `<div><span>${k}</span><b>${v}</b></div>`).join("")}</div>` : `<p class="note">プロフィール情報はまだ取得できていません。</p>`}
+      ${season}${absHist}`;
+  }
 
   // ---------------------------------------------------------------- 状態分類
   // avail = スタメンがある or 開始済みの試合。未視聴の最初の1試合が「次に観る」、それ以降はロック。
@@ -192,13 +292,7 @@
     const el = $("#detail");
     el.innerHTML = `<button class="back" id="btn-back">‹ 一覧へ</button><div class="empty">読み込み中...</div>`;
     bindBack();
-    let m = null;
-    if (f.hasLineup) {
-      try {
-        m = state.matchCache.get(eventId) || await fetchJson(`data/${state.teamId}/matches/${eventId}.json`);
-        state.matchCache.set(eventId, m);
-      } catch (e) { console.warn(e); }
-    }
+    const m = f.hasLineup ? await loadMatch(eventId) : null;
     renderDetail(f, m, kind);
     if (window.innerWidth < 900) window.scrollTo({ top: 0 });
   }
@@ -226,8 +320,9 @@
       const ourName = state.teams.find(x => x.id === state.teamId)?.shortName || "自チーム";
       html += `<div class="formation-bar"><span>フォーメーション</span><b>${esc(side.formation || "—")}</b><span class="spacer"></span>
         ${m.opponent && m.opponent.starters ? `<span class="seg"><button data-side="us" class="${state.showOpp ? "" : "on"}">${esc(ourName)}</button><button data-side="opp" class="${state.showOpp ? "on" : ""}">${esc(f.opponent.abbr || "相手")}</button></span>` : ""}</div>`;
-      html += renderPitch(side);
-      html += `<div class="section-label" style="margin-top:4px">ベンチ <span class="count">${side.bench.length}</span></div><div class="bench">${side.bench.map(playerChip).join("")}</div></div>`;
+      const sk = state.showOpp ? "opp" : "us";
+      html += renderPitch(side, sk);
+      html += `<div class="section-label" style="margin-top:4px">ベンチ <span class="count">${side.bench.length}</span></div><div class="bench">${side.bench.map(p => playerChip(p, sk, "bench")).join("")}</div></div>`;
       if (!state.showOpp) html += renderAbsentees(m.absentees || []);
       else html += `<p class="hint">相手チームの欠場者情報は取得していません。</p>`;
     } else {
@@ -247,6 +342,14 @@
     el.innerHTML = html;
     bindBack();
     el.querySelectorAll(".seg button").forEach(b => b.addEventListener("click", () => { state.showOpp = b.dataset.side === "opp"; renderDetail(f, m, kind); }));
+    // 選手の写真 → 詳細ポップアップ
+    el.querySelectorAll("[data-pid]").forEach(c => c.addEventListener("click", () => {
+      if (!m) return;
+      const { pid, side: sk, role } = c.dataset;
+      const src = sk === "opp" ? m.opponent : m.team;
+      const p = role === "absent" ? (m.absentees || []).find(x => x.id === pid) : src && [...src.starters, ...src.bench].find(x => x.id === pid);
+      if (p) openPlayer(p, { side: sk, role });
+    }));
     const wu = $("#btn-watch-upto");
     if (wu) wu.addEventListener("click", () => {
       state.fixtures.filter(x => x.date <= f.date && (x.status === "played" || x.hasLineup)).forEach(x => setWatched(x.eventId, true));
@@ -265,11 +368,11 @@
     });
   }
 
-  function renderPitch(side) {
+  function renderPitch(side, sk = "us") {
     const byId = new Map(side.starters.map(p => [p.id, p]));
     const rows = (side.rows && side.rows.length ? side.rows : [side.starters.map(p => p.id)]).map(r => r.map(id => byId.get(id)).filter(Boolean));
     return `<div class="pitch"><div class="lines"><i class="out"></i><i class="half"></i><i class="circle"></i><i class="boxb"></i><i class="boxt"></i></div>
-      <div class="rows">${rows.slice().reverse().map(r => `<div class="row">${r.map(playerChip).join("")}</div>`).join("")}</div></div>`;
+      <div class="rows">${rows.slice().reverse().map(r => `<div class="row">${r.map(p => playerChip(p, sk, "starter")).join("")}</div>`).join("")}</div></div>`;
   }
 
   function renderAbsentees(list) {
@@ -280,7 +383,7 @@
       const unk = p.type === "理由不明";
       const sus = /停止/.test(p.type || "");
       const why = unk ? "メンバー外 ・ 理由は未登録" : esc(p.reason || "");
-      return `<div class="r">${photoEl(p)}<div><div class="n">${esc(p.name)}</div><div class="why">${why}</div></div><span class="tag ${unk ? "unk" : sus ? "sus" : ""}">${esc(p.type || "欠場")}</span></div>`;
+      return `<div class="r" data-pid="${esc(p.id)}" data-side="us" data-role="absent">${photoEl(p)}<div><div class="n">${esc(p.name)}</div><div class="why">${why}</div></div><span class="tag ${unk ? "unk" : sus ? "sus" : ""}">${esc(p.type || "欠場")}</span></div>`;
     };
     let html = `<div class="section-label">欠場・メンバー外 <span class="count">${main.length}</span></div><div class="card abs">`;
     html += main.length ? main.map(row).join("") : `<div class="ghost-row">今季メンバー入りした選手は全員ベンチ入りしています</div>`;

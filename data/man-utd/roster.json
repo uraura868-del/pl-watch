@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-25T01:19:48Z",
+ "updatedAt": "2026-10-25T01:24:10Z",
  "players": [
   {
    "id": "42250",
@@ -7,7 +7,14 @@
    "jersey": "22",
    "pos": "G",
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p21205.png",
-   "injuries": []
+   "injuries": [],
+   "dob": "1986-04-15",
+   "nat": "England",
+   "natCode": "GB-ENG",
+   "height": 188,
+   "joined": "2021-07-02",
+   "birthPlace": "Chester",
+   "posInfo": "Goalkeeper"
   },
   {
    "id": "130877",
@@ -15,7 +22,14 @@
    "jersey": "12",
    "pos": "G",
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p59735.png",
-   "injuries": []
+   "injuries": [],
+   "dob": "1990-10-08",
+   "nat": "Wales",
+   "natCode": "GB-WLS",
+   "height": 190,
+   "joined": "2026-06-14",
+   "birthPlace": "Northampton",
+   "posInfo": "Goalkeeper"
   },
   {
    "id": "301425",
@@ -23,7 +37,14 @@
    "jersey": "1",
    "pos": "G",
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p465247.png",
-   "injuries": []
+   "injuries": [],
+   "dob": "2002-07-07",
+   "nat": "Belgium",
+   "natCode": "BE",
+   "height": 193,
+   "joined": "2025-09-01",
+   "birthPlace": "Zottegem",
+   "posInfo": "Goalkeeper"
   },
   {
    "id": "325550",
@@ -31,7 +52,14 @@
    "jersey": "45",
    "pos": "G",
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p461537.png",
-   "injuries": []
+   "injuries": [],
+   "dob": "2002-11-20",
+   "nat": "Northern Ireland",
+   "natCode": "GB-NIR",
+   "height": 183,
+   "joined": "2023-07-24",
+   "birthPlace": "Birmingham",
+   "posInfo": "Goalkeeper"
   },
   {
    "id": "157073",
@@ -39,7 +67,14 @@
    "jersey": "5",
    "pos": "D",
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p95658.png",
-   "injuries": []
+   "injuries": [],
+   "dob": "1993-03-05",
+   "nat": "England",
+   "natCode": "GB-ENG",
+   "height": 194,
+   "joined": "2019-08-05",
+   "birthPlace": "Sheffield",
+   "posInfo": "Centre Central Defender"
   },
   {
    "id": "167127",
@@ -47,7 +82,14 @@
    "jersey": "23",
    "pos": "M",
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p106760.png",
-   "injuries": []
+   "injuries": [],
+   "dob": "1995-07-12",
+   "nat": "England",
+   "natCode": "GB-ENG",
+   "height": 178,
+   "joined": "2014-07-01",
+   "birthPlace": "Kingston upon Thames",
+   "posInfo": "Left Full Back"
   },
   {
    "id": "233937",
@@ -55,7 +97,14 @@
    "jersey": "6",
    "pos": "D",
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p221820.png",
-   "injuries": []
+   "injuries": [],
+   "dob": "1998-01-18",
+   "nat": "Argentina",
+   "natCode": "AR",
+   "height": 175,
+   "joined": "2022-07-17",
+   "birthPlace": "Gualeguay",
+   "posInfo": "Central Defender"
   },
   {
    "id": "238902",
@@ -63,7 +112,14 @@
    "jersey": "2",
    "pos": "D",
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p216051.png",
-   "injuries": []
+   "injuries": [],
+   "dob": "1999-03-18",
+   "nat": "Portugal",
+   "natCode": "PT",
+   "height": 184,
+   "joined": "2018-06-08",
+   "birthPlace": "Braga",
+   "posInfo": "Right Full Back"
   },
   {
    "id": "239349",
@@ -71,7 +127,14 @@
    "jersey": "4",
    "pos": "D",
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p209365.png",
-   "injuries": []
+   "injuries": [],
+   "dob": "1999-08-12",
+   "nat": "Netherlands",
+   "natCode": "NL",
+   "height": 187,
+   "joined": "2024-08-13",
+   "birthPlace": "Leiderdorp",
+   "posInfo": "Centre Central Defender"
   },
   {
    "id": "239350",
@@ -79,7 +142,14 @@
    "jersey": "3",
    "pos": "D",
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p230001.png",
-   "injuries": []
+   "injuries": [],
+   "dob": "1997-11-14",
+   "nat": "Morocco",
+   "natCode": "MA",
+   "height": 183,
+   "joined": "2024-08-13",
+   "birthPlace": "Leiderdorp",
+   "posInfo": "Right Full Back"
   },
   {
    "id": "340206",
@@ -87,7 +157,14 @@
    "jersey": "15",
    "pos": "D",
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p550864.png",
-   "injuries": []
+   "injuries": [],
+   "dob": "2005-11-13",
+   "nat": "France",
+   "natCode": "FR",
+   "height": 190,
+   "joined": "2024-07-19",
+   "birthPlace": "Saint-Maurice",
+   "posInfo": "Centre Central Defender"
   },
   {
    "id": "356044",
@@ -95,7 +172,14 @@
    "jersey": "26",
    "pos": "D",
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p606745.png",
-   "injuries": []
+   "injuries": [],
+   "dob": "2006-09-22",
+   "nat": "England",
+   "natCode": "GB-ENG",
+   "height": 189,
+   "joined": "2025-02-01",
+   "birthPlace": "London",
+   "posInfo": "Left Full Back"
   },
   {
    "id": "356940",
@@ -103,7 +187,14 @@
    "jersey": "41",
    "pos": "D",
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p577974.png",
-   "injuries": []
+   "injuries": [],
+   "dob": "2007-03-16",
+   "nat": "England",
+   "natCode": "GB-ENG",
+   "height": 181,
+   "joined": "2024-02-18",
+   "birthPlace": "London",
+   "posInfo": "Left Full Back"
   },
   {
    "id": "366781",
@@ -111,7 +202,14 @@
    "jersey": "13",
    "pos": "D",
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p596777.png",
-   "injuries": []
+   "injuries": [],
+   "dob": "2004-10-26",
+   "nat": "Denmark",
+   "natCode": "DK",
+   "height": 185,
+   "joined": "2025-02-02",
+   "birthPlace": "København",
+   "posInfo": "Left Full Back"
   },
   {
    "id": "381055",
@@ -119,7 +217,14 @@
    "jersey": "57",
    "pos": "D",
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p576622.png",
-   "injuries": []
+   "injuries": [],
+   "dob": "2007-10-23",
+   "nat": "Scotland",
+   "natCode": "GB-SCT",
+   "height": null,
+   "joined": "2025-05-26",
+   "birthPlace": null,
+   "posInfo": "Centre Central Defender"
   },
   {
    "id": "386199",
@@ -127,7 +232,14 @@
    "jersey": "66",
    "pos": "D",
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p564509.png",
-   "injuries": []
+   "injuries": [],
+   "dob": "2006-12-08",
+   "nat": "England",
+   "natCode": "GB-ENG",
+   "height": null,
+   "joined": "2025-04-09",
+   "birthPlace": null,
+   "posInfo": "Right Full Back"
   },
   {
    "id": "124091",
@@ -135,7 +247,14 @@
    "jersey": "8",
    "pos": "M",
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p141746.png",
-   "injuries": []
+   "injuries": [],
+   "dob": "1994-09-08",
+   "nat": "Portugal",
+   "natCode": "PT",
+   "height": 183,
+   "joined": "2020-01-30",
+   "birthPlace": "Maia",
+   "posInfo": "Left/Centre/Right Attacking Midfielder"
   },
   {
    "id": "193297",
@@ -143,7 +262,14 @@
    "jersey": "18",
    "pos": "M",
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p166989.png",
-   "injuries": []
+   "injuries": [],
+   "dob": "1997-05-07",
+   "nat": "Belgium",
+   "natCode": "BE",
+   "height": 176,
+   "joined": "2026-07-14",
+   "birthPlace": "Sint-Pieters-Leeuw",
+   "posInfo": "Central Midfielder"
   },
   {
    "id": "205081",
@@ -151,7 +277,14 @@
    "jersey": "38",
    "pos": "M",
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p547037.png",
-   "injuries": []
+   "injuries": [],
+   "dob": "2007-03-19",
+   "nat": "England",
+   "natCode": "GB-ENG",
+   "height": 180,
+   "joined": "2024-08-19",
+   "birthPlace": "Manchester",
+   "posInfo": "Centre/Right Attacking Midfielder"
   },
   {
    "id": "231167",
@@ -159,7 +292,14 @@
    "jersey": "7",
    "pos": "M",
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p184341.png",
-   "injuries": []
+   "injuries": [],
+   "dob": "1999-01-10",
+   "nat": "England",
+   "natCode": "GB-ENG",
+   "height": 181,
+   "joined": "2023-07-05",
+   "birthPlace": "Portsmouth",
+   "posInfo": "Centre Attacking Midfielder"
   },
   {
    "id": "241468",
@@ -167,7 +307,14 @@
    "jersey": "25",
    "pos": "M",
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p232112.png",
-   "injuries": []
+   "injuries": [],
+   "dob": "2001-04-11",
+   "nat": "Uruguay",
+   "natCode": "UY",
+   "height": 182,
+   "joined": "2024-08-30",
+   "birthPlace": "Montevideo",
+   "posInfo": "Centre Defensive Midfielder"
   },
   {
    "id": "314858",
@@ -175,7 +322,14 @@
    "jersey": "17",
    "pos": "M",
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p532605.png",
-   "injuries": []
+   "injuries": [],
+   "dob": "2004-05-03",
+   "nat": "Brazil",
+   "natCode": "BR",
+   "height": 180,
+   "joined": "2026-07-13",
+   "birthPlace": "Rio de Janeiro",
+   "posInfo": "Defensive Midfielder"
   },
   {
    "id": "328466",
@@ -183,7 +337,14 @@
    "jersey": "37",
    "pos": "M",
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p516895.png",
-   "injuries": []
+   "injuries": [],
+   "dob": "2005-04-19",
+   "nat": "England",
+   "natCode": "GB-ENG",
+   "height": 184,
+   "joined": "2022-10-15",
+   "birthPlace": "Stockport",
+   "posInfo": "Centre Central Midfielder"
   },
   {
    "id": "338814",
@@ -191,7 +352,14 @@
    "jersey": "20",
    "pos": "M",
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p535301.png",
-   "injuries": []
+   "injuries": [],
+   "dob": "2004-01-03",
+   "nat": "Cameroon",
+   "natCode": "CM",
+   "height": 179,
+   "joined": "2026-08-25",
+   "birthPlace": "Douala",
+   "posInfo": "Centre Defensive Midfielder"
   },
   {
    "id": "393138",
@@ -199,7 +367,14 @@
    "jersey": "39",
    "pos": "M",
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p519913.png",
-   "injuries": []
+   "injuries": [],
+   "dob": "2007-03-19",
+   "nat": "Scotland",
+   "natCode": "GB-SCT",
+   "height": 183,
+   "joined": "2024-09-30",
+   "birthPlace": "Manchester",
+   "posInfo": "Centre Central Midfielder"
   },
   {
    "id": "230945",
@@ -207,7 +382,14 @@
    "jersey": "9",
    "pos": "F",
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p176297.png",
-   "injuries": []
+   "injuries": [],
+   "dob": "1997-10-31",
+   "nat": "England",
+   "natCode": "GB-ENG",
+   "height": 188,
+   "joined": "2015-07-01",
+   "birthPlace": "Manchester",
+   "posInfo": "Left/Centre Second Striker"
   },
   {
    "id": "259902",
@@ -215,7 +397,14 @@
    "jersey": "10",
    "pos": "F",
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p430871.png",
-   "injuries": []
+   "injuries": [],
+   "dob": "1999-05-27",
+   "nat": "Brazil",
+   "natCode": "BR",
+   "height": 183,
+   "joined": "2025-06-01",
+   "birthPlace": "João Pessoa",
+   "posInfo": "Left/Centre Second Striker"
   },
   {
    "id": "271170",
@@ -223,7 +412,14 @@
    "jersey": "19",
    "pos": "F",
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p446008.png",
-   "injuries": []
+   "injuries": [],
+   "dob": "1999-08-07",
+   "nat": "Cameroon",
+   "natCode": "CM",
+   "height": 171,
+   "joined": "2025-07-21",
+   "birthPlace": "Avallon",
+   "posInfo": "Right Winger"
   },
   {
    "id": "276327",
@@ -231,7 +427,14 @@
    "jersey": "11",
    "pos": "F",
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p458249.png",
-   "injuries": []
+   "injuries": [],
+   "dob": "2001-05-22",
+   "nat": "Netherlands",
+   "natCode": "NL",
+   "height": 193,
+   "joined": "2024-07-17",
+   "birthPlace": "Schiedam",
+   "posInfo": "Centre Striker"
   },
   {
    "id": "289155",
@@ -239,7 +442,14 @@
    "jersey": "30",
    "pos": "F",
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p485711.png",
-   "injuries": []
+   "injuries": [],
+   "dob": "2003-05-31",
+   "nat": "Slovenia",
+   "natCode": "SI",
+   "height": 195,
+   "joined": "2025-08-09",
+   "birthPlace": "Radece",
+   "posInfo": "Striker"
   },
   {
    "id": "291630",
@@ -247,7 +457,14 @@
    "jersey": "16",
    "pos": "F",
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p493250.png",
-   "injuries": []
+   "injuries": [],
+   "dob": "2002-07-11",
+   "nat": "Cote D’Ivoire",
+   "natCode": "CI",
+   "height": 173,
+   "joined": "2021-01-07",
+   "birthPlace": "Abidjan",
+   "posInfo": "Right Winger"
   },
   {
    "id": "358180",
@@ -255,7 +472,14 @@
    "jersey": "31",
    "pos": "F",
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p576628.png",
-   "injuries": []
+   "injuries": [],
+   "dob": "2007-04-14",
+   "nat": "England",
+   "natCode": "GB-ENG",
+   "height": 167,
+   "joined": "2023-01-23",
+   "birthPlace": "Liverpool",
+   "posInfo": "Right Winger"
   },
   {
    "id": "397881",
@@ -263,7 +487,14 @@
    "jersey": null,
    "pos": "F",
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p671875.png",
-   "injuries": []
+   "injuries": [],
+   "dob": "2009-09-06",
+   "nat": "England",
+   "natCode": "GB-ENG",
+   "height": null,
+   "joined": "2026-09-18",
+   "birthPlace": null,
+   "posInfo": "Right Winger"
   }
  ]
 }

@@ -29,6 +29,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install dependencies (face crop)
+        run: pip install -q -r requirements.txt
+
       - name: Fetch lineups / fixtures / photos
         run: python scripts/update.py
         continue-on-error: true   # 取得に失敗しても前回のデータでサイトは公開し続ける

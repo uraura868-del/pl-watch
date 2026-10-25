@@ -6,6 +6,7 @@
 - 表示: `index.html`（PC・スマホ両対応、GitHub Pages で公開）
 - データ更新: `scripts/update.py`（GitHub Actions が1時間ごとに自動実行）
 - データ元: ESPN（日程・スタメン・スタッツ）、Transfermarkt（選手写真・負傷情報）、プレミアリーグ公式（プロフィール・写真の予備）、Wikidata（経歴）、YouTube（動画）
+- 選手写真は OpenCV の顔検出で顔を中心に正方形に切り出し、`data/photos/` に保存して表示します（`requirements.txt` のライブラリが必要。無い環境では元の写真URLをそのまま使います）
 
 ---
 

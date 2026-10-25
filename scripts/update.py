@@ -14,6 +14,7 @@ ESPN の非公式 API から 日程 / スタメン / フォーメーション / 
 """
 from __future__ import annotations
 
+import hashlib
 import html
 import json
 import os
@@ -703,6 +704,129 @@ def write_ics(tdir: Path, team: dict, fixtures: list[dict]) -> None:
     (tdir / "fixtures.ics").write_text("\r\n".join(lines) + "\r\n", encoding="utf-8")
 
 
+# ---------------------------------------------------------------- 顔写真の切り出し (OpenCV)
+PHOTO_DIR = DATA / "photos"
+PHOTO_INDEX = PHOTO_DIR / "index.json"
+PHOTO_SIZE = 256
+PHOTO_MAX_NEW_PER_RUN = 400
+BG_BGR = (73, 48, 36)  # 丸枠の地色 #243049 (B,G,R)
+_photo_index: dict = {}
+_photo_new = 0
+try:
+    import cv2  # type: ignore
+    import numpy as np  # type: ignore
+    _FACE = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
+    _CV_OK = not _FACE.empty()
+except Exception:  # noqa: BLE001
+    _CV_OK = False
+
+
+def photo_index_load() -> None:
+    global _photo_index
+    _photo_index = {}
+    if PHOTO_INDEX.exists():
+        try:
+            _photo_index = json.loads(PHOTO_INDEX.read_text(encoding="utf-8")).get("photos", {})
+        except Exception:  # noqa: BLE001
+            _photo_index = {}
+
+
+def photo_index_save() -> None:
+    if _photo_index:
+        write_json(PHOTO_INDEX, {"updatedAt": iso(NOW), "size": PHOTO_SIZE, "photos": _photo_index})
+
+
+def _fetch_bytes(url: str) -> bytes | None:
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "image/*,*/*;q=0.8"})
+        with urllib.request.urlopen(req, timeout=30) as r:
+            return r.read()
+    except Exception as e:  # noqa: BLE001
+        log(f"  photo 取得失敗: {e} ({url[-40:]})")
+        return None
+
+
+def _decode_on_bg(data: bytes):
+    """透過PNGは丸枠の地色に合成してから使う"""
+    arr = np.frombuffer(data, dtype=np.uint8)
+    img = cv2.imdecode(arr, cv2.IMREAD_UNCHANGED)
+    if img is None:
+        return None
+    if img.ndim == 2:
+        img = cv2.cvtColor(img, cv2.COLOR_GRAY2BGR)
+    elif img.shape[2] == 4:
+        alpha = img[:, :, 3:4].astype(np.float32) / 255.0
+        bg = np.full(img.shape[:2] + (3,), BG_BGR, dtype=np.float32)
+        img = (img[:, :, :3].astype(np.float32) * alpha + bg * (1 - alpha)).astype(np.uint8)
+    return img
+
+
+def _square_crop(img, cx: float, cy: float, side: float):
+    """中心 (cx,cy)・一辺 side の正方形を切り出す。はみ出す分は端の画素を引き伸ばして埋める（背景が自然につながる）"""
+    h, w = img.shape[:2]
+    side = int(round(side))
+    pad = side  # 余裕を持って端を伸ばしておく
+    padded = cv2.copyMakeBorder(img, pad, pad, pad, pad, cv2.BORDER_REPLICATE)
+    x0 = int(round(cx - side / 2)) + pad
+    y0 = int(round(cy - side / 2)) + pad
+    return padded[y0:y0 + side, x0:x0 + side]
+
+
+def crop_face_photo(url: str) -> str | None:
+    """写真URL → 顔を中心に切り出した正方形画像（data/photos/*.jpg）の相対パス。失敗なら None"""
+    global _photo_new
+    if not url or not _CV_OK:
+        return None
+    key = hashlib.sha1(url.split("?")[0].encode("utf-8")).hexdigest()[:16]
+    entry = _photo_index.get(url)
+    if entry and (PHOTO_DIR / entry["file"]).exists():
+        return f"data/photos/{entry['file']}"
+    if _photo_new >= PHOTO_MAX_NEW_PER_RUN:
+        return None
+    _photo_new += 1
+    data = _fetch_bytes(url)
+    time.sleep(0.15)
+    if not data:
+        return None
+    try:
+        img = _decode_on_bg(data)
+        if img is None:
+            return None
+        h, w = img.shape[:2]
+        gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+        faces = _FACE.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=4, minSize=(max(16, w // 8), max(16, h // 8)))
+        if len(faces):
+            x, y, fw, fh = max(faces, key=lambda f: f[2] * f[3])
+            # 顔の少し上（髪）まで入るように中心を上げ、顔の約2倍を一辺にする
+            cx, cy = x + fw / 2, y + fh / 2 - fh * 0.08
+            side = max(fw, fh) * 2.0
+            face_ok = True
+        else:
+            side = min(w, h)
+            cx, cy = w / 2, min(h / 2, side / 2 + h * 0.05)
+            face_ok = False
+        crop = _square_crop(img, cx, cy, side)
+        out = cv2.resize(crop, (PHOTO_SIZE, PHOTO_SIZE), interpolation=cv2.INTER_AREA)
+        PHOTO_DIR.mkdir(parents=True, exist_ok=True)
+        fname = f"{key}.jpg"
+        ok, buf = cv2.imencode(".jpg", out, [int(cv2.IMWRITE_JPEG_QUALITY), 86])
+        if not ok:
+            return None
+        (PHOTO_DIR / fname).write_bytes(buf.tobytes())
+        _photo_index[url] = {"file": fname, "face": face_ok, "src": url, "fetchedAt": iso(NOW)}
+        return f"data/photos/{fname}"
+    except Exception as e:  # noqa: BLE001
+        log(f"  photo 切り出し失敗: {e!r}")
+        return None
+
+
+def face_photo_or(url: str | None) -> str | None:
+    """切り出し画像があればその相対パス、なければ元のURL"""
+    if not url:
+        return None
+    return crop_face_photo(url) or url
+
+
 # ---------------------------------------------------------------- 配置 (フォーメーション図)
 def pos_depth(abbr: str | None) -> float:
     a = (abbr or "").upper()
@@ -1098,7 +1222,9 @@ def build_team(team: dict, photo_index: dict[str, dict]) -> None:
         bio = bio_of(q) if q else {}
         espn_photo = p.get("photo")
         p.update(bio)
-        p["photo"] = tm_photo_for(p["name"], own_tm) or bio.get("photo") or espn_photo
+        src = tm_photo_for(p["name"], own_tm) or bio.get("photo") or espn_photo
+        p["photoSrc"] = src
+        p["photo"] = face_photo_or(src)  # 顔中心に切り出した画像（data/photos/）。できなければ元URL
     write_json(tdir / "roster.json", {"updatedAt": iso(NOW), "players": roster})
     log(f"  roster: {len(roster)} 人（写真あり {sum(1 for p in roster if p['photo'])} 人、"
         f"プロフィールあり {sum(1 for p in roster if p.get('dob'))} 人）")
@@ -1297,9 +1423,11 @@ def refresh_match_photos(mdir: Path, fixtures: list[dict], roster_by_id: dict, p
         if opp.get("starters"):
             tm = tm_club_photos(opp.get("name") or f["opponent"]["name"])
             for p in (opp.get("starters") or []) + (opp.get("bench") or []):
-                photo = tm_photo_for(p.get("name") or "", tm) or find_photo(p.get("name") or "", photo_index) or p.get("photo")
-                if photo:
-                    p["photo"] = photo
+                src = tm_photo_for(p.get("name") or "", tm) or find_photo(p.get("name") or "", photo_index) or p.get("photoSrc") or (
+                    p.get("photo") if (p.get("photo") or "").startswith("http") else None)
+                if src:
+                    p["photoSrc"] = src
+                    p["photo"] = face_photo_or(src)
         if json.dumps(m, ensure_ascii=False, sort_keys=True) != before:
             write_json(mp, m)
             changed += 1
@@ -1339,6 +1467,8 @@ def main() -> int:
     cfg = json.loads((ROOT / "teams.json").read_text(encoding="utf-8"))
     teams = cfg.get("teams", [])
     tm_cache_load()
+    photo_index_load()
+    log(f"顔切り出し: {'有効' if _CV_OK else '無効（OpenCV なし。元の写真URLを使用）'}")
     log("PL公式から全チームの選手インデックスを作成中...")
     photo_index = pl_all_teams_index()
     log(f"  選手 {len(photo_index)} 件")
@@ -1363,8 +1493,10 @@ def main() -> int:
         log(f"!! 相手チーム選手の更新に失敗: {e!r}")
     try:
         tm_cache_save()
+        photo_index_save()
+        log(f"顔写真: 切り出し済み {len(_photo_index)} 枚（今回 {_photo_new} 枚）")
     except Exception as e:  # noqa: BLE001
-        log(f"!! tm-photos の保存に失敗: {e!r}")
+        log(f"!! tm-photos / photos の保存に失敗: {e!r}")
     write_json(DATA / "meta.json", {"updatedAt": iso(NOW), "teams": [t["id"] for t in teams]})
     log("done")
     return 0 if ok else 1

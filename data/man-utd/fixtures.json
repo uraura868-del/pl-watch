@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-25T13:54:24Z",
+ "updatedAt": "2026-10-25T14:08:31Z",
  "fixtures": [
   {
    "eventId": "401879322",
@@ -234,7 +234,7 @@
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png"
    },
    "venue": "Old Trafford",
-   "status": "scheduled",
+   "status": "played",
    "league": "eng.1",
    "compShort": "PL",
    "hasStats": false,

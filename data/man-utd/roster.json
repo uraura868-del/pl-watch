@@ -1,12 +1,12 @@
 {
- "updatedAt": "2026-10-25T13:54:24Z",
+ "updatedAt": "2026-10-25T14:08:31Z",
  "players": [
   {
    "id": "42250",
    "name": "Tom Heaton",
    "jersey": "22",
    "pos": "G",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/34130-1688121718.jpg?lm=4711",
+   "photo": "data/photos/86c3c29f57233bad.jpg",
    "injuries": [],
    "dob": "1986-04-15",
    "nat": "England",
@@ -14,14 +14,15 @@
    "height": 188,
    "joined": "2021-07-02",
    "birthPlace": "Chester",
-   "posInfo": "Goalkeeper"
+   "posInfo": "Goalkeeper",
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/34130-1688121718.jpg?lm=4711"
   },
   {
    "id": "130877",
    "name": "Karl Darlow",
    "jersey": "12",
    "pos": "G",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/99397-1724939153.jpg?lm=4711",
+   "photo": "data/photos/df44fd6f8e7018ef.jpg",
    "injuries": [],
    "dob": "1990-10-08",
    "nat": "Wales",
@@ -29,14 +30,15 @@
    "height": 190,
    "joined": "2026-06-14",
    "birthPlace": "Northampton",
-   "posInfo": "Goalkeeper"
+   "posInfo": "Goalkeeper",
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/99397-1724939153.jpg?lm=4711"
   },
   {
    "id": "301425",
    "name": "Senne Lammens",
    "jersey": "1",
    "pos": "G",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/503883-1755675220.jpg?lm=4711",
+   "photo": "data/photos/a5cf6c37da830fd6.jpg",
    "injuries": [],
    "dob": "2002-07-07",
    "nat": "Belgium",
@@ -44,14 +46,15 @@
    "height": 193,
    "joined": "2025-09-01",
    "birthPlace": "Zottegem",
-   "posInfo": "Goalkeeper"
+   "posInfo": "Goalkeeper",
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/503883-1755675220.jpg?lm=4711"
   },
   {
    "id": "325550",
    "name": "Dermot Mee",
    "jersey": "45",
    "pos": "G",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/620362-1746691943.jpg?lm=4711",
+   "photo": "data/photos/b7d2a1dfe67971ff.jpg",
    "injuries": [],
    "dob": "2002-11-20",
    "nat": "Northern Ireland",
@@ -59,14 +62,15 @@
    "height": 183,
    "joined": "2023-07-24",
    "birthPlace": "Birmingham",
-   "posInfo": "Goalkeeper"
+   "posInfo": "Goalkeeper",
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/620362-1746691943.jpg?lm=4711"
   },
   {
    "id": "157073",
    "name": "Harry Maguire",
    "jersey": "5",
    "pos": "D",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/177907-1663841733.jpg?lm=4711",
+   "photo": "data/photos/821c38fcb617ea5e.jpg",
    "injuries": [],
    "dob": "1993-03-05",
    "nat": "England",
@@ -74,14 +78,15 @@
    "height": 194,
    "joined": "2019-08-05",
    "birthPlace": "Sheffield",
-   "posInfo": "Centre Central Defender"
+   "posInfo": "Centre Central Defender",
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/177907-1663841733.jpg?lm=4711"
   },
   {
    "id": "167127",
    "name": "Luke Shaw",
    "jersey": "23",
    "pos": "M",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/183288-1668500175.jpg?lm=4711",
+   "photo": "data/photos/ebdab4a1f36a5d41.jpg",
    "injuries": [],
    "dob": "1995-07-12",
    "nat": "England",
@@ -89,14 +94,15 @@
    "height": 178,
    "joined": "2014-07-01",
    "birthPlace": "Kingston upon Thames",
-   "posInfo": "Left Full Back"
+   "posInfo": "Left Full Back",
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/183288-1668500175.jpg?lm=4711"
   },
   {
    "id": "233937",
    "name": "Lisandro Martínez",
    "jersey": "6",
    "pos": "D",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/480762-1680681507.jpg?lm=4711",
+   "photo": "data/photos/3c4e720481cf7e99.jpg",
    "injuries": [],
    "dob": "1998-01-18",
    "nat": "Argentina",
@@ -104,14 +110,15 @@
    "height": 175,
    "joined": "2022-07-17",
    "birthPlace": "Gualeguay",
-   "posInfo": "Central Defender"
+   "posInfo": "Central Defender",
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/480762-1680681507.jpg?lm=4711"
   },
   {
    "id": "238902",
    "name": "Diogo Dalot",
    "jersey": "2",
    "pos": "D",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/357147-1727785546.jpg?lm=4711",
+   "photo": "data/photos/84cd4e0265929f11.jpg",
    "injuries": [],
    "dob": "1999-03-18",
    "nat": "Portugal",
@@ -119,14 +126,15 @@
    "height": 184,
    "joined": "2018-06-08",
    "birthPlace": "Braga",
-   "posInfo": "Right Full Back"
+   "posInfo": "Right Full Back",
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/357147-1727785546.jpg?lm=4711"
   },
   {
    "id": "239349",
    "name": "Matthijs de Ligt",
    "jersey": "4",
    "pos": "D",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/326031-1700659567.jpg?lm=4711",
+   "photo": "data/photos/02324775d644112c.jpg",
    "injuries": [],
    "dob": "1999-08-12",
    "nat": "Netherlands",
@@ -134,14 +142,15 @@
    "height": 187,
    "joined": "2024-08-13",
    "birthPlace": "Leiderdorp",
-   "posInfo": "Centre Central Defender"
+   "posInfo": "Centre Central Defender",
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/326031-1700659567.jpg?lm=4711"
   },
   {
    "id": "239350",
    "name": "Noussair Mazraoui",
    "jersey": "3",
    "pos": "D",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/340456-1783200177.jpg?lm=4711",
+   "photo": "data/photos/f30dae5563f6e165.jpg",
    "injuries": [],
    "dob": "1997-11-14",
    "nat": "Morocco",
@@ -149,14 +158,15 @@
    "height": 183,
    "joined": "2024-08-13",
    "birthPlace": "Leiderdorp",
-   "posInfo": "Right Full Back"
+   "posInfo": "Right Full Back",
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/340456-1783200177.jpg?lm=4711"
   },
   {
    "id": "340206",
    "name": "Leny Yoro",
    "jersey": "15",
    "pos": "D",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/923831-1747857948.jpg?lm=4711",
+   "photo": "data/photos/9548e4459494e54f.jpg",
    "injuries": [],
    "dob": "2005-11-13",
    "nat": "France",
@@ -164,14 +174,15 @@
    "height": 190,
    "joined": "2024-07-19",
    "birthPlace": "Saint-Maurice",
-   "posInfo": "Centre Central Defender"
+   "posInfo": "Centre Central Defender",
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/923831-1747857948.jpg?lm=4711"
   },
   {
    "id": "356044",
    "name": "Ayden Heaven",
    "jersey": "26",
    "pos": "D",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/1078163-1727382016.jpg?lm=4711",
+   "photo": "data/photos/0b850e749ffda886.jpg",
    "injuries": [],
    "dob": "2006-09-22",
    "nat": "England",
@@ -179,14 +190,15 @@
    "height": 189,
    "joined": "2025-02-01",
    "birthPlace": "London",
-   "posInfo": "Left Full Back"
+   "posInfo": "Left Full Back",
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/1078163-1727382016.jpg?lm=4711"
   },
   {
    "id": "356940",
    "name": "Harry Amass",
    "jersey": "41",
    "pos": "D",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/1011738-1712585934.jpg?lm=4711",
+   "photo": "data/photos/68240ad98c8d2fdd.jpg",
    "injuries": [],
    "dob": "2007-03-16",
    "nat": "England",
@@ -194,14 +206,15 @@
    "height": 181,
    "joined": "2024-02-18",
    "birthPlace": "London",
-   "posInfo": "Left Full Back"
+   "posInfo": "Left Full Back",
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/1011738-1712585934.jpg?lm=4711"
   },
   {
    "id": "366781",
    "name": "Patrick Dorgu",
    "jersey": "13",
    "pos": "D",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/926952-1747857569.jpg?lm=4711",
+   "photo": "data/photos/d9ea83712ff1a251.jpg",
    "injuries": [],
    "dob": "2004-10-26",
    "nat": "Denmark",
@@ -209,7 +222,8 @@
    "height": 185,
    "joined": "2025-02-02",
    "birthPlace": "København",
-   "posInfo": "Left Full Back"
+   "posInfo": "Left Full Back",
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/926952-1747857569.jpg?lm=4711"
   },
   {
    "id": "381055",
@@ -224,7 +238,8 @@
    "height": null,
    "joined": "2025-05-26",
    "birthPlace": null,
-   "posInfo": "Centre Central Defender"
+   "posInfo": "Centre Central Defender",
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p576622.png"
   },
   {
    "id": "386199",
@@ -239,14 +254,15 @@
    "height": null,
    "joined": "2025-04-09",
    "birthPlace": null,
-   "posInfo": "Right Full Back"
+   "posInfo": "Right Full Back",
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p564509.png"
   },
   {
    "id": "124091",
    "name": "Bruno Fernandes",
    "jersey": "8",
    "pos": "M",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/240306-1683882766.jpg?lm=4711",
+   "photo": "data/photos/fefac211094c41b8.jpg",
    "injuries": [],
    "dob": "1994-09-08",
    "nat": "Portugal",
@@ -254,14 +270,15 @@
    "height": 183,
    "joined": "2020-01-30",
    "birthPlace": "Maia",
-   "posInfo": "Left/Centre/Right Attacking Midfielder"
+   "posInfo": "Left/Centre/Right Attacking Midfielder",
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/240306-1683882766.jpg?lm=4711"
   },
   {
    "id": "193297",
    "name": "Youri Tielemans",
    "jersey": "18",
    "pos": "M",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/249565-1716886438.jpg?lm=4711",
+   "photo": "data/photos/f905721c9686c1fd.jpg",
    "injuries": [],
    "dob": "1997-05-07",
    "nat": "Belgium",
@@ -269,14 +286,15 @@
    "height": 176,
    "joined": "2026-07-14",
    "birthPlace": "Sint-Pieters-Leeuw",
-   "posInfo": "Central Midfielder"
+   "posInfo": "Central Midfielder",
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/249565-1716886438.jpg?lm=4711"
   },
   {
    "id": "205081",
    "name": "Jack Fletcher",
    "jersey": "38",
    "pos": "M",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/1049911-1782339780.jpg?lm=4711",
+   "photo": "data/photos/744e1effcdd20800.jpg",
    "injuries": [],
    "dob": "2007-03-19",
    "nat": "England",
@@ -284,14 +302,15 @@
    "height": 180,
    "joined": "2024-08-19",
    "birthPlace": "Manchester",
-   "posInfo": "Centre/Right Attacking Midfielder"
+   "posInfo": "Centre/Right Attacking Midfielder",
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/1049911-1782339780.jpg?lm=4711"
   },
   {
    "id": "231167",
    "name": "Mason Mount",
    "jersey": "7",
    "pos": "M",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/346483-1683291495.jpg?lm=4711",
+   "photo": "data/photos/9db1e832d3d73b79.jpg",
    "injuries": [],
    "dob": "1999-01-10",
    "nat": "England",
@@ -299,14 +318,15 @@
    "height": 181,
    "joined": "2023-07-05",
    "birthPlace": "Portsmouth",
-   "posInfo": "Centre Attacking Midfielder"
+   "posInfo": "Centre Attacking Midfielder",
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/346483-1683291495.jpg?lm=4711"
   },
   {
    "id": "241468",
    "name": "Manuel Ugarte",
    "jersey": "25",
    "pos": "M",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/476701-1715107512.jpg?lm=4711",
+   "photo": "data/photos/c929738767c7243e.jpg",
    "injuries": [],
    "dob": "2001-04-11",
    "nat": "Uruguay",
@@ -314,14 +334,15 @@
    "height": 182,
    "joined": "2024-08-30",
    "birthPlace": "Montevideo",
-   "posInfo": "Centre Defensive Midfielder"
+   "posInfo": "Centre Defensive Midfielder",
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/476701-1715107512.jpg?lm=4711"
   },
   {
    "id": "314858",
    "name": "Andrey Santos",
    "jersey": "17",
    "pos": "M",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/743600-1788427034.jpg?lm=4711",
+   "photo": "data/photos/a0d5b64e7cd70796.jpg",
    "injuries": [],
    "dob": "2004-05-03",
    "nat": "Brazil",
@@ -329,14 +350,15 @@
    "height": 180,
    "joined": "2026-07-13",
    "birthPlace": "Rio de Janeiro",
-   "posInfo": "Defensive Midfielder"
+   "posInfo": "Defensive Midfielder",
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/743600-1788427034.jpg?lm=4711"
   },
   {
    "id": "328466",
    "name": "Kobbie Mainoo",
    "jersey": "37",
    "pos": "M",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/820374-1719349758.jpg?lm=4711",
+   "photo": "data/photos/ce0e2f36b26d65f5.jpg",
    "injuries": [],
    "dob": "2005-04-19",
    "nat": "England",
@@ -344,14 +366,15 @@
    "height": 184,
    "joined": "2022-10-15",
    "birthPlace": "Stockport",
-   "posInfo": "Centre Central Midfielder"
+   "posInfo": "Centre Central Midfielder",
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/820374-1719349758.jpg?lm=4711"
   },
   {
    "id": "338814",
    "name": "Carlos Baleba",
    "jersey": "20",
    "pos": "M",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/973085-1666690662.jpg?lm=4711",
+   "photo": "data/photos/05b3d1f5b9b423cd.jpg",
    "injuries": [],
    "dob": "2004-01-03",
    "nat": "Cameroon",
@@ -359,14 +382,15 @@
    "height": 179,
    "joined": "2026-08-25",
    "birthPlace": "Douala",
-   "posInfo": "Centre Defensive Midfielder"
+   "posInfo": "Centre Defensive Midfielder",
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/973085-1666690662.jpg?lm=4711"
   },
   {
    "id": "393138",
    "name": "Tyler Fletcher",
    "jersey": "39",
    "pos": "M",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/1049911-1782339780.jpg?lm=4711",
+   "photo": "data/photos/744e1effcdd20800.jpg",
    "injuries": [],
    "dob": "2007-03-19",
    "nat": "Scotland",
@@ -374,14 +398,15 @@
    "height": 183,
    "joined": "2024-09-30",
    "birthPlace": "Manchester",
-   "posInfo": "Centre Central Midfielder"
+   "posInfo": "Centre Central Midfielder",
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/1049911-1782339780.jpg?lm=4711"
   },
   {
    "id": "230945",
    "name": "Marcus Rashford",
    "jersey": "9",
    "pos": "F",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/258923-1674473054.jpg?lm=4711",
+   "photo": "data/photos/ffccfc8cec95fa70.jpg",
    "injuries": [],
    "dob": "1997-10-31",
    "nat": "England",
@@ -389,14 +414,15 @@
    "height": 188,
    "joined": "2015-07-01",
    "birthPlace": "Manchester",
-   "posInfo": "Left/Centre Second Striker"
+   "posInfo": "Left/Centre Second Striker",
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/258923-1674473054.jpg?lm=4711"
   },
   {
    "id": "259902",
    "name": "Matheus Cunha",
    "jersey": "10",
    "pos": "F",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/517894-1780390711.jpg?lm=4711",
+   "photo": "data/photos/57d79f238fea0cf4.jpg",
    "injuries": [],
    "dob": "1999-05-27",
    "nat": "Brazil",
@@ -404,14 +430,15 @@
    "height": 183,
    "joined": "2025-06-01",
    "birthPlace": "João Pessoa",
-   "posInfo": "Left/Centre Second Striker"
+   "posInfo": "Left/Centre Second Striker",
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/517894-1780390711.jpg?lm=4711"
   },
   {
    "id": "271170",
    "name": "Bryan Mbeumo",
    "jersey": "19",
    "pos": "F",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/413039-1769532496.jpg?lm=4711",
+   "photo": "data/photos/aebc2fe956f23b66.jpg",
    "injuries": [],
    "dob": "1999-08-07",
    "nat": "Cameroon",
@@ -419,14 +446,15 @@
    "height": 171,
    "joined": "2025-07-21",
    "birthPlace": "Avallon",
-   "posInfo": "Right Winger"
+   "posInfo": "Right Winger",
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/413039-1769532496.jpg?lm=4711"
   },
   {
    "id": "276327",
    "name": "Joshua Zirkzee",
    "jersey": "11",
    "pos": "F",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/435648-1775738266.jpg?lm=4711",
+   "photo": "data/photos/0497eef0753fd89e.jpg",
    "injuries": [],
    "dob": "2001-05-22",
    "nat": "Netherlands",
@@ -434,14 +462,15 @@
    "height": 193,
    "joined": "2024-07-17",
    "birthPlace": "Schiedam",
-   "posInfo": "Centre Striker"
+   "posInfo": "Centre Striker",
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/435648-1775738266.jpg?lm=4711"
   },
   {
    "id": "289155",
    "name": "Benjamin Sesko",
    "jersey": "30",
    "pos": "F",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/627442-1779803478.jpg?lm=4711",
+   "photo": "data/photos/eaa32a8822354536.jpg",
    "injuries": [],
    "dob": "2003-05-31",
    "nat": "Slovenia",
@@ -449,14 +478,15 @@
    "height": 195,
    "joined": "2025-08-09",
    "birthPlace": "Radece",
-   "posInfo": "Striker"
+   "posInfo": "Striker",
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/627442-1779803478.jpg?lm=4711"
   },
   {
    "id": "291630",
    "name": "Amad Diallo",
    "jersey": "16",
    "pos": "F",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/536835-1747857754.jpg?lm=4711",
+   "photo": "data/photos/f1babbd4abe1d8d7.jpg",
    "injuries": [],
    "dob": "2002-07-11",
    "nat": "Cote D’Ivoire",
@@ -464,14 +494,15 @@
    "height": 173,
    "joined": "2021-01-07",
    "birthPlace": "Abidjan",
-   "posInfo": "Right Winger"
+   "posInfo": "Right Winger",
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/536835-1747857754.jpg?lm=4711"
   },
   {
    "id": "358180",
    "name": "Shea Lacey",
    "jersey": "31",
    "pos": "F",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/926309-1767956214.jpg?lm=4711",
+   "photo": "data/photos/200dd094476a544e.jpg",
    "injuries": [],
    "dob": "2007-04-14",
    "nat": "England",
@@ -479,7 +510,8 @@
    "height": 167,
    "joined": "2023-01-23",
    "birthPlace": "Liverpool",
-   "posInfo": "Right Winger"
+   "posInfo": "Right Winger",
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/926309-1767956214.jpg?lm=4711"
   },
   {
    "id": "397881",
@@ -494,7 +526,8 @@
    "height": null,
    "joined": "2026-09-18",
    "birthPlace": null,
-   "posInfo": "Right Winger"
+   "posInfo": "Right Winger",
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p671875.png"
   }
  ]
 }

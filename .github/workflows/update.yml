@@ -45,7 +45,11 @@ jobs:
             echo "no data changes"
           else
             git commit -m "data: auto update $(date -u +%Y-%m-%dT%H:%MZ)"
-            git push
+            # 手動 push と重なっても取得結果を失わないよう、取り込んでから push（衝突時は取得したての data を優先）
+            for i in 1 2 3; do
+              git pull --rebase -X theirs origin main && git push && break
+              echo "push retry $i"; sleep 10
+            done
           fi
 
       # 事前に Settings → Pages → Source を "GitHub Actions" にしておくこと

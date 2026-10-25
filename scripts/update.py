@@ -739,7 +739,8 @@ def update_videos(path: Path, roster: list[dict]) -> None:
             cache = {}
     if not YT_KEY:
         log("  videos: YOUTUBE_API_KEY が未設定のためスキップ（YouTube 検索リンクのみ表示されます）")
-        write_json(path, {"updatedAt": iso(NOW), "enabled": False, "players": cache})
+        # キーの無い環境（ローカル）で走っても、GitHub 側で取得済みのキャッシュは消さない
+        write_json(path, {"updatedAt": iso(NOW), "enabled": bool(cache), "players": cache})
         return
     fetched = 0
     for p in roster:

@@ -467,18 +467,126 @@ def reason_ja(s: str) -> str:
     return s or ""
 
 
-def tm_injuries(slug: str, tm_id: int) -> list[dict] | None:
-    """Transfermarkt の「負傷者・出場停止」ページを読む。取得できなければ None"""
-    url = f"https://www.transfermarkt.com/{slug}/sperrenundverletzungen/verein/{tm_id}"
+def tm_fetch(url: str) -> str | None:
+    """Transfermarkt のページを取る（空白をまとめた HTML）。失敗なら None"""
     try:
         req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "en-GB,en;q=0.9",
                                                    "Accept": "text/html,application/xhtml+xml,*/*;q=0.8"})
         with urllib.request.urlopen(req, timeout=30) as r:
-            page = r.read().decode("utf-8", "ignore")
+            return re.sub(r"\s+", " ", r.read().decode("utf-8", "ignore"))
     except Exception as e:  # noqa: BLE001
-        log(f"  transfermarkt 取得失敗: {e}")
+        log(f"  transfermarkt 取得失敗: {e} ({url[:60]})")
         return None
-    h = re.sub(r"\s+", " ", page)
+
+
+# ---------------------------------------------------------------- 選手写真 (Transfermarkt)
+TM_PHOTOS = DATA / "tm-photos.json"
+TM_PHOTO_TTL_DAYS = 7
+TM_MAX_NEW_CLUBS_PER_RUN = 6  # 1回の更新で新しく読みに行くクラブ数の上限（負荷を抑える）
+_tm_cache: dict = {}
+
+
+def tm_cache_load() -> None:
+    global _tm_cache
+    _tm_cache = {}
+    if TM_PHOTOS.exists():
+        try:
+            _tm_cache = json.loads(TM_PHOTOS.read_text(encoding="utf-8")).get("clubs", {})
+        except Exception:  # noqa: BLE001
+            _tm_cache = {}
+
+
+def tm_cache_save() -> None:
+    write_json(TM_PHOTOS, {"updatedAt": iso(NOW), "clubs": _tm_cache})
+
+
+def tm_search_club(name: str) -> dict | None:
+    """クイック検索の「Clubs」欄から、名前が最も近いクラブを選ぶ"""
+    h = tm_fetch("https://www.transfermarkt.com/schnellsuche/ergebnis/schnellsuche?query=" + urllib.parse.quote(name))
+    if not h:
+        return None
+    want = set(club_tokens(name)) or set(norm_name(name).split())
+    best, best_score = None, 0
+    for box in re.split(r'<div class="box">', h):
+        if "Clubs" not in box[:600]:
+            continue
+        for title, href, cid in re.findall(r'<td class="hauptlink">\s*<a title="([^"]+)" href="(/[^"]+/startseite/verein/(\d+))', box):
+            cand = set(club_tokens(html.unescape(title))) or set(norm_name(title).split())
+            overlap = len(want & cand)
+            score = overlap * 2 - abs(len(cand) - len(want))
+            if overlap and score > best_score:
+                slug = href.split("/")[1]
+                best, best_score = {"id": int(cid), "slug": slug, "name": html.unescape(title)}, score
+        break
+    return best
+
+
+def tm_squad_photos(slug: str, tm_id: int) -> dict[str, str] | None:
+    """クラブの選手一覧から 正規化名 → 顔写真URL"""
+    h = tm_fetch(f"https://www.transfermarkt.com/{slug}/kader/verein/{tm_id}/plus/1")
+    if not h:
+        return None
+    out: dict[str, str] = {}
+    for url, title in re.findall(r'data-src="(https://img\.a\.transfermarkt\.technology/portrait/[^"]+)" title="([^"]+)"', h):
+        if "default" in url:
+            continue
+        name = html.unescape(title)
+        out[norm_name(name)] = url
+        ln = norm_name(name).split()[-1] if norm_name(name) else ""
+        if ln and ln not in out:
+            out[ln] = url
+    return out
+
+
+_tm_new_clubs = 0
+
+
+def tm_club_photos(club_name: str, cfg: dict | None = None) -> dict[str, str]:
+    """クラブ名（ESPN 表記）から写真辞書を返す。7日キャッシュ。cfg に tmTeamId があれば検索しない"""
+    global _tm_new_clubs
+    key = norm_name(club_name)
+    entry = _tm_cache.get(key)
+    if entry and entry.get("fetchedAt"):
+        age = NOW - datetime.strptime(entry["fetchedAt"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
+        if age < timedelta(days=TM_PHOTO_TTL_DAYS) or _tm_new_clubs >= TM_MAX_NEW_CLUBS_PER_RUN:
+            return entry.get("players", {})
+    if _tm_new_clubs >= TM_MAX_NEW_CLUBS_PER_RUN:
+        return (entry or {}).get("players", {})
+    ident = None
+    if cfg and cfg.get("tmTeamId") and cfg.get("tmSlug"):
+        ident = {"id": int(cfg["tmTeamId"]), "slug": cfg["tmSlug"], "name": cfg.get("name")}
+    elif entry and entry.get("id"):
+        ident = {"id": entry["id"], "slug": entry["slug"], "name": entry.get("name")}
+    else:
+        ident = tm_search_club(club_name)
+        time.sleep(1.0)
+    _tm_new_clubs += 1
+    if not ident:
+        _tm_cache[key] = {"id": None, "slug": None, "name": None, "fetchedAt": iso(NOW), "players": {}}
+        log(f"  tm-photos: クラブが見つからず ({club_name})")
+        return {}
+    players = tm_squad_photos(ident["slug"], ident["id"])
+    time.sleep(1.0)
+    if players is None:
+        return (entry or {}).get("players", {})
+    _tm_cache[key] = {**ident, "fetchedAt": iso(NOW), "players": players}
+    log(f"  tm-photos: {ident['name']} {len([k for k in players if ' ' in k])} 人")
+    return players
+
+
+def tm_photo_for(name: str, players: dict[str, str]) -> str | None:
+    n = norm_name(name)
+    if n in players:
+        return players[n]
+    parts = n.split()
+    return players.get(parts[-1]) if parts else None
+
+
+def tm_injuries(slug: str, tm_id: int) -> list[dict] | None:
+    """Transfermarkt の「負傷者・出場停止」ページを読む。取得できなければ None"""
+    h = tm_fetch(f"https://www.transfermarkt.com/{slug}/sperrenundverletzungen/verein/{tm_id}")
+    if h is None:
+        return None
     out = []
     chunks = re.split(r'<tr class="(?:odd|even)">', h)[1:]
     for ch in chunks:
@@ -954,6 +1062,7 @@ def build_team(team: dict, photo_index: dict[str, dict]) -> None:
         ln = norm_name(q["last"])
         if ln and ln not in own_index:
             own_index[ln] = q
+    own_tm = tm_club_photos(team["name"], team)  # Transfermarkt の写真（現所属のもの）を優先
     for p in roster:
         q = find_in_index(p["name"], own_index)
         if not q and p["jersey"]:
@@ -963,7 +1072,7 @@ def build_team(team: dict, photo_index: dict[str, dict]) -> None:
         bio = bio_of(q) if q else {}
         espn_photo = p.get("photo")
         p.update(bio)
-        p["photo"] = bio.get("photo") or espn_photo
+        p["photo"] = tm_photo_for(p["name"], own_tm) or bio.get("photo") or espn_photo
     write_json(tdir / "roster.json", {"updatedAt": iso(NOW), "players": roster})
     log(f"  roster: {len(roster)} 人（写真あり {sum(1 for p in roster if p['photo'])} 人、"
         f"プロフィールあり {sum(1 for p in roster if p.get('dob'))} 人）")
@@ -1113,6 +1222,12 @@ def build_team(team: dict, photo_index: dict[str, dict]) -> None:
         f["hasLineup"] = True
         log(f"  lineup: {f['date'][:10]} vs {f['opponent']['name']} ({ours.get('formation')}) final={f['final']}")
 
+    # --- 写真の更新（自チームは名鑑から、相手チームは Transfermarkt から）を保存済みの試合ファイルに反映
+    try:
+        refresh_match_photos(mdir, fixtures, roster_by_id, photo_index)
+    except Exception as e:  # noqa: BLE001
+        log(f"  写真の反映に失敗（スキップ）: {e!r}")
+
     for f in fixtures:
         f.pop("final", None)
     write_json(tdir / "fixtures.json", {"updatedAt": iso(NOW), "fixtures": fixtures})
@@ -1132,6 +1247,38 @@ def build_team(team: dict, photo_index: dict[str, dict]) -> None:
             counts[p["id"]] = counts.get(p["id"], 0) + 1
     write_json(tdir / "squad-history.json", {"updatedAt": iso(NOW), "appearancesInSquad": counts})
     log(f"  fixtures: {len(fixtures)} 試合（スタメンあり {sum(1 for f in fixtures if f.get('hasLineup'))}）")
+
+
+def refresh_match_photos(mdir: Path, fixtures: list[dict], roster_by_id: dict, photo_index: dict) -> None:
+    """試合ファイル内の選手写真を最新に置き換える（自チーム: 名鑑、相手: Transfermarkt → PL公式 の順）"""
+    # 直近の試合から順に相手クラブの写真を用意（1回の更新で読むクラブ数には上限あり）
+    ordered = sorted((f for f in fixtures if f.get("hasLineup")), key=lambda f: abs((datetime.strptime(f["date"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc) - NOW).total_seconds()))
+    changed = 0
+    for f in ordered:
+        mp = mdir / f"{f['eventId']}.json"
+        if not mp.exists():
+            continue
+        try:
+            m = json.loads(mp.read_text(encoding="utf-8"))
+        except Exception:  # noqa: BLE001
+            continue
+        before = json.dumps(m, ensure_ascii=False, sort_keys=True)
+        for p in ((m.get("team") or {}).get("starters") or []) + ((m.get("team") or {}).get("bench") or []) + (m.get("absentees") or []):
+            rp = roster_by_id.get(p.get("id"))
+            if rp and rp.get("photo"):
+                p["photo"] = rp["photo"]
+        opp = m.get("opponent") or {}
+        if opp.get("starters"):
+            tm = tm_club_photos(opp.get("name") or f["opponent"]["name"])
+            for p in (opp.get("starters") or []) + (opp.get("bench") or []):
+                photo = tm_photo_for(p.get("name") or "", tm) or find_photo(p.get("name") or "", photo_index) or p.get("photo")
+                if photo:
+                    p["photo"] = photo
+        if json.dumps(m, ensure_ascii=False, sort_keys=True) != before:
+            write_json(mp, m)
+            changed += 1
+    if changed:
+        log(f"  写真を更新した試合ファイル: {changed}")
 
 
 def collect_opponent_players(teams: list[dict], photo_index: dict[str, dict]) -> list[dict]:
@@ -1165,6 +1312,7 @@ def collect_opponent_players(teams: list[dict], photo_index: dict[str, dict]) ->
 def main() -> int:
     cfg = json.loads((ROOT / "teams.json").read_text(encoding="utf-8"))
     teams = cfg.get("teams", [])
+    tm_cache_load()
     log("PL公式から全チームの選手インデックスを作成中...")
     photo_index = pl_all_teams_index()
     log(f"  選手 {len(photo_index)} 件")
@@ -1187,6 +1335,10 @@ def main() -> int:
         update_videos(DATA / "opponents" / "videos.json", opp)
     except Exception as e:  # noqa: BLE001
         log(f"!! 相手チーム選手の更新に失敗: {e!r}")
+    try:
+        tm_cache_save()
+    except Exception as e:  # noqa: BLE001
+        log(f"!! tm-photos の保存に失敗: {e!r}")
     write_json(DATA / "meta.json", {"updatedAt": iso(NOW), "teams": [t["id"] for t in teams]})
     log("done")
     return 0 if ok else 1

@@ -5,7 +5,7 @@
 
 - 表示: `index.html`（PC・スマホ両対応、GitHub Pages で公開）
 - データ更新: `scripts/update.py`（GitHub Actions が1時間ごとに自動実行）
-- データ元: ESPN（日程・スタメン）、プレミアリーグ公式（選手写真）
+- データ元: ESPN（日程・スタメン・スタッツ）、Transfermarkt（選手写真・負傷情報）、プレミアリーグ公式（プロフィール・写真の予備）、Wikidata（経歴）、YouTube（動画）
 
 ---
 

@@ -2,7 +2,7 @@
  "eventId": "401879252",
  "date": "2026-10-25T14:00:00Z",
  "final": false,
- "updatedAt": "2026-10-25T13:32:12Z",
+ "updatedAt": "2026-10-25T13:36:17Z",
  "team": {
   "formation": "4-2-3-1",
   "rows": [
@@ -36,7 +36,7 @@
     "pos": "G",
     "starter": true,
     "place": "1",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p465247.png"
+    "photo": "https://img.a.transfermarkt.technology/portrait/medium/503883-1755675220.jpg?lm=4711"
    },
    {
     "id": "340206",
@@ -45,7 +45,7 @@
     "pos": "D",
     "starter": true,
     "place": "5",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p550864.png"
+    "photo": "https://img.a.transfermarkt.technology/portrait/medium/923831-1747857948.jpg?lm=4711"
    },
    {
     "id": "157073",
@@ -54,7 +54,7 @@
     "pos": "D",
     "starter": true,
     "place": "6",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p95658.png"
+    "photo": "https://img.a.transfermarkt.technology/portrait/medium/177907-1663841733.jpg?lm=4711"
    },
    {
     "id": "356044",
@@ -63,7 +63,7 @@
     "pos": "D",
     "starter": true,
     "place": "3",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p606745.png"
+    "photo": "https://img.a.transfermarkt.technology/portrait/medium/1078163-1727382016.jpg?lm=4711"
    },
    {
     "id": "238902",
@@ -72,7 +72,7 @@
     "pos": "D",
     "starter": true,
     "place": "2",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p216051.png"
+    "photo": "https://img.a.transfermarkt.technology/portrait/medium/357147-1727785546.jpg?lm=4711"
    },
    {
     "id": "338814",
@@ -81,7 +81,7 @@
     "pos": "M",
     "starter": true,
     "place": "4",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p535301.png"
+    "photo": "https://img.a.transfermarkt.technology/portrait/medium/973085-1666690662.jpg?lm=4711"
    },
    {
     "id": "314858",
@@ -90,7 +90,7 @@
     "pos": "M",
     "starter": true,
     "place": "8",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p532605.png"
+    "photo": "https://img.a.transfermarkt.technology/portrait/medium/743600-1788427034.jpg?lm=4711"
    },
    {
     "id": "193297",
@@ -99,7 +99,7 @@
     "pos": "M",
     "starter": true,
     "place": "10",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p166989.png"
+    "photo": "https://img.a.transfermarkt.technology/portrait/medium/249565-1716886438.jpg?lm=4711"
    },
    {
     "id": "291630",
@@ -108,7 +108,7 @@
     "pos": "M",
     "starter": true,
     "place": "7",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p493250.png"
+    "photo": "https://img.a.transfermarkt.technology/portrait/medium/536835-1747857754.jpg?lm=4711"
    },
    {
     "id": "231167",
@@ -117,7 +117,7 @@
     "pos": "M",
     "starter": true,
     "place": "11",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p184341.png"
+    "photo": "https://img.a.transfermarkt.technology/portrait/medium/346483-1683291495.jpg?lm=4711"
    },
    {
     "id": "271170",
@@ -126,7 +126,7 @@
     "pos": "F",
     "starter": true,
     "place": "9",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p446008.png"
+    "photo": "https://img.a.transfermarkt.technology/portrait/medium/413039-1769532496.jpg?lm=4711"
    }
   ],
   "bench": [
@@ -137,7 +137,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p59735.png"
+    "photo": "https://img.a.transfermarkt.technology/portrait/medium/99397-1724939153.jpg?lm=4711"
    },
    {
     "id": "393138",
@@ -146,7 +146,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p519913.png"
+    "photo": "https://img.a.transfermarkt.technology/portrait/medium/1049911-1782339780.jpg?lm=4711"
    },
    {
     "id": "124091",
@@ -155,7 +155,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p141746.png"
+    "photo": "https://img.a.transfermarkt.technology/portrait/medium/240306-1683882766.jpg?lm=4711"
    },
    {
     "id": "259902",
@@ -164,7 +164,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p430871.png"
+    "photo": "https://img.a.transfermarkt.technology/portrait/medium/517894-1780390711.jpg?lm=4711"
    },
    {
     "id": "239349",
@@ -173,7 +173,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p209365.png"
+    "photo": "https://img.a.transfermarkt.technology/portrait/medium/326031-1700659567.jpg?lm=4711"
    },
    {
     "id": "239350",
@@ -182,7 +182,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p230001.png"
+    "photo": "https://img.a.transfermarkt.technology/portrait/medium/340456-1783200177.jpg?lm=4711"
    },
    {
     "id": "233937",
@@ -191,7 +191,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p221820.png"
+    "photo": "https://img.a.transfermarkt.technology/portrait/medium/480762-1680681507.jpg?lm=4711"
    },
    {
     "id": "358180",
@@ -200,7 +200,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p576628.png"
+    "photo": "https://img.a.transfermarkt.technology/portrait/medium/926309-1767956214.jpg?lm=4711"
    },
    {
     "id": "276327",
@@ -209,7 +209,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p458249.png"
+    "photo": "https://img.a.transfermarkt.technology/portrait/medium/435648-1775738266.jpg?lm=4711"
    }
   ]
  },
@@ -248,7 +248,7 @@
     "pos": "G",
     "starter": true,
     "place": "1",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p457569.png"
+    "photo": "https://img.a.transfermarkt.technology/portrait/medium/465555-1775574265.jpg?lm=4711"
    },
    {
     "id": "122268",
@@ -257,7 +257,7 @@
     "pos": "D",
     "starter": true,
     "place": "2",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p54469.png"
+    "photo": "https://img.a.transfermarkt.technology/portrait/medium/61841-1737920848.jpg?lm=4711"
    },
    {
     "id": "346588",
@@ -266,7 +266,7 @@
     "pos": "D",
     "starter": true,
     "place": "6",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p483067.png"
+    "photo": "https://img.a.transfermarkt.technology/portrait/medium/650568-1700235534.jpg?lm=4711"
    },
    {
     "id": "279155",
@@ -275,7 +275,7 @@
     "pos": "D",
     "starter": true,
     "place": "5",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p463981.png"
+    "photo": "https://img.a.transfermarkt.technology/portrait/medium/611793-1774469525.jpg?lm=4711"
    },
    {
     "id": "305684",
@@ -284,7 +284,7 @@
     "pos": "D",
     "starter": true,
     "place": "3",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p494521.png"
+    "photo": "https://img.a.transfermarkt.technology/portrait/medium/654539-1754901329.jpg?lm=4711"
    },
    {
     "id": "243364",
@@ -293,7 +293,7 @@
     "pos": "M",
     "starter": true,
     "place": "11",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p201658.png"
+    "photo": "https://img.a.transfermarkt.technology/portrait/medium/399434-1700650360.jpg?lm=4711"
    },
    {
     "id": "223452",
@@ -302,7 +302,7 @@
     "pos": "M",
     "starter": true,
     "place": "4",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p155408.png"
+    "photo": "https://img.a.transfermarkt.technology/portrait/medium/249089-1700671190.jpg?lm=4711"
    },
    {
     "id": "357719",
@@ -311,7 +311,7 @@
     "pos": "M",
     "starter": true,
     "place": "7",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p499604.png"
+    "photo": "https://img.a.transfermarkt.technology/portrait/medium/1012564-1780390891.jpg?lm=4711"
    },
    {
     "id": "245916",
@@ -320,7 +320,7 @@
     "pos": "M",
     "starter": true,
     "place": "10",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p222683.png"
+    "photo": "https://img.a.transfermarkt.technology/portrait/medium/330659-1779893085.jpg?lm=4711"
    },
    {
     "id": "222776",
@@ -329,7 +329,7 @@
     "pos": "M",
     "starter": true,
     "place": "8",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p200785.png"
+    "photo": "https://img.a.transfermarkt.technology/portrait/medium/332705-1754244571.jpg?lm=4711"
    },
    {
     "id": "102368",
@@ -338,7 +338,7 @@
     "pos": "F",
     "starter": true,
     "place": "9",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p444102.png"
+    "photo": "https://img.a.transfermarkt.technology/portrait/medium/711337-1737452098.jpg?lm=4711"
    }
   ],
   "bench": [
@@ -349,7 +349,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p111317.png"
+    "photo": "https://img.a.transfermarkt.technology/portrait/medium/277033-1700650102.jpg?lm=4711"
    },
    {
     "id": "353151",
@@ -358,7 +358,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p561245.png"
+    "photo": "https://img.a.transfermarkt.technology/portrait/medium/948275-1660124773.jpg?lm=4711"
    },
    {
     "id": "332948",
@@ -367,7 +367,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p496208.png"
+    "photo": "https://img.a.transfermarkt.technology/portrait/medium/719673-1780071350.jpg?lm=4711"
    },
    {
     "id": "282675",
@@ -376,7 +376,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p242882.png"
+    "photo": "https://img.a.transfermarkt.technology/portrait/medium/463605-1666691072.jpg?lm=4711"
    },
    {
     "id": "291613",
@@ -385,7 +385,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p489888.png"
+    "photo": "https://img.a.transfermarkt.technology/portrait/medium/532776-1689710574.jpg?lm=4711"
    },
    {
     "id": "240055",
@@ -394,7 +394,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p230650.png"
+    "photo": "https://img.a.transfermarkt.technology/portrait/medium/301238-1730125609.jpg?lm=4711"
    },
    {
     "id": "93435",
@@ -403,7 +403,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p158499.png"
+    "photo": "https://img.a.transfermarkt.technology/portrait/medium/188077-1697450633.jpg?lm=4711"
    },
    {
     "id": "361809",
@@ -412,7 +412,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": null
+    "photo": "https://img.a.transfermarkt.technology/portrait/medium/955357-1727784350.jpg?lm=4711"
    },
    {
     "id": "339797",
@@ -421,7 +421,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p575901.png"
+    "photo": "https://img.a.transfermarkt.technology/portrait/medium/1009658-1721934099.png?lm=4711"
    }
   ]
  },
@@ -431,7 +431,7 @@
    "name": "Marcus Rashford",
    "jersey": "9",
    "pos": "F",
-   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p176297.png",
+   "photo": "https://img.a.transfermarkt.technology/portrait/medium/258923-1674473054.jpg?lm=4711",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -441,7 +441,7 @@
    "name": "Patrick Dorgu",
    "jersey": "13",
    "pos": "D",
-   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p596777.png",
+   "photo": "https://img.a.transfermarkt.technology/portrait/medium/926952-1747857569.jpg?lm=4711",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -451,7 +451,7 @@
    "name": "Tom Heaton",
    "jersey": "22",
    "pos": "G",
-   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p21205.png",
+   "photo": "https://img.a.transfermarkt.technology/portrait/medium/34130-1688121718.jpg?lm=4711",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -461,7 +461,7 @@
    "name": "Luke Shaw",
    "jersey": "23",
    "pos": "M",
-   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p106760.png",
+   "photo": "https://img.a.transfermarkt.technology/portrait/medium/183288-1668500175.jpg?lm=4711",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -471,7 +471,7 @@
    "name": "Manuel Ugarte",
    "jersey": "25",
    "pos": "M",
-   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p232112.png",
+   "photo": "https://img.a.transfermarkt.technology/portrait/medium/476701-1715107512.jpg?lm=4711",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -481,7 +481,7 @@
    "name": "Benjamin Sesko",
    "jersey": "30",
    "pos": "F",
-   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p485711.png",
+   "photo": "https://img.a.transfermarkt.technology/portrait/medium/627442-1779803478.jpg?lm=4711",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -491,7 +491,7 @@
    "name": "Kobbie Mainoo",
    "jersey": "37",
    "pos": "M",
-   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p516895.png",
+   "photo": "https://img.a.transfermarkt.technology/portrait/medium/820374-1719349758.jpg?lm=4711",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -501,7 +501,7 @@
    "name": "Jack Fletcher",
    "jersey": "38",
    "pos": "M",
-   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p547037.png",
+   "photo": "https://img.a.transfermarkt.technology/portrait/medium/1049911-1782339780.jpg?lm=4711",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -511,7 +511,7 @@
    "name": "Harry Amass",
    "jersey": "41",
    "pos": "D",
-   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p577974.png",
+   "photo": "https://img.a.transfermarkt.technology/portrait/medium/1011738-1712585934.jpg?lm=4711",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -521,7 +521,7 @@
    "name": "Dermot Mee",
    "jersey": "45",
    "pos": "G",
-   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p461537.png",
+   "photo": "https://img.a.transfermarkt.technology/portrait/medium/620362-1746691943.jpg?lm=4711",
    "type": "理由不明",
    "reason": "",
    "source": "none"

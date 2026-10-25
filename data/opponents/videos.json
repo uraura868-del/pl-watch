@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-25T13:32:12Z",
+ "updatedAt": "2026-10-25T13:36:17Z",
  "enabled": true,
  "players": {
   "336794": {
@@ -157,56 +157,6 @@
     }
    ],
    "fetchedAt": "2026-10-25T13:08:56Z"
-  },
-  "291613": {
-   "name": "Amine Adli",
-   "query": "Amine Adli skills",
-   "videos": [
-    {
-     "id": "YBScIddt6fg",
-     "title": "The best of Amine Adli | Champion, Laughter, Growth",
-     "channel": "Bayer 04 Leverkusen",
-     "publishedAt": "2025-08-21"
-    },
-    {
-     "id": "2ZrV1IwKVWo",
-     "title": "Amine Adli - Complete Season in 2023!",
-     "channel": "SilvaSkills PLUS",
-     "publishedAt": "2023-07-12"
-    },
-    {
-     "id": "Nu_LYc9lkN4",
-     "title": "Referee books Amine Adli for diving twice and the VAR overturns his decision twice!!😂 (Bundesliga)",
-     "channel": "The Offside Trap",
-     "publishedAt": "2023-03-24"
-    }
-   ],
-   "fetchedAt": "2026-10-25T13:32:12Z"
-  },
-  "346588": {
-   "name": "António Silva",
-   "query": "António Silva skills",
-   "videos": [
-    {
-     "id": "ltbw667RMX0",
-     "title": "Antonio Silva ● Welcome to Bournemouth 2026 🔴🇵🇹 Best Defensive Skills & Passes",
-     "channel": "SVMM",
-     "publishedAt": "2026-07-14"
-    },
-    {
-     "id": "yV2QXi-j8Sg",
-     "title": "António Silva – Elite Centre Back 🇵🇹 | 2026ᴴᴰ",
-     "channel": "FS Scout",
-     "publishedAt": "2026-06-29"
-    },
-    {
-     "id": "J7pd2ueD3QE",
-     "title": "António Silva – Elite Defensive Talent 🇵🇹 | 2026ᴴᴰ",
-     "channel": "FS Scout",
-     "publishedAt": "2025-07-06"
-    }
-   ],
-   "fetchedAt": "2026-10-25T13:32:12Z"
   }
  }
 }

@@ -1147,12 +1147,19 @@ def collect_opponent_players(teams: list[dict], photo_index: dict[str, dict]) ->
             except Exception:  # noqa: BLE001
                 continue
             o = m.get("opponent") or {}
+            # 今日からの近さ（日数）。直近の試合の相手を先に取る
+            try:
+                mdate = datetime.strptime(m["date"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
+                dist = abs((mdate - NOW).total_seconds()) / 86400
+            except Exception:  # noqa: BLE001
+                dist = 9999
             for p in (o.get("starters") or []) + (o.get("bench") or []):
                 if p.get("id") in players:
+                    players[p["id"]]["dist"] = min(players[p["id"]]["dist"], dist)
                     continue
                 rec = find_in_index(p.get("name") or "", photo_index)
-                players[p["id"]] = {"id": p["id"], "name": p.get("name"), "dob": (rec or {}).get("dob")}
-    return sorted(players.values(), key=lambda p: p["name"] or "")
+                players[p["id"]] = {"id": p["id"], "name": p.get("name"), "dob": (rec or {}).get("dob"), "dist": dist}
+    return sorted(players.values(), key=lambda p: (p["dist"], p["name"] or ""))
 
 
 def main() -> int:

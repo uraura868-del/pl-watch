@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>デザイン案 3種</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Noto+Serif+JP:wght@600;900&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #e9e9ee; font-family: "Noto Sans JP", system-ui, sans-serif; color: #222; }
+  .intro { max-width: 1200px; margin: 0 auto; padding: 28px 16px 8px; }
+  .intro h1 { margin: 0 0 6px; font-size: 22px; }
+  .intro p { margin: 4px 0; color: #555; font-size: 14px; }
+  .gallery { display: flex; gap: 28px; padding: 16px; overflow-x: auto; justify-content: center; align-items: flex-start; flex-wrap: wrap; }
+  .option { width: 372px; flex: 0 0 auto; }
+  .option h2 { font-size: 17px; margin: 0 0 4px; }
+  .option .desc { font-size: 13px; color: #555; margin: 0 0 12px; min-height: 54px; line-height: 1.5; }
+  .phone { width: 372px; height: 780px; border-radius: 34px; border: 10px solid #111; overflow: hidden; background: var(--bg); color: var(--fg); position: relative; box-shadow: 0 20px 40px rgba(0,0,0,.25); }
+  .phone .screen { height: 100%; overflow-y: auto; scrollbar-width: none; }
+  .phone .screen::-webkit-scrollbar { display: none; }
+
+  /* ===== shared app skeleton ===== */
+  .topbar { display: flex; align-items: center; gap: 10px; padding: 14px 16px 10px; background: var(--top-bg); color: var(--top-fg); position: sticky; top: 0; z-index: 2; border-bottom: var(--top-border); }
+  .topbar img { width: 34px; height: 34px; }
+  .topbar .title { font-weight: 700; font-size: 16px; line-height: 1.1; }
+  .topbar .sub { font-size: 11px; opacity: .75; }
+  .topbar .gear { margin-left: auto; font-size: 18px; opacity: .8; }
+  .tabs { display: flex; gap: 8px; padding: 10px 16px 4px; overflow-x: auto; }
+  .tab { padding: 6px 12px; border-radius: 999px; font-size: 12px; font-weight: 700; background: var(--tab-bg); color: var(--tab-fg); border: 1px solid var(--tab-border); white-space: nowrap; }
+  .tab.on { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .section-label { font-size: 11px; letter-spacing: .14em; font-weight: 700; color: var(--muted); margin: 14px 16px 6px; text-transform: uppercase; }
+  .card { margin: 0 16px 12px; border-radius: var(--radius); background: var(--card-bg); border: var(--card-border); box-shadow: var(--card-shadow); overflow: hidden; }
+  .match-head { display: flex; align-items: center; gap: 12px; padding: 14px 16px; }
+  .match-head .crest { width: 44px; height: 44px; }
+  .match-head .vs { font-size: 12px; color: var(--muted); }
+  .match-head .opp { font-weight: 700; font-size: 17px; }
+  .match-head .when { font-size: 12px; color: var(--muted); margin-top: 2px; }
+  .badge { font-size: 10px; font-weight: 700; padding: 3px 8px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); margin-left: auto; white-space: nowrap; }
+  .badge.ok { background: var(--ok-soft); color: var(--ok); }
+  .formation-bar { display: flex; justify-content: space-between; align-items: center; padding: 8px 16px; font-size: 12px; color: var(--muted); border-top: var(--divider); }
+  .formation-bar b { color: var(--fg); font-family: Oswald, sans-serif; font-size: 16px; letter-spacing: .05em; }
+
+  .pitch { position: relative; margin: 0 12px 12px; aspect-ratio: 3 / 4.1; border-radius: 12px; background: var(--pitch); overflow: hidden; border: var(--pitch-border); }
+  .pitch .lines { position: absolute; inset: 0; }
+  .pitch .lines i { position: absolute; border: 1.5px solid var(--pitch-line); opacity: .8; }
+  .pitch .lines .out { inset: 8px; border-radius: 2px; }
+  .pitch .lines .half { left: 8px; right: 8px; top: 50%; border-width: 1.5px 0 0; }
+  .pitch .lines .circle { width: 60px; height: 60px; border-radius: 50%; left: 50%; top: 50%; transform: translate(-50%, -50%); }
+  .pitch .lines .boxb { left: 25%; right: 25%; bottom: 8px; height: 15%; border-bottom: 0; }
+  .pitch .lines .boxt { left: 25%; right: 25%; top: 8px; height: 15%; border-top: 0; }
+  .rows { position: absolute; inset: 14px 8px 12px; display: flex; flex-direction: column; justify-content: space-between; }
+  .row { display: flex; justify-content: space-evenly; align-items: center; }
+  .pl { display: flex; flex-direction: column; align-items: center; width: 66px; text-align: center; }
+  .pl .ph { width: 46px; height: 46px; border-radius: 50%; background: var(--photo-bg); border: 2px solid var(--photo-ring); overflow: hidden; position: relative; }
+  .pl .ph img { width: 100%; height: 100%; object-fit: cover; object-position: top; display: block; }
+  .pl .num { position: absolute; right: -4px; bottom: -4px; background: var(--accent); color: #fff; font-family: Oswald, sans-serif; font-size: 10px; min-width: 17px; height: 17px; line-height: 17px; border-radius: 999px; padding: 0 3px; border: 2px solid var(--pitch); }
+  .pl .nm { margin-top: 4px; font-size: 10px; font-weight: 700; line-height: 1.15; color: var(--pitch-name); text-shadow: var(--pitch-name-shadow); max-width: 66px; }
+
+  .bench { display: flex; gap: 10px; padding: 10px 14px 14px; overflow-x: auto; }
+  .bench .pl { width: 52px; }
+  .bench .pl .ph { width: 40px; height: 40px; }
+  .bench .pl .nm { color: var(--fg); text-shadow: none; font-weight: 500; }
+  .abs { display: flex; flex-direction: column; }
+  .abs .r { display: flex; align-items: center; gap: 12px; padding: 10px 16px; border-top: var(--divider); }
+  .abs .r:first-child { border-top: 0; }
+  .abs .ph { width: 36px; height: 36px; border-radius: 50%; overflow: hidden; background: var(--photo-bg); filter: grayscale(.6); flex: 0 0 auto; }
+  .abs .ph img { width: 100%; height: 100%; object-fit: cover; object-position: top; }
+  .abs .n { font-weight: 700; font-size: 13px; }
+  .abs .why { font-size: 11px; color: var(--muted); }
+  .abs .tag { margin-left: auto; font-size: 10px; font-weight: 700; padding: 3px 8px; border-radius: 6px; background: var(--warn-soft); color: var(--warn); white-space: nowrap; }
+  .abs .tag.unk { background: var(--tab-bg); color: var(--muted); }
+
+  .watch-btn { display: block; margin: 0 16px 14px; padding: 13px; border-radius: var(--radius); text-align: center; font-weight: 700; font-size: 14px; background: var(--accent); color: #fff; }
+  .locked { display: flex; align-items: center; gap: 12px; padding: 14px 16px; opacity: .85; }
+  .locked .ic { width: 40px; height: 40px; border-radius: 50%; background: var(--tab-bg); display: grid; place-items: center; font-size: 18px; }
+  .locked .t { font-weight: 700; font-size: 14px; }
+  .locked .s { font-size: 11px; color: var(--muted); }
+  .locked .crest { width: 36px; height: 36px; margin-left: auto; filter: blur(3px); opacity: .5; }
+  .upcoming { display: flex; align-items: center; gap: 12px; padding: 12px 16px; }
+  .upcoming .d { font-family: Oswald, sans-serif; font-size: 20px; width: 56px; line-height: 1; }
+  .upcoming .d small { display: block; font-size: 10px; font-family: "Noto Sans JP"; color: var(--muted); margin-top: 3px; }
+  .upcoming .crest { width: 30px; height: 30px; }
+  .upcoming .o { font-weight: 700; font-size: 14px; }
+  .upcoming .o small { display: block; font-size: 11px; color: var(--muted); font-weight: 400; }
+  .foot { text-align: center; font-size: 10px; color: var(--muted); padding: 8px 0 24px; }
+
+  /* ===== A: ナイトスタジアム ===== */
+  .theme-a { --bg: #0d1220; --fg: #f3f4f8; --muted: #8f97ad; --accent: #e2231a; --accent-soft: rgba(226,35,26,.18);
+    --ok: #4ade80; --ok-soft: rgba(74,222,128,.15); --warn: #fbbf24; --warn-soft: rgba(251,191,36,.15);
+    --top-bg: linear-gradient(180deg,#1a0d12,#0d1220); --top-fg: #fff; --top-border: 1px solid rgba(255,255,255,.06);
+    --tab-bg: rgba(255,255,255,.07); --tab-fg: #cfd4e2; --tab-border: transparent;
+    --card-bg: rgba(255,255,255,.055); --card-border: 1px solid rgba(255,255,255,.08); --card-shadow: none; --radius: 16px;
+    --divider: 1px solid rgba(255,255,255,.08);
+    --pitch: #16432b; --pitch-line: rgba(255,255,255,.55); --pitch-border: 1px solid rgba(255,255,255,.08);
+    --photo-bg: #243049; --photo-ring: rgba(255,255,255,.75); --pitch-name: #fff; --pitch-name-shadow: 0 1px 3px rgba(0,0,0,.8); }
+  .theme-a .pitch { background: repeating-linear-gradient(180deg,#17472d 0 11%,#15402a 11% 22%); }
+  .theme-a .match-head .opp { font-family: Oswald, sans-serif; font-size: 20px; letter-spacing: .03em; text-transform: uppercase; }
+
+  /* ===== B: クリーン・マッチデー ===== */
+  .theme-b { --bg: #f4f5f7; --fg: #15171c; --muted: #6b7280; --accent: #da020e; --accent-soft: #fde8e9;
+    --ok: #15803d; --ok-soft: #dcfce7; --warn: #b45309; --warn-soft: #fef3c7;
+    --top-bg: #ffffff; --top-fg: #15171c; --top-border: 1px solid #e5e7eb;
+    --tab-bg: #ffffff; --tab-fg: #374151; --tab-border: #e5e7eb;
+    --card-bg: #ffffff; --card-border: 1px solid #ebedf0; --card-shadow: 0 1px 2px rgba(0,0,0,.04), 0 6px 16px rgba(0,0,0,.05); --radius: 14px;
+    --divider: 1px solid #eef0f3;
+    --pitch: #3a9d5d; --pitch-line: rgba(255,255,255,.85); --pitch-border: none;
+    --photo-bg: #e5e7eb; --photo-ring: #fff; --pitch-name: #fff; --pitch-name-shadow: 0 1px 2px rgba(0,0,0,.5); }
+  .theme-b .pitch { background: repeating-linear-gradient(180deg,#3da362 0 11%,#379a5a 11% 22%); }
+  .theme-b .topbar .title { color: var(--accent); }
+
+  /* ===== C: マッチデープログラム ===== */
+  .theme-c { --bg: #f3ecdd; --fg: #2a1f1a; --muted: #7d6b5e; --accent: #b2141c; --accent-soft: #f1d9d6;
+    --ok: #2f6b3a; --ok-soft: #dde9d6; --warn: #8a5a12; --warn-soft: #f3e3c4;
+    --top-bg: #b2141c; --top-fg: #fff6e8; --top-border: 4px double #f3ecdd;
+    --tab-bg: #e8dfcc; --tab-fg: #4a3b31; --tab-border: #cbbfa6;
+    --card-bg: #fbf6ea; --card-border: 1px solid #d6c9ad; --card-shadow: 2px 3px 0 #d6c9ad; --radius: 6px;
+    --divider: 1px dashed #d6c9ad;
+    --pitch: #4f8a52; --pitch-line: rgba(255,250,235,.85); --pitch-border: 3px solid #2a1f1a;
+    --photo-bg: #d6c9ad; --photo-ring: #fbf6ea; --pitch-name: #fff8ea; --pitch-name-shadow: 0 1px 2px rgba(0,0,0,.6); }
+  .theme-c { font-family: "Noto Sans JP", sans-serif; }
+  .theme-c .topbar .title, .theme-c .match-head .opp, .theme-c .option-serif { font-family: "Noto Serif JP", serif; font-weight: 900; }
+  .theme-c .section-label { font-family: "Noto Serif JP", serif; letter-spacing: .3em; border-bottom: 1px solid #cbbfa6; margin-right: 16px; padding-bottom: 3px; }
+  .theme-c .pitch { background: #4f8a52; }
+  .theme-c .pl .ph { border-radius: 4px; }
+  .theme-c .pl .num { border-radius: 3px; }
+  .theme-c .abs .ph { border-radius: 4px; }
+
+  .desktop-note { max-width: 1200px; margin: 10px auto 40px; padding: 0 16px; }
+  .desktop-note h3 { font-size: 16px; margin: 20px 0 8px; }
+  .wire { display: grid; grid-template-columns: 300px 1fr; gap: 12px; background: #fff; border: 1px solid #ccc; border-radius: 10px; padding: 12px; height: 260px; }
+  .wire .box { border: 2px dashed #bbb; border-radius: 8px; display: grid; place-items: center; color: #777; font-size: 13px; text-align: center; padding: 8px; }
+  .wire .right { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .wire .right .box:first-child { grid-column: 1 / -1; }
+</style>
+</head>
+<body>
+<div class="intro">
+  <h1>デザイン案 3種（スマホ表示の見本）</h1>
+  <p>※ 見本のスタメン・欠場者は架空です。選手写真はプレミアリーグ公式のものを表示しています。</p>
+  <p>各案とも「次に観る試合」「スタメン（フォーメーション図）」「ベンチ」「欠場者」「ロックされた試合」「今後の日程」の順に並んでいます。画面内をスクロールできます。</p>
+</div>
+
+<div class="gallery" id="gallery"></div>
+
+<div class="desktop-note">
+  <h3>PC表示（全案共通の配置）</h3>
+  <div class="wire">
+    <div class="box">左カラム<br>チーム切替＋試合一覧<br>（観た／ロック／予定）</div>
+    <div class="right">
+      <div class="box">選んだ試合のヘッダー（日時・相手・ホーム/アウェイ・フォーメーション）</div>
+      <div class="box">フォーメーション図<br>（相手チームへの切替も可）</div>
+      <div class="box">ベンチ ／ 欠場者と理由</div>
+    </div>
+  </div>
+</div>
+
+<script>
+const P = (num, name, opta, pos) => ({num, name, opta, pos});
+const photo = o => `https://resources.premierleague.com/premierleague/photos/players/250x250/${o}.png`;
+const XI = [
+  [P(1,'Lammens','p465247')],
+  [P(2,'Dalot','p216051'), P(4,'de Ligt','p209365'), P(5,'Maguire','p95658'), P(13,'Dorgu','p596777')],
+  [P(25,'Ugarte','p232112'), P(37,'Mainoo','p516895')],
+  [P(19,'Mbeumo','p446008'), P(8,'B. Fernandes','p141746'), P(10,'Cunha','p430871')],
+  [P(30,'Sesko','p485711')],
+];
+const BENCH = [P(22,'Heaton','p21205'),P(15,'Yoro','p550864'),P(23,'Shaw','p106760'),P(6,'Martínez','p221820'),P(18,'Tielemans','p166989'),P(7,'Mount','p184341'),P(20,'Baleba','p535301'),P(11,'Zirkzee','p458249'),P(16,'Amad','p493250')];
+const ABS = [
+  {p:P(3,'Noussair Mazraoui','p230001'), why:'ハムストリング負傷（手入力）', tag:'負傷', unk:false},
+  {p:P(24,'André Onana','p202641'), why:'メンバー外・理由は未登録', tag:'理由不明', unk:true},
+  {p:P(9,'Marcus Rashford','p176297'), why:'メンバー外・理由は未登録', tag:'理由不明', unk:true},
+];
+const crest = id => `https://a.espncdn.com/i/teamlogos/soccer/500/${id}.png`;
+
+function player(p, cls='') {
+  return `<div class="pl ${cls}"><div class="ph"><img src="${photo(p.opta)}" alt="" loading="lazy" onerror="this.remove()"><span class="num">${p.num}</span></div><div class="nm">${p.name}</div></div>`;
+}
+function screen(theme) {
+  return `
+  <div class="phone ${theme}"><div class="screen">
+    <div class="topbar"><img src="${crest(360)}" alt=""><div><div class="title">Manchester United</div><div class="sub">プレミアリーグ 2026-27 ・ ネタバレなし</div></div><div class="gear">⚙</div></div>
+    <div class="tabs"><span class="tab on">マンU</span><span class="tab">＋ チームを追加</span></div>
+
+    <div class="section-label">次に観る試合</div>
+    <div class="card">
+      <div class="match-head"><img class="crest" src="${crest(349)}" alt=""><div><div class="vs">ホーム ・ プレミアリーグ 第9節</div><div class="opp">vs Bournemouth</div><div class="when">10/25(日) 23:00 キックオフ（日本時間）</div></div><span class="badge ok">スタメン公開</span></div>
+      <div class="formation-bar"><span>フォーメーション</span><b>4-2-3-1</b><span>相手を見る ›</span></div>
+      <div class="pitch">
+        <div class="lines"><i class="out"></i><i class="half"></i><i class="circle"></i><i class="boxb"></i><i class="boxt"></i></div>
+        <div class="rows">${[...XI].reverse().map(r => `<div class="row">${r.map(p => player(p)).join('')}</div>`).join('')}</div>
+      </div>
+      <div class="section-label" style="margin-top:0">ベンチ</div>
+      <div class="bench">${BENCH.map(p => player(p)).join('')}</div>
+    </div>
+
+    <div class="section-label">欠場・メンバー外</div>
+    <div class="card abs">${ABS.map(a => `<div class="r"><div class="ph"><img src="${photo(a.p.opta)}" alt="" onerror="this.remove()"></div><div><div class="n">${a.p.name}</div><div class="why">${a.why}</div></div><span class="tag ${a.unk?'unk':''}">${a.tag}</span></div>`).join('')}</div>
+
+    <a class="watch-btn">✓ この試合を観た</a>
+
+    <div class="section-label">その後の試合</div>
+    <div class="card"><div class="locked"><div class="ic">🔒</div><div><div class="t">10/31(土) ・ アウェイ</div><div class="s">上の試合を「観た」にすると表示されます</div></div><img class="crest" src="${crest(363)}" alt=""></div></div>
+
+    <div class="section-label">今後の日程</div>
+    <div class="card">
+      <div class="upcoming"><div class="d">11/8<small>日 01:30</small></div><img class="crest" src="${crest(362)}" alt=""><div class="o">Aston Villa<small>ホーム ・ 予定</small></div></div>
+      <div class="upcoming" style="border-top:var(--divider)"><div class="d">11/23<small>月 01:30</small></div><img class="crest" src="${crest(364)}" alt=""><div class="o">Liverpool<small>アウェイ ・ 予定</small></div></div>
+    </div>
+    <div class="foot">最終更新 10/25 12:00 ・ スコアや順位は一切取得していません</div>
+  </div></div>`;
+}
+const OPTIONS = [
+  {theme:'theme-a', title:'A. ナイトスタジアム', desc:'黒〜ネイビーの暗い背景に、チームカラーの赤を差し色。テレビ中継のグラフィックのような雰囲気。夜に部屋を暗くして観る時に目に優しい。'},
+  {theme:'theme-b', title:'B. クリーン・マッチデー', desc:'白ベースのカード型レイアウト。スポーツニュースアプリのような見やすさ重視。昼間や屋外のスマホでも読みやすい。'},
+  {theme:'theme-c', title:'C. マッチデープログラム', desc:'クリーム色の紙に赤いヘッダー、明朝体の見出し。スタジアムで売っている試合プログラムのようなレトロな雰囲気。'},
+];
+document.getElementById('gallery').innerHTML = OPTIONS.map(o => `<div class="option"><h2>${o.title}</h2><p class="desc">${o.desc}</p>${screen(o.theme)}</div>`).join('');
+</script>
+</body>
+</html>

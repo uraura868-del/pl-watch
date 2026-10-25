@@ -1,0 +1,15 @@
+{
+  "_help": "チームを追加するときはこの配列に1件足すだけ。espnTeamId は ESPN の URL (espn.com/soccer/team/_/id/360/...) の数字、plTeamId は premierleague.com のクラブID。color はチームカラー。",
+  "teams": [
+    {
+      "id": "man-utd",
+      "name": "Manchester United",
+      "shortName": "マンU",
+      "league": "eng.1",
+      "leagueName": "プレミアリーグ",
+      "espnTeamId": "360",
+      "plTeamId": 12,
+      "color": "#da020e"
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+ "updatedAt": "2026-10-25T00:56:44Z",
+ "players": [
+  {
+   "id": "42250",
+   "name": "Tom Heaton",
+   "jersey": "22",
+   "pos": "G",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p21205.png",
+   "injuries": []
+  },
+  {
+   "id": "130877",
+   "name": "Karl Darlow",
+   "jersey": "12",
+   "pos": "G",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p59735.png",
+   "injuries": []
+  },
+  {
+   "id": "301425",
+   "name": "Senne Lammens",
+   "jersey": "1",
+   "pos": "G",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p465247.png",
+   "injuries": []
+  },
+  {
+   "id": "325550",
+   "name": "Dermot Mee",
+   "jersey": "45",
+   "pos": "G",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p461537.png",
+   "injuries": []
+  },
+  {
+   "id": "157073",
+   "name": "Harry Maguire",
+   "jersey": "5",
+   "pos": "D",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p95658.png",
+   "injuries": []
+  },
+  {
+   "id": "167127",
+   "name": "Luke Shaw",
+   "jersey": "23",
+   "pos": "D",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p106760.png",
+   "injuries": []
+  },
+  {
+   "id": "233937",
+   "name": "Lisandro Martínez",
+   "jersey": "6",
+   "pos": "D",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p221820.png",
+   "injuries": []
+  },
+  {
+   "id": "238902",
+   "name": "Diogo Dalot",
+   "jersey": "2",
+   "pos": "D",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p216051.png",
+   "injuries": []
+  },
+  {
+   "id": "239349",
+   "name": "Matthijs de Ligt",
+   "jersey": "4",
+   "pos": "D",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p209365.png",
+   "injuries": []
+  },
+  {
+   "id": "239350",
+   "name": "Noussair Mazraoui",
+   "jersey": "3",
+   "pos": "D",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p230001.png",
+   "injuries": []
+  },
+  {
+   "id": "340206",
+   "name": "Leny Yoro",
+   "jersey": "15",
+   "pos": "D",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p550864.png",
+   "injuries": []
+  },
+  {
+   "id": "356044",
+   "name": "Ayden Heaven",
+   "jersey": "26",
+   "pos": "D",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p606745.png",
+   "injuries": []
+  },
+  {
+   "id": "356940",
+   "name": "Harry Amass",
+   "jersey": "41",
+   "pos": "D",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p577974.png",
+   "injuries": []
+  },
+  {
+   "id": "366781",
+   "name": "Patrick Dorgu",
+   "jersey": "13",
+   "pos": "D",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p596777.png",
+   "injuries": []
+  },
+  {
+   "id": "381055",
+   "name": "Daniel Armer",
+   "jersey": "57",
+   "pos": "D",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p576622.png",
+   "injuries": []
+  },
+  {
+   "id": "386199",
+   "name": "Jaydan Kamason",
+   "jersey": "66",
+   "pos": "D",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p564509.png",
+   "injuries": []
+  },
+  {
+   "id": "124091",
+   "name": "Bruno Fernandes",
+   "jersey": "8",
+   "pos": "M",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p141746.png",
+   "injuries": []
+  },
+  {
+   "id": "193297",
+   "name": "Youri Tielemans",
+   "jersey": "18",
+   "pos": "M",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p166989.png",
+   "injuries": []
+  },
+  {
+   "id": "205081",
+   "name": "Jack Fletcher",
+   "jersey": "38",
+   "pos": "M",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p547037.png",
+   "injuries": []
+  },
+  {
+   "id": "231167",
+   "name": "Mason Mount",
+   "jersey": "7",
+   "pos": "M",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p184341.png",
+   "injuries": []
+  },
+  {
+   "id": "241468",
+   "name": "Manuel Ugarte",
+   "jersey": "25",
+   "pos": "M",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p232112.png",
+   "injuries": []
+  },
+  {
+   "id": "314858",
+   "name": "Andrey Santos",
+   "jersey": "17",
+   "pos": "M",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p532605.png",
+   "injuries": []
+  },
+  {
+   "id": "328466",
+   "name": "Kobbie Mainoo",
+   "jersey": "37",
+   "pos": "M",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p516895.png",
+   "injuries": []
+  },
+  {
+   "id": "338814",
+   "name": "Carlos Baleba",
+   "jersey": "20",
+   "pos": "M",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p535301.png",
+   "injuries": []
+  },
+  {
+   "id": "393138",
+   "name": "Tyler Fletcher",
+   "jersey": "39",
+   "pos": "M",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p519913.png",
+   "injuries": []
+  },
+  {
+   "id": "230945",
+   "name": "Marcus Rashford",
+   "jersey": "9",
+   "pos": "F",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p176297.png",
+   "injuries": []
+  },
+  {
+   "id": "259902",
+   "name": "Matheus Cunha",
+   "jersey": "10",
+   "pos": "F",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p430871.png",
+   "injuries": []
+  },
+  {
+   "id": "271170",
+   "name": "Bryan Mbeumo",
+   "jersey": "19",
+   "pos": "F",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p446008.png",
+   "injuries": []
+  },
+  {
+   "id": "276327",
+   "name": "Joshua Zirkzee",
+   "jersey": "11",
+   "pos": "F",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p458249.png",
+   "injuries": []
+  },
+  {
+   "id": "289155",
+   "name": "Benjamin Sesko",
+   "jersey": "30",
+   "pos": "F",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p485711.png",
+   "injuries": []
+  },
+  {
+   "id": "291630",
+   "name": "Amad Diallo",
+   "jersey": "16",
+   "pos": "F",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p493250.png",
+   "injuries": []
+  },
+  {
+   "id": "358180",
+   "name": "Shea Lacey",
+   "jersey": "31",
+   "pos": "F",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p576628.png",
+   "injuries": []
+  },
+  {
+   "id": "397881",
+   "name": "Tynan Thompson",
+   "jersey": null,
+   "pos": "F",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p671875.png",
+   "injuries": []
+  }
+ ]
+}

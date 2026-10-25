@@ -1,35 +1,58 @@
-name: update-data
+name: update-and-deploy
 
 on:
   schedule:
-    - cron: "7 * * * *"   # 毎時7分（UTC）に実行
-  workflow_dispatch:       # 手動実行もできる
+    - cron: "7 * * * *"   # 毎時7分（UTC）にデータ更新
+  push:
+    branches: [main]      # 手動で push したときもサイトを再公開
+  workflow_dispatch:      # 手動実行
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
-  group: update-data
+  group: update-and-deploy
   cancel-in-progress: false
 
 jobs:
-  update:
+  update-and-deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
       - name: Fetch lineups / fixtures / photos
         run: python scripts/update.py
-      - name: Commit changes
+        continue-on-error: true   # 取得に失敗しても前回のデータでサイトは公開し続ける
+
+      - name: Commit data changes
         run: |
           git config user.name "pl-watch bot"
           git config user.email "actions@users.noreply.github.com"
           git add data
           if git diff --cached --quiet; then
-            echo "no changes"
+            echo "no data changes"
           else
             git commit -m "data: auto update $(date -u +%Y-%m-%dT%H:%MZ)"
             git push
           fi
+
+      # GitHub Pages は初回に自動で有効化される（enablement: true）
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -73,14 +73,13 @@
 
 1. GitHub に新しいリポジトリを作る（Public 推奨。Private だと Pages に有料プランが必要）
 2. このフォルダを push する
-3. リポジトリの **Settings → Pages → Build and deployment** で
-   Source: `Deploy from a branch`、Branch: `main` / `/ (root)` を選んで Save
-4. **Settings → Actions → General → Workflow permissions** で
-   `Read and write permissions` を選んで Save（自動更新がデータを commit するため）
-5. **Actions** タブで `update-data` を開き `Run workflow` を押すと、初回の更新が走ります
-6. 数分後 `https://<ユーザー名>.github.io/<リポジトリ名>/` で見られます
+3. push をきっかけに **Actions** の `update-and-deploy` が走り、GitHub Pages が自動で有効化・公開されます
+4. 数分後 `https://<ユーザー名>.github.io/<リポジトリ名>/` で見られます（URL は Actions の実行結果にも表示されます）
 
-以降は毎時7分（UTC）に自動更新されます。費用はかかりません。
+以降は毎時7分（UTC）にデータ更新と再公開が自動で行われます。費用はかかりません。
+
+うまくいかないときは **Settings → Actions → General → Workflow permissions** が
+`Read and write permissions` になっているか確認してください。
 
 ---
 

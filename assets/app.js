@@ -102,15 +102,20 @@
     else if (kind === "watched") badge = `<span class="badge dim">観た ✓</span>`;
     else if (kind === "open") badge = `<span class="badge">${f.hasLineup ? "スタメン公開" : "未視聴"}</span>`;
     else if (kind === "locked") {
-      badge = `<span class="badge dim">ロック</span>`;
+      badge = "";
       opp = "？？？"; sub = `${ha} ・ 前の試合を観ると表示`;
     } else if (kind === "postponed") badge = `<span class="badge warn">延期</span>`;
     else badge = `<span class="badge dim">予定</span>`;
     const clickable = kind !== "locked";
+    // 一覧から直接「観た」にできるボタン
+    let btn = "";
+    if (kind === "current" || kind === "open") btn = `<button class="row-btn" data-act="watch" title="この試合を観た">✓ 観た</button>`;
+    else if (kind === "locked") btn = `<button class="row-btn" data-act="upto" title="この試合まで全部観たことにする">ここまで観た</button>`;
+    else if (kind === "watched") btn = `<button class="row-btn ghost" data-act="unwatch" title="未視聴に戻す">戻す</button>`;
     return `<div class="fx ${esc(kind)} ${big ? "big" : ""} ${clickable ? "clickable" : ""} ${state.selected === f.eventId ? "selected" : ""}" data-id="${esc(f.eventId)}" ${clickable ? 'role="button" tabindex="0"' : ""}>
       <div class="d">${esc(t.md)}<small>${esc(t.wd)} ${esc(t.hm)}</small></div>
       ${kind === "locked" ? `<div class="lockic">🔒</div>` : crest}
-      <div class="o">${opp}<small>${sub}</small></div>${badge}</div>`;
+      <div class="o">${opp}<small>${sub}</small></div><div class="side">${badge}${btn}</div></div>`;
   }
 
   function renderList() {
@@ -147,10 +152,31 @@
     const el = $("#list");
     el.innerHTML = html;
     el.querySelectorAll(".fx.clickable").forEach(row => {
-      const go = () => openMatch(row.dataset.id);
+      const go = (e) => { if (e.target.closest(".row-btn")) return; openMatch(row.dataset.id); };
       row.addEventListener("click", go);
-      row.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); go(); } });
+      row.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); go(e); } });
     });
+    el.querySelectorAll(".row-btn").forEach(b => b.addEventListener("click", e => {
+      e.stopPropagation();
+      const id = b.closest(".fx").dataset.id;
+      const f = state.fixtures.find(x => x.eventId === id);
+      if (!f) return;
+      if (b.dataset.act === "watch") { setWatched(id, true); toast("観た試合に記録しました"); }
+      else if (b.dataset.act === "unwatch") { setWatched(id, false); toast("未視聴に戻しました"); }
+      else if (b.dataset.act === "upto") {
+        const n = state.fixtures.filter(x => x.date <= f.date && (x.status === "played" || x.hasLineup) && !watchedSet().has(x.eventId)).length;
+        if (!confirm(`${fmtParts(f.date).md} の試合までの ${n} 試合をすべて「観た」にしますか？`)) return;
+        state.fixtures.filter(x => x.date <= f.date && (x.status === "played" || x.hasLineup)).forEach(x => setWatched(x.eventId, true));
+        toast(`${n} 試合を「観た」に記録しました`);
+      }
+      renderList();
+      // 詳細を開いていたら、その表示も最新の状態に合わせる
+      if (state.selected) {
+        const sf = state.fixtures.find(x => x.eventId === state.selected);
+        const sm = state.matchCache.get(state.selected) || null;
+        if (sf) renderDetail(sf, sm, classify().get(sf.eventId));
+      }
+    }));
   }
 
   // ---------------------------------------------------------------- 描画: 詳細

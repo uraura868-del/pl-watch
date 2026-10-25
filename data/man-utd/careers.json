@@ -1,0 +1,1847 @@
+{
+ "updatedAt": "2026-10-25T02:07:17Z",
+ "players": {
+  "42250": {
+   "name": "Tom Heaton",
+   "qid": "Q357912",
+   "career": [
+    {
+     "club": "U-16サッカーイングランド代表",
+     "clubEn": "England national under-16 association football team",
+     "start": "2001",
+     "end": "2001",
+     "apps": 4,
+     "national": true,
+     "youth": true,
+     "loan": false
+    },
+    {
+     "club": "U-17サッカーイングランド代表",
+     "clubEn": "England national under-17 association football team",
+     "start": "2002",
+     "end": "2003",
+     "apps": 9,
+     "national": true,
+     "youth": true,
+     "loan": false
+    },
+    {
+     "club": "England national under-18 association football team",
+     "clubEn": "England national under-18 association football team",
+     "start": "2004",
+     "end": "2004",
+     "apps": 2,
+     "national": true,
+     "youth": true,
+     "loan": false
+    },
+    {
+     "club": "U-19サッカーイングランド代表",
+     "clubEn": "England national under-19 association football team",
+     "start": "2004",
+     "end": "2004",
+     "apps": 1,
+     "national": true,
+     "youth": true,
+     "loan": false
+    },
+    {
+     "club": "スウィンドン・タウンFC",
+     "clubEn": "Swindon Town F.C.",
+     "start": "2005",
+     "end": "2006",
+     "apps": 14,
+     "national": false,
+     "youth": false,
+     "loan": true
+    },
+    {
+     "club": "マンチェスター・ユナイテッドFC",
+     "clubEn": "Manchester United F.C.",
+     "start": "2005",
+     "end": "2010",
+     "apps": 0,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "ロイヤル・アントワープFC",
+     "clubEn": "Royal Antwerp F.C.",
+     "start": "2006",
+     "end": "2006",
+     "apps": 0,
+     "national": false,
+     "youth": false,
+     "loan": true
+    },
+    {
+     "club": "カーディフ・シティFC",
+     "clubEn": "Cardiff City F.C.",
+     "start": "2008",
+     "end": "2009",
+     "apps": 21,
+     "national": false,
+     "youth": false,
+     "loan": true
+    },
+    {
+     "club": "サッカーイングランドU-21代表",
+     "clubEn": "England national under-21 association football team",
+     "start": "2008",
+     "end": "2009",
+     "apps": 3,
+     "national": true,
+     "youth": true,
+     "loan": false
+    },
+    {
+     "club": "クイーンズ・パーク・レンジャーズFC",
+     "clubEn": "Queens Park Rangers F.C.",
+     "start": "2009",
+     "end": "2009",
+     "apps": 0,
+     "national": false,
+     "youth": false,
+     "loan": true
+    },
+    {
+     "club": "ロッチデールAFC",
+     "clubEn": "Rochdale A.F.C.",
+     "start": "2009",
+     "end": "2010",
+     "apps": 12,
+     "national": false,
+     "youth": false,
+     "loan": true
+    },
+    {
+     "club": "ウィコム・ワンダラーズFC",
+     "clubEn": "Wycombe Wanderers F.C.",
+     "start": "2010",
+     "end": "2010",
+     "apps": 16,
+     "national": false,
+     "youth": false,
+     "loan": true
+    },
+    {
+     "club": "カーディフ・シティFC",
+     "clubEn": "Cardiff City F.C.",
+     "start": "2010",
+     "end": "2012",
+     "apps": 29,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "ブリストル・シティFC",
+     "clubEn": "Bristol City F.C.",
+     "start": "2012",
+     "end": "2013",
+     "apps": 43,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "バーンリーFC",
+     "clubEn": "Burnley F.C.",
+     "start": "2013",
+     "end": "2019",
+     "apps": 188,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "サッカーイングランド代表",
+     "clubEn": "England men's national association football team",
+     "start": "2016",
+     "end": "2017",
+     "apps": 3,
+     "national": true,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "アストン・ヴィラFC",
+     "clubEn": "Aston Villa F.C.",
+     "start": "2019",
+     "end": "2021",
+     "apps": 20,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "マンチェスター・ユナイテッドFC",
+     "clubEn": "Manchester United F.C.",
+     "start": "2021",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false
+    }
+   ],
+   "fetchedAt": "2026-10-25T02:04:24Z"
+  },
+  "130877": {
+   "name": "Karl Darlow",
+   "qid": "Q1730695",
+   "career": [
+    {
+     "club": "ノッティンガム・フォレストFC",
+     "clubEn": "Nottingham Forest F.C.",
+     "start": "2010",
+     "end": "2014",
+     "apps": 64,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "ウォルソールFC",
+     "clubEn": "Walsall F.C.",
+     "start": "2012",
+     "end": "2012",
+     "apps": 7,
+     "national": false,
+     "youth": false,
+     "loan": true
+    },
+    {
+     "club": "ニューポート・カウンティAFC",
+     "clubEn": "Newport County A.F.C.",
+     "start": "2012",
+     "end": "2012",
+     "apps": 8,
+     "national": false,
+     "youth": false,
+     "loan": true
+    },
+    {
+     "club": "ウォルソールFC",
+     "clubEn": "Walsall F.C.",
+     "start": "2013",
+     "end": "2013",
+     "apps": 2,
+     "national": false,
+     "youth": false,
+     "loan": true
+    },
+    {
+     "club": "ノッティンガム・フォレストFC",
+     "clubEn": "Nottingham Forest F.C.",
+     "start": "2014",
+     "end": "2015",
+     "apps": 42,
+     "national": false,
+     "youth": false,
+     "loan": true
+    },
+    {
+     "club": "ニューカッスル・ユナイテッドFC",
+     "clubEn": "Newcastle United F.C.",
+     "start": "2014",
+     "end": "2023",
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "リーズ・ユナイテッドAFC",
+     "clubEn": "Leeds United F.C.",
+     "start": "2023",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false
+    }
+   ],
+   "fetchedAt": "2026-10-25T02:04:24Z"
+  },
+  "301425": {
+   "name": "Senne Lammens",
+   "qid": "Q98100512",
+   "career": [
+    {
+     "club": "サッカーベルギー代表",
+     "clubEn": "Belgium men's national football team",
+     "start": "2015",
+     "end": null,
+     "apps": 3,
+     "national": true,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "クラブ・ブルッヘ",
+     "clubEn": "Club Brugge K.V.",
+     "start": "2020",
+     "end": "2023",
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "ロイヤル・アントワープFC",
+     "clubEn": "Royal Antwerp F.C.",
+     "start": "2023",
+     "end": "2025",
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "マンチェスター・ユナイテッドFC",
+     "clubEn": "Manchester United F.C.",
+     "start": "2025",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false
+    }
+   ],
+   "fetchedAt": "2026-10-25T02:04:24Z"
+  },
+  "325550": {
+   "name": "Dermot Mee",
+   "qid": "Q134080600",
+   "career": [],
+   "fetchedAt": "2026-10-25T02:04:24Z"
+  },
+  "167127": {
+   "name": "Luke Shaw",
+   "qid": "Q93563",
+   "career": [
+    {
+     "club": "U-16サッカーイングランド代表",
+     "clubEn": "England national under-16 association football team",
+     "start": "2011",
+     "end": "2011",
+     "apps": 6,
+     "national": true,
+     "youth": true,
+     "loan": false
+    },
+    {
+     "club": "U-17サッカーイングランド代表",
+     "clubEn": "England national under-17 association football team",
+     "start": "2011",
+     "end": "2012",
+     "apps": 8,
+     "national": true,
+     "youth": true,
+     "loan": false
+    },
+    {
+     "club": "サウサンプトンFC",
+     "clubEn": "Southampton F.C.",
+     "start": "2011",
+     "end": "2014",
+     "apps": 60,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "サッカーイングランドU-21代表",
+     "clubEn": "England national under-21 association football team",
+     "start": "2013",
+     "end": "2014",
+     "apps": 5,
+     "national": true,
+     "youth": true,
+     "loan": false
+    },
+    {
+     "club": "サッカーイングランド代表",
+     "clubEn": "England men's national association football team",
+     "start": "2014",
+     "end": "2024",
+     "apps": 34,
+     "national": true,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "マンチェスター・ユナイテッドFC",
+     "clubEn": "Manchester United F.C.",
+     "start": "2014",
+     "end": null,
+     "apps": 241,
+     "national": false,
+     "youth": false,
+     "loan": false
+    }
+   ],
+   "fetchedAt": "2026-10-25T02:04:24Z"
+  },
+  "233937": {
+   "name": "Lisandro Martínez",
+   "qid": "Q30881092",
+   "career": [
+    {
+     "club": "CSDデフェンサ・イ・フスティシア",
+     "clubEn": "Defensa y Justicia",
+     "start": "2017",
+     "end": "2018",
+     "apps": 21,
+     "national": false,
+     "youth": false,
+     "loan": true
+    },
+    {
+     "club": "U-20サッカーアルゼンチン代表",
+     "clubEn": "Argentina national under-20 football team",
+     "start": "2017",
+     "end": "2018",
+     "apps": 4,
+     "national": true,
+     "youth": true,
+     "loan": false
+    },
+    {
+     "club": "ニューウェルズ・オールドボーイズ",
+     "clubEn": "Newell's Old Boys",
+     "start": "2017",
+     "end": "2018",
+     "apps": 1,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "CSDデフェンサ・イ・フスティシア",
+     "clubEn": "Defensa y Justicia",
+     "start": "2018",
+     "end": "2019",
+     "apps": 25,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "U-23サッカーアルゼンチン代表",
+     "clubEn": "Argentina national under-23 football team",
+     "start": "2019",
+     "end": "2019",
+     "apps": 1,
+     "national": true,
+     "youth": true,
+     "loan": false
+    },
+    {
+     "club": "アヤックス・アムステルダム",
+     "clubEn": "AFC Ajax",
+     "start": "2019",
+     "end": "2022",
+     "apps": 74,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "サッカーアルゼンチン代表",
+     "clubEn": "Argentina national football team",
+     "start": "2019",
+     "end": null,
+     "apps": 38,
+     "national": true,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "マンチェスター・ユナイテッドFC",
+     "clubEn": "Manchester United F.C.",
+     "start": "2022",
+     "end": null,
+     "apps": 80,
+     "national": false,
+     "youth": false,
+     "loan": false
+    }
+   ],
+   "fetchedAt": "2026-10-25T02:04:24Z"
+  },
+  "238902": {
+   "name": "Diogo Dalot",
+   "qid": "Q26255506",
+   "career": [
+    {
+     "club": "FCポルト",
+     "clubEn": "FC Porto",
+     "start": "2017",
+     "end": "2018",
+     "apps": 6,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "U-23サッカーポルトガル代表",
+     "clubEn": "Portugal national under-21 football team",
+     "start": "2017",
+     "end": "2021",
+     "apps": 15,
+     "national": true,
+     "youth": true,
+     "loan": false
+    },
+    {
+     "club": "マンチェスター・ユナイテッドFC",
+     "clubEn": "Manchester United F.C.",
+     "start": "2018",
+     "end": null,
+     "apps": 173,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "ACミラン",
+     "clubEn": "AC Milan",
+     "start": "2020",
+     "end": "2021",
+     "apps": 21,
+     "national": false,
+     "youth": false,
+     "loan": true
+    },
+    {
+     "club": "サッカーポルトガル代表",
+     "clubEn": "Portugal men's national football team",
+     "start": "2021",
+     "end": null,
+     "apps": 37,
+     "national": true,
+     "youth": false,
+     "loan": false
+    }
+   ],
+   "fetchedAt": "2026-10-25T02:04:24Z"
+  },
+  "239349": {
+   "name": "Matthijs de Ligt",
+   "qid": "Q26259982",
+   "career": [
+    {
+     "club": "アヤックス・アムステルダム",
+     "clubEn": "AFC Ajax",
+     "start": "2016",
+     "end": "2019",
+     "apps": 117,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "サッカーオランダ代表",
+     "clubEn": "Netherlands national association football team",
+     "start": "2017",
+     "end": null,
+     "apps": 50,
+     "national": true,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "ユヴェントスFC",
+     "clubEn": "Juventus FC",
+     "start": "2019",
+     "end": "2022",
+     "apps": 117,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "FCバイエルン・ミュンヘン",
+     "clubEn": "FC Bayern Munich",
+     "start": "2022",
+     "end": "2024",
+     "apps": 53,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "マンチェスター・ユナイテッドFC",
+     "clubEn": "Manchester United F.C.",
+     "start": "2024",
+     "end": null,
+     "apps": 42,
+     "national": false,
+     "youth": false,
+     "loan": false
+    }
+   ],
+   "fetchedAt": "2026-10-25T02:04:24Z"
+  },
+  "239350": {
+   "name": "Noussair Mazraoui",
+   "qid": "Q26266244",
+   "career": [
+    {
+     "club": "アヤックス・アムステルダム",
+     "clubEn": "AFC Ajax",
+     "start": null,
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "サッカーモロッコ代表",
+     "clubEn": "Morocco men's national football team",
+     "start": null,
+     "end": null,
+     "apps": null,
+     "national": true,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "マンチェスター・ユナイテッドFC",
+     "clubEn": "Manchester United F.C.",
+     "start": "2024",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false
+    }
+   ],
+   "fetchedAt": "2026-10-25T02:04:24Z"
+  },
+  "340206": {
+   "name": "Leny Yoro",
+   "qid": "Q112039295",
+   "career": [
+    {
+     "club": "LOSCリール",
+     "clubEn": "Lille OSC",
+     "start": "2022",
+     "end": "2024",
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "マンチェスター・ユナイテッドFC",
+     "clubEn": "Manchester United F.C.",
+     "start": "2024",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false
+    }
+   ],
+   "fetchedAt": "2026-10-25T02:04:24Z"
+  },
+  "356044": {
+   "name": "Ayden Heaven",
+   "qid": "Q130319703",
+   "career": [
+    {
+     "club": "アーセナルFC",
+     "clubEn": "Arsenal F.C.",
+     "start": "2024",
+     "end": "2025",
+     "apps": 0,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "マンチェスター・ユナイテッドFC",
+     "clubEn": "Manchester United F.C.",
+     "start": "2025",
+     "end": null,
+     "apps": 0,
+     "national": false,
+     "youth": false,
+     "loan": false
+    }
+   ],
+   "fetchedAt": "2026-10-25T02:04:24Z"
+  },
+  "356940": {
+   "name": "Harry Amass",
+   "qid": "Q119971486",
+   "career": [],
+   "fetchedAt": "2026-10-25T02:04:24Z"
+  },
+  "366781": {
+   "name": "Patrick Dorgu",
+   "qid": "Q121903982",
+   "career": [],
+   "fetchedAt": "2026-10-25T02:04:24Z"
+  },
+  "381055": {
+   "name": "Daniel Armer",
+   "qid": "Q140697122",
+   "career": [
+    {
+     "club": "ヴィルトゥス・フランカヴィッラ・カルチョ",
+     "clubEn": "Virtus Francavilla",
+     "start": null,
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "ジェノアCFC",
+     "clubEn": "Genoa CFC",
+     "start": null,
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "ラピド・ブカレスト",
+     "clubEn": "FC Rapid București",
+     "start": "2026",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": true
+    }
+   ],
+   "fetchedAt": "2026-10-25T02:04:24Z"
+  },
+  "386199": {
+   "name": "Jaydan Kamason",
+   "qid": "Q134017281",
+   "career": [],
+   "fetchedAt": "2026-10-25T02:04:24Z"
+  },
+  "124091": {
+   "name": "Bruno Fernandes",
+   "qid": "Q4979316",
+   "career": [
+    {
+     "club": "U-19サッカーポルトガル代表",
+     "clubEn": "Portugal national under-19 football team",
+     "start": "2012",
+     "end": "2012",
+     "apps": 2,
+     "national": true,
+     "youth": true,
+     "loan": false
+    },
+    {
+     "club": "ノヴァーラFC",
+     "clubEn": "Novara Calcio",
+     "start": "2012",
+     "end": "2013",
+     "apps": 23,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "ウディネーゼ・カルチョ",
+     "clubEn": "Udinese Calcio",
+     "start": "2013",
+     "end": "2016",
+     "apps": 86,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "U-20サッカーポルトガル代表",
+     "clubEn": "Portugal national under-20 football team",
+     "start": "2014",
+     "end": "2014",
+     "apps": 5,
+     "national": true,
+     "youth": true,
+     "loan": false
+    },
+    {
+     "club": "U-23サッカーポルトガル代表",
+     "clubEn": "Portugal national under-21 football team",
+     "start": "2014",
+     "end": "2017",
+     "apps": 17,
+     "national": true,
+     "youth": true,
+     "loan": false
+    },
+    {
+     "club": "U-23サッカーポルトガル代表",
+     "clubEn": "Portugal Olympic football team",
+     "start": "2016",
+     "end": "2016",
+     "apps": 4,
+     "national": true,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "UCサンプドリア",
+     "clubEn": "U.C. Sampdoria",
+     "start": "2016",
+     "end": "2017",
+     "apps": 33,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "スポルティング・クルーベ・デ・ポルトゥガル",
+     "clubEn": "Sporting CP",
+     "start": "2017",
+     "end": "2020",
+     "apps": 83,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "サッカーポルトガル代表",
+     "clubEn": "Portugal men's national football team",
+     "start": "2017",
+     "end": null,
+     "apps": 97,
+     "national": true,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "マンチェスター・ユナイテッドFC",
+     "clubEn": "Manchester United F.C.",
+     "start": "2020",
+     "end": null,
+     "apps": 235,
+     "national": false,
+     "youth": false,
+     "loan": false
+    }
+   ],
+   "fetchedAt": "2026-10-25T02:04:24Z"
+  },
+  "193297": {
+   "name": "Youri Tielemans",
+   "qid": "Q14327453",
+   "career": [
+    {
+     "club": "Belgium national under-16 association football team",
+     "clubEn": "Belgium national under-16 association football team",
+     "start": "2012",
+     "end": "2013",
+     "apps": 10,
+     "national": true,
+     "youth": true,
+     "loan": false
+    },
+    {
+     "club": "U-21サッカーベルギー代表",
+     "clubEn": "Belgium national under-21 football team",
+     "start": "2013",
+     "end": "2016",
+     "apps": 14,
+     "national": true,
+     "youth": true,
+     "loan": false
+    },
+    {
+     "club": "RSCアンデルレヒト",
+     "clubEn": "R.S.C. Anderlecht",
+     "start": "2013",
+     "end": "2017",
+     "apps": 139,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "サッカーベルギー代表",
+     "clubEn": "Belgium men's national football team",
+     "start": "2016",
+     "end": null,
+     "apps": 93,
+     "national": true,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "ASモナコ",
+     "clubEn": "AS Monaco FC",
+     "start": "2017",
+     "end": "2019",
+     "apps": 47,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "レスター・シティFC",
+     "clubEn": "Leicester City F.C.",
+     "start": "2019",
+     "end": "2019",
+     "apps": 13,
+     "national": false,
+     "youth": false,
+     "loan": true
+    },
+    {
+     "club": "レスター・シティFC",
+     "clubEn": "Leicester City F.C.",
+     "start": "2019",
+     "end": "2023",
+     "apps": 138,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "アストン・ヴィラFC",
+     "clubEn": "Aston Villa F.C.",
+     "start": "2023",
+     "end": "2026",
+     "apps": 93,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "マンチェスター・ユナイテッドFC",
+     "clubEn": "Manchester United F.C.",
+     "start": "2026",
+     "end": null,
+     "apps": 5,
+     "national": false,
+     "youth": false,
+     "loan": false
+    }
+   ],
+   "fetchedAt": "2026-10-25T02:04:24Z"
+  },
+  "205081": {
+   "name": "Jack Fletcher",
+   "qid": "Q129631946",
+   "career": [],
+   "fetchedAt": "2026-10-25T02:04:24Z"
+  },
+  "231167": {
+   "name": "Mason Mount",
+   "qid": "Q38000669",
+   "career": [
+    {
+     "club": "U-16サッカーイングランド代表",
+     "clubEn": "England national under-16 association football team",
+     "start": "2014",
+     "end": "2015",
+     "apps": 5,
+     "national": true,
+     "youth": true,
+     "loan": false
+    },
+    {
+     "club": "U-17サッカーイングランド代表",
+     "clubEn": "England national under-17 association football team",
+     "start": "2015",
+     "end": "2016",
+     "apps": 9,
+     "national": true,
+     "youth": true,
+     "loan": false
+    },
+    {
+     "club": "England national under-18 association football team",
+     "clubEn": "England national under-18 association football team",
+     "start": "2016",
+     "end": "2016",
+     "apps": 5,
+     "national": true,
+     "youth": true,
+     "loan": false
+    },
+    {
+     "club": "フィテッセ",
+     "clubEn": "SBV Vitesse",
+     "start": "2017",
+     "end": "2018",
+     "apps": 29,
+     "national": false,
+     "youth": false,
+     "loan": true
+    },
+    {
+     "club": "U-19サッカーイングランド代表",
+     "clubEn": "England national under-19 association football team",
+     "start": "2017",
+     "end": "2018",
+     "apps": 17,
+     "national": true,
+     "youth": true,
+     "loan": false
+    },
+    {
+     "club": "チェルシーFC",
+     "clubEn": "Chelsea F.C.",
+     "start": "2017",
+     "end": "2023",
+     "apps": 129,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "サッカーイングランドU-21代表",
+     "clubEn": "England national under-21 association football team",
+     "start": "2018",
+     "end": "2019",
+     "apps": 4,
+     "national": true,
+     "youth": true,
+     "loan": false
+    },
+    {
+     "club": "ダービー・カウンティFC",
+     "clubEn": "Derby County F.C.",
+     "start": "2018",
+     "end": "2019",
+     "apps": 35,
+     "national": false,
+     "youth": false,
+     "loan": true
+    },
+    {
+     "club": "サッカーイングランド代表",
+     "clubEn": "England men's national association football team",
+     "start": "2019",
+     "end": "2022",
+     "apps": 36,
+     "national": true,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "マンチェスター・ユナイテッドFC",
+     "clubEn": "Manchester United F.C.",
+     "start": "2023",
+     "end": null,
+     "apps": 54,
+     "national": false,
+     "youth": false,
+     "loan": false
+    }
+   ],
+   "fetchedAt": "2026-10-25T02:04:24Z"
+  },
+  "241468": {
+   "name": "Manuel Ugarte",
+   "qid": "Q27960175",
+   "career": [
+    {
+     "club": "CAフェニックス",
+     "clubEn": "Centro Atlético Fénix",
+     "start": "2016",
+     "end": "2020",
+     "apps": 53,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "U-20サッカーウルグアイ代表",
+     "clubEn": "Uruguay national under-20 football team",
+     "start": "2018",
+     "end": "2020",
+     "apps": 5,
+     "national": true,
+     "youth": true,
+     "loan": false
+    },
+    {
+     "club": "FCファマリカン",
+     "clubEn": "FC Famalicão",
+     "start": "2020",
+     "end": "2021",
+     "apps": 20,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "スポルティング・クルーベ・デ・ポルトゥガル",
+     "clubEn": "Sporting CP",
+     "start": "2021",
+     "end": "2023",
+     "apps": 56,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "サッカーウルグアイ代表",
+     "clubEn": "Uruguay men's national football team",
+     "start": "2021",
+     "end": null,
+     "apps": 22,
+     "national": true,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "パリ・サンジェルマンFC",
+     "clubEn": "Paris Saint-Germain FC",
+     "start": "2023",
+     "end": "2024",
+     "apps": 25,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "マンチェスター・ユナイテッドFC",
+     "clubEn": "Manchester United F.C.",
+     "start": "2024",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false
+    }
+   ],
+   "fetchedAt": "2026-10-25T02:04:24Z"
+  },
+  "314858": {
+   "name": "Andrey Santos",
+   "qid": "Q106171073",
+   "career": [],
+   "fetchedAt": "2026-10-25T02:04:24Z"
+  },
+  "328466": {
+   "name": "Kobbie Mainoo",
+   "qid": "Q114703020",
+   "career": [
+    {
+     "club": "U-17サッカーイングランド代表",
+     "clubEn": "England national under-17 association football team",
+     "start": "2021",
+     "end": "2022",
+     "apps": 5,
+     "national": true,
+     "youth": true,
+     "loan": false
+    },
+    {
+     "club": "England national under-18 association football team",
+     "clubEn": "England national under-18 association football team",
+     "start": "2022",
+     "end": null,
+     "apps": 2,
+     "national": true,
+     "youth": true,
+     "loan": false
+    },
+    {
+     "club": "マンチェスター・ユナイテッドFC",
+     "clubEn": "Manchester United F.C.",
+     "start": "2022",
+     "end": null,
+     "apps": 83,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "U-19サッカーイングランド代表",
+     "clubEn": "England national under-19 association football team",
+     "start": "2023",
+     "end": null,
+     "apps": 6,
+     "national": true,
+     "youth": true,
+     "loan": false
+    },
+    {
+     "club": "サッカーイングランド代表",
+     "clubEn": "England men's national association football team",
+     "start": "2024",
+     "end": null,
+     "apps": 14,
+     "national": true,
+     "youth": false,
+     "loan": false
+    }
+   ],
+   "fetchedAt": "2026-10-25T02:04:24Z"
+  },
+  "338814": {
+   "name": "Carlos Baleba",
+   "qid": "Q113472432",
+   "career": [
+    {
+     "club": "LOSCリール",
+     "clubEn": "Lille OSC",
+     "start": "2022",
+     "end": "2023",
+     "apps": 21,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "ブライトン・アンド・ホーヴ・アルビオンFC",
+     "clubEn": "Brighton & Hove Albion F.C.",
+     "start": "2023",
+     "end": "2026",
+     "apps": 92,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "サッカーカメルーン代表",
+     "clubEn": "Cameroon men's national football team",
+     "start": "2024",
+     "end": null,
+     "apps": 16,
+     "national": true,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "マンチェスター・ユナイテッドFC",
+     "clubEn": "Manchester United F.C.",
+     "start": "2026",
+     "end": null,
+     "apps": 0,
+     "national": false,
+     "youth": false,
+     "loan": false
+    }
+   ],
+   "fetchedAt": "2026-10-25T02:04:24Z"
+  },
+  "393138": {
+   "name": "Tyler Fletcher",
+   "qid": "Q137384640",
+   "career": [],
+   "fetchedAt": "2026-10-25T02:04:24Z"
+  },
+  "230945": {
+   "name": "Marcus Rashford",
+   "qid": "Q22951255",
+   "career": [
+    {
+     "club": "U-16サッカーイングランド代表",
+     "clubEn": "England national under-16 association football team",
+     "start": "2012",
+     "end": "2012",
+     "apps": 2,
+     "national": true,
+     "youth": true,
+     "loan": false
+    },
+    {
+     "club": "England national under-18 association football team",
+     "clubEn": "England national under-18 association football team",
+     "start": "2014",
+     "end": "2014",
+     "apps": 2,
+     "national": true,
+     "youth": true,
+     "loan": false
+    },
+    {
+     "club": "マンチェスター・ユナイテッドFC",
+     "clubEn": "Manchester United F.C.",
+     "start": "2015",
+     "end": null,
+     "apps": 292,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "U-20サッカーイングランド代表",
+     "clubEn": "England national under-20 association football team",
+     "start": "2016",
+     "end": "2016",
+     "apps": 2,
+     "national": true,
+     "youth": true,
+     "loan": false
+    },
+    {
+     "club": "サッカーイングランドU-21代表",
+     "clubEn": "England national under-21 association football team",
+     "start": "2016",
+     "end": "2016",
+     "apps": 1,
+     "national": true,
+     "youth": true,
+     "loan": false
+    },
+    {
+     "club": "サッカーイングランド代表",
+     "clubEn": "England men's national association football team",
+     "start": "2016",
+     "end": null,
+     "apps": 78,
+     "national": true,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "アストン・ヴィラFC",
+     "clubEn": "Aston Villa F.C.",
+     "start": "2025",
+     "end": "2025",
+     "apps": 10,
+     "national": false,
+     "youth": false,
+     "loan": true
+    },
+    {
+     "club": "FCバルセロナ",
+     "clubEn": "FC Barcelona",
+     "start": "2025",
+     "end": "2026",
+     "apps": 32,
+     "national": false,
+     "youth": false,
+     "loan": true
+    }
+   ],
+   "fetchedAt": "2026-10-25T02:04:24Z"
+  },
+  "259902": {
+   "name": "Matheus Cunha",
+   "qid": "Q35831063",
+   "career": [
+    {
+     "club": "FCシオン",
+     "clubEn": "FC Sion",
+     "start": "2017",
+     "end": "2018",
+     "apps": 29,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "RBライプツィヒ",
+     "clubEn": "RB Leipzig",
+     "start": "2018",
+     "end": "2020",
+     "apps": 35,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "U-23サッカーブラジル代表",
+     "clubEn": "Brazil national under-23 football team",
+     "start": "2019",
+     "end": "2021",
+     "apps": 24,
+     "national": true,
+     "youth": true,
+     "loan": false
+    },
+    {
+     "club": "ヘルタ・ベルリン",
+     "clubEn": "Hertha BSC",
+     "start": "2020",
+     "end": "2021",
+     "apps": 39,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "アトレティコ・マドリード",
+     "clubEn": "Atlético Madrid",
+     "start": "2021",
+     "end": "2023",
+     "apps": 40,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "サッカーブラジル代表",
+     "clubEn": "Brazil men's national football team",
+     "start": "2021",
+     "end": null,
+     "apps": 28,
+     "national": true,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "ウォルヴァーハンプトン・ワンダラーズFC",
+     "clubEn": "Wolverhampton Wanderers F.C.",
+     "start": "2023",
+     "end": "2023",
+     "apps": 17,
+     "national": false,
+     "youth": false,
+     "loan": true
+    },
+    {
+     "club": "ウォルヴァーハンプトン・ワンダラーズFC",
+     "clubEn": "Wolverhampton Wanderers F.C.",
+     "start": "2023",
+     "end": "2025",
+     "apps": 65,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "マンチェスター・ユナイテッドFC",
+     "clubEn": "Manchester United F.C.",
+     "start": "2025",
+     "end": null,
+     "apps": 38,
+     "national": false,
+     "youth": false,
+     "loan": false
+    }
+   ],
+   "fetchedAt": "2026-10-25T02:04:24Z"
+  },
+  "271170": {
+   "name": "Bryan Mbeumo",
+   "qid": "Q49561427",
+   "career": [
+    {
+     "club": "U-17サッカーフランス代表",
+     "clubEn": "France national under-17 association football team",
+     "start": "2015",
+     "end": "2015",
+     "apps": 1,
+     "national": true,
+     "youth": true,
+     "loan": false
+    },
+    {
+     "club": "トロワAC",
+     "clubEn": "ES Troyes AC",
+     "start": "2018",
+     "end": "2019",
+     "apps": 41,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "U-20サッカーフランス代表",
+     "clubEn": "France national under-20 association football team",
+     "start": "2018",
+     "end": null,
+     "apps": 3,
+     "national": true,
+     "youth": true,
+     "loan": false
+    },
+    {
+     "club": "U-21サッカーフランス代表",
+     "clubEn": "France national under-21 association football team",
+     "start": "2019",
+     "end": "2020",
+     "apps": 6,
+     "national": true,
+     "youth": true,
+     "loan": false
+    },
+    {
+     "club": "ブレントフォードFC",
+     "clubEn": "Brentford F.C.",
+     "start": "2019",
+     "end": "2025",
+     "apps": 222,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "サッカーカメルーン代表",
+     "clubEn": "Cameroon men's national football team",
+     "start": "2022",
+     "end": null,
+     "apps": 32,
+     "national": true,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "マンチェスター・ユナイテッドFC",
+     "clubEn": "Manchester United F.C.",
+     "start": "2025",
+     "end": null,
+     "apps": 30,
+     "national": false,
+     "youth": false,
+     "loan": false
+    }
+   ],
+   "fetchedAt": "2026-10-25T02:04:24Z"
+  },
+  "276327": {
+   "name": "Joshua Zirkzee",
+   "qid": "Q65675442",
+   "career": [
+    {
+     "club": "Netherlands national under-15 football team",
+     "clubEn": "Netherlands national under-15 football team",
+     "start": "2016",
+     "end": "2016",
+     "apps": 2,
+     "national": true,
+     "youth": true,
+     "loan": false
+    },
+    {
+     "club": "Netherlands national under-16 association football team",
+     "clubEn": "Netherlands national under-16 association football team",
+     "start": "2016",
+     "end": "2017",
+     "apps": 6,
+     "national": true,
+     "youth": true,
+     "loan": false
+    },
+    {
+     "club": "U-17サッカーオランダ代表",
+     "clubEn": "Netherlands national under-17 football team",
+     "start": "2017",
+     "end": "2017",
+     "apps": 2,
+     "national": true,
+     "youth": true,
+     "loan": false
+    },
+    {
+     "club": "Netherlands national under-18 association football team",
+     "clubEn": "Netherlands national under-18 association football team",
+     "start": "2018",
+     "end": "2018",
+     "apps": 7,
+     "national": true,
+     "youth": true,
+     "loan": false
+    },
+    {
+     "club": "U-19サッカーオランダ代表",
+     "clubEn": "Netherlands national under-19 football team",
+     "start": "2019",
+     "end": "2020",
+     "apps": 9,
+     "national": true,
+     "youth": true,
+     "loan": false
+    },
+    {
+     "club": "FCバイエルン・ミュンヘン",
+     "clubEn": "FC Bayern Munich",
+     "start": "2019",
+     "end": "2022",
+     "apps": 12,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "U-21サッカーオランダ代表",
+     "clubEn": "Netherlands national under-21 football team",
+     "start": "2020",
+     "end": "2023",
+     "apps": 19,
+     "national": true,
+     "youth": true,
+     "loan": false
+    },
+    {
+     "club": "パルマFC",
+     "clubEn": "Parma Calcio 1913",
+     "start": "2021",
+     "end": "2021",
+     "apps": 4,
+     "national": false,
+     "youth": false,
+     "loan": true
+    },
+    {
+     "club": "RSCアンデルレヒト",
+     "clubEn": "R.S.C. Anderlecht",
+     "start": "2021",
+     "end": "2022",
+     "apps": 38,
+     "national": false,
+     "youth": false,
+     "loan": true
+    },
+    {
+     "club": "ボローニャFC1909",
+     "clubEn": "Bologna F.C. 1909",
+     "start": "2022",
+     "end": "2024",
+     "apps": 53,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "サッカーオランダ代表",
+     "clubEn": "Netherlands national association football team",
+     "start": "2024",
+     "end": null,
+     "apps": 6,
+     "national": true,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "マンチェスター・ユナイテッドFC",
+     "clubEn": "Manchester United F.C.",
+     "start": "2024",
+     "end": null,
+     "apps": 53,
+     "national": false,
+     "youth": false,
+     "loan": false
+    }
+   ],
+   "fetchedAt": "2026-10-25T02:04:24Z"
+  },
+  "291630": {
+   "name": "Amad Diallo",
+   "qid": "Q72603655",
+   "career": [
+    {
+     "club": "アタランタBC",
+     "clubEn": "Atalanta BC",
+     "start": "2019",
+     "end": "2021",
+     "apps": 4,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "マンチェスター・ユナイテッドFC",
+     "clubEn": "Manchester United F.C.",
+     "start": "2021",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "グラスゴー・レンジャーズFC",
+     "clubEn": "Rangers F.C.",
+     "start": "2022",
+     "end": "2022",
+     "apps": 10,
+     "national": false,
+     "youth": false,
+     "loan": true
+    },
+    {
+     "club": "サンダーランドAFC",
+     "clubEn": "Sunderland A.F.C.",
+     "start": "2022",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": true
+    }
+   ],
+   "fetchedAt": "2026-10-25T02:04:24Z"
+  },
+  "358180": {
+   "name": "Shea Lacey",
+   "qid": "Q117207006",
+   "career": [],
+   "fetchedAt": "2026-10-25T02:04:24Z"
+  },
+  "157073": {
+   "name": "Harry Maguire",
+   "qid": "Q165772",
+   "career": [
+    {
+     "club": "シェフィールド・ユナイテッドFC",
+     "clubEn": "Sheffield United F.C.",
+     "start": "2011",
+     "end": "2014",
+     "apps": 134,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "サッカーイングランドU-21代表",
+     "clubEn": "England national under-21 association football team",
+     "start": "2012",
+     "end": "2012",
+     "apps": 1,
+     "national": true,
+     "youth": true,
+     "loan": false
+    },
+    {
+     "club": "ハル・シティAFC",
+     "clubEn": "Hull City A.F.C.",
+     "start": "2014",
+     "end": "2017",
+     "apps": 54,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "ウィガン・アスレティックFC",
+     "clubEn": "Wigan Athletic F.C.",
+     "start": "2015",
+     "end": "2015",
+     "apps": 16,
+     "national": false,
+     "youth": false,
+     "loan": true
+    },
+    {
+     "club": "レスター・シティFC",
+     "clubEn": "Leicester City F.C.",
+     "start": "2017",
+     "end": "2019",
+     "apps": 69,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "サッカーイングランド代表",
+     "clubEn": "England men's national association football team",
+     "start": "2017",
+     "end": null,
+     "apps": 64,
+     "national": true,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "マンチェスター・ユナイテッドFC",
+     "clubEn": "Manchester United F.C.",
+     "start": "2019",
+     "end": null,
+     "apps": 167,
+     "national": false,
+     "youth": false,
+     "loan": false
+    }
+   ],
+   "fetchedAt": "2026-10-25T02:07:17Z"
+  },
+  "289155": {
+   "name": "Benjamin Sesko",
+   "qid": "Q65950315",
+   "career": [
+    {
+     "club": "U-17サッカースロベニア代表",
+     "clubEn": "Slovenia national under-17 football team",
+     "start": "2018",
+     "end": "2019",
+     "apps": 14,
+     "national": true,
+     "youth": true,
+     "loan": false
+    },
+    {
+     "club": "FCリーフェリング",
+     "clubEn": "FC Liefering",
+     "start": "2019",
+     "end": "2021",
+     "apps": 44,
+     "national": false,
+     "youth": false,
+     "loan": true
+    },
+    {
+     "club": "レッドブル・ザルツブルク",
+     "clubEn": "FC Red Bull Salzburg",
+     "start": "2019",
+     "end": "2023",
+     "apps": 55,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "U-19サッカースロベニア代表",
+     "clubEn": "Slovenia national under-19 football team",
+     "start": "2020",
+     "end": "2020",
+     "apps": 1,
+     "national": true,
+     "youth": true,
+     "loan": false
+    },
+    {
+     "club": "サッカースロベニア代表",
+     "clubEn": "Slovenia men's national football team",
+     "start": "2021",
+     "end": null,
+     "apps": 45,
+     "national": true,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "RBライプツィヒ",
+     "clubEn": "RB Leipzig",
+     "start": "2023",
+     "end": "2025",
+     "apps": 64,
+     "national": false,
+     "youth": false,
+     "loan": false
+    },
+    {
+     "club": "マンチェスター・ユナイテッドFC",
+     "clubEn": "Manchester United F.C.",
+     "start": "2025",
+     "end": null,
+     "apps": 32,
+     "national": false,
+     "youth": false,
+     "loan": false
+    }
+   ],
+   "fetchedAt": "2026-10-25T02:07:17Z"
+  },
+  "397881": {
+   "name": "Tynan Thompson",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T02:07:17Z"
+  }
+ }
+}

@@ -197,6 +197,14 @@ details.more[open] summary::before { content: "▾ "; }
 .stats div { flex: 1; background: var(--tab-bg); border-radius: 12px; padding: 10px; text-align: center; }
 .stats b { display: block; font-family: Oswald, sans-serif; font-size: 24px; line-height: 1; }
 .stats span { font-size: 11px; color: var(--muted); }
+.crow { display: flex; align-items: baseline; gap: 10px; padding: 5px 0; font-size: 13px; border-top: 1px solid rgba(255,255,255,.05); }
+.crow:first-of-type { border-top: 0; }
+.crow .cy { font-family: Oswald, sans-serif; font-size: 13px; color: var(--muted); width: 86px; flex: 0 0 auto; letter-spacing: .03em; }
+.crow .cn { flex: 1; min-width: 0; font-weight: 500; }
+.crow .ca { font-size: 11px; color: var(--muted); white-space: nowrap; }
+.crow.cur .cn { font-weight: 700; color: #fff; }
+.crow.cur .cy { color: var(--accent); }
+.ctag { display: inline-block; margin-left: 6px; font-size: 10px; padding: 1px 6px; border-radius: 4px; background: var(--tab-bg); color: var(--muted); vertical-align: middle; }
 .abs-row { font-size: 13px; padding: 4px 0; }
 .abs-row small { display: block; color: var(--muted); font-size: 11px; }
 

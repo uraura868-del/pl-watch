@@ -21,6 +21,7 @@ import time
 import unicodedata
 import urllib.request
 import urllib.error
+import urllib.parse
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -194,6 +195,148 @@ def find_in_index(name: str, index: dict[str, dict]) -> dict | None:
 def find_photo(name: str, index: dict[str, dict]) -> str | None:
     rec = find_in_index(name, index)
     return rec.get("photo") if rec else None
+
+
+# ---------------------------------------------------------------- 経歴 (Wikidata)
+WD_SPARQL = "https://query.wikidata.org/sparql"
+# Wikimedia の UA ポリシーに合わせる（連絡先URL入り。形式が違うと 429 で弾かれる）
+WD_UA = "Mozilla/5.0 (compatible; pl-watch/0.1; +https://github.com/uraura868-del/pl-watch)"
+CAREER_TTL_DAYS = 30
+
+
+def sparql(query: str) -> list[dict]:
+    url = WD_SPARQL + "?format=json&query=" + urllib.parse.quote(query)
+    for attempt in range(3):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": WD_UA, "Accept": "application/sparql-results+json"})
+            with urllib.request.urlopen(req, timeout=60) as r:
+                return json.loads(r.read().decode("utf-8")).get("results", {}).get("bindings", [])
+        except urllib.error.HTTPError as e:
+            log(f"  wikidata HTTP {e.code}")
+            if e.code == 429:
+                time.sleep(10 * (attempt + 1))
+                continue
+            return []
+        except Exception as e:  # noqa: BLE001
+            log(f"  wikidata error {e}")
+            time.sleep(3)
+    return []
+
+
+def _v(b: dict, k: str):
+    return (b.get(k) or {}).get("value")
+
+
+def wd_find_player(name: str, dob: str) -> str | None:
+    """生年月日が一致するサッカー選手の中から、名前が合う人物の QID を返す"""
+    q = f'''
+    SELECT ?p ?pLabel (GROUP_CONCAT(DISTINCT ?alias; separator="|") AS ?aliases) WHERE {{
+      ?p wdt:P569 "{dob}T00:00:00Z"^^xsd:dateTime .
+      ?p wdt:P106 wd:Q937857 .
+      OPTIONAL {{ ?p skos:altLabel ?alias FILTER(lang(?alias) IN ("en", "mul")) }}
+      SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en,mul". }}
+    }} GROUP BY ?p ?pLabel'''
+    rows = sparql(q)
+    if not rows:
+        return None
+    n_tokens = set(norm_name(name).split())
+    last = norm_name(name).split()[-1] if n_tokens else ""
+    best, best_score = None, 0
+    for b in rows:
+        labels = [_v(b, "pLabel") or ""] + (_v(b, "aliases") or "").split("|")
+        score = 0
+        for lab in labels:
+            toks = set(norm_name(lab).split())
+            if not toks:
+                continue
+            if norm_name(lab) == norm_name(name):
+                score = max(score, 3)
+            elif last and last in toks:
+                score = max(score, 2)
+            elif toks & n_tokens:
+                score = max(score, 1)
+        if score > best_score:
+            best, best_score = _v(b, "p"), score
+    if best_score == 0 and len(rows) == 1:
+        # 同じ生年月日のサッカー選手が1人しかいなければ、その人物とみなす
+        best = _v(rows[0], "p")
+    return best.rsplit("/", 1)[-1] if best else None
+
+
+def wd_career(qid: str) -> list[dict]:
+    q = f'''
+    SELECT ?club ?clubEn ?clubJa ?start ?end ?apps ?acqLabel ?isNat WHERE {{
+      wd:{qid} p:P54 ?s . ?s ps:P54 ?club .
+      OPTIONAL {{ ?s pq:P580 ?start }}
+      OPTIONAL {{ ?s pq:P582 ?end }}
+      OPTIONAL {{ ?s pq:P1350 ?apps }}
+      OPTIONAL {{ ?s pq:P1642 ?acq . ?acq rdfs:label ?acqLabel FILTER(lang(?acqLabel) = "en") }}
+      OPTIONAL {{ ?club rdfs:label ?clubJa FILTER(lang(?clubJa) = "ja") }}
+      OPTIONAL {{ ?club rdfs:label ?clubEn FILTER(lang(?clubEn) = "en") }}
+      OPTIONAL {{ ?club rdfs:label ?clubMul FILTER(lang(?clubMul) = "mul") }}
+      BIND(EXISTS {{ ?club wdt:P31/wdt:P279* wd:Q6979593 }} AS ?isNat)
+    }}'''
+    out: dict[tuple, dict] = {}
+    for b in sparql(q):
+        en = _v(b, "clubEn") or _v(b, "clubMul") or ""
+        ja = _v(b, "clubJa") or ""
+        def year(v: str | None) -> str | None:
+            # 「不明な値」は genid の URL で返ってくるので捨てる
+            if not v or v.startswith("http"):
+                return None
+            return v[:4]
+        start = year(_v(b, "start"))
+        end = year(_v(b, "end"))
+        key = (en, start, end)
+        if key in out:
+            continue
+        apps = _v(b, "apps")
+        acq = (_v(b, "acqLabel") or "").lower()
+        youth = bool(re.search(r"\b(u-?\d{2}|under-?\d{2}|youth|juniors?|academy|reserves?|b team|ii)\b", en.lower()))
+        out[key] = {
+            "club": ja or en,
+            "clubEn": en,
+            "start": start,
+            "end": end,
+            "apps": int(float(apps)) if apps not in (None, "") else None,
+            "national": _v(b, "isNat") == "true",
+            "youth": youth,
+            "loan": "loan" in acq,
+        }
+    rows = list(out.values())
+    rows.sort(key=lambda r: (r["start"] or "0000", r["end"] or "9999"))
+    return rows
+
+
+def update_careers(tdir: Path, roster: list[dict]) -> None:
+    """自チーム選手の経歴を Wikidata から取得し data/<team>/careers.json にキャッシュ"""
+    path = tdir / "careers.json"
+    cache: dict = {}
+    if path.exists():
+        try:
+            cache = json.loads(path.read_text(encoding="utf-8")).get("players", {})
+        except Exception:  # noqa: BLE001
+            cache = {}
+    fetched = 0
+    for p in roster:
+        pid = p["id"]
+        old = cache.get(pid)
+        if old and old.get("fetchedAt"):
+            age = NOW - datetime.strptime(old["fetchedAt"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
+            # 見つかった人は30日、見つからなかった人は1日でリトライ（429 等の一時失敗に備える）
+            if age < timedelta(days=CAREER_TTL_DAYS if old.get("qid") else 1):
+                continue
+        if not p.get("dob"):
+            cache[pid] = {"name": p["name"], "qid": None, "career": [], "fetchedAt": iso(NOW)}
+            continue
+        qid = (old or {}).get("qid") or wd_find_player(p["name"], p["dob"])
+        career = wd_career(qid) if qid else []
+        cache[pid] = {"name": p["name"], "qid": qid, "career": career, "fetchedAt": iso(NOW)}
+        fetched += 1
+        time.sleep(2.0)
+    write_json(path, {"updatedAt": iso(NOW), "players": cache})
+    found = sum(1 for v in cache.values() if v.get("qid"))
+    log(f"  careers: {found}/{len(cache)} 人分（今回取得 {fetched} 人）")
 
 
 # ---------------------------------------------------------------- 配置 (フォーメーション図)
@@ -411,6 +554,10 @@ def build_team(team: dict, photo_index: dict[str, dict]) -> None:
     write_json(tdir / "roster.json", {"updatedAt": iso(NOW), "players": roster})
     log(f"  roster: {len(roster)} 人（写真あり {sum(1 for p in roster if p['photo'])} 人、"
         f"プロフィールあり {sum(1 for p in roster if p.get('dob'))} 人）")
+    try:
+        update_careers(tdir, roster)
+    except Exception as e:  # noqa: BLE001
+        log(f"  careers の更新に失敗（スキップ）: {e!r}")
 
     # --- 日程
     events = espn_schedule(league, espn_id)

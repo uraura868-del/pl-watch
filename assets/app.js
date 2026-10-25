@@ -90,6 +90,28 @@
   const posJa = a => POS_JA[(a || "").toUpperCase()] || a || "";
   const normName = s => (s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9 ]/g, " ").replace(/\s+/g, " ").trim();
   let plIndex = null, absencesCfg = null;
+  const careersCache = new Map();
+  async function getCareers() {
+    if (!careersCache.has(state.teamId)) {
+      try { careersCache.set(state.teamId, (await fetchJson(`data/${state.teamId}/careers.json`)).players || {}); }
+      catch { careersCache.set(state.teamId, {}); }
+    }
+    return careersCache.get(state.teamId);
+  }
+  function renderCareer(entry) {
+    if (!entry) return `<div class="sec"><h3>経歴</h3><p class="note">経歴情報はまだ取得されていません。</p></div>`;
+    const list = entry.career || [];
+    if (!entry.qid || !list.length) return `<div class="sec"><h3>経歴</h3><p class="note">経歴情報なし（Wikidata に登録がありません）</p></div>`;
+    const clubs = list.filter(c => !c.national), nats = list.filter(c => c.national);
+    const row = c => {
+      const cur = !c.end && !c.national;
+      const tags = [c.loan ? "ローン" : "", c.youth ? "ユース" : ""].filter(Boolean).map(t => `<span class="ctag">${t}</span>`).join("");
+      return `<div class="crow ${cur ? "cur" : ""}"><span class="cy">${esc(c.start || "?")}〜${c.end ? esc(c.end) : "現在"}</span><span class="cn">${esc(c.club)}${tags}</span>${c.apps != null ? `<span class="ca">${esc(c.apps)}試合</span>` : ""}</div>`;
+    };
+    return `<div class="sec"><h3>経歴 <small>所属クラブ</small></h3>${clubs.map(row).join("") || `<p class="note">クラブ情報なし</p>`}
+      ${nats.length ? `<h3 style="margin-top:10px">代表</h3>${nats.map(row).join("")}` : ""}
+      <p class="note" style="margin:8px 0 0">出典: Wikidata</p></div>`;
+  }
   async function getPlIndex() { if (!plIndex) { try { plIndex = (await fetchJson("data/pl-players.json")).players || {}; } catch { plIndex = {}; } } return plIndex; }
   async function getAbsences() { if (!absencesCfg) { try { absencesCfg = await fetchJson("absences.json"); } catch { absencesCfg = {}; } } return absencesCfg; }
   function lookupIndex(name, idx) {
@@ -145,6 +167,10 @@
         <div class="stats"><div><b>${st}</b><span>先発</span></div><div><b>${be}</b><span>ベンチ</span></div><div><b>${ab}</b><span>メンバー外</span></div></div></div>`;
     }
 
+    // 経歴（自チームのみ、Wikidata）
+    let career = "";
+    if (ours) career = renderCareer((await getCareers())[p.id]);
+
     // 欠場の記録（absences.json の手入力分）
     let absHist = "";
     if (ours) {
@@ -170,7 +196,7 @@
         <div class="p-sub">${p.jersey ? `#${esc(p.jersey)} ・ ` : ""}${esc(bio.posInfo || posJa(p.pos))}</div>
         ${role ? `<div class="p-role">${role}</div>` : ""}</div></div>
       ${facts.length ? `<div class="sec facts">${facts.map(([k, v]) => `<div><span>${k}</span><b>${v}</b></div>`).join("")}</div>` : `<p class="note">プロフィール情報はまだ取得できていません。</p>`}
-      ${season}${absHist}`;
+      ${season}${career}${absHist}`;
   }
 
   // ---------------------------------------------------------------- 状態分類

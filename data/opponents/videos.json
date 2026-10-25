@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-25T07:27:47Z",
+ "updatedAt": "2026-10-25T07:32:03Z",
  "enabled": true,
  "players": {
   "336794": {
@@ -26,6 +26,31 @@
     }
    ],
    "fetchedAt": "2026-10-25T07:04:10Z"
+  },
+  "362211": {
+   "name": "Abdukodir Khusanov",
+   "query": "Abdukodir Khusanov skills",
+   "videos": [
+    {
+     "id": "j52F2WwFQf8",
+     "title": "Abdukodir Khusanov 2026 ● Defensive Skills, Tackles & Speed ᴴᴰ",
+     "channel": "FZ Football",
+     "publishedAt": "2026-02-06"
+    },
+    {
+     "id": "Agxq78Gz2lI",
+     "title": "khusanov destroyed psg 🧱🔥",
+     "channel": "dilmurodftbl ",
+     "publishedAt": "2025-10-03"
+    },
+    {
+     "id": "alyqWWhsu84",
+     "title": "'56 Abdukodir Khusanov Is Back🔥🤯🥶",
+     "channel": "Sujan30",
+     "publishedAt": "2025-02-09"
+    }
+   ],
+   "fetchedAt": "2026-10-25T07:32:03Z"
   }
  }
 }

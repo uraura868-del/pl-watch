@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-25T14:11:35Z",
+ "updatedAt": "2026-10-25T17:37:06Z",
  "fixtures": [
   {
    "eventId": "401879322",
@@ -237,8 +237,8 @@
    "status": "played",
    "league": "eng.1",
    "compShort": "PL",
-   "hasStats": false,
-   "hasResult": false,
+   "hasStats": true,
+   "hasResult": true,
    "hasLineup": true
   },
   {

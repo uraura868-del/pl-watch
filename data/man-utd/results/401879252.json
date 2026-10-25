@@ -1,0 +1,38 @@
+{
+ "eventId": "401879252",
+ "date": "2026-10-25T14:00:00Z",
+ "opponent": {
+  "name": "AFC Bournemouth",
+  "abbr": "BOU"
+ },
+ "isHome": true,
+ "score": {
+  "us": 0,
+  "opp": 3
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Rayan",
+   "assist": "Justin Kluivert",
+   "minute": "38'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Marcus Tavernier",
+   "assist": "Adrien Truffert",
+   "minute": "43'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Evanilson",
+   "assist": "Lewis Cook",
+   "minute": "71'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

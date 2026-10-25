@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-25T07:36:10Z",
+ "updatedAt": "2026-10-25T13:08:56Z",
  "logos": {
   "nat:england": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
   "club:swindon town": "https://a.espncdn.com/i/teamlogos/soccer/500/341.png",
@@ -298,6 +298,19 @@
   "club:ogc nice": null,
   "club:sevilla": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
   "club:mirandes": "https://a.espncdn.com/i/teamlogos/soccer/500/4515.png",
-  "club:aik fotboll": null
+  "club:aik fotboll": null,
+  "club:torquay united": "https://a.espncdn.com/i/teamlogos/soccer/500/321.png",
+  "club:millwall": "https://a.espncdn.com/i/teamlogos/soccer/500/391.png",
+  "club:cukaricki": "https://a.espncdn.com/i/teamlogos/soccer/500/8287.png",
+  "club:fluminense": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
+  "club:fleetwood town": "https://a.espncdn.com/i/teamlogos/soccer/500/3891.png",
+  "club:atletico lanus": null,
+  "club:jong ajax": "https://a.espncdn.com/i/teamlogos/soccer/500/10597.png",
+  "club:renate": null,
+  "club:pordenone": null,
+  "club:monza": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
+  "club:vasco gama": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
+  "club:inverness caledonian thistle": "https://a.espncdn.com/i/teamlogos/soccer/500/253.png",
+  "club:red bull new york": "https://a.espncdn.com/i/teamlogos/soccer/500/190.png"
  }
 }

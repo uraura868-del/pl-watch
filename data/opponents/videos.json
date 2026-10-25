@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-25T07:36:10Z",
+ "updatedAt": "2026-10-25T13:08:56Z",
  "enabled": true,
  "players": {
   "336794": {
@@ -51,6 +51,112 @@
     }
    ],
    "fetchedAt": "2026-10-25T07:32:03Z"
+  },
+  "338216": {
+   "name": "Abdulakh Khaybulaev",
+   "query": "Abdulakh Khaybulaev skills",
+   "videos": [],
+   "fetchedAt": "2026-10-25T13:08:56Z"
+  },
+  "122268": {
+   "name": "Adam Smith",
+   "query": "Adam Smith skills",
+   "videos": [
+    {
+     "id": "ejJRhn53X2M",
+     "title": "POLITICAL THEORY - Adam Smith",
+     "channel": "The School of Life",
+     "publishedAt": "2014-12-26"
+    },
+    {
+     "id": "XNgDZiNuEu4",
+     "title": "Adam Smith Career & Stats  ⚽ Smith Net Worth ⚽ Age, Height, Teams",
+     "channel": "WorldGoalStats",
+     "publishedAt": "2020-01-23"
+    },
+    {
+     "id": "FEGLg2HK8wY",
+     "title": "7 Relationship Skills Your Therapist Will Never Teach You",
+     "channel": "Adam Lane Smith",
+     "publishedAt": "2025-10-05"
+    }
+   ],
+   "fetchedAt": "2026-10-25T13:08:56Z"
+  },
+  "229645": {
+   "name": "Ademola Lookman",
+   "query": "Ademola Lookman skills",
+   "videos": [
+    {
+     "id": "2inA1PY_dfA",
+     "title": "Ademola Lookman's first touches are so daring 🔥 #atalanta #europa #europaleague",
+     "channel": "FAJ SPORTS",
+     "publishedAt": "2024-05-22"
+    },
+    {
+     "id": "FUjvMvXbOuA",
+     "title": "Lookman magic! 🇳🇬👏",
+     "channel": "UEFA",
+     "publishedAt": "2026-01-09"
+    },
+    {
+     "id": "A3VFJu0FJME",
+     "title": "Lookman’s skill 👏",
+     "channel": "UEFA",
+     "publishedAt": "2026-04-18"
+    }
+   ],
+   "fetchedAt": "2026-10-25T13:08:56Z"
+  },
+  "332563": {
+   "name": "Aden Mccarthy",
+   "query": "Aden Mccarthy skills",
+   "videos": [
+    {
+     "id": "yjOKbPt7zHk",
+     "title": "Ex Chiefs✌️star Aiden Mccarthy🔥 looks very composed on his 1st start for Sabah FK🇿🇦",
+     "channel": "Gost Media",
+     "publishedAt": "2026-09-01"
+    },
+    {
+     "id": "jHuXKjUNxHE",
+     "title": "Aden McCarthy - 19 year old LCB/ LB (South African International)",
+     "channel": "Media - Lamont Sports Management",
+     "publishedAt": "2023-08-14"
+    },
+    {
+     "id": "dk2KeAmfrq0",
+     "title": "Aden McCarthy is a Beast in The Making! 👀",
+     "channel": "HugoFilmz",
+     "publishedAt": "2026-10-22"
+    }
+   ],
+   "fetchedAt": "2026-10-25T13:08:56Z"
+  },
+  "305684": {
+   "name": "Adrien Truffert",
+   "query": "Adrien Truffert skills",
+   "videos": [
+    {
+     "id": "3FN1-FPVRsI",
+     "title": "Adrien Truffert ▶ Engine on the Left Wing Skills",
+     "channel": "YES Skills Vault",
+     "publishedAt": "2026-05-31"
+    },
+    {
+     "id": "SBwNLdIo-8Q",
+     "title": "Adrien Truffert - Full Season Show - 2026ᴴᴰ",
+     "channel": "Brazil Scout ",
+     "publishedAt": "2026-08-23"
+    },
+    {
+     "id": "HbtLrBUzsV4",
+     "title": "Adrien Truffert - Complete Season in 2026!",
+     "channel": "SilvaSkills PLUS",
+     "publishedAt": "2026-08-25"
+    }
+   ],
+   "fetchedAt": "2026-10-25T13:08:56Z"
   }
  }
 }

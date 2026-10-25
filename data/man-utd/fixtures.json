@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-25T07:36:10Z",
+ "updatedAt": "2026-10-25T13:08:56Z",
  "fixtures": [
   {
    "eventId": "401879322",
@@ -239,7 +239,7 @@
    "compShort": "PL",
    "hasStats": false,
    "hasResult": false,
-   "hasLineup": false
+   "hasLineup": true
   },
   {
    "eventId": "401879248",

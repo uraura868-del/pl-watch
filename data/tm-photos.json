@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-25T13:43:44Z",
+ "updatedAt": "2026-10-25T13:45:23Z",
  "clubs": {
   "manchester united": {
    "id": 985,
@@ -721,6 +721,13 @@
     "chuba akpom": "https://img.a.transfermarkt.technology/portrait/medium/197642-1678463529.jpg?lm=4711",
     "akpom": "https://img.a.transfermarkt.technology/portrait/medium/197642-1678463529.jpg?lm=4711"
    }
+  },
+  "hull city": {
+   "id": 3008,
+   "slug": "club",
+   "name": "Hull City A.F.C.",
+   "fetchedAt": "2026-10-25T13:45:23Z",
+   "players": {}
   }
  }
 }

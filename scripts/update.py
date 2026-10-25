@@ -494,6 +494,29 @@ def tm_cache_load() -> None:
             _tm_cache = json.loads(TM_PHOTOS.read_text(encoding="utf-8")).get("clubs", {})
         except Exception:  # noqa: BLE001
             _tm_cache = {}
+    # ID が引けなかったクラブは次回また試す（キャッシュしない）
+    _tm_cache = {k: v for k, v in _tm_cache.items() if v.get("id")}
+
+
+def wd_tm_club(name: str) -> dict | None:
+    """Wikidata でクラブを検索し、Transfermarkt のクラブID (P7223) を引く。GitHub からでも安定して使える"""
+    try:
+        d = json.loads(urllib.request.urlopen(urllib.request.Request(
+            "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&type=item&limit=7&search=" + urllib.parse.quote(name),
+            headers={"User-Agent": WD_UA}), timeout=30).read())
+    except Exception as e:  # noqa: BLE001
+        log(f"  wikidata search error {e}")
+        return None
+    ids = [s["id"] for s in d.get("search", [])]
+    if not ids:
+        return None
+    rows = sparql("SELECT ?c ?cLabel ?tm WHERE { VALUES ?c { " + " ".join(f"wd:{i}" for i in ids) +
+                  " } ?c wdt:P7223 ?tm . SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul\". } }")
+    found = {(_v(b, "c") or "").rsplit("/", 1)[-1]: (_v(b, "cLabel"), _v(b, "tm")) for b in rows}
+    for i in ids:  # 検索の並び（関連度順）で最初に TM ID を持つもの
+        if i in found and (found[i][1] or "").isdigit():
+            return {"id": int(found[i][1]), "slug": "club", "name": found[i][0] or name}
+    return None
 
 
 def tm_cache_save() -> None:
@@ -558,7 +581,9 @@ def tm_club_photos(club_name: str, cfg: dict | None = None) -> dict[str, str]:
     elif entry and entry.get("id"):
         ident = {"id": entry["id"], "slug": entry["slug"], "name": entry.get("name")}
     else:
-        ident = tm_search_club(club_name)
+        ident = wd_tm_club(club_name)  # まず Wikidata（GitHub からも安定）、だめなら Transfermarkt 検索
+        if not ident:
+            ident = tm_search_club(club_name)
         time.sleep(1.0)
     _tm_new_clubs += 1
     if not ident:

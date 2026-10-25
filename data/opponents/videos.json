@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-25T13:38:52Z",
+ "updatedAt": "2026-10-25T13:43:44Z",
  "enabled": true,
  "players": {
   "336794": {
@@ -157,31 +157,6 @@
     }
    ],
    "fetchedAt": "2026-10-25T13:08:56Z"
-  },
-  "291613": {
-   "name": "Amine Adli",
-   "query": "Amine Adli skills",
-   "videos": [
-    {
-     "id": "YBScIddt6fg",
-     "title": "The best of Amine Adli | Champion, Laughter, Growth",
-     "channel": "Bayer 04 Leverkusen",
-     "publishedAt": "2025-08-21"
-    },
-    {
-     "id": "2ZrV1IwKVWo",
-     "title": "Amine Adli - Complete Season in 2023!",
-     "channel": "SilvaSkills PLUS",
-     "publishedAt": "2023-07-12"
-    },
-    {
-     "id": "Nu_LYc9lkN4",
-     "title": "Referee books Amine Adli for diving twice and the VAR overturns his decision twice!!😂 (Bundesliga)",
-     "channel": "The Offside Trap",
-     "publishedAt": "2023-03-24"
-    }
-   ],
-   "fetchedAt": "2026-10-25T13:38:52Z"
   }
  }
 }

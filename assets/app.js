@@ -99,15 +99,17 @@
     }
     return videosCache.get(state.teamId);
   }
+  // YouTube API のタイトルは HTML エンティティ（&#39; など）入りで返るので元に戻す
+  const decodeEntities = s => { const t = document.createElement("textarea"); t.innerHTML = String(s || ""); return t.value; };
   function renderVideos(name, entry, enabled) {
     const q = encodeURIComponent(`${name} skills -vs -highlights`);
     const link = `<a class="yt-link" href="https://www.youtube.com/results?search_query=${q}" target="_blank" rel="noopener noreferrer">▶ YouTube でプレー動画を探す ↗</a>`;
     const vids = (entry && entry.videos) || [];
     let grid = "";
     if (vids.length) {
-      grid = `<div class="vids">${vids.map(v => `<div class="vid" data-vid="${esc(v.id)}" title="${esc(v.title)}">
+      grid = `<div class="vids">${vids.map(v => { const t = decodeEntities(v.title); return `<div class="vid" data-vid="${esc(v.id)}" title="${esc(t)}">
           <img src="https://i.ytimg.com/vi/${esc(v.id)}/mqdefault.jpg" alt="" loading="lazy"><span class="play">▶</span>
-          <div class="vt">${esc(v.title)}</div></div>`).join("")}</div>
+          <div class="vt">${esc(t)}</div></div>`; }).join("")}</div>
         <p class="note">タイトルに試合結果を含みそうな動画は除いていますが、完全ではありません。</p>`;
     } else if (enabled) {
       grid = `<p class="note">条件に合う動画が見つかりませんでした。</p>`;

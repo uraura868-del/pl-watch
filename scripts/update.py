@@ -14,6 +14,7 @@ ESPN の非公式 API から 日程 / スタメン / フォーメーション / 
 """
 from __future__ import annotations
 
+import html
 import json
 import os
 import re
@@ -711,7 +712,7 @@ def yt_search(query: str) -> list[dict] | None:
     for it in d.get("items", []):
         vid = (it.get("id") or {}).get("videoId")
         sn = it.get("snippet") or {}
-        title = sn.get("title") or ""
+        title = html.unescape(sn.get("title") or "")
         if not vid or SPOILER_TITLE.search(title):
             continue
         out.append({"id": vid, "title": title, "channel": sn.get("channelTitle"), "publishedAt": (sn.get("publishedAt") or "")[:10]})

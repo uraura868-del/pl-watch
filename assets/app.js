@@ -203,7 +203,7 @@
     else if (kind === "open") badge = `<span class="badge">${f.hasLineup ? "スタメン公開" : "未視聴"}</span>`;
     else if (kind === "locked") {
       badge = "";
-      opp = "？？？"; sub = `${ha} ・ 前の試合を観ると表示`;
+      sub = `${ha} ・ スタメンは前の試合を観ると表示`;
     } else if (kind === "postponed") badge = `<span class="badge warn">延期</span>`;
     else badge = `<span class="badge dim">予定</span>`;
     const clickable = kind !== "locked";
@@ -214,7 +214,7 @@
     else if (kind === "watched") btn = `<button class="row-btn ghost" data-act="unwatch" title="未視聴に戻す">戻す</button>`;
     return `<div class="fx ${esc(kind)} ${big ? "big" : ""} ${clickable ? "clickable" : ""} ${state.selected === f.eventId ? "selected" : ""}" data-id="${esc(f.eventId)}" ${clickable ? 'role="button" tabindex="0"' : ""}>
       <div class="d">${esc(t.md)}<small>${esc(t.wd)} ${esc(t.hm)}</small></div>
-      ${kind === "locked" ? `<div class="lockic">🔒</div>` : crest}
+      ${kind === "locked" ? `<div class="crest-lock">${crest}<span class="lockic small">🔒</span></div>` : crest}
       <div class="o">${opp}<small>${sub}</small></div><div class="side">${badge}${btn}</div></div>`;
   }
 

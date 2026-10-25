@@ -77,8 +77,9 @@ body.show-detail .detail-pane { display: block; }
 .row-btn.ghost { background: var(--tab-bg); color: var(--muted); }
 .fx.locked .row-btn { background: rgba(255,255,255,.12); color: var(--fg); }
 .fx.locked .row-btn:hover { background: var(--accent); }
-.fx.locked { opacity: .75; }
-.fx.locked .crest { filter: blur(3px); opacity: .5; }
+.fx.locked { opacity: .8; }
+.crest-lock { position: relative; flex: 0 0 auto; }
+.lockic.small { position: absolute; right: -6px; bottom: -6px; width: 18px; height: 18px; font-size: 10px; background: #222a40; border: 1px solid rgba(255,255,255,.15); }
 .fx .lockic { width: 32px; height: 32px; border-radius: 50%; background: var(--tab-bg); display: grid; place-items: center; font-size: 15px; flex: 0 0 auto; }
 .fx.big { padding: 16px; }
 .fx.big .crest { width: 48px; height: 48px; }

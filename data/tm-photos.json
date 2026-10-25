@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-25T13:36:17Z",
+ "updatedAt": "2026-10-25T13:38:52Z",
  "clubs": {
   "manchester united": {
    "id": 985,
@@ -364,6 +364,48 @@
     "solanke": "https://img.a.transfermarkt.technology/portrait/medium/258889-1708340487.jpg?lm=4711",
     "richarlison": "https://img.a.transfermarkt.technology/portrait/medium/378710-1665608231.jpg?lm=4711"
    }
+  },
+  "fulham": {
+   "id": null,
+   "slug": null,
+   "name": null,
+   "fetchedAt": "2026-10-25T13:38:52Z",
+   "players": {}
+  },
+  "brighton hove albion": {
+   "id": null,
+   "slug": null,
+   "name": null,
+   "fetchedAt": "2026-10-25T13:38:52Z",
+   "players": {}
+  },
+  "manchester city": {
+   "id": null,
+   "slug": null,
+   "name": null,
+   "fetchedAt": "2026-10-25T13:38:52Z",
+   "players": {}
+  },
+  "sabah fk": {
+   "id": null,
+   "slug": null,
+   "name": null,
+   "fetchedAt": "2026-10-25T13:38:52Z",
+   "players": {}
+  },
+  "everton": {
+   "id": null,
+   "slug": null,
+   "name": null,
+   "fetchedAt": "2026-10-25T13:38:52Z",
+   "players": {}
+  },
+  "ipswich town": {
+   "id": null,
+   "slug": null,
+   "name": null,
+   "fetchedAt": "2026-10-25T13:38:52Z",
+   "players": {}
   }
  }
 }

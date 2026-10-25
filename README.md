@@ -72,8 +72,8 @@
 ## GitHub Pages で公開する手順
 
 1. GitHub に新しいリポジトリを作る（Public 推奨。Private だと Pages に有料プランが必要）
-2. このフォルダを push する
-3. push をきっかけに **Actions** の `update-and-deploy` が走り、GitHub Pages が自動で有効化・公開されます
+2. リポジトリの **Settings → Pages → Build and deployment → Source** を `GitHub Actions` にする
+3. このフォルダを push する。push をきっかけに **Actions** の `update-and-deploy` が走り、公開されます
 4. 数分後 `https://<ユーザー名>.github.io/<リポジトリ名>/` で見られます（URL は Actions の実行結果にも表示されます）
 
 以降は毎時7分（UTC）にデータ更新と再公開が自動で行われます。費用はかかりません。

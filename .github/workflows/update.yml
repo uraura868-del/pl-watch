@@ -45,10 +45,8 @@ jobs:
             git push
           fi
 
-      # GitHub Pages は初回に自動で有効化される（enablement: true）
+      # 事前に Settings → Pages → Source を "GitHub Actions" にしておくこと
       - uses: actions/configure-pages@v5
-        with:
-          enablement: true
 
       - uses: actions/upload-pages-artifact@v3
         with:

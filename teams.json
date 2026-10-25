@@ -1,5 +1,5 @@
 {
-  "_help": "チームを追加するときはこの配列に1件足すだけ。espnTeamId は ESPN の URL (espn.com/soccer/team/_/id/360/...) の数字、plTeamId は premierleague.com のクラブID。color はチームカラー。",
+  "_help": "チームを追加するときはこの配列に1件足すだけ。espnTeamId は ESPN の URL (espn.com/soccer/team/_/id/360/...) の数字、plTeamId は premierleague.com のクラブID、tmTeamId/tmSlug は transfermarkt.com のURL (transfermarkt.com/<tmSlug>/startseite/verein/<tmTeamId>)。competitions は取得する大会（ESPN のリーグコード）。",
   "teams": [
     {
       "id": "man-utd",
@@ -9,7 +9,18 @@
       "leagueName": "プレミアリーグ",
       "espnTeamId": "360",
       "plTeamId": 12,
-      "color": "#da020e"
+      "tmTeamId": 985,
+      "tmSlug": "manchester-united",
+      "color": "#da020e",
+      "competitions": [
+        { "league": "eng.1", "name": "プレミアリーグ", "short": "PL" },
+        { "league": "uefa.champions", "name": "チャンピオンズリーグ", "short": "CL" },
+        { "league": "eng.league_cup", "name": "カラバオ杯", "short": "EFL" },
+        { "league": "eng.fa", "name": "FA杯", "short": "FA" },
+        { "league": "uefa.europa", "name": "ヨーロッパリーグ", "short": "EL" },
+        { "league": "uefa.europa.conf", "name": "カンファレンスリーグ", "short": "ECL" },
+        { "league": "eng.charity", "name": "コミュニティ・シールド", "short": "CS" }
+      ]
     }
   ]
 }

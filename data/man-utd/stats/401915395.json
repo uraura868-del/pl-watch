@@ -1,0 +1,78 @@
+{
+ "eventId": "401915395",
+ "date": "2026-10-21T16:45:00Z",
+ "opponent": {
+  "name": "Como",
+  "abbr": "COMO"
+ },
+ "ht": {
+  "us": {
+   "shots": 3,
+   "onTarget": 0,
+   "offTarget": 3,
+   "blocked": 0,
+   "corners": 1,
+   "fouls": 18,
+   "offsides": 1,
+   "yellow": 1,
+   "red": 0
+  },
+  "opp": {
+   "shots": 4,
+   "onTarget": 2,
+   "offTarget": 2,
+   "blocked": 0,
+   "corners": 1,
+   "fouls": 4,
+   "offsides": 2,
+   "yellow": 0,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 12,
+   "onTarget": 3,
+   "offTarget": 6,
+   "blocked": 3,
+   "corners": 4,
+   "fouls": 22,
+   "offsides": 1,
+   "yellow": 3,
+   "red": 0,
+   "possession": "45.2",
+   "passesAccurate": "474",
+   "passes": "546",
+   "passAcc": "0.9",
+   "crossesAccurate": "4",
+   "crosses": "13",
+   "tacklesWon": "14",
+   "tackles": "23",
+   "interceptions": "8",
+   "clearances": "11"
+  },
+  "opp": {
+   "shots": 7,
+   "onTarget": 4,
+   "offTarget": 3,
+   "blocked": 0,
+   "corners": 1,
+   "fouls": 18,
+   "offsides": 2,
+   "yellow": 1,
+   "red": 0,
+   "possession": "54.8",
+   "passesAccurate": "597",
+   "passes": "669",
+   "passAcc": "0.9",
+   "crossesAccurate": "0",
+   "crosses": "8",
+   "tacklesWon": "11",
+   "tackles": "21",
+   "interceptions": "14",
+   "clearances": "9"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

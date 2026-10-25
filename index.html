@@ -47,6 +47,15 @@
       <span><b>観た記録</b><small>このブラウザに保存されています</small></span>
       <button type="button" id="btn-reset" class="btn-ghost">リセット</button>
     </div>
+    <div class="row col">
+      <span><b>キックオフ通知（カレンダー購読）</b><small>下の URL をカレンダーに「URL で追加」すると日程が入り、通知設定で「1時間前」にするとスタメン公開のころに知らせてくれます。結果は含まれません。</small></span>
+      <div class="ics-box">
+        <input type="text" id="ics-url" readonly>
+        <button type="button" id="btn-copy-ics" class="btn-ghost">コピー</button>
+        <a id="ics-webcal" class="btn-ghost" href="#">iPhone / Mac で登録</a>
+      </div>
+      <small class="note">Google カレンダー: PC で「他のカレンダー ＋ → URL で追加」に貼り付け。追加後、そのカレンダーの通知を「1時間前」に設定。</small>
+    </div>
     <p class="note" id="settings-note"></p>
     <menu><button class="btn-primary" value="close">閉じる</button></menu>
   </form>

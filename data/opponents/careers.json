@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-25T07:08:11Z",
+ "updatedAt": "2026-10-25T07:22:12Z",
  "players": {
   "336794": {
    "name": "Abdoul Ouattara",
@@ -9074,6 +9074,1730 @@
    "qid": "Q120277811",
    "career": [],
    "fetchedAt": "2026-10-25T06:45:53Z"
+  },
+  "338216": {
+   "name": "Abdulakh Khaybulaev",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "229645": {
+   "name": "Ademola Lookman",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "332563": {
+   "name": "Aden Mccarthy",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "204778": {
+   "name": "Akim Zedadka",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "252372": {
+   "name": "Alberto Dossena",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "166396": {
+   "name": "Alejandro Grimaldo",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "274878": {
+   "name": "Aleksey Isayev",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "188230": {
+   "name": "Alexander Sørloth",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "327995": {
+   "name": "Amin Ramazanov",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "262071": {
+   "name": "Anastasios Douvikas",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "328289": {
+   "name": "Arnau Ortiz",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "291609": {
+   "name": "Bart Verbruggen",
+   "qid": "Q98682558",
+   "career": [
+    {
+     "club": "Netherlands national under-18 association football team",
+     "clubEn": "Netherlands national under-18 association football team",
+     "start": "2019",
+     "end": "2019",
+     "apps": 1,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png"
+    },
+    {
+     "club": "RSCアンデルレヒト",
+     "clubEn": "R.S.C. Anderlecht",
+     "start": "2020",
+     "end": "2023",
+     "apps": 24,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/441.png"
+    },
+    {
+     "club": "RSCA Futures",
+     "clubEn": "RSCA Futures",
+     "start": "2022",
+     "end": "2023",
+     "apps": 14,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": null
+    },
+    {
+     "club": "ブライトン・アンド・ホーヴ・アルビオンFC",
+     "clubEn": "Brighton & Hove Albion F.C.",
+     "start": "2023",
+     "end": null,
+     "apps": 101,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png"
+    },
+    {
+     "club": "Netherlands national under-23 football team",
+     "clubEn": "Netherlands national under-23 football team",
+     "start": "2023",
+     "end": null,
+     "apps": 4,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png"
+    },
+    {
+     "club": "サッカーオランダ代表",
+     "clubEn": "Netherlands national association football team",
+     "start": "2023",
+     "end": null,
+     "apps": 37,
+     "national": true,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png"
+    }
+   ],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "387655": {
+   "name": "Charalambos Kostoulas",
+   "qid": "Q117360254",
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "387489": {
+   "name": "Chema Andrés",
+   "qid": "Q127932393",
+   "career": [
+    {
+     "club": "U-18サッカースペイン代表",
+     "clubEn": "Spain national under-18 football team",
+     "start": "2022",
+     "end": "2023",
+     "apps": 4,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png"
+    },
+    {
+     "club": "U-19サッカースペイン代表",
+     "clubEn": "Spain national under-19 football team",
+     "start": "2023",
+     "end": "2024",
+     "apps": 10,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png"
+    },
+    {
+     "club": "レアル・マドリードC",
+     "clubEn": "Real Madrid C",
+     "start": "2024",
+     "end": "2024",
+     "apps": 7,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png"
+    },
+    {
+     "club": "レアル・マドリード・カスティージャ",
+     "clubEn": "Real Madrid Castilla",
+     "start": "2024",
+     "end": "2025",
+     "apps": 35,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7000.png"
+    },
+    {
+     "club": "レアル・マドリード",
+     "clubEn": "Real Madrid Club de Fútbol",
+     "start": "2025",
+     "end": "2025",
+     "apps": 2,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": null
+    },
+    {
+     "club": "VfBシュトゥットガルト",
+     "clubEn": "VfB Stuttgart",
+     "start": "2025",
+     "end": "2026",
+     "apps": 26,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png"
+    },
+    {
+     "club": "U-21サッカースペイン代表",
+     "clubEn": "Spain national under-21 association football team",
+     "start": "2025",
+     "end": null,
+     "apps": 6,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png"
+    },
+    {
+     "club": "ブライトン・アンド・ホーヴ・アルビオンFC",
+     "clubEn": "Brighton & Hove Albion F.C.",
+     "start": "2026",
+     "end": null,
+     "apps": 0,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png"
+    }
+   ],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "385377": {
+   "name": "Christian Nwachukwu",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "274285": {
+   "name": "Costinha",
+   "qid": "Q85038325",
+   "career": [
+    {
+     "club": "U-19サッカーポルトガル代表",
+     "clubEn": "Portugal national under-19 football team",
+     "start": "2018",
+     "end": null,
+     "apps": null,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png"
+    }
+   ],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "96970": {
+   "name": "Cristian Romero",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "3098819": {
+   "name": "Cəfər Muxtarov",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "368593": {
+   "name": "Daniel Martinez",
+   "qid": "Q3275904",
+   "career": [
+    {
+     "club": "U-17サッカーアルゼンチン代表",
+     "clubEn": "Argentina national under-17 football team",
+     "start": "2009",
+     "end": "2009",
+     "apps": 2,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png"
+    },
+    {
+     "club": "U-20サッカーアルゼンチン代表",
+     "clubEn": "Argentina national under-20 football team",
+     "start": "2009",
+     "end": "2011",
+     "apps": 5,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png"
+    },
+    {
+     "club": "アーセナルFC",
+     "clubEn": "Arsenal F.C.",
+     "start": "2010",
+     "end": "2020",
+     "apps": 15,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png"
+    },
+    {
+     "club": "オックスフォード・ユナイテッドFC",
+     "clubEn": "Oxford United F.C.",
+     "start": "2012",
+     "end": "2012",
+     "apps": 1,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/311.png"
+    },
+    {
+     "club": "シェフィールド・ウェンズデイFC",
+     "clubEn": "Sheffield Wednesday F.C.",
+     "start": "2013",
+     "end": "2014",
+     "apps": 11,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/399.png"
+    },
+    {
+     "club": "ロザラム・ユナイテッドFC",
+     "clubEn": "Rotherham United F.C.",
+     "start": "2015",
+     "end": "2015",
+     "apps": 8,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/402.png"
+    },
+    {
+     "club": "ウォルヴァーハンプトン・ワンダラーズFC",
+     "clubEn": "Wolverhampton Wanderers F.C.",
+     "start": "2015",
+     "end": "2016",
+     "apps": 13,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/380.png"
+    },
+    {
+     "club": "ヘタフェCF",
+     "clubEn": "Getafe CF",
+     "start": "2017",
+     "end": "2018",
+     "apps": 5,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png"
+    },
+    {
+     "club": "レディングFC",
+     "clubEn": "Reading F.C.",
+     "start": "2019",
+     "end": "2019",
+     "apps": 18,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/338.png"
+    },
+    {
+     "club": "アストン・ヴィラFC",
+     "clubEn": "Aston Villa F.C.",
+     "start": "2020",
+     "end": "2026",
+     "apps": 213,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png"
+    },
+    {
+     "club": "サッカーアルゼンチン代表",
+     "clubEn": "Argentina national football team",
+     "start": "2021",
+     "end": null,
+     "apps": 70,
+     "national": true,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png"
+    },
+    {
+     "club": "チェルシーFC",
+     "clubEn": "Chelsea F.C.",
+     "start": "2026",
+     "end": null,
+     "apps": 5,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png"
+    }
+   ],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "192278": {
+   "name": "Diego Gómez",
+   "qid": "Q115978703",
+   "career": [
+    {
+     "club": "クラブ・リベルタ",
+     "clubEn": "Club Libertad",
+     "start": "2022",
+     "end": "2023",
+     "apps": 40,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2670.png"
+    },
+    {
+     "club": "Paraguay national under-20 football team",
+     "clubEn": "Paraguay national under-20 football team",
+     "start": "2022",
+     "end": "2023",
+     "apps": 10,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/par.png"
+    },
+    {
+     "club": "サッカーパラグアイ代表",
+     "clubEn": "Paraguay men's national football team",
+     "start": "2022",
+     "end": null,
+     "apps": 28,
+     "national": true,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/par.png"
+    },
+    {
+     "club": "インテル・マイアミCF",
+     "clubEn": "Inter Miami CF",
+     "start": "2023",
+     "end": "2024",
+     "apps": 27,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20232.png"
+    },
+    {
+     "club": "U-23サッカーパラグアイ代表",
+     "clubEn": "Paraguay Under-23",
+     "start": "2023",
+     "end": null,
+     "apps": 9,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/par.png"
+    },
+    {
+     "club": "ブライトン・アンド・ホーヴ・アルビオンFC",
+     "clubEn": "Brighton & Hove Albion F.C.",
+     "start": "2025",
+     "end": null,
+     "apps": 19,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png"
+    }
+   ],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "321356": {
+   "name": "Du Queiroz",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "257786": {
+   "name": "Dávid Hancko",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "238318": {
+   "name": "Ferdi Kadioglu",
+   "qid": "Q26719541",
+   "career": [
+    {
+     "club": "Netherlands national under-16 association football team",
+     "clubEn": "Netherlands national under-16 association football team",
+     "start": "2015",
+     "end": "2015",
+     "apps": 2,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png"
+    },
+    {
+     "club": "U-17サッカーオランダ代表",
+     "clubEn": "Netherlands national under-17 football team",
+     "start": "2015",
+     "end": "2016",
+     "apps": 13,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png"
+    },
+    {
+     "club": "Netherlands national under-18 association football team",
+     "clubEn": "Netherlands national under-18 association football team",
+     "start": "2016",
+     "end": "2016",
+     "apps": 4,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png"
+    },
+    {
+     "club": "NECナイメヘン",
+     "clubEn": "N.E.C.",
+     "start": "2016",
+     "end": "2018",
+     "apps": 61,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": null
+    },
+    {
+     "club": "U-19サッカーオランダ代表",
+     "clubEn": "Netherlands national under-19 football team",
+     "start": "2017",
+     "end": "2018",
+     "apps": 15,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png"
+    },
+    {
+     "club": "U-21サッカーオランダ代表",
+     "clubEn": "Netherlands national under-21 football team",
+     "start": "2018",
+     "end": "2021",
+     "apps": 18,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png"
+    },
+    {
+     "club": "フェネルバフチェSK",
+     "clubEn": "Fenerbahçe Istanbul",
+     "start": "2018",
+     "end": "2024",
+     "apps": 148,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": null
+    },
+    {
+     "club": "サッカートルコ代表",
+     "clubEn": "Turkey men's national football team",
+     "start": "2022",
+     "end": null,
+     "apps": 20,
+     "national": true,
+     "youth": false,
+     "loan": false,
+     "logo": null
+    },
+    {
+     "club": "ブライトン・アンド・ホーヴ・アルビオンFC",
+     "clubEn": "Brighton & Hove Albion F.C.",
+     "start": "2024",
+     "end": null,
+     "apps": 0,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png"
+    }
+   ],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "278061": {
+   "name": "Georginio Rutter",
+   "qid": "Q74051767",
+   "career": [
+    {
+     "club": "U-17サッカーフランス代表",
+     "clubEn": "France national under-17 association football team",
+     "start": "2018",
+     "end": "2019",
+     "apps": 19,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png"
+    },
+    {
+     "club": "Stade Rennais FC B",
+     "clubEn": "Stade Rennais FC B",
+     "start": "2018",
+     "end": "2020",
+     "apps": 22,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png"
+    },
+    {
+     "club": "スタッド・レンヌ",
+     "clubEn": "Stade Rennais F.C.",
+     "start": "2020",
+     "end": "2021",
+     "apps": 4,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png"
+    },
+    {
+     "club": "TSG1899ホッフェンハイム",
+     "clubEn": "TSG 1899 Hoffenheim",
+     "start": "2021",
+     "end": "2023",
+     "apps": 57,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png"
+    },
+    {
+     "club": "U-21サッカーフランス代表",
+     "clubEn": "France national under-21 association football team",
+     "start": "2022",
+     "end": "2023",
+     "apps": 5,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png"
+    },
+    {
+     "club": "リーズ・ユナイテッドAFC",
+     "clubEn": "Leeds United F.C.",
+     "start": "2023",
+     "end": "2024",
+     "apps": 57,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png"
+    },
+    {
+     "club": "ブライトン・アンド・ホーヴ・アルビオンFC",
+     "clubEn": "Brighton & Hove Albion F.C.",
+     "start": "2024",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png"
+    }
+   ],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "323838": {
+   "name": "Giuliano Simeone",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "359400": {
+   "name": "Ibrahim Osman",
+   "qid": "Q117350353",
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "260848": {
+   "name": "Ivan Lepinjica",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "323273": {
+   "name": "Ivan Smolcic",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "380318": {
+   "name": "Jacobo Ramón",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "149622": {
+   "name": "Jan Oblak",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "306033": {
+   "name": "Jaouen Hadjam",
+   "qid": "Q98561102",
+   "career": [
+    {
+     "club": "パリFC",
+     "clubEn": "Paris FC",
+     "start": "2020",
+     "end": "2023",
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png"
+    },
+    {
+     "club": "FCナント",
+     "clubEn": "FC Nantes",
+     "start": "2023",
+     "end": "2024",
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/165.png"
+    },
+    {
+     "club": "BSCヤングボーイズ",
+     "clubEn": "BSC Young Boys",
+     "start": "2024",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": null
+    }
+   ],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "111114": {
+   "name": "Jason Steele",
+   "qid": "Q509809",
+   "career": [
+    {
+     "club": "ミドルズブラFC",
+     "clubEn": "Middlesbrough F.C.",
+     "start": "2007",
+     "end": "2015",
+     "apps": 131,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/369.png"
+    },
+    {
+     "club": "ノーサンプトン・タウンFC",
+     "clubEn": "Northampton Town F.C.",
+     "start": "2010",
+     "end": "2010",
+     "apps": 13,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21226.png"
+    },
+    {
+     "club": "ブラックバーン・ローヴァーズFC",
+     "clubEn": "Blackburn Rovers F.C.",
+     "start": "2014",
+     "end": "2014",
+     "apps": 15,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/365.png"
+    },
+    {
+     "club": "ブラックバーン・ローヴァーズFC",
+     "clubEn": "Blackburn Rovers F.C.",
+     "start": "2015",
+     "end": "2017",
+     "apps": 98,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/365.png"
+    },
+    {
+     "club": "サンダーランドAFC",
+     "clubEn": "Sunderland A.F.C.",
+     "start": "2017",
+     "end": "2018",
+     "apps": 15,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png"
+    },
+    {
+     "club": "ブライトン・アンド・ホーヴ・アルビオンFC",
+     "clubEn": "Brighton & Hove Albion F.C.",
+     "start": "2018",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png"
+    }
+   ],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "214740": {
+   "name": "Jean Butez",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "290802": {
+   "name": "Johnny Cardoso",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "273499": {
+   "name": "Jonathan David",
+   "qid": "Q112988067",
+   "career": [
+    {
+     "club": "ロイヤル・ユニオン・サン＝ジロワーズ",
+     "clubEn": "Royale Union Saint-Gilloise",
+     "start": "2024",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": null
+    },
+    {
+     "club": "サッカーカナダ代表",
+     "clubEn": "Canadian men's national soccer team",
+     "start": "2025",
+     "end": null,
+     "apps": 11,
+     "national": true,
+     "youth": false,
+     "loan": false,
+     "logo": null
+    }
+   ],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "184757": {
+   "name": "Jorge Castillo",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "354378": {
+   "name": "Jorge Domínguez",
+   "qid": "Q29419531",
+   "career": [
+    {
+     "club": "CAベレス・サルスフィエルド",
+     "clubEn": "Club Atlético Vélez Sarsfield",
+     "start": null,
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": null
+    }
+   ],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "291791": {
+   "name": "Joy-Lance Mickels",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "177927": {
+   "name": "Juan Musso",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "277206": {
+   "name": "Julián Álvarez",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "304354": {
+   "name": "Júnior Almeida",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "268529": {
+   "name": "Kaheem Parris",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "317233": {
+   "name": "Kaiki",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "274197": {
+   "name": "Lee Kang-In",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "147106": {
+   "name": "Lewis Dunk",
+   "qid": "Q6536506",
+   "career": [
+    {
+     "club": "ボグノア・レギス・タウンFC",
+     "clubEn": "Bognor Regis Town F.C.",
+     "start": "2010",
+     "end": "2010",
+     "apps": 8,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/132416.png"
+    },
+    {
+     "club": "ブライトン・アンド・ホーヴ・アルビオンFC",
+     "clubEn": "Brighton & Hove Albion F.C.",
+     "start": "2010",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png"
+    },
+    {
+     "club": "ブリストル・シティFC",
+     "clubEn": "Bristol City F.C.",
+     "start": "2013",
+     "end": "2013",
+     "apps": 2,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/333.png"
+    },
+    {
+     "club": "サッカーイングランド代表",
+     "clubEn": "England men's national association football team",
+     "start": "2018",
+     "end": null,
+     "apps": null,
+     "national": true,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
+    }
+   ],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "3140451": {
+   "name": "Lorenzo Luigi Ginelli",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "291285": {
+   "name": "Lucas Da Cunha",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "264211": {
+   "name": "Luis Milla",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "364962": {
+   "name": "Luka Vuskovic",
+   "qid": "Q115162374",
+   "career": [
+    {
+     "club": "ハイドゥク・スプリト",
+     "clubEn": "HNK Hajduk Split",
+     "start": "2020",
+     "end": "2025",
+     "apps": 8,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": null
+    },
+    {
+     "club": "ラドミアク・ラドム",
+     "clubEn": "Radomiak Radom",
+     "start": "2024",
+     "end": "2024",
+     "apps": 14,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131861.png"
+    },
+    {
+     "club": "KVCウェステルロー",
+     "clubEn": "K.V.C. Westerlo",
+     "start": "2024",
+     "end": "2025",
+     "apps": 36,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/606.png"
+    },
+    {
+     "club": "U-21サッカークロアチア代表",
+     "clubEn": "Croatia national under-21 football team",
+     "start": "2024",
+     "end": null,
+     "apps": 10,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png"
+    },
+    {
+     "club": "ハンブルガーSV",
+     "clubEn": "Hamburger SV",
+     "start": "2025",
+     "end": "2026",
+     "apps": 28,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": null
+    },
+    {
+     "club": "トッテナム・ホットスパーFC",
+     "clubEn": "Tottenham Hotspur F.C.",
+     "start": "2025",
+     "end": "2026",
+     "apps": 0,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png"
+    },
+    {
+     "club": "サッカークロアチア代表",
+     "clubEn": "Croatia men's national football team",
+     "start": "2025",
+     "end": null,
+     "apps": 6,
+     "national": true,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png"
+    },
+    {
+     "club": "ブライトン・アンド・ホーヴ・アルビオンFC",
+     "clubEn": "Brighton & Hove Albion F.C.",
+     "start": "2026",
+     "end": null,
+     "apps": 0,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png"
+    }
+   ],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "359097": {
+   "name": "Malick Yalcouyé",
+   "qid": "Q124734146",
+   "career": [
+    {
+     "club": "IFKヨーテボリ",
+     "clubEn": "IFK Göteborg",
+     "start": null,
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2556.png"
+    }
+   ],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "332613": {
+   "name": "Marc Pubill",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "175887": {
+   "name": "Marc-Oliver Kempf",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "206474": {
+   "name": "Marcos Llorente",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "311475": {
+   "name": "Martin Baturina",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "261087": {
+   "name": "Matt O'Riley",
+   "qid": "Q35829599",
+   "career": [
+    {
+     "club": "U-16サッカーイングランド代表",
+     "clubEn": "England national under-16 association football team",
+     "start": "2015",
+     "end": "2016",
+     "apps": 4,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
+    },
+    {
+     "club": "England national under-18 association football team",
+     "clubEn": "England national under-18 association football team",
+     "start": "2017",
+     "end": "2017",
+     "apps": 1,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
+    },
+    {
+     "club": "フラムFC",
+     "clubEn": "Fulham F.C.",
+     "start": "2017",
+     "end": "2020",
+     "apps": 1,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png"
+    },
+    {
+     "club": "ミルトン・キーンズ・ドンズFC",
+     "clubEn": "Milton Keynes Dons F.C.",
+     "start": "2021",
+     "end": "2022",
+     "apps": 49,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21062.png"
+    },
+    {
+     "club": "U-21デンマーク代表",
+     "clubEn": "Denmark national under-21 football team",
+     "start": "2022",
+     "end": "2022",
+     "apps": 6,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/den.png"
+    },
+    {
+     "club": "セルティックFC",
+     "clubEn": "Celtic F.C.",
+     "start": "2022",
+     "end": "2024",
+     "apps": 93,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/256.png"
+    },
+    {
+     "club": "サッカーデンマーク代表",
+     "clubEn": "Denmark men's national football team",
+     "start": "2023",
+     "end": null,
+     "apps": 2,
+     "national": true,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/den.png"
+    },
+    {
+     "club": "ブライトン・アンド・ホーヴ・アルビオンFC",
+     "clubEn": "Brighton & Hove Albion F.C.",
+     "start": "2024",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png"
+    }
+   ],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "387723": {
+   "name": "Mattia Liberali",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "265912": {
+   "name": "Maxence Caqueret",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "301327": {
+   "name": "Maxim De Cuyper",
+   "qid": "Q85928265",
+   "career": [
+    {
+     "club": "Belgium national under-16 association football team",
+     "clubEn": "Belgium national under-16 association football team",
+     "start": "2016",
+     "end": "2016",
+     "apps": 3,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png"
+    },
+    {
+     "club": "U-19サッカーベルギー代表",
+     "clubEn": "Belgium national under-19 football team",
+     "start": "2018",
+     "end": "2018",
+     "apps": 1,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png"
+    },
+    {
+     "club": "クリュプNXT",
+     "clubEn": "Club NXT",
+     "start": "2020",
+     "end": "2021",
+     "apps": 20,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/132604.png"
+    },
+    {
+     "club": "クラブ・ブルッヘ",
+     "clubEn": "Club Brugge K.V.",
+     "start": "2020",
+     "end": "2025",
+     "apps": 74,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/570.png"
+    },
+    {
+     "club": "KVCウェステルロー",
+     "clubEn": "K.V.C. Westerlo",
+     "start": "2021",
+     "end": "2023",
+     "apps": 64,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/606.png"
+    },
+    {
+     "club": "U-21サッカーベルギー代表",
+     "clubEn": "Belgium national under-21 football team",
+     "start": "2022",
+     "end": "2023",
+     "apps": 8,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png"
+    },
+    {
+     "club": "サッカーベルギー代表",
+     "clubEn": "Belgium men's national football team",
+     "start": "2024",
+     "end": null,
+     "apps": 10,
+     "national": true,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png"
+    },
+    {
+     "club": "ブライトン・アンド・ホーヴ・アルビオンFC",
+     "clubEn": "Brighton & Hove Albion F.C.",
+     "start": "2025",
+     "end": null,
+     "apps": 28,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png"
+    }
+   ],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "274911": {
+   "name": "Morten Hjulmand",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "309241": {
+   "name": "Máximo Perrone",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "337970": {
+   "name": "Nico Paz",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "216017": {
+   "name": "Olivier Boscagli",
+   "qid": "Q19968607",
+   "career": [
+    {
+     "club": "U-21サッカーフランス代表",
+     "clubEn": "France national under-21 association football team",
+     "start": null,
+     "end": null,
+     "apps": null,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png"
+    },
+    {
+     "club": "U-17サッカーフランス代表",
+     "clubEn": "France national under-17 association football team",
+     "start": "2014",
+     "end": "2014",
+     "apps": 3,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png"
+    },
+    {
+     "club": "U-18サッカーフランス代表",
+     "clubEn": "France national under-18 association football team",
+     "start": "2015",
+     "end": "2015",
+     "apps": 5,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png"
+    },
+    {
+     "club": "OGCニース",
+     "clubEn": "OGC Nice",
+     "start": "2015",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": null
+    },
+    {
+     "club": "U-19サッカーフランス代表",
+     "clubEn": "France national under-19 association football team",
+     "start": "2015",
+     "end": null,
+     "apps": null,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png"
+    }
+   ],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "336634": {
+   "name": "Pablo Barrios",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "132659": {
+   "name": "Pascal Gross",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "246771": {
+   "name": "Pascal Struijk",
+   "qid": "Q78218410",
+   "career": [
+    {
+     "club": "U-17サッカーオランダ代表",
+     "clubEn": "Netherlands national under-17 football team",
+     "start": "2016",
+     "end": "2016",
+     "apps": 3,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png"
+    },
+    {
+     "club": "リーズ・ユナイテッドAFC",
+     "clubEn": "Leeds United F.C.",
+     "start": "2019",
+     "end": "2026",
+     "apps": 182,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png"
+    },
+    {
+     "club": "ブライトン・アンド・ホーヴ・アルビオンFC",
+     "clubEn": "Brighton & Hove Albion F.C.",
+     "start": "2026",
+     "end": null,
+     "apps": 0,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png"
+    }
+   ],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "308907": {
+   "name": "Patrick Orphe M'Bina",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "318522": {
+   "name": "Promise David",
+   "qid": "Q112988067",
+   "career": [
+    {
+     "club": "ロイヤル・ユニオン・サン＝ジロワーズ",
+     "clubEn": "Royale Union Saint-Gilloise",
+     "start": "2024",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": null
+    },
+    {
+     "club": "サッカーカナダ代表",
+     "clubEn": "Canadian men's national soccer team",
+     "start": "2025",
+     "end": null,
+     "apps": 11,
+     "national": true,
+     "youth": false,
+     "loan": false,
+     "logo": null
+    }
+   ],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "290642": {
+   "name": "Rahman Dashdamirov",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "342959": {
+   "name": "Rauf Rustamli",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "388497": {
+   "name": "Ravan Mirzammadov",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "108662": {
+   "name": "Robert Sánchez",
+   "qid": "Q110164175",
+   "career": [
+    {
+     "club": "セビージャ・アトレティコ",
+     "clubEn": "FC barcelona",
+     "start": "2019",
+     "end": "2022",
+     "apps": 68,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png"
+    },
+    {
+     "club": "U-19サッカースペイン代表",
+     "clubEn": "Spain national under-19 football team",
+     "start": "2021",
+     "end": "2022",
+     "apps": 10,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png"
+    },
+    {
+     "club": "セビージャFC",
+     "clubEn": "Sevilla FC",
+     "start": "2021",
+     "end": "2026",
+     "apps": 91,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png"
+    },
+    {
+     "club": "CDミランデス",
+     "clubEn": "CD Mirandés",
+     "start": "2022",
+     "end": "2023",
+     "apps": 37,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4515.png"
+    },
+    {
+     "club": "U-21サッカースペイン代表",
+     "clubEn": "Spain national under-21 association football team",
+     "start": "2023",
+     "end": "2025",
+     "apps": 13,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png"
+    },
+    {
+     "club": "U-23サッカースペイン代表",
+     "clubEn": "Spain national under-23 football team",
+     "start": "2024",
+     "end": "2024",
+     "apps": 4,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png"
+    },
+    {
+     "club": "AFCボーンマス",
+     "clubEn": "AFC Bournemouth",
+     "start": "2026",
+     "end": null,
+     "apps": 0,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png"
+    }
+   ],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "214888": {
+   "name": "Robin Le Normand",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "274346": {
+   "name": "Rodrigo Fernandes",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "74630": {
+   "name": "Rodrigo Mendoza",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "276822": {
+   "name": "Samuele Ricci",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "189045": {
+   "name": "Stas Pokatilov",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "237718": {
+   "name": "Tellur Mutallimov",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "258421": {
+   "name": "Tymoteusz Puchacz",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "362336": {
+   "name": "Umarali Rakhmonaliev",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "193291": {
+   "name": "Veljko Simic",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "297084": {
+   "name": "Yan Couto",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "304242": {
+   "name": "Yasin Ayari",
+   "qid": "Q103979811",
+   "career": [
+    {
+     "club": "AIKソルナ",
+     "clubEn": "AIK Fotboll",
+     "start": "2012",
+     "end": "2023",
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": null
+    },
+    {
+     "club": "ブライトン・アンド・ホーヴ・アルビオンFC",
+     "clubEn": "Brighton & Hove Albion F.C.",
+     "start": "2023",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png"
+    }
+   ],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "297373": {
+   "name": "Álex Baena",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
+  },
+  "192146": {
+   "name": "Álex Valle",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-25T07:22:12Z"
   }
  }
 }

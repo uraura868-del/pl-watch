@@ -444,6 +444,131 @@ def update_careers(path: Path, roster: list[dict]) -> None:
     log(f"  careers: {found}/{len(cache)} 人分（今回取得 {fetched} 人）、エンブレム {with_logo}/{total_rows} 行（今回検索 {n_logo} 行）")
 
 
+# ---------------------------------------------------------------- 欠場理由 (Transfermarkt)
+REASON_JA = [  # 部分一致。上から順に評価
+    ("cruciate", "十字靭帯損傷"), ("achilles", "アキレス腱の負傷"), ("hamstring", "ハムストリング負傷"),
+    ("groin", "鼠径部の負傷"), ("calf", "ふくらはぎの負傷"), ("thigh", "太ももの負傷"), ("adductor", "内転筋の負傷"),
+    ("knee", "膝の負傷"), ("ankle", "足首の負傷"), ("foot", "足の負傷"), ("toe", "つま先の負傷"), ("hip", "股関節の負傷"),
+    ("back", "背中の負傷"), ("shoulder", "肩の負傷"), ("arm", "腕の負傷"), ("hand", "手の負傷"), ("wrist", "手首の負傷"),
+    ("rib", "肋骨の負傷"), ("head", "頭部の負傷"), ("concussion", "脳震盪"), ("facial", "顔面の負傷"),
+    ("muscle", "筋肉系の負傷"), ("muscular", "筋肉系の負傷"), ("ligament", "靭帯損傷"), ("tendon", "腱の負傷"), ("fracture", "骨折"),
+    ("bruise", "打撲"), ("knock", "打撲"), ("strain", "肉離れ"), ("tear", "断裂"),
+    ("illness", "体調不良"), ("ill", "体調不良"), ("virus", "体調不良"), ("fever", "体調不良"), ("flu", "体調不良"),
+    ("yellow card", "累積警告"), ("red card", "退場による出場停止"), ("suspen", "出場停止"), ("ban", "出場停止"),
+    ("surgery", "手術"), ("fitness", "コンディション不良"), ("rest", "休養"), ("unknown", "負傷（詳細不明）"),
+]
+
+
+def reason_ja(s: str) -> str:
+    low = (s or "").lower()
+    for k, v in REASON_JA:
+        if k in low:
+            return v
+    return s or ""
+
+
+def tm_injuries(slug: str, tm_id: int) -> list[dict] | None:
+    """Transfermarkt の「負傷者・出場停止」ページを読む。取得できなければ None"""
+    url = f"https://www.transfermarkt.com/{slug}/sperrenundverletzungen/verein/{tm_id}"
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "en-GB,en;q=0.9",
+                                                   "Accept": "text/html,application/xhtml+xml,*/*;q=0.8"})
+        with urllib.request.urlopen(req, timeout=30) as r:
+            page = r.read().decode("utf-8", "ignore")
+    except Exception as e:  # noqa: BLE001
+        log(f"  transfermarkt 取得失敗: {e}")
+        return None
+    h = re.sub(r"\s+", " ", page)
+    out = []
+    chunks = re.split(r'<tr class="(?:odd|even)">', h)[1:]
+    for ch in chunks:
+        name_m = re.search(r'<a [^>]*title="([^"]+)"[^>]*href="/[^"]*/profil/spieler/\d+"', ch)
+        if not name_m:
+            continue
+        outer = re.sub(r'<table class="inline-table">.*?</table>', "", ch, count=1, flags=re.S)
+        row = outer.split("</tr>")[0]
+        cells = [html.unescape(re.sub(r"<[^>]+>", "", c)).strip() for c in re.findall(r"<td[^>]*>(.*?)</td>", row, re.S)]
+        if len(cells) < 4:
+            continue
+        reason = cells[2]
+        since = _tm_date(cells[3])
+        until = _tm_date(cells[4]) if len(cells) > 4 else None
+        low = reason.lower()
+        kind = "出場停止" if any(w in low for w in ("suspen", "ban", "card")) else "負傷"
+        out.append({"name": html.unescape(name_m.group(1)), "reason": reason, "reasonJa": reason_ja(reason),
+                    "type": kind, "since": since, "until": until})
+    return out
+
+
+def _tm_date(s: str) -> str | None:
+    m = re.search(r"(\d{2})/(\d{2})/(\d{4})", s or "")
+    return f"{m.group(3)}-{m.group(2)}-{m.group(1)}" if m else None
+
+
+def update_injuries(tdir: Path, team: dict) -> None:
+    """負傷・出場停止の履歴を data/<team>/injuries.json に溜める（消えた項目は復帰扱いで閉じる）"""
+    if not team.get("tmTeamId") or not team.get("tmSlug"):
+        return
+    path = tdir / "injuries.json"
+    hist: list[dict] = []
+    if path.exists():
+        try:
+            hist = json.loads(path.read_text(encoding="utf-8")).get("players", [])
+        except Exception:  # noqa: BLE001
+            hist = []
+    current = tm_injuries(team["tmSlug"], int(team["tmTeamId"]))
+    today = NOW.strftime("%Y-%m-%d")
+    if current is None:
+        log("  injuries: 取得できず（前回の履歴を維持）")
+        write_json(path, {"updatedAt": iso(NOW), "fetchedOk": False, "players": hist})
+        return
+    by_key = {(norm_name(h["name"]), h.get("since")): h for h in hist}
+    cur_keys = set()
+    for c in current:
+        k = (norm_name(c["name"]), c.get("since"))
+        cur_keys.add(k)
+        if k in by_key:
+            e = by_key[k]
+            e.update({"reason": c["reason"], "reasonJa": c["reasonJa"], "type": c["type"], "until": c["until"], "lastSeen": today, "active": True})
+        else:
+            hist.append({**c, "firstSeen": today, "lastSeen": today, "active": True})
+    for h in hist:
+        k = (norm_name(h["name"]), h.get("since"))
+        if k not in cur_keys and h.get("active", True):
+            # ページから消えた＝復帰したとみなし、最後に見た日で閉じる
+            h["active"] = False
+            if not h.get("until") or h["until"] > today:
+                h["until"] = h.get("lastSeen") or today
+    hist.sort(key=lambda h: (h.get("since") or "", h["name"]))
+    write_json(path, {"updatedAt": iso(NOW), "fetchedOk": True, "players": hist})
+    log(f"  injuries: 現在 {len(current)} 件（{', '.join(c['name'] + '=' + c['reasonJa'] for c in current[:4])}）、履歴 {len(hist)} 件")
+
+
+# ---------------------------------------------------------------- カレンダー (.ics)
+def write_ics(tdir: Path, team: dict, fixtures: list[dict]) -> None:
+    """Google カレンダー等で購読できる日程ファイル。キックオフ時刻だけで、結果は含めない"""
+    def esc_ics(s: str) -> str:
+        return (s or "").replace("\\", "\\\\").replace(",", "\\,").replace(";", "\\;").replace("\n", "\\n")
+    lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//pl-watch//JP", "CALSCALE:GREGORIAN", "METHOD:PUBLISH",
+             f"X-WR-CALNAME:{esc_ics(team.get('shortName') or team['name'])} 日程（PL Watch）", "X-WR-TIMEZONE:Asia/Tokyo"]
+    for f in fixtures:
+        if f.get("status") == "postponed":
+            continue
+        dt = datetime.strptime(f["date"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
+        start = dt.strftime("%Y%m%dT%H%M%SZ")
+        end = (dt + timedelta(hours=2)).strftime("%Y%m%dT%H%M%SZ")
+        ha = "H" if f.get("isHome") else "A"
+        title = f"{team.get('shortName') or team['name']} vs {f['opponent']['name']} ({f.get('compShort') or f.get('competition', '')}, {ha})"
+        lines += ["BEGIN:VEVENT", f"UID:{f['eventId']}@pl-watch", f"DTSTAMP:{NOW.strftime('%Y%m%dT%H%M%SZ')}",
+                  f"DTSTART:{start}", f"DTEND:{end}", f"SUMMARY:{esc_ics(title)}",
+                  f"DESCRIPTION:{esc_ics((f.get('competition') or '') + '。スタメンはキックオフ約1時間前から PL Watch で確認できます。')}",
+                  f"LOCATION:{esc_ics(f.get('venue') or '')}",
+                  "BEGIN:VALARM", "TRIGGER:-PT60M", "ACTION:DISPLAY", "DESCRIPTION:スタメン公開のころです", "END:VALARM",
+                  "END:VEVENT"]
+    lines.append("END:VCALENDAR")
+    (tdir / "fixtures.ics").write_text("\r\n".join(lines) + "\r\n", encoding="utf-8")
+
+
 # ---------------------------------------------------------------- 配置 (フォーメーション図)
 def pos_depth(abbr: str | None) -> float:
     a = (abbr or "").upper()
@@ -851,9 +976,26 @@ def build_team(team: dict, photo_index: dict[str, dict]) -> None:
     except Exception as e:  # noqa: BLE001
         log(f"  videos の更新に失敗（スキップ）: {e!r}")
 
-    # --- 日程
-    events = espn_schedule(league, espn_id)
-    fixtures = [f for f in (fixture_from_event(e, espn_id, team.get("leagueName", league)) for e in events) if f]
+    # --- 欠場理由（Transfermarkt）
+    try:
+        update_injuries(tdir, team)
+    except Exception as e:  # noqa: BLE001
+        log(f"  injuries の更新に失敗（スキップ）: {e!r}")
+
+    # --- 日程（リーグ戦＋カップ戦）
+    comps = team.get("competitions") or [{"league": league, "name": team.get("leagueName", league), "short": ""}]
+    fixtures: list[dict] = []
+    seen_ids: set[str] = set()
+    for comp in comps:
+        for e in espn_schedule(comp["league"], espn_id):
+            f = fixture_from_event(e, espn_id, comp.get("name") or comp["league"])
+            if not f or f["eventId"] in seen_ids:
+                continue
+            f["league"] = comp["league"]
+            f["compShort"] = comp.get("short") or ""
+            seen_ids.add(f["eventId"])
+            fixtures.append(f)
+        time.sleep(0.3)
     fixtures.sort(key=lambda f: f["date"])
 
     # --- スタメン取得対象
@@ -887,7 +1029,7 @@ def build_team(team: dict, photo_index: dict[str, dict]) -> None:
         if not need_lineup and not need_stats and not need_result:
             f["hasLineup"] = bool(existing)
             continue
-        summary = espn_summary(league, f["eventId"])
+        summary = espn_summary(f.get("league") or league, f["eventId"])
         time.sleep(0.5)
         if need_result and summary:
             try:
@@ -974,6 +1116,10 @@ def build_team(team: dict, photo_index: dict[str, dict]) -> None:
     for f in fixtures:
         f.pop("final", None)
     write_json(tdir / "fixtures.json", {"updatedAt": iso(NOW), "fixtures": fixtures})
+    try:
+        write_ics(tdir, team, fixtures)
+    except Exception as e:  # noqa: BLE001
+        log(f"  ics の生成に失敗（スキップ）: {e!r}")
 
     # --- 今季メンバー入り回数（ユース選手などを欠場者一覧で分けるため）
     counts: dict[str, int] = {}

@@ -1,0 +1,45 @@
+{
+ "eventId": "401915442",
+ "date": "2026-09-10T19:00:00Z",
+ "opponent": {
+  "name": "Sabah FK",
+  "abbr": "SAB"
+ },
+ "isHome": true,
+ "score": {
+  "us": 4,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Matheus Cunha",
+   "assist": "Patrick Dorgu",
+   "minute": "27'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Bruno Fernandes",
+   "assist": "Youri Tielemans",
+   "minute": "42'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Benjamin Sesko",
+   "assist": "Bryan Mbeumo",
+   "minute": "45'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Lisandro Martínez",
+   "assist": null,
+   "minute": "68'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

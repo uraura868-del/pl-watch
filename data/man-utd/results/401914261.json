@@ -1,0 +1,52 @@
+{
+ "eventId": "401914261",
+ "date": "2026-09-16T19:00:00Z",
+ "opponent": {
+  "name": "Brighton & Hove Albion",
+  "abbr": "BHA"
+ },
+ "isHome": true,
+ "score": {
+  "us": 2,
+  "opp": 3
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Shea Lacey",
+   "assist": "Youri Tielemans",
+   "minute": "8'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Mason Mount",
+   "assist": null,
+   "minute": "10'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Charalambos Kostoulas",
+   "assist": "Jaouen Hadjam",
+   "minute": "45'+1'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Pascal Gross",
+   "assist": "Luka Vuskovic",
+   "minute": "65'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Maxim De Cuyper",
+   "assist": null,
+   "minute": "69'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

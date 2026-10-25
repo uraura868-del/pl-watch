@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-25T07:08:11Z",
+ "updatedAt": "2026-10-25T07:22:12Z",
  "fixtures": [
   {
    "eventId": "401879322",
@@ -15,6 +15,8 @@
    },
    "venue": "The MKM Stadium",
    "status": "played",
+   "league": "eng.1",
+   "compShort": "PL",
    "hasStats": true,
    "hasResult": true,
    "hasLineup": true
@@ -33,6 +35,8 @@
    },
    "venue": "Old Trafford",
    "status": "played",
+   "league": "eng.1",
+   "compShort": "PL",
    "hasStats": true,
    "hasResult": true,
    "hasLineup": true
@@ -51,6 +55,28 @@
    },
    "venue": "Hill Dickinson Stadium",
    "status": "played",
+   "league": "eng.1",
+   "compShort": "PL",
+   "hasStats": true,
+   "hasResult": true,
+   "hasLineup": true
+  },
+  {
+   "eventId": "401915442",
+   "date": "2026-09-10T19:00:00Z",
+   "competition": "チャンピオンズリーグ",
+   "matchday": null,
+   "isHome": true,
+   "opponent": {
+    "id": "21922",
+    "name": "Sabah FK",
+    "abbr": "SAB",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21922.png"
+   },
+   "venue": "Old Trafford",
+   "status": "played",
+   "league": "uefa.champions",
+   "compShort": "CL",
    "hasStats": true,
    "hasResult": true,
    "hasLineup": true
@@ -69,6 +95,28 @@
    },
    "venue": "Old Trafford",
    "status": "played",
+   "league": "eng.1",
+   "compShort": "PL",
+   "hasStats": true,
+   "hasResult": true,
+   "hasLineup": true
+  },
+  {
+   "eventId": "401914261",
+   "date": "2026-09-16T19:00:00Z",
+   "competition": "カラバオ杯",
+   "matchday": null,
+   "isHome": true,
+   "opponent": {
+    "id": "331",
+    "name": "Brighton & Hove Albion",
+    "abbr": "BHA",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png"
+   },
+   "venue": "Old Trafford",
+   "status": "played",
+   "league": "eng.league_cup",
+   "compShort": "EFL",
    "hasStats": true,
    "hasResult": true,
    "hasLineup": true
@@ -87,6 +135,8 @@
    },
    "venue": "Craven Cottage",
    "status": "played",
+   "league": "eng.1",
+   "compShort": "PL",
    "hasStats": true,
    "hasResult": true,
    "hasLineup": true
@@ -105,6 +155,28 @@
    },
    "venue": "Old Trafford",
    "status": "played",
+   "league": "eng.1",
+   "compShort": "PL",
+   "hasStats": true,
+   "hasResult": true,
+   "hasLineup": true
+  },
+  {
+   "eventId": "401915412",
+   "date": "2026-10-13T19:00:00Z",
+   "competition": "チャンピオンズリーグ",
+   "matchday": null,
+   "isHome": false,
+   "opponent": {
+    "id": "1068",
+    "name": "Atlético Madrid",
+    "abbr": "ATM",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png"
+   },
+   "venue": "Riyadh Air Metropolitano",
+   "status": "played",
+   "league": "uefa.champions",
+   "compShort": "CL",
    "hasStats": true,
    "hasResult": true,
    "hasLineup": true
@@ -123,6 +195,28 @@
    },
    "venue": "Elland Road",
    "status": "played",
+   "league": "eng.1",
+   "compShort": "PL",
+   "hasStats": true,
+   "hasResult": true,
+   "hasLineup": true
+  },
+  {
+   "eventId": "401915395",
+   "date": "2026-10-21T16:45:00Z",
+   "competition": "チャンピオンズリーグ",
+   "matchday": null,
+   "isHome": false,
+   "opponent": {
+    "id": "2572",
+    "name": "Como",
+    "abbr": "COMO",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png"
+   },
+   "venue": "Giuseppe Sinigaglia",
+   "status": "played",
+   "league": "uefa.champions",
+   "compShort": "CL",
    "hasStats": true,
    "hasResult": true,
    "hasLineup": true
@@ -141,6 +235,8 @@
    },
    "venue": "Old Trafford",
    "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
    "hasStats": false,
    "hasResult": false,
    "hasLineup": false
@@ -159,6 +255,28 @@
    },
    "venue": "Stamford Bridge",
    "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
+   "hasStats": false,
+   "hasResult": false,
+   "hasLineup": false
+  },
+  {
+   "eventId": "401915308",
+   "date": "2026-11-03T20:00:00Z",
+   "competition": "チャンピオンズリーグ",
+   "matchday": null,
+   "isHome": true,
+   "opponent": {
+    "id": "104",
+    "name": "AS Roma",
+    "abbr": "ROMA",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png"
+   },
+   "venue": "Old Trafford",
+   "status": "scheduled",
+   "league": "uefa.champions",
+   "compShort": "CL",
    "hasStats": false,
    "hasResult": false,
    "hasLineup": false
@@ -177,6 +295,8 @@
    },
    "venue": "Old Trafford",
    "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
    "hasStats": false,
    "hasResult": false,
    "hasLineup": false
@@ -195,6 +315,28 @@
    },
    "venue": "Anfield",
    "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
+   "hasStats": false,
+   "hasResult": false,
+   "hasLineup": false
+  },
+  {
+   "eventId": "401915373",
+   "date": "2026-11-25T20:00:00Z",
+   "competition": "チャンピオンズリーグ",
+   "matchday": null,
+   "isHome": false,
+   "opponent": {
+    "id": "2250",
+    "name": "Sporting CP",
+    "abbr": "SCP",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png"
+   },
+   "venue": "Estádio José Alvalade",
+   "status": "scheduled",
+   "league": "uefa.champions",
+   "compShort": "CL",
    "hasStats": false,
    "hasResult": false,
    "hasLineup": false
@@ -213,6 +355,8 @@
    },
    "venue": "Old Trafford",
    "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
    "hasStats": false,
    "hasResult": false,
    "hasLineup": false
@@ -231,6 +375,8 @@
    },
    "venue": "St. James' Park",
    "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
    "hasStats": false,
    "hasResult": false,
    "hasLineup": false
@@ -249,6 +395,28 @@
    },
    "venue": "Old Trafford",
    "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
+   "hasStats": false,
+   "hasResult": false,
+   "hasLineup": false
+  },
+  {
+   "eventId": "401915371",
+   "date": "2026-12-08T20:00:00Z",
+   "competition": "チャンピオンズリーグ",
+   "matchday": null,
+   "isHome": true,
+   "opponent": {
+    "id": "11420",
+    "name": "RB Leipzig",
+    "abbr": "RBL",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png"
+   },
+   "venue": "Old Trafford",
+   "status": "scheduled",
+   "league": "uefa.champions",
+   "compShort": "CL",
    "hasStats": false,
    "hasResult": false,
    "hasLineup": false
@@ -267,6 +435,8 @@
    },
    "venue": "Selhurst Park",
    "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
    "hasStats": false,
    "hasResult": false,
    "hasLineup": false
@@ -285,6 +455,8 @@
    },
    "venue": "Emirates Stadium",
    "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
    "hasStats": false,
    "hasResult": false,
    "hasLineup": false
@@ -303,6 +475,8 @@
    },
    "venue": "Old Trafford",
    "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
    "hasStats": false,
    "hasResult": false,
    "hasLineup": false
@@ -321,6 +495,8 @@
    },
    "venue": "Old Trafford",
    "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
    "hasStats": false,
    "hasResult": false,
    "hasLineup": false
@@ -339,6 +515,8 @@
    },
    "venue": "American Express Stadium",
    "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
    "hasStats": false,
    "hasResult": false,
    "hasLineup": false
@@ -357,6 +535,8 @@
    },
    "venue": "Old Trafford",
    "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
    "hasStats": false,
    "hasResult": false,
    "hasLineup": false
@@ -375,6 +555,28 @@
    },
    "venue": "Villa Park",
    "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
+   "hasStats": false,
+   "hasResult": false,
+   "hasLineup": false
+  },
+  {
+   "eventId": "401915357",
+   "date": "2027-01-20T20:00:00Z",
+   "competition": "チャンピオンズリーグ",
+   "matchday": null,
+   "isHome": true,
+   "opponent": {
+    "id": "132",
+    "name": "Bayern Munich",
+    "abbr": "MUN",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png"
+   },
+   "venue": "Old Trafford",
+   "status": "scheduled",
+   "league": "uefa.champions",
+   "compShort": "CL",
    "hasStats": false,
    "hasResult": false,
    "hasLineup": false
@@ -393,6 +595,28 @@
    },
    "venue": "Old Trafford",
    "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
+   "hasStats": false,
+   "hasResult": false,
+   "hasLineup": false
+  },
+  {
+   "eventId": "401915349",
+   "date": "2027-01-27T20:00:00Z",
+   "competition": "チャンピオンズリーグ",
+   "matchday": null,
+   "isHome": false,
+   "opponent": {
+    "id": "102",
+    "name": "Villarreal",
+    "abbr": "VIL",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png"
+   },
+   "venue": "Estadio de la Cerámica",
+   "status": "scheduled",
+   "league": "uefa.champions",
+   "compShort": "CL",
    "hasStats": false,
    "hasResult": false,
    "hasLineup": false
@@ -411,6 +635,8 @@
    },
    "venue": "Gtech Community Stadium",
    "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
    "hasStats": false,
    "hasResult": false,
    "hasLineup": false
@@ -429,6 +655,8 @@
    },
    "venue": "Old Trafford",
    "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
    "hasStats": false,
    "hasResult": false,
    "hasLineup": false
@@ -447,6 +675,8 @@
    },
    "venue": "Old Trafford",
    "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
    "hasStats": false,
    "hasResult": false,
    "hasLineup": false
@@ -465,6 +695,8 @@
    },
    "venue": "The City Ground",
    "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
    "hasStats": false,
    "hasResult": false,
    "hasLineup": false
@@ -483,6 +715,8 @@
    },
    "venue": "Old Trafford",
    "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
    "hasStats": false,
    "hasResult": false,
    "hasLineup": false
@@ -501,6 +735,8 @@
    },
    "venue": "Stadium of Light",
    "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
    "hasStats": false,
    "hasResult": false,
    "hasLineup": false
@@ -519,6 +755,8 @@
    },
    "venue": "Old Trafford",
    "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
    "hasStats": false,
    "hasResult": false,
    "hasLineup": false
@@ -537,6 +775,8 @@
    },
    "venue": "Etihad Stadium",
    "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
    "hasStats": false,
    "hasResult": false,
    "hasLineup": false
@@ -555,6 +795,8 @@
    },
    "venue": "Old Trafford",
    "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
    "hasStats": false,
    "hasResult": false,
    "hasLineup": false
@@ -573,6 +815,8 @@
    },
    "venue": "Portman Road",
    "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
    "hasStats": false,
    "hasResult": false,
    "hasLineup": false
@@ -591,6 +835,8 @@
    },
    "venue": "Old Trafford",
    "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
    "hasStats": false,
    "hasResult": false,
    "hasLineup": false
@@ -609,6 +855,8 @@
    },
    "venue": "Coventry Building Society Arena",
    "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
    "hasStats": false,
    "hasResult": false,
    "hasLineup": false
@@ -627,6 +875,8 @@
    },
    "venue": "Vitality Stadium",
    "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
    "hasStats": false,
    "hasResult": false,
    "hasLineup": false
@@ -645,6 +895,8 @@
    },
    "venue": "Old Trafford",
    "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
    "hasStats": false,
    "hasResult": false,
    "hasLineup": false
@@ -663,6 +915,8 @@
    },
    "venue": "Tottenham Hotspur Stadium",
    "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
    "hasStats": false,
    "hasResult": false,
    "hasLineup": false
@@ -681,6 +935,8 @@
    },
    "venue": "Old Trafford",
    "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
    "hasStats": false,
    "hasResult": false,
    "hasLineup": false

@@ -167,6 +167,13 @@ details.more[open] summary::before { content: "▾ "; }
 .dlg input[type=checkbox]:checked { background: var(--accent); }
 .dlg input[type=checkbox]:checked::after { left: 21px; }
 .dlg menu { margin: 14px 0 0; padding: 0; display: flex; justify-content: flex-end; }
+.dlg .row.col { flex-direction: column; align-items: stretch; gap: 8px; }
+.ics-box { display: flex; gap: 6px; flex-wrap: wrap; }
+.ics-box input { flex: 1 1 160px; min-width: 0; background: rgba(0,0,0,.35); border: 1px solid rgba(255,255,255,.12); color: var(--fg); border-radius: 8px; padding: 6px 8px; font-size: 11px; }
+.ics-box a.btn-ghost { text-decoration: none; display: inline-flex; align-items: center; }
+.fx .comp { display: inline-block; margin-left: 6px; font-size: 10px; font-weight: 700; padding: 1px 6px; border-radius: 4px; background: rgba(255,255,255,.14); color: #fff; vertical-align: middle; letter-spacing: .05em; }
+.fx.big .comp { font-family: "Noto Sans JP", sans-serif; font-size: 11px; }
+.abs .why small { display: block; font-size: 10px; color: var(--muted); }
 .dlg pre { background: rgba(0,0,0,.35); padding: 12px; border-radius: 10px; font-size: 11px; overflow-x: auto; }
 .dlg code { background: rgba(255,255,255,.1); padding: 1px 5px; border-radius: 4px; }
 .note { color: var(--muted); font-size: 11px; }

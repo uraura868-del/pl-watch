@@ -192,7 +192,10 @@
     let role = "";
     if (ctx.role === "starter") role = `先発 ・ ${esc(posJa(p.pos))}`;
     else if (ctx.role === "bench") role = "ベンチ";
-    else if (ctx.role === "absent") role = `メンバー外 ・ ${esc(p.type || "理由不明")}${p.reason ? " ・ " + esc(p.reason) : ""}`;
+    else if (ctx.role === "absent") {
+      const r = resolveReason(p, ctx.matchDate || "");
+      role = `メンバー外 ・ ${esc(r.type || "理由不明")}${r.reason ? " ・ " + esc(r.reason) : ""}`;
+    }
 
     // 今季の出場状況（自チームのみ、観た試合＋次に観る試合の範囲）
     let season = "";
@@ -218,14 +221,15 @@
     const vdata = ours ? await getVideos() : await getOppVideos();
     const videos = renderVideos(p.name, (vdata.players || {})[p.id], !!vdata.enabled);
 
-    // 欠場の記録（absences.json の手入力分）
+    // 欠場の記録（手入力分 ＋ Transfermarkt の負傷履歴）
     let absHist = "";
     if (ours) {
       const cfg = await getAbsences();
-      const n = normName(p.name);
-      const list = (cfg[state.teamId] || []).filter(e => { const en = normName(e.name); return en && (en === n || n.split(" ").includes(en) || n.endsWith(" " + en)); });
+      const manual = (cfg[state.teamId] || []).filter(e => nameMatches(p.name, e.name)).map(e => ({ type: e.type || "欠場", reason: e.reason || "", from: e.from, until: e.until, src: "手入力" }));
+      const auto = injuryEntriesFor(p.name).map(e => ({ type: e.type || "負傷", reason: e.reasonJa || e.reason || "", from: e.since, until: e.active ? e.until : (e.until || e.lastSeen), src: e.active ? "現在" : "復帰済み" }));
+      const list = [...manual, ...auto].sort((a, b) => (b.from || "").localeCompare(a.from || ""));
       if (list.length) absHist = `<div class="sec"><h3>欠場の記録</h3>${list.map(e =>
-        `<div class="abs-row"><b>${esc(e.type || "欠場")}</b> ${esc(e.reason || "")}<small>${e.from ? fmtDate(e.from) : ""}${(e.from || e.until) ? " 〜 " : ""}${e.until ? fmtDate(e.until) : ""}</small></div>`).join("")}</div>`;
+        `<div class="abs-row"><b>${esc(e.type)}</b> ${esc(e.reason)} <span class="ctag">${esc(e.src)}</span><small>${e.from ? fmtDate(e.from) : ""}${(e.from || e.until) ? " 〜 " : ""}${e.until ? fmtDate(e.until) : ""}</small></div>`).join("")}</div>`;
     }
 
     const age = ageFrom(bio.dob);
@@ -271,7 +275,8 @@
     const t = fmtParts(f.date);
     const ha = f.isHome ? "ホーム" : "アウェイ";
     let badge = "", crest = `<img class="crest" src="${esc(f.opponent.logo)}" alt="" loading="lazy">`;
-    let opp = esc(f.opponent.name), sub = `${ha} ・ ${esc(f.competition)}`;
+    const compTag = f.compShort && f.compShort !== "PL" ? `<span class="comp">${esc(f.compShort)}</span>` : "";
+    let opp = esc(f.opponent.name) + compTag, sub = `${ha} ・ ${esc(f.competition)}`;
     if (kind === "current") badge = `<span class="badge ok">${f.hasLineup ? "スタメン公開" : "次に観る"}</span>`;
     else if (kind === "watched") badge = `<span class="badge dim">観た ✓</span>`;
     else if (kind === "open") badge = `<span class="badge">${f.hasLineup ? "スタメン公開" : "未視聴"}</span>`;
@@ -399,7 +404,7 @@
       const sk = state.showOpp ? "opp" : "us";
       html += renderPitch(side, sk);
       html += `<div class="section-label" style="margin-top:4px">ベンチ <span class="count">${side.bench.length}</span></div><div class="bench">${side.bench.map(p => playerChip(p, sk, "bench")).join("")}</div></div>`;
-      if (!state.showOpp) html += renderAbsentees(m.absentees || []);
+      if (!state.showOpp) html += renderAbsentees(m.absentees || [], f.date);
       else html += `<p class="hint">相手チームの欠場者情報は取得していません。</p>`;
     } else {
       html += `<div class="lock-msg"><div class="big">⏳</div>スタメンはまだ発表されていません。<br>キックオフ約1時間前以降の自動更新で表示されます。</div></div>`;
@@ -469,7 +474,7 @@
       const { pid, side: sk, role } = c.dataset;
       const src = sk === "opp" ? m.opponent : m.team;
       const p = role === "absent" ? (m.absentees || []).find(x => x.id === pid) : src && [...src.starters, ...src.bench].find(x => x.id === pid);
-      if (p) openPlayer(p, { side: sk, role });
+      if (p) openPlayer(p, { side: sk, role, matchDate: f.date });
     }));
     const wu = $("#btn-watch-upto");
     if (wu) wu.addEventListener("click", () => {
@@ -558,20 +563,47 @@
       <div class="rows">${rows.slice().reverse().map(r => `<div class="row">${r.map(p => playerChip(p, sk, "starter")).join("")}</div>`).join("")}</div></div>`;
   }
 
-  function renderAbsentees(list) {
+  // 欠場理由の決定: 手入力(absences.json) > 更新スクリプトが付けた理由 > Transfermarkt の負傷履歴
+  const addDays = (iso, n) => { const d = new Date(iso + "T00:00:00Z"); d.setUTCDate(d.getUTCDate() + n); return d.toISOString().slice(0, 10); };
+  function nameMatches(playerName, entryName) {
+    const n = normName(playerName), e = normName(entryName);
+    return !!e && (e === n || n.split(" ").includes(e) || n.endsWith(" " + e) || e.endsWith(" " + n.split(" ").pop()) && e.split(" ")[0] === n.split(" ")[0]);
+  }
+  function injuryEntriesFor(playerName) {
+    return (state.injuries || []).filter(e => nameMatches(playerName, e.name));
+  }
+  function resolveReason(p, matchDateIso) {
+    const d = (matchDateIso || "").slice(0, 10);
+    for (const e of ((state.absencesCfg || {})[state.teamId] || [])) {
+      if (nameMatches(p.name, e.name) && (!e.from || e.from <= d) && (!e.until || d <= e.until)) return { type: e.type || "欠場", reason: e.reason || "", source: "manual" };
+    }
+    if (p.type && p.type !== "理由不明") return { type: p.type, reason: p.reason || "", source: p.source };
+    for (const e of injuryEntriesFor(p.name)) {
+      if (e.since && e.since > d) continue;                 // 試合より後に起きた負傷は見せない
+      const end = e.until || e.lastSeen;
+      if (end && d > addDays(end, 2)) continue;              // とっくに復帰している
+      return { type: e.type || "負傷", reason: e.reasonJa || e.reason || "", source: "tm", until: e.active ? e.until : null };
+    }
+    return { type: "理由不明", reason: "", source: "none" };
+  }
+
+  function renderAbsentees(list, matchDateIso) {
     if (!list.length) return `<div class="section-label">欠場・メンバー外</div><div class="card"><div class="ghost-row">メンバー外の選手はいません</div></div>`;
-    const seen = p => (state.squadHistory[p.id] || 0) > 0;
+    // 今季メンバー入りした選手、または理由が分かっている選手（長期離脱中など）を本欄に出す
+    const seen = p => (state.squadHistory[p.id] || 0) > 0 || resolveReason(p, matchDateIso).type !== "理由不明";
     const main = list.filter(seen), other = list.filter(p => !seen(p));
     const row = p => {
-      const unk = p.type === "理由不明";
-      const sus = /停止/.test(p.type || "");
-      const why = unk ? "メンバー外 ・ 理由は未登録" : esc(p.reason || "");
-      return `<div class="r" data-pid="${esc(p.id)}" data-side="us" data-role="absent">${photoEl(p)}<div><div class="n">${esc(p.name)}</div><div class="why">${why}</div></div><span class="tag ${unk ? "unk" : sus ? "sus" : ""}">${esc(p.type || "欠場")}</span></div>`;
+      const r = resolveReason(p, matchDateIso);
+      const unk = r.type === "理由不明";
+      const sus = /停止/.test(r.type || "");
+      let why = unk ? "メンバー外 ・ 理由は未登録" : esc(r.reason || "");
+      if (!unk && r.until) why += `<small>復帰見込み ${esc(fmtDate(r.until))}</small>`;
+      return `<div class="r" data-pid="${esc(p.id)}" data-side="us" data-role="absent">${photoEl(p)}<div><div class="n">${esc(p.name)}</div><div class="why">${why}</div></div><span class="tag ${unk ? "unk" : sus ? "sus" : ""}">${esc(r.type || "欠場")}</span></div>`;
     };
     let html = `<div class="section-label">欠場・メンバー外 <span class="count">${main.length}</span></div><div class="card abs">`;
     html += main.length ? main.map(row).join("") : `<div class="ghost-row">今季メンバー入りした選手は全員ベンチ入りしています</div>`;
     if (other.length) html += `<details class="more"><summary>今季まだメンバー入りしていない選手 (${other.length})</summary>${other.map(row).join("")}</details>`;
-    html += `</div><p class="hint">欠場理由は absences.json に書くと表示されます（詳しくは README）。</p>`;
+    html += `</div><p class="hint">理由は Transfermarkt の負傷情報から自動で付けています。手で直す場合は absences.json（README 参照）。</p>`;
     return html;
   }
 
@@ -586,19 +618,26 @@
     $("#team-crest").src = `https://a.espncdn.com/i/teamlogos/soccer/500/${team.espnTeamId}.png`;
     $("#team-name").textContent = team.name;
     $("#team-sub").textContent = `${team.leagueName || ""} 2026-27 ・ ネタバレなし`;
+    const icsUrl = new URL(`data/${team.id}/fixtures.ics`, location.href).href;
+    $("#ics-url").value = icsUrl;
+    $("#ics-webcal").href = icsUrl.replace(/^https?:/, "webcal:");
     renderTabs();
     $("#list").innerHTML = `<div class="empty">読み込み中...</div>`;
     $("#detail").innerHTML = `<div class="empty">一覧から試合を選んでください</div>`;
     document.body.classList.remove("show-detail");
     try {
-      const [fx, ro, sh] = await Promise.all([
+      const [fx, ro, sh, inj, abs] = await Promise.all([
         fetchJson(`data/${team.id}/fixtures.json`),
         fetchJson(`data/${team.id}/roster.json`).catch(() => ({ players: [] })),
         fetchJson(`data/${team.id}/squad-history.json`).catch(() => ({ appearancesInSquad: {} })),
+        fetchJson(`data/${team.id}/injuries.json`).catch(() => ({ players: [] })),
+        fetchJson("absences.json").catch(() => ({})),
       ]);
       state.fixtures = (fx.fixtures || []).slice().sort((a, b) => a.date.localeCompare(b.date));
       state.roster = new Map((ro.players || []).map(p => [p.id, p]));
       state.squadHistory = sh.appearancesInSquad || {};
+      state.injuries = inj.players || [];
+      state.absencesCfg = abs || {};
       state.matchCache.clear();
       renderList();
       // PC では「次に観る試合」を自動で開く
@@ -629,6 +668,11 @@
     });
     $("#opt-lock").addEventListener("change", e => { state.prefs.lock = e.target.checked; save(); renderList(); toast(e.target.checked ? "ロックを有効にしました" : "ロックを解除しました"); });
     $("#opt-opp").addEventListener("change", e => { state.prefs.oppDefault = e.target.checked; save(); });
+    $("#btn-copy-ics").addEventListener("click", async () => {
+      const url = $("#ics-url").value;
+      try { await navigator.clipboard.writeText(url); toast("URL をコピーしました"); }
+      catch { $("#ics-url").select(); toast("選択した URL をコピーしてください"); }
+    });
     $("#btn-reset").addEventListener("click", () => {
       if (!confirm("このチームの「観た」記録をすべて消しますか？")) return;
       state.prefs.watched[state.teamId] = []; save(); renderList(); toast("リセットしました");

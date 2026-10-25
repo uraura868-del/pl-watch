@@ -1,0 +1,28 @@
+{
+ "updatedAt": "2026-10-25T07:22:12Z",
+ "fetchedOk": true,
+ "players": [
+  {
+   "name": "Manuel Ugarte",
+   "reason": "Cruciate ligament tear",
+   "reasonJa": "十字靭帯損傷",
+   "type": "負傷",
+   "since": "2026-06-28",
+   "until": null,
+   "firstSeen": "2026-10-25",
+   "lastSeen": "2026-10-25",
+   "active": true
+  },
+  {
+   "name": "Noussair Mazraoui",
+   "reason": "Back problems",
+   "reasonJa": "背中の負傷",
+   "type": "負傷",
+   "since": "2026-09-30",
+   "until": null,
+   "firstSeen": "2026-10-25",
+   "lastSeen": "2026-10-25",
+   "active": true
+  }
+ ]
+}

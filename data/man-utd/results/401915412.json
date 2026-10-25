@@ -1,0 +1,37 @@
+{
+ "eventId": "401915412",
+ "date": "2026-10-13T19:00:00Z",
+ "opponent": {
+  "name": "Atlético Madrid",
+  "abbr": "ATM"
+ },
+ "isHome": false,
+ "score": {
+  "us": 0,
+  "opp": 2
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Pablo Barrios",
+   "assist": "Álex Baena",
+   "minute": "1'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Ademola Lookman",
+   "assist": null,
+   "minute": "79'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [
+  {
+   "side": "us",
+   "name": "Leny Yoro",
+   "minute": "74'"
+  }
+ ],
+ "source": "ESPN"
+}

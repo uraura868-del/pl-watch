@@ -1,0 +1,52 @@
+{
+ "eventId": "401915395",
+ "date": "2026-10-21T16:45:00Z",
+ "opponent": {
+  "name": "Como",
+  "abbr": "COMO"
+ },
+ "isHome": false,
+ "score": {
+  "us": 1,
+  "opp": 4
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Nico Paz",
+   "assist": "Lucas Da Cunha",
+   "minute": "2'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Anastasios Douvikas",
+   "assist": "Nico Paz",
+   "minute": "49'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Nico Paz",
+   "assist": null,
+   "minute": "57'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Jacobo Ramón",
+   "assist": "Kaiki",
+   "minute": "76'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Joshua Zirkzee",
+   "assist": "Amad Diallo",
+   "minute": "90'+1'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

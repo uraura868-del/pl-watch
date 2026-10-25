@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-25T07:08:11Z",
+ "updatedAt": "2026-10-25T07:22:12Z",
  "logos": {
   "nat:england": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
   "club:swindon town": "https://a.espncdn.com/i/teamlogos/soccer/500/341.png",
@@ -270,6 +270,34 @@
   "club:sochaux montbeliard": null,
   "club:sportkring beveren": null,
   "nat:ukraine": "https://a.espncdn.com/i/teamlogos/countries/500/ukr.png",
-  "club:dynamo kyiv": "https://a.espncdn.com/i/teamlogos/soccer/500/440.png"
+  "club:dynamo kyiv": "https://a.espncdn.com/i/teamlogos/soccer/500/440.png",
+  "club:rsca futures": null,
+  "club:real madrid": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+  "club:oxford united": "https://a.espncdn.com/i/teamlogos/soccer/500/311.png",
+  "club:sheffield wednesday": "https://a.espncdn.com/i/teamlogos/soccer/500/399.png",
+  "club:getafe": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
+  "club:reading": "https://a.espncdn.com/i/teamlogos/soccer/500/338.png",
+  "club:inter miami": "https://a.espncdn.com/i/teamlogos/soccer/500/20232.png",
+  "club:n e c": null,
+  "club:fenerbahce istanbul": null,
+  "nat:turkey": null,
+  "club:stade rennais": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
+  "club:nantes": "https://a.espncdn.com/i/teamlogos/soccer/500/165.png",
+  "club:bsc young boys": null,
+  "club:royale union saint gilloise": null,
+  "nat:canadian": null,
+  "club:atletico velez sarsfield": null,
+  "club:bognor regis town": "https://a.espncdn.com/i/teamlogos/soccer/500/132416.png",
+  "club:hnk hajduk split": null,
+  "club:radomiak radom": "https://a.espncdn.com/i/teamlogos/soccer/500/131861.png",
+  "club:westerlo": "https://a.espncdn.com/i/teamlogos/soccer/500/606.png",
+  "club:hamburger": null,
+  "club:ifk goteborg": "https://a.espncdn.com/i/teamlogos/soccer/500/2556.png",
+  "club:milton keynes dons": "https://a.espncdn.com/i/teamlogos/soccer/500/21062.png",
+  "club:nxt": "https://a.espncdn.com/i/teamlogos/soccer/500/132604.png",
+  "club:ogc nice": null,
+  "club:sevilla": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
+  "club:mirandes": "https://a.espncdn.com/i/teamlogos/soccer/500/4515.png",
+  "club:aik fotboll": null
  }
 }

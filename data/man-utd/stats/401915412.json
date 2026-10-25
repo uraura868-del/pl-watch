@@ -1,0 +1,78 @@
+{
+ "eventId": "401915412",
+ "date": "2026-10-13T19:00:00Z",
+ "opponent": {
+  "name": "Atlético Madrid",
+  "abbr": "ATM"
+ },
+ "ht": {
+  "us": {
+   "shots": 4,
+   "onTarget": 2,
+   "offTarget": 1,
+   "blocked": 1,
+   "corners": 2,
+   "fouls": 14,
+   "offsides": 0,
+   "yellow": 0,
+   "red": 0
+  },
+  "opp": {
+   "shots": 4,
+   "onTarget": 1,
+   "offTarget": 2,
+   "blocked": 1,
+   "corners": 1,
+   "fouls": 4,
+   "offsides": 0,
+   "yellow": 0,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 8,
+   "onTarget": 4,
+   "offTarget": 2,
+   "blocked": 2,
+   "corners": 5,
+   "fouls": 25,
+   "offsides": 2,
+   "yellow": 1,
+   "red": 1,
+   "possession": "42.2",
+   "passesAccurate": "398",
+   "passes": "466",
+   "passAcc": "0.9",
+   "crossesAccurate": "1",
+   "crosses": "13",
+   "tacklesWon": "10",
+   "tackles": "21",
+   "interceptions": "6",
+   "clearances": "13"
+  },
+  "opp": {
+   "shots": 7,
+   "onTarget": 3,
+   "offTarget": 3,
+   "blocked": 1,
+   "corners": 2,
+   "fouls": 20,
+   "offsides": 1,
+   "yellow": 1,
+   "red": 0,
+   "possession": "57.8",
+   "passesAccurate": "578",
+   "passes": "652",
+   "passAcc": "0.9",
+   "crossesAccurate": "1",
+   "crosses": "5",
+   "tacklesWon": "3",
+   "tackles": "5",
+   "interceptions": "12",
+   "clearances": "11"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

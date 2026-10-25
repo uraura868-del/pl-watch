@@ -301,6 +301,10 @@ def wd_career(qid: str) -> list[dict]:
         if key in out:
             continue
         apps = _v(b, "apps")
+        try:
+            apps_n = int(float(apps)) if apps not in (None, "") else None
+        except (TypeError, ValueError):
+            apps_n = None  # 「不明な値」(genid URL) など
         acq = (_v(b, "acqLabel") or "").lower()
         youth = bool(re.search(r"\b(u-?\d{2}|under-?\d{2}|youth|juniors?|academy|reserves?|b team|ii)\b", en.lower()))
         out[key] = {
@@ -308,7 +312,7 @@ def wd_career(qid: str) -> list[dict]:
             "clubEn": en,
             "start": start,
             "end": end,
-            "apps": int(float(apps)) if apps not in (None, "") else None,
+            "apps": apps_n,
             "national": _v(b, "isNat") == "true",
             "youth": youth,
             "loan": "loan" in acq,
@@ -397,9 +401,8 @@ def attach_logos(cache_players: dict) -> int:
     return n
 
 
-def update_careers(tdir: Path, roster: list[dict]) -> None:
-    """自チーム選手の経歴を Wikidata から取得し data/<team>/careers.json にキャッシュ"""
-    path = tdir / "careers.json"
+def update_careers(path: Path, roster: list[dict]) -> None:
+    """選手の経歴を Wikidata から取得し path にキャッシュ（自チーム: data/<team>/careers.json、相手: data/opponents/careers.json）"""
     cache: dict = {}
     if path.exists():
         try:
@@ -418,10 +421,16 @@ def update_careers(tdir: Path, roster: list[dict]) -> None:
         if not p.get("dob"):
             cache[pid] = {"name": p["name"], "qid": None, "career": [], "fetchedAt": iso(NOW)}
             continue
-        qid = (old or {}).get("qid") or wd_find_player(p["name"], p["dob"])
-        career = wd_career(qid) if qid else []
+        try:
+            qid = (old or {}).get("qid") or wd_find_player(p["name"], p["dob"])
+            career = wd_career(qid) if qid else []
+        except Exception as e:  # noqa: BLE001
+            log(f"  経歴取得に失敗 ({p['name']}): {e!r}")
+            continue
         cache[pid] = {"name": p["name"], "qid": qid, "career": career, "fetchedAt": iso(NOW)}
         fetched += 1
+        if fetched % 10 == 0:
+            write_json(path, {"updatedAt": iso(NOW), "players": cache})  # 途中経過を保存
         time.sleep(2.0)
     try:
         n_logo = attach_logos(cache)
@@ -721,8 +730,7 @@ def yt_search(query: str) -> list[dict] | None:
     return out
 
 
-def update_videos(tdir: Path, roster: list[dict]) -> None:
-    path = tdir / "videos.json"
+def update_videos(path: Path, roster: list[dict]) -> None:
     cache: dict = {}
     if path.exists():
         try:
@@ -834,11 +842,11 @@ def build_team(team: dict, photo_index: dict[str, dict]) -> None:
     log(f"  roster: {len(roster)} 人（写真あり {sum(1 for p in roster if p['photo'])} 人、"
         f"プロフィールあり {sum(1 for p in roster if p.get('dob'))} 人）")
     try:
-        update_careers(tdir, roster)
+        update_careers(tdir / "careers.json", roster)
     except Exception as e:  # noqa: BLE001
         log(f"  careers の更新に失敗（スキップ）: {e!r}")
     try:
-        update_videos(tdir, roster)
+        update_videos(tdir / "videos.json", roster)
     except Exception as e:  # noqa: BLE001
         log(f"  videos の更新に失敗（スキップ）: {e!r}")
 
@@ -979,6 +987,27 @@ def build_team(team: dict, photo_index: dict[str, dict]) -> None:
     log(f"  fixtures: {len(fixtures)} 試合（スタメンあり {sum(1 for f in fixtures if f.get('hasLineup'))}）")
 
 
+def collect_opponent_players(teams: list[dict], photo_index: dict[str, dict]) -> list[dict]:
+    """保存済みの試合ファイルから、相手チームのスタメン・ベンチに入った選手を集める（チーム横断で共有）"""
+    players: dict[str, dict] = {}
+    for team in teams:
+        mdir = DATA / team["id"] / "matches"
+        if not mdir.exists():
+            continue
+        for mp in sorted(mdir.glob("*.json")):
+            try:
+                m = json.loads(mp.read_text(encoding="utf-8"))
+            except Exception:  # noqa: BLE001
+                continue
+            o = m.get("opponent") or {}
+            for p in (o.get("starters") or []) + (o.get("bench") or []):
+                if p.get("id") in players:
+                    continue
+                rec = find_in_index(p.get("name") or "", photo_index)
+                players[p["id"]] = {"id": p["id"], "name": p.get("name"), "dob": (rec or {}).get("dob")}
+    return sorted(players.values(), key=lambda p: p["name"] or "")
+
+
 def main() -> int:
     cfg = json.loads((ROOT / "teams.json").read_text(encoding="utf-8"))
     teams = cfg.get("teams", [])
@@ -996,6 +1025,14 @@ def main() -> int:
         except Exception as e:  # noqa: BLE001
             ok = False
             log(f"!! {team.get('id')} の更新に失敗: {e!r}")
+    # --- 相手チームの選手（観る試合のスタメン・ベンチ）の経歴と動画。チーム横断で共有キャッシュ
+    try:
+        opp = collect_opponent_players(teams, photo_index)
+        log(f"== 相手チームの選手 {len(opp)} 人")
+        update_careers(DATA / "opponents" / "careers.json", opp)
+        update_videos(DATA / "opponents" / "videos.json", opp)
+    except Exception as e:  # noqa: BLE001
+        log(f"!! 相手チーム選手の更新に失敗: {e!r}")
     write_json(DATA / "meta.json", {"updatedAt": iso(NOW), "teams": [t["id"] for t in teams]})
     log("done")
     return 0 if ok else 1

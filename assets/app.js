@@ -92,6 +92,16 @@
   let plIndex = null, absencesCfg = null;
   const careersCache = new Map();
   const videosCache = new Map();
+  // 相手チームの選手用（チーム横断の共有ファイル）
+  let oppCareers = null, oppVideos = null;
+  async function getOppCareers() {
+    if (!oppCareers) { try { oppCareers = (await fetchJson("data/opponents/careers.json")).players || {}; } catch { oppCareers = {}; } }
+    return oppCareers;
+  }
+  async function getOppVideos() {
+    if (!oppVideos) { try { oppVideos = await fetchJson("data/opponents/videos.json"); } catch { oppVideos = { enabled: false, players: {} }; } }
+    return oppVideos;
+  }
   async function getVideos() {
     if (!videosCache.has(state.teamId)) {
       try { videosCache.set(state.teamId, await fetchJson(`data/${state.teamId}/videos.json`)); }
@@ -132,7 +142,7 @@
     return careersCache.get(state.teamId);
   }
   function renderCareer(entry) {
-    if (!entry) return `<div class="sec"><h3>経歴</h3><p class="note">経歴情報はまだ取得されていません。</p></div>`;
+    if (!entry) return `<div class="sec"><h3>経歴</h3><p class="note">経歴情報はまだ取得されていません（次回の自動更新で追加されます）。</p></div>`;
     const list = entry.career || [];
     if (!entry.qid || !list.length) return `<div class="sec"><h3>経歴</h3><p class="note">経歴情報なし（Wikidata に登録がありません）</p></div>`;
     const clubs = list.filter(c => !c.national), nats = list.filter(c => c.national);
@@ -201,13 +211,12 @@
         <div class="stats"><div><b>${st}</b><span>先発</span></div><div><b>${be}</b><span>ベンチ</span></div><div><b>${ab}</b><span>メンバー外</span></div></div></div>`;
     }
 
-    // 経歴（自チームのみ、Wikidata）
-    let career = "";
-    if (ours) career = renderCareer((await getCareers())[p.id]);
+    // 経歴（Wikidata。相手チームの選手は共有キャッシュから）
+    const career = renderCareer((ours ? await getCareers() : await getOppCareers())[p.id]);
 
-    // プレー動画（自チームは埋め込み候補＋検索リンク、相手は検索リンクのみ）
-    const vdata = ours ? await getVideos() : { enabled: false, players: {} };
-    const videos = renderVideos(p.name, ours ? vdata.players[p.id] : null, !!vdata.enabled);
+    // プレー動画（埋め込み候補＋検索リンク）
+    const vdata = ours ? await getVideos() : await getOppVideos();
+    const videos = renderVideos(p.name, (vdata.players || {})[p.id], !!vdata.enabled);
 
     // 欠場の記録（absences.json の手入力分）
     let absHist = "";

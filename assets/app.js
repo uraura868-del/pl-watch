@@ -91,6 +91,37 @@
   const normName = s => (s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9 ]/g, " ").replace(/\s+/g, " ").trim();
   let plIndex = null, absencesCfg = null;
   const careersCache = new Map();
+  const videosCache = new Map();
+  async function getVideos() {
+    if (!videosCache.has(state.teamId)) {
+      try { videosCache.set(state.teamId, await fetchJson(`data/${state.teamId}/videos.json`)); }
+      catch { videosCache.set(state.teamId, { enabled: false, players: {} }); }
+    }
+    return videosCache.get(state.teamId);
+  }
+  function renderVideos(name, entry, enabled) {
+    const q = encodeURIComponent(`${name} skills -vs -highlights`);
+    const link = `<a class="yt-link" href="https://www.youtube.com/results?search_query=${q}" target="_blank" rel="noopener noreferrer">▶ YouTube でプレー動画を探す ↗</a>`;
+    const vids = (entry && entry.videos) || [];
+    let grid = "";
+    if (vids.length) {
+      grid = `<div class="vids">${vids.map(v => `<div class="vid" data-vid="${esc(v.id)}" title="${esc(v.title)}">
+          <img src="https://i.ytimg.com/vi/${esc(v.id)}/mqdefault.jpg" alt="" loading="lazy"><span class="play">▶</span>
+          <div class="vt">${esc(v.title)}</div></div>`).join("")}</div>
+        <p class="note">タイトルに試合結果を含みそうな動画は除いていますが、完全ではありません。</p>`;
+    } else if (enabled) {
+      grid = `<p class="note">条件に合う動画が見つかりませんでした。</p>`;
+    } else {
+      grid = `<p class="note">サイト内再生は YouTube API キーを設定すると有効になります（README 参照）。</p>`;
+    }
+    return `<div class="sec"><h3>プレー動画</h3>${grid}${link}</div>`;
+  }
+  function bindVideoClicks(root) {
+    root.querySelectorAll(".vid").forEach(v => v.addEventListener("click", () => {
+      const id = v.dataset.vid;
+      v.outerHTML = `<div class="vid playing"><iframe src="https://www.youtube-nocookie.com/embed/${esc(id)}?rel=0&modestbranding=1&autoplay=1" title="YouTube video" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe></div>`;
+    }));
+  }
   async function getCareers() {
     if (!careersCache.has(state.teamId)) {
       try { careersCache.set(state.teamId, (await fetchJson(`data/${state.teamId}/careers.json`)).players || {}); }
@@ -172,6 +203,10 @@
     let career = "";
     if (ours) career = renderCareer((await getCareers())[p.id]);
 
+    // プレー動画（自チームは埋め込み候補＋検索リンク、相手は検索リンクのみ）
+    const vdata = ours ? await getVideos() : { enabled: false, players: {} };
+    const videos = renderVideos(p.name, ours ? vdata.players[p.id] : null, !!vdata.enabled);
+
     // 欠場の記録（absences.json の手入力分）
     let absHist = "";
     if (ours) {
@@ -197,7 +232,8 @@
         <div class="p-sub">${p.jersey ? `#${esc(p.jersey)} ・ ` : ""}${esc(bio.posInfo || posJa(p.pos))}</div>
         ${role ? `<div class="p-role">${role}</div>` : ""}</div></div>
       ${facts.length ? `<div class="sec facts">${facts.map(([k, v]) => `<div><span>${k}</span><b>${v}</b></div>`).join("")}</div>` : `<p class="note">プロフィール情報はまだ取得できていません。</p>`}
-      ${season}${career}${absHist}`;
+      ${season}${career}${videos}${absHist}`;
+    bindVideoClicks(box);
   }
 
   // ---------------------------------------------------------------- 状態分類
@@ -315,6 +351,7 @@
     state.selected = eventId;
     state.showOpp = state.prefs.oppDefault;
     state.statsShown = null;  // 別の試合を開いたらスタッツは隠し直す
+    state.resultShown = null; // 結果も同様
     document.body.classList.add("show-detail");
     renderList();
     const el = $("#detail");
@@ -368,6 +405,15 @@
         <div id="stats-body">${shown ? `<div class="empty">読み込み中...</div>` : `<p class="hint" style="margin:0 16px 12px">数字から試合展開を推測できる場合があります。見るときだけ押してください。</p>`}</div></div>`;
     }
 
+    // 結果（確認つきボタンを押すまで、ファイルすら読まない）
+    if (f.hasResult && m) {
+      const shown = state.resultShown === f.eventId;
+      html += `<div class="section-label">結果</div><div class="card result-card">
+        ${shown ? `<div id="result-body"><div class="empty">読み込み中...</div></div>`
+                : `<div class="stats-btns"><button class="stats-btn danger" id="btn-result">結果を表示</button></div>
+                   <p class="hint" style="margin:0 16px 12px">スコアと得点者、退場者が表示されます。押す前に確認が出ます。</p>`}</div>`;
+    }
+
     if (f.status === "played" || f.hasLineup) {
       html += watched
         ? `<button class="watch-btn done" id="btn-watch" data-on="0">観た ✓ （タップで未視聴に戻す）</button>`
@@ -382,7 +428,7 @@
     bindBack();
     el.querySelectorAll(".seg button").forEach(b => b.addEventListener("click", () => { state.showOpp = b.dataset.side === "opp"; renderDetail(f, m, kind); }));
     // スタッツのボタン
-    el.querySelectorAll(".stats-btn").forEach(b => b.addEventListener("click", () => {
+    el.querySelectorAll(".stats-btn[data-which]").forEach(b => b.addEventListener("click", () => {
       const which = b.dataset.which;
       const cur = state.statsShown && state.statsShown.eventId === f.eventId ? state.statsShown.which : null;
       state.statsShown = cur === which ? null : { eventId: f.eventId, which };
@@ -395,6 +441,16 @@
         if (!$("#stats-body") || !state.statsShown || state.statsShown.eventId !== f.eventId) return;
         $("#stats-body").innerHTML = renderStats(st, which, f);
       });
+    }
+    // 結果ボタン
+    const rb = $("#btn-result");
+    if (rb) rb.addEventListener("click", () => {
+      if (!confirm("この試合の結果（スコア・得点者）を表示します。本当によろしいですか？")) return;
+      state.resultShown = f.eventId;
+      renderDetail(f, m, kind);
+    });
+    if ($("#result-body") && state.resultShown === f.eventId) {
+      loadResult(f.eventId).then(r => { if ($("#result-body") && state.resultShown === f.eventId) $("#result-body").innerHTML = renderResult(r, f); });
     }
     // 選手の写真 → 詳細ポップアップ
     el.querySelectorAll("[data-pid]").forEach(c => c.addEventListener("click", () => {
@@ -458,6 +514,30 @@
       <div class="shead"><span>${esc(team?.shortName || "自チーム")}</span><span>${which === "ht" ? "ハーフタイム時点" : "試合終了時点"}</span><span>${esc(f.opponent.abbr || f.opponent.name)}</span></div>
       ${rows}
       <p class="hint" style="margin:10px 16px 12px">${esc(st.note || "")}${which === "ht" ? " ボール支配率などの集計値は試合終了時のみです。" : ""}</p></div>`;
+  }
+
+  // ---------------------------------------------------------------- 結果
+  async function loadResult(eventId) {
+    try { return await fetchJson(`data/${state.teamId}/results/${eventId}.json`); }
+    catch (e) { console.warn(e); return null; }
+  }
+  function renderResult(r, f) {
+    if (!r) return `<p class="hint" style="margin:12px 16px">結果を読み込めませんでした。</p>`;
+    const team = state.teams.find(x => x.id === state.teamId);
+    const us = team?.shortName || "自チーム", opp = f.opponent.abbr || f.opponent.name;
+    const left = r.isHome ? { n: us, s: r.score.us } : { n: opp, s: r.score.opp };
+    const right = r.isHome ? { n: opp, s: r.score.opp } : { n: us, s: r.score.us };
+    const verdict = r.score.us > r.score.opp ? "勝ち" : r.score.us < r.score.opp ? "負け" : "引き分け";
+    const kindMark = k => k === "og" ? "（OG）" : k === "pen" ? "（PK）" : "";
+    const goalRow = g => `<div class="grow ${g.side}"><span class="gm">${esc(g.minute)}</span><span class="gn">⚽ ${esc(g.scorer || "")}${kindMark(g.kind)}${g.assist ? `<small>アシスト: ${esc(g.assist)}</small>` : ""}</span></div>`;
+    const redRow = c => `<div class="grow ${c.side}"><span class="gm">${esc(c.minute)}</span><span class="gn">🟥 ${esc(c.name || "")}<small>退場</small></span></div>`;
+    const events = [...r.goals.map(g => ({ ...g, _t: g.minute })), ...r.redCards.map(c => ({ ...c, _red: true }))]
+      .sort((a, b) => parseInt(a.minute) - parseInt(b.minute));
+    return `<div class="result-box">
+      <div class="score-line"><span class="tn">${esc(left.n)}</span><span class="sc">${left.s} <i>-</i> ${right.s}</span><span class="tn">${esc(right.n)}</span></div>
+      <div class="verdict">${esc(us)} の${verdict}</div>
+      <div class="glist">${events.map(e => e._red ? redRow(e) : goalRow(e)).join("") || `<p class="hint">得点なし</p>`}</div>
+    </div>`;
   }
 
   function renderPitch(side, sk = "us") {

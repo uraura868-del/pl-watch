@@ -219,6 +219,31 @@ details.more[open] summary::before { content: "▾ "; }
 .srow .sl { font-size: 11px; color: var(--muted); text-align: center; }
 .srow .bar { display: block; height: 4px; border-radius: 2px; background: rgba(255,255,255,.12); margin-top: 4px; overflow: hidden; }
 .srow .bar b { display: block; height: 100%; background: var(--accent); }
+/* ---- 結果 ---- */
+.stats-btn.danger { border-color: rgba(226,35,26,.6); color: #ff6b63; }
+.stats-btn.danger:hover { background: var(--accent); color: #fff; }
+.result-box { padding: 14px 16px 10px; }
+.score-line { display: flex; align-items: center; justify-content: center; gap: 16px; }
+.score-line .tn { font-weight: 700; font-size: 14px; min-width: 60px; text-align: center; }
+.score-line .sc { font-family: Oswald, sans-serif; font-size: 40px; line-height: 1; letter-spacing: .04em; }
+.score-line .sc i { font-style: normal; color: var(--muted); font-size: 28px; }
+.verdict { text-align: center; color: var(--muted); font-size: 12px; margin: 6px 0 10px; }
+.glist { border-top: var(--divider); padding-top: 8px; }
+.grow { display: flex; gap: 10px; padding: 4px 0; font-size: 13px; }
+.grow.opp { flex-direction: row-reverse; text-align: right; }
+.grow .gm { font-family: Oswald, sans-serif; color: var(--muted); width: 36px; flex: 0 0 auto; }
+.grow .gn small { display: block; font-size: 11px; color: var(--muted); }
+
+/* ---- プレー動画 ---- */
+.vids { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 8px; }
+.vid { position: relative; border-radius: 10px; overflow: hidden; background: #000; cursor: pointer; aspect-ratio: 16 / 9; }
+.vid img { width: 100%; height: 100%; object-fit: cover; opacity: .9; }
+.vid .play { position: absolute; inset: 0; display: grid; place-items: center; font-size: 22px; color: #fff; text-shadow: 0 2px 6px rgba(0,0,0,.8); }
+.vid .vt { position: absolute; left: 0; right: 0; bottom: 0; font-size: 9px; line-height: 1.2; padding: 14px 5px 4px; background: linear-gradient(transparent, rgba(0,0,0,.85)); color: #fff; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.vid.playing { grid-column: 1 / -1; aspect-ratio: 16 / 9; }
+.vid iframe { width: 100%; height: 100%; border: 0; display: block; }
+.yt-link { display: inline-block; margin-top: 4px; font-size: 12px; font-weight: 700; color: #ff6b63; text-decoration: none; }
+.yt-link:hover { text-decoration: underline; }
 .ctag { display: inline-block; margin-left: 6px; font-size: 10px; padding: 1px 6px; border-radius: 4px; background: var(--tab-bg); color: var(--muted); vertical-align: middle; }
 .abs-row { font-size: 13px; padding: 4px 0; }
 .abs-row small { display: block; color: var(--muted); font-size: 11px; }

@@ -1,0 +1,31 @@
+{
+ "eventId": "401879260",
+ "date": "2026-10-18T13:00:00Z",
+ "opponent": {
+  "name": "Leeds United",
+  "abbr": "LEE"
+ },
+ "isHome": false,
+ "score": {
+  "us": 1,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Bryan Mbeumo",
+   "assist": "Youri Tielemans",
+   "minute": "35'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Dominic Calvert-Lewin",
+   "assist": "Tarik Muharemovic",
+   "minute": "51'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

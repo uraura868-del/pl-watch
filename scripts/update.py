@@ -15,6 +15,7 @@ ESPN の非公式 API から 日程 / スタメン / フォーメーション / 
 from __future__ import annotations
 
 import json
+import os
 import re
 import sys
 import time
@@ -87,6 +88,14 @@ def write_json(path: Path, obj) -> None:
     if m:
         raise RuntimeError(f"禁止項目 {m.group(0)} が出力に含まれています: {path}")
     path.write_text(text + "\n", encoding="utf-8")
+
+
+def write_json_unchecked(path: Path, obj) -> None:
+    """結果ファイル（data/<team>/results/）専用。スコアを含むので禁止ワード検査を通さない。
+    画面側は「結果を表示」ボタンが押された時だけこのファイルを読む。"""
+    assert path.parent.name == "results", "write_json_unchecked は results/ 以外に使わない"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(obj, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
 
 def iso(dt: datetime) -> str:
@@ -640,6 +649,108 @@ def stats_from_summary(d: dict, our_id: str, f: dict) -> dict | None:
     }
 
 
+def result_from_summary(d: dict, our_id: str, f: dict) -> dict | None:
+    """スコア・得点者・退場者。results/ にだけ書く（ボタンを押した時だけ読まれる）"""
+    comps = (((d.get("header") or {}).get("competitions") or [{}])[0].get("competitors")) or []
+    us = next((c for c in comps if str((c.get("team") or {}).get("id")) == our_id), None)
+    opp = next((c for c in comps if c is not us), None)
+    if not us or not opp or us.get("score") in (None, "") or opp.get("score") in (None, ""):
+        return None
+    goals, reds = [], []
+    for e in d.get("keyEvents") or []:
+        t = ((e.get("type") or {}).get("text") or "")
+        low = t.lower()
+        side = "us" if str((e.get("team") or {}).get("id")) == our_id else "opp"
+        minute = ((e.get("clock") or {}).get("displayValue") or "")
+        names = [((p.get("athlete") or {}).get("displayName")) for p in (e.get("participants") or [])]
+        if e.get("scoringPlay") or "goal" in low:
+            if e.get("shootout") or "shootout" in low or "missed" in low or "saved" in low:
+                continue
+            kind = "og" if ("own" in low or e.get("ownGoal")) else ("pen" if ("penalty" in low or e.get("penaltyKick")) else "goal")
+            goals.append({"side": side, "scorer": names[0] if names else None,
+                          "assist": names[1] if (len(names) > 1 and kind == "goal") else None,
+                          "minute": minute, "kind": kind})
+        elif "red" in low:
+            reds.append({"side": side, "name": names[0] if names else None, "minute": minute})
+    return {
+        "eventId": f["eventId"], "date": f["date"],
+        "opponent": {"name": f["opponent"]["name"], "abbr": f["opponent"]["abbr"]},
+        "isHome": f["isHome"],
+        "score": {"us": int(us["score"]), "opp": int(opp["score"])},
+        "goals": goals, "redCards": reds, "source": "ESPN",
+    }
+
+
+# ---------------------------------------------------------------- プレー動画 (YouTube Data API)
+YT_KEY = os.environ.get("YOUTUBE_API_KEY", "").strip()
+VIDEO_TTL_DAYS = 30
+VIDEOS_PER_PLAYER = 3
+# ネタバレになりそうなタイトルを除外する（完全ではない）
+SPOILER_TITLE = re.compile(
+    r"\bvs\.?\b|\bv\b|\d\s*[-–:]\s*\d|goal|highlight|ハイライト|ゴール|\bwin\b|\bwon\b|defeat|\bloss\b|\blose\b|\bdraw\b|derby|"
+    r"\bmatch\b|result|reaction|press|interview|injur|red card|penalt|hat-?trick|final|cup|vs\b|試合|得点|勝|負|速報",
+    re.IGNORECASE,
+)
+
+
+def yt_search(query: str) -> list[dict] | None:
+    url = ("https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&videoEmbeddable=true&maxResults=12"
+           f"&safeSearch=strict&q={urllib.parse.quote(query)}&key={YT_KEY}")
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/json"})
+        with urllib.request.urlopen(req, timeout=30) as r:
+            d = json.loads(r.read().decode("utf-8"))
+    except urllib.error.HTTPError as e:
+        body = e.read().decode("utf-8", "ignore")[:200]
+        log(f"  youtube HTTP {e.code}: {body}")
+        return None if e.code in (403, 429) else []
+    except Exception as e:  # noqa: BLE001
+        log(f"  youtube error {e}")
+        return []
+    out = []
+    for it in d.get("items", []):
+        vid = (it.get("id") or {}).get("videoId")
+        sn = it.get("snippet") or {}
+        title = sn.get("title") or ""
+        if not vid or SPOILER_TITLE.search(title):
+            continue
+        out.append({"id": vid, "title": title, "channel": sn.get("channelTitle"), "publishedAt": (sn.get("publishedAt") or "")[:10]})
+        if len(out) >= VIDEOS_PER_PLAYER:
+            break
+    return out
+
+
+def update_videos(tdir: Path, roster: list[dict]) -> None:
+    path = tdir / "videos.json"
+    cache: dict = {}
+    if path.exists():
+        try:
+            cache = json.loads(path.read_text(encoding="utf-8")).get("players", {})
+        except Exception:  # noqa: BLE001
+            cache = {}
+    if not YT_KEY:
+        log("  videos: YOUTUBE_API_KEY が未設定のためスキップ（YouTube 検索リンクのみ表示されます）")
+        write_json(path, {"updatedAt": iso(NOW), "enabled": False, "players": cache})
+        return
+    fetched = 0
+    for p in roster:
+        old = cache.get(p["id"])
+        if old and old.get("fetchedAt"):
+            age = NOW - datetime.strptime(old["fetchedAt"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
+            if age < timedelta(days=VIDEO_TTL_DAYS):
+                continue
+        q = f'{p["name"]} skills'
+        vids = yt_search(q)
+        if vids is None:  # クォータ超過など → 今回はここで打ち切り
+            log("  videos: クォータ超過または拒否。次回に持ち越し")
+            break
+        cache[p["id"]] = {"name": p["name"], "query": q, "videos": vids, "fetchedAt": iso(NOW)}
+        fetched += 1
+        time.sleep(0.5)
+    write_json(path, {"updatedAt": iso(NOW), "enabled": True, "players": cache})
+    log(f"  videos: {sum(1 for v in cache.values() if v.get('videos'))}/{len(roster)} 人分（今回検索 {fetched} 人）")
+
+
 def lineups_from_summary(d: dict | None) -> dict[str, dict] | None:
     """summary → {teamId: {formation, players:[{id,name,jersey,pos,starter,place}]}}"""
     if not d:
@@ -725,6 +836,10 @@ def build_team(team: dict, photo_index: dict[str, dict]) -> None:
         update_careers(tdir, roster)
     except Exception as e:  # noqa: BLE001
         log(f"  careers の更新に失敗（スキップ）: {e!r}")
+    try:
+        update_videos(tdir, roster)
+    except Exception as e:  # noqa: BLE001
+        log(f"  videos の更新に失敗（スキップ）: {e!r}")
 
     # --- 日程
     events = espn_schedule(league, espn_id)
@@ -739,9 +854,12 @@ def build_team(team: dict, photo_index: dict[str, dict]) -> None:
 
     sdir = tdir / "stats"
     sdir.mkdir(parents=True, exist_ok=True)
+    rdir = tdir / "results"
+    rdir.mkdir(parents=True, exist_ok=True)
     for f in fixtures:
         mpath = mdir / f"{f['eventId']}.json"
         spath = sdir / f"{f['eventId']}.json"
+        rpath = rdir / f"{f['eventId']}.json"
         existing = None
         if mpath.exists():
             try:
@@ -749,15 +867,28 @@ def build_team(team: dict, photo_index: dict[str, dict]) -> None:
             except Exception:  # noqa: BLE001
                 existing = None
         f["hasStats"] = spath.exists()
+        f["hasResult"] = rpath.exists()
         kickoff = datetime.strptime(f["date"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
         need_lineup = not (existing and existing.get("final")) and (
             f["status"] == "played" or (f["status"] == "scheduled" and kickoff - NOW <= timedelta(hours=3)))
-        need_stats = f["status"] == "played" and bool(f.get("final")) and not spath.exists()
-        if not need_lineup and not need_stats:
+        is_final = f["status"] == "played" and bool(f.get("final"))
+        need_stats = is_final and not spath.exists()
+        need_result = is_final and not rpath.exists()
+        if not need_lineup and not need_stats and not need_result:
             f["hasLineup"] = bool(existing)
             continue
         summary = espn_summary(league, f["eventId"])
         time.sleep(0.5)
+        if need_result and summary:
+            try:
+                res = result_from_summary(summary, espn_id, f)
+            except Exception as e:  # noqa: BLE001
+                res = None
+                log(f"  result の抽出に失敗: {e!r}")
+            if res:
+                write_json_unchecked(rpath, res)
+                f["hasResult"] = True
+                log(f"  result: {f['date'][:10]} vs {f['opponent']['name']} を results/ に保存")
         if need_stats and summary:
             try:
                 st = stats_from_summary(summary, espn_id, f)

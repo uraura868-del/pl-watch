@@ -32,6 +32,9 @@ jobs:
       - name: Fetch lineups / fixtures / photos
         run: python scripts/update.py
         continue-on-error: true   # 取得に失敗しても前回のデータでサイトは公開し続ける
+        env:
+          # プレー動画用（任意）。Settings → Secrets and variables → Actions に YOUTUBE_API_KEY を登録すると有効になる
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
 
       - name: Commit data changes
         run: |

@@ -1,0 +1,31 @@
+{
+ "eventId": "401879322",
+ "date": "2026-08-22T11:30:00Z",
+ "opponent": {
+  "name": "Hull City",
+  "abbr": "HUL"
+ },
+ "isHome": false,
+ "score": {
+  "us": 0,
+  "opp": 2
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Semi Ajayi",
+   "assist": null,
+   "minute": "17'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Nobel Mendy",
+   "assist": "Regan Slater",
+   "minute": "38'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

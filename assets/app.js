@@ -112,8 +112,9 @@
   // YouTube API のタイトルは HTML エンティティ（&#39; など）入りで返るので元に戻す
   const decodeEntities = s => { const t = document.createElement("textarea"); t.innerHTML = String(s || ""); return t.value; };
   function renderVideos(name, entry, enabled) {
-    const q = encodeURIComponent(`${name} skills -vs -highlights`);
-    const link = `<a class="yt-link" href="https://www.youtube.com/results?search_query=${q}" target="_blank" rel="noopener noreferrer">▶ YouTube でプレー動画を探す ↗</a>`;
+    const q = encodeURIComponent(`${name} skills`);
+    const link = `<a class="yt-link" href="https://www.youtube.com/results?search_query=${q}" target="_blank" rel="noopener noreferrer">▶ YouTube でプレー動画を探す ↗</a>
+      <p class="note" style="margin:4px 0 0">⚠ YouTube の検索結果には、試合結果やスコアを含む動画のタイトル・サムネイルが並ぶことがあります。観ていない試合がある時期はご注意ください。</p>`;
     const vids = (entry && entry.videos) || [];
     let grid = "";
     if (vids.length) {

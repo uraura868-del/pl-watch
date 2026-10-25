@@ -61,14 +61,18 @@
   const shortName = (name) => {
     const parts = String(name || "").trim().split(/\s+/);
     if (parts.length <= 1) return parts[0] || "";
-    // "Bruno Fernandes" → "B. Fernandes"、3語以上は最後の語
-    return parts.length === 2 ? `${parts[0][0]}. ${parts[1]}` : parts[parts.length - 1];
+    // "Bruno Fernandes" → "B. Fernandes"、"Matthijs de Ligt" → "M. de Ligt"（長すぎる場合は最後の語だけ）
+    const rest = parts.slice(1).join(" ");
+    return rest.length <= 12 ? `${parts[0][0]}. ${rest}` : parts[parts.length - 1];
   };
   const initials = (name) => String(name || "").split(/\s+/).map(w => w[0] || "").join("").slice(0, 2).toUpperCase();
 
+  // Transfermarkt の写真はサイズ違いの URL があるので、用途に応じて差し替える（header: 139px、big: 300px）
+  const tmSize = (url, size) => (url || "").replace(/\/portrait\/(small|medium|header|big)\//, `/portrait/${size}/`);
   function photoEl(p, cls = "") {
     const num = p.jersey ? `<span class="num">${esc(p.jersey)}</span>` : "";
-    const img = p.photo ? `<img src="${esc(p.photo)}" alt="" loading="lazy" onerror="this.remove()">` : "";
+    const src = tmSize(p.photo, cls === "big" ? "big" : "header");
+    const img = p.photo ? `<img src="${esc(src)}" alt="" loading="lazy" onerror="this.remove()">` : "";
     return `<div class="ph ${cls}"><span class="ini">${esc(initials(p.name))}</span>${img}${num}</div>`;
   }
   const playerChip = (p, side = "us", role = "starter") =>

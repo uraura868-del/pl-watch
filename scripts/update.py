@@ -554,6 +554,7 @@ def tm_squad_photos(slug: str, tm_id: int) -> dict[str, str] | None:
         if "default" in url:
             continue
         name = html.unescape(title)
+        url = url.replace("/portrait/medium/", "/portrait/header/")  # medium は 100px で粗いので一回り大きいものを使う
         out[norm_name(name)] = url
         ln = norm_name(name).split()[-1] if norm_name(name) else ""
         if ln and ln not in out:

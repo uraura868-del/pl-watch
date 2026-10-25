@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-25T00:56:44Z",
+ "updatedAt": "2026-10-25T01:07:42Z",
  "players": [
   {
    "id": "42250",
@@ -45,7 +45,7 @@
    "id": "167127",
    "name": "Luke Shaw",
    "jersey": "23",
-   "pos": "D",
+   "pos": "M",
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p106760.png",
    "injuries": []
   },

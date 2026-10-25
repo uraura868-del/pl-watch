@@ -308,6 +308,85 @@ def wd_career(qid: str) -> list[dict]:
     return rows
 
 
+# ---------------------------------------------------------------- クラブのエンブレム (ESPN 検索)
+ESPN_SEARCH = "https://site.web.api.espn.com/apis/common/v3/search?limit=6&type=team&sport=soccer&query="
+LOGO_CACHE = DATA / "club-logos.json"
+NAT_WORDS = re.compile(r"\b(men's|women's|national|association|football|soccer|team|olympic|under-?\d{1,2}|u-?\d{1,2})\b", re.IGNORECASE)
+# 正規化後のトークンから落とす語（クラブ略号・一般語）。2文字以下と数字だけのトークンも落とす
+CLUB_NOISE_TOKENS = {"fc", "afc", "cf", "sc", "ac", "as", "us", "ss", "bc", "kv", "cp", "ssd", "asd", "calcio", "club", "clube",
+                     "de", "da", "do", "futebol", "voetbal", "sport", "sporting", "football", "association", "athletic", "the"}
+
+
+def club_tokens(name: str) -> list[str]:
+    out = []
+    for t in norm_name(name).split():
+        if t in CLUB_NOISE_TOKENS or t.isdigit() or len(t) <= 2:
+            continue
+        out.append(t)
+    return out
+
+
+def logo_query_name(row: dict) -> str:
+    """経歴の1行から ESPN 検索に使う名前を作る（代表は国名、クラブは略号を落とした名前）"""
+    en = row.get("clubEn") or row.get("club") or ""
+    if row.get("national"):
+        # "Portugal national under-19 football team" → "Portugal"
+        s = NAT_WORDS.sub(" ", en)
+        return re.sub(r"\s+", " ", s).strip(" -")
+    toks = club_tokens(en)
+    return " ".join(toks) if toks else en
+
+
+def espn_team_logo(name: str, cache: dict[str, str | None], national: bool = False) -> str | None:
+    key = ("nat:" if national else "club:") + norm_name(name)
+    if key in cache:
+        return cache[key]
+    d = get_json(ESPN_SEARCH + urllib.parse.quote(name))
+    items = [i for i in (d or {}).get("items", []) if i.get("type") == "team"]
+    want = set(club_tokens(name)) or set(norm_name(name).split())
+    best, best_score = None, 0
+    for it in items:
+        cand = club_tokens(it.get("displayName") or "") or norm_name(it.get("displayName") or "").split()
+        cand_set = set(cand)
+        if not cand_set or not want:
+            continue
+        overlap = len(want & cand_set)
+        score = overlap * 2 - abs(len(cand_set) - len(want))
+        if national and norm_name(it.get("displayName") or "") == norm_name(name):
+            score += 5
+        if overlap and score > best_score:
+            best, best_score = it, score
+    logo = None
+    if best:
+        logos = best.get("logos") or []
+        logo = next((l.get("href") for l in logos if "default" in (l.get("rel") or [])), None) or (logos[0].get("href") if logos else None)
+        if not logo and best.get("id"):
+            logo = ESPN_LOGO.format(id=best["id"])
+    cache[key] = logo
+    time.sleep(0.3)
+    return logo
+
+
+def attach_logos(cache_players: dict) -> int:
+    """careers.json の各行に logo を付ける（未処理の行だけ）。結果は data/club-logos.json に共有キャッシュ"""
+    logo_cache: dict[str, str | None] = {}
+    if LOGO_CACHE.exists():
+        try:
+            logo_cache = json.loads(LOGO_CACHE.read_text(encoding="utf-8")).get("logos", {})
+        except Exception:  # noqa: BLE001
+            logo_cache = {}
+    n = 0
+    for entry in cache_players.values():
+        for row in entry.get("career", []):
+            if "logo" in row:
+                continue
+            q = logo_query_name(row)
+            row["logo"] = espn_team_logo(q, logo_cache, national=row.get("national", False)) if q else None
+            n += 1
+    write_json(LOGO_CACHE, {"updatedAt": iso(NOW), "logos": logo_cache})
+    return n
+
+
 def update_careers(tdir: Path, roster: list[dict]) -> None:
     """自チーム選手の経歴を Wikidata から取得し data/<team>/careers.json にキャッシュ"""
     path = tdir / "careers.json"
@@ -334,9 +413,16 @@ def update_careers(tdir: Path, roster: list[dict]) -> None:
         cache[pid] = {"name": p["name"], "qid": qid, "career": career, "fetchedAt": iso(NOW)}
         fetched += 1
         time.sleep(2.0)
+    try:
+        n_logo = attach_logos(cache)
+    except Exception as e:  # noqa: BLE001
+        n_logo = 0
+        log(f"  エンブレム取得に失敗（スキップ）: {e!r}")
     write_json(path, {"updatedAt": iso(NOW), "players": cache})
     found = sum(1 for v in cache.values() if v.get("qid"))
-    log(f"  careers: {found}/{len(cache)} 人分（今回取得 {fetched} 人）")
+    with_logo = sum(1 for v in cache.values() for r in v.get("career", []) if r.get("logo"))
+    total_rows = sum(len(v.get("career", [])) for v in cache.values())
+    log(f"  careers: {found}/{len(cache)} 人分（今回取得 {fetched} 人）、エンブレム {with_logo}/{total_rows} 行（今回検索 {n_logo} 行）")
 
 
 # ---------------------------------------------------------------- 配置 (フォーメーション図)
@@ -472,9 +558,90 @@ def fixture_from_event(e: dict, team_id: str, league_name: str) -> dict | None:
     }
 
 
-def espn_lineups(league: str, event_id: str) -> dict[str, dict] | None:
+def espn_summary(league: str, event_id: str) -> dict | None:
+    return get_json(f"{ESPN}/{league}/summary?event={event_id}")
+
+
+SHOT_TYPES = {"Shot On Target": "onTarget", "Shot Off Target": "offTarget", "Shot Blocked": "blocked"}
+BOX_STATS = {  # 試合終了時のみ（ESPN boxscore）。得点やセーブ数に関わる項目は入れない
+    "possessionPct": "possession", "totalPasses": "passes", "accuratePasses": "passesAccurate", "passPct": "passAcc",
+    "totalTackles": "tackles", "effectiveTackles": "tacklesWon", "interceptions": "interceptions",
+    "totalClearance": "clearances", "totalCrosses": "crosses", "accurateCrosses": "crossesAccurate",
+}
+COUNT_KEYS = ("shots", "onTarget", "offTarget", "blocked", "corners", "fouls", "offsides", "yellow", "red")
+
+
+def stats_from_summary(d: dict, our_id: str, f: dict) -> dict | None:
+    """実況(commentary)を前半/全体で集計し、boxscore の集計値を試合終了分に足す。得点・PK・セーブは一切含めない。"""
+    teams = (d.get("boxscore") or {}).get("teams") or []
+    if not teams:
+        return None
+    name_to_side: dict[str, str] = {}
+    for t in teams:
+        tt = t.get("team") or {}
+        name_to_side[tt.get("displayName") or ""] = "us" if str(tt.get("id")) == our_id else "opp"
+
+    def empty() -> dict:
+        return {k: 0 for k in COUNT_KEYS}
+
+    ht = {"us": empty(), "opp": empty()}
+    ft = {"us": empty(), "opp": empty()}
+    com = d.get("commentary") or []
+    got_ht = False
+    for c in com:
+        p = c.get("play") or {}
+        ttxt = ((p.get("type") or {}).get("text") or "")
+        low = ttxt.lower()
+        period_no = ((p.get("period") or {}).get("number")) or 0
+        if ttxt == "Halftime" or period_no >= 2:
+            got_ht = True  # 後半の実況があれば前半は完結している
+        if not ttxt or "goal" in low or "penalty" in low:
+            continue
+        side = name_to_side.get(((p.get("team") or {}).get("displayName") or ""))
+        if not side:
+            continue
+        period = ((p.get("period") or {}).get("number")) or 0
+        key = SHOT_TYPES.get(ttxt)
+        if not key:
+            if ttxt == "Corner Awarded":
+                key = "corners"
+            elif ttxt == "Foul":
+                key = "fouls"
+            elif ttxt == "Offside":
+                key = "offsides"
+            elif "yellow" in low:
+                key = "yellow"
+            elif "red" in low:
+                key = "red"
+        if not key:
+            continue
+        for bucket in ([ft, ht] if period == 1 else [ft]):
+            bucket[side][key] += 1
+            if key in ("onTarget", "offTarget", "blocked"):
+                bucket[side]["shots"] += 1
+    if not com:
+        for side in ("us", "opp"):
+            for k in COUNT_KEYS:
+                ft[side][k] = None
+    for t in teams:
+        side = "us" if str((t.get("team") or {}).get("id")) == our_id else "opp"
+        for s in t.get("statistics") or []:
+            k = BOX_STATS.get(s.get("name"))
+            if k:
+                ft[side][k] = s.get("displayValue")
+    return {
+        "eventId": f["eventId"],
+        "date": f["date"],
+        "opponent": {"name": f["opponent"]["name"], "abbr": f["opponent"]["abbr"]},
+        "ht": ht if (com and got_ht) else None,
+        "ft": ft,
+        "source": "ESPN",
+        "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。",
+    }
+
+
+def lineups_from_summary(d: dict | None) -> dict[str, dict] | None:
     """summary → {teamId: {formation, players:[{id,name,jersey,pos,starter,place}]}}"""
-    d = get_json(f"{ESPN}/{league}/summary?event={event_id}")
     if not d:
         return None
     out: dict[str, dict] = {}
@@ -570,24 +737,41 @@ def build_team(team: dict, photo_index: dict[str, dict]) -> None:
     manual = load_manual_absences(tid)
     roster_by_id = {p["id"]: p for p in roster}
 
+    sdir = tdir / "stats"
+    sdir.mkdir(parents=True, exist_ok=True)
     for f in fixtures:
         mpath = mdir / f"{f['eventId']}.json"
+        spath = sdir / f"{f['eventId']}.json"
         existing = None
         if mpath.exists():
             try:
                 existing = json.loads(mpath.read_text(encoding="utf-8"))
             except Exception:  # noqa: BLE001
                 existing = None
-        if existing and existing.get("final"):
-            f["hasLineup"] = True
-            continue
+        f["hasStats"] = spath.exists()
         kickoff = datetime.strptime(f["date"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
-        want = f["status"] == "played" or (f["status"] == "scheduled" and kickoff - NOW <= timedelta(hours=3))
-        if not want:
+        need_lineup = not (existing and existing.get("final")) and (
+            f["status"] == "played" or (f["status"] == "scheduled" and kickoff - NOW <= timedelta(hours=3)))
+        need_stats = f["status"] == "played" and bool(f.get("final")) and not spath.exists()
+        if not need_lineup and not need_stats:
             f["hasLineup"] = bool(existing)
             continue
-        lineups = espn_lineups(league, f["eventId"])
+        summary = espn_summary(league, f["eventId"])
         time.sleep(0.5)
+        if need_stats and summary:
+            try:
+                st = stats_from_summary(summary, espn_id, f)
+            except Exception as e:  # noqa: BLE001
+                st = None
+                log(f"  stats の集計に失敗: {e!r}")
+            if st:
+                write_json(spath, st)
+                f["hasStats"] = True
+                log(f"  stats: {f['date'][:10]} vs {f['opponent']['name']}（HT {'あり' if st['ht'] else 'なし'}）")
+        if not need_lineup:
+            f["hasLineup"] = bool(existing)
+            continue
+        lineups = lineups_from_summary(summary)
         ours = (lineups or {}).get(espn_id)
         if not ours or not ours["players"]:
             f["hasLineup"] = bool(existing)

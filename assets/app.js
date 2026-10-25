@@ -106,7 +106,8 @@
     const row = c => {
       const cur = !c.end && !c.national;
       const tags = [c.loan ? "ローン" : "", c.youth ? "ユース" : ""].filter(Boolean).map(t => `<span class="ctag">${t}</span>`).join("");
-      return `<div class="crow ${cur ? "cur" : ""}"><span class="cy">${esc(c.start || "?")}〜${c.end ? esc(c.end) : "現在"}</span><span class="cn">${esc(c.club)}${tags}</span>${c.apps != null ? `<span class="ca">${esc(c.apps)}試合</span>` : ""}</div>`;
+      const logo = c.logo ? `<img class="clogo" src="${esc(c.logo)}" alt="" loading="lazy" onerror="this.remove()">` : `<span class="clogo blank"></span>`;
+      return `<div class="crow ${cur ? "cur" : ""}"><span class="cy">${esc(c.start || "?")}〜${c.end ? esc(c.end) : "現在"}</span>${logo}<span class="cn">${esc(c.club)}${tags}</span>${c.apps != null ? `<span class="ca">${esc(c.apps)}試合</span>` : ""}</div>`;
     };
     return `<div class="sec"><h3>経歴 <small>所属クラブ</small></h3>${clubs.map(row).join("") || `<p class="note">クラブ情報なし</p>`}
       ${nats.length ? `<h3 style="margin-top:10px">代表</h3>${nats.map(row).join("")}` : ""}
@@ -313,6 +314,7 @@
     if (kind === "locked") { toast("前の試合を「観た」にすると見られます"); return; }
     state.selected = eventId;
     state.showOpp = state.prefs.oppDefault;
+    state.statsShown = null;  // 別の試合を開いたらスタッツは隠し直す
     document.body.classList.add("show-detail");
     renderList();
     const el = $("#detail");
@@ -355,6 +357,17 @@
       html += `<div class="lock-msg"><div class="big">⏳</div>スタメンはまだ発表されていません。<br>キックオフ約1時間前以降の自動更新で表示されます。</div></div>`;
     }
 
+    // スタッツ（ボタンを押すまで隠す）
+    if (f.hasStats && m) {
+      const shown = state.statsShown && state.statsShown.eventId === f.eventId ? state.statsShown.which : null;
+      html += `<div class="section-label">スタッツ</div><div class="card stats-card">
+        <div class="stats-btns">
+          <button class="stats-btn ${shown === "ht" ? "on" : ""}" data-which="ht">ハーフタイム時のスタッツを表示</button>
+          <button class="stats-btn ${shown === "ft" ? "on" : ""}" data-which="ft">試合終了時のスタッツを表示</button>
+        </div>
+        <div id="stats-body">${shown ? `<div class="empty">読み込み中...</div>` : `<p class="hint" style="margin:0 16px 12px">数字から試合展開を推測できる場合があります。見るときだけ押してください。</p>`}</div></div>`;
+    }
+
     if (f.status === "played" || f.hasLineup) {
       html += watched
         ? `<button class="watch-btn done" id="btn-watch" data-on="0">観た ✓ （タップで未視聴に戻す）</button>`
@@ -368,6 +381,21 @@
     el.innerHTML = html;
     bindBack();
     el.querySelectorAll(".seg button").forEach(b => b.addEventListener("click", () => { state.showOpp = b.dataset.side === "opp"; renderDetail(f, m, kind); }));
+    // スタッツのボタン
+    el.querySelectorAll(".stats-btn").forEach(b => b.addEventListener("click", () => {
+      const which = b.dataset.which;
+      const cur = state.statsShown && state.statsShown.eventId === f.eventId ? state.statsShown.which : null;
+      state.statsShown = cur === which ? null : { eventId: f.eventId, which };
+      renderDetail(f, m, kind);
+    }));
+    const sb = $("#stats-body");
+    if (sb && state.statsShown && state.statsShown.eventId === f.eventId) {
+      const which = state.statsShown.which;
+      loadStats(f.eventId).then(st => {
+        if (!$("#stats-body") || !state.statsShown || state.statsShown.eventId !== f.eventId) return;
+        $("#stats-body").innerHTML = renderStats(st, which, f);
+      });
+    }
     // 選手の写真 → 詳細ポップアップ
     el.querySelectorAll("[data-pid]").forEach(c => c.addEventListener("click", () => {
       if (!m) return;
@@ -392,6 +420,44 @@
       renderList();
       renderDetail(f, m, k);
     });
+  }
+
+  // ---------------------------------------------------------------- スタッツ
+  const statsCache = new Map();
+  async function loadStats(eventId) {
+    const key = `${state.teamId}/${eventId}`;
+    if (statsCache.has(key)) return statsCache.get(key);
+    try { const st = await fetchJson(`data/${state.teamId}/stats/${eventId}.json`); statsCache.set(key, st); return st; }
+    catch (e) { console.warn(e); return null; }
+  }
+  const STAT_ROWS = [
+    ["possession", "ボール支配率", "%"], ["shots", "シュート"], ["onTarget", "枠内シュート"], ["offTarget", "枠外シュート"], ["blocked", "ブロックされたシュート"],
+    ["corners", "コーナーキック"], ["fouls", "ファウル"], ["offsides", "オフサイド"], ["yellow", "イエローカード"], ["red", "レッドカード"],
+    ["passes", "パス"], ["passesAccurate", "成功したパス"], ["passAcc", "パス成功率", "pct"], ["tackles", "タックル"], ["tacklesWon", "成功したタックル"],
+    ["interceptions", "インターセプト"], ["clearances", "クリア"], ["crosses", "クロス"], ["crossesAccurate", "成功したクロス"],
+  ];
+  function renderStats(st, which, f) {
+    if (!st) return `<p class="hint" style="margin:0 16px 12px">スタッツを読み込めませんでした。</p>`;
+    const data = which === "ht" ? st.ht : st.ft;
+    if (!data) return `<p class="hint" style="margin:0 16px 12px">この試合のハーフタイム時点のデータはありません。</p>`;
+    const team = state.teams.find(x => x.id === state.teamId);
+    const fmt = (v, unit) => {
+      if (v == null || v === "") return "—";
+      if (unit === "pct") { const n = Number(v); return isNaN(n) ? esc(v) : `${Math.round(n * 100)}%`; }
+      if (unit === "%") return `${esc(v)}%`;
+      return esc(v);
+    };
+    const rows = STAT_ROWS.filter(([k]) => data.us[k] !== undefined && (data.us[k] != null || data.opp[k] != null)).map(([k, label, unit]) => {
+      const a = data.us[k], b = data.opp[k];
+      const na = Number(a), nb = Number(b);
+      const tot = (isNaN(na) ? 0 : na) + (isNaN(nb) ? 0 : nb);
+      const pa = tot ? Math.round((isNaN(na) ? 0 : na) / tot * 100) : 50;
+      return `<div class="srow"><span class="sv">${fmt(a, unit)}</span><span class="sl">${label}<i class="bar"><b style="width:${pa}%"></b></i></span><span class="sv">${fmt(b, unit)}</span></div>`;
+    }).join("");
+    return `<div class="stats-table">
+      <div class="shead"><span>${esc(team?.shortName || "自チーム")}</span><span>${which === "ht" ? "ハーフタイム時点" : "試合終了時点"}</span><span>${esc(f.opponent.abbr || f.opponent.name)}</span></div>
+      ${rows}
+      <p class="hint" style="margin:10px 16px 12px">${esc(st.note || "")}${which === "ht" ? " ボール支配率などの集計値は試合終了時のみです。" : ""}</p></div>`;
   }
 
   function renderPitch(side, sk = "us") {

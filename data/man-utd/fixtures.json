@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-25T02:08:26Z",
+ "updatedAt": "2026-10-25T06:04:44Z",
  "fixtures": [
   {
    "eventId": "401879322",
@@ -15,6 +15,7 @@
    },
    "venue": "The MKM Stadium",
    "status": "played",
+   "hasStats": true,
    "hasLineup": true
   },
   {
@@ -31,6 +32,7 @@
    },
    "venue": "Old Trafford",
    "status": "played",
+   "hasStats": true,
    "hasLineup": true
   },
   {
@@ -47,6 +49,7 @@
    },
    "venue": "Hill Dickinson Stadium",
    "status": "played",
+   "hasStats": true,
    "hasLineup": true
   },
   {
@@ -63,6 +66,7 @@
    },
    "venue": "Old Trafford",
    "status": "played",
+   "hasStats": true,
    "hasLineup": true
   },
   {
@@ -79,6 +83,7 @@
    },
    "venue": "Craven Cottage",
    "status": "played",
+   "hasStats": true,
    "hasLineup": true
   },
   {
@@ -95,6 +100,7 @@
    },
    "venue": "Old Trafford",
    "status": "played",
+   "hasStats": true,
    "hasLineup": true
   },
   {
@@ -111,6 +117,7 @@
    },
    "venue": "Elland Road",
    "status": "played",
+   "hasStats": true,
    "hasLineup": true
   },
   {
@@ -127,6 +134,7 @@
    },
    "venue": "Old Trafford",
    "status": "scheduled",
+   "hasStats": false,
    "hasLineup": false
   },
   {
@@ -143,6 +151,7 @@
    },
    "venue": "Stamford Bridge",
    "status": "scheduled",
+   "hasStats": false,
    "hasLineup": false
   },
   {
@@ -159,6 +168,7 @@
    },
    "venue": "Old Trafford",
    "status": "scheduled",
+   "hasStats": false,
    "hasLineup": false
   },
   {
@@ -175,6 +185,7 @@
    },
    "venue": "Anfield",
    "status": "scheduled",
+   "hasStats": false,
    "hasLineup": false
   },
   {
@@ -191,6 +202,7 @@
    },
    "venue": "Old Trafford",
    "status": "scheduled",
+   "hasStats": false,
    "hasLineup": false
   },
   {
@@ -207,6 +219,7 @@
    },
    "venue": "St. James' Park",
    "status": "scheduled",
+   "hasStats": false,
    "hasLineup": false
   },
   {
@@ -223,6 +236,7 @@
    },
    "venue": "Old Trafford",
    "status": "scheduled",
+   "hasStats": false,
    "hasLineup": false
   },
   {
@@ -239,6 +253,7 @@
    },
    "venue": "Selhurst Park",
    "status": "scheduled",
+   "hasStats": false,
    "hasLineup": false
   },
   {
@@ -255,6 +270,7 @@
    },
    "venue": "Emirates Stadium",
    "status": "scheduled",
+   "hasStats": false,
    "hasLineup": false
   },
   {
@@ -271,6 +287,7 @@
    },
    "venue": "Old Trafford",
    "status": "scheduled",
+   "hasStats": false,
    "hasLineup": false
   },
   {
@@ -287,6 +304,7 @@
    },
    "venue": "Old Trafford",
    "status": "scheduled",
+   "hasStats": false,
    "hasLineup": false
   },
   {
@@ -303,6 +321,7 @@
    },
    "venue": "American Express Stadium",
    "status": "scheduled",
+   "hasStats": false,
    "hasLineup": false
   },
   {
@@ -319,6 +338,7 @@
    },
    "venue": "Old Trafford",
    "status": "scheduled",
+   "hasStats": false,
    "hasLineup": false
   },
   {
@@ -335,6 +355,7 @@
    },
    "venue": "Villa Park",
    "status": "scheduled",
+   "hasStats": false,
    "hasLineup": false
   },
   {
@@ -351,6 +372,7 @@
    },
    "venue": "Old Trafford",
    "status": "scheduled",
+   "hasStats": false,
    "hasLineup": false
   },
   {
@@ -367,6 +389,7 @@
    },
    "venue": "Gtech Community Stadium",
    "status": "scheduled",
+   "hasStats": false,
    "hasLineup": false
   },
   {
@@ -383,6 +406,7 @@
    },
    "venue": "Old Trafford",
    "status": "scheduled",
+   "hasStats": false,
    "hasLineup": false
   },
   {
@@ -399,6 +423,7 @@
    },
    "venue": "Old Trafford",
    "status": "scheduled",
+   "hasStats": false,
    "hasLineup": false
   },
   {
@@ -415,6 +440,7 @@
    },
    "venue": "The City Ground",
    "status": "scheduled",
+   "hasStats": false,
    "hasLineup": false
   },
   {
@@ -431,6 +457,7 @@
    },
    "venue": "Old Trafford",
    "status": "scheduled",
+   "hasStats": false,
    "hasLineup": false
   },
   {
@@ -447,6 +474,7 @@
    },
    "venue": "Stadium of Light",
    "status": "scheduled",
+   "hasStats": false,
    "hasLineup": false
   },
   {
@@ -463,6 +491,7 @@
    },
    "venue": "Old Trafford",
    "status": "scheduled",
+   "hasStats": false,
    "hasLineup": false
   },
   {
@@ -479,6 +508,7 @@
    },
    "venue": "Etihad Stadium",
    "status": "scheduled",
+   "hasStats": false,
    "hasLineup": false
   },
   {
@@ -495,6 +525,7 @@
    },
    "venue": "Old Trafford",
    "status": "scheduled",
+   "hasStats": false,
    "hasLineup": false
   },
   {
@@ -511,6 +542,7 @@
    },
    "venue": "Portman Road",
    "status": "scheduled",
+   "hasStats": false,
    "hasLineup": false
   },
   {
@@ -527,6 +559,7 @@
    },
    "venue": "Old Trafford",
    "status": "scheduled",
+   "hasStats": false,
    "hasLineup": false
   },
   {
@@ -543,6 +576,7 @@
    },
    "venue": "Coventry Building Society Arena",
    "status": "scheduled",
+   "hasStats": false,
    "hasLineup": false
   },
   {
@@ -559,6 +593,7 @@
    },
    "venue": "Vitality Stadium",
    "status": "scheduled",
+   "hasStats": false,
    "hasLineup": false
   },
   {
@@ -575,6 +610,7 @@
    },
    "venue": "Old Trafford",
    "status": "scheduled",
+   "hasStats": false,
    "hasLineup": false
   },
   {
@@ -591,6 +627,7 @@
    },
    "venue": "Tottenham Hotspur Stadium",
    "status": "scheduled",
+   "hasStats": false,
    "hasLineup": false
   },
   {
@@ -607,6 +644,7 @@
    },
    "venue": "Old Trafford",
    "status": "scheduled",
+   "hasStats": false,
    "hasLineup": false
   }
  ]

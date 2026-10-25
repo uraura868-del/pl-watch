@@ -1,0 +1,78 @@
+{
+ "eventId": "401879278",
+ "date": "2026-09-13T15:30:00Z",
+ "opponent": {
+  "name": "Manchester City",
+  "abbr": "MNC"
+ },
+ "ht": {
+  "us": {
+   "shots": 4,
+   "onTarget": 1,
+   "offTarget": 2,
+   "blocked": 1,
+   "corners": 1,
+   "fouls": 6,
+   "offsides": 3,
+   "yellow": 0,
+   "red": 0
+  },
+  "opp": {
+   "shots": 2,
+   "onTarget": 0,
+   "offTarget": 0,
+   "blocked": 2,
+   "corners": 4,
+   "fouls": 14,
+   "offsides": 1,
+   "yellow": 0,
+   "red": 1
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 14,
+   "onTarget": 3,
+   "offTarget": 7,
+   "blocked": 4,
+   "corners": 6,
+   "fouls": 32,
+   "offsides": 4,
+   "yellow": 1,
+   "red": 0,
+   "possession": "54.7",
+   "passesAccurate": "410",
+   "passes": "472",
+   "passAcc": "0.9",
+   "crossesAccurate": "6",
+   "crosses": "26",
+   "tacklesWon": "10",
+   "tackles": "18",
+   "interceptions": "8",
+   "clearances": "14"
+  },
+  "opp": {
+   "shots": 5,
+   "onTarget": 1,
+   "offTarget": 1,
+   "blocked": 3,
+   "corners": 7,
+   "fouls": 19,
+   "offsides": 1,
+   "yellow": 2,
+   "red": 1,
+   "possession": "45.3",
+   "passesAccurate": "325",
+   "passes": "395",
+   "passAcc": "0.8",
+   "crossesAccurate": "3",
+   "crosses": "14",
+   "tacklesWon": "8",
+   "tackles": "13",
+   "interceptions": "9",
+   "clearances": "25"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

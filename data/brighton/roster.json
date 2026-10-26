@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-26T17:17:41Z",
+ "updatedAt": "2026-10-26T22:36:15Z",
  "players": [
   {
    "id": "111114",
@@ -28,7 +28,7 @@
    "nat": "Australia",
    "natCode": "AU",
    "height": 187,
-   "joined": "2026-10-21",
+   "joined": "2024-01-26",
    "birthPlace": null,
    "posInfo": "Goalkeeper",
    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p564905.png"
@@ -421,7 +421,7 @@
    "id": "289645",
    "name": "Evan Ferguson",
    "jersey": "28",
-   "pos": "M",
+   "pos": "F",
    "photo": "data/photos/49489b31553e8eea.jpg",
    "injuries": [],
    "dob": "2004-10-19",

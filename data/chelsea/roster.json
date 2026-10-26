@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-26T17:17:41Z",
+ "updatedAt": "2026-10-26T22:36:15Z",
  "players": [
   {
    "id": "158626",
@@ -363,7 +363,7 @@
    "dob": "2010-01-06",
    "nat": "England",
    "natCode": "GB-ENG",
-   "height": null,
+   "height": 187,
    "joined": "2025-01-30",
    "birthPlace": "Sydney",
    "posInfo": "Central Midfielder",

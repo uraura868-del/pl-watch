@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-26T17:17:41Z",
+ "updatedAt": "2026-10-26T22:36:15Z",
  "players": [
   {
    "id": "138481",
@@ -124,7 +124,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 182,
-   "joined": "2025-08-24",
+   "joined": "2022-07-01",
    "birthPlace": null,
    "posInfo": "Right Full Back",
    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p232356.png"
@@ -220,7 +220,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 174,
-   "joined": "2018-07-30",
+   "joined": "2023-01-29",
    "birthPlace": "Hemel Hempstead",
    "posInfo": "Centre Central Midfielder",
    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/282939-1724770104.jpg?lm=4711"
@@ -252,7 +252,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": null,
-   "joined": "2025-08-24",
+   "joined": "2023-09-28",
    "birthPlace": null,
    "posInfo": "Centre Attacking Midfielder",
    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p570929.png"
@@ -348,7 +348,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": null,
-   "joined": "2026-07-24",
+   "joined": "2025-08-27",
    "birthPlace": null,
    "posInfo": "Attacking Midfielder",
    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p629583.png"
@@ -437,7 +437,7 @@
    "id": "340645",
    "name": "Malick Fofana",
    "jersey": "39",
-   "pos": "D",
+   "pos": "F",
    "photo": "data/photos/5a703109eccbe497.jpg",
    "injuries": [],
    "dob": "2005-03-31",
@@ -476,9 +476,9 @@
    "nat": "Ukraine",
    "natCode": "UA",
    "height": 183,
-   "joined": "2024-08-30",
+   "joined": "2023-04-13",
    "birthPlace": "Bakhchysaray",
-   "posInfo": "Left Winger",
+   "posInfo": "Centre Striker",
    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p604211.png"
   },
   {
@@ -516,7 +516,7 @@
   {
    "id": "3111009",
    "name": "Felix Scott",
-   "jersey": null,
+   "jersey": "49",
    "pos": "F",
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p503139.png",
    "injuries": [],

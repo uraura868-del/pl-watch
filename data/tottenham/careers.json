@@ -1,4 +1,627 @@
 {
- "updatedAt": "2026-10-26T17:17:41Z",
- "players": {}
+ "updatedAt": "2026-10-26T22:36:15Z",
+ "players": {
+  "126703": {
+   "name": "Martin Dúbravka",
+   "qid": "Q510401",
+   "career": [
+    {
+     "club": "スロバキアU-19",
+     "clubEn": "Slovakia national under-19 football team",
+     "start": "2007",
+     "end": "2008",
+     "apps": 6,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/svk.png"
+    },
+    {
+     "club": "MŠKジリナ",
+     "clubEn": "MŠK Žilina",
+     "start": "2008",
+     "end": "2014",
+     "apps": 115,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2491.png"
+    },
+    {
+     "club": "U-21サッカースロバキア代表",
+     "clubEn": "Slovakia national under-21 football team",
+     "start": "2009",
+     "end": "2010",
+     "apps": 12,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/svk.png"
+    },
+    {
+     "club": "エスビャウfB",
+     "clubEn": "Esbjerg fB",
+     "start": "2014",
+     "end": "2016",
+     "apps": 70,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/12504.png"
+    },
+    {
+     "club": "サッカースロバキア代表",
+     "clubEn": "Slovakia men's national football team",
+     "start": "2014",
+     "end": null,
+     "apps": 53,
+     "national": true,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/svk.png"
+    },
+    {
+     "club": "FCスロヴァン・リベレツ",
+     "clubEn": "FC Slovan Liberec",
+     "start": "2016",
+     "end": "2017",
+     "apps": 38,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/133078.png"
+    },
+    {
+     "club": "ACスパルタ・プラハ",
+     "clubEn": "AC Sparta Prague",
+     "start": "2017",
+     "end": "2018",
+     "apps": 17,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/433.png"
+    },
+    {
+     "club": "ニューカッスル・ユナイテッドFC",
+     "clubEn": "Newcastle United F.C.",
+     "start": "2018",
+     "end": "2018",
+     "apps": 13,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png"
+    },
+    {
+     "club": "ニューカッスル・ユナイテッドFC",
+     "clubEn": "Newcastle United F.C.",
+     "start": "2018",
+     "end": "2025",
+     "apps": 162,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png"
+    },
+    {
+     "club": "マンチェスター・ユナイテッドFC",
+     "clubEn": "Manchester United F.C.",
+     "start": "2022",
+     "end": "2023",
+     "apps": 0,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png"
+    },
+    {
+     "club": "バーンリーFC",
+     "clubEn": "Burnley F.C.",
+     "start": "2025",
+     "end": "2026",
+     "apps": 35,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/379.png"
+    },
+    {
+     "club": "トッテナム・ホットスパーFC",
+     "clubEn": "Tottenham Hotspur F.C.",
+     "start": "2026",
+     "end": null,
+     "apps": 0,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png"
+    }
+   ],
+   "fetchedAt": "2026-10-26T22:36:15Z"
+  },
+  "259942": {
+   "name": "Brandon Austin",
+   "qid": "Q107316392",
+   "career": [],
+   "fetchedAt": "2026-10-26T22:36:15Z"
+  },
+  "324393": {
+   "name": "Antonín Kinsky",
+   "qid": "Q124647398",
+   "career": [
+    {
+     "club": "FKデュクラ・プラハ",
+     "clubEn": "FK Dukla Prague",
+     "start": "2020",
+     "end": "2021",
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": null
+    },
+    {
+     "club": "SKスラヴィア・プラハ",
+     "clubEn": "SK Slavia Prague",
+     "start": "2021",
+     "end": "2025",
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/494.png"
+    },
+    {
+     "club": "MFKヴィシュコフ",
+     "clubEn": "MFK Vyškov",
+     "start": "2022",
+     "end": "2023",
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": null
+    },
+    {
+     "club": "FKパルドゥビツェ",
+     "clubEn": "FK Pardubice",
+     "start": "2023",
+     "end": "2024",
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21578.png"
+    },
+    {
+     "club": "サッカーチェコ代表",
+     "clubEn": "Czechia men's national football team",
+     "start": "2024",
+     "end": null,
+     "apps": null,
+     "national": true,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png"
+    },
+    {
+     "club": "トッテナム・ホットスパーFC",
+     "clubEn": "Tottenham Hotspur F.C.",
+     "start": "2025",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png"
+    }
+   ],
+   "fetchedAt": "2026-10-26T22:36:15Z"
+  },
+  "6327": {
+   "name": "Ben Davies",
+   "qid": "Q93555",
+   "career": [
+    {
+     "club": "U-19サッカーウェールズ代表",
+     "clubEn": "Wales national under-19 football team",
+     "start": "2011",
+     "end": "2011",
+     "apps": 3,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/wal.png"
+    },
+    {
+     "club": "スウォンジ・シティAFC",
+     "clubEn": "Swansea City A.F.C.",
+     "start": "2012",
+     "end": "2014",
+     "apps": 71,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/318.png"
+    },
+    {
+     "club": "サッカーウェールズ代表",
+     "clubEn": "Wales men's national association football team",
+     "start": "2012",
+     "end": null,
+     "apps": 94,
+     "national": true,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/wal.png"
+    },
+    {
+     "club": "トッテナム・ホットスパーFC",
+     "clubEn": "Tottenham Hotspur F.C.",
+     "start": "2014",
+     "end": null,
+     "apps": 241,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png"
+    }
+   ],
+   "fetchedAt": "2026-10-26T22:36:15Z"
+  },
+  "104943": {
+   "name": "Andy Robertson",
+   "qid": "Q15915040",
+   "career": [
+    {
+     "club": "クイーンズ・パークFC",
+     "clubEn": "Queen's Park F.C.",
+     "start": "2012",
+     "end": "2013",
+     "apps": 34,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": null
+    },
+    {
+     "club": "U-21サッカースコットランド代表",
+     "clubEn": "Scotland national under-21 football team",
+     "start": "2013",
+     "end": "2013",
+     "apps": 3,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png"
+    },
+    {
+     "club": "ダンディー・ユナイテッドFC",
+     "clubEn": "Dundee United F.C.",
+     "start": "2013",
+     "end": "2014",
+     "apps": 36,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/264.png"
+    },
+    {
+     "club": "ハル・シティAFC",
+     "clubEn": "Hull City A.F.C.",
+     "start": "2014",
+     "end": "2017",
+     "apps": 99,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png"
+    },
+    {
+     "club": "サッカースコットランド代表",
+     "clubEn": "Scotland men's national football team",
+     "start": "2014",
+     "end": null,
+     "apps": 101,
+     "national": true,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png"
+    },
+    {
+     "club": "リヴァプールFC",
+     "clubEn": "Liverpool F.C.",
+     "start": "2017",
+     "end": "2026",
+     "apps": 275,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png"
+    },
+    {
+     "club": "トッテナム・ホットスパーFC",
+     "clubEn": "Tottenham Hotspur F.C.",
+     "start": "2026",
+     "end": null,
+     "apps": 5,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png"
+    }
+   ],
+   "fetchedAt": "2026-10-26T22:36:15Z"
+  },
+  "231198": {
+   "name": "Tosin Adarabioyo",
+   "qid": "Q21620666",
+   "career": [
+    {
+     "club": "U-16サッカーイングランド代表",
+     "clubEn": "England national under-16 association football team",
+     "start": "2012",
+     "end": "2013",
+     "apps": 5,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
+    },
+    {
+     "club": "U-17サッカーイングランド代表",
+     "clubEn": "England national under-17 association football team",
+     "start": "2013",
+     "end": "2013",
+     "apps": 1,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
+    },
+    {
+     "club": "England national under-18 association football team",
+     "clubEn": "England national under-18 association football team",
+     "start": "2014",
+     "end": "2015",
+     "apps": 5,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
+    },
+    {
+     "club": "U-19サッカーイングランド代表",
+     "clubEn": "England national under-19 association football team",
+     "start": "2015",
+     "end": "2015",
+     "apps": 1,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
+    },
+    {
+     "club": "マンチェスター・シティFC",
+     "clubEn": "Manchester City F.C.",
+     "start": "2016",
+     "end": "2020",
+     "apps": 0,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png"
+    },
+    {
+     "club": "ウェスト・ブロムウィッチ・アルビオンFC",
+     "clubEn": "West Bromwich Albion F.C.",
+     "start": "2018",
+     "end": "2019",
+     "apps": 29,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/383.png"
+    },
+    {
+     "club": "ブラックバーン・ローヴァーズFC",
+     "clubEn": "Blackburn Rovers F.C.",
+     "start": "2019",
+     "end": "2020",
+     "apps": 34,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/365.png"
+    },
+    {
+     "club": "フラムFC",
+     "clubEn": "Fulham F.C.",
+     "start": "2020",
+     "end": "2024",
+     "apps": 119,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png"
+    },
+    {
+     "club": "チェルシーFC",
+     "clubEn": "Chelsea F.C.",
+     "start": "2024",
+     "end": "2026",
+     "apps": 38,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png"
+    },
+    {
+     "club": "トッテナム・ホットスパーFC",
+     "clubEn": "Tottenham Hotspur F.C.",
+     "start": "2026",
+     "end": null,
+     "apps": 0,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png"
+    }
+   ],
+   "fetchedAt": "2026-10-26T22:36:15Z"
+  },
+  "233945": {
+   "name": "Marcos Senesi",
+   "qid": "Q23413053",
+   "career": [
+    {
+     "club": "CAサン・ロレンソ・デ・アルマグロ",
+     "clubEn": "San Lorenzo de Almagro",
+     "start": null,
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": null
+    },
+    {
+     "club": "トッテナム・ホットスパーFC",
+     "clubEn": "Tottenham Hotspur F.C.",
+     "start": "2026",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png"
+    }
+   ],
+   "fetchedAt": "2026-10-26T22:36:15Z"
+  },
+  "268533": {
+   "name": "Pedro Porro",
+   "qid": "Q44080929",
+   "career": [
+    {
+     "club": "FCバルセロナ",
+     "clubEn": "FC Barcelona",
+     "start": "2010",
+     "end": "2017",
+     "apps": 5,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png"
+    },
+    {
+     "club": "ジローナFC",
+     "clubEn": "Girona FC",
+     "start": "2017",
+     "end": "2019",
+     "apps": 33,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9812.png"
+    },
+    {
+     "club": "U-21サッカースペイン代表",
+     "clubEn": "Spain national under-21 association football team",
+     "start": "2019",
+     "end": "2020",
+     "apps": 7,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png"
+    },
+    {
+     "club": "レアル・バリャドリード",
+     "clubEn": "Real Valladolid",
+     "start": "2019",
+     "end": "2020",
+     "apps": 14,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/95.png"
+    },
+    {
+     "club": "マンチェスター・シティFC",
+     "clubEn": "Manchester City F.C.",
+     "start": "2019",
+     "end": "2022",
+     "apps": 0,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png"
+    },
+    {
+     "club": "スポルティング・クルーベ・デ・ポルトゥガル",
+     "clubEn": "Sporting CP",
+     "start": "2020",
+     "end": "2022",
+     "apps": 53,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png"
+    },
+    {
+     "club": "サッカースペイン代表",
+     "clubEn": "Spain men's national football team",
+     "start": "2021",
+     "end": null,
+     "apps": 22,
+     "national": true,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png"
+    },
+    {
+     "club": "スポルティング・クルーベ・デ・ポルトゥガル",
+     "clubEn": "Sporting CP",
+     "start": "2022",
+     "end": "2023",
+     "apps": 14,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png"
+    },
+    {
+     "club": "トッテナム・ホットスパーFC",
+     "clubEn": "Tottenham Hotspur F.C.",
+     "start": "2023",
+     "end": "2023",
+     "apps": 15,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png"
+    },
+    {
+     "club": "トッテナム・ホットスパーFC",
+     "clubEn": "Tottenham Hotspur F.C.",
+     "start": "2023",
+     "end": null,
+     "apps": 102,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png"
+    }
+   ],
+   "fetchedAt": "2026-10-26T22:36:15Z"
+  },
+  "282583": {
+   "name": "Jan Paul van Hecke",
+   "qid": "Q66828825",
+   "career": [],
+   "fetchedAt": "2026-10-26T22:36:15Z"
+  }
+ }
 }

@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-26T17:17:41Z",
+ "updatedAt": "2026-10-26T22:36:15Z",
  "players": [
   {
    "id": "42250",
@@ -85,7 +85,7 @@
    "id": "167127",
    "name": "Luke Shaw",
    "jersey": "23",
-   "pos": "M",
+   "pos": "D",
    "photo": "data/photos/ebdab4a1f36a5d41.jpg",
    "injuries": [],
    "dob": "1995-07-12",
@@ -244,7 +244,7 @@
   {
    "id": "386199",
    "name": "Jaydan Kamason",
-   "jersey": "66",
+   "jersey": "56",
    "pos": "D",
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p564509.png",
    "injuries": [],
@@ -516,7 +516,7 @@
   {
    "id": "397881",
    "name": "Tynan Thompson",
-   "jersey": null,
+   "jersey": "27",
    "pos": "F",
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p671875.png",
    "injuries": [],

@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-26T17:17:41Z",
+ "updatedAt": "2026-10-26T22:36:15Z",
  "players": [
   {
    "id": "93193",
@@ -93,7 +93,7 @@
    "natCode": "GB-ENG",
    "height": 178,
    "joined": "2023-08-10",
-   "birthPlace": "London",
+   "birthPlace": null,
    "posInfo": "Right Full Back",
    "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/471690-1736520346.jpg?lm=4711"
   },

@@ -4,8 +4,8 @@
   "use strict";
 
   const LS_KEY = "plwatch.v1";
-  const PREF_KEYS = ["lock", "oppDefault", "showResult", "showStats", "showVideos", "showNames"];
-  const PREF_DEFAULTS = { lock: true, oppDefault: false, showResult: true, showStats: true, showVideos: true, showNames: true };
+  const PREF_KEYS = ["lock", "oppDefault", "showResult", "showStats", "showVideos", "showNames", "latestFirst"];
+  const PREF_DEFAULTS = { lock: true, oppDefault: false, showResult: true, showStats: true, showVideos: true, showNames: true, latestFirst: true };
   const state = {
     teams: [],
     teamId: null,
@@ -415,6 +415,65 @@
   }
 
   function renderList() {
+    if (state.prefs.latestFirst) return renderListLatest();
+    return renderListWatchOrder();
+  }
+
+  // 「最新の試合を上」の並び: 最新の試合 → 今後の日程 → これまでの試合（折りたたみ、新しい順）
+  function renderListLatest() {
+    const kinds = classify();
+    const avail = state.fixtures.filter(f => f.status === "played" || f.hasLineup);
+    const latest = avail[avail.length - 1] || null;
+    const current = state.fixtures.find(f => kinds.get(f.eventId) === "current") || null;
+    const upcoming = state.fixtures.filter(f => ["upcoming", "postponed"].includes(kinds.get(f.eventId)));
+    const past = avail.filter(f => f !== latest).slice().reverse();
+    const unseen = avail.filter(f => ["current", "open", "locked"].includes(kinds.get(f.eventId)));
+    let html = "";
+
+    html += `<div class="section-label">最新の試合</div>`;
+    if (latest) {
+      const k = kinds.get(latest.eventId);
+      html += `<div class="card">${fixtureRow(latest, k, true)}`;
+      if (k === "locked") {
+        const earlier = unseen.filter(f => f.date < latest.date).length;
+        html += `<div class="catchup"><span>この前に観ていない試合が ${earlier} 試合あります。</span>
+          <button class="row-btn" data-act="catchup" data-id="${esc(latest.eventId)}">${earlier} 試合を観たことにして開く</button></div>`;
+      }
+      html += `</div>`;
+      if (current && current !== latest && k !== "locked") {
+        html += `<p class="hint banner">未視聴の試合が ${unseen.length} 試合あります。一番古いのは <a href="#" data-open="${esc(current.eventId)}">${esc(fmtParts(current.date).md)} ${esc(current.opponent.name)}</a></p>`;
+      }
+    } else if (upcoming[0]) {
+      html += `<div class="card">${fixtureRow(upcoming[0], "upcoming", true)}</div><p class="hint">まだ試合がありません。スタメンはキックオフ約1時間前から表示されます。</p>`;
+    } else {
+      html += `<div class="card"><div class="ghost-row">試合がありません</div></div>`;
+    }
+
+    const future = (latest || !upcoming.length) ? upcoming : upcoming.slice(1);
+    if (future.length) {
+      html += `<div class="section-label">今後の日程 <span class="count">${future.length}</span></div><div class="card">${future.map(f => fixtureRow(f, kinds.get(f.eventId))).join("")}</div>`;
+    }
+
+    if (past.length) {
+      const watchedN = past.filter(f => kinds.get(f.eventId) === "watched").length;
+      const groups = new Map();
+      for (const f of past) { const d = new Date(new Date(f.date).toLocaleString("en-US", JST)); const key = `${d.getFullYear()}年${d.getMonth() + 1}月`; if (!groups.has(key)) groups.set(key, []); groups.get(key).push(f); }
+      html += `<details class="past" ${state.pastOpen ? "open" : ""}><summary><span class="section-label">これまでの試合 <span class="count">${past.length}</span><small>観た ${watchedN} ・ 未視聴 ${past.length - watchedN}</small></span></summary>`;
+      for (const [month, fs] of groups) html += `<div class="section-label sub">${esc(month)}</div><div class="card">${fs.map(f => fixtureRow(f, kinds.get(f.eventId))).join("")}</div>`;
+      html += `</details>`;
+    }
+    const el = $("#list");
+    el.innerHTML = html;
+    const det = el.querySelector("details.past");
+    if (det) det.addEventListener("toggle", () => { state.pastOpen = det.open; });
+    const dup = el.querySelector('.fx.big .row-btn[data-act="upto"]');  // 最新カードは「観たことにして開く」に一本化
+    if (dup) dup.remove();
+    el.querySelectorAll("a[data-open]").forEach(a => a.addEventListener("click", e => { e.preventDefault(); openMatch(a.dataset.open); }));
+    bindListEvents(el);
+  }
+
+  // 従来の「観る順」の並び
+  function renderListWatchOrder() {
     const kinds = classify();
     const by = k => state.fixtures.filter(f => kinds.get(f.eventId) === k);
     const current = by("current")[0];
@@ -447,6 +506,10 @@
     }
     const el = $("#list");
     el.innerHTML = html;
+    bindListEvents(el);
+  }
+
+  function bindListEvents(el) {
     el.querySelectorAll(".fx.clickable").forEach(row => {
       const go = (e) => { if (e.target.closest(".row-btn")) return; openMatch(row.dataset.id); };
       row.addEventListener("click", go);
@@ -455,9 +518,15 @@
     el.querySelectorAll(".row-btn").forEach(b => b.addEventListener("click", e => {
       e.stopPropagation();
       if (b.dataset.act === "gcal") return;  // リンクはそのまま開く
-      const id = b.closest(".fx").dataset.id;
+      const id = b.dataset.id || b.closest(".fx")?.dataset.id;
       const f = state.fixtures.find(x => x.eventId === id);
       if (!f) return;
+      if (b.dataset.act === "catchup") {
+        // 最新の試合より前の未視聴を観たことにして、最新の試合を開く
+        state.fixtures.filter(x => x.date < f.date && (x.status === "played" || x.hasLineup)).forEach(x => setWatched(x.eventId, true));
+        toast("前の試合を「観た」に記録しました");
+        renderList(); openMatch(f.eventId); return;
+      }
       if (b.dataset.act === "watch") { setWatched(id, true); toast("観た試合に記録しました"); }
       else if (b.dataset.act === "unwatch") { setWatched(id, false); toast("未視聴に戻しました"); }
       else if (b.dataset.act === "upto") {
@@ -763,10 +832,14 @@
       state.absencesCfg = abs || {};
       state.matchCache.clear();
       renderList();
-      // PC では「次に観る試合」を自動で開く
+      // PC では最初の試合を自動で開く（最新優先なら最新の試合、ロック中なら次に観る試合）
       if (window.innerWidth >= 900) {
-        const cur = [...classify()].find(([, k]) => k === "current");
-        if (cur) openMatch(cur[0]);
+        const kinds = classify();
+        const avail = state.fixtures.filter(f => f.status === "played" || f.hasLineup);
+        const latest = avail[avail.length - 1];
+        const cur = [...kinds].find(([, k]) => k === "current");
+        if (state.prefs.latestFirst && latest && kinds.get(latest.eventId) !== "locked") openMatch(latest.eventId);
+        else if (cur) openMatch(cur[0]);
       }
     } catch (e) {
       $("#list").innerHTML = `<div class="empty">データがまだありません。<br>scripts/update.py を実行してください。<br><small>${esc(e.message)}</small></div>`;
@@ -879,13 +952,14 @@
     $("#btn-settings").addEventListener("click", () => {
       $("#opt-lock").checked = state.prefs.lock;
       $("#opt-opp").checked = state.prefs.oppDefault;
-      for (const k of ["showResult", "showStats", "showVideos", "showNames"]) $("#opt-" + k).checked = state.prefs[k];
+      for (const k of ["showResult", "showStats", "showVideos", "showNames", "latestFirst"]) $("#opt-" + k).checked = state.prefs[k];
       renderAuth();
       dlg.showModal();
     });
-    for (const k of ["showResult", "showStats", "showVideos", "showNames"]) {
+    for (const k of ["showResult", "showStats", "showVideos", "showNames", "latestFirst"]) {
       $("#opt-" + k).addEventListener("change", e => {
         state.prefs[k] = e.target.checked; save(); applyDisplayPrefs();
+        if (k === "latestFirst") { if (state.teamId && state.teamId !== "all") renderList(); return; }
         if (state.selected) { const f = state.fixtures.find(x => x.eventId === state.selected); if (f) renderDetail(f, state.matchCache.get(f.eventId) || null, classify().get(f.eventId)); }
       });
     }

@@ -113,6 +113,14 @@ body.show-detail .detail-pane { display: block; }
   .fx .d { width: 52px; font-size: 17px; }
 }
 .hint { margin: 0 16px 12px; color: var(--muted); font-size: 12px; }
+.hint.banner a { color: #ff6b63; font-weight: 700; }
+.catchup { display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap; padding: 10px 16px 14px; border-top: var(--divider); font-size: 12px; color: var(--muted); }
+details.past > summary { list-style: none; cursor: pointer; }
+details.past > summary::-webkit-details-marker { display: none; }
+details.past > summary .section-label::before { content: "▸"; margin-right: 6px; }
+details.past[open] > summary .section-label::before { content: "▾"; }
+details.past .section-label small { font-weight: 400; letter-spacing: 0; text-transform: none; margin-left: 4px; }
+.section-label.sub { margin-top: 8px; font-size: 10px; }
 .ghost-row { padding: 14px 16px; color: var(--muted); font-size: 12px; }
 
 /* ---- detail ---- */

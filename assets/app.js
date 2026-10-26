@@ -954,6 +954,7 @@
       $("#opt-opp").checked = state.prefs.oppDefault;
       for (const k of ["showResult", "showStats", "showVideos", "showNames", "latestFirst"]) $("#opt-" + k).checked = state.prefs[k];
       renderAuth();
+      renderInstall();
       dlg.showModal();
     });
     for (const k of ["showResult", "showStats", "showVideos", "showNames", "latestFirst"]) {
@@ -979,9 +980,37 @@
     });
   }
 
+  // ---------------------------------------------------------------- ホーム画面に追加（PWA）
+  let installPrompt = null;
+  const isStandalone = () => window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone === true;
+  const isIOS = () => /iPhone|iPad|iPod/i.test(navigator.userAgent) && !window.MSStream;
+  function renderInstall() {
+    const btn = $("#btn-install"), hint = $("#install-hint");
+    if (!btn) return;
+    if (isStandalone()) { btn.style.display = "none"; hint.textContent = "ホーム画面から開いています（追加済み）。"; return; }
+    if (installPrompt) { btn.style.display = ""; btn.textContent = "追加する"; hint.textContent = "押すと確認が出ます。追加後はアプリのように全画面で開けます。"; return; }
+    btn.style.display = "none";
+    if (isIOS()) hint.innerHTML = "iPhone: Safari で画面下の <b>共有</b>（□↑）→ <b>「ホーム画面に追加」</b> を押してください。アイコン付きで追加されます。";
+    else hint.innerHTML = "Android: Chrome の <b>⋮ メニュー</b> → <b>「ホーム画面に追加」</b>（または「アプリをインストール」）。PC: アドレスバー右端のインストールアイコンから追加できます。";
+  }
+  function bindInstall() {
+    window.addEventListener("beforeinstallprompt", e => { e.preventDefault(); installPrompt = e; renderInstall(); });
+    window.addEventListener("appinstalled", () => { installPrompt = null; toast("ホーム画面に追加しました"); renderInstall(); });
+    $("#btn-install").addEventListener("click", async () => {
+      if (!installPrompt) return;
+      installPrompt.prompt();
+      try { await installPrompt.userChoice; } catch { /* ignore */ }
+      installPrompt = null; renderInstall();
+    });
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("sw.js").catch(e => console.warn("sw register failed", e));
+    }
+  }
+
   // ---------------------------------------------------------------- init
   async function init() {
     bindSettings();
+    bindInstall();
     applyDisplayPrefs();
     cloud.init();
     renderAuth();

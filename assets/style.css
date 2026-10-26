@@ -21,7 +21,7 @@ a { color: inherit; }
 img { display: block; }
 
 /* ---- header ---- */
-.topbar { display: flex; align-items: center; gap: 10px; padding: 14px 16px 10px; background: var(--top-bg); border-bottom: 1px solid rgba(255,255,255,.06); position: sticky; top: 0; z-index: 5; }
+.topbar { display: flex; align-items: center; gap: 10px; padding: calc(14px + env(safe-area-inset-top, 0px)) 16px 10px; background: var(--top-bg); border-bottom: 1px solid rgba(255,255,255,.06); position: sticky; top: 0; z-index: 5; }
 .topbar .crest { width: 36px; height: 36px; }
 .topbar .crest:not([src]) { visibility: hidden; }
 .topbar .title { font-weight: 700; font-size: 17px; line-height: 1.15; }

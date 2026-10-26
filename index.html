@@ -6,7 +6,13 @@
 <meta name="theme-color" content="#0d1220">
 <meta name="robots" content="noindex">
 <title>PL Watch ・ ネタバレなし観戦ノート</title>
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%230d1220'/%3E%3Ccircle cx='32' cy='32' r='18' fill='none' stroke='%23e2231a' stroke-width='6'/%3E%3C/svg%3E">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" type="image/png" href="assets/icons/favicon-64.png">
+<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="PL Watch">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
@@ -39,6 +45,10 @@
     <div class="row">
       <span><b>アカウント</b><small id="auth-status">ログインすると「観た」記録と設定が PC・スマホで同期され、Google アカウントごとに別々に保存されます。</small></span>
       <button type="button" id="btn-auth2" class="btn-ghost">ログイン</button>
+    </div>
+    <div class="row">
+      <span><b>ホーム画面に追加</b><small id="install-hint">アプリのように全画面で開けます。</small></span>
+      <button type="button" id="btn-install" class="btn-ghost">追加する</button>
     </div>
     <label class="row">
       <span><b>ネタバレロック</b><small>まだ観ていない試合より後のスタメン・欠場者を隠します</small></span>

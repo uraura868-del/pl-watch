@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-26T13:51:51Z",
+ "updatedAt": "2026-10-26T14:01:25Z",
  "players": {
   "164148": {
    "name": "Alex Cairns",
@@ -61,7 +61,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/402.png"
     }
    ],
-   "fetchedAt": "2026-10-26T13:51:51Z"
+   "fetchedAt": "2026-10-26T14:01:25Z"
   },
   "184550": {
    "name": "Michael Zetterer",
@@ -112,7 +112,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/137.png"
     }
    ],
-   "fetchedAt": "2026-10-26T13:51:51Z"
+   "fetchedAt": "2026-10-26T14:01:25Z"
   },
   "307118": {
    "name": "James Trafford",
@@ -251,19 +251,19 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png"
     }
    ],
-   "fetchedAt": "2026-10-26T13:51:51Z"
+   "fetchedAt": "2026-10-26T14:01:25Z"
   },
   "346913": {
    "name": "Darryl Ombang",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-10-26T13:51:51Z"
+   "fetchedAt": "2026-10-26T14:01:25Z"
   },
   "407583": {
    "name": "Rory Mahady",
    "qid": "Q132732272",
    "career": [],
-   "fetchedAt": "2026-10-26T13:51:51Z"
+   "fetchedAt": "2026-10-26T14:01:25Z"
   }
  }
 }

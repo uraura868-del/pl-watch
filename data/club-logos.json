@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-26T14:08:26Z",
+ "updatedAt": "2026-10-26T17:17:41Z",
  "logos": {
   "nat:england": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
   "club:swindon town": "https://a.espncdn.com/i/teamlogos/soccer/500/341.png",
@@ -475,6 +475,30 @@
   "club:padova": "https://a.espncdn.com/i/teamlogos/soccer/500/3952.png",
   "club:shonan bellmare": "https://a.espncdn.com/i/teamlogos/soccer/500/6902.png",
   "club:argentinos juniors": "https://a.espncdn.com/i/teamlogos/soccer/500/3.png",
-  "club:vejle boldklub": "https://a.espncdn.com/i/teamlogos/soccer/500/12498.png"
+  "club:vejle boldklub": "https://a.espncdn.com/i/teamlogos/soccer/500/12498.png",
+  "club:blyth spartans": "https://a.espncdn.com/i/teamlogos/soccer/500/3163.png",
+  "club:bury town": "https://a.espncdn.com/i/teamlogos/soccer/500/133361.png",
+  "club:harrow borough": "https://a.espncdn.com/i/teamlogos/soccer/500/3899.png",
+  "club:welling united": "https://a.espncdn.com/i/teamlogos/soccer/500/644.png",
+  "club:aldershot town": "https://a.espncdn.com/i/teamlogos/soccer/500/632.png",
+  "club:york city": "https://a.espncdn.com/i/teamlogos/soccer/500/21741.png",
+  "nat:czech republic": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png",
+  "club:guingamp": "https://a.espncdn.com/i/teamlogos/soccer/500/171.png",
+  "club:rodez": "https://a.espncdn.com/i/teamlogos/soccer/500/21641.png",
+  "club:usl dunkerque": null,
+  "club:wil": null,
+  "club:deportivo coruna": null,
+  "club:yeovil town": "https://a.espncdn.com/i/teamlogos/soccer/500/19967.png",
+  "club:colchester united": "https://a.espncdn.com/i/teamlogos/soccer/500/339.png",
+  "club:recife": "https://a.espncdn.com/i/teamlogos/soccer/500/18882.png",
+  "club:rapid wien": null,
+  "club:montaneros": null,
+  "club:liga deportiva universitaria quito": null,
+  "club:stade lavallois": null,
+  "club:asec mimosas": "https://a.espncdn.com/i/teamlogos/soccer/500/19217.png",
+  "club:hammarby fotboll": null,
+  "club:lierse": "https://a.espncdn.com/i/teamlogos/soccer/500/132561.png",
+  "club:atletico nacional": "https://a.espncdn.com/i/teamlogos/soccer/500/5264.png",
+  "club:gold eagles": null
  }
 }

@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-26T14:01:25Z",
+ "updatedAt": "2026-10-26T14:08:26Z",
  "logos": {
   "nat:england": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
   "club:swindon town": "https://a.espncdn.com/i/teamlogos/soccer/500/341.png",
@@ -462,6 +462,19 @@
   "club:kidderminster harriers": "https://a.espncdn.com/i/teamlogos/soccer/500/319.png",
   "nat:albania": "https://a.espncdn.com/i/teamlogos/countries/500/alb.png",
   "club:woodford town": "https://a.espncdn.com/i/teamlogos/soccer/500/132074.png",
-  "club:barrow": "https://a.espncdn.com/i/teamlogos/soccer/500/642.png"
+  "club:barrow": "https://a.espncdn.com/i/teamlogos/soccer/500/642.png",
+  "club:internacional": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
+  "nat:greece": "https://a.espncdn.com/i/teamlogos/countries/500/gre.png",
+  "club:willem": "https://a.espncdn.com/i/teamlogos/soccer/500/156.png",
+  "club:rentistas": "https://a.espncdn.com/i/teamlogos/soccer/500/5497.png",
+  "club:boston river": "https://a.espncdn.com/i/teamlogos/soccer/500/9999.png",
+  "club:gyori eto": "https://a.espncdn.com/i/teamlogos/soccer/500/12367.png",
+  "club:alkmaar": "https://a.espncdn.com/i/teamlogos/soccer/500/140.png",
+  "nat:hungary": "https://a.espncdn.com/i/teamlogos/countries/500/hun.png",
+  "club:clermont foot": "https://a.espncdn.com/i/teamlogos/soccer/500/3171.png",
+  "club:padova": "https://a.espncdn.com/i/teamlogos/soccer/500/3952.png",
+  "club:shonan bellmare": "https://a.espncdn.com/i/teamlogos/soccer/500/6902.png",
+  "club:argentinos juniors": "https://a.espncdn.com/i/teamlogos/soccer/500/3.png",
+  "club:vejle boldklub": "https://a.espncdn.com/i/teamlogos/soccer/500/12498.png"
  }
 }

@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-25T23:10:35Z",
+ "updatedAt": "2026-10-26T04:35:16Z",
  "players": {
   "david raya": {
    "name": "David Raya",
@@ -2246,7 +2246,7 @@
    "nat": "Australia",
    "natCode": "AU",
    "height": 187,
-   "joined": "2024-01-26",
+   "joined": "2026-10-21",
    "birthPlace": null,
    "posInfo": "Goalkeeper"
   },
@@ -3429,7 +3429,7 @@
    "nat": "Mali",
    "natCode": "ML",
    "height": 180,
-   "joined": "2026-03-05",
+   "joined": "2022-07-11",
    "birthPlace": "Bamako",
    "posInfo": "Centre Defensive Midfielder"
   },
@@ -3494,7 +3494,7 @@
    "nat": "United States",
    "natCode": "US",
    "height": 180,
-   "joined": "2026-08-21",
+   "joined": "2026-08-18",
    "birthPlace": "West Valley City",
    "posInfo": "Right Winger"
   },
@@ -3566,13 +3566,13 @@
   "sebastian williams": {
    "name": "Sebastian Williams",
    "team": "Crystal Palace",
-   "jersey": 8,
+   "jersey": 43,
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p577729.png",
    "dob": "2007-01-10",
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 185,
-   "joined": "2024-02-25",
+   "joined": "2026-09-16",
    "birthPlace": null,
    "posInfo": "Attacking Midfielder"
   },
@@ -3585,7 +3585,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 170,
-   "joined": "2023-01-20",
+   "joined": "2024-07-30",
    "birthPlace": null,
    "posInfo": "Right Full Back"
   },
@@ -8148,7 +8148,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 174,
-   "joined": "2023-01-29",
+   "joined": "2018-07-30",
    "birthPlace": "Hemel Hempstead",
    "posInfo": "Centre Central Midfielder"
   },
@@ -8161,7 +8161,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 174,
-   "joined": "2023-01-29",
+   "joined": "2018-07-30",
    "birthPlace": "Hemel Hempstead",
    "posInfo": "Centre Central Midfielder"
   },
@@ -8460,7 +8460,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 182,
-   "joined": "2022-07-01",
+   "joined": "2025-08-24",
    "birthPlace": null,
    "posInfo": "Right Full Back"
   },
@@ -8473,7 +8473,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": null,
-   "joined": "2023-09-28",
+   "joined": "2025-08-24",
    "birthPlace": null,
    "posInfo": "Centre Attacking Midfielder"
   },
@@ -8486,7 +8486,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": null,
-   "joined": "2025-08-27",
+   "joined": "2026-07-24",
    "birthPlace": null,
    "posInfo": "Attacking Midfielder"
   },
@@ -8499,9 +8499,9 @@
    "nat": "Ukraine",
    "natCode": "UA",
    "height": 183,
-   "joined": "2023-04-13",
+   "joined": "2024-08-30",
    "birthPlace": "Bakhchysaray",
-   "posInfo": "Centre Striker"
+   "posInfo": "Left Winger"
   },
   "antonin kinsky": {
    "name": "Antonín Kinsky",

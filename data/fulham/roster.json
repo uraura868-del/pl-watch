@@ -1,5 +1,13 @@
 {
- "updatedAt": "2026-10-26T23:38:20Z",
+ "updatedAt": "2026-10-26T22:53:13Z",
+ "manager": {
+  "name": "Álvaro Arbeloa",
+  "role": "Manager",
+  "nat": "Spain",
+  "natCode": "ES",
+  "dob": "1983-01-17",
+  "source": "pl"
+ },
  "players": [
   {
    "id": "149517",

@@ -150,14 +150,79 @@ def pl_squad(pl_team_id: int) -> list[dict]:
             "posInfo": info.get("positionInfo"),
             "photo": PL_PHOTO.format(opta=opta) if opta else None,
             # --- 選手詳細用（成績系は入れない）
-            "dob": datetime.fromtimestamp(dob_ms / 1000, tz=timezone.utc).strftime("%Y-%m-%d") if dob_ms else None,
+            "dob": ms_to_date(dob_ms),
             "nat": nat.get("country"),
             "natCode": nat.get("isoCode"),
             "height": p.get("height"),
-            "joined": datetime.fromtimestamp(join_ms / 1000, tz=timezone.utc).strftime("%Y-%m-%d") if join_ms else None,
+            "joined": ms_to_date(join_ms),
             "birthPlace": birth.get("place"),
         })
     return out
+
+
+def ms_to_date(ms) -> str | None:
+    """ミリ秒 epoch → YYYY-MM-DD（1970 より前でも落ちない）"""
+    if ms is None:
+        return None
+    try:
+        return (datetime(1970, 1, 1, tzinfo=timezone.utc) + timedelta(milliseconds=int(ms))).strftime("%Y-%m-%d")
+    except Exception:  # noqa: BLE001
+        return None
+
+
+def pl_manager(pl_team_id: int) -> dict | None:
+    """PL公式のスタッフ一覧から監督だけを取り出す → {name, nat, natCode, dob}（成績や就任後の戦績は含めない）"""
+    sid = pl_current_season()
+    if not sid:
+        return None
+    url = (f"{PL_API}/teams/{pl_team_id}/compseasons/{sid}/staff"
+           f"?pageSize=100&compSeasons={sid}&altIds=true&page=0")
+    d = get_json(url, {"Origin": "https://www.premierleague.com", "Referer": "https://www.premierleague.com/"})
+    for o in (d or {}).get("officials", []) or []:
+        role = (o.get("role") or "").lower()
+        if role not in ("manager", "head coach", "interim manager", "caretaker manager"):
+            continue
+        birth = o.get("birth") or {}
+        nat = o.get("nationalTeam") or birth.get("country") or {}
+        dob_ms = (birth.get("date") or {}).get("millis")
+        return {
+            "name": (o.get("name") or {}).get("display"),
+            "role": o.get("role"),
+            "nat": nat.get("country"),
+            "natCode": nat.get("isoCode"),
+            "dob": ms_to_date(dob_ms),
+            "source": "pl",
+        }
+    return None
+
+
+def wd_club_manager(club_name: str) -> dict | None:
+    """Wikidata のクラブ項目から現監督 (P286) の名前と国籍を引く（PL 以外の相手クラブ用）"""
+    try:
+        d = json.loads(urllib.request.urlopen(urllib.request.Request(
+            "https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&type=item&limit=5&search=" + urllib.parse.quote(club_name),
+            headers={"User-Agent": WD_UA}), timeout=30).read())
+    except Exception as e:  # noqa: BLE001
+        log(f"  wikidata search error {e}")
+        return None
+    ids = [x["id"] for x in d.get("search", [])]
+    if not ids:
+        return None
+    rows = sparql("SELECT ?c ?m ?mLabel ?natLabel ?dob WHERE { VALUES ?c { " + " ".join(f"wd:{i}" for i in ids) +
+                  " } ?c wdt:P286 ?m . OPTIONAL { ?m wdt:P27 ?nat } OPTIONAL { ?m wdt:P569 ?dob }"
+                  " SERVICE wikibase:label { bd:serviceParam wikibase:language \"en,mul\". } }")
+    by_club: dict[str, dict] = {}
+    for b in rows:
+        cid = (_v(b, "c") or "").rsplit("/", 1)[-1]
+        if cid in by_club:
+            continue
+        dob = (_v(b, "dob") or "")[:10]
+        by_club[cid] = {"name": _v(b, "mLabel"), "role": "Manager", "nat": _v(b, "natLabel"), "natCode": None,
+                        "dob": dob if re.match(r"^\d{4}-\d{2}-\d{2}$", dob) else None, "source": "wikidata"}
+    for i in ids:
+        if i in by_club and by_club[i]["name"] and not by_club[i]["name"].startswith("Q"):
+            return by_club[i]
+    return None
 
 
 BIO_KEYS = ("photo", "dob", "nat", "natCode", "height", "joined", "birthPlace", "posInfo")
@@ -1270,7 +1335,14 @@ def build_team(team: dict, photo_index: dict[str, dict]) -> None:
         src = tm_photo_for(p["name"], own_tm) or bio.get("photo") or espn_photo
         p["photoSrc"] = src
         p["photo"] = face_photo_or(src)  # 顔中心に切り出した画像（data/photos/）。できなければ元URL
-    write_json(tdir / "roster.json", {"updatedAt": iso(NOW), "players": roster})
+    manager = None
+    try:
+        manager = pl_manager(int(team["plTeamId"])) if team.get("plTeamId") else None
+        if not manager:
+            manager = wd_club_manager(team["name"])
+    except Exception as e:  # noqa: BLE001
+        log(f"  監督の取得に失敗（スキップ）: {e!r}")
+    write_json(tdir / "roster.json", {"updatedAt": iso(NOW), "manager": manager, "players": roster})
     log(f"  roster: {len(roster)} 人（写真あり {sum(1 for p in roster if p['photo'])} 人、"
         f"プロフィールあり {sum(1 for p in roster if p.get('dob'))} 人）")
     try:
@@ -1480,6 +1552,78 @@ def refresh_match_photos(mdir: Path, fixtures: list[dict], roster_by_id: dict, p
         log(f"  写真を更新した試合ファイル: {changed}")
 
 
+OPP_ROSTER_DAYS = 21          # 何日先までの相手クラブの名簿を用意するか
+OPP_ROSTER_MAX_PER_RUN = 4    # 1回の更新で読みにいくクラブ数（Transfermarkt の写真取得も伴うため控えめに）
+OPP_ROSTER_TTL_DAYS = 3
+
+
+def update_opponent_rosters(teams: list[dict], photo_index: dict[str, dict]) -> None:
+    """これから対戦する、追跡していないクラブ（CL/EL の相手など）の所属選手と監督を用意する。
+    スタメン未発表の試合のプレビュー用。成績・結果は一切含めない"""
+    tracked = {str(t["espnTeamId"]) for t in teams}
+    want: dict[str, dict] = {}
+    for team in teams:
+        fp = DATA / team["id"] / "fixtures.json"
+        if not fp.exists():
+            continue
+        try:
+            fixtures = json.loads(fp.read_text(encoding="utf-8")).get("fixtures", [])
+        except Exception:  # noqa: BLE001
+            continue
+        for f in fixtures:
+            if f.get("status") == "played":
+                continue
+            oid = str((f.get("opponent") or {}).get("id") or "")
+            if not oid or oid in tracked:
+                continue
+            try:
+                d = datetime.strptime(f["date"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
+            except Exception:  # noqa: BLE001
+                continue
+            days = (d - NOW).total_seconds() / 86400
+            if days < -0.5 or days > OPP_ROSTER_DAYS:
+                continue
+            if oid not in want or days < want[oid]["days"]:
+                want[oid] = {"id": oid, "name": f["opponent"].get("name"), "logo": f["opponent"].get("logo"),
+                             "league": f.get("league") or team["league"], "days": days}
+    rdir = DATA / "opponents" / "rosters"
+    rdir.mkdir(parents=True, exist_ok=True)
+    done = 0
+    for o in sorted(want.values(), key=lambda x: x["days"]):
+        rp = rdir / f"{o['id']}.json"
+        if rp.exists():
+            try:
+                old = json.loads(rp.read_text(encoding="utf-8"))
+                age = (NOW - datetime.strptime(old["updatedAt"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)).total_seconds() / 86400
+                if age < OPP_ROSTER_TTL_DAYS and old.get("players"):
+                    continue
+            except Exception:  # noqa: BLE001
+                pass
+        if done >= OPP_ROSTER_MAX_PER_RUN:
+            break
+        done += 1
+        try:
+            players = espn_roster(o["league"], o["id"])
+            tm = tm_club_photos(o["name"])
+            for p in players:
+                src = tm_photo_for(p["name"], tm) or find_photo(p["name"], photo_index) or p.get("photo")
+                q = find_in_index(p["name"], photo_index)
+                if q:
+                    p.update({k: v for k, v in bio_of(q).items() if k != "photo" and v})
+                p["photoSrc"] = src
+                p["photo"] = face_photo_or(src)
+            manager = None
+            try:
+                manager = wd_club_manager(o["name"])
+            except Exception as e:  # noqa: BLE001
+                log(f"  監督の取得に失敗（{o['name']}）: {e!r}")
+            write_json(rp, {"updatedAt": iso(NOW), "id": o["id"], "name": o["name"], "logo": o["logo"],
+                            "manager": manager, "players": players})
+            log(f"  相手クラブの名簿: {o['name']} {len(players)} 人（監督: {(manager or {}).get('name') or '不明'}）")
+        except Exception as e:  # noqa: BLE001
+            log(f"!! 相手クラブ名簿の取得に失敗（{o['name']}）: {e!r}")
+
+
 def collect_opponent_players(teams: list[dict], photo_index: dict[str, dict]) -> list[dict]:
     """保存済みの試合ファイルから、相手チームのスタメン・ベンチに入った選手を集める（チーム横断で共有）"""
     players: dict[str, dict] = {}
@@ -1543,6 +1687,11 @@ def main() -> int:
         write_all_ics(teams)
     except Exception as e:  # noqa: BLE001
         log(f"!! 全体カレンダーの生成に失敗: {e!r}")
+    # --- これから対戦する追跡外クラブの名簿（スタメン未発表のプレビュー用）
+    try:
+        update_opponent_rosters(teams, photo_index)
+    except Exception as e:  # noqa: BLE001
+        log(f"!! 相手クラブ名簿の更新に失敗: {e!r}")
     # --- 相手チームの選手（観る試合のスタメン・ベンチ）の経歴と動画。チーム横断で共有キャッシュ
     try:
         opp = collect_opponent_players(teams, photo_index)

@@ -1,5 +1,13 @@
 {
- "updatedAt": "2026-10-26T23:38:20Z",
+ "updatedAt": "2026-10-26T22:53:13Z",
+ "manager": {
+  "name": "Frank Lampard",
+  "role": "Manager",
+  "nat": "England",
+  "natCode": "GB-ENG",
+  "dob": "1978-06-20",
+  "source": "pl"
+ },
  "players": [
   {
    "id": "143007",

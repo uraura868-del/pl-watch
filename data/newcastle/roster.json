@@ -1,5 +1,13 @@
 {
- "updatedAt": "2026-10-26T23:38:20Z",
+ "updatedAt": "2026-10-26T22:53:13Z",
+ "manager": {
+  "name": "Matthias Jaissle",
+  "role": "Manager",
+  "nat": "Germany",
+  "natCode": "DE",
+  "dob": "1988-04-05",
+  "source": "pl"
+ },
  "players": [
   {
    "id": "141705",

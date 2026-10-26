@@ -212,12 +212,12 @@
     if (!oppVideos) { try { oppVideos = await fetchJson("data/opponents/videos.json"); } catch { oppVideos = { enabled: false, players: {} }; } }
     return oppVideos;
   }
-  async function getVideos() {
-    if (!videosCache.has(state.teamId)) {
-      try { videosCache.set(state.teamId, await fetchJson(`data/${state.teamId}/videos.json`)); }
-      catch { videosCache.set(state.teamId, { enabled: false, players: {} }); }
+  async function getVideos(teamId = state.teamId) {
+    if (!videosCache.has(teamId)) {
+      try { videosCache.set(teamId, await fetchJson(`data/${teamId}/videos.json`)); }
+      catch { videosCache.set(teamId, { enabled: false, players: {} }); }
     }
-    return videosCache.get(state.teamId);
+    return videosCache.get(teamId);
   }
   // YouTube API のタイトルは HTML エンティティ（&#39; など）入りで返るので元に戻す
   const decodeEntities = s => { const t = document.createElement("textarea"); t.innerHTML = String(s || ""); return t.value; };
@@ -245,12 +245,12 @@
       v.outerHTML = `<div class="vid playing"><iframe src="https://www.youtube-nocookie.com/embed/${esc(id)}?rel=0&modestbranding=1&autoplay=1" title="YouTube video" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe></div>`;
     }));
   }
-  async function getCareers() {
-    if (!careersCache.has(state.teamId)) {
-      try { careersCache.set(state.teamId, (await fetchJson(`data/${state.teamId}/careers.json`)).players || {}); }
-      catch { careersCache.set(state.teamId, {}); }
+  async function getCareers(teamId = state.teamId) {
+    if (!careersCache.has(teamId)) {
+      try { careersCache.set(teamId, (await fetchJson(`data/${teamId}/careers.json`)).players || {}); }
+      catch { careersCache.set(teamId, {}); }
     }
-    return careersCache.get(state.teamId);
+    return careersCache.get(teamId);
   }
   function renderCareer(entry) {
     if (!entry) return `<div class="sec"><h3>経歴</h3><p class="note">経歴情報はまだ取得されていません（次回の自動更新で追加されます）。</p></div>`;
@@ -292,7 +292,9 @@
     box.innerHTML = `<div class="empty">読み込み中...</div>`;
     if (!dlg.open) dlg.showModal();
     const ours = ctx.side !== "opp";
-    let bio = ours ? (state.roster.get(p.id) || null) : null;
+    // ctx.teamId: 追跡している別チーム（相手側）の選手。経歴・動画はそのチームのファイルから読む
+    const otherTeam = ctx.teamId && ctx.teamId !== state.teamId ? ctx.teamId : null;
+    let bio = ctx.bio || (ours && !otherTeam ? (state.roster.get(p.id) || null) : null);
     if (!bio || !bio.dob) {
       const r = lookupIndex(p.name, await getPlIndex());
       if (r) bio = { ...r, ...(bio || {}), dob: (bio && bio.dob) || r.dob, photo: (bio && bio.photo) || r.photo };
@@ -307,10 +309,11 @@
       const r = resolveReason(p, ctx.matchDate || "");
       role = `メンバー外 ・ ${esc(r.type || "理由不明")}${r.reason ? " ・ " + esc(r.reason) : ""}`;
     }
+    else if (ctx.role === "squad") role = `所属選手${p.pos ? " ・ " + esc(posJa(p.pos)) : ""}`;
 
     // 今季の出場状況（自チームのみ、観た試合＋次に観る試合の範囲）
     let season = "";
-    if (ours) {
+    if (ours && !otherTeam) {
       const kinds = classify();
       const vis = state.fixtures.filter(f => f.hasLineup && ["watched", "current", "open"].includes(kinds.get(f.eventId)));
       const ms = await Promise.all(vis.map(f => loadMatch(f.eventId)));
@@ -326,18 +329,18 @@
     }
 
     // 経歴（Wikidata。相手チームの選手は共有キャッシュから）
-    const career = renderCareer((ours ? await getCareers() : await getOppCareers())[p.id]);
+    const career = renderCareer((otherTeam ? await getCareers(otherTeam) : ours ? await getCareers() : await getOppCareers())[p.id]);
 
     // プレー動画（埋め込み候補＋検索リンク。設定で非表示にもできる）
     let videos = "";
     if (state.prefs.showVideos) {
-      const vdata = ours ? await getVideos() : await getOppVideos();
+      const vdata = otherTeam ? await getVideos(otherTeam) : ours ? await getVideos() : await getOppVideos();
       videos = renderVideos(p.name, (vdata.players || {})[p.id], !!vdata.enabled);
     }
 
     // 欠場の記録（手入力分 ＋ Transfermarkt の負傷履歴）
     let absHist = "";
-    if (ours) {
+    if (ours && !otherTeam) {
       const cfg = await getAbsences();
       const manual = (cfg[state.teamId] || []).filter(e => nameMatches(p.name, e.name)).map(e => ({ type: e.type || "欠場", reason: e.reason || "", from: e.from, until: e.until, src: "手入力" }));
       const auto = injuryEntriesFor(p.name).map(e => ({ type: e.type || "負傷", reason: e.reasonJa || e.reason || "", from: e.since, until: e.active ? e.until : (e.until || e.lastSeen), src: e.active ? "現在" : "復帰済み" }));
@@ -614,7 +617,8 @@
       if (!state.showOpp) html += renderAbsentees(m.absentees || [], f.date);
       else html += `<p class="hint">相手チームの欠場者情報は取得していません。</p>`;
     } else {
-      html += `<div class="lock-msg"><div class="big">⏳</div>スタメンはまだ発表されていません。<br>キックオフ約1時間前以降の自動更新で表示されます。</div></div>`;
+      html += `<div class="lock-msg"><div class="big">⏳</div>スタメンはまだ発表されていません。<br>キックオフ約1時間前以降の自動更新で表示されます。</div></div>
+        <div id="preview"><div class="empty">プレビューを読み込み中...</div></div>`;
     }
 
     // スタッツ（ボタンを押すまで隠す。設定で非表示にもできる）
@@ -649,6 +653,7 @@
     const el = $("#detail");
     el.innerHTML = html;
     bindBack();
+    if (!m) renderPreview(f);
     el.querySelectorAll(".seg button").forEach(b => b.addEventListener("click", () => { state.showOpp = b.dataset.side === "opp"; renderDetail(f, m, kind); }));
     // スタッツのボタン
     el.querySelectorAll(".stats-btn[data-which]").forEach(b => b.addEventListener("click", () => {
@@ -761,6 +766,119 @@
       <div class="verdict">${esc(us)} の${verdict}</div>
       <div class="glist">${events.map(e => e._red ? redRow(e) : goalRow(e)).join("") || `<p class="hint">得点なし</p>`}</div>
     </div>`;
+  }
+
+  // ---------------------------------------------------------------- 試合前プレビュー（スタメン未発表の試合）
+  // 所属選手一覧・監督・欠場見込み・前回観た試合の布陣。結果や順位に関わる情報は一切出さない
+  const previewCache = new Map();
+  const todayIso = () => { const d = new Date(new Date().toLocaleString("en-US", JST)); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`; };
+  async function teamFixtures(teamId) {
+    if (teamId === state.teamId && state.fixtures.length) return state.fixtures;
+    if (!allFixturesCache.has(teamId)) {
+      try { allFixturesCache.set(teamId, (await fetchJson(`data/${teamId}/fixtures.json`)).fixtures || []); } catch { allFixturesCache.set(teamId, []); }
+    }
+    return allFixturesCache.get(teamId);
+  }
+  // 追跡しているチームのプレビュー素材
+  async function previewTracked(team, beforeDate) {
+    const key = `t:${team.id}:${beforeDate}`;
+    if (previewCache.has(key)) return previewCache.get(key);
+    const [ro, inj] = await Promise.all([
+      fetchJson(`data/${team.id}/roster.json`).catch(() => ({ players: [] })),
+      fetchJson(`data/${team.id}/injuries.json`).catch(() => ({ players: [] })),
+    ]);
+    const players = ro.players || [];
+    const today = todayIso();
+    const absences = (inj.players || []).filter(e => e.active || (e.until && e.until >= today)).map(e => {
+      const p = players.find(x => nameMatches(x.name, e.name));
+      return { ...e, player: p || null };
+    });
+    // 前回観た試合（そのチームの「観た」記録のうち、この試合より前でスタメンのある最後のもの）
+    let last = null;
+    const w = new Set((state.prefs.watched || {})[team.id] || []);
+    const fx = (await teamFixtures(team.id)).filter(x => x.hasLineup && x.date < beforeDate && w.has(x.eventId)).sort((a, b) => a.date.localeCompare(b.date));
+    const lf = fx[fx.length - 1];
+    if (lf) {
+      try { const m = await fetchJson(`data/${team.id}/matches/${lf.eventId}.json`); if (m && m.team) last = { fixture: lf, side: m.team, label: `${fmtParts(lf.date).md} vs ${lf.opponent.name}` }; } catch { /* ignore */ }
+    }
+    const out = { team, teamId: team.id, name: team.shortName || team.name, manager: ro.manager || null, players, absences, last, tracked: true };
+    previewCache.set(key, out);
+    return out;
+  }
+  // 追跡していない相手クラブ（カップ戦の相手など）: data/opponents/rosters/<espnId>.json
+  async function previewUntracked(opp, beforeDate) {
+    const key = `o:${opp.id}:${beforeDate}`;
+    if (previewCache.has(key)) return previewCache.get(key);
+    let ro = null;
+    try { ro = await fetchJson(`data/opponents/rosters/${opp.id}.json`); } catch { ro = null; }
+    // 自チームが前にこの相手と観た試合があれば、その時の相手の布陣
+    let last = null;
+    const w = watchedSet();
+    const fx = state.fixtures.filter(x => x.hasLineup && x.date < beforeDate && w.has(x.eventId) && String(x.opponent.id) === String(opp.id)).sort((a, b) => a.date.localeCompare(b.date));
+    const lf = fx[fx.length - 1];
+    if (lf) { const m = await loadMatch(lf.eventId); if (m && m.opponent && m.opponent.starters) last = { fixture: lf, side: m.opponent, label: `${fmtParts(lf.date).md} の対戦時` }; }
+    const out = { team: null, teamId: null, name: opp.name, manager: ro ? ro.manager : null, players: ro ? (ro.players || []) : [], absences: null, last, tracked: false, missing: !ro };
+    previewCache.set(key, out);
+    return out;
+  }
+  async function renderPreview(f) {
+    const box = $("#preview");
+    if (!box) return;
+    const ourTeam = state.teams.find(t => t.id === state.teamId);
+    const oppTeam = state.teams.find(t => String(t.espnTeamId) === String(f.opponent.id));
+    const sk = state.showOpp ? "opp" : "us";
+    let d;
+    try {
+      d = sk === "us" ? await previewTracked(ourTeam, f.date) : (oppTeam ? await previewTracked(oppTeam, f.date) : await previewUntracked(f.opponent, f.date));
+    } catch (e) { console.warn(e); box.innerHTML = `<p class="hint">プレビューを読み込めませんでした。</p>`; return; }
+    if (!$("#preview") || $("#preview") !== box) return;  // 画面が切り替わっていたら描かない
+    const seg = `<span class="seg"><button data-pv="us" class="${sk === "us" ? "on" : ""}">${esc(ourTeam?.shortName || "自チーム")}</button><button data-pv="opp" class="${sk === "opp" ? "on" : ""}">${esc(f.opponent.abbr || "相手")}</button></span>`;
+    let html = `<div class="section-label pv-label">試合前プレビュー <span class="spacer"></span>${seg}</div>`;
+    const mg = d.manager; const today = todayIso();
+    html += `<div class="card pv-card">
+      <div class="pv-row"><span class="k">監督</span><b>${mg && mg.name ? `${flagImg(mg.natCode)} ${esc(mg.name)}${mg.nat ? `<small>${esc(mg.nat)}</small>` : ""}` : "<span class=\"dim\">取得できていません</span>"}</b></div>`;
+    // 欠場見込み
+    if (d.absences) {
+      const rows = d.absences.map(e => `<div class="r" ${e.player ? `data-pid="${esc(e.player.id)}"` : ""}>${e.player ? photoEl(e.player) : `<div class="ph"><span class="ini">${esc(initials(e.name))}</span></div>`}<div><div class="n">${esc(e.name)}</div><div class="why">${esc(e.reasonJa || e.reason || "")}${e.until && e.until >= today ? `<small>復帰見込み ${esc(fmtDate(e.until))}</small>` : e.until ? `<small>復帰間近</small>` : ""}</div></div><span class="tag ${/停止/.test(e.type || "") ? "sus" : ""}">${esc(e.type || "負傷")}</span></div>`);
+      html += `<div class="pv-sub">欠場見込み <span class="count">${rows.length}</span></div>`;
+      html += rows.length ? `<div class="abs">${rows.join("")}</div>` : `<div class="ghost-row">現在、負傷・出場停止の情報はありません</div>`;
+      html += `<p class="hint pv-hint">Transfermarkt の負傷・出場停止情報です。試合当日の状況とは違うことがあります。</p>`;
+    } else {
+      html += `<p class="hint pv-hint">このクラブの欠場情報は取得していません。</p>`;
+    }
+    html += `</div>`;
+    // 前回観た布陣
+    if (d.last) {
+      html += `<div class="section-label">前回観た試合の布陣 <small class="dim">${esc(d.last.label)} ・ ${esc(d.last.side.formation || "")}</small></div><div class="card">${renderPitch(d.last.side, sk)}</div>`;
+    } else {
+      html += `<div class="section-label">前回観た試合の布陣</div><div class="card"><div class="ghost-row">${d.tracked ? "このチームの試合をまだ「観た」にしていないため表示しません" : "このクラブとの試合をまだ観ていないため表示しません"}</div></div>`;
+    }
+    // 所属選手一覧
+    const groups = [["G", "GK"], ["D", "DF"], ["M", "MF"], ["F", "FW"]];
+    const grp = p => { const c = (p.pos || "").toUpperCase()[0]; return ["G", "D", "M", "F"].includes(c) ? c : "X"; };
+    const bySq = new Map(groups.map(([k]) => [k, []])); bySq.set("X", []);
+    d.players.forEach(p => bySq.get(grp(p)).push(p));
+    const sortJ = (a, b) => (parseInt(a.jersey) || 999) - (parseInt(b.jersey) || 999);
+    if (d.players.length) {
+      html += `<div class="section-label">所属選手 <span class="count">${d.players.length}</span></div><div class="card">`;
+      for (const [k, label] of [...groups, ["X", "その他"]]) {
+        const list = bySq.get(k); if (!list.length) continue;
+        html += `<div class="pv-sub">${label} <span class="count">${list.length}</span></div><div class="squad">${list.sort(sortJ).map(p => playerChip(p, sk, "squad")).join("")}</div>`;
+      }
+      html += `</div><p class="hint">写真を押すとプロフィールや経歴が見られます。</p>`;
+    } else {
+      html += `<div class="section-label">所属選手</div><div class="card"><div class="ghost-row">${d.missing ? "このクラブの名簿はまだ取得していません（次の自動更新で用意されます）" : "選手情報がありません"}</div></div>`;
+    }
+    box.innerHTML = html;
+    box.querySelectorAll("[data-pv]").forEach(b => b.addEventListener("click", () => { state.showOpp = b.dataset.pv === "opp"; renderPreview(f); }));
+    const byId = new Map(d.players.map(p => [p.id, p]));
+    if (d.last) [...d.last.side.starters, ...(d.last.side.bench || [])].forEach(p => { if (!byId.has(p.id)) byId.set(p.id, p); });
+    box.querySelectorAll("[data-pid]").forEach(c => c.addEventListener("click", () => {
+      const p = byId.get(c.dataset.pid); if (!p) return;
+      const role = c.dataset.role || "squad";
+      const bio = d.players.find(x => x.id === p.id) || null;
+      openPlayer(p, { side: sk, role, teamId: d.teamId, bio: bio && bio.dob ? bio : null, matchDate: f.date });
+    }));
   }
 
   function renderPitch(side, sk = "us") {

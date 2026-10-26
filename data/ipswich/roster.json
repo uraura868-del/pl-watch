@@ -1,5 +1,13 @@
 {
- "updatedAt": "2026-10-26T23:38:20Z",
+ "updatedAt": "2026-10-26T22:53:13Z",
+ "manager": {
+  "name": "Kieran McKenna",
+  "role": "Manager",
+  "nat": "Northern Ireland",
+  "natCode": "GB-NIR",
+  "dob": "1986-05-14",
+  "source": "pl"
+ },
  "players": [
   {
    "id": "111337",

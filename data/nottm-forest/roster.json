@@ -1,5 +1,13 @@
 {
- "updatedAt": "2026-10-26T23:38:20Z",
+ "updatedAt": "2026-10-26T22:53:13Z",
+ "manager": {
+  "name": "Vítor Manuel de Oliveira Lopes Pereira",
+  "role": "Manager",
+  "nat": "Portugal",
+  "natCode": "PT",
+  "dob": "1968-07-26",
+  "source": "pl"
+ },
  "players": [
   {
    "id": "179497",

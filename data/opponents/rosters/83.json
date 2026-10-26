@@ -1,0 +1,304 @@
+{
+ "updatedAt": "2026-10-26T23:54:27Z",
+ "id": "83",
+ "name": "Barcelona",
+ "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+ "manager": {
+  "name": "Hansi Flick",
+  "role": "Manager",
+  "nat": "Germany",
+  "natCode": null,
+  "dob": "1965-02-24",
+  "source": "wikidata"
+ },
+ "players": [
+  {
+   "id": "131634",
+   "name": "Wojciech Szczesny",
+   "jersey": "13",
+   "pos": "G",
+   "photo": "data/photos/461fbd05217f91f6.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/44058-1744278078.jpg?lm=4711"
+  },
+  {
+   "id": "187946",
+   "name": "Dominik Livakovic",
+   "jersey": "25",
+   "pos": "G",
+   "photo": "data/photos/63824eb9bb192e22.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/205927-1757500641.jpg?lm=4711"
+  },
+  {
+   "id": "297362",
+   "name": "Joan García",
+   "jersey": "1",
+   "pos": "G",
+   "photo": "data/photos/adb49aeeab74f58a.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/561613-1747386081.jpg?lm=4711"
+  },
+  {
+   "id": "403576",
+   "name": "Iker Rodríguez",
+   "jersey": "35",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "403587",
+   "name": "Eder Aller",
+   "jersey": "31",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "94947",
+   "name": "Álex Campos",
+   "jersey": "41",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "128714",
+   "name": "Eric García",
+   "jersey": "24",
+   "pos": "D",
+   "photo": "data/photos/e5a6f59ea83e49b8.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/466794-1788248040.jpg?lm=4711"
+  },
+  {
+   "id": "176399",
+   "name": "João Cancelo",
+   "jersey": "2",
+   "pos": "D",
+   "photo": "data/photos/5498fae0c7049e6c.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/182712-1675080937.jpg?lm=4711"
+  },
+  {
+   "id": "186430",
+   "name": "Andreas Christensen",
+   "jersey": "15",
+   "pos": "D",
+   "photo": "data/photos/db0f283d22c544b2.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/196948-1668183241.jpg?lm=4711"
+  },
+  {
+   "id": "231692",
+   "name": "Jules Koundé",
+   "jersey": "23",
+   "pos": "D",
+   "photo": "data/photos/96436caf7e29f54a.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/411975-1702502639.jpg?lm=4711"
+  },
+  {
+   "id": "312015",
+   "name": "Gerard Martín",
+   "jersey": "18",
+   "pos": "D",
+   "photo": "data/photos/7746b4089da9f709.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/705395-1730119053.jpg?lm=4711"
+  },
+  {
+   "id": "323703",
+   "name": "Alejandro Balde",
+   "jersey": "3",
+   "pos": "D",
+   "photo": "data/photos/f9bd5d8220468231.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/636688-1662836200.jpg?lm=4711"
+  },
+  {
+   "id": "368992",
+   "name": "Pau Cubarsí",
+   "jersey": "5",
+   "pos": "D",
+   "photo": "data/photos/6ddf9d01690b10c5.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/962110-1712779232.jpg?lm=4711"
+  },
+  {
+   "id": "403582",
+   "name": "Xavi Espart",
+   "jersey": "12",
+   "pos": "D",
+   "photo": "data/photos/ffed1a1fcd25972b.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1018912-1768246502.jpg?lm=4711"
+  },
+  {
+   "id": "416511",
+   "name": "Jordi Pesquer",
+   "jersey": "33",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "219022",
+   "name": "Frenkie de Jong",
+   "jersey": "21",
+   "pos": "M",
+   "photo": "data/photos/8529f3f8a9fa264d.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/326330-1746041680.jpg?lm=4711"
+  },
+  {
+   "id": "227765",
+   "name": "Dani Olmo",
+   "jersey": "20",
+   "pos": "M",
+   "photo": "data/photos/f802df9e08d653d7.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/293385-1780663091.jpg?lm=4711"
+  },
+  {
+   "id": "231828",
+   "name": "Rodri",
+   "jersey": "16",
+   "pos": "M",
+   "photo": "data/photos/b7251614423d3fdc.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/357565-1788247677.jpg?lm=4711"
+  },
+  {
+   "id": "250465",
+   "name": "Pedri",
+   "jersey": "8",
+   "pos": "M",
+   "photo": "data/photos/9df45e4380ee6b27.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/683840-1744278342.jpg?lm=4711"
+  },
+  {
+   "id": "323702",
+   "name": "Gavi",
+   "jersey": "6",
+   "pos": "M",
+   "photo": "data/photos/39dc0cf44fdecf17.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/646740-1682685701.jpg?lm=4711"
+  },
+  {
+   "id": "354334",
+   "name": "Fermín López",
+   "jersey": "7",
+   "pos": "M",
+   "photo": "data/photos/157c4cbdf92dbb03.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/636703-1698086824.jpg?lm=4711"
+  },
+  {
+   "id": "376423",
+   "name": "Marc Bernal",
+   "jersey": "22",
+   "pos": "M",
+   "photo": "data/photos/3aee702ea461a9f5.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1018920-1724052540.jpg?lm=4711"
+  },
+  {
+   "id": "403575",
+   "name": "Brian Fariñas",
+   "jersey": "4",
+   "pos": "M",
+   "photo": "data/photos/d9c9a7a17b980386.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/938154-1787555540.jpg?lm=4711"
+  },
+  {
+   "id": "416496",
+   "name": "Orian Goren",
+   "jersey": "32",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "217289",
+   "name": "Gabriel Jesus",
+   "jersey": "9",
+   "pos": "F",
+   "photo": "data/photos/35469c961dda367e.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/363205-1669711141.jpg?lm=4711"
+  },
+  {
+   "id": "231050",
+   "name": "Raphinha",
+   "jersey": "11",
+   "pos": "F",
+   "photo": "data/photos/17b44d7fc18acc13.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/411295-1729754479.png?lm=4711"
+  },
+  {
+   "id": "268782",
+   "name": "Anthony Gordon",
+   "jersey": "17",
+   "pos": "F",
+   "photo": "data/photos/cd4673a087ef0c92.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/503733-1761080304.jpg?lm=4711"
+  },
+  {
+   "id": "274913",
+   "name": "Karim Adeyemi",
+   "jersey": "14",
+   "pos": "F",
+   "photo": "data/photos/c866ebc73b981749.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/496094-1788248133.jpg?lm=4711"
+  },
+  {
+   "id": "331152",
+   "name": "Roony Bardghji",
+   "jersey": "19",
+   "pos": "F",
+   "photo": "data/photos/8602c8b81e513f5f.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/792331-1667420074.jpg?lm=4711"
+  },
+  {
+   "id": "362150",
+   "name": "Lamine Yamal",
+   "jersey": "10",
+   "pos": "F",
+   "photo": "data/photos/c68eb58610ac78e8.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/937958-1773173768.jpg?lm=4711"
+  },
+  {
+   "id": "365318",
+   "name": "Jesse Bisiwu",
+   "jersey": "27",
+   "pos": "F",
+   "photo": "data/photos/447cb224efee2536.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1105549-1788247960.jpg?lm=4711"
+  },
+  {
+   "id": "399200",
+   "name": "Hamza Abdelkarim",
+   "jersey": "29",
+   "pos": "F",
+   "photo": "data/photos/17742d500ae8ab39.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1259085-1780899447.jpg?lm=4711"
+  }
+ ]
+}

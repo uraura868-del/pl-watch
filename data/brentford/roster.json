@@ -1,5 +1,13 @@
 {
- "updatedAt": "2026-10-26T23:38:20Z",
+ "updatedAt": "2026-10-26T22:53:13Z",
+ "manager": {
+  "name": "Keith Andrews",
+  "role": "Manager",
+  "nat": "Ireland",
+  "natCode": "IE",
+  "dob": "1980-09-13",
+  "source": "pl"
+ },
  "players": [
   {
    "id": "249527",

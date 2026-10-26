@@ -261,6 +261,23 @@ details.more[open] summary::before { content: "▾ "; }
 .dlg.warn .warn-check input[type=checkbox]::after { display: none; }
 .dlg.warn menu { display: flex; justify-content: flex-end; gap: 8px; }
 
+/* ---- 試合前プレビュー ---- */
+.pv-label { display: flex; align-items: center; gap: 8px; }
+.pv-label .spacer { flex: 1; }
+.pv-card { padding-bottom: 6px; }
+.pv-row { display: flex; align-items: center; gap: 12px; padding: 12px 16px; font-size: 14px; }
+.pv-row .k { color: var(--muted); font-size: 12px; flex: 0 0 auto; }
+.pv-row b { display: flex; align-items: center; gap: 8px; }
+.pv-row b small { color: var(--muted); font-weight: 400; font-size: 11px; }
+.pv-row .dim, .section-label .dim { color: var(--muted); font-weight: 400; }
+.pv-sub { padding: 8px 16px 2px; font-size: 11px; font-weight: 700; color: var(--muted); letter-spacing: .06em; display: flex; align-items: center; gap: 6px; }
+.pv-hint { margin: 6px 16px 10px; }
+.squad { display: flex; flex-wrap: wrap; gap: 10px 4px; padding: 6px 12px 10px; }
+.squad .pl { width: 64px; cursor: pointer; }
+.squad .ph { width: 44px; height: 44px; }
+.squad .ph .num { border-color: #1a2133; }
+.squad .pl .nm { color: var(--fg); text-shadow: none; font-weight: 500; max-width: 64px; }
+
 /* ---- 記録 ---- */
 .stats-hero { padding: 18px 16px 14px; display: flex; flex-wrap: wrap; gap: 8px 24px; align-items: flex-end; }
 .big-num b { font-family: Oswald, sans-serif; font-size: 44px; line-height: 1; }

@@ -1,0 +1,268 @@
+{
+ "updatedAt": "2026-10-26T23:54:27Z",
+ "id": "104",
+ "name": "AS Roma",
+ "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
+ "manager": {
+  "name": "Gian Piero Gasperini",
+  "role": "Manager",
+  "nat": "Italy",
+  "natCode": null,
+  "dob": "1958-01-26",
+  "source": "wikidata"
+ },
+ "players": [
+  {
+   "id": "206587",
+   "name": "Pierluigi Gollini",
+   "jersey": "95",
+   "pos": "G",
+   "photo": "data/photos/156b39a8304eb74f.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/244192-1695026486.jpg?lm=4711"
+  },
+  {
+   "id": "234300",
+   "name": "Devis Vásquez",
+   "jersey": "32",
+   "pos": "G",
+   "photo": "data/photos/164ebf468c5056c8.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/495722-1770806559.jpg?lm=4711"
+  },
+  {
+   "id": "238798",
+   "name": "Mile Svilar",
+   "jersey": "99",
+   "pos": "G",
+   "photo": "data/photos/2e55aae84b962c54.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/338670-1725532174.jpg?lm=4711"
+  },
+  {
+   "id": "398120",
+   "name": "Giorgio De Marzi",
+   "jersey": "70",
+   "pos": "G",
+   "photo": "data/photos/84e3992b3e87dd49.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/942004-1790341967.jpg?lm=4711"
+  },
+  {
+   "id": "164826",
+   "name": "Nahuel Molina",
+   "jersey": "20",
+   "pos": "D",
+   "photo": "data/photos/aae14c2875470bbb.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/424042-1697037362.jpg?lm=4711"
+  },
+  {
+   "id": "212597",
+   "name": "Gianluca Mancini",
+   "jersey": "23",
+   "pos": "D",
+   "photo": "data/photos/bab716b2b63d5966.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/256448-1663581060.jpg?lm=4711"
+  },
+  {
+   "id": "222529",
+   "name": "Mario Hermoso",
+   "jersey": "22",
+   "pos": "D",
+   "photo": "data/photos/437f50bf93f5b03c.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/281769-1666818938.jpg?lm=4711"
+  },
+  {
+   "id": "242593",
+   "name": "Evan Ndicka",
+   "jersey": "5",
+   "pos": "D",
+   "photo": "data/photos/affb3bba607da1f3.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/371149-1757605149.jpg?lm=4711"
+  },
+  {
+   "id": "271555",
+   "name": "Leonardo Balerdi",
+   "jersey": "26",
+   "pos": "D",
+   "photo": "data/photos/d33831792654b0ca.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/575998-1790341011.jpg?lm=4711"
+  },
+  {
+   "id": "297300",
+   "name": "Devyne Rensch",
+   "jersey": "2",
+   "pos": "D",
+   "photo": "data/photos/66c8e20a1c97aea8.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/557407-1683881379.jpg?lm=4711"
+  },
+  {
+   "id": "332354",
+   "name": "Wesley",
+   "jersey": "43",
+   "pos": "D",
+   "photo": "data/photos/539ce21fcfec76e1.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/964580-1743167536.jpg?lm=4711"
+  },
+  {
+   "id": "336104",
+   "name": "Konstantinos Koulierakis",
+   "jersey": "3",
+   "pos": "D",
+   "photo": "data/photos/20fa82bdcd01cda3.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/669380-1752736071.jpg?lm=4711"
+  },
+  {
+   "id": "340705",
+   "name": "Daniele Ghilardi",
+   "jersey": "87",
+   "pos": "D",
+   "photo": "data/photos/6408a56ebe37df55.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/701819-1725530673.jpg?lm=4711"
+  },
+  {
+   "id": "409371",
+   "name": "Emanuele Lulli",
+   "jersey": "77",
+   "pos": "D",
+   "photo": "data/photos/32d99740e3a4a1ed.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1175298-1760451366.jpg?lm=4711"
+  },
+  {
+   "id": "146335",
+   "name": "Marten de Roon",
+   "jersey": "15",
+   "pos": "M",
+   "photo": "data/photos/6026baeec666f9fe.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/133179-1779892536.jpg?lm=4711"
+  },
+  {
+   "id": "169213",
+   "name": "Bryan Cristante",
+   "jersey": "4",
+   "pos": "M",
+   "photo": "data/photos/821b7c4eea17bb69.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/199248-1724827920.jpg?lm=4711"
+  },
+  {
+   "id": "204320",
+   "name": "Lorenzo Pellegrini",
+   "jersey": "7",
+   "pos": "M",
+   "photo": "data/photos/ffe5e2921dcb77ff.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/286297-1692962972.jpg?lm=4711"
+  },
+  {
+   "id": "285226",
+   "name": "Manu Koné",
+   "jersey": "17",
+   "pos": "M",
+   "photo": "data/photos/c4b43fc215592bf8.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/624690-1757931309.jpg?lm=4711"
+  },
+  {
+   "id": "360235",
+   "name": "Niccolò Pisilli",
+   "jersey": "61",
+   "pos": "M",
+   "photo": "data/photos/34f36eed48017f69.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/813137-1683527978.jpg?lm=4711"
+  },
+  {
+   "id": "387204",
+   "name": "Rodrigo Mora",
+   "jersey": "86",
+   "pos": "M",
+   "photo": "data/photos/d498cde276faea95.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/957653-1758830632.jpg?lm=4711"
+  },
+  {
+   "id": "3098218",
+   "name": "Alessandro Di Nunzio",
+   "jersey": "63",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "164839",
+   "name": "Paulo Dybala",
+   "jersey": "21",
+   "pos": "F",
+   "photo": "data/photos/3d153947dd33370a.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/206050-1725530843.jpg?lm=4711"
+  },
+  {
+   "id": "250284",
+   "name": "Santiago Castro",
+   "jersey": "9",
+   "pos": "F",
+   "photo": "data/photos/800e3b027e15e0ba.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/849520-1724827267.jpg?lm=4711"
+  },
+  {
+   "id": "259481",
+   "name": "Donyell Malen",
+   "jersey": "14",
+   "pos": "F",
+   "photo": "data/photos/4063e19b79a513cc.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/326029-1711746104.jpg?lm=4711"
+  },
+  {
+   "id": "323974",
+   "name": "Matìas Soulè",
+   "jersey": "18",
+   "pos": "F",
+   "photo": "data/photos/a419085344caa65d.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/668951-1725529266.jpg?lm=4711"
+  },
+  {
+   "id": "377387",
+   "name": "Mandjou Camara",
+   "jersey": "78",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "404546",
+   "name": "Antonio Arena",
+   "jersey": "68",
+   "pos": "F",
+   "photo": "data/photos/7d45252e4d709bac.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1251220-1767802018.jpg?lm=4711"
+  },
+  {
+   "id": "409634",
+   "name": "Lorenzo Paratici",
+   "jersey": "72",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  }
+ ]
+}

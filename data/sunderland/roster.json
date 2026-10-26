@@ -1,5 +1,13 @@
 {
- "updatedAt": "2026-10-26T23:38:20Z",
+ "updatedAt": "2026-10-26T22:53:13Z",
+ "manager": {
+  "name": "Régis Le Bris",
+  "role": "Manager",
+  "nat": "France",
+  "natCode": "FR",
+  "dob": "1975-12-06",
+  "source": "pl"
+ },
  "players": [
   {
    "id": "138481",

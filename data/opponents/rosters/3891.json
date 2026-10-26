@@ -1,0 +1,313 @@
+{
+ "updatedAt": "2026-10-26T23:54:27Z",
+ "id": "3891",
+ "name": "Fleetwood Town",
+ "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3891.png",
+ "manager": {
+  "name": "Pete Wild",
+  "role": "Manager",
+  "nat": "United Kingdom",
+  "natCode": null,
+  "dob": "1985-01-01",
+  "source": "wikidata"
+ },
+ "players": [
+  {
+   "id": "169599",
+   "name": "Jay Lynch",
+   "jersey": "1",
+   "pos": "G",
+   "photo": "data/photos/e7d7e281ca99add1.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/128273-1756327055.jpg?lm=4711"
+  },
+  {
+   "id": "345879",
+   "name": "James Pradic",
+   "jersey": "22",
+   "pos": "G",
+   "photo": "data/photos/629ec034d6324769.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/883541-1737883957.jpg?lm=4711"
+  },
+  {
+   "id": "396112",
+   "name": "Oliver Bellizia",
+   "jersey": "34",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "127618",
+   "name": "Danny Andrew",
+   "jersey": "3",
+   "pos": "D",
+   "photo": "data/photos/0f817d57189a34bf.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/95245-1754390116.jpg?lm=4711"
+  },
+  {
+   "id": "162889",
+   "name": "Rhys Bennett",
+   "jersey": "6",
+   "pos": "D",
+   "photo": "data/photos/de5331aa31ec25be.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/794816-1771871872.jpg?lm=4711"
+  },
+  {
+   "id": "190423",
+   "name": "Shaun Rooney",
+   "jersey": "26",
+   "pos": "D",
+   "photo": "data/photos/0497b48f9ef192ae.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/280409-1621259536.jpg?lm=4711"
+  },
+  {
+   "id": "347330",
+   "name": "Jake Batty",
+   "jersey": "24",
+   "pos": "D",
+   "photo": "data/photos/cb05dcd31bd92390.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/866669-1770062759.jpg?lm=4711"
+  },
+  {
+   "id": "359454",
+   "name": "Finley Potter",
+   "jersey": "5",
+   "pos": "D",
+   "photo": "data/photos/3edcb147ca00d074.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/945771-1756327258.jpg?lm=4711"
+  },
+  {
+   "id": "385117",
+   "name": "Rafaele Cirino",
+   "jersey": "29",
+   "pos": "D",
+   "photo": "data/photos/e2213c679c6482bb.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1224155-1777843088.jpg?lm=4711"
+  },
+  {
+   "id": "388546",
+   "name": "Kayden Hughes",
+   "jersey": "32",
+   "pos": "D",
+   "photo": "data/photos/f8e10694cf75aa9d.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1091011-1756327427.jpg?lm=4711"
+  },
+  {
+   "id": "408354",
+   "name": "Conor Haughey",
+   "jersey": "16",
+   "pos": "D",
+   "photo": "data/photos/199ef0c01f8fc703.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1160449-1769197084.jpg?lm=4711"
+  },
+  {
+   "id": "3110496",
+   "name": "Jesse Dempsey",
+   "jersey": "36",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "223583",
+   "name": "Andrew Cannon",
+   "jersey": "7",
+   "pos": "M",
+   "photo": "data/photos/5f5425bc4da3d986.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/341882-1681395534.jpg?lm=4711"
+  },
+  {
+   "id": "296624",
+   "name": "Mark Helm",
+   "jersey": "10",
+   "pos": "M",
+   "photo": "data/photos/dd8cf5570ddc74bc.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/596217-1756327602.jpg?lm=4711"
+  },
+  {
+   "id": "324926",
+   "name": "Kane Thompson-Sommers",
+   "jersey": "8",
+   "pos": "M",
+   "photo": "data/photos/dbb3e61724db316f.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/577410-1754568290.jpg?lm=4711"
+  },
+  {
+   "id": "333339",
+   "name": "Harrison Neal",
+   "jersey": "4",
+   "pos": "M",
+   "photo": "data/photos/b89364bca12e3e14.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/746736-1756327735.jpg?lm=4711"
+  },
+  {
+   "id": "342879",
+   "name": "Adam Murphy",
+   "jersey": "15",
+   "pos": "M",
+   "photo": "data/photos/e2eb0d7fde5f8211.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/741270-1756843117.jpg?lm=4711"
+  },
+  {
+   "id": "362361",
+   "name": "Josh Robertson",
+   "jersey": "28",
+   "pos": "M",
+   "photo": "data/photos/5e1c5b003448c5fa.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1141820-1791113781.jpg?lm=4711"
+  },
+  {
+   "id": "388736",
+   "name": "Pele Smith",
+   "jersey": "31",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "390974",
+   "name": "Crispin Mclean",
+   "jersey": "27",
+   "pos": "M",
+   "photo": "data/photos/8dfa40c4ca135301.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1311777-1791113667.jpg?lm=4711"
+  },
+  {
+   "id": "3110490",
+   "name": "Muhammad Oladiti",
+   "jersey": "39",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "3122242",
+   "name": "Sean Costelloe",
+   "jersey": "35",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "3124482",
+   "name": "David Animasaun",
+   "jersey": "40",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "3144547",
+   "name": "Muhsi Bamba",
+   "jersey": "41",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "39135",
+   "name": "Will Davies",
+   "jersey": "9",
+   "pos": "F",
+   "photo": "data/photos/a0fc7fd95d12ebff.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/106376-1756328054.jpg?lm=4711"
+  },
+  {
+   "id": "39191",
+   "name": "Josh Thomas",
+   "jersey": "11",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "111016",
+   "name": "Ched Evans",
+   "jersey": "17",
+   "pos": "F",
+   "photo": "data/photos/ec6704fc9d7cdf7d.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/61622-1756327913.jpg?lm=4711"
+  },
+  {
+   "id": "221993",
+   "name": "Ronan Coughlan",
+   "jersey": "19",
+   "pos": "F",
+   "photo": "data/photos/d544cef279a46228.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/345282-1721321478.jpg?lm=4711"
+  },
+  {
+   "id": "276105",
+   "name": "Lewis Mccann",
+   "jersey": "14",
+   "pos": "F",
+   "photo": "data/photos/43b38c9860317698.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/586938-1756327848.jpg?lm=4711"
+  },
+  {
+   "id": "365346",
+   "name": "Aaron Loupalo-Bi",
+   "jersey": "20",
+   "pos": "F",
+   "photo": "data/photos/3ab3582fa6b01d55.jpg",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/926131-1769197479.jpg?lm=4711"
+  },
+  {
+   "id": "3124481",
+   "name": "Noah Sawkins",
+   "jersey": "43",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "3140142",
+   "name": "Ryan Gray",
+   "jersey": "18",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "3140143",
+   "name": "Fawaz Junaid",
+   "jersey": null,
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  }
+ ]
+}

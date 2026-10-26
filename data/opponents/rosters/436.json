@@ -1,0 +1,268 @@
+{
+ "updatedAt": "2026-10-26T23:54:27Z",
+ "id": "436",
+ "name": "Fenerbahce",
+ "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
+ "manager": {
+  "name": "İsmail Kartal",
+  "role": "Manager",
+  "nat": "Turkey",
+  "natCode": null,
+  "dob": "1961-06-15",
+  "source": "wikidata"
+ },
+ "players": [
+  {
+   "id": "124880",
+   "name": "Mert Günok",
+   "jersey": "34",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "176948",
+   "name": "Ederson",
+   "jersey": "31",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "275128",
+   "name": "Tarik Cetin",
+   "jersey": "13",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "3126788",
+   "name": "Kuzey Sapaz",
+   "jersey": "75",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "159248",
+   "name": "Nathan Aké",
+   "jersey": "15",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "175195",
+   "name": "Milan Skriniar",
+   "jersey": "37",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "222670",
+   "name": "Nélson Semedo",
+   "jersey": "27",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "266002",
+   "name": "Mert Müldür",
+   "jersey": "18",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "290511",
+   "name": "Munir Mercan",
+   "jersey": "22",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "304866",
+   "name": "Jayden Oosterwolde",
+   "jersey": "24",
+   "pos": "D",
+   "photo": "data/photos/8b36acf27ad5a7df.jpg",
+   "injuries": [],
+   "photoSrc": "https://a.espncdn.com/i/headshots/soccer/players/full/304866.png"
+  },
+  {
+   "id": "320982",
+   "name": "Archie Brown",
+   "jersey": "3",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "340186",
+   "name": "Yiğit Demir",
+   "jersey": "14",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "357205",
+   "name": "Kojo Peprah Oppong",
+   "jersey": "21",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "380332",
+   "name": "Ognjen Mimovic",
+   "jersey": "77",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "173556",
+   "name": "N'Golo Kanté",
+   "jersey": "91",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "195821",
+   "name": "Marco Asensio",
+   "jersey": "10",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "211923",
+   "name": "Irfan Can Kahveci",
+   "jersey": "17",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "248676",
+   "name": "Matteo Guendouzi",
+   "jersey": "6",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "261302",
+   "name": "Mert Yandas",
+   "jersey": "8",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "305629",
+   "name": "Ismail Yüksek",
+   "jersey": "5",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "311984",
+   "name": "Bartug Elmaz",
+   "jersey": "28",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "139437",
+   "name": "Romelu Lukaku",
+   "jersey": "9",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "240209",
+   "name": "Vedat Muriqi",
+   "jersey": "19",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "276221",
+   "name": "Mason Greenwood",
+   "jersey": "11",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "306789",
+   "name": "Kerem Aktürkoglu",
+   "jersey": "7",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "322813",
+   "name": "Oguz Aydin",
+   "jersey": "70",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "329486",
+   "name": "Nene Dorgeles",
+   "jersey": "45",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "416476",
+   "name": "Alaettin Ekici",
+   "jersey": "54",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  }
+ ]
+}

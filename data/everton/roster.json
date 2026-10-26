@@ -1,5 +1,13 @@
 {
- "updatedAt": "2026-10-26T23:38:20Z",
+ "updatedAt": "2026-10-26T22:53:13Z",
+ "manager": {
+  "name": "David Moyes",
+  "role": "Manager",
+  "nat": "Scotland",
+  "natCode": "GB-SCT",
+  "dob": "1963-04-25",
+  "source": "pl"
+ },
  "players": [
   {
    "id": "7441",

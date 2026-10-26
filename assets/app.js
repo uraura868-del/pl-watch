@@ -1043,7 +1043,7 @@
   }
   // ---------------------------------------------------------------- メインメニュー（ホーム / 日程 / 記録 / 設定）
   function setView(view) {
-    if (view === "settings") { $("#btn-settings").click(); return; }
+    if (view === "settings") { const t = state.teams.find(x => x.id === state.teamId); $("#btn-reset").textContent = t ? `${t.shortName || t.name}をリセット` : "このチームをリセット"; $("#btn-settings").click(); return; }
     state.view = view;
     document.body.dataset.view = view;
     document.querySelectorAll(".nav-btn").forEach(b => b.classList.toggle("on", b.dataset.view === view));
@@ -1116,8 +1116,33 @@
       catch { $("#ics-url").select(); toast("選択した URL をコピーしてください"); }
     });
     $("#btn-reset").addEventListener("click", () => {
-      if (!confirm("このチームの「観た」記録をすべて消しますか？")) return;
-      state.prefs.watched[state.teamId] = []; save(); refreshList(); toast("リセットしました");
+      const team = state.teams.find(t => t.id === state.teamId);
+      const name = team ? (team.shortName || team.name) : "このチーム";
+      const n = (state.prefs.watched[state.teamId] || []).length;
+      if (!n) { toast(`${name}の「観た」記録はありません`); return; }
+      if (!confirm(`${name}の「観た」記録 ${n} 試合を消しますか？
+他のチームの記録はそのまま残ります。`)) return;
+      state.prefs.watched[state.teamId] = []; save(); refreshList(); toast(`${name}の記録をリセットしました`);
+    });
+    // 全チームの記録を消す。専用の注意ダイアログで「理解しました」にチェックしないと押せない
+    $("#btn-reset-all").addEventListener("click", () => {
+      const w = state.prefs.watched || {};
+      const teamsN = Object.values(w).filter(ids => (ids || []).length).length;
+      const matchesN = Object.values(w).reduce((a, ids) => a + (ids || []).length, 0);
+      if (!matchesN) { toast("「観た」記録はまだありません"); return; }
+      $("#reset-summary").textContent = `いま ${teamsN} チーム・${matchesN} 試合ぶんの「観た」記録があります。`;
+      $("#reset-cloud-note").hidden = !cloud.user;
+      $("#reset-ack").checked = false; $("#btn-reset-all-go").disabled = true;
+      $("#dlg-reset").showModal();
+    });
+    $("#reset-ack").addEventListener("change", e => { $("#btn-reset-all-go").disabled = !e.target.checked; });
+    $("#btn-reset-all-go").addEventListener("click", () => {
+      if (!$("#reset-ack").checked) return;
+      state.prefs.watched = {}; save();
+      $("#dlg-reset").close(); $("#dlg-settings").close();
+      refreshList();
+      if (state.view === "stats") renderStatsView();
+      toast("すべての「観た」記録を消しました");
     });
   }
 

@@ -248,6 +248,19 @@ details.more[open] summary::before { content: "▾ "; }
 .m-popup .row-btn { font-size: 8px; padding: 3px 6px; }
 .m-win { margin: auto; display: flex; align-items: center; gap: 6px; background: #fff; border: 1px solid #c9cdd9; border-radius: 8px; padding: 8px 10px; }
 
+/* ---- 全リセットの注意ダイアログ ---- */
+.btn-ghost.danger { color: #ff7b72; border-color: rgba(255,123,114,.4); }
+.btn-primary.danger { background: #c62828; }
+.btn-primary.danger:disabled { opacity: .35; cursor: not-allowed; }
+.dlg.warn { border: 1px solid rgba(255,123,114,.35); }
+.dlg.warn h2 { color: #ff7b72; }
+.warn-list { margin: 8px 0 12px; padding-left: 18px; font-size: 13px; line-height: 1.6; }
+.warn-list li { margin: 2px 0; }
+.warn-check { display: flex; align-items: center; gap: 10px; padding: 10px 12px; border-radius: 10px; background: rgba(255,123,114,.08); font-size: 13px; cursor: pointer; }
+.dlg.warn .warn-check input[type=checkbox] { width: 18px; height: 18px; appearance: auto; accent-color: #ff7b72; background: none; border-radius: 4px; }
+.dlg.warn .warn-check input[type=checkbox]::after { display: none; }
+.dlg.warn menu { display: flex; justify-content: flex-end; gap: 8px; }
+
 /* ---- 記録 ---- */
 .stats-hero { padding: 18px 16px 14px; display: flex; flex-wrap: wrap; gap: 8px 24px; align-items: flex-end; }
 .big-num b { font-family: Oswald, sans-serif; font-size: 44px; line-height: 1; }
@@ -370,5 +383,6 @@ details.more[open] summary::before { content: "▾ "; }
 .abs-row { font-size: 13px; padding: 4px 0; }
 .abs-row small { display: block; color: var(--muted); font-size: 11px; }
 
-.toast { position: fixed; left: 50%; bottom: calc(24px + var(--safe-b)); transform: translateX(-50%) translateY(20px); background: #222a40; color: #fff; padding: 10px 16px; border-radius: 999px; font-size: 13px; opacity: 0; pointer-events: none; transition: all .2s; z-index: 20; }
+.toast { position: fixed; left: 50%; bottom: calc(84px + var(--safe-b)); transform: translateX(-50%) translateY(20px); background: #222a40; color: #fff; padding: 10px 16px; border-radius: 999px; font-size: 13px; opacity: 0; pointer-events: none; transition: all .2s; z-index: 20; }
 .toast.show { opacity: 1; transform: translateX(-50%); }
+@media (min-width: 900px) { .toast { bottom: calc(24px + var(--safe-b)); } }

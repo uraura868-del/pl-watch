@@ -80,8 +80,11 @@
       <input type="checkbox" id="opt-opp">
     </label>
     <div class="row">
-      <span><b>観た記録</b><small>このブラウザに保存されています</small></span>
-      <button type="button" id="btn-reset" class="btn-ghost">リセット</button>
+      <span><b>観た記録</b><small id="reset-hint">表示中のチームだけ、または全チームの記録を消せます</small></span>
+      <span class="btn-stack">
+        <button type="button" id="btn-reset" class="btn-ghost">このチームをリセット</button>
+        <button type="button" id="btn-reset-all" class="btn-ghost danger">すべてリセット</button>
+      </span>
     </div>
     <div class="row col">
       <span><b>キックオフ通知（カレンダー購読）</b><small>ボタンを押すと Google カレンダーに日程の購読を登録できます。登録後、そのカレンダーの通知を「1時間前」にするとスタメン公開のころに知らせてくれます。結果は含まれません。</small></span>
@@ -98,6 +101,24 @@
     </div>
     <p class="note" id="settings-note"></p>
     <menu><button class="btn-primary" value="close">閉じる</button></menu>
+  </form>
+</dialog>
+
+<dialog id="dlg-reset" class="dlg warn">
+  <form method="dialog">
+    <h2>⚠ 観た記録をすべて消します</h2>
+    <p class="note" id="reset-summary"></p>
+    <ul class="warn-list">
+      <li>全チームの「観た」記録が消え、ロックは最初の試合からやり直しになります</li>
+      <li>「記録」の集計（試合数・時間）も 0 に戻ります</li>
+      <li id="reset-cloud-note">ログイン中のため、Google アカウントに保存された記録も消えて、他の端末にも反映されます</li>
+      <li>元に戻すことはできません</li>
+    </ul>
+    <label class="warn-check"><input type="checkbox" id="reset-ack"><span>消えることを理解しました</span></label>
+    <menu>
+      <button class="btn-ghost" value="cancel">やめる</button>
+      <button type="button" id="btn-reset-all-go" class="btn-primary danger" disabled>すべて消す</button>
+    </menu>
   </form>
 </dialog>
 

@@ -988,18 +988,27 @@
     const btn = $("#btn-install"), hint = $("#install-hint");
     if (!btn) return;
     if (isStandalone()) { btn.style.display = "none"; hint.textContent = "ホーム画面から開いています（追加済み）。"; return; }
-    if (installPrompt) { btn.style.display = ""; btn.textContent = "追加する"; hint.textContent = "押すと確認が出ます。追加後はアプリのように全画面で開けます。"; return; }
+    if (installPrompt) { btn.style.display = ""; btn.textContent = "追加する"; hint.innerHTML = "押すとブラウザの確認（画面上部、アドレスバーの近くに出ます）が開きます。「インストール」を押すと追加されます。"; return; }
     btn.style.display = "none";
     if (isIOS()) hint.innerHTML = "iPhone: Safari で画面下の <b>共有</b>（□↑）→ <b>「ホーム画面に追加」</b> を押してください。アイコン付きで追加されます。";
-    else hint.innerHTML = "Android: Chrome の <b>⋮ メニュー</b> → <b>「ホーム画面に追加」</b>（または「アプリをインストール」）。PC: アドレスバー右端のインストールアイコンから追加できます。";
+    else hint.innerHTML = "Android: Chrome の <b>⋮ メニュー</b> → <b>「ホーム画面に追加」</b>（または「アプリをインストール」）。PC の Chrome: アドレスバー右端の <b>インストールのアイコン</b>（画面に↓の形）か、⋮ メニュー → 「キャスト、保存、共有」→「ページをアプリとしてインストール」。すでに追加済みの場合もこの表示になります。";
   }
   function bindInstall() {
     window.addEventListener("beforeinstallprompt", e => { e.preventDefault(); installPrompt = e; renderInstall(); });
     window.addEventListener("appinstalled", () => { installPrompt = null; toast("ホーム画面に追加しました"); renderInstall(); });
     $("#btn-install").addEventListener("click", async () => {
-      if (!installPrompt) return;
-      installPrompt.prompt();
-      try { await installPrompt.userChoice; } catch { /* ignore */ }
+      if (!installPrompt) { toast("この画面からは追加できません。下の手順で追加してください"); renderInstall(); return; }
+      const ev = installPrompt;
+      try {
+        ev.prompt();
+        toast("画面上部の確認で「インストール」を押してください");
+        const choice = await ev.userChoice;
+        if (choice && choice.outcome === "accepted") toast("ホーム画面に追加しました");
+        else toast("追加はキャンセルされました（ブラウザのメニューからも追加できます）");
+      } catch (e) {
+        console.warn("install prompt failed", e);
+        toast("ブラウザが確認を出せませんでした。メニューの「ホーム画面に追加」から追加してください");
+      }
       installPrompt = null; renderInstall();
     });
     if ("serviceWorker" in navigator) {

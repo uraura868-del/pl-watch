@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-26T13:04:00Z",
+ "updatedAt": "2026-10-26T13:26:10Z",
  "clubs": {
   "manchester united": {
    "id": 985,
@@ -1631,6 +1631,83 @@
    "slug": "club",
    "name": "Leicester City F.C.",
    "fetchedAt": "2026-10-26T13:04:00Z",
+   "players": {}
+  },
+  "villarreal": {
+   "id": 1050,
+   "slug": "club",
+   "name": "Villarreal CF",
+   "fetchedAt": "2026-10-26T13:26:10Z",
+   "players": {}
+  },
+  "lask linz": {
+   "id": 413,
+   "slug": "club",
+   "name": "LASK Linz",
+   "fetchedAt": "2026-10-26T13:26:10Z",
+   "players": {}
+  },
+  "aek athens": {
+   "id": null,
+   "slug": null,
+   "name": null,
+   "fetchedAt": "2026-10-26T13:26:10Z",
+   "players": {}
+  },
+  "paris saint germain": {
+   "id": 583,
+   "slug": "club",
+   "name": "Paris Saint-Germain FC",
+   "fetchedAt": "2026-10-26T13:26:10Z",
+   "players": {}
+  },
+  "norwich city": {
+   "id": 1123,
+   "slug": "club",
+   "name": "Norwich City F.C.",
+   "fetchedAt": "2026-10-26T13:26:10Z",
+   "players": {}
+  },
+  "fc porto": {
+   "id": 720,
+   "slug": "club",
+   "name": "FC Porto",
+   "fetchedAt": "2026-10-26T13:26:10Z",
+   "players": {}
+  },
+  "millwall": {
+   "id": 1028,
+   "slug": "club",
+   "name": "Millwall F.C.",
+   "fetchedAt": "2026-10-26T13:26:10Z",
+   "players": {}
+  },
+  "west bromwich albion": {
+   "id": 984,
+   "slug": "club",
+   "name": "West Bromwich Albion F.C.",
+   "fetchedAt": "2026-10-26T13:26:10Z",
+   "players": {}
+  },
+  "torreense": {
+   "id": 2432,
+   "slug": "club",
+   "name": "S.C.U. Torreense",
+   "fetchedAt": "2026-10-26T13:26:10Z",
+   "players": {}
+  },
+  "az alkmaar": {
+   "id": 1090,
+   "slug": "club",
+   "name": "AZ Alkmaar",
+   "fetchedAt": "2026-10-26T13:26:10Z",
+   "players": {}
+  },
+  "charlton athletic": {
+   "id": 358,
+   "slug": "club",
+   "name": "Charlton Athletic F.C.",
+   "fetchedAt": "2026-10-26T13:26:10Z",
    "players": {}
   }
  }

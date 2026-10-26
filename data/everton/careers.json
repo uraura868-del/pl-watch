@@ -1,4 +1,23 @@
 {
- "updatedAt": "2026-10-26T13:04:00Z",
- "players": {}
+ "updatedAt": "2026-10-26T13:26:10Z",
+ "players": {
+  "7441": {
+   "name": "Mark Travers",
+   "qid": "Q59913688",
+   "career": [
+    {
+     "club": "シャムロック・ローヴァーズFC",
+     "clubEn": "Shamrock Rovers F.C.",
+     "start": null,
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2564.png"
+    }
+   ],
+   "fetchedAt": "2026-10-26T13:26:10Z"
+  }
+ }
 }

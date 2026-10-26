@@ -990,7 +990,12 @@
     if (isStandalone()) { btn.style.display = "none"; hint.textContent = "ホーム画面から開いています（追加済み）。"; return; }
     if (installPrompt) { btn.style.display = ""; btn.textContent = "追加する"; hint.innerHTML = "押すとブラウザの確認（画面上部、アドレスバーの近くに出ます）が開きます。「インストール」を押すと追加されます。"; return; }
     btn.style.display = "none";
-    if (isIOS()) hint.innerHTML = "iPhone: Safari で画面下の <b>共有</b>（□↑）→ <b>「ホーム画面に追加」</b> を押してください。アイコン付きで追加されます。";
+    if (isIOS()) {
+      const chrome = /CriOS/i.test(navigator.userAgent);
+      hint.innerHTML = chrome
+        ? "iPhone の Chrome: アドレスバー右の <b>共有ボタン</b>（□↑）を押し、メニューを下にスクロールして <b>「ホーム画面に追加」</b> → 右上の「追加」。iPhone ではボタン1つでの追加はできない仕様です（Safari でも同じ手順）。"
+        : "iPhone の Safari: 画面下の <b>共有ボタン</b>（□↑）→ 下にスクロールして <b>「ホーム画面に追加」</b> → 右上の「追加」。アイコン付きで追加されます。";
+    }
     else hint.innerHTML = "Android: Chrome の <b>⋮ メニュー</b> → <b>「ホーム画面に追加」</b>（または「アプリをインストール」）。PC の Chrome: アドレスバー右端の <b>インストールのアイコン</b>（画面に↓の形）か、⋮ メニュー → 「キャスト、保存、共有」→「ページをアプリとしてインストール」。すでに追加済みの場合もこの表示になります。";
   }
   function bindInstall() {

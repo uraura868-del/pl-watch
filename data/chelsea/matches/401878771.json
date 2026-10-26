@@ -182,7 +182,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://img.a.transfermarkt.technology/portrait/header/1353008-1771107207.jpg?lm=4711"
+    "photo": "data/photos/0eedd1c16a50ac49.jpg"
    },
    {
     "id": "115271",
@@ -461,7 +461,7 @@
    "name": "Emmanuel Emegha",
    "jersey": "22",
    "pos": "F",
-   "photo": "https://img.a.transfermarkt.technology/portrait/header/559328-1732575392.png?lm=4711",
+   "photo": "data/photos/b39eefa078cf5fbc.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -491,7 +491,7 @@
    "name": "Teddy Sharman-Lowe",
    "jersey": "28",
    "pos": "G",
-   "photo": "https://img.a.transfermarkt.technology/portrait/header/731466-1656922515.jpg?lm=4711",
+   "photo": "data/photos/f96c92d9935e03d3.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -511,7 +511,7 @@
    "name": "Aaron Anselmino",
    "jersey": "30",
    "pos": "D",
-   "photo": "https://img.a.transfermarkt.technology/portrait/header/1145504-1766483410.jpg?lm=4711",
+   "photo": "data/photos/2ceac929eeaa8e86.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -541,7 +541,7 @@
    "name": "Gaga Slonina",
    "jersey": "44",
    "pos": "G",
-   "photo": "https://img.a.transfermarkt.technology/portrait/header/656316-1645958054.jpg?lm=4711",
+   "photo": "data/photos/3036d8259836d1cf.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"

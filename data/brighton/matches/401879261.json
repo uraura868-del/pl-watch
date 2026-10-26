@@ -99,7 +99,7 @@
     "pos": "RM",
     "starter": true,
     "place": "8",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p60307.png"
+    "photo": "data/photos/55ccd86b58f087da.jpg"
    },
    {
     "id": "387655",
@@ -258,7 +258,7 @@
     "pos": "CD",
     "starter": true,
     "place": "5",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p427623.png",
+    "photo": "data/photos/ac9c23bcca8be5db.jpg",
     "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p427623.png"
    },
    {
@@ -298,7 +298,7 @@
     "pos": "CM-R",
     "starter": true,
     "place": "7",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p496221.png",
+    "photo": "data/photos/5f9247a93205d32a.jpg",
     "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p496221.png"
    },
    {
@@ -308,7 +308,7 @@
     "pos": "LM",
     "starter": true,
     "place": "3",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p244723.png",
+    "photo": "data/photos/8fc06f035a4bdcca.jpg",
     "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p244723.png"
    },
    {
@@ -328,7 +328,7 @@
     "pos": "F",
     "starter": true,
     "place": "9",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p247412.png",
+    "photo": "data/photos/9cde04325ffb89dd.jpg",
     "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p247412.png"
    },
    {
@@ -348,7 +348,7 @@
     "pos": "CF-R",
     "starter": true,
     "place": "10",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p209400.png",
+    "photo": "data/photos/f711c603c746eddc.jpg",
     "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p209400.png"
    }
   ],
@@ -360,7 +360,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p152551.png",
+    "photo": "data/photos/b9bb52327ce52014.jpg",
     "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p152551.png"
    },
    {
@@ -370,7 +370,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p433154.png",
+    "photo": "data/photos/16a96fed8058d194.jpg",
     "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p433154.png"
    },
    {
@@ -380,7 +380,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p108413.png",
+    "photo": "data/photos/fe923013c43f44e7.jpg",
     "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p108413.png"
    },
    {
@@ -390,7 +390,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p231747.png",
+    "photo": "data/photos/23c4525ccd816320.jpg",
     "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p231747.png"
    },
    {
@@ -400,7 +400,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p232185.png",
+    "photo": "data/photos/dac6d615a7d1fe17.jpg",
     "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p232185.png"
    },
    {
@@ -410,7 +410,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p169593.png",
+    "photo": "data/photos/39304f7010d324fa.jpg",
     "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p169593.png"
    },
    {
@@ -440,7 +440,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p205533.png",
+    "photo": "data/photos/b9272819b795b7f9.jpg",
     "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p205533.png"
    }
   ]
@@ -461,7 +461,7 @@
    "name": "Kaoru Mitoma",
    "jersey": "7",
    "pos": "M",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/504849-1731683095.jpg?lm=4711",
+   "photo": "data/photos/815d7089ec31fc2b.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -471,7 +471,7 @@
    "name": "Stefanos Tzimas",
    "jersey": "9",
    "pos": "F",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/950091-1722955946.jpg?lm=4711",
+   "photo": "data/photos/4b20bb63e129ddb4.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -481,7 +481,7 @@
    "name": "Yankuba Minteh",
    "jersey": "11",
    "pos": "F",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/1012534-1694774813.jpg?lm=4711",
+   "photo": "data/photos/baf1646bcdd9c508.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -511,7 +511,7 @@
    "name": "Evan Ferguson",
    "jersey": "28",
    "pos": "M",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/648046-1681739980.jpg?lm=4711",
+   "photo": "data/photos/49489b31553e8eea.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -531,7 +531,7 @@
    "name": "Tom McGill",
    "jersey": "38",
    "pos": "G",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/406556-1718472851.jpg?lm=4711",
+   "photo": "data/photos/6f391e236b3ba9d8.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -541,7 +541,7 @@
    "name": "Femi Azeez",
    "jersey": "39",
    "pos": "F",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/703408-1732031406.jpg?lm=4711",
+   "photo": "data/photos/9790e380fb24b617.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"

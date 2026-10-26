@@ -370,7 +370,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://img.a.transfermarkt.technology/portrait/medium/206746-1746645948.jpg?lm=4711",
+    "photo": "data/photos/6af80840edaf73d1.jpg",
     "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/206746-1746645948.jpg?lm=4711"
    },
    {
@@ -410,7 +410,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://img.a.transfermarkt.technology/portrait/medium/123275-1651652849.jpg?lm=4711",
+    "photo": "data/photos/be409c8c741932c5.jpg",
     "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/123275-1651652849.jpg?lm=4711"
    },
    {
@@ -521,7 +521,7 @@
    "name": "Luke Woolfenden",
    "jersey": "26",
    "pos": "D",
-   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p220583.png",
+   "photo": "data/photos/97e4acdbf58a0387.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"

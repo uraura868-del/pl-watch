@@ -63,7 +63,7 @@
     "pos": "CD-R",
     "starter": true,
     "place": "6",
-    "photo": "https://img.a.transfermarkt.technology/portrait/medium/297212-1666698393.jpg?lm=4711"
+    "photo": "data/photos/472a50ae30ea1e09.jpg"
    },
    {
     "id": "304802",
@@ -164,7 +164,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://img.a.transfermarkt.technology/portrait/medium/194386-1724939306.jpg?lm=4711"
+    "photo": "data/photos/02414f6ef3d32579.jpg"
    },
    {
     "id": "212237",
@@ -200,7 +200,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://img.a.transfermarkt.technology/portrait/medium/319301-1668520687.jpg?lm=4711"
+    "photo": "data/photos/6cb10a2ec9703369.jpg"
    },
    {
     "id": "250166",

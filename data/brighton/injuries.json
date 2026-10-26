@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-26T12:16:14Z",
+ "updatedAt": "2026-10-26T12:38:46Z",
  "fetchedOk": true,
  "players": [
   {
@@ -8,10 +8,10 @@
    "reasonJa": "十字靭帯損傷",
    "type": "負傷",
    "since": "2025-12-03",
-   "until": "2026-11-20",
+   "until": "2026-10-26",
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-10-26",
-   "active": true
+   "active": false
   },
   {
    "name": "Evan Ferguson",
@@ -19,10 +19,10 @@
    "reasonJa": "足首の負傷",
    "type": "負傷",
    "since": "2026-01-18",
-   "until": "2026-11-20",
+   "until": "2026-10-26",
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-10-26",
-   "active": true
+   "active": false
   },
   {
    "name": "Kaoru Mitoma",
@@ -30,10 +30,10 @@
    "reasonJa": "ハムストリング負傷",
    "type": "負傷",
    "since": "2026-05-10",
-   "until": "2026-11-06",
+   "until": "2026-10-26",
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-10-26",
-   "active": true
+   "active": false
   },
   {
    "name": "Zadok Yohanna",
@@ -41,10 +41,10 @@
    "reasonJa": "コンディション不良",
    "type": "負傷",
    "since": "2026-10-12",
-   "until": null,
+   "until": "2026-10-26",
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-10-26",
-   "active": true
+   "active": false
   },
   {
    "name": "Femi Azeez",
@@ -52,10 +52,10 @@
    "reasonJa": "コンディション不良",
    "type": "負傷",
    "since": "2026-10-16",
-   "until": "2026-10-30",
+   "until": "2026-10-26",
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-10-26",
-   "active": true
+   "active": false
   },
   {
    "name": "Ferdi Kadıoğlu",
@@ -63,10 +63,10 @@
    "reasonJa": "股関節の負傷",
    "type": "負傷",
    "since": "2026-10-25",
-   "until": null,
+   "until": "2026-10-26",
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-10-26",
-   "active": true
+   "active": false
   }
  ]
 }

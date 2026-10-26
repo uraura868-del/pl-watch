@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-26T12:16:14Z",
+ "updatedAt": "2026-10-26T12:38:46Z",
  "fetchedOk": true,
  "players": [
   {
@@ -8,10 +8,10 @@
    "reasonJa": "打撲",
    "type": "負傷",
    "since": "2026-10-16",
-   "until": "2026-10-27",
+   "until": "2026-10-26",
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-10-26",
-   "active": true
+   "active": false
   }
  ]
 }

@@ -1,12 +1,12 @@
 {
- "updatedAt": "2026-10-26T12:16:14Z",
+ "updatedAt": "2026-10-26T12:38:46Z",
  "players": [
   {
    "id": "164148",
    "name": "Alex Cairns",
    "jersey": "21",
    "pos": "G",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/194386-1724939306.jpg?lm=4711",
+   "photo": "data/photos/02414f6ef3d32579.jpg",
    "injuries": [],
    "dob": "1993-01-04",
    "nat": "England",
@@ -118,7 +118,7 @@
    "name": "Joe Rodon",
    "jersey": "6",
    "pos": "D",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/297212-1666698393.jpg?lm=4711",
+   "photo": "data/photos/472a50ae30ea1e09.jpg",
    "injuries": [],
    "dob": "1997-10-22",
    "nat": "Wales",
@@ -406,7 +406,7 @@
    "name": "Daniel James",
    "jersey": "7",
    "pos": "F",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/319301-1668520687.jpg?lm=4711",
+   "photo": "data/photos/6cb10a2ec9703369.jpg",
    "injuries": [],
    "dob": "1997-11-10",
    "nat": "Wales",

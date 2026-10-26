@@ -1,12 +1,12 @@
 {
- "updatedAt": "2026-10-26T12:16:14Z",
+ "updatedAt": "2026-10-26T12:38:46Z",
  "players": [
   {
    "id": "157933",
    "name": "Jack Butland",
    "jersey": "1",
    "pos": "G",
-   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p105666.png",
+   "photo": "data/photos/423345d2b30893be.jpg",
    "injuries": [],
    "dob": "1993-03-10",
    "nat": "England",
@@ -342,7 +342,7 @@
    "name": "Darko Gyabi",
    "jersey": "24",
    "pos": "M",
-   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p470294.png",
+   "photo": "data/photos/c398192737296e01.jpg",
    "injuries": [],
    "dob": "2004-02-18",
    "nat": "England",

@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-26T12:16:14Z",
+ "updatedAt": "2026-10-26T12:38:46Z",
  "fetchedOk": true,
  "players": [
   {
@@ -8,10 +8,10 @@
    "reasonJa": "膝の負傷",
    "type": "負傷",
    "since": "2026-08-01",
-   "until": "2026-11-20",
+   "until": "2026-10-26",
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-10-26",
-   "active": true
+   "active": false
   },
   {
    "name": "Haji Wright",
@@ -19,10 +19,10 @@
    "reasonJa": "ハムストリング負傷",
    "type": "負傷",
    "since": "2026-08-12",
-   "until": "2026-11-30",
+   "until": "2026-10-26",
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-10-26",
-   "active": true
+   "active": false
   },
   {
    "name": "Josh Eccles",
@@ -30,10 +30,10 @@
    "reasonJa": "ふくらはぎの負傷",
    "type": "負傷",
    "since": "2026-08-26",
-   "until": "2026-11-20",
+   "until": "2026-10-26",
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-10-26",
-   "active": true
+   "active": false
   },
   {
    "name": "Aurèle Amenda",
@@ -41,10 +41,10 @@
    "reasonJa": "ふくらはぎの負傷",
    "type": "負傷",
    "since": "2026-09-17",
-   "until": "2026-12-18",
+   "until": "2026-10-26",
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-10-26",
-   "active": true
+   "active": false
   }
  ]
 }

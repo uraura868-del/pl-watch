@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-26T12:16:14Z",
+ "updatedAt": "2026-10-26T12:38:46Z",
  "fetchedOk": true,
  "players": [
   {
@@ -8,10 +8,10 @@
    "reasonJa": "十字靭帯損傷",
    "type": "負傷",
    "since": "2026-04-08",
-   "until": "2027-02-01",
+   "until": "2026-10-26",
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-10-26",
-   "active": true
+   "active": false
   },
   {
    "name": "Joe Rodon",
@@ -19,10 +19,10 @@
    "reasonJa": "ハムストリング負傷",
    "type": "負傷",
    "since": "2026-08-31",
-   "until": "2026-10-30",
+   "until": "2026-10-26",
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-10-26",
-   "active": true
+   "active": false
   }
  ]
 }

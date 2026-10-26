@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-26T12:16:14Z",
+ "updatedAt": "2026-10-26T12:38:46Z",
  "players": [
   {
    "id": "194121",
@@ -255,7 +255,7 @@
    "name": "Wataru Endo",
    "jersey": "3",
    "pos": "M",
-   "photo": "https://img.a.transfermarkt.technology/portrait/header/146310-1657181542.jpg?lm=4711",
+   "photo": "data/photos/d927906378881f40.jpg",
    "injuries": [],
    "dob": "1993-02-09",
    "nat": "Japan",
@@ -335,7 +335,7 @@
    "name": "James McConnell",
    "jersey": "53",
    "pos": "M",
-   "photo": "https://img.a.transfermarkt.technology/portrait/header/845289-1698353591.jpg?lm=4711",
+   "photo": "data/photos/45364f83a885f4d3.jpg",
    "injuries": [],
    "dob": "2004-09-13",
    "nat": "England",
@@ -383,7 +383,7 @@
    "name": "Federico Chiesa",
    "jersey": "14",
    "pos": "F",
-   "photo": "https://img.a.transfermarkt.technology/portrait/header/341092-1663576975.jpg?lm=4711",
+   "photo": "data/photos/af42d448827c0716.jpg",
    "injuries": [],
    "dob": "1997-10-25",
    "nat": "Italy",

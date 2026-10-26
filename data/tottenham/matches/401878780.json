@@ -470,7 +470,7 @@
    "name": "Richarlison",
    "jersey": "9",
    "pos": "F",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/378710-1665608231.jpg?lm=4711",
+   "photo": "data/photos/69fcbfe02b3ce54a.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -490,7 +490,7 @@
    "name": "Dejan Kulusevski",
    "jersey": "21",
    "pos": "M",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/431755-1684943454.jpg?lm=4711",
+   "photo": "data/photos/b2c73bd5fe38bda7.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -530,7 +530,7 @@
    "name": "Callum Olusesi",
    "jersey": "52",
    "pos": "M",
-   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p499726.png",
+   "photo": "data/photos/32b23ab3d5814238.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"

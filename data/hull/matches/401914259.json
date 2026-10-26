@@ -348,7 +348,7 @@
     "pos": "AM-R",
     "starter": true,
     "place": "7",
-    "photo": "https://img.a.transfermarkt.technology/portrait/header/1322090-1768311614.jpg?lm=4711",
+    "photo": "data/photos/7301d1cdf07f74d3.jpg",
     "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1322090-1768311614.jpg?lm=4711"
    }
   ],
@@ -360,7 +360,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://img.a.transfermarkt.technology/portrait/header/277697-1724771465.jpg?lm=4711",
+    "photo": "data/photos/a22b4df1cfb5194d.jpg",
     "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/277697-1724771465.jpg?lm=4711"
    },
    {
@@ -380,7 +380,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://img.a.transfermarkt.technology/portrait/header/123536-1663853542.jpg?lm=4711",
+    "photo": "data/photos/2214366994a742f3.jpg",
     "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/123536-1663853542.jpg?lm=4711"
    },
    {
@@ -451,7 +451,7 @@
    "name": "Jack Butland",
    "jersey": "1",
    "pos": "G",
-   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p105666.png",
+   "photo": "data/photos/423345d2b30893be.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -551,7 +551,7 @@
    "name": "Darko Gyabi",
    "jersey": "24",
    "pos": "M",
-   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p470294.png",
+   "photo": "data/photos/c398192737296e01.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"

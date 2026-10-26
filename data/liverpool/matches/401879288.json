@@ -164,7 +164,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://img.a.transfermarkt.technology/portrait/header/146310-1657181542.jpg?lm=4711"
+    "photo": "data/photos/d927906378881f40.jpg"
    },
    {
     "id": "356075",
@@ -471,7 +471,7 @@
    "name": "Federico Chiesa",
    "jersey": "14",
    "pos": "F",
-   "photo": "https://img.a.transfermarkt.technology/portrait/header/341092-1663576975.jpg?lm=4711",
+   "photo": "data/photos/af42d448827c0716.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -521,7 +521,7 @@
    "name": "James McConnell",
    "jersey": "53",
    "pos": "M",
-   "photo": "https://img.a.transfermarkt.technology/portrait/header/845289-1698353591.jpg?lm=4711",
+   "photo": "data/photos/45364f83a885f4d3.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"

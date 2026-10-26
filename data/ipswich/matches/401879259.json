@@ -209,7 +209,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://img.a.transfermarkt.technology/portrait/medium/315145-1784821644.jpg?lm=4711"
+    "photo": "data/photos/2f63894fc47c5e7d.jpg"
    }
   ]
  },
@@ -470,7 +470,7 @@
    "name": "Jack Taylor",
    "jersey": "14",
    "pos": "M",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/458178-1706522764.jpg?lm=4711",
+   "photo": "data/photos/2d807d24121ded88.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -500,7 +500,7 @@
    "name": "David Button",
    "jersey": "27",
    "pos": "G",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/61814-1747404141.jpg?lm=4711",
+   "photo": "data/photos/be079138962f30c3.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"

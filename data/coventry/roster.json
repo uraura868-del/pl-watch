@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-26T12:16:14Z",
+ "updatedAt": "2026-10-26T12:38:46Z",
  "players": [
   {
    "id": "143007",
@@ -118,7 +118,7 @@
    "name": "Luke Woolfenden",
    "jersey": "26",
    "pos": "D",
-   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p220583.png",
+   "photo": "data/photos/97e4acdbf58a0387.jpg",
    "injuries": [],
    "dob": "1998-10-21",
    "nat": "England",

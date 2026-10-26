@@ -45,7 +45,7 @@
     "pos": "CD",
     "starter": true,
     "place": "5",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p220362.png"
+    "photo": "data/photos/1af3cbff7ebb1800.jpg"
    },
    {
     "id": "386252",
@@ -63,7 +63,7 @@
     "pos": "CD-R",
     "starter": true,
     "place": "6",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p427623.png"
+    "photo": "data/photos/ac9c23bcca8be5db.jpg"
    },
    {
     "id": "219362",
@@ -72,7 +72,7 @@
     "pos": "CM-L",
     "starter": true,
     "place": "8",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p209400.png"
+    "photo": "data/photos/f711c603c746eddc.jpg"
    },
    {
     "id": "333419",
@@ -81,7 +81,7 @@
     "pos": "CM-R",
     "starter": true,
     "place": "7",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p496221.png"
+    "photo": "data/photos/5f9247a93205d32a.jpg"
    },
    {
     "id": "300853",
@@ -90,7 +90,7 @@
     "pos": "LM",
     "starter": true,
     "place": "3",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p244723.png"
+    "photo": "data/photos/8fc06f035a4bdcca.jpg"
    },
    {
     "id": "332648",
@@ -108,7 +108,7 @@
     "pos": "F",
     "starter": true,
     "place": "9",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p231747.png"
+    "photo": "data/photos/23c4525ccd816320.jpg"
    },
    {
     "id": "297370",
@@ -126,7 +126,7 @@
     "pos": "CF-R",
     "starter": true,
     "place": "10",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p433154.png"
+    "photo": "data/photos/16a96fed8058d194.jpg"
    }
   ],
   "bench": [
@@ -155,7 +155,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p438464.png"
+    "photo": "data/photos/18603ee047683530.jpg"
    },
    {
     "id": "225426",
@@ -164,7 +164,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p172850.png"
+    "photo": "data/photos/6c76c9219cfbc090.jpg"
    },
    {
     "id": "168421",
@@ -173,7 +173,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p108413.png"
+    "photo": "data/photos/fe923013c43f44e7.jpg"
    },
    {
     "id": "288924",
@@ -191,7 +191,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p169593.png"
+    "photo": "data/photos/39304f7010d324fa.jpg"
    },
    {
     "id": "197399",
@@ -200,7 +200,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p152551.png"
+    "photo": "data/photos/b9bb52327ce52014.jpg"
    },
    {
     "id": "259486",
@@ -209,7 +209,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p205533.png"
+    "photo": "data/photos/b9272819b795b7f9.jpg"
    }
   ]
  },
@@ -451,7 +451,7 @@
    "name": "Dean Henderson",
    "jersey": "1",
    "pos": "G",
-   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p172649.png",
+   "photo": "data/photos/7e97df89240807ae.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -461,7 +461,7 @@
    "name": "Chadi Riad",
    "jersey": "4",
    "pos": "D",
-   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p515621.png",
+   "photo": "data/photos/7ca1359f509cef75.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -471,7 +471,7 @@
    "name": "Ismaïla Sarr",
    "jersey": "7",
    "pos": "F",
-   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p232185.png",
+   "photo": "data/photos/dac6d615a7d1fe17.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -491,7 +491,7 @@
    "name": "Takehiro Tomiyasu",
    "jersey": "17",
    "pos": "D",
-   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p223723.png",
+   "photo": "data/photos/dc492c75e26f022a.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -511,7 +511,7 @@
    "name": "Jørgen Strand Larsen",
    "jersey": "22",
    "pos": "F",
-   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p247412.png",
+   "photo": "data/photos/9cde04325ffb89dd.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -561,7 +561,7 @@
    "name": "Caleb Kporha",
    "jersey": null,
    "pos": "D",
-   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p590012.png",
+   "photo": "data/photos/08e1d4b86698e162.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"

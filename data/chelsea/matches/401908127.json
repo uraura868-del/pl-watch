@@ -137,7 +137,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://img.a.transfermarkt.technology/portrait/header/1145504-1766483410.jpg?lm=4711"
+    "photo": "data/photos/2ceac929eeaa8e86.jpg"
    },
    {
     "id": "256115",
@@ -209,7 +209,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://img.a.transfermarkt.technology/portrait/header/559328-1732575392.png?lm=4711"
+    "photo": "data/photos/b39eefa078cf5fbc.jpg"
    }
   ]
  },
@@ -264,7 +264,7 @@
     "pos": "CD-L",
     "starter": true,
     "place": "4",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p242898.png",
+    "photo": "data/photos/dede1b7daf4a25ca.jpg",
     "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p242898.png"
    },
    {
@@ -301,7 +301,7 @@
     "pos": "CM-L",
     "starter": true,
     "place": "10",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p244851.png",
+    "photo": "data/photos/7de866c9058f933c.jpg",
     "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p244851.png"
    },
    {
@@ -377,7 +377,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p427623.png",
+    "photo": "data/photos/ac9c23bcca8be5db.jpg",
     "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p427623.png"
    },
    {
@@ -397,7 +397,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p174874.png",
+    "photo": "data/photos/61a29f73087917c1.jpg",
     "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p174874.png"
    },
    {
@@ -505,7 +505,7 @@
    "name": "Teddy Sharman-Lowe",
    "jersey": "28",
    "pos": "G",
-   "photo": "https://img.a.transfermarkt.technology/portrait/header/731466-1656922515.jpg?lm=4711",
+   "photo": "data/photos/f96c92d9935e03d3.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -515,7 +515,7 @@
    "name": "Mahdi Nicoll-Jazuli",
    "jersey": "32",
    "pos": "M",
-   "photo": "https://img.a.transfermarkt.technology/portrait/header/1353008-1771107207.jpg?lm=4711",
+   "photo": "data/photos/0eedd1c16a50ac49.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -535,7 +535,7 @@
    "name": "Gaga Slonina",
    "jersey": "44",
    "pos": "G",
-   "photo": "https://img.a.transfermarkt.technology/portrait/header/656316-1645958054.jpg?lm=4711",
+   "photo": "data/photos/3036d8259836d1cf.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"

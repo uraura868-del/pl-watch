@@ -173,7 +173,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://img.a.transfermarkt.technology/portrait/medium/123275-1651652849.jpg?lm=4711"
+    "photo": "data/photos/be409c8c741932c5.jpg"
    },
    {
     "id": "301525",
@@ -200,7 +200,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://img.a.transfermarkt.technology/portrait/medium/206746-1746645948.jpg?lm=4711"
+    "photo": "data/photos/6af80840edaf73d1.jpg"
    },
    {
     "id": "12172",
@@ -448,7 +448,7 @@
    "name": "Jorge Cuenca",
    "jersey": "4",
    "pos": "D",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/494880-1737920132.jpg?lm=4711",
+   "photo": "data/photos/21e123e62fc02b9a.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -458,7 +458,7 @@
    "name": "Harrison Reed",
    "jersey": "6",
    "pos": "M",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/226973-1762354305.jpg?lm=4711",
+   "photo": "data/photos/7cd5950ecf19d7dc.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -478,7 +478,7 @@
    "name": "Jonah Kusi-Asare",
    "jersey": "18",
    "pos": "F",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/1069512-1739808814.jpg?lm=4711",
+   "photo": "data/photos/84efb6abe70c2e24.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -518,7 +518,7 @@
    "name": "Alex Borto",
    "jersey": "36",
    "pos": "G",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/817613-1775549108.jpg?lm=4711",
+   "photo": "data/photos/44d7eaaf00bdd625.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"

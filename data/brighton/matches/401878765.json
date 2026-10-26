@@ -99,7 +99,7 @@
     "pos": "RM",
     "starter": true,
     "place": "8",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p60307.png"
+    "photo": "data/photos/55ccd86b58f087da.jpg"
    },
    {
     "id": "387655",
@@ -360,7 +360,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://img.a.transfermarkt.technology/portrait/header/146310-1657181542.jpg?lm=4711",
+    "photo": "data/photos/d927906378881f40.jpg",
     "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/146310-1657181542.jpg?lm=4711"
    },
    {
@@ -410,7 +410,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://img.a.transfermarkt.technology/portrait/header/341092-1663576975.jpg?lm=4711",
+    "photo": "data/photos/af42d448827c0716.jpg",
     "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/341092-1663576975.jpg?lm=4711"
    },
    {
@@ -440,7 +440,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://img.a.transfermarkt.technology/portrait/header/845289-1698353591.jpg?lm=4711",
+    "photo": "data/photos/45364f83a885f4d3.jpg",
     "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/845289-1698353591.jpg?lm=4711"
    }
   ]
@@ -461,7 +461,7 @@
    "name": "Kaoru Mitoma",
    "jersey": "7",
    "pos": "M",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/504849-1731683095.jpg?lm=4711",
+   "photo": "data/photos/815d7089ec31fc2b.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -471,7 +471,7 @@
    "name": "Stefanos Tzimas",
    "jersey": "9",
    "pos": "F",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/950091-1722955946.jpg?lm=4711",
+   "photo": "data/photos/4b20bb63e129ddb4.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -481,7 +481,7 @@
    "name": "Yankuba Minteh",
    "jersey": "11",
    "pos": "F",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/1012534-1694774813.jpg?lm=4711",
+   "photo": "data/photos/baf1646bcdd9c508.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -501,7 +501,7 @@
    "name": "Evan Ferguson",
    "jersey": "28",
    "pos": "M",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/648046-1681739980.jpg?lm=4711",
+   "photo": "data/photos/49489b31553e8eea.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -531,7 +531,7 @@
    "name": "Tom McGill",
    "jersey": "38",
    "pos": "G",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/406556-1718472851.jpg?lm=4711",
+   "photo": "data/photos/6f391e236b3ba9d8.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -541,7 +541,7 @@
    "name": "Femi Azeez",
    "jersey": "39",
    "pos": "F",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/703408-1732031406.jpg?lm=4711",
+   "photo": "data/photos/9790e380fb24b617.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"

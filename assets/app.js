@@ -84,9 +84,10 @@
         await this.push();
         applyDisplayPrefs();
         renderTabs();
-        if (state.teamId === "all") { renderAllList(); return; }
+        if (state.view === "schedule") { renderAllList(); return; }
+        if (state.view === "stats") { renderStatsView(); return; }
         if (state.teamId && !visibleTeams().some(t => t.id === state.teamId)) { selectTeam(visibleTeams()[0].id); return; }
-        if (state.teamId) { renderList(); if (state.selected) { const f = state.fixtures.find(x => x.eventId === state.selected); if (f) renderDetail(f, state.matchCache.get(f.eventId) || null, classify().get(f.eventId)); } }
+        if (state.teamId) { refreshList(); if (state.selected) { const f = state.fixtures.find(x => x.eventId === state.selected); if (f) renderDetail(f, state.matchCache.get(f.eventId) || null, classify().get(f.eventId)); } }
         toast(`ログインしました: ${this.user.displayName || ""}`);
       } catch (e) { console.warn("cloud pull failed", e); toast("同期に失敗しました（端末の記録を使います）"); }
       finally { this.loading = false; }
@@ -525,7 +526,7 @@
         // 最新の試合より前の未視聴を観たことにして、最新の試合を開く
         state.fixtures.filter(x => x.date < f.date && (x.status === "played" || x.hasLineup)).forEach(x => setWatched(x.eventId, true));
         toast("前の試合を「観た」に記録しました");
-        renderList(); openMatch(f.eventId); return;
+        refreshList(); openMatch(f.eventId); return;
       }
       if (b.dataset.act === "watch") { setWatched(id, true); toast("観た試合に記録しました"); }
       else if (b.dataset.act === "unwatch") { setWatched(id, false); toast("未視聴に戻しました"); }
@@ -535,7 +536,7 @@
         state.fixtures.filter(x => x.date <= f.date && (x.status === "played" || x.hasLineup)).forEach(x => setWatched(x.eventId, true));
         toast(`${n} 試合を「観た」に記録しました`);
       }
-      renderList();
+      refreshList();
       // 詳細を開いていたら、その表示も最新の状態に合わせる
       if (state.selected) {
         const sf = state.fixtures.find(x => x.eventId === state.selected);
@@ -546,28 +547,46 @@
   }
 
   // ---------------------------------------------------------------- 描画: 詳細
-  async function openMatch(eventId) {
+  async function openMatch(eventId, opts = {}) {
     const f = state.fixtures.find(x => x.eventId === eventId);
     if (!f) return;
-    const kind = classify().get(eventId);
-    if (kind === "locked") { toast("前の試合を「観た」にすると見られます"); return; }
+    let kind = classify().get(eventId);
+    if (kind === "locked" && opts.ignoreLock) kind = "open";
     state.selected = eventId;
     state.showOpp = state.prefs.oppDefault;
     state.statsShown = null;  // 別の試合を開いたらスタッツは隠し直す
     state.resultShown = null; // 結果も同様
     document.body.classList.add("show-detail");
-    renderList();
+    refreshList();
     const el = $("#detail");
-    el.innerHTML = `<button class="back" id="btn-back">‹ 一覧へ</button><div class="empty">読み込み中...</div>`;
+    el.innerHTML = `<button class="back" id="btn-back">‹ ${state.view === "schedule" ? "日程へ" : "一覧へ"}</button><div class="empty">読み込み中...</div>`;
     bindBack();
+    if (kind === "locked") {
+      // ロック中: 詳細の代わりに追いつくボタンを出す
+      const earlier = state.fixtures.filter(x => x.date < f.date && (x.status === "played" || x.hasLineup) && !watchedSet().has(x.eventId)).length;
+      const team = state.teams.find(t => t.id === state.teamId);
+      el.innerHTML = `<button class="back" id="btn-back">‹ ${state.view === "schedule" ? "日程へ" : "一覧へ"}</button>
+        <div class="section-label">ロック中の試合</div><div class="card">${fixtureRow(f, "locked", true)}
+        <div class="catchup"><span>${esc(team?.shortName || "")}の、この前の ${earlier} 試合をまだ観ていません。</span>
+        <button class="row-btn" data-act="catchup" data-id="${esc(f.eventId)}">${earlier} 試合を観たことにして開く</button></div></div>
+        <p class="hint">順番に観るためのロックです。設定（ネタバレロック）でオフにもできます。</p>`;
+      bindBack(); bindListEvents(el);
+      return;
+    }
     const m = f.hasLineup ? await loadMatch(eventId) : null;
     renderDetail(f, m, kind);
     if (window.innerWidth < 900) window.scrollTo({ top: 0 });
   }
+  // 今の画面に合わせて一覧を描き直す（ホーム: チームの一覧、日程: 全体の一覧）
+  function refreshList() {
+    if (state.view === "schedule") { renderAllList(); return; }
+    if (state.view === "stats") return;
+    renderList();
+  }
 
   function bindBack() {
     const b = $("#btn-back");
-    if (b) b.addEventListener("click", () => { document.body.classList.remove("show-detail"); state.selected = null; renderList(); });
+    if (b) b.addEventListener("click", () => { document.body.classList.remove("show-detail"); state.selected = null; if (state.view === "schedule") document.documentElement.style.setProperty("--accent", "#e2231a"); refreshList(); });
   }
 
   function renderDetail(f, m, kind) {
@@ -575,7 +594,7 @@
     const ha = f.isHome ? "ホーム" : "アウェイ";
     const watched = kind === "watched";
     let badge = watched ? `<span class="badge dim">観た ✓</span>` : f.hasLineup ? `<span class="badge ok">スタメン公開</span>` : `<span class="badge dim">スタメン未発表</span>`;
-    let html = `<button class="back" id="btn-back">‹ 一覧へ</button>
+    let html = `<button class="back" id="btn-back">‹ ${state.view === "schedule" ? "日程へ" : "一覧へ"}</button>
       <div class="section-label">${watched ? "観た試合" : kind === "current" ? "次に観る試合" : "試合"}</div>
       <div class="card">
         <div class="match-head"><img class="crest" src="${esc(f.opponent.logo)}" alt="">
@@ -668,7 +687,7 @@
     if (wu) wu.addEventListener("click", () => {
       state.fixtures.filter(x => x.date <= f.date && (x.status === "played" || x.hasLineup)).forEach(x => setWatched(x.eventId, true));
       toast("ここまでの試合を「観た」に記録しました");
-      renderList();
+      refreshList();
       renderDetail(f, m, classify().get(f.eventId));
     });
     const wb = $("#btn-watch");
@@ -677,7 +696,7 @@
       setWatched(f.eventId, on);
       toast(on ? "観た試合に記録しました。次の試合が解放されます" : "未視聴に戻しました");
       const k = classify().get(f.eventId);
-      renderList();
+      refreshList();
       renderDetail(f, m, k);
     });
   }
@@ -800,6 +819,9 @@
     const team = state.teams.find(t => t.id === id) || state.teams[0];
     if (!team) return;
     state.teamId = team.id;
+    state.homeTeamId = team.id;
+    state.view = "home"; document.body.dataset.view = "home";
+    document.querySelectorAll(".nav-btn").forEach(x => x.classList.toggle("on", x.dataset.view === "home"));
     state.prefs.team = team.id; save();
     state.selected = null;
     document.documentElement.style.setProperty("--accent", team.color || "#e2231a");
@@ -831,7 +853,7 @@
       state.injuries = inj.players || [];
       state.absencesCfg = abs || {};
       state.matchCache.clear();
-      renderList();
+      refreshList();
       // PC では最初の試合を自動で開く（最新優先なら最新の試合、ロック中なら次に観る試合）
       if (window.innerWidth >= 900) {
         const kinds = classify();
@@ -850,21 +872,49 @@
   const allFixturesCache = new Map();
   let allShowPast = false;
   async function selectAll() {
-    state.teamId = "all";
-    state.prefs.team = "all"; save();
+    state.view = "schedule"; document.body.dataset.view = "schedule";
     state.selected = null; state.fixtures = [];
     document.body.classList.remove("show-detail");
     document.documentElement.style.setProperty("--accent", "#e2231a");
     $("#team-crest").src = "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png";
-    $("#team-name").textContent = "プレミアリーグ 全体";
-    $("#team-sub").textContent = "全チームの日程（日本時間）";
+    $("#team-name").textContent = "日程";
+    $("#team-sub").textContent = "全チームの試合（日本時間）。押すと試合の詳細が開きます";
     const allUrl = new URL("data/all/fixtures.ics", location.href).href;
     $("#ics-url").value = allUrl; $("#ics-webcal").href = allUrl.replace(/^https?:/, "webcal:");
     $("#gcal-team").href = gcalSubscribeUrl(allUrl); $("#gcal-team").textContent = "📅 全チームの日程を Google カレンダーに登録"; $("#gcal-all").href = gcalSubscribeUrl(allUrl);
     renderTabs();
     $("#list").innerHTML = `<div class="empty">読み込み中...</div>`;
-    $("#detail").innerHTML = `<div class="empty">左の一覧から試合を選ぶと、そのチームの画面に移ります</div>`;
+    $("#detail").innerHTML = `<div class="empty">一覧から試合を選ぶと詳細が開きます</div>`;
     await renderAllList();
+  }
+
+  // 日程から試合を直接開く。お気に入りのチームならロックを尊重、それ以外は自由に見られる
+  async function openMatchFromSchedule(teamId, eventId) {
+    const team = state.teams.find(t => t.id === teamId);
+    if (!team) return;
+    await loadTeamContext(team);
+    // お気に入りに入れているか、「観た」記録があるチームは追いかけているとみなしてロックを尊重する
+    const fav = (state.prefs.teams || []).includes(teamId) || ((state.prefs.watched || {})[teamId] || []).length > 0;
+    openMatch(eventId, { ignoreLock: !fav, from: "schedule" });
+  }
+  // チームのデータだけ読み込む（タブや一覧の描画はしない）
+  async function loadTeamContext(team) {
+    if (state.teamId === team.id && state.fixtures.length) return;
+    state.teamId = team.id;
+    document.documentElement.style.setProperty("--accent", team.color || "#e2231a");
+    const [fx, ro, sh, inj, abs] = await Promise.all([
+      fetchJson(`data/${team.id}/fixtures.json`),
+      fetchJson(`data/${team.id}/roster.json`).catch(() => ({ players: [] })),
+      fetchJson(`data/${team.id}/squad-history.json`).catch(() => ({ appearancesInSquad: {} })),
+      fetchJson(`data/${team.id}/injuries.json`).catch(() => ({ players: [] })),
+      fetchJson("absences.json").catch(() => ({})),
+    ]);
+    state.fixtures = (fx.fixtures || []).slice().sort((a, b) => a.date.localeCompare(b.date));
+    state.roster = new Map((ro.players || []).map(p => [p.id, p]));
+    state.squadHistory = sh.appearancesInSquad || {};
+    state.injuries = inj.players || [];
+    state.absencesCfg = abs || {};
+    state.matchCache.clear();
   }
   async function renderAllList() {
     const teams = visibleTeams();
@@ -908,10 +958,82 @@
     el.innerHTML = html;
     const pb = $("#btn-all-past"); if (pb) pb.addEventListener("click", () => { allShowPast = true; renderAllList(); });
     el.querySelectorAll(".fx.all").forEach(r => {
-      const go = async () => { await selectTeam(r.dataset.team); openMatch(r.dataset.id); };
+      const go = () => openMatchFromSchedule(r.dataset.team, r.dataset.id);
       r.addEventListener("click", go);
       r.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); go(); } });
     });
+  }
+
+  // ---------------------------------------------------------------- 「記録」: 観た試合の集計
+  const HOURS_PER_MATCH = 2;
+  async function allTeamFixtures(teams) {
+    return Promise.all(teams.map(async t => {
+      if (!allFixturesCache.has(t.id)) {
+        try { allFixturesCache.set(t.id, (await fetchJson(`data/${t.id}/fixtures.json`)).fixtures || []); } catch { allFixturesCache.set(t.id, []); }
+      }
+      return allFixturesCache.get(t.id).map(f => ({ ...f, _team: t }));
+    }));
+  }
+  async function renderStatsView() {
+    document.documentElement.style.setProperty("--accent", "#e2231a");
+    $("#team-crest").src = "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png";
+    $("#team-name").textContent = "観た記録";
+    $("#team-sub").textContent = "「観た」にした試合の集計（今季）";
+    document.body.classList.remove("show-detail");
+    $("#detail").innerHTML = `<div class="empty">観た試合を集計しています</div>`;
+    $("#list").innerHTML = `<div class="empty">集計中...</div>`;
+    const lists = await allTeamFixtures(state.teams);
+    const watchedAll = state.prefs.watched || {};
+    const seen = new Map();  // eventId → {f, teams:[...]}
+    for (const f of lists.flat()) {
+      const w = new Set(watchedAll[f._team.id] || []);
+      if (!w.has(f.eventId)) continue;
+      const cur = seen.get(f.eventId);
+      if (cur) cur.teams.push(f._team); else seen.set(f.eventId, { f, teams: [f._team] });
+    }
+    const matches = [...seen.values()].sort((a, b) => a.f.date.localeCompare(b.f.date));
+    const n = matches.length, hours = n * HOURS_PER_MATCH;
+    if (!n) {
+      $("#list").innerHTML = `<div class="section-label">今季の記録</div><div class="card"><div class="ghost-row">まだ「観た」にした試合がありません。試合を観たら「✓ 観た」を押すと、ここに積み上がっていきます。</div></div>`;
+      return;
+    }
+    // 月別
+    const byMonth = new Map();
+    for (const m of matches) { const d = new Date(new Date(m.f.date).toLocaleString("en-US", JST)); const key = `${d.getFullYear()}/${d.getMonth() + 1}`; byMonth.set(key, (byMonth.get(key) || 0) + 1); }
+    const maxMonth = Math.max(...byMonth.values());
+    // チーム別（観た側のチームで数える）・大会別・相手別・曜日別
+    const byTeam = new Map(), byComp = new Map(), byOpp = new Map(), byDow = new Array(7).fill(0);
+    const byEspn = new Map(state.teams.map(t => [String(t.espnTeamId), t]));
+    for (const m of matches) {
+      for (const t of m.teams) byTeam.set(t.id, (byTeam.get(t.id) || 0) + 1);
+      byComp.set(m.f.competition || "", (byComp.get(m.f.competition || "") || 0) + 1);
+      const oppT = byEspn.get(String(m.f.opponent.id)); const oppName = oppT ? (oppT.shortName || oppT.name) : m.f.opponent.name;
+      byOpp.set(oppName, (byOpp.get(oppName) || 0) + 1);
+      byDow[new Date(new Date(m.f.date).toLocaleString("en-US", JST)).getDay()]++;
+    }
+    // 連続週（試合を観た週が何週続いているか、直近から）
+    const weekKey = d => { const x = new Date(new Date(d).toLocaleString("en-US", JST)); const day = (x.getDay() + 6) % 7; x.setDate(x.getDate() - day); return `${x.getFullYear()}-${x.getMonth() + 1}-${x.getDate()}`; };
+    const weeks = new Set(matches.map(m => weekKey(m.f.date)));
+    let streak = 0; { const cur = new Date(); for (let i = 0; i < 60; i++) { const k = weekKey(cur.toISOString()); if (weeks.has(k)) streak++; else if (i > 0) break; cur.setDate(cur.getDate() - 7); } }
+    const first = matches[0], last = matches[n - 1];
+    const topOpp = [...byOpp.entries()].sort((a, b) => b[1] - a[1])[0];
+    const dowName = ["日", "月", "火", "水", "木", "金", "土"];
+    const topDow = byDow.indexOf(Math.max(...byDow));
+    const bar = (label, v, max, sub = "") => `<div class="brow"><span class="bl">${esc(label)}</span><span class="bb"><b style="width:${Math.max(4, Math.round(v / max * 100))}%"></b></span><span class="bv">${v}${sub}</span></div>`;
+    let html = `<div class="section-label">今季の記録</div>
+      <div class="card stats-hero"><div class="big-num"><b>${n}</b><span>試合</span></div><div class="big-num"><b>${hours}</b><span>時間（1試合 ${HOURS_PER_MATCH} 時間で計算）</span></div>
+        <div class="hero-sub">${esc(fmtParts(first.f.date).md)} 〜 ${esc(fmtParts(last.f.date).md)} ・ ${weeks.size} 週で観戦 ・ 現在 ${streak} 週連続</div></div>`;
+    html += `<div class="section-label">月ごと</div><div class="card bars">${[...byMonth.entries()].map(([k, v]) => bar(k, v, maxMonth, " 試合")).join("")}</div>`;
+    const teamRows = [...byTeam.entries()].sort((a, b) => b[1] - a[1]).map(([id, v]) => { const t = state.teams.find(x => x.id === id); return bar(t ? (t.shortName || t.name) : id, v, n, " 試合"); });
+    html += `<div class="section-label">チーム別</div><div class="card bars">${teamRows.join("")}</div>`;
+    html += `<div class="section-label">大会別</div><div class="card bars">${[...byComp.entries()].sort((a, b) => b[1] - a[1]).map(([k, v]) => bar(k, v, n, " 試合")).join("")}</div>`;
+    html += `<div class="section-label">ちょっとした記録</div><div class="card facts2">
+      <div><span>一番よく観た相手</span><b>${esc(topOpp[0])}（${topOpp[1]} 試合）</b></div>
+      <div><span>よく観る曜日</span><b>${dowName[topDow]}曜日（${byDow[topDow]} 試合）</b></div>
+      <div><span>最近観た試合</span><b>${esc(fmtParts(last.f.date).md)} ${esc(last.teams[0].shortName || last.teams[0].name)} vs ${esc((byEspn.get(String(last.f.opponent.id)) || {}).shortName || last.f.opponent.name)}</b></div>
+      <div><span>この調子だと</span><b>シーズン終了時に約 ${Math.round(n / Math.max(1, (Date.now() - new Date(first.f.date).getTime()) / 86400000 / 7) * 42)} 試合</b></div>
+    </div><p class="hint">記録は「観た」ボタンで増え、ログイン中はアカウントに保存されます。</p>`;
+    $("#list").innerHTML = html;
   }
 
   // お気に入り（prefs.teams）に絞ったチーム一覧。未選択なら全チーム
@@ -919,14 +1041,32 @@
     const fav = (state.prefs.teams || []).filter(id => state.teams.some(t => t.id === id));
     return fav.length ? state.teams.filter(t => fav.includes(t.id)) : state.teams;
   }
+  // ---------------------------------------------------------------- メインメニュー（ホーム / 日程 / 記録 / 設定）
+  function setView(view) {
+    if (view === "settings") { $("#btn-settings").click(); return; }
+    state.view = view;
+    document.body.dataset.view = view;
+    document.querySelectorAll(".nav-btn").forEach(b => b.classList.toggle("on", b.dataset.view === view));
+    document.body.classList.remove("show-detail");
+    state.selected = null;
+    try { localStorage.setItem("plwatch.view", view); } catch { /* ignore */ }
+    if (view === "schedule") selectAll();
+    else if (view === "stats") renderStatsView();
+    else {
+      const t = (state.prefs.team && state.prefs.team !== "all" && visibleTeams().some(x => x.id === state.prefs.team)) ? state.prefs.team : (state.homeTeamId || visibleTeams()[0]?.id);
+      if (t) selectTeam(t);
+    }
+  }
+  function bindNav() {
+    document.querySelectorAll(".nav-btn").forEach(b => b.addEventListener("click", () => setView(b.dataset.view)));
+  }
+
   function renderTabs() {
     const el = $("#tabs");
     const list = visibleTeams();
-    el.innerHTML = `<button class="tab all ${state.teamId === "all" ? "on" : ""}" id="tab-all">🗓 全体</button>`
-      + list.map(t => `<button class="tab ${t.id === state.teamId ? "on" : ""}" data-id="${esc(t.id)}"><img class="tab-crest" src="https://a.espncdn.com/i/teamlogos/soccer/500/${esc(t.espnTeamId)}.png" alt="">${esc(t.shortName || t.name)}</button>`).join("")
+    el.innerHTML = list.map(t => `<button class="tab ${t.id === state.teamId && state.view === "home" ? "on" : ""}" data-id="${esc(t.id)}"><img class="tab-crest" src="https://a.espncdn.com/i/teamlogos/soccer/500/${esc(t.espnTeamId)}.png" alt="">${esc(t.shortName || t.name)}</button>`).join("")
       + `<button class="tab add" id="tab-add">${list.length < state.teams.length ? "＋ チームを選ぶ" : "チームを絞る"}</button>`;
-    el.querySelectorAll(".tab[data-id]").forEach(b => b.addEventListener("click", () => selectTeam(b.dataset.id)));
-    $("#tab-all").addEventListener("click", selectAll);
+    el.querySelectorAll(".tab[data-id]").forEach(b => b.addEventListener("click", () => { state.view = "home"; document.body.dataset.view = "home"; document.querySelectorAll(".nav-btn").forEach(x => x.classList.toggle("on", x.dataset.view === "home")); selectTeam(b.dataset.id); }));
     $("#tab-add").addEventListener("click", openTeamPicker);
     const on = el.querySelector(".tab.on");
     if (on) on.scrollIntoView({ inline: "center", block: "nearest" });
@@ -939,10 +1079,11 @@
     box.querySelectorAll("input").forEach(cb => cb.addEventListener("change", () => {
       const ids = [...box.querySelectorAll("input:checked")].map(x => x.dataset.id);
       state.prefs.teams = ids; save(); renderTabs();
-      if (state.teamId === "all") renderAllList();
+      if (state.view === "schedule") renderAllList();
+      else if (state.view === "stats") renderStatsView();
       else if (!visibleTeams().some(t => t.id === state.teamId)) selectTeam(visibleTeams()[0].id);
     }));
-    $("#btn-teams-all").onclick = () => { box.querySelectorAll("input").forEach(x => x.checked = false); state.prefs.teams = []; save(); renderTabs(); if (state.teamId === "all") renderAllList(); };
+    $("#btn-teams-all").onclick = () => { box.querySelectorAll("input").forEach(x => x.checked = false); state.prefs.teams = []; save(); renderTabs(); if (state.view === "schedule") renderAllList(); else if (state.view === "stats") renderStatsView(); };
     $("#dlg-addteam").showModal();
   }
 
@@ -960,14 +1101,14 @@
     for (const k of ["showResult", "showStats", "showVideos", "showNames", "latestFirst"]) {
       $("#opt-" + k).addEventListener("change", e => {
         state.prefs[k] = e.target.checked; save(); applyDisplayPrefs();
-        if (k === "latestFirst") { if (state.teamId && state.teamId !== "all") renderList(); return; }
+        if (k === "latestFirst") { refreshList(); return; }
         if (state.selected) { const f = state.fixtures.find(x => x.eventId === state.selected); if (f) renderDetail(f, state.matchCache.get(f.eventId) || null, classify().get(f.eventId)); }
       });
     }
     const authClick = () => { if (cloud.user) { if (confirm("ログアウトしますか？（記録はこの端末には残ります）")) cloud.signOut(); } else cloud.signIn(); };
     $("#btn-auth").addEventListener("click", authClick);
     $("#btn-auth2").addEventListener("click", authClick);
-    $("#opt-lock").addEventListener("change", e => { state.prefs.lock = e.target.checked; save(); renderList(); toast(e.target.checked ? "ロックを有効にしました" : "ロックを解除しました"); });
+    $("#opt-lock").addEventListener("change", e => { state.prefs.lock = e.target.checked; save(); refreshList(); toast(e.target.checked ? "ロックを有効にしました" : "ロックを解除しました"); });
     $("#opt-opp").addEventListener("change", e => { state.prefs.oppDefault = e.target.checked; save(); });
     $("#btn-copy-ics").addEventListener("click", async () => {
       const url = $("#ics-url").value;
@@ -976,7 +1117,7 @@
     });
     $("#btn-reset").addEventListener("click", () => {
       if (!confirm("このチームの「観た」記録をすべて消しますか？")) return;
-      state.prefs.watched[state.teamId] = []; save(); renderList(); toast("リセットしました");
+      state.prefs.watched[state.teamId] = []; save(); refreshList(); toast("リセットしました");
     });
   }
 
@@ -1102,6 +1243,7 @@
   async function init() {
     bindSettings();
     bindInstall();
+    bindNav();
     applyDisplayPrefs();
     cloud.init();
     renderAuth();
@@ -1115,11 +1257,11 @@
       } else {
         $("#updated").textContent = "データ未取得";
       }
-      // 前回のチーム（「全体」含む） → お気に入りの先頭 → 先頭チーム の順
-      if (state.prefs.team === "all") { await selectAll(); return; }
-      const first = visibleTeams()[0];
-      const initial = (state.prefs.team && visibleTeams().some(t => t.id === state.prefs.team)) ? state.prefs.team : (first && first.id);
-      await selectTeam(initial);
+      // 前回開いていた画面（ホーム / 日程 / 記録）を復元。ホームは前回のチーム → お気に入りの先頭 の順
+      let view = "home";
+      try { view = localStorage.getItem("plwatch.view") || (state.prefs.team === "all" ? "schedule" : "home"); } catch { /* ignore */ }
+      if (!["home", "schedule", "stats"].includes(view)) view = "home";
+      setView(view);
     } catch (e) {
       $("#list").innerHTML = `<div class="empty">teams.json が読み込めません。<br><small>${esc(e.message)}</small><br><br>ファイルを直接開いている場合は serve.bat でローカルサーバーを起動してください。</div>`;
     }

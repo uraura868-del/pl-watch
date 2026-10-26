@@ -55,6 +55,25 @@ body.hide-names .pl .nm { display: none; }
 .dlg .tp-row input[type=checkbox] { width: 16px; height: 16px; appearance: auto; background: none; border-radius: 3px; accent-color: var(--accent); flex: 0 0 auto; }
 .dlg .tp-row input[type=checkbox]::after { display: none; }
 
+/* ---- メインメニュー（スマホは下、PC は上の横並び） ---- */
+.main-nav { position: fixed; left: 0; right: 0; bottom: 0; z-index: 8; display: flex; justify-content: space-around; background: rgba(13,18,32,.96); backdrop-filter: blur(10px); border-top: 1px solid rgba(255,255,255,.08); padding: 6px 4px calc(6px + var(--safe-b)); }
+.nav-btn { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 3px; background: none; border: 0; color: var(--muted); font-size: 10px; font-weight: 700; padding: 4px 0; cursor: pointer; border-radius: 10px; }
+.nav-btn svg { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.nav-btn.on { color: #fff; }
+.nav-btn.on svg { stroke: var(--accent); }
+body { padding-bottom: calc(64px + var(--safe-b)); }
+.install-banner { bottom: calc(70px + var(--safe-b)); }
+body[data-view="schedule"] .tabs, body[data-view="stats"] .tabs { display: none; }
+@media (min-width: 900px) {
+  .main-nav { position: sticky; top: 64px; bottom: auto; justify-content: flex-start; gap: 4px; padding: 6px 16px; border-top: 0; border-bottom: 1px solid rgba(255,255,255,.08); }
+  .nav-btn { flex: 0 0 auto; flex-direction: row; gap: 8px; font-size: 13px; padding: 6px 14px; }
+  .nav-btn.on { background: var(--tab-bg); }
+  .nav-btn svg { width: 18px; height: 18px; }
+  body { padding-bottom: 24px; }
+  .list-pane { top: 112px; max-height: calc(100vh - 112px); }
+  .install-banner { bottom: 8px; }
+}
+
 /* ---- layout ---- */
 .layout { display: block; max-width: 1200px; margin: 0 auto; }
 .pane { padding-bottom: 24px; }
@@ -228,6 +247,23 @@ details.more[open] summary::before { content: "▾ "; }
 .m-popup b { display: block; font-size: 7px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; } .m-popup small { color: #666; display: block; }
 .m-popup .row-btn { font-size: 8px; padding: 3px 6px; }
 .m-win { margin: auto; display: flex; align-items: center; gap: 6px; background: #fff; border: 1px solid #c9cdd9; border-radius: 8px; padding: 8px 10px; }
+
+/* ---- 記録 ---- */
+.stats-hero { padding: 18px 16px 14px; display: flex; flex-wrap: wrap; gap: 8px 24px; align-items: flex-end; }
+.big-num b { font-family: Oswald, sans-serif; font-size: 44px; line-height: 1; }
+.big-num span { font-size: 12px; color: var(--muted); margin-left: 6px; }
+.hero-sub { flex-basis: 100%; font-size: 12px; color: var(--muted); margin-top: 4px; }
+.bars { padding: 8px 16px; }
+.brow { display: grid; grid-template-columns: 92px 1fr 56px; align-items: center; gap: 10px; padding: 5px 0; font-size: 12px; }
+.brow .bl { color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.brow .bb { height: 8px; border-radius: 4px; background: rgba(255,255,255,.1); overflow: hidden; }
+.brow .bb b { display: block; height: 100%; background: var(--accent); border-radius: 4px; }
+.brow .bv { text-align: right; font-family: Oswald, sans-serif; font-size: 14px; }
+.facts2 { padding: 6px 16px 10px; }
+.facts2 > div { display: flex; justify-content: space-between; gap: 12px; padding: 8px 0; border-top: var(--divider); font-size: 13px; }
+.facts2 > div:first-child { border-top: 0; }
+.facts2 span { color: var(--muted); flex: 0 0 auto; }
+.facts2 b { text-align: right; }
 
 /* ---- footer / dialogs / toast ---- */
 .foot { text-align: center; font-size: 10px; color: var(--muted); padding: 8px 16px calc(24px + var(--safe-b)); }

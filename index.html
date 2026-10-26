@@ -18,6 +18,7 @@
     <div id="team-name" class="title">PL Watch</div>
     <div id="team-sub" class="sub">読み込み中...</div>
   </div>
+  <button id="btn-auth" class="auth-btn" title="Google でログインすると設定がPC・スマホで同期されます">ログイン</button>
   <button id="btn-settings" class="icon-btn" aria-label="設定" title="設定">⚙</button>
 </header>
 
@@ -35,10 +36,21 @@
 <dialog id="dlg-settings" class="dlg">
   <form method="dialog">
     <h2>設定</h2>
+    <div class="row">
+      <span><b>アカウント</b><small id="auth-status">ログインすると「観た」記録と設定が PC・スマホで同期され、Google アカウントごとに別々に保存されます。</small></span>
+      <button type="button" id="btn-auth2" class="btn-ghost">ログイン</button>
+    </div>
     <label class="row">
       <span><b>ネタバレロック</b><small>まだ観ていない試合より後のスタメン・欠場者を隠します</small></span>
       <input type="checkbox" id="opt-lock">
     </label>
+    <div class="row col">
+      <span><b>表示のカスタマイズ</b><small>見たくない情報はボタンごと消せます</small></span>
+      <label class="subrow"><span>結果ボタンを表示</span><input type="checkbox" id="opt-showResult"></label>
+      <label class="subrow"><span>スタッツのボタンを表示</span><input type="checkbox" id="opt-showStats"></label>
+      <label class="subrow"><span>プレー動画を表示</span><input type="checkbox" id="opt-showVideos"></label>
+      <label class="subrow"><span>ピッチ図に選手名を表示</span><input type="checkbox" id="opt-showNames"></label>
+    </div>
     <label class="row">
       <span><b>最初に相手チームを表示</b><small>フォーメーション図を相手側から開きます</small></span>
       <input type="checkbox" id="opt-opp">
@@ -88,6 +100,11 @@
 </dialog>
 
 <div id="toast" class="toast" role="status"></div>
+<!-- Firebase（Google ログインと設定の同期）。読み込めなくてもサイトは端末保存で動く -->
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore-compat.js"></script>
+<script src="assets/firebase-config.js"></script>
 <script src="assets/app.js"></script>
 </body>
 </html>

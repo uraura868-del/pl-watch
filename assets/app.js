@@ -4,6 +4,8 @@
   "use strict";
 
   const LS_KEY = "plwatch.v1";
+  const PREF_KEYS = ["lock", "oppDefault", "showResult", "showStats", "showVideos", "showNames"];
+  const PREF_DEFAULTS = { lock: true, oppDefault: false, showResult: true, showStats: true, showVideos: true, showNames: true };
   const state = {
     teams: [],
     teamId: null,
@@ -17,14 +19,100 @@
   };
 
   // ---------------------------------------------------------------- storage
+  function normalizePrefs(p) {
+    const out = { team: p.team || null, watched: p.watched || {} };
+    for (const k of PREF_KEYS) out[k] = (k in p && p[k] !== undefined && p[k] !== null) ? !!p[k] : PREF_DEFAULTS[k];
+    return out;
+  }
   function load() {
-    try {
-      const p = JSON.parse(localStorage.getItem(LS_KEY) || "{}");
-      return { team: p.team || null, watched: p.watched || {}, lock: p.lock !== false, oppDefault: !!p.oppDefault };
-    } catch { return { team: null, watched: {}, lock: true, oppDefault: false }; }
+    try { return normalizePrefs(JSON.parse(localStorage.getItem(LS_KEY) || "{}")); }
+    catch { return normalizePrefs({}); }
   }
   function save() {
     try { localStorage.setItem(LS_KEY, JSON.stringify(state.prefs)); } catch { /* private mode など */ }
+    cloud.scheduleSave();
+  }
+  function applyDisplayPrefs() {
+    document.body.classList.toggle("hide-names", !state.prefs.showNames);
+  }
+
+  // ---------------------------------------------------------------- クラウド同期（Firebase: Google ログイン + Firestore）
+  const cloud = {
+    user: null, db: null, auth: null, ready: false, timer: null, loading: false,
+    init() {
+      try {
+        if (!window.firebase || !window.PLW_FIREBASE) return;
+        firebase.initializeApp(window.PLW_FIREBASE);
+        this.auth = firebase.auth();
+        this.db = firebase.firestore();
+        this.ready = true;
+        this.auth.onAuthStateChanged(async user => {
+          this.user = user || null;
+          renderAuth();
+          if (user) await this.pullAndMerge();
+        });
+        this.auth.getRedirectResult().catch(e => console.warn("redirect result", e));
+      } catch (e) { console.warn("firebase init failed", e); }
+    },
+    async signIn() {
+      if (!this.ready) { toast("ログイン機能を読み込めませんでした"); return; }
+      const provider = new firebase.auth.GoogleAuthProvider();
+      try { await this.auth.signInWithPopup(provider); }
+      catch (e) {
+        if (/popup/i.test(e.code || "")) { try { await this.auth.signInWithRedirect(provider); } catch (e2) { toast("ログインできませんでした"); } }
+        else if (!/cancelled|closed/i.test(e.code || "")) { console.warn(e); toast("ログインできませんでした: " + (e.code || "")); }
+      }
+    },
+    async signOut() { if (this.ready) await this.auth.signOut(); toast("ログアウトしました（記録はこの端末に残ります）"); },
+    docRef() { return this.db.collection("users").doc(this.user.uid); },
+    // ログイン直後: クラウドの記録と端末の記録を合わせる（観た試合は和集合、設定はクラウド優先）
+    async pullAndMerge() {
+      if (!this.user) return;
+      this.loading = true;
+      try {
+        const snap = await this.docRef().get();
+        const c = snap.exists ? (snap.data() || {}) : {};
+        const merged = { ...state.prefs };
+        const watched = { ...(state.prefs.watched || {}) };
+        for (const [tid, ids] of Object.entries(c.watched || {})) watched[tid] = [...new Set([...(watched[tid] || []), ...(ids || [])])];
+        merged.watched = watched;
+        if (c.prefs) for (const k of PREF_KEYS) if (k in c.prefs) merged[k] = !!c.prefs[k];
+        if (c.team) merged.team = c.team;
+        state.prefs = normalizePrefs(merged);
+        try { localStorage.setItem(LS_KEY, JSON.stringify(state.prefs)); } catch { /* ignore */ }
+        await this.push();
+        applyDisplayPrefs();
+        if (state.teamId) { renderList(); if (state.selected) { const f = state.fixtures.find(x => x.eventId === state.selected); if (f) renderDetail(f, state.matchCache.get(f.eventId) || null, classify().get(f.eventId)); } }
+        toast(`ログインしました: ${this.user.displayName || ""}`);
+      } catch (e) { console.warn("cloud pull failed", e); toast("同期に失敗しました（端末の記録を使います）"); }
+      finally { this.loading = false; }
+    },
+    async push() {
+      if (!this.user || !this.ready) return;
+      const prefs = {}; for (const k of PREF_KEYS) prefs[k] = state.prefs[k];
+      await this.docRef().set({ watched: state.prefs.watched || {}, prefs, team: state.prefs.team || null,
+        updatedAt: firebase.firestore.FieldValue.serverTimestamp() }, { merge: true });
+    },
+    scheduleSave() {
+      if (!this.user || this.loading) return;
+      clearTimeout(this.timer);
+      this.timer = setTimeout(() => this.push().catch(e => console.warn("cloud save failed", e)), 800);
+    },
+  };
+  function renderAuth() {
+    const u = cloud.user;
+    const b1 = $("#btn-auth"), b2 = $("#btn-auth2"), st = $("#auth-status");
+    if (!cloud.ready) { if (b1) b1.style.display = "none"; if (b2) b2.style.display = "none"; if (st) st.textContent = "ログイン機能は現在使えません。記録はこの端末に保存されます。"; return; }
+    if (u) {
+      const name = u.displayName || u.email || "ログイン中";
+      if (b1) b1.innerHTML = `${u.photoURL ? `<img class="avatar" src="${esc(u.photoURL)}" alt="">` : ""}<span>${esc(name.split(" ")[0])}</span>`;
+      if (b2) b2.textContent = "ログアウト";
+      if (st) st.textContent = `${name} としてログイン中。観た記録と設定はこのアカウントに同期されています。`;
+    } else {
+      if (b1) b1.textContent = "ログイン";
+      if (b2) b2.textContent = "Google でログイン";
+      if (st) st.textContent = "ログインすると「観た」記録と設定が PC・スマホで同期され、Google アカウントごとに別々に保存されます。";
+    }
   }
   const watchedSet = () => new Set(state.prefs.watched[state.teamId] || []);
   function setWatched(eventId, on) {
@@ -222,9 +310,12 @@
     // 経歴（Wikidata。相手チームの選手は共有キャッシュから）
     const career = renderCareer((ours ? await getCareers() : await getOppCareers())[p.id]);
 
-    // プレー動画（埋め込み候補＋検索リンク）
-    const vdata = ours ? await getVideos() : await getOppVideos();
-    const videos = renderVideos(p.name, (vdata.players || {})[p.id], !!vdata.enabled);
+    // プレー動画（埋め込み候補＋検索リンク。設定で非表示にもできる）
+    let videos = "";
+    if (state.prefs.showVideos) {
+      const vdata = ours ? await getVideos() : await getOppVideos();
+      videos = renderVideos(p.name, (vdata.players || {})[p.id], !!vdata.enabled);
+    }
 
     // 欠場の記録（手入力分 ＋ Transfermarkt の負傷履歴）
     let absHist = "";
@@ -415,8 +506,8 @@
       html += `<div class="lock-msg"><div class="big">⏳</div>スタメンはまだ発表されていません。<br>キックオフ約1時間前以降の自動更新で表示されます。</div></div>`;
     }
 
-    // スタッツ（ボタンを押すまで隠す）
-    if (f.hasStats && m) {
+    // スタッツ（ボタンを押すまで隠す。設定で非表示にもできる）
+    if (f.hasStats && m && state.prefs.showStats) {
       const shown = state.statsShown && state.statsShown.eventId === f.eventId ? state.statsShown.which : null;
       html += `<div class="section-label">スタッツ</div><div class="card stats-card">
         <div class="stats-btns">
@@ -426,8 +517,8 @@
         <div id="stats-body">${shown ? `<div class="empty">読み込み中...</div>` : `<p class="hint" style="margin:0 16px 12px">数字から試合展開を推測できる場合があります。見るときだけ押してください。</p>`}</div></div>`;
     }
 
-    // 結果（確認つきボタンを押すまで、ファイルすら読まない）
-    if (f.hasResult && m) {
+    // 結果（確認つきボタンを押すまで、ファイルすら読まない。設定で非表示にもできる）
+    if (f.hasResult && m && state.prefs.showResult) {
       const shown = state.resultShown === f.eventId;
       html += `<div class="section-label">結果</div><div class="card result-card">
         ${shown ? `<div id="result-body"><div class="empty">読み込み中...</div></div>`
@@ -669,8 +760,19 @@
     $("#btn-settings").addEventListener("click", () => {
       $("#opt-lock").checked = state.prefs.lock;
       $("#opt-opp").checked = state.prefs.oppDefault;
+      for (const k of ["showResult", "showStats", "showVideos", "showNames"]) $("#opt-" + k).checked = state.prefs[k];
+      renderAuth();
       dlg.showModal();
     });
+    for (const k of ["showResult", "showStats", "showVideos", "showNames"]) {
+      $("#opt-" + k).addEventListener("change", e => {
+        state.prefs[k] = e.target.checked; save(); applyDisplayPrefs();
+        if (state.selected) { const f = state.fixtures.find(x => x.eventId === state.selected); if (f) renderDetail(f, state.matchCache.get(f.eventId) || null, classify().get(f.eventId)); }
+      });
+    }
+    const authClick = () => { if (cloud.user) { if (confirm("ログアウトしますか？（記録はこの端末には残ります）")) cloud.signOut(); } else cloud.signIn(); };
+    $("#btn-auth").addEventListener("click", authClick);
+    $("#btn-auth2").addEventListener("click", authClick);
     $("#opt-lock").addEventListener("change", e => { state.prefs.lock = e.target.checked; save(); renderList(); toast(e.target.checked ? "ロックを有効にしました" : "ロックを解除しました"); });
     $("#opt-opp").addEventListener("change", e => { state.prefs.oppDefault = e.target.checked; save(); });
     $("#btn-copy-ics").addEventListener("click", async () => {
@@ -687,6 +789,9 @@
   // ---------------------------------------------------------------- init
   async function init() {
     bindSettings();
+    applyDisplayPrefs();
+    cloud.init();
+    renderAuth();
     try {
       const [cfg, meta] = await Promise.all([fetchJson("teams.json"), fetchJson("data/meta.json").catch(() => null)]);
       state.teams = cfg.teams || [];

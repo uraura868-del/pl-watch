@@ -1,4 +1,1363 @@
 {
- "updatedAt": "2026-10-26T13:26:10Z",
- "players": {}
+ "updatedAt": "2026-10-26T13:39:05Z",
+ "players": {
+  "149517": {
+   "name": "Benjamin Lecomte",
+   "qid": "Q2070900",
+   "career": [
+    {
+     "club": "U-18サッカーフランス代表",
+     "clubEn": "France national under-18 association football team",
+     "start": "2008",
+     "end": "2009",
+     "apps": 4,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png"
+    },
+    {
+     "club": "U-19サッカーフランス代表",
+     "clubEn": "France national under-19 association football team",
+     "start": "2009",
+     "end": "2009",
+     "apps": null,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png"
+    },
+    {
+     "club": "U-19サッカーフランス代表",
+     "clubEn": "France national under-19 association football team",
+     "start": "2009",
+     "end": "2010",
+     "apps": 4,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png"
+    },
+    {
+     "club": "FCロリアン",
+     "clubEn": "F.C. Lorient",
+     "start": "2010",
+     "end": "2017",
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/273.png"
+    },
+    {
+     "club": "U-20サッカーフランス代表",
+     "clubEn": "France national under-20 association football team",
+     "start": "2011",
+     "end": "2011",
+     "apps": 2,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png"
+    },
+    {
+     "club": "ディジョンFCO",
+     "clubEn": "Dijon FCO",
+     "start": "2013",
+     "end": "2014",
+     "apps": 31,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3170.png"
+    },
+    {
+     "club": "モンペリエHSC",
+     "clubEn": "Montpellier Hérault Sport Club",
+     "start": "2017",
+     "end": "2019",
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/274.png"
+    },
+    {
+     "club": "ASモナコ",
+     "clubEn": "AS Monaco FC",
+     "start": "2019",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png"
+    }
+   ],
+   "fetchedAt": "2026-10-26T13:39:05Z"
+  },
+  "153765": {
+   "name": "Bernd Leno",
+   "qid": "Q309966",
+   "career": [
+    {
+     "club": "VfBシュトゥットガルトII",
+     "clubEn": "VfB Stuttgart II",
+     "start": "2009",
+     "end": "2011",
+     "apps": 57,
+     "national": false,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png"
+    },
+    {
+     "club": "バイエル・レバークーゼン",
+     "clubEn": "Bayer 04 Leverkusen",
+     "start": "2011",
+     "end": "2018",
+     "apps": 233,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png"
+    },
+    {
+     "club": "サッカードイツ代表",
+     "clubEn": "Germany men's national association football team",
+     "start": "2016",
+     "end": null,
+     "apps": 9,
+     "national": true,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png"
+    },
+    {
+     "club": "アーセナルFC",
+     "clubEn": "Arsenal F.C.",
+     "start": "2018",
+     "end": "2022",
+     "apps": 101,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png"
+    },
+    {
+     "club": "フラムFC",
+     "clubEn": "Fulham F.C.",
+     "start": "2022",
+     "end": null,
+     "apps": 75,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png"
+    }
+   ],
+   "fetchedAt": "2026-10-26T13:39:05Z"
+  },
+  "362553": {
+   "name": "Alex Borto",
+   "qid": "Q141321320",
+   "career": [],
+   "fetchedAt": "2026-10-26T13:39:05Z"
+  },
+  "190974": {
+   "name": "Kenny Tete",
+   "qid": "Q14495103",
+   "career": [
+    {
+     "club": "オリンピック・リヨン",
+     "clubEn": "Olympique Lyonnais",
+     "start": null,
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": null
+    },
+    {
+     "club": "U-17サッカーオランダ代表",
+     "clubEn": "Netherlands national under-17 football team",
+     "start": "2011",
+     "end": "2012",
+     "apps": 5,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png"
+    },
+    {
+     "club": "U-19サッカーオランダ代表",
+     "clubEn": "Netherlands national under-19 football team",
+     "start": "2013",
+     "end": "2014",
+     "apps": 4,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png"
+    },
+    {
+     "club": "ヨング・アヤックス",
+     "clubEn": "Jong Ajax",
+     "start": "2013",
+     "end": "2015",
+     "apps": 50,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/10597.png"
+    },
+    {
+     "club": "アヤックス・アムステルダム",
+     "clubEn": "AFC Ajax",
+     "start": "2013",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/139.png"
+    },
+    {
+     "club": "アヤックス・アムステルダム",
+     "clubEn": "AFC Ajax",
+     "start": "2014",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/139.png"
+    },
+    {
+     "club": "U-19サッカーオランダ代表",
+     "clubEn": "Netherlands national under-19 football team",
+     "start": "2014",
+     "end": null,
+     "apps": null,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png"
+    },
+    {
+     "club": "U-21サッカーオランダ代表",
+     "clubEn": "Netherlands national under-21 football team",
+     "start": "2015",
+     "end": null,
+     "apps": null,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png"
+    },
+    {
+     "club": "サッカーオランダ代表",
+     "clubEn": "Netherlands national association football team",
+     "start": "2015",
+     "end": null,
+     "apps": null,
+     "national": true,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png"
+    }
+   ],
+   "fetchedAt": "2026-10-26T13:39:05Z"
+  },
+  "196081": {
+   "name": "Joachim Andersen",
+   "qid": "Q15943423",
+   "career": [
+    {
+     "club": "UCサンプドリア",
+     "clubEn": "U.C. Sampdoria",
+     "start": null,
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2734.png"
+    },
+    {
+     "club": "Denmark national under-16 association football team",
+     "clubEn": "Denmark national under-16 association football team",
+     "start": "2012",
+     "end": "2012",
+     "apps": 1,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/den.png"
+    },
+    {
+     "club": "U-17サッカーデンマーク代表",
+     "clubEn": "Denmark national under-17 football team",
+     "start": "2012",
+     "end": "2012",
+     "apps": 1,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/den.png"
+    },
+    {
+     "club": "ヨング・トゥエンテ",
+     "clubEn": "Jong FC Twente",
+     "start": "2013",
+     "end": "2015",
+     "apps": 38,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": null
+    },
+    {
+     "club": "U-19サッカーデンマーク代表",
+     "clubEn": "Denmark national under-19 football team",
+     "start": "2014",
+     "end": "2015",
+     "apps": 13,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/den.png"
+    },
+    {
+     "club": "FCトゥウェンテ",
+     "clubEn": "FC Twente",
+     "start": "2014",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/152.png"
+    },
+    {
+     "club": "U-21デンマーク代表",
+     "clubEn": "Denmark national under-21 football team",
+     "start": "2015",
+     "end": null,
+     "apps": null,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/den.png"
+    }
+   ],
+   "fetchedAt": "2026-10-26T13:39:05Z"
+  },
+  "197163": {
+   "name": "Timothy Castagne",
+   "qid": "Q18041089",
+   "career": [
+    {
+     "club": "Belgium national under-18 football team",
+     "clubEn": "Belgium national under-18 football team",
+     "start": "2013",
+     "end": "2013",
+     "apps": 4,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png"
+    },
+    {
+     "club": "U-19サッカーベルギー代表",
+     "clubEn": "Belgium national under-19 football team",
+     "start": "2013",
+     "end": "2014",
+     "apps": 12,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png"
+    },
+    {
+     "club": "U-21サッカーベルギー代表",
+     "clubEn": "Belgium national under-21 football team",
+     "start": "2014",
+     "end": "2016",
+     "apps": null,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png"
+    },
+    {
+     "club": "KRCヘンク",
+     "clubEn": "K.R.C. Genk",
+     "start": "2014",
+     "end": "2017",
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/938.png"
+    },
+    {
+     "club": "アタランタBC",
+     "clubEn": "Atalanta BC",
+     "start": "2017",
+     "end": "2020",
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png"
+    },
+    {
+     "club": "サッカーベルギー代表",
+     "clubEn": "Belgium men's national football team",
+     "start": "2018",
+     "end": null,
+     "apps": 69,
+     "national": true,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png"
+    },
+    {
+     "club": "レスター・シティFC",
+     "clubEn": "Leicester City F.C.",
+     "start": "2020",
+     "end": "2023",
+     "apps": 91,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/375.png"
+    },
+    {
+     "club": "フラムFC",
+     "clubEn": "Fulham F.C.",
+     "start": "2023",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png"
+    }
+   ],
+   "fetchedAt": "2026-10-26T13:39:05Z"
+  },
+  "222396": {
+   "name": "Antonee Robinson",
+   "qid": "Q35778151",
+   "career": [
+    {
+     "club": "サッカーアメリカ合衆国代表",
+     "clubEn": "United States men's national soccer team",
+     "start": "2014",
+     "end": null,
+     "apps": null,
+     "national": true,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png"
+    },
+    {
+     "club": "エヴァートンFC",
+     "clubEn": "Everton F.C.",
+     "start": "2015",
+     "end": "2019",
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png"
+    },
+    {
+     "club": "ウィガン・アスレティックFC",
+     "clubEn": "Wigan Athletic F.C.",
+     "start": "2019",
+     "end": "2020",
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/350.png"
+    },
+    {
+     "club": "フラムFC",
+     "clubEn": "Fulham F.C.",
+     "start": "2020",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png"
+    }
+   ],
+   "fetchedAt": "2026-10-26T13:39:05Z"
+  },
+  "252031": {
+   "name": "Jorge Cuenca",
+   "qid": "Q28972640",
+   "career": [
+    {
+     "club": "AD Alcorcón B",
+     "clubEn": "AD Alcorcón B",
+     "start": "2017",
+     "end": "2017",
+     "apps": 8,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11121.png"
+    },
+    {
+     "club": "ADアルコルコン",
+     "clubEn": "AD Alcorcón",
+     "start": "2017",
+     "end": "2017",
+     "apps": 5,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11121.png"
+    },
+    {
+     "club": "U-19サッカースペイン代表",
+     "clubEn": "Spain national under-19 football team",
+     "start": "2017",
+     "end": "2018",
+     "apps": 7,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png"
+    },
+    {
+     "club": "FCバルセロナB",
+     "clubEn": "FC Barcelona Atlètic",
+     "start": "2017",
+     "end": "2020",
+     "apps": 65,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": null
+    },
+    {
+     "club": "FCバルセロナ",
+     "clubEn": "FC Barcelona",
+     "start": "2018",
+     "end": "2018",
+     "apps": 0,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png"
+    },
+    {
+     "club": "UDアルメリア",
+     "clubEn": "Unión Deportiva Almería",
+     "start": "2020",
+     "end": "2021",
+     "apps": 35,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": null
+    },
+    {
+     "club": "ビジャレアルCF",
+     "clubEn": "Villarreal CF",
+     "start": "2020",
+     "end": "2024",
+     "apps": 39,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png"
+    },
+    {
+     "club": "ヘタフェCF",
+     "clubEn": "Getafe CF",
+     "start": "2021",
+     "end": "2022",
+     "apps": 32,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png"
+    },
+    {
+     "club": "フラムFC",
+     "clubEn": "Fulham F.C.",
+     "start": "2024",
+     "end": null,
+     "apps": 0,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png"
+    }
+   ],
+   "fetchedAt": "2026-10-26T13:39:05Z"
+  },
+  "263110": {
+   "name": "Calvin Bassey",
+   "qid": "Q97059010",
+   "career": [
+    {
+     "club": "サッカーナイジェリア代表",
+     "clubEn": "Nigeria men's national football team",
+     "start": null,
+     "end": null,
+     "apps": null,
+     "national": true,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nga.png"
+    },
+    {
+     "club": "フラムFC",
+     "clubEn": "Fulham F.C.",
+     "start": null,
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png"
+    }
+   ],
+   "fetchedAt": "2026-10-26T13:39:05Z"
+  },
+  "313230": {
+   "name": "David Affengruber",
+   "qid": "Q65948590",
+   "career": [
+    {
+     "club": "U-19サッカーオーストリア代表",
+     "clubEn": "Austria national under-19 football team",
+     "start": "2019",
+     "end": "2021",
+     "apps": 8,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png"
+    },
+    {
+     "club": "FCリーフェリング",
+     "clubEn": "FC Liefering",
+     "start": "2019",
+     "end": "2021",
+     "apps": 51,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21173.png"
+    },
+    {
+     "club": "レッドブル・ザルツブルク",
+     "clubEn": "FC Red Bull Salzburg",
+     "start": "2021",
+     "end": "2021",
+     "apps": 5,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": null
+    },
+    {
+     "club": "オーストリアU-21代表",
+     "clubEn": "Austria national under-21 football team",
+     "start": "2021",
+     "end": "2022",
+     "apps": 6,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png"
+    },
+    {
+     "club": "SKシュトゥルム・グラーツ",
+     "clubEn": "SK Sturm Graz",
+     "start": "2021",
+     "end": "2024",
+     "apps": 85,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3746.png"
+    },
+    {
+     "club": "エルチェCF",
+     "clubEn": "Elche CF",
+     "start": "2024",
+     "end": "2026",
+     "apps": 79,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png"
+    },
+    {
+     "club": "サッカーオーストリア代表",
+     "clubEn": "Austria men's national football team",
+     "start": "2026",
+     "end": null,
+     "apps": 1,
+     "national": true,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png"
+    },
+    {
+     "club": "フラムFC",
+     "clubEn": "Fulham F.C.",
+     "start": "2026",
+     "end": null,
+     "apps": 0,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png"
+    }
+   ],
+   "fetchedAt": "2026-10-26T13:39:05Z"
+  },
+  "376050": {
+   "name": "Bradley Slade",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T13:39:05Z"
+  },
+  "12172": {
+   "name": "César Palacios",
+   "qid": "Q117661592",
+   "career": [
+    {
+     "club": "CDヌマンシア",
+     "clubEn": "Club Deportivo Numancia de Soria",
+     "start": "2010",
+     "end": "2020",
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": null
+    },
+    {
+     "club": "レアル・マドリード",
+     "clubEn": "Real Madrid Club de Fútbol",
+     "start": "2020",
+     "end": "2023",
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": null
+    },
+    {
+     "club": "U-19サッカースペイン代表",
+     "clubEn": "Spain national under-19 football team",
+     "start": "2022",
+     "end": "2023",
+     "apps": 12,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png"
+    },
+    {
+     "club": "U-20サッカースペイン代表",
+     "clubEn": "Spain national under-20 football team",
+     "start": "2022",
+     "end": null,
+     "apps": 2,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png"
+    },
+    {
+     "club": "レアル・マドリード・カスティージャ",
+     "clubEn": "Real Madrid Castilla",
+     "start": "2023",
+     "end": "2026",
+     "apps": 72,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7000.png"
+    },
+    {
+     "club": "レアル・マドリード",
+     "clubEn": "Real Madrid Club de Fútbol",
+     "start": "2026",
+     "end": "2026",
+     "apps": 7,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": null
+    },
+    {
+     "club": "フラムFC",
+     "clubEn": "Fulham F.C.",
+     "start": "2026",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png"
+    }
+   ],
+   "fetchedAt": "2026-10-26T13:39:05Z"
+  },
+  "140033": {
+   "name": "Tom Cairney",
+   "qid": "Q1061904",
+   "career": [
+    {
+     "club": "リーズ・ユナイテッドAFC",
+     "clubEn": "Leeds United F.C.",
+     "start": null,
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png"
+    },
+    {
+     "club": "Scotland national under-19 football team",
+     "clubEn": "Scotland national under-19 football team",
+     "start": "2009",
+     "end": "2009",
+     "apps": 2,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png"
+    },
+    {
+     "club": "ハル・シティAFC",
+     "clubEn": "Hull City A.F.C.",
+     "start": "2009",
+     "end": "2014",
+     "apps": 70,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png"
+    },
+    {
+     "club": "U-21サッカースコットランド代表",
+     "clubEn": "Scotland national under-21 football team",
+     "start": "2010",
+     "end": "2012",
+     "apps": 6,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png"
+    },
+    {
+     "club": "ブラックバーン・ローヴァーズFC",
+     "clubEn": "Blackburn Rovers F.C.",
+     "start": "2013",
+     "end": "2014",
+     "apps": 23,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/365.png"
+    },
+    {
+     "club": "ブラックバーン・ローヴァーズFC",
+     "clubEn": "Blackburn Rovers F.C.",
+     "start": "2014",
+     "end": "2015",
+     "apps": 53,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/365.png"
+    },
+    {
+     "club": "フラムFC",
+     "clubEn": "Fulham F.C.",
+     "start": "2015",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png"
+    }
+   ],
+   "fetchedAt": "2026-10-26T13:39:05Z"
+  },
+  "193246": {
+   "name": "Harrison Reed",
+   "qid": "Q15054978",
+   "career": [
+    {
+     "club": "サウサンプトンFC",
+     "clubEn": "Southampton F.C.",
+     "start": "2013",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/376.png"
+    },
+    {
+     "club": "U-19サッカーイングランド代表",
+     "clubEn": "England national under-19 association football team",
+     "start": "2014",
+     "end": "2014",
+     "apps": 3,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
+    },
+    {
+     "club": "U-20サッカーイングランド代表",
+     "clubEn": "England national under-20 association football team",
+     "start": "2014",
+     "end": null,
+     "apps": null,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
+    },
+    {
+     "club": "ノリッジ・シティFC",
+     "clubEn": "Norwich City F.C.",
+     "start": "2017",
+     "end": "2018",
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/381.png"
+    },
+    {
+     "club": "ブラックバーン・ローヴァーズFC",
+     "clubEn": "Blackburn Rovers F.C.",
+     "start": "2018",
+     "end": "2019",
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/365.png"
+    },
+    {
+     "club": "フラムFC",
+     "clubEn": "Fulham F.C.",
+     "start": "2019",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png"
+    }
+   ],
+   "fetchedAt": "2026-10-26T13:39:05Z"
+  },
+  "218998": {
+   "name": "Sander Berge",
+   "qid": "Q20675980",
+   "career": [
+    {
+     "club": "アスケー・フォトバル",
+     "clubEn": "Asker Fotball",
+     "start": "2013",
+     "end": "2014",
+     "apps": 8,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": null
+    },
+    {
+     "club": "ヴォレレンガ・フォトバル",
+     "clubEn": "Vålerenga Fotball",
+     "start": "2015",
+     "end": "2017",
+     "apps": 36,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": null
+    },
+    {
+     "club": "U-21サッカーノルウェー代表",
+     "clubEn": "Norway national under-21 association football team",
+     "start": "2016",
+     "end": "2016",
+     "apps": 2,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png"
+    },
+    {
+     "club": "KRCヘンク",
+     "clubEn": "K.R.C. Genk",
+     "start": "2017",
+     "end": "2020",
+     "apps": 84,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/938.png"
+    },
+    {
+     "club": "サッカーノルウェー代表",
+     "clubEn": "Norway men's national association football team",
+     "start": "2017",
+     "end": null,
+     "apps": 46,
+     "national": true,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png"
+    },
+    {
+     "club": "シェフィールド・ユナイテッドFC",
+     "clubEn": "Sheffield United F.C.",
+     "start": "2020",
+     "end": "2023",
+     "apps": 97,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/398.png"
+    },
+    {
+     "club": "バーンリーFC",
+     "clubEn": "Burnley F.C.",
+     "start": "2023",
+     "end": "2024",
+     "apps": 37,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/379.png"
+    },
+    {
+     "club": "フラムFC",
+     "clubEn": "Fulham F.C.",
+     "start": "2024",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png"
+    }
+   ],
+   "fetchedAt": "2026-10-26T13:39:05Z"
+  },
+  "241328": {
+   "name": "Ryan Sessegnon",
+   "qid": "Q26250297",
+   "career": [
+    {
+     "club": "サッカーイングランドU-21代表",
+     "clubEn": "England national under-21 association football team",
+     "start": null,
+     "end": null,
+     "apps": null,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
+    },
+    {
+     "club": "フラムFC",
+     "clubEn": "Fulham F.C.",
+     "start": null,
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png"
+    },
+    {
+     "club": "トッテナム・ホットスパーFC",
+     "clubEn": "Tottenham Hotspur F.C.",
+     "start": "2019",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png"
+    }
+   ],
+   "fetchedAt": "2026-10-26T13:39:05Z"
+  },
+  "266697": {
+   "name": "Emile Smith Rowe",
+   "qid": "Q55820249",
+   "career": [
+    {
+     "club": "サッカーイングランド代表",
+     "clubEn": "England men's national association football team",
+     "start": null,
+     "end": null,
+     "apps": null,
+     "national": true,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
+    },
+    {
+     "club": "アーセナルFC",
+     "clubEn": "Arsenal F.C.",
+     "start": "2017",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png"
+    },
+    {
+     "club": "RBライプツィヒ",
+     "clubEn": "RB Leipzig",
+     "start": "2019",
+     "end": "2019",
+     "apps": 3,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png"
+    },
+    {
+     "club": "ハダースフィールド・タウンFC",
+     "clubEn": "Huddersfield Town A.F.C.",
+     "start": "2020",
+     "end": "2020",
+     "apps": 19,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/335.png"
+    }
+   ],
+   "fetchedAt": "2026-10-26T13:39:05Z"
+  },
+  "307111": {
+   "name": "Oscar Bobb",
+   "qid": "Q110466658",
+   "career": [],
+   "fetchedAt": "2026-10-26T13:39:05Z"
+  },
+  "324164": {
+   "name": "Shea Charles",
+   "qid": "Q112214607",
+   "career": [],
+   "fetchedAt": "2026-10-26T13:39:05Z"
+  },
+  "336460": {
+   "name": "Hugo Larsson",
+   "qid": "Q111586862",
+   "career": [
+    {
+     "club": "マルメFF",
+     "clubEn": "Malmö FF",
+     "start": null,
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2720.png"
+    },
+    {
+     "club": "",
+     "clubEn": "",
+     "start": null,
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": null
+    }
+   ],
+   "fetchedAt": "2026-10-26T13:39:05Z"
+  },
+  "364812": {
+   "name": "Manuel Ángel",
+   "qid": "Q119454675",
+   "career": [],
+   "fetchedAt": "2026-10-26T13:39:05Z"
+  },
+  "365351": {
+   "name": "Chibuzo Nwoko",
+   "qid": "Q141582821",
+   "career": [],
+   "fetchedAt": "2026-10-26T13:39:05Z"
+  },
+  "409541": {
+   "name": "Josh King",
+   "qid": "Q131518757",
+   "career": [],
+   "fetchedAt": "2026-10-26T13:39:05Z"
+  },
+  "87297": {
+   "name": "Gonzalo García",
+   "qid": "Q118869601",
+   "career": [],
+   "fetchedAt": "2026-10-26T13:39:05Z"
+  },
+  "175063": {
+   "name": "Alex Iwobi",
+   "qid": "Q21091691",
+   "career": [
+    {
+     "club": "U-16サッカーイングランド代表",
+     "clubEn": "England national under-16 association football team",
+     "start": "2011",
+     "end": "2012",
+     "apps": 7,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
+    },
+    {
+     "club": "England national under-18 association football team",
+     "clubEn": "England national under-18 association football team",
+     "start": "2013",
+     "end": "2013",
+     "apps": 1,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
+    },
+    {
+     "club": "U-17サッカーイングランド代表",
+     "clubEn": "England national under-17 association football team",
+     "start": "2013",
+     "end": "2013",
+     "apps": 3,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
+    },
+    {
+     "club": "アーセナルFC",
+     "clubEn": "Arsenal F.C.",
+     "start": "2015",
+     "end": "2019",
+     "apps": 100,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png"
+    },
+    {
+     "club": "サッカーナイジェリア代表",
+     "clubEn": "Nigeria men's national football team",
+     "start": "2015",
+     "end": null,
+     "apps": 101,
+     "national": true,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nga.png"
+    },
+    {
+     "club": "エヴァートンFC",
+     "clubEn": "Everton F.C.",
+     "start": "2019",
+     "end": "2023",
+     "apps": 123,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png"
+    },
+    {
+     "club": "フラムFC",
+     "clubEn": "Fulham F.C.",
+     "start": "2023",
+     "end": null,
+     "apps": 103,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png"
+    }
+   ],
+   "fetchedAt": "2026-10-26T13:39:05Z"
+  },
+  "301525": {
+   "name": "Rodrigo Muniz",
+   "qid": "Q97097982",
+   "career": [],
+   "fetchedAt": "2026-10-26T13:39:05Z"
+  },
+  "330764": {
+   "name": "Kevin",
+   "qid": "Q110056642",
+   "career": [],
+   "fetchedAt": "2026-10-26T13:39:05Z"
+  },
+  "369363": {
+   "name": "Jonah Kusi-Asare",
+   "qid": "Q122227001",
+   "career": [
+    {
+     "club": "AIKソルナ",
+     "clubEn": "AIK Fotboll",
+     "start": null,
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": null
+    },
+    {
+     "club": "IFブロマポイカルナ",
+     "clubEn": "IF Brommapojkarna",
+     "start": null,
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/8221.png"
+    }
+   ],
+   "fetchedAt": "2026-10-26T13:39:05Z"
+  },
+  "392697": {
+   "name": "Macauley Zepa",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T13:39:05Z"
+  }
+ }
 }

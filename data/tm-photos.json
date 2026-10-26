@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-26T13:26:10Z",
+ "updatedAt": "2026-10-26T13:39:05Z",
  "clubs": {
   "manchester united": {
    "id": 985,
@@ -1647,13 +1647,6 @@
    "fetchedAt": "2026-10-26T13:26:10Z",
    "players": {}
   },
-  "aek athens": {
-   "id": null,
-   "slug": null,
-   "name": null,
-   "fetchedAt": "2026-10-26T13:26:10Z",
-   "players": {}
-  },
   "paris saint germain": {
    "id": 583,
    "slug": "club",
@@ -1708,6 +1701,13 @@
    "slug": "club",
    "name": "Charlton Athletic F.C.",
    "fetchedAt": "2026-10-26T13:26:10Z",
+   "players": {}
+  },
+  "aek athens": {
+   "id": null,
+   "slug": null,
+   "name": null,
+   "fetchedAt": "2026-10-26T13:39:05Z",
    "players": {}
   }
  }

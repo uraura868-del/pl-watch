@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-26T13:26:10Z",
+ "updatedAt": "2026-10-26T13:39:05Z",
  "logos": {
   "nat:england": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
   "club:swindon town": "https://a.espncdn.com/i/teamlogos/soccer/500/341.png",
@@ -438,6 +438,19 @@
   "club:metz": "https://a.espncdn.com/i/teamlogos/soccer/500/177.png",
   "club:chateauroux": "https://a.espncdn.com/i/teamlogos/soccer/500/2995.png",
   "club:havre": "https://a.espncdn.com/i/teamlogos/soccer/500/3236.png",
-  "club:lausanne": "https://a.espncdn.com/i/teamlogos/soccer/500/11551.png"
+  "club:lausanne": "https://a.espncdn.com/i/teamlogos/soccer/500/11551.png",
+  "club:stevenage": "https://a.espncdn.com/i/teamlogos/soccer/500/285.png",
+  "club:acf fiorentina": null,
+  "club:lyngby boldklub": "https://a.espncdn.com/i/teamlogos/soccer/500/7860.png",
+  "club:ndby": "https://a.espncdn.com/i/teamlogos/soccer/500/575.png",
+  "club:alcorcon": "https://a.espncdn.com/i/teamlogos/soccer/500/11121.png",
+  "club:union deportiva almeria": null,
+  "club:clevedon united": null,
+  "club:birmingham city": "https://a.espncdn.com/i/teamlogos/soccer/500/392.png",
+  "club:cheltenham town": "https://a.espncdn.com/i/teamlogos/soccer/500/21059.png",
+  "nat:great britain": null,
+  "nat:united kingdom": null,
+  "club:barnsley": "https://a.espncdn.com/i/teamlogos/soccer/500/397.png",
+  "club:stoke city": "https://a.espncdn.com/i/teamlogos/soccer/500/336.png"
  }
 }

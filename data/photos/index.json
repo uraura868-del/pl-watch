@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-26T12:38:46Z",
+ "updatedAt": "2026-10-26T13:04:00Z",
  "size": 256,
  "photos": {
   "https://img.a.transfermarkt.technology/portrait/medium/34130-1688121718.jpg?lm=4711": {
@@ -3883,6 +3883,102 @@
    "face": true,
    "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p432710.png",
    "fetchedAt": "2026-10-26T12:38:46Z"
+  },
+  "https://img.a.transfermarkt.technology/portrait/header/226049-1737883837.jpg?lm=4711": {
+   "file": "e6d1aa4372299f33.jpg",
+   "face": true,
+   "src": "https://img.a.transfermarkt.technology/portrait/header/226049-1737883837.jpg?lm=4711",
+   "fetchedAt": "2026-10-26T13:04:00Z"
+  },
+  "https://img.a.transfermarkt.technology/portrait/header/486604-1696603392.jpg?lm=4711": {
+   "file": "2a2eacb7c906640e.jpg",
+   "face": true,
+   "src": "https://img.a.transfermarkt.technology/portrait/header/486604-1696603392.jpg?lm=4711",
+   "fetchedAt": "2026-10-26T13:04:00Z"
+  },
+  "https://img.a.transfermarkt.technology/portrait/header/706815-1755504936.jpg?lm=4711": {
+   "file": "a61d9c675ef5918d.jpg",
+   "face": true,
+   "src": "https://img.a.transfermarkt.technology/portrait/header/706815-1755504936.jpg?lm=4711",
+   "fetchedAt": "2026-10-26T13:04:00Z"
+  },
+  "https://img.a.transfermarkt.technology/portrait/header/670861-1698353801.jpg?lm=4711": {
+   "file": "9b091efc742aa008.jpg",
+   "face": true,
+   "src": "https://img.a.transfermarkt.technology/portrait/header/670861-1698353801.jpg?lm=4711",
+   "fetchedAt": "2026-10-26T13:04:00Z"
+  },
+  "https://img.a.transfermarkt.technology/portrait/header/624258-1762340233.jpg?lm=4711": {
+   "file": "7984fe637a002ecb.jpg",
+   "face": true,
+   "src": "https://img.a.transfermarkt.technology/portrait/header/624258-1762340233.jpg?lm=4711",
+   "fetchedAt": "2026-10-26T13:04:00Z"
+  },
+  "https://img.a.transfermarkt.technology/portrait/header/1086619-1751532399.jpg?lm=4711": {
+   "file": "c4738b492162c462.jpg",
+   "face": false,
+   "src": "https://img.a.transfermarkt.technology/portrait/header/1086619-1751532399.jpg?lm=4711",
+   "fetchedAt": "2026-10-26T13:04:00Z"
+  },
+  "https://img.a.transfermarkt.technology/portrait/header/709726-1758714741.jpg?lm=4711": {
+   "file": "07cd1f5ac79c3899.jpg",
+   "face": true,
+   "src": "https://img.a.transfermarkt.technology/portrait/header/709726-1758714741.jpg?lm=4711",
+   "fetchedAt": "2026-10-26T13:04:00Z"
+  },
+  "https://img.a.transfermarkt.technology/portrait/header/939290-1709192145.jpg?lm=4711": {
+   "file": "59217bdc86706f7a.jpg",
+   "face": true,
+   "src": "https://img.a.transfermarkt.technology/portrait/header/939290-1709192145.jpg?lm=4711",
+   "fetchedAt": "2026-10-26T13:04:00Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p462424.png": {
+   "file": "2b6de2a936d8c8db.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p462424.png",
+   "fetchedAt": "2026-10-26T13:04:00Z"
+  },
+  "https://img.a.transfermarkt.technology/portrait/medium/74229-1664970397.jpg?lm=4711": {
+   "file": "0ffdcf04cccd0ba0.jpg",
+   "face": true,
+   "src": "https://img.a.transfermarkt.technology/portrait/medium/74229-1664970397.jpg?lm=4711",
+   "fetchedAt": "2026-10-26T13:04:00Z"
+  },
+  "https://img.a.transfermarkt.technology/portrait/medium/889435-1740863407.jpg?lm=4711": {
+   "file": "cbeca06bc1ee124c.jpg",
+   "face": true,
+   "src": "https://img.a.transfermarkt.technology/portrait/medium/889435-1740863407.jpg?lm=4711",
+   "fetchedAt": "2026-10-26T13:04:00Z"
+  },
+  "https://img.a.transfermarkt.technology/portrait/header/923757-1781091704.jpg?lm=4711": {
+   "file": "369ab509b0a05cb1.jpg",
+   "face": false,
+   "src": "https://img.a.transfermarkt.technology/portrait/header/923757-1781091704.jpg?lm=4711",
+   "fetchedAt": "2026-10-26T13:04:00Z"
+  },
+  "https://img.a.transfermarkt.technology/portrait/medium/116648-1700671752.jpg?lm=4711": {
+   "file": "719b610a8f4b6473.jpg",
+   "face": true,
+   "src": "https://img.a.transfermarkt.technology/portrait/medium/116648-1700671752.jpg?lm=4711",
+   "fetchedAt": "2026-10-26T13:04:00Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p493250.png": {
+   "file": "8f1d1ed40f618198.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p493250.png",
+   "fetchedAt": "2026-10-26T13:04:00Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p444463.png": {
+   "file": "71a558350577bdd9.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p444463.png",
+   "fetchedAt": "2026-10-26T13:04:00Z"
+  },
+  "https://img.a.transfermarkt.technology/portrait/header/142389-1746646196.jpg?lm=4711": {
+   "file": "d0690840c26c01be.jpg",
+   "face": true,
+   "src": "https://img.a.transfermarkt.technology/portrait/header/142389-1746646196.jpg?lm=4711",
+   "fetchedAt": "2026-10-26T13:04:00Z"
   }
  }
 }

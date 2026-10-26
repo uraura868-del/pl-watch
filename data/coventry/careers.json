@@ -1,4 +1,162 @@
 {
- "updatedAt": "2026-10-26T12:38:46Z",
- "players": {}
+ "updatedAt": "2026-10-26T13:04:00Z",
+ "players": {
+  "143007": {
+   "name": "Daniel Bentley",
+   "qid": "Q5216541",
+   "career": [
+    {
+     "club": "サウスエンド・ユナイテッドFC",
+     "clubEn": "Southend United F.C.",
+     "start": "2009",
+     "end": "2016",
+     "apps": 141,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/310.png"
+    },
+    {
+     "club": "ブレントリー・タウンFC",
+     "clubEn": "Braintree Town F.C.",
+     "start": "2011",
+     "end": "2011",
+     "apps": 2,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3828.png"
+    },
+    {
+     "club": "ブレントフォードFC",
+     "clubEn": "Brentford F.C.",
+     "start": "2016",
+     "end": "2019",
+     "apps": 123,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png"
+    },
+    {
+     "club": "ブリストル・シティFC",
+     "clubEn": "Bristol City F.C.",
+     "start": "2019",
+     "end": "2023",
+     "apps": 137,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/333.png"
+    },
+    {
+     "club": "ウォルヴァーハンプトン・ワンダラーズFC",
+     "clubEn": "Wolverhampton Wanderers F.C.",
+     "start": "2023",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/380.png"
+    }
+   ],
+   "fetchedAt": "2026-10-26T13:04:00Z"
+  },
+  "169619": {
+   "name": "Ben Wilson",
+   "qid": "Q16000020",
+   "career": [
+    {
+     "club": "ハローゲート・タウンFC",
+     "clubEn": "Harrogate Town A.F.C.",
+     "start": "2011",
+     "end": "2011",
+     "apps": 3,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21247.png"
+    },
+    {
+     "club": "サンダーランドAFC",
+     "clubEn": "Sunderland A.F.C.",
+     "start": "2011",
+     "end": "2013",
+     "apps": 0,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png"
+    },
+    {
+     "club": "ゲーツヘッドFC",
+     "clubEn": "Gateshead F.C.",
+     "start": "2012",
+     "end": "2012",
+     "apps": 0,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3138.png"
+    },
+    {
+     "club": "チェスターフィールドFC",
+     "clubEn": "Chesterfield F.C.",
+     "start": "2012",
+     "end": "2013",
+     "apps": 0,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/343.png"
+    },
+    {
+     "club": "ケンブリッジ・ユナイテッドFC",
+     "clubEn": "Cambridge United F.C.",
+     "start": "2013",
+     "end": "2013",
+     "apps": 0,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/351.png"
+    },
+    {
+     "club": "アクリントン・スタンリーFC",
+     "clubEn": "Accrington Stanley F.C.",
+     "start": "2013",
+     "end": "2013",
+     "apps": 0,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22459.png"
+    },
+    {
+     "club": "カーディフ・シティFC",
+     "clubEn": "Cardiff City F.C.",
+     "start": "2014",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/347.png"
+    },
+    {
+     "club": "AFCウィンブルドン",
+     "clubEn": "AFC Wimbledon",
+     "start": "2015",
+     "end": "2015",
+     "apps": 8,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3802.png"
+    }
+   ],
+   "fetchedAt": "2026-10-26T13:04:00Z"
+  }
+ }
 }

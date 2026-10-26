@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-26T12:38:46Z",
+ "updatedAt": "2026-10-26T13:04:00Z",
  "players": [
   {
    "id": "167192",
@@ -22,7 +22,7 @@
    "name": "Marcus Bettinelli",
    "jersey": "13",
    "pos": "G",
-   "photo": "https://img.a.transfermarkt.technology/portrait/medium/116648-1700671752.jpg?lm=4711",
+   "photo": "data/photos/719b610a8f4b6473.jpg",
    "injuries": [],
    "dob": "1992-05-24",
    "nat": "England",

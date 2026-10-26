@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-26T12:38:46Z",
+ "updatedAt": "2026-10-26T13:04:00Z",
  "clubs": {
   "manchester united": {
    "id": 985,
@@ -1547,6 +1547,90 @@
    "slug": "club",
    "name": "FK Kauno Žalgiris",
    "fetchedAt": "2026-10-26T12:38:46Z",
+   "players": {}
+  },
+  "luton town": {
+   "id": 1031,
+   "slug": "club",
+   "name": "Luton Town F.C.",
+   "fetchedAt": "2026-10-26T13:04:00Z",
+   "players": {}
+  },
+  "plymouth argyle": {
+   "id": 2262,
+   "slug": "club",
+   "name": "Plymouth Argyle F.C.",
+   "fetchedAt": "2026-10-26T13:04:00Z",
+   "players": {}
+  },
+  "besiktas": {
+   "id": 114,
+   "slug": "club",
+   "name": "Beşiktaş J.K.",
+   "fetchedAt": "2026-10-26T13:04:00Z",
+   "players": {}
+  },
+  "lyon": {
+   "id": 1041,
+   "slug": "club",
+   "name": "Olympique Lyonnais",
+   "fetchedAt": "2026-10-26T13:04:00Z",
+   "players": {}
+  },
+  "lech poznan": {
+   "id": 238,
+   "slug": "club",
+   "name": "Lech Poznań",
+   "fetchedAt": "2026-10-26T13:04:00Z",
+   "players": {}
+  },
+  "middlesbrough": {
+   "id": 641,
+   "slug": "club",
+   "name": "Middlesbrough F.C.",
+   "fetchedAt": "2026-10-26T13:04:00Z",
+   "players": {}
+  },
+  "wolverhampton wanderers": {
+   "id": 543,
+   "slug": "club",
+   "name": "Wolverhampton Wanderers F.C.",
+   "fetchedAt": "2026-10-26T13:04:00Z",
+   "players": {}
+  },
+  "preston north end": {
+   "id": 466,
+   "slug": "club",
+   "name": "Preston North End F.C.",
+   "fetchedAt": "2026-10-26T13:04:00Z",
+   "players": {}
+  },
+  "west ham united": {
+   "id": 379,
+   "slug": "club",
+   "name": "West Ham United F.C.",
+   "fetchedAt": "2026-10-26T13:04:00Z",
+   "players": {}
+  },
+  "afc wimbledon": {
+   "id": 3884,
+   "slug": "club",
+   "name": "AFC Wimbledon",
+   "fetchedAt": "2026-10-26T13:04:00Z",
+   "players": {}
+  },
+  "stoke city": {
+   "id": 512,
+   "slug": "club",
+   "name": "Stoke City F.C.",
+   "fetchedAt": "2026-10-26T13:04:00Z",
+   "players": {}
+  },
+  "leicester city": {
+   "id": 1003,
+   "slug": "club",
+   "name": "Leicester City F.C.",
+   "fetchedAt": "2026-10-26T13:04:00Z",
    "players": {}
   }
  }

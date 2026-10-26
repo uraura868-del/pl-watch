@@ -137,7 +137,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://img.a.transfermarkt.technology/portrait/header/923757-1781091704.jpg?lm=4711"
+    "photo": "data/photos/369ab509b0a05cb1.jpg"
    },
    {
     "id": "396630",
@@ -501,7 +501,7 @@
    "name": "Mark Gillespie",
    "jersey": "29",
    "pos": "G",
-   "photo": "https://img.a.transfermarkt.technology/portrait/header/142389-1746646196.jpg?lm=4711",
+   "photo": "data/photos/d0690840c26c01be.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"

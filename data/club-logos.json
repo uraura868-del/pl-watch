@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-26T12:38:46Z",
+ "updatedAt": "2026-10-26T13:04:00Z",
  "logos": {
   "nat:england": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
   "club:swindon town": "https://a.espncdn.com/i/teamlogos/soccer/500/341.png",
@@ -377,6 +377,29 @@
   "club:worthing": "https://a.espncdn.com/i/teamlogos/soccer/500/21253.png",
   "club:greenwich borough": "https://a.espncdn.com/i/teamlogos/soccer/500/132236.png",
   "club:basingstoke town": "https://a.espncdn.com/i/teamlogos/soccer/500/7162.png",
-  "club:crawley town": "https://a.espncdn.com/i/teamlogos/soccer/500/2594.png"
+  "club:crawley town": "https://a.espncdn.com/i/teamlogos/soccer/500/2594.png",
+  "club:schwechat": null,
+  "club:karlsruher": "https://a.espncdn.com/i/teamlogos/soccer/500/4471.png",
+  "club:ingolstadt": "https://a.espncdn.com/i/teamlogos/soccer/500/6367.png",
+  "club:university tsukuba": null,
+  "club:excelsior rotterdam": null,
+  "club:bohemian": null,
+  "club:odense boldklub": "https://a.espncdn.com/i/teamlogos/soccer/500/11550.png",
+  "nat:the gambia": null,
+  "club:jong genk": "https://a.espncdn.com/i/teamlogos/soccer/500/132764.png",
+  "club:figueres": null,
+  "club:olot": "https://a.espncdn.com/i/teamlogos/soccer/500/15967.png",
+  "club:real zaragoza": "https://a.espncdn.com/i/teamlogos/soccer/500/91.png",
+  "club:atalanta bergamasca u23": null,
+  "club:cagliari": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png",
+  "club:ettifaq": "https://a.espncdn.com/i/teamlogos/soccer/500/8363.png",
+  "club:beerschot": "https://a.espncdn.com/i/teamlogos/soccer/500/991.png",
+  "club:watford": "https://a.espncdn.com/i/teamlogos/soccer/500/395.png",
+  "club:braga": "https://a.espncdn.com/i/teamlogos/soccer/500/2994.png",
+  "club:lazio": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
+  "club:sociedade esportiva palmeiras": null,
+  "club:braintree town": "https://a.espncdn.com/i/teamlogos/soccer/500/3828.png",
+  "club:gateshead": "https://a.espncdn.com/i/teamlogos/soccer/500/3138.png",
+  "club:chesterfield": "https://a.espncdn.com/i/teamlogos/soccer/500/343.png"
  }
 }

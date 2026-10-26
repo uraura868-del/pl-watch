@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-26T22:36:15Z",
+ "updatedAt": "2026-10-26T22:53:13Z",
  "logos": {
   "nat:england": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
   "club:swindon town": "https://a.espncdn.com/i/teamlogos/soccer/500/341.png",
@@ -527,6 +527,10 @@
   "club:kolos kovalivka": "https://a.espncdn.com/i/teamlogos/soccer/500/131631.png",
   "club:sunderland reserves and academy": null,
   "club:queen park": null,
-  "club:dundee united": "https://a.espncdn.com/i/teamlogos/soccer/500/264.png"
+  "club:dundee united": "https://a.espncdn.com/i/teamlogos/soccer/500/264.png",
+  "club:shakhtar donetsk": "https://a.espncdn.com/i/teamlogos/soccer/500/493.png",
+  "club:arsenal kyiv": null,
+  "club:desna chernihiv": null,
+  "club:america": "https://a.espncdn.com/i/teamlogos/soccer/500/227.png"
  }
 }

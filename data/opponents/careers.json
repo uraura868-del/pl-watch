@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-26T22:53:13Z",
+ "updatedAt": "2026-10-26T23:38:20Z",
  "players": {
   "336794": {
    "name": "Abdoul Ouattara",
@@ -17387,6 +17387,1625 @@
     }
    ],
    "fetchedAt": "2026-10-26T22:53:13Z"
+  },
+  "342864": {
+   "name": "Joshua Keeley",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "152200": {
+   "name": "Kal Naismith",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "235695": {
+   "name": "Kasey Palmer",
+   "qid": "Q99760796",
+   "career": [
+    {
+     "club": "U-16サッカーイングランド代表",
+     "clubEn": "England national under-16 association football team",
+     "start": "2017",
+     "end": "2017",
+     "apps": 2,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
+    },
+    {
+     "club": "England national under-18 association football team",
+     "clubEn": "England national under-18 association football team",
+     "start": "2019",
+     "end": "2019",
+     "apps": 9,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
+    },
+    {
+     "club": "U-17サッカーイングランド代表",
+     "clubEn": "England national under-17 association football team",
+     "start": "2019",
+     "end": "2019",
+     "apps": 3,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
+    },
+    {
+     "club": "マンチェスター・シティFC",
+     "clubEn": "Manchester City F.C.",
+     "start": "2020",
+     "end": "2023",
+     "apps": 19,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png"
+    },
+    {
+     "club": "サッカーイングランドU-21代表",
+     "clubEn": "England national under-21 association football team",
+     "start": "2021",
+     "end": "2023",
+     "apps": 15,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
+    },
+    {
+     "club": "チェルシーFC",
+     "clubEn": "Chelsea F.C.",
+     "start": "2023",
+     "end": null,
+     "apps": 102,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png"
+    },
+    {
+     "club": "サッカーイングランド代表",
+     "clubEn": "England men's national association football team",
+     "start": "2023",
+     "end": null,
+     "apps": 14,
+     "national": true,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
+    }
+   ],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "16040": {
+   "name": "Liam Walsh",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "236457": {
+   "name": "Mads Andersen",
+   "qid": "Q15943423",
+   "career": [
+    {
+     "club": "UCサンプドリア",
+     "clubEn": "U.C. Sampdoria",
+     "start": null,
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2734.png"
+    },
+    {
+     "club": "Denmark national under-16 association football team",
+     "clubEn": "Denmark national under-16 association football team",
+     "start": "2012",
+     "end": "2012",
+     "apps": 1,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/den.png"
+    },
+    {
+     "club": "U-17サッカーデンマーク代表",
+     "clubEn": "Denmark national under-17 football team",
+     "start": "2012",
+     "end": "2012",
+     "apps": 1,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/den.png"
+    },
+    {
+     "club": "ヨング・トゥエンテ",
+     "clubEn": "Jong FC Twente",
+     "start": "2013",
+     "end": "2015",
+     "apps": 38,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": null
+    },
+    {
+     "club": "U-19サッカーデンマーク代表",
+     "clubEn": "Denmark national under-19 football team",
+     "start": "2014",
+     "end": "2015",
+     "apps": 13,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/den.png"
+    },
+    {
+     "club": "FCトゥウェンテ",
+     "clubEn": "FC Twente",
+     "start": "2014",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/152.png"
+    },
+    {
+     "club": "U-21デンマーク代表",
+     "clubEn": "Denmark national under-21 football team",
+     "start": "2015",
+     "end": null,
+     "apps": null,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/den.png"
+    }
+   ],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "155228": {
+   "name": "Nahki Wells",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "306013": {
+   "name": "Alfie Devine",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "240722": {
+   "name": "Alistair McCann",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "10176": {
+   "name": "Andrew Hughes",
+   "qid": "Q133920",
+   "career": [
+    {
+     "club": "ダービー・カウンティFC",
+     "clubEn": "Derby County F.C.",
+     "start": "2011",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/374.png"
+    },
+    {
+     "club": "U-17サッカーイングランド代表",
+     "clubEn": "England national under-17 association football team",
+     "start": "2012",
+     "end": "2012",
+     "apps": 6,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
+    },
+    {
+     "club": "サッカーイングランドU-21代表",
+     "clubEn": "England national under-21 association football team",
+     "start": "2012",
+     "end": null,
+     "apps": null,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
+    }
+   ],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "221307": {
+   "name": "Andrija Vukcevic",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "307126": {
+   "name": "Andy Moran",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "240158": {
+   "name": "Callum Lang",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "233301": {
+   "name": "Daniel Iversen",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "268606": {
+   "name": "Delano Burgzorg",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "414340": {
+   "name": "Ed Nolan",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "409632": {
+   "name": "George Gryba",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "293337": {
+   "name": "Harrison Clarke",
+   "qid": "Q57078908",
+   "career": [
+    {
+     "club": "リーズ・ユナイテッドAFC",
+     "clubEn": "Leeds United F.C.",
+     "start": "2019",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png"
+    }
+   ],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "241314": {
+   "name": "Jordan Storey",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "223046": {
+   "name": "Jordan Thompson",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "315675": {
+   "name": "Jusef Erabi",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "143638": {
+   "name": "Lee Nicholls",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "286120": {
+   "name": "Leo Leroy",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "261431": {
+   "name": "Lewis Gibson",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "179624": {
+   "name": "Liam Lindsay",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "261531": {
+   "name": "Pol Valentín",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "313009": {
+   "name": "Thierry Small",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "392313": {
+   "name": "Alan Nwamba",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "4599": {
+   "name": "Alex Williams",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "280554": {
+   "name": "Arthur Okonkwo",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "398165": {
+   "name": "Barney Stewart",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "296469": {
+   "name": "Billy Koumetio",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "3133912": {
+   "name": "Bradley Tagoe",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "236141": {
+   "name": "Callum Styles",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "251509": {
+   "name": "Chris Mepham",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "308447": {
+   "name": "Collins Sichenje",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "243543": {
+   "name": "Conor Coventry",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "168309": {
+   "name": "Conor Townsend",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "260748": {
+   "name": "Dan McNamara",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "251618": {
+   "name": "Felix Horn Myhre",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "231066": {
+   "name": "George Campbell",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "184165": {
+   "name": "Greg Docherty",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "375954": {
+   "name": "Harry Whitwell",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "259283": {
+   "name": "Harvey Knibbs",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "317857": {
+   "name": "Isaac Price",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "289548": {
+   "name": "Ivan Mesik",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "243465": {
+   "name": "Jayson Molumby",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "347415": {
+   "name": "Jimmy Morgan",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "243354": {
+   "name": "Joe Rankin-Costello",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "186298": {
+   "name": "Lloyd Jones",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "152633": {
+   "name": "Matt Ingram",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "3128726": {
+   "name": "Matthew Crowther",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "195607": {
+   "name": "Max O'Leary",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "376886": {
+   "name": "Micah Mbick",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "346449": {
+   "name": "Miles Leaburn",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "324205": {
+   "name": "Millenic Alli",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "362488": {
+   "name": "Nathan Asilmwe",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "275109": {
+   "name": "Nathaniel Phillips",
+   "qid": "Q17496506",
+   "career": [
+    {
+     "club": "チャールトン・アスレティックFC",
+     "clubEn": "Charlton Athletic F.C.",
+     "start": null,
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/372.png"
+    }
+   ],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "330963": {
+   "name": "Nolan Galves",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "398182": {
+   "name": "Oliver Bostock",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "228558": {
+   "name": "Ousmane Diakite",
+   "qid": "Q59528545",
+   "career": [
+    {
+     "club": "U-16サッカーフランス代表",
+     "clubEn": "France national under-16 association football team",
+     "start": "2016",
+     "end": "2017",
+     "apps": 8,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png"
+    },
+    {
+     "club": "U-18サッカーフランス代表",
+     "clubEn": "France national under-18 association football team",
+     "start": "2018",
+     "end": "2019",
+     "apps": 6,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png"
+    },
+    {
+     "club": "トゥールーズFC",
+     "clubEn": "Toulouse FC",
+     "start": "2018",
+     "end": "2022",
+     "apps": 82,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png"
+    },
+    {
+     "club": "U-19サッカーフランス代表",
+     "clubEn": "France national under-19 association football team",
+     "start": "2019",
+     "end": "2019",
+     "apps": 3,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png"
+    },
+    {
+     "club": "U-21サッカーフランス代表",
+     "clubEn": "France national under-21 association football team",
+     "start": "2020",
+     "end": "2022",
+     "apps": 1,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png"
+    },
+    {
+     "club": "LOSCリール",
+     "clubEn": "Lille OSC",
+     "start": "2022",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": null
+    }
+   ],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "365932": {
+   "name": "Rabby Nzingoula",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "310354": {
+   "name": "Robert Apter",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "243713": {
+   "name": "Sonny Carey",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "380144": {
+   "name": "Tammer Bany",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "308417": {
+   "name": "Tiernan Brooks",
+   "qid": "Q27909737",
+   "career": [
+    {
+     "club": "U-21サッカーウェールズ代表",
+     "clubEn": "Wales national under-21 football team",
+     "start": null,
+     "end": null,
+     "apps": null,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/wal.png"
+    },
+    {
+     "club": "AFCボーンマス",
+     "clubEn": "AFC Bournemouth",
+     "start": null,
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png"
+    }
+   ],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "330724": {
+   "name": "Timothy Ouma",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "251627": {
+   "name": "Alex Cochrane",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "330460": {
+   "name": "August Priske",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "217071": {
+   "name": "Bright Osayi-Samuel",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "172019": {
+   "name": "Carlos Vicente",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "263133": {
+   "name": "Christoph Klarer",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "223792": {
+   "name": "Dael Fry",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "194403": {
+   "name": "Demarai Gray",
+   "qid": "Q114826394",
+   "career": [
+    {
+     "club": "リーズ・ユナイテッドAFC",
+     "clubEn": "Leeds United F.C.",
+     "start": "2023",
+     "end": "2024",
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png"
+    },
+    {
+     "club": "トッテナム・ホットスパーFC",
+     "clubEn": "Tottenham Hotspur F.C.",
+     "start": "2024",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png"
+    }
+   ],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "291434": {
+   "name": "Ethan Laird",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "329170": {
+   "name": "James Beadle",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "301248": {
+   "name": "Jay Stansfield",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "285048": {
+   "name": "Jhon Solís",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "283859": {
+   "name": "Kanya Fujimoto",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "310466": {
+   "name": "Kristoffer Lund",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "252406": {
+   "name": "Lucas Perri",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "285032": {
+   "name": "Luis Vázquez",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "159150": {
+   "name": "Marvin Ducksch",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "256598": {
+   "name": "Paik Seung-Ho",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "194118": {
+   "name": "Patrick Roberts",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "238884": {
+   "name": "Phil Neumann",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "134929": {
+   "name": "Ryan Allsop",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "286056": {
+   "name": "Tomoki Iwata",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "257736": {
+   "name": "Alex Hartridge",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "107542": {
+   "name": "Alex McCarthy",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "341490": {
+   "name": "Amir Bristric",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "346807": {
+   "name": "Aribim Pepple",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "362208": {
+   "name": "Bae Jun-Ho",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "9426": {
+   "name": "Ben Johnson",
+   "qid": "Q66108160",
+   "career": [
+    {
+     "club": "ノッティンガム・フォレストFC",
+     "clubEn": "Nottingham Forest F.C.",
+     "start": "2019",
+     "end": "2023",
+     "apps": 91,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png"
+    },
+    {
+     "club": "リンカーン・シティFC",
+     "clubEn": "Lincoln City F.C.",
+     "start": "2020",
+     "end": "2021",
+     "apps": 40,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/314.png"
+    },
+    {
+     "club": "サッカーウェールズ代表",
+     "clubEn": "Wales men's national association football team",
+     "start": "2020",
+     "end": null,
+     "apps": null,
+     "national": true,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/wal.png"
+    },
+    {
+     "club": "トッテナム・ホットスパーFC",
+     "clubEn": "Tottenham Hotspur F.C.",
+     "start": "2023",
+     "end": "2026",
+     "apps": 107,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png"
+    },
+    {
+     "club": "クリスタル・パレスFC",
+     "clubEn": "Crystal Palace F.C.",
+     "start": "2026",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png"
+    }
+   ],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "194822": {
+   "name": "Ben Pearson",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "246945": {
+   "name": "Ben Wilmot",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "142055": {
+   "name": "Bobby De Cordova-Reid",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "323201": {
+   "name": "Bosun Lawal",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "334717": {
+   "name": "Bradley Ibrahim",
+   "qid": "Q138030920",
+   "career": [
+    {
+     "club": "Kilis Belediyespor",
+     "clubEn": "Kilis Belediyespor",
+     "start": "2026",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": null
+    }
+   ],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "329621": {
+   "name": "Caleb Roberts",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "290574": {
+   "name": "Caleb Watts",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "328239": {
+   "name": "Christian McFarlane",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "211756": {
+   "name": "Conor Chaplin",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "366358": {
+   "name": "Djibril Soumaré",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "163274": {
+   "name": "Ethan Galbraith",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "87309": {
+   "name": "Frank Fielding",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "388660": {
+   "name": "Freddie Anderson",
+   "qid": "Q104762954",
+   "career": [
+    {
+     "club": "U-17サッカースコットランド代表",
+     "clubEn": "Scotland national under-17 football team",
+     "start": "2018",
+     "end": "2019",
+     "apps": 3,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png"
+    },
+    {
+     "club": "ニューカッスル・ユナイテッドFC",
+     "clubEn": "Newcastle United F.C.",
+     "start": "2019",
+     "end": "2024",
+     "apps": 44,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png"
+    },
+    {
+     "club": "U-21サッカースコットランド代表",
+     "clubEn": "Scotland national under-21 football team",
+     "start": "2022",
+     "end": "2022",
+     "apps": 1,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png"
+    },
+    {
+     "club": "ブリストル・ローヴァーズFC",
+     "clubEn": "Bristol Rovers F.C.",
+     "start": "2022",
+     "end": "2022",
+     "apps": 21,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22099.png"
+    },
+    {
+     "club": "サッカーイングランドU-21代表",
+     "clubEn": "England national under-21 association football team",
+     "start": "2024",
+     "end": "2025",
+     "apps": 12,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
+    },
+    {
+     "club": "ノッティンガム・フォレストFC",
+     "clubEn": "Nottingham Forest F.C.",
+     "start": "2024",
+     "end": "2026",
+     "apps": 75,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png"
+    },
+    {
+     "club": "サッカーイングランド代表",
+     "clubEn": "England men's national association football team",
+     "start": "2025",
+     "end": null,
+     "apps": 21,
+     "national": true,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
+    },
+    {
+     "club": "マンチェスター・シティFC",
+     "clubEn": "Manchester City F.C.",
+     "start": "2026",
+     "end": null,
+     "apps": 5,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png"
+    }
+   ],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "412866": {
+   "name": "Gabriel Kelly",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "241325": {
+   "name": "George Hirst",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "378530": {
+   "name": "Harry Howell",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "207461": {
+   "name": "Harry Souttar",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "279789": {
+   "name": "Harvey White",
+   "qid": "Q27839155",
+   "career": [
+    {
+     "club": "ブライトン・アンド・ホーヴ・アルビオンFC",
+     "clubEn": "Brighton & Hove Albion F.C.",
+     "start": "2016",
+     "end": "2021",
+     "apps": 36,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png"
+    },
+    {
+     "club": "ニューポート・カウンティAFC",
+     "clubEn": "Newport County A.F.C.",
+     "start": "2017",
+     "end": "2018",
+     "apps": 42,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/635.png"
+    },
+    {
+     "club": "ピーターバラ・ユナイテッドFC",
+     "clubEn": "Peterborough United F.C.",
+     "start": "2019",
+     "end": "2019",
+     "apps": 15,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/342.png"
+    },
+    {
+     "club": "リーズ・ユナイテッドAFC",
+     "clubEn": "Leeds United F.C.",
+     "start": "2019",
+     "end": "2020",
+     "apps": 46,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png"
+    },
+    {
+     "club": "サッカーイングランド代表",
+     "clubEn": "England men's national association football team",
+     "start": "2021",
+     "end": null,
+     "apps": 6,
+     "national": true,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
+    },
+    {
+     "club": "アーセナルFC",
+     "clubEn": "Arsenal F.C.",
+     "start": "2021",
+     "end": null,
+     "apps": 136,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png"
+    }
+   ],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "296398": {
+   "name": "Jakub Stolarczyk",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "330427": {
+   "name": "James Storer",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "356073": {
+   "name": "Jayden Joseph",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "135863": {
+   "name": "Joe Edwards",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "409032": {
+   "name": "Joe Mwaro",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "281728": {
+   "name": "Joshua Griffiths",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "241504": {
+   "name": "Julio Pleguezuelo",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "395466": {
+   "name": "Laurence Giani",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "250786": {
+   "name": "Liam Cullen",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "391457": {
+   "name": "Louis Page",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "40299": {
+   "name": "Luke Graham",
+   "qid": "Q123554514",
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "227706": {
+   "name": "Luke Thomas",
+   "qid": "Q97059250",
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "372859": {
+   "name": "Mathias Ross",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "267335": {
+   "name": "Matthew Sorinola",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "305628": {
+   "name": "Million Manhoef",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "335402": {
+   "name": "Murphy Cooper",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "371701": {
+   "name": "Olabade Aluko",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "387933": {
+   "name": "Oliver Irow",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "3102199": {
+   "name": "Riley Carr",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "234917": {
+   "name": "Ronan Curtis",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "277100": {
+   "name": "Róbert Bozeník",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "196098": {
+   "name": "Sam Gallagher",
+   "qid": "Q44737408",
+   "career": [
+    {
+     "club": "U-17サッカーイングランド代表",
+     "clubEn": "England national under-17 association football team",
+     "start": "2017",
+     "end": "2018",
+     "apps": 4,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
+    },
+    {
+     "club": "England national under-18 association football team",
+     "clubEn": "England national under-18 association football team",
+     "start": "2018",
+     "end": "2018",
+     "apps": 6,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
+    },
+    {
+     "club": "U-19サッカーイングランド代表",
+     "clubEn": "England national under-19 association football team",
+     "start": "2018",
+     "end": "2019",
+     "apps": 9,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
+    },
+    {
+     "club": "U-20サッカーイングランド代表",
+     "clubEn": "England national under-20 association football team",
+     "start": "2019",
+     "end": "2019",
+     "apps": 4,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
+    },
+    {
+     "club": "チャールトン・アスレティックFC",
+     "clubEn": "Charlton Athletic F.C.",
+     "start": "2019",
+     "end": "2020",
+     "apps": 26,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/372.png"
+    },
+    {
+     "club": "サッカーイングランドU-21代表",
+     "clubEn": "England national under-21 association football team",
+     "start": "2019",
+     "end": "2022",
+     "apps": 15,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
+    },
+    {
+     "club": "チェルシーFC",
+     "clubEn": "Chelsea F.C.",
+     "start": "2019",
+     "end": "2024",
+     "apps": 72,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png"
+    },
+    {
+     "club": "スウォンジ・シティAFC",
+     "clubEn": "Swansea City A.F.C.",
+     "start": "2020",
+     "end": "2020",
+     "apps": 19,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/318.png"
+    },
+    {
+     "club": "ウェスト・ブロムウィッチ・アルビオンFC",
+     "clubEn": "West Bromwich Albion F.C.",
+     "start": "2020",
+     "end": "2021",
+     "apps": 30,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/383.png"
+    },
+    {
+     "club": "クリスタル・パレスFC",
+     "clubEn": "Crystal Palace F.C.",
+     "start": "2021",
+     "end": "2022",
+     "apps": 34,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png"
+    },
+    {
+     "club": "サッカーイングランド代表",
+     "clubEn": "England men's national association football team",
+     "start": "2021",
+     "end": null,
+     "apps": 22,
+     "national": true,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
+    },
+    {
+     "club": "アトレティコ・マドリード",
+     "clubEn": "Atlético Madrid",
+     "start": "2024",
+     "end": "2026",
+     "apps": 51,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png"
+    },
+    {
+     "club": "トッテナム・ホットスパーFC",
+     "clubEn": "Tottenham Hotspur F.C.",
+     "start": "2026",
+     "end": null,
+     "apps": 20,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png"
+    }
+   ],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "333417": {
+   "name": "Sammy Braybrooke",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "393380": {
+   "name": "Tegan Finn",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "403702": {
+   "name": "Tom Watson",
+   "qid": "Q140775528",
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "374138": {
+   "name": "Tommy Neale",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "310030": {
+   "name": "Tomás Rigo",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "288231": {
+   "name": "Tyler Martin",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "236124": {
+   "name": "Tyreeq Bakinson",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "181516": {
+   "name": "Wes Burns",
+   "qid": "Q108673780",
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "260874": {
+   "name": "Wes Harding",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "273839": {
+   "name": "Will Alves",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "150835": {
+   "name": "Will Evans",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "290581": {
+   "name": "Woyo Coulibaly",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "290807": {
+   "name": "Xavier Amaechi",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "365345": {
+   "name": "Luc de Fougerolles",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "393425": {
+   "name": "Bradley Burrowes",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "349075": {
+   "name": "Triston Rowe",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "291269": {
+   "name": "William Dennis",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "228319": {
+   "name": "Borna Sosa",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "183326": {
+   "name": "Cameron Humphreys",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "271191": {
+   "name": "Nathan Patterson",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
+  },
+  "349733": {
+   "name": "Ethan Nwaneri",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-26T23:38:20Z"
   }
  }
 }

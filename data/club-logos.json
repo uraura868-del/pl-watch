@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-26T13:39:05Z",
+ "updatedAt": "2026-10-26T13:51:51Z",
  "logos": {
   "nat:england": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
   "club:swindon town": "https://a.espncdn.com/i/teamlogos/soccer/500/341.png",
@@ -451,6 +451,17 @@
   "nat:great britain": null,
   "nat:united kingdom": null,
   "club:barnsley": "https://a.espncdn.com/i/teamlogos/soccer/500/397.png",
-  "club:stoke city": "https://a.espncdn.com/i/teamlogos/soccer/500/336.png"
+  "club:stoke city": "https://a.espncdn.com/i/teamlogos/soccer/500/336.png",
+  "club:trabzonspor": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
+  "club:caykur rizespor": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
+  "club:santa clara": "https://a.espncdn.com/i/teamlogos/soccer/500/12215.png",
+  "club:olympiacos": "https://a.espncdn.com/i/teamlogos/soccer/500/435.png",
+  "club:paderborn": "https://a.espncdn.com/i/teamlogos/soccer/500/3307.png",
+  "club:grays": null,
+  "club:leyton orient": "https://a.espncdn.com/i/teamlogos/soccer/500/309.png",
+  "club:kidderminster harriers": "https://a.espncdn.com/i/teamlogos/soccer/500/319.png",
+  "nat:albania": "https://a.espncdn.com/i/teamlogos/countries/500/alb.png",
+  "club:woodford town": "https://a.espncdn.com/i/teamlogos/soccer/500/132074.png",
+  "club:barrow": "https://a.espncdn.com/i/teamlogos/soccer/500/642.png"
  }
 }

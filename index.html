@@ -48,7 +48,10 @@
     </div>
     <div class="row">
       <span><b>ホーム画面に追加</b><small id="install-hint">アプリのように全画面で開けます。</small></span>
-      <button type="button" id="btn-install" class="btn-ghost">追加する</button>
+      <span class="btn-stack">
+        <button type="button" id="btn-install" class="btn-primary small">追加する</button>
+        <button type="button" id="btn-install-guide" class="btn-ghost">手順を見る</button>
+      </span>
     </div>
     <label class="row">
       <span><b>ネタバレロック</b><small>まだ観ていない試合より後のスタメン・欠場者を隠します</small></span>
@@ -99,6 +102,23 @@
     <menu><button type="button" id="btn-teams-all" class="btn-ghost">全チーム</button><button class="btn-primary" value="close">閉じる</button></menu>
   </form>
 </dialog>
+
+<dialog id="dlg-install" class="dlg guide">
+  <form method="dialog">
+    <button class="x" value="close" aria-label="閉じる">✕</button>
+    <h2>ホーム画面に追加する</h2>
+    <p class="note">追加するとアイコンから全画面で開けます。お使いの端末に合う手順を表示しています。違う場合は上のタブで切り替えてください。</p>
+    <div id="guide-tabs" class="guide-tabs"></div>
+    <div id="guide-body"></div>
+    <menu><button class="btn-primary" value="close">閉じる</button></menu>
+  </form>
+</dialog>
+
+<div id="install-banner" class="install-banner" hidden>
+  <span>ホーム画面に追加すると、アプリのように開けます。</span>
+  <button type="button" id="banner-guide" class="row-btn">手順を見る</button>
+  <button type="button" id="banner-close" class="icon-btn small" aria-label="閉じる">✕</button>
+</div>
 
 <dialog id="dlg-player" class="dlg player">
   <form method="dialog">

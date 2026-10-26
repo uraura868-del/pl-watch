@@ -987,18 +987,95 @@
   function renderInstall() {
     const btn = $("#btn-install"), hint = $("#install-hint");
     if (!btn) return;
-    if (isStandalone()) { btn.style.display = "none"; hint.textContent = "ホーム画面から開いています（追加済み）。"; return; }
-    if (installPrompt) { btn.style.display = ""; btn.textContent = "追加する"; hint.innerHTML = "押すとブラウザの確認（画面上部、アドレスバーの近くに出ます）が開きます。「インストール」を押すと追加されます。"; return; }
+    const guideBtn = $("#btn-install-guide");
+    if (isStandalone()) { btn.style.display = "none"; if (guideBtn) guideBtn.style.display = "none"; hint.textContent = "ホーム画面から開いています（追加済み）。"; return; }
+    if (guideBtn) guideBtn.style.display = "";
+    if (installPrompt) { btn.style.display = ""; btn.textContent = "追加する"; hint.textContent = "「追加する」を押すとブラウザの確認が出ます。うまくいかないときは「手順を見る」。"; return; }
     btn.style.display = "none";
-    if (isIOS()) {
-      const chrome = /CriOS/i.test(navigator.userAgent);
-      hint.innerHTML = chrome
-        ? "iPhone の Chrome: アドレスバー右の <b>共有ボタン</b>（□↑）を押し、メニューを下にスクロールして <b>「ホーム画面に追加」</b> → 右上の「追加」。iPhone ではボタン1つでの追加はできない仕様です（Safari でも同じ手順）。"
-        : "iPhone の Safari: 画面下の <b>共有ボタン</b>（□↑）→ 下にスクロールして <b>「ホーム画面に追加」</b> → 右上の「追加」。アイコン付きで追加されます。";
-    }
-    else hint.innerHTML = "Android: Chrome の <b>⋮ メニュー</b> → <b>「ホーム画面に追加」</b>（または「アプリをインストール」）。PC の Chrome: アドレスバー右端の <b>インストールのアイコン</b>（画面に↓の形）か、⋮ メニュー → 「キャスト、保存、共有」→「ページをアプリとしてインストール」。すでに追加済みの場合もこの表示になります。";
+    const labels = { "ios-safari": "iPhone の Safari", "ios-chrome": "iPhone の Chrome", android: "Android の Chrome", desktop: "PC のブラウザ" };
+    hint.textContent = `${labels[detectPlatform()]}向けの手順を「手順を見る」で表示します（画面の見本付き）。`;
   }
+  // ---- 端末別の追加手順ガイド
+  function detectPlatform() {
+    const ua = navigator.userAgent;
+    if (/iPhone|iPad|iPod/i.test(ua) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1)) return /CriOS/i.test(ua) ? "ios-chrome" : "ios-safari";
+    if (/Android/i.test(ua)) return "android";
+    return "desktop";
+  }
+  const GUIDE = {
+    "ios-safari": { label: "iPhone (Safari)", steps: [
+      { t: "画面下の共有ボタンを押す", d: "Safari の画面下、中央にある「四角から矢印が出た形」のボタンです。", mock: "share-bottom" },
+      { t: "下にスクロールして「ホーム画面に追加」", d: "メニューの上はアプリの一覧です。その下の文字のリストを下にたどると「ホーム画面に追加」があります。", mock: "sheet" },
+      { t: "右上の「追加」を押す", d: "名前は「PL Watch」のままで大丈夫です。ホーム画面にアイコンが並びます。", mock: "confirm" },
+    ]},
+    "ios-chrome": { label: "iPhone (Chrome)", steps: [
+      { t: "アドレスバー右の共有ボタンを押す", d: "画面上の URL が出ている帯の右端にある「四角から矢印が出た形」のボタンです。", mock: "share-top" },
+      { t: "下にスクロールして「ホーム画面に追加」", d: "メニューの上はアプリの一覧です。その下の文字のリストを下にたどると「ホーム画面に追加」があります。見つからない場合は、同じページを Safari で開いて「iPhone (Safari)」の手順で追加してください。", mock: "sheet" },
+      { t: "右上の「追加」を押す", d: "名前は「PL Watch」のままで大丈夫です。ホーム画面にアイコンが並びます。", mock: "confirm" },
+    ]},
+    "android": { label: "Android (Chrome)", steps: [
+      { t: "「追加する」ボタンを押す", d: "設定（⚙）の「ホーム画面に追加」にある「追加する」を押すと確認が出ます。ボタンが無い場合は、画面右上の ⋮ メニューを開きます。", mock: "menu-android" },
+      { t: "「ホーム画面に追加」または「アプリをインストール」", d: "⋮ メニューの中にある項目です。Chrome の版によって文言が違います。", mock: "sheet-android" },
+      { t: "「インストール」または「追加」を押す", d: "ホーム画面にアイコンが並び、そこから全画面で開けます。", mock: "confirm-android" },
+    ]},
+    "desktop": { label: "PC (Chrome / Edge)", steps: [
+      { t: "アドレスバー右端のインストールアイコンを押す", d: "URL の右側に出る「画面に↓」の形のアイコンです。出ていない場合は ⋮ メニュー →「キャスト、保存、共有」→「ページをアプリとしてインストール」。", mock: "install-desktop" },
+      { t: "「インストール」を押す", d: "小さな確認が出ます。", mock: "confirm-desktop" },
+      { t: "アプリとして開く", d: "デスクトップやスタートメニューに「PL Watch」が追加され、ブラウザの枠なしで開けます。", mock: "done" },
+    ]},
+  };
+  function mock(kind) {
+    const bar = (icon, pos) => `<div class="m-bar ${pos}"><span class="m-url">uraura868-del.github.io</span>${icon ? `<span class="m-ic hl">${icon}</span>` : ""}</div>`;
+    const share = `<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="M8 7l4-4 4 4"/><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7"/></svg>`;
+    const dots = `<span style="font-weight:900">⋮</span>`;
+    const inst = `<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M12 8v5"/><path d="M9.5 10.5 12 13l2.5-2.5"/><path d="M8 20h8"/></svg>`;
+    const sheetList = (items, hl) => `<div class="m-sheet"><div class="m-apps"><i></i><i></i><i></i><i></i></div>${items.map(x => `<div class="m-item ${x === hl ? "hl" : ""}">${esc(x)}</div>`).join("")}</div>`;
+    const confirm = (ok) => `<div class="m-confirm"><div class="m-top"><span>キャンセル</span><span class="hl">${esc(ok)}</span></div><div class="m-app"><span class="m-icon">PL</span><span class="m-name">PL Watch</span></div></div>`;
+    switch (kind) {
+      case "share-top": return `<div class="m-phone">${bar(share, "top")}<div class="m-page"></div></div>`;
+      case "share-bottom": return `<div class="m-phone"><div class="m-page"></div>${bar(share, "bottom")}</div>`;
+      case "sheet": return `<div class="m-phone">${sheetList(["コピー", "ブックマークに追加", "リーディングリストに追加", "ホーム画面に追加", "プリント"], "ホーム画面に追加")}</div>`;
+      case "confirm": return `<div class="m-phone">${confirm("追加")}</div>`;
+      case "menu-android": return `<div class="m-phone">${bar(dots, "top")}<div class="m-page"></div></div>`;
+      case "sheet-android": return `<div class="m-phone">${sheetList(["新しいタブ", "ブックマーク", "履歴", "ホーム画面に追加", "共有…"], "ホーム画面に追加")}</div>`;
+      case "confirm-android": return `<div class="m-phone">${confirm("インストール")}</div>`;
+      case "install-desktop": return `<div class="m-desktop"><div class="m-bar top"><span class="m-url">uraura868-del.github.io/pl-watch</span><span class="m-ic hl">${inst}</span><span class="m-ic">${dots}</span></div><div class="m-page"></div></div>`;
+      case "confirm-desktop": return `<div class="m-desktop"><div class="m-bar top"><span class="m-url">uraura868-del.github.io/pl-watch</span></div><div class="m-popup"><span class="m-icon">PL</span><div><b>アプリをインストールしますか？</b><small>PL Watch</small></div><span class="row-btn">インストール</span></div></div>`;
+      case "done": return `<div class="m-desktop"><div class="m-win"><span class="m-icon">PL</span><span class="m-name">PL Watch</span></div></div>`;
+      default: return "";
+    }
+  }
+  let guidePlatform = null;
+  function openInstallGuide(platform) {
+    guidePlatform = platform || guidePlatform || detectPlatform();
+    const tabs = $("#guide-tabs");
+    tabs.innerHTML = Object.entries(GUIDE).map(([k, g]) => `<button type="button" class="tab ${k === guidePlatform ? "on" : ""}" data-p="${k}">${esc(g.label)}</button>`).join("");
+    tabs.querySelectorAll("button").forEach(b => b.addEventListener("click", () => openInstallGuide(b.dataset.p)));
+    const g = GUIDE[guidePlatform];
+    $("#guide-body").innerHTML = `<div class="g-steps">${g.steps.map((s, i) => `<div class="g-step"><div class="g-num">${i + 1}</div><div class="g-text"><b>${esc(s.t)}</b><small>${esc(s.d)}</small></div>${mock(s.mock)}</div>`).join("")}</div>
+      ${guidePlatform === "android" && installPrompt ? `<button type="button" class="btn-primary" id="guide-install-now">今すぐ追加する</button>` : ""}`;
+    const now = $("#guide-install-now");
+    if (now) now.addEventListener("click", () => { $("#dlg-install").close(); $("#btn-install").click(); });
+    const d = $("#dlg-install");
+    if (!d.open) d.showModal();
+  }
+  const BANNER_KEY = "plwatch.installBanner";
+  function maybeShowBanner() {
+    const b = $("#install-banner");
+    if (!b) return;
+    let dismissed = false;
+    try { dismissed = localStorage.getItem(BANNER_KEY) === "1"; } catch { /* ignore */ }
+    const mobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    if (dismissed || isStandalone() || !mobile) return;
+    b.hidden = false;
+    const close = () => { b.hidden = true; try { localStorage.setItem(BANNER_KEY, "1"); } catch { /* ignore */ } };
+    $("#banner-close").addEventListener("click", close);
+    $("#banner-guide").addEventListener("click", () => { close(); openInstallGuide(); });
+  }
+
   function bindInstall() {
+    $("#btn-install-guide").addEventListener("click", () => openInstallGuide());
+    maybeShowBanner();
     window.addEventListener("beforeinstallprompt", e => { e.preventDefault(); installPrompt = e; renderInstall(); });
     window.addEventListener("appinstalled", () => { installPrompt = null; toast("ホーム画面に追加しました"); renderInstall(); });
     $("#btn-install").addEventListener("click", async () => {

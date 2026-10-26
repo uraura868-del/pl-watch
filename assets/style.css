@@ -187,6 +187,48 @@ details.more[open] summary::before { content: "▾ "; }
 .lock-msg { padding: 24px 16px; text-align: center; color: var(--muted); }
 .lock-msg .big { font-size: 40px; }
 
+/* ---- ホーム画面に追加: ガイドとバナー ---- */
+.btn-stack { display: flex; flex-direction: column; gap: 6px; align-items: flex-end; flex: 0 0 auto; }
+.install-banner { position: sticky; bottom: calc(8px + var(--safe-b)); margin: 0 12px 8px; z-index: 6; display: flex; align-items: center; gap: 10px; background: #222a40; border: 1px solid rgba(255,255,255,.12); border-radius: 14px; padding: 10px 10px 10px 14px; font-size: 12px; }
+.install-banner[hidden] { display: none; }
+.install-banner span { flex: 1; }
+.icon-btn.small { font-size: 14px; padding: 4px; margin: 0; }
+.dlg.guide { width: min(94vw, 520px); }
+.guide-tabs { display: flex; gap: 6px; flex-wrap: wrap; margin: 8px 0 12px; }
+.guide-tabs .tab { font-size: 11px; padding: 5px 10px; }
+.g-steps { display: flex; flex-direction: column; gap: 12px; }
+.g-step { display: grid; grid-template-columns: 26px 1fr 128px; gap: 10px; align-items: start; background: var(--card-bg); border: var(--card-border); border-radius: 12px; padding: 12px; }
+.g-num { width: 26px; height: 26px; border-radius: 50%; background: var(--accent); color: #fff; font-weight: 700; display: grid; place-items: center; font-size: 13px; }
+.g-text b { display: block; font-size: 13px; margin-bottom: 4px; }
+.g-text small { display: block; font-size: 11px; color: var(--muted); line-height: 1.5; }
+@media (max-width: 420px) { .g-step { grid-template-columns: 26px 1fr; } .g-step .m-phone, .g-step .m-desktop { grid-column: 2; } }
+/* 見本（小さなスマホ／PC画面） */
+.m-phone { width: 128px; height: 150px; border-radius: 14px; background: #f3f4f8; border: 3px solid #333; overflow: hidden; display: flex; flex-direction: column; color: #222; font-size: 9px; }
+.m-desktop { width: 128px; height: 110px; border-radius: 8px; background: #f3f4f8; border: 3px solid #333; overflow: hidden; display: flex; flex-direction: column; color: #222; font-size: 9px; position: relative; }
+.m-bar { display: flex; align-items: center; gap: 4px; padding: 5px 6px; background: #e6e8ee; }
+.m-bar.bottom { margin-top: auto; justify-content: center; }
+.m-url { flex: 1; background: #fff; border-radius: 8px; padding: 3px 6px; font-size: 8px; color: #555; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.m-bar.bottom .m-url { display: none; }
+.m-ic { display: inline-flex; align-items: center; justify-content: center; width: 22px; height: 22px; border-radius: 6px; color: #333; }
+.m-ic.hl { outline: 2px solid var(--accent); outline-offset: 1px; color: var(--accent); }
+.m-page { flex: 1; margin: 6px; border-radius: 6px; background: #d9dce6; }
+.m-sheet { flex: 1; display: flex; flex-direction: column; padding: 6px; gap: 2px; }
+.m-apps { display: flex; gap: 4px; margin-bottom: 4px; }
+.m-apps i { width: 22px; height: 22px; border-radius: 6px; background: #c9cdd9; }
+.m-item { padding: 4px 6px; border-top: 1px solid #dde0e8; color: #444; }
+.m-item.hl { background: #fde8e9; color: #9b1a14; font-weight: 700; border-radius: 6px; outline: 2px solid var(--accent); }
+.m-confirm { flex: 1; padding: 8px; }
+.m-top { display: flex; justify-content: space-between; color: #555; margin-bottom: 10px; }
+.m-top .hl { color: var(--accent); font-weight: 700; outline: 2px solid var(--accent); border-radius: 4px; padding: 0 3px; }
+.m-app { display: flex; align-items: center; gap: 6px; }
+.m-icon { width: 26px; height: 26px; border-radius: 6px; background: #0d1220; color: #fff; font-weight: 900; font-size: 10px; display: inline-grid; place-items: center; flex: 0 0 auto; }
+.m-name { border-bottom: 1px solid #c9cdd9; flex: 1; padding-bottom: 2px; }
+.m-popup { position: absolute; top: 28px; right: 6px; left: 6px; background: #fff; border: 1px solid #c9cdd9; border-radius: 8px; padding: 6px; display: flex; align-items: center; gap: 6px; font-size: 8px; }
+.m-popup > div { min-width: 0; flex: 1; }
+.m-popup b { display: block; font-size: 7px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; } .m-popup small { color: #666; display: block; }
+.m-popup .row-btn { font-size: 8px; padding: 3px 6px; }
+.m-win { margin: auto; display: flex; align-items: center; gap: 6px; background: #fff; border: 1px solid #c9cdd9; border-radius: 8px; padding: 8px 10px; }
+
 /* ---- footer / dialogs / toast ---- */
 .foot { text-align: center; font-size: 10px; color: var(--muted); padding: 8px 16px calc(24px + var(--safe-b)); }
 .dlg { border: 0; border-radius: 18px; background: #161c2e; color: var(--fg); padding: 0; width: min(92vw, 420px); }

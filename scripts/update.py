@@ -686,28 +686,67 @@ def update_injuries(tdir: Path, team: dict) -> None:
 
 
 # ---------------------------------------------------------------- カレンダー (.ics)
+def _esc_ics(s: str) -> str:
+    return (s or "").replace("\\", "\\\\").replace(",", "\\,").replace(";", "\\;").replace("\n", "\\n")
+
+
+def _ics_event(f: dict, title: str) -> list[str]:
+    dt = datetime.strptime(f["date"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
+    start = dt.strftime("%Y%m%dT%H%M%SZ")
+    end = (dt + timedelta(hours=2)).strftime("%Y%m%dT%H%M%SZ")
+    return ["BEGIN:VEVENT", f"UID:{f['eventId']}@pl-watch", f"DTSTAMP:{NOW.strftime('%Y%m%dT%H%M%SZ')}",
+            f"DTSTART:{start}", f"DTEND:{end}", f"SUMMARY:{_esc_ics(title)}",
+            f"DESCRIPTION:{_esc_ics((f.get('competition') or '') + '。スタメンはキックオフ約1時間前から PL Watch で確認できます。')}",
+            f"LOCATION:{_esc_ics(f.get('venue') or '')}",
+            "BEGIN:VALARM", "TRIGGER:-PT60M", "ACTION:DISPLAY", "DESCRIPTION:スタメン公開のころです", "END:VALARM",
+            "END:VEVENT"]
+
+
 def write_ics(tdir: Path, team: dict, fixtures: list[dict]) -> None:
     """Google カレンダー等で購読できる日程ファイル。キックオフ時刻だけで、結果は含めない"""
-    def esc_ics(s: str) -> str:
-        return (s or "").replace("\\", "\\\\").replace(",", "\\,").replace(";", "\\;").replace("\n", "\\n")
     lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//pl-watch//JP", "CALSCALE:GREGORIAN", "METHOD:PUBLISH",
-             f"X-WR-CALNAME:{esc_ics(team.get('shortName') or team['name'])} 日程（PL Watch）", "X-WR-TIMEZONE:Asia/Tokyo"]
+             f"X-WR-CALNAME:{_esc_ics(team.get('shortName') or team['name'])} 日程（PL Watch）", "X-WR-TIMEZONE:Asia/Tokyo"]
     for f in fixtures:
         if f.get("status") == "postponed":
             continue
-        dt = datetime.strptime(f["date"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
-        start = dt.strftime("%Y%m%dT%H%M%SZ")
-        end = (dt + timedelta(hours=2)).strftime("%Y%m%dT%H%M%SZ")
         ha = "H" if f.get("isHome") else "A"
         title = f"{team.get('shortName') or team['name']} vs {f['opponent']['name']} ({f.get('compShort') or f.get('competition', '')}, {ha})"
-        lines += ["BEGIN:VEVENT", f"UID:{f['eventId']}@pl-watch", f"DTSTAMP:{NOW.strftime('%Y%m%dT%H%M%SZ')}",
-                  f"DTSTART:{start}", f"DTEND:{end}", f"SUMMARY:{esc_ics(title)}",
-                  f"DESCRIPTION:{esc_ics((f.get('competition') or '') + '。スタメンはキックオフ約1時間前から PL Watch で確認できます。')}",
-                  f"LOCATION:{esc_ics(f.get('venue') or '')}",
-                  "BEGIN:VALARM", "TRIGGER:-PT60M", "ACTION:DISPLAY", "DESCRIPTION:スタメン公開のころです", "END:VALARM",
-                  "END:VEVENT"]
+        lines += _ics_event(f, title)
     lines.append("END:VCALENDAR")
     (tdir / "fixtures.ics").write_text("\r\n".join(lines) + "\r\n", encoding="utf-8")
+
+
+def write_all_ics(teams: list[dict]) -> None:
+    """全チームの試合をまとめた購読カレンダー（同じ試合は1件にまとめる）"""
+    seen: set[str] = set()
+    events: list[tuple[str, list[str]]] = []
+    ja_by_espn = {str(t["espnTeamId"]): (t.get("shortName") or t["name"]) for t in teams}  # 追跡チームは日本語名で
+    for team in teams:
+        fp = DATA / team["id"] / "fixtures.json"
+        if not fp.exists():
+            continue
+        try:
+            fixtures = json.loads(fp.read_text(encoding="utf-8")).get("fixtures", [])
+        except Exception:  # noqa: BLE001
+            continue
+        tn = team.get("shortName") or team["name"]
+        for f in fixtures:
+            if f.get("status") == "postponed" or f["eventId"] in seen:
+                continue
+            seen.add(f["eventId"])
+            opp = ja_by_espn.get(str(f["opponent"].get("id")), f["opponent"]["name"])
+            home, away = (tn, opp) if f.get("isHome") else (opp, tn)
+            title = f"{home} vs {away} ({f.get('compShort') or f.get('competition', '')})"
+            events.append((f["date"], _ics_event(f, title)))
+    events.sort(key=lambda e: e[0])
+    lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//pl-watch//JP", "CALSCALE:GREGORIAN", "METHOD:PUBLISH",
+             "X-WR-CALNAME:プレミアリーグ 全試合（PL Watch）", "X-WR-TIMEZONE:Asia/Tokyo"]
+    for _, ev in events:
+        lines += ev
+    lines.append("END:VCALENDAR")
+    (DATA / "all").mkdir(parents=True, exist_ok=True)
+    (DATA / "all" / "fixtures.ics").write_text("\r\n".join(lines) + "\r\n", encoding="utf-8")
+    log(f"全体カレンダー: {len(events)} 試合")
 
 
 # ---------------------------------------------------------------- 顔写真の切り出し (OpenCV)
@@ -1500,6 +1539,10 @@ def main() -> int:
         except Exception as e:  # noqa: BLE001
             ok = False
             log(f"!! {team.get('id')} の更新に失敗: {e!r}")
+    try:
+        write_all_ics(teams)
+    except Exception as e:  # noqa: BLE001
+        log(f"!! 全体カレンダーの生成に失敗: {e!r}")
     # --- 相手チームの選手（観る試合のスタメン・ベンチ）の経歴と動画。チーム横断で共有キャッシュ
     try:
         opp = collect_opponent_players(teams, photo_index)

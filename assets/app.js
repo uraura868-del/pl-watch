@@ -84,6 +84,7 @@
         await this.push();
         applyDisplayPrefs();
         renderTabs();
+        if (state.teamId === "all") { renderAllList(); return; }
         if (state.teamId && !visibleTeams().some(t => t.id === state.teamId)) { selectTeam(visibleTeams()[0].id); return; }
         if (state.teamId) { renderList(); if (state.selected) { const f = state.fixtures.find(x => x.eventId === state.selected); if (f) renderDetail(f, state.matchCache.get(f.eventId) || null, classify().get(f.eventId)); } }
         toast(`ログインしました: ${this.user.displayName || ""}`);
@@ -143,6 +144,19 @@
     const wd = WD[j.getDay()];
     const hm = `${pad(j.getHours())}:${pad(j.getMinutes())}`;
     return { md, wd, hm, full: `${md}(${wd}) ${hm}` };
+  }
+  // ---------------------------------------------------------------- Google カレンダー連携
+  // 購読カレンダーをワンタッチで追加（Google カレンダーが「追加しますか」と聞いてくる）
+  const gcalSubscribeUrl = icsUrl => `https://calendar.google.com/calendar/render?cid=${encodeURIComponent(icsUrl.replace(/^https?:/, "webcal:"))}`;
+  // 1試合だけを予定として追加（日時・対戦・会場が入力済みの画面が開く）
+  function gcalEventUrl(f, teamName) {
+    const start = new Date(f.date), end = new Date(start.getTime() + 2 * 3600 * 1000);
+    const fmt = d => d.toISOString().replace(/[-:]/g, "").replace(/\.\d{3}/, "");
+    const text = f.isHome ? `${teamName} vs ${f.opponent.name}` : `${f.opponent.name} vs ${teamName}`;
+    const p = new URLSearchParams({ action: "TEMPLATE", text: `${text} (${f.compShort || f.competition || ""})`,
+      dates: `${fmt(start)}/${fmt(end)}`, details: `${f.competition || ""}。スタメンはキックオフ約1時間前から PL Watch で確認できます。\n${location.href.split("?")[0]}`,
+      location: f.venue || "" });
+    return `https://calendar.google.com/calendar/render?${p.toString()}`;
   }
   function toast(msg) {
     const t = $("#toast");
@@ -390,6 +404,10 @@
     if (kind === "current" || kind === "open") btn = `<button class="row-btn" data-act="watch" title="この試合を観た">✓ 観た</button>`;
     else if (kind === "locked") btn = `<button class="row-btn" data-act="upto" title="この試合まで全部観たことにする">ここまで観た</button>`;
     else if (kind === "watched") btn = `<button class="row-btn ghost" data-act="unwatch" title="未視聴に戻す">戻す</button>`;
+    else if (kind === "upcoming") {
+      const team = state.teams.find(x => x.id === state.teamId);
+      btn = `<a class="row-btn ghost cal" href="${esc(gcalEventUrl(f, team?.shortName || team?.name || ""))}" target="_blank" rel="noopener" title="Google カレンダーに追加" data-act="gcal">📅 追加</a>`;
+    }
     return `<div class="fx ${esc(kind)} ${big ? "big" : ""} ${clickable ? "clickable" : ""} ${state.selected === f.eventId ? "selected" : ""}" data-id="${esc(f.eventId)}" ${clickable ? 'role="button" tabindex="0"' : ""}>
       <div class="d">${esc(t.md)}<small>${esc(t.wd)} ${esc(t.hm)}</small></div>
       ${kind === "locked" ? `<div class="crest-lock">${crest}<span class="lockic small">🔒</span></div>` : crest}
@@ -436,6 +454,7 @@
     });
     el.querySelectorAll(".row-btn").forEach(b => b.addEventListener("click", e => {
       e.stopPropagation();
+      if (b.dataset.act === "gcal") return;  // リンクはそのまま開く
       const id = b.closest(".fx").dataset.id;
       const f = state.fixtures.find(x => x.eventId === id);
       if (!f) return;
@@ -493,7 +512,8 @@
         <div class="match-head"><img class="crest" src="${esc(f.opponent.logo)}" alt="">
           <div><div class="vs">${esc(ha)} ・ ${esc(f.competition)}${f.venue ? " ・ " + esc(f.venue) : ""}</div>
           <div class="opp">vs ${esc(f.opponent.name)}</div>
-          <div class="when">${esc(t.full)} キックオフ（日本時間）</div></div>${badge}</div>`;
+          <div class="when">${esc(t.full)} キックオフ（日本時間）
+            <a class="cal-link" href="${esc(gcalEventUrl(f, state.teams.find(x => x.id === state.teamId)?.shortName || ""))}" target="_blank" rel="noopener">📅 カレンダーに追加</a></div></div>${badge}</div>`;
 
     if (m && m.team) {
       const side = state.showOpp && m.opponent && m.opponent.starters ? m.opponent : m.team;
@@ -718,8 +738,12 @@
     $("#team-name").textContent = team.name;
     $("#team-sub").textContent = `${team.leagueName || ""} 2026-27 ・ ネタバレなし`;
     const icsUrl = new URL(`data/${team.id}/fixtures.ics`, location.href).href;
+    const allUrl = new URL("data/all/fixtures.ics", location.href).href;
     $("#ics-url").value = icsUrl;
     $("#ics-webcal").href = icsUrl.replace(/^https?:/, "webcal:");
+    $("#gcal-team").href = gcalSubscribeUrl(icsUrl);
+    $("#gcal-team").textContent = `📅 ${team.shortName || team.name}の日程を Google カレンダーに登録`;
+    $("#gcal-all").href = gcalSubscribeUrl(allUrl);
     renderTabs();
     $("#list").innerHTML = `<div class="empty">読み込み中...</div>`;
     $("#detail").innerHTML = `<div class="empty">一覧から試合を選んでください</div>`;
@@ -749,6 +773,74 @@
     }
   }
 
+  // ---------------------------------------------------------------- 「全体」タブ（全チームの日程を日付順に）
+  const allFixturesCache = new Map();
+  let allShowPast = false;
+  async function selectAll() {
+    state.teamId = "all";
+    state.prefs.team = "all"; save();
+    state.selected = null; state.fixtures = [];
+    document.body.classList.remove("show-detail");
+    document.documentElement.style.setProperty("--accent", "#e2231a");
+    $("#team-crest").src = "https://a.espncdn.com/i/leaguelogos/soccer/500/23.png";
+    $("#team-name").textContent = "プレミアリーグ 全体";
+    $("#team-sub").textContent = "全チームの日程（日本時間）";
+    const allUrl = new URL("data/all/fixtures.ics", location.href).href;
+    $("#ics-url").value = allUrl; $("#ics-webcal").href = allUrl.replace(/^https?:/, "webcal:");
+    $("#gcal-team").href = gcalSubscribeUrl(allUrl); $("#gcal-team").textContent = "📅 全チームの日程を Google カレンダーに登録"; $("#gcal-all").href = gcalSubscribeUrl(allUrl);
+    renderTabs();
+    $("#list").innerHTML = `<div class="empty">読み込み中...</div>`;
+    $("#detail").innerHTML = `<div class="empty">左の一覧から試合を選ぶと、そのチームの画面に移ります</div>`;
+    await renderAllList();
+  }
+  async function renderAllList() {
+    const teams = visibleTeams();
+    const byEspn = new Map(state.teams.map(t => [String(t.espnTeamId), t]));
+    const lists = await Promise.all(teams.map(async t => {
+      if (!allFixturesCache.has(t.id)) {
+        try { allFixturesCache.set(t.id, (await fetchJson(`data/${t.id}/fixtures.json`)).fixtures || []); } catch { allFixturesCache.set(t.id, []); }
+      }
+      return allFixturesCache.get(t.id).map(f => ({ ...f, _team: t }));
+    }));
+    // 同じ試合（両チームとも追跡中）は1件にまとめる。ホーム側のチームの行を優先
+    const map = new Map();
+    for (const f of lists.flat()) {
+      const cur = map.get(f.eventId);
+      if (!cur || (f.isHome && !cur.isHome)) map.set(f.eventId, f);
+    }
+    const now = Date.now(), cutoff = now - 3 * 86400 * 1000;
+    let rows = [...map.values()].sort((a, b) => a.date.localeCompare(b.date));
+    const pastCount = rows.filter(f => new Date(f.date).getTime() < cutoff).length;
+    if (!allShowPast) rows = rows.filter(f => new Date(f.date).getTime() >= cutoff);
+    const groups = new Map();
+    for (const f of rows) { const t = fmtParts(f.date); const key = `${t.md}(${t.wd})`; if (!groups.has(key)) groups.set(key, []); groups.get(key).push(f); }
+    const row = f => {
+      const t = fmtParts(f.date);
+      const me = f._team, opp = byEspn.get(String(f.opponent.id));
+      const meName = me.shortName || me.name, oppName = opp ? (opp.shortName || opp.name) : f.opponent.name;
+      const meCrest = `https://a.espncdn.com/i/teamlogos/soccer/500/${me.espnTeamId}.png`;
+      const [hN, hC, aN, aC] = f.isHome ? [meName, meCrest, oppName, f.opponent.logo] : [oppName, f.opponent.logo, meName, meCrest];
+      const comp = f.compShort && f.compShort !== "PL" ? `<span class="comp">${esc(f.compShort)}</span>` : "";
+      const st = f.status === "postponed" ? `<span class="badge warn">延期</span>` : f.status === "played" ? `<span class="badge dim">終了</span>` : f.hasLineup ? `<span class="badge ok">スタメン公開</span>` : `<span class="badge dim">予定</span>`;
+      return `<div class="fx all clickable" data-id="${esc(f.eventId)}" data-team="${esc(me.id)}" role="button" tabindex="0">
+        <div class="d">${esc(t.hm)}</div>
+        <div class="vs2"><span class="tm"><img class="crest" src="${esc(hC)}" alt="" loading="lazy">${esc(hN)}</span><span class="v">vs</span><span class="tm"><img class="crest" src="${esc(aC)}" alt="" loading="lazy">${esc(aN)}</span>${comp}</div>
+        <div class="side">${st}</div></div>`;
+    };
+    let html = "";
+    if (pastCount && !allShowPast) html += `<button class="back" id="btn-all-past">‹ 終了した試合も表示（${pastCount}）</button>`;
+    for (const [day, fs] of groups) html += `<div class="section-label">${esc(day)} <span class="count">${fs.length}</span></div><div class="card">${fs.map(row).join("")}</div>`;
+    if (!rows.length) html += `<div class="card"><div class="ghost-row">表示できる試合がありません</div></div>`;
+    const el = $("#list");
+    el.innerHTML = html;
+    const pb = $("#btn-all-past"); if (pb) pb.addEventListener("click", () => { allShowPast = true; renderAllList(); });
+    el.querySelectorAll(".fx.all").forEach(r => {
+      const go = async () => { await selectTeam(r.dataset.team); openMatch(r.dataset.id); };
+      r.addEventListener("click", go);
+      r.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); go(); } });
+    });
+  }
+
   // お気に入り（prefs.teams）に絞ったチーム一覧。未選択なら全チーム
   function visibleTeams() {
     const fav = (state.prefs.teams || []).filter(id => state.teams.some(t => t.id === id));
@@ -757,9 +849,11 @@
   function renderTabs() {
     const el = $("#tabs");
     const list = visibleTeams();
-    el.innerHTML = list.map(t => `<button class="tab ${t.id === state.teamId ? "on" : ""}" data-id="${esc(t.id)}"><img class="tab-crest" src="https://a.espncdn.com/i/teamlogos/soccer/500/${esc(t.espnTeamId)}.png" alt="">${esc(t.shortName || t.name)}</button>`).join("")
+    el.innerHTML = `<button class="tab all ${state.teamId === "all" ? "on" : ""}" id="tab-all">🗓 全体</button>`
+      + list.map(t => `<button class="tab ${t.id === state.teamId ? "on" : ""}" data-id="${esc(t.id)}"><img class="tab-crest" src="https://a.espncdn.com/i/teamlogos/soccer/500/${esc(t.espnTeamId)}.png" alt="">${esc(t.shortName || t.name)}</button>`).join("")
       + `<button class="tab add" id="tab-add">${list.length < state.teams.length ? "＋ チームを選ぶ" : "チームを絞る"}</button>`;
     el.querySelectorAll(".tab[data-id]").forEach(b => b.addEventListener("click", () => selectTeam(b.dataset.id)));
+    $("#tab-all").addEventListener("click", selectAll);
     $("#tab-add").addEventListener("click", openTeamPicker);
     const on = el.querySelector(".tab.on");
     if (on) on.scrollIntoView({ inline: "center", block: "nearest" });
@@ -772,9 +866,10 @@
     box.querySelectorAll("input").forEach(cb => cb.addEventListener("change", () => {
       const ids = [...box.querySelectorAll("input:checked")].map(x => x.dataset.id);
       state.prefs.teams = ids; save(); renderTabs();
-      if (!visibleTeams().some(t => t.id === state.teamId)) selectTeam(visibleTeams()[0].id);
+      if (state.teamId === "all") renderAllList();
+      else if (!visibleTeams().some(t => t.id === state.teamId)) selectTeam(visibleTeams()[0].id);
     }));
-    $("#btn-teams-all").onclick = () => { box.querySelectorAll("input").forEach(x => x.checked = false); state.prefs.teams = []; save(); renderTabs(); };
+    $("#btn-teams-all").onclick = () => { box.querySelectorAll("input").forEach(x => x.checked = false); state.prefs.teams = []; save(); renderTabs(); if (state.teamId === "all") renderAllList(); };
     $("#dlg-addteam").showModal();
   }
 
@@ -826,7 +921,8 @@
       } else {
         $("#updated").textContent = "データ未取得";
       }
-      // 前回のチーム → お気に入りの先頭 → 先頭チーム の順
+      // 前回のチーム（「全体」含む） → お気に入りの先頭 → 先頭チーム の順
+      if (state.prefs.team === "all") { await selectAll(); return; }
       const first = visibleTeams()[0];
       const initial = (state.prefs.team && visibleTeams().some(t => t.id === state.prefs.team)) ? state.prefs.team : (first && first.id);
       await selectTeam(initial);

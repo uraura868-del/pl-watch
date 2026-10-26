@@ -39,6 +39,13 @@ body.hide-names .pl .nm { display: none; }
 .tab.on { background: var(--accent); color: #fff; }
 .tab.add { opacity: .7; }
 .tab { display: inline-flex; align-items: center; gap: 6px; }
+.tab.all { border: 1px solid rgba(255,255,255,.18); }
+.fx.all .d { width: 46px; font-size: 16px; }
+.fx.all .vs2 { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; min-width: 0; flex: 1; font-weight: 700; font-size: 13px; }
+.fx.all .vs2 .tm { display: inline-flex; align-items: center; gap: 5px; }
+.fx.all .vs2 .crest { width: 22px; height: 22px; }
+.fx.all .vs2 .v { color: var(--muted); font-weight: 400; font-size: 11px; }
+.fx.all .vs2 .comp { margin-left: 0; }
 .tab-crest { width: 16px; height: 16px; }
 .team-picker { display: grid; grid-template-columns: 1fr 1fr; gap: 4px 10px; max-height: 50vh; overflow-y: auto; margin: 8px 0; }
 .tp-row { display: flex; align-items: center; gap: 8px; padding: 6px 4px; border-radius: 8px; cursor: pointer; font-size: 13px; }
@@ -187,6 +194,10 @@ details.more[open] summary::before { content: "▾ "; }
 .dlg menu { margin: 14px 0 0; padding: 0; display: flex; justify-content: flex-end; }
 .dlg .row.col { flex-direction: column; align-items: stretch; gap: 8px; }
 .ics-box { display: flex; gap: 6px; flex-wrap: wrap; }
+.btn-primary.small { font-size: 12px; padding: 7px 12px; text-decoration: none; display: inline-flex; align-items: center; }
+.cal-link { display: inline-block; margin-left: 8px; font-size: 11px; color: #9fb4ff; text-decoration: none; border: 1px solid rgba(159,180,255,.4); border-radius: 999px; padding: 1px 8px; }
+.cal-link:hover { background: rgba(159,180,255,.12); }
+.row-btn.cal { text-decoration: none; }
 .ics-box input { flex: 1 1 160px; min-width: 0; background: rgba(0,0,0,.35); border: 1px solid rgba(255,255,255,.12); color: var(--fg); border-radius: 8px; padding: 6px 8px; font-size: 11px; }
 .ics-box a.btn-ghost { text-decoration: none; display: inline-flex; align-items: center; }
 .fx .comp { display: inline-block; margin-left: 6px; font-size: 10px; font-weight: 700; padding: 1px 6px; border-radius: 4px; background: rgba(255,255,255,.14); color: #fff; vertical-align: middle; letter-spacing: .05em; }

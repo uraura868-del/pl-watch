@@ -60,13 +60,17 @@
       <button type="button" id="btn-reset" class="btn-ghost">リセット</button>
     </div>
     <div class="row col">
-      <span><b>キックオフ通知（カレンダー購読）</b><small>下の URL をカレンダーに「URL で追加」すると日程が入り、通知設定で「1時間前」にするとスタメン公開のころに知らせてくれます。結果は含まれません。</small></span>
+      <span><b>キックオフ通知（カレンダー購読）</b><small>ボタンを押すと Google カレンダーに日程の購読を登録できます。登録後、そのカレンダーの通知を「1時間前」にするとスタメン公開のころに知らせてくれます。結果は含まれません。</small></span>
+      <div class="ics-box">
+        <a id="gcal-team" class="btn-primary small" href="#" target="_blank" rel="noopener">📅 このチームを Google カレンダーに登録</a>
+        <a id="gcal-all" class="btn-primary small" href="#" target="_blank" rel="noopener">📅 全チームの試合を登録</a>
+      </div>
       <div class="ics-box">
         <input type="text" id="ics-url" readonly>
-        <button type="button" id="btn-copy-ics" class="btn-ghost">コピー</button>
+        <button type="button" id="btn-copy-ics" class="btn-ghost">URL をコピー</button>
         <a id="ics-webcal" class="btn-ghost" href="#">iPhone / Mac で登録</a>
       </div>
-      <small class="note">Google カレンダー: PC で「他のカレンダー ＋ → URL で追加」に貼り付け。追加後、そのカレンダーの通知を「1時間前」に設定。</small>
+      <small class="note">スマホの Google カレンダーアプリから登録できない場合は、PC のブラウザでボタンを押すか、URL をコピーして「他のカレンダー ＋ → URL で追加」に貼り付けてください。</small>
     </div>
     <p class="note" id="settings-note"></p>
     <menu><button class="btn-primary" value="close">閉じる</button></menu>

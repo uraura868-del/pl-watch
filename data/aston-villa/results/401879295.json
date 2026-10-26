@@ -1,0 +1,24 @@
+{
+ "eventId": "401879295",
+ "date": "2026-08-31T19:00:00Z",
+ "opponent": {
+  "name": "Arsenal",
+  "abbr": "ARS"
+ },
+ "isHome": true,
+ "score": {
+  "us": 0,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Bukayo Saka",
+   "assist": "Riccardo Calafiori",
+   "minute": "59'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

@@ -1,0 +1,31 @@
+{
+ "eventId": "401879288",
+ "date": "2026-09-04T19:00:00Z",
+ "opponent": {
+  "name": "Ipswich Town",
+  "abbr": "IPS"
+ },
+ "isHome": false,
+ "score": {
+  "us": 2,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Alexander Isak",
+   "assist": "Cody Gakpo",
+   "minute": "6'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Alexander Isak",
+   "assist": "Cody Gakpo",
+   "minute": "9'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

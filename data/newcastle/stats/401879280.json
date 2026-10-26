@@ -1,0 +1,78 @@
+{
+ "eventId": "401879280",
+ "date": "2026-09-14T19:00:00Z",
+ "opponent": {
+  "name": "Leeds United",
+  "abbr": "LEE"
+ },
+ "ht": {
+  "us": {
+   "shots": 1,
+   "onTarget": 1,
+   "offTarget": 0,
+   "blocked": 0,
+   "corners": 2,
+   "fouls": 8,
+   "offsides": 1,
+   "yellow": 0,
+   "red": 0
+  },
+  "opp": {
+   "shots": 9,
+   "onTarget": 3,
+   "offTarget": 2,
+   "blocked": 4,
+   "corners": 3,
+   "fouls": 8,
+   "offsides": 1,
+   "yellow": 1,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 5,
+   "onTarget": 4,
+   "offTarget": 1,
+   "blocked": 0,
+   "corners": 5,
+   "fouls": 26,
+   "offsides": 3,
+   "yellow": 2,
+   "red": 0,
+   "possession": "49.4",
+   "passesAccurate": "343",
+   "passes": "418",
+   "passAcc": "0.8",
+   "crossesAccurate": "1",
+   "crosses": "18",
+   "tacklesWon": "14",
+   "tackles": "19",
+   "interceptions": "5",
+   "clearances": "36"
+  },
+  "opp": {
+   "shots": 12,
+   "onTarget": 3,
+   "offTarget": 4,
+   "blocked": 5,
+   "corners": 5,
+   "fouls": 16,
+   "offsides": 2,
+   "yellow": 1,
+   "red": 0,
+   "possession": "50.6",
+   "passesAccurate": "356",
+   "passes": "429",
+   "passAcc": "0.8",
+   "crossesAccurate": "6",
+   "crosses": "16",
+   "tacklesWon": "11",
+   "tackles": "18",
+   "interceptions": "9",
+   "clearances": "28"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

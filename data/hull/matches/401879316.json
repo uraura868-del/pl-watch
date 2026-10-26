@@ -1,0 +1,606 @@
+{
+ "eventId": "401879316",
+ "date": "2026-08-29T14:00:00Z",
+ "final": true,
+ "updatedAt": "2026-10-26T12:16:14Z",
+ "team": {
+  "formation": "5-4-1",
+  "rows": [
+   [
+    "284199"
+   ],
+   [
+    "243576",
+    "356212",
+    "168424",
+    "178051",
+    "231826"
+   ],
+   [
+    "270752",
+    "249851",
+    "357145",
+    "320417"
+   ],
+   [
+    "193010"
+   ]
+  ],
+  "starters": [
+   {
+    "id": "284199",
+    "name": "Konstantinos Tzolakis",
+    "jersey": "19",
+    "pos": "G",
+    "starter": true,
+    "place": "1",
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p473284.png"
+   },
+   {
+    "id": "168424",
+    "name": "John Egan",
+    "jersey": "15",
+    "pos": "CD",
+    "starter": true,
+    "place": "5",
+    "photo": "data/photos/e82b33336b3e3a0a.jpg"
+   },
+   {
+    "id": "356212",
+    "name": "Nobel Mendy",
+    "jersey": "32",
+    "pos": "CD-L",
+    "starter": true,
+    "place": "4",
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p606930.png"
+   },
+   {
+    "id": "178051",
+    "name": "Semi Ajayi",
+    "jersey": "6",
+    "pos": "CD-R",
+    "starter": true,
+    "place": "6",
+    "photo": "data/photos/d11e21b63e008efe.jpg"
+   },
+   {
+    "id": "243576",
+    "name": "Ryan Giles",
+    "jersey": "3",
+    "pos": "LB",
+    "starter": true,
+    "place": "3",
+    "photo": "data/photos/65408e097d0206cb.jpg"
+   },
+   {
+    "id": "231826",
+    "name": "Lewie Coyle",
+    "jersey": "2",
+    "pos": "RB",
+    "starter": true,
+    "place": "2",
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p193278.png"
+   },
+   {
+    "id": "270752",
+    "name": "Hidemasa Morita",
+    "jersey": "5",
+    "pos": "CM-L",
+    "starter": true,
+    "place": "10",
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p445028.png"
+   },
+   {
+    "id": "249851",
+    "name": "Regan Slater",
+    "jersey": "27",
+    "pos": "CM-R",
+    "starter": true,
+    "place": "8",
+    "photo": "data/photos/cb53c4c8986fb83c.jpg"
+   },
+   {
+    "id": "357145",
+    "name": "Elliot Stroud",
+    "jersey": "21",
+    "pos": "LM",
+    "starter": true,
+    "place": "11",
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p608227.png"
+   },
+   {
+    "id": "320417",
+    "name": "Mohamed Belloumi",
+    "jersey": "10",
+    "pos": "RM",
+    "starter": true,
+    "place": "7",
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p540324.png"
+   },
+   {
+    "id": "193010",
+    "name": "Oliver McBurnie",
+    "jersey": "9",
+    "pos": "F",
+    "starter": true,
+    "place": "9",
+    "photo": "data/photos/8ceb2180d5fa7fff.jpg"
+   }
+  ],
+  "bench": [
+   {
+    "id": "392320",
+    "name": "Lucas Herrington",
+    "jersey": "22",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p597462.png"
+   },
+   {
+    "id": "306557",
+    "name": "Mohamed-Ali Cho",
+    "jersey": "50",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p490884.png"
+   },
+   {
+    "id": "303338",
+    "name": "Lucas Gourna-Douath",
+    "jersey": "29",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p469266.png"
+   },
+   {
+    "id": "271879",
+    "name": "Liam Millar",
+    "jersey": "7",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": null
+   },
+   {
+    "id": "192929",
+    "name": "Matt Targett",
+    "jersey": "23",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": "data/photos/9e199adc9bc929e1.jpg"
+   },
+   {
+    "id": "279786",
+    "name": "Cody Drameh",
+    "jersey": "18",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": null
+   },
+   {
+    "id": "354149",
+    "name": "Jens Hjerto Dahl",
+    "jersey": "14",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p552946.png"
+   },
+   {
+    "id": "191603",
+    "name": "Dillon Phillips",
+    "jersey": "12",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p167825.png"
+   },
+   {
+    "id": "210139",
+    "name": "Paddy McNair",
+    "jersey": "17",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": "data/photos/fd20f09a3100c0f4.jpg"
+   }
+  ]
+ },
+ "opponent": {
+  "id": "388",
+  "name": "Coventry City",
+  "formation": "4-2-3-1",
+  "rows": [
+   [
+    "307069"
+   ],
+   [
+    "206172",
+    "319404",
+    "303931",
+    "281139"
+   ],
+   [
+    "191337",
+    "387659"
+   ],
+   [
+    "246954",
+    "286967",
+    "324541"
+   ],
+   [
+    "194686"
+   ]
+  ],
+  "starters": [
+   {
+    "id": "307069",
+    "name": "Carl Rushworth",
+    "jersey": "19",
+    "pos": "G",
+    "starter": true,
+    "place": "1",
+    "photo": "data/photos/88c133b12215812b.jpg",
+    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p472739.png"
+   },
+   {
+    "id": "319404",
+    "name": "Aurèle Amenda",
+    "jersey": "24",
+    "pos": "CD-L",
+    "starter": true,
+    "place": "6",
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p539142.png",
+    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p539142.png"
+   },
+   {
+    "id": "303931",
+    "name": "Bobby Thomas",
+    "jersey": "4",
+    "pos": "CD-R",
+    "starter": true,
+    "place": "5",
+    "photo": "data/photos/39e17d03d72aefae.jpg",
+    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p461102.png"
+   },
+   {
+    "id": "206172",
+    "name": "Jay Da Silva",
+    "jersey": "3",
+    "pos": "LB",
+    "starter": true,
+    "place": "3",
+    "photo": null
+   },
+   {
+    "id": "281139",
+    "name": "Milan van Ewijk",
+    "jersey": "27",
+    "pos": "RB",
+    "starter": true,
+    "place": "2",
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p451284.png",
+    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p451284.png"
+   },
+   {
+    "id": "286967",
+    "name": "Jack Rudoni",
+    "jersey": "5",
+    "pos": "AM",
+    "starter": true,
+    "place": "10",
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p480457.png",
+    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p480457.png"
+   },
+   {
+    "id": "191337",
+    "name": "Matt Grimes",
+    "jersey": "6",
+    "pos": "LM",
+    "starter": true,
+    "place": "4",
+    "photo": "data/photos/c8835fb199773446.jpg",
+    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p168144.png"
+   },
+   {
+    "id": "387659",
+    "name": "Caleb Yirenkyi",
+    "jersey": "8",
+    "pos": "RM",
+    "starter": true,
+    "place": "8",
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p661888.png",
+    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p661888.png"
+   },
+   {
+    "id": "194686",
+    "name": "Taiwo Awoniyi",
+    "jersey": "14",
+    "pos": "F",
+    "starter": true,
+    "place": "9",
+    "photo": "data/photos/d6dd5218ad5bc70f.jpg",
+    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p210156.png"
+   },
+   {
+    "id": "246954",
+    "name": "Ephron Mason-Clark",
+    "jersey": "10",
+    "pos": "AM-L",
+    "starter": true,
+    "place": "11",
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p241293.png",
+    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p241293.png"
+   },
+   {
+    "id": "324541",
+    "name": "Loum Tchaouna",
+    "jersey": "18",
+    "pos": "AM-R",
+    "starter": true,
+    "place": "7",
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p469272.png",
+    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p469272.png"
+   }
+  ],
+  "bench": [
+   {
+    "id": "241093",
+    "name": "Ethan Pinnock",
+    "jersey": "2",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": "data/photos/e726bc6410c929bb.jpg",
+    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p231065.png"
+   },
+   {
+    "id": "282647",
+    "name": "Ellis Simms",
+    "jersey": "9",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": "data/photos/e61803d863426d46.jpg",
+    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p218997.png"
+   },
+   {
+    "id": "260168",
+    "name": "Joel Latibeaudiere",
+    "jersey": "22",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": "data/photos/55aee361d9c47f77.jpg",
+    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p204813.png"
+   },
+   {
+    "id": "269341",
+    "name": "Liam Kitching",
+    "jersey": "15",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": null
+   },
+   {
+    "id": "256015",
+    "name": "Victor Torp",
+    "jersey": "29",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p226965.png",
+    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p226965.png"
+   },
+   {
+    "id": "302002",
+    "name": "Tatsuhiro Sakamoto",
+    "jersey": "7",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p501459.png",
+    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p501459.png"
+   },
+   {
+    "id": "236912",
+    "name": "Gustavo Hamer",
+    "jersey": "38",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": "data/photos/46eff4d349d980fa.jpg",
+    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p196100.png"
+   },
+   {
+    "id": "143007",
+    "name": "Daniel Bentley",
+    "jersey": "25",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": "data/photos/99d039c736363e3c.jpg",
+    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p79602.png"
+   },
+   {
+    "id": "240495",
+    "name": "Brandon Thomas-Asante",
+    "jersey": "23",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p230730.png",
+    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p230730.png"
+   }
+  ]
+ },
+ "absentees": [
+  {
+   "id": "157933",
+   "name": "Jack Butland",
+   "jersey": "1",
+   "pos": "G",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p105666.png",
+   "type": "理由不明",
+   "reason": "",
+   "source": "none"
+  },
+  {
+   "id": "326187",
+   "name": "Charlie Hughes",
+   "jersey": "4",
+   "pos": "D",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p501902.png",
+   "type": "理由不明",
+   "reason": "",
+   "source": "none"
+  },
+  {
+   "id": "250478",
+   "name": "Sorba Thomas",
+   "jersey": "7",
+   "pos": "F",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p243951.png",
+   "type": "理由不明",
+   "reason": "",
+   "source": "none"
+  },
+  {
+   "id": "306055",
+   "name": "Eliot Matazo",
+   "jersey": "8",
+   "pos": "M",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p465525.png",
+   "type": "理由不明",
+   "reason": "",
+   "source": "none"
+  },
+  {
+   "id": "277531",
+   "name": "Joe Gelhardt",
+   "jersey": "11",
+   "pos": "F",
+   "photo": "data/photos/4739868334b71a64.jpg",
+   "type": "理由不明",
+   "reason": "",
+   "source": "none"
+  },
+  {
+   "id": "311173",
+   "name": "Brooke Norton-Cuffy",
+   "jersey": "18",
+   "pos": "D",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p496181.png",
+   "type": "理由不明",
+   "reason": "",
+   "source": "none"
+  },
+  {
+   "id": "328740",
+   "name": "Óscar Zambrano",
+   "jersey": "20",
+   "pos": "M",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p553783.png",
+   "type": "理由不明",
+   "reason": "",
+   "source": "none"
+  },
+  {
+   "id": "308216",
+   "name": "Darko Gyabi",
+   "jersey": "24",
+   "pos": "M",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p470294.png",
+   "type": "理由不明",
+   "reason": "",
+   "source": "none"
+  },
+  {
+   "id": "153613",
+   "name": "Matt Crooks",
+   "jersey": "25",
+   "pos": "M",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p101282.png",
+   "type": "理由不明",
+   "reason": "",
+   "source": "none"
+  },
+  {
+   "id": "194114",
+   "name": "Kieran Dowell",
+   "jersey": "26",
+   "pos": "M",
+   "photo": "data/photos/5227daf30d3cbe43.jpg",
+   "type": "理由不明",
+   "reason": "",
+   "source": "none"
+  },
+  {
+   "id": "366363",
+   "name": "Ilyas Ansah",
+   "jersey": "28",
+   "pos": "F",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p626751.png",
+   "type": "理由不明",
+   "reason": "",
+   "source": "none"
+  },
+  {
+   "id": "239750",
+   "name": "Abdülkadir Ömür",
+   "jersey": "33",
+   "pos": "M",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p208481.png",
+   "type": "理由不明",
+   "reason": "",
+   "source": "none"
+  },
+  {
+   "id": "387657",
+   "name": "Christos Mouzakitis",
+   "jersey": "36",
+   "pos": "M",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p647839.png",
+   "type": "理由不明",
+   "reason": "",
+   "source": "none"
+  },
+  {
+   "id": "310599",
+   "name": "Tim Iroegbunam",
+   "jersey": "42",
+   "pos": "M",
+   "photo": "data/photos/0c5e488084cc5126.jpg",
+   "type": "理由不明",
+   "reason": "",
+   "source": "none"
+  },
+  {
+   "id": "377894",
+   "name": "Robinio Vaz",
+   "jersey": "47",
+   "pos": "F",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p631000.png",
+   "type": "理由不明",
+   "reason": "",
+   "source": "none"
+  },
+  {
+   "id": "414372",
+   "name": "Archie Howard",
+   "jersey": "55",
+   "pos": "G",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p608469.png",
+   "type": "理由不明",
+   "reason": "",
+   "source": "none"
+  }
+ ]
+}

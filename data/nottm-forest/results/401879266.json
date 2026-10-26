@@ -1,0 +1,45 @@
+{
+ "eventId": "401879266",
+ "date": "2026-10-11T13:00:00Z",
+ "opponent": {
+  "name": "Crystal Palace",
+  "abbr": "CRY"
+ },
+ "isHome": false,
+ "score": {
+  "us": 1,
+  "opp": 3
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Dan Ndoye",
+   "assist": null,
+   "minute": "3'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Daichi Kamada",
+   "assist": "Quinten Timber",
+   "minute": "41'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Jefferson Lerma",
+   "assist": "Adam Wharton",
+   "minute": "45'+4'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Yéremy Pino",
+   "assist": null,
+   "minute": "59'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

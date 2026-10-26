@@ -1,0 +1,24 @@
+{
+ "eventId": "401879276",
+ "date": "2026-09-20T13:00:00Z",
+ "opponent": {
+  "name": "Liverpool",
+  "abbr": "LIV"
+ },
+ "isHome": true,
+ "score": {
+  "us": 0,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Alexander Isak",
+   "assist": null,
+   "minute": "57'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

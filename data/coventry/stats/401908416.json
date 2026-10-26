@@ -1,0 +1,78 @@
+{
+ "eventId": "401908416",
+ "date": "2026-08-25T18:45:00Z",
+ "opponent": {
+  "name": "Plymouth Argyle",
+  "abbr": "PLY"
+ },
+ "ht": {
+  "us": {
+   "shots": 3,
+   "onTarget": 0,
+   "offTarget": 2,
+   "blocked": 1,
+   "corners": 1,
+   "fouls": 12,
+   "offsides": 2,
+   "yellow": 1,
+   "red": 0
+  },
+  "opp": {
+   "shots": 8,
+   "onTarget": 2,
+   "offTarget": 6,
+   "blocked": 0,
+   "corners": 1,
+   "fouls": 16,
+   "offsides": 1,
+   "yellow": 0,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 8,
+   "onTarget": 1,
+   "offTarget": 5,
+   "blocked": 2,
+   "corners": 3,
+   "fouls": 24,
+   "offsides": 3,
+   "yellow": 2,
+   "red": 0,
+   "possession": "65.7",
+   "passesAccurate": "443",
+   "passes": "525",
+   "passAcc": "0.8",
+   "crossesAccurate": "6",
+   "crosses": "15",
+   "tacklesWon": "4",
+   "tackles": "8",
+   "interceptions": "10",
+   "clearances": "18"
+  },
+  "opp": {
+   "shots": 9,
+   "onTarget": 3,
+   "offTarget": 6,
+   "blocked": 0,
+   "corners": 3,
+   "fouls": 44,
+   "offsides": 2,
+   "yellow": 1,
+   "red": 0,
+   "possession": "34.3",
+   "passesAccurate": "179",
+   "passes": "267",
+   "passAcc": "0.7",
+   "crossesAccurate": "3",
+   "crosses": "13",
+   "tacklesWon": "8",
+   "tackles": "11",
+   "interceptions": "6",
+   "clearances": "20"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

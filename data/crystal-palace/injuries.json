@@ -1,0 +1,17 @@
+{
+ "updatedAt": "2026-10-26T12:16:14Z",
+ "fetchedOk": true,
+ "players": [
+  {
+   "name": "Chadi Riad",
+   "reason": "Knee injury",
+   "reasonJa": "膝の負傷",
+   "type": "負傷",
+   "since": "2026-08-23",
+   "until": null,
+   "firstSeen": "2026-10-26",
+   "lastSeen": "2026-10-26",
+   "active": true
+  }
+ ]
+}

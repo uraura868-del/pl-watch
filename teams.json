@@ -1,5 +1,5 @@
 {
-  "_help": "チームを追加するときはこの配列に1件足すだけ。espnTeamId は ESPN の URL (espn.com/soccer/team/_/id/360/...) の数字、plTeamId は premierleague.com のクラブID、tmTeamId/tmSlug は transfermarkt.com のURL (transfermarkt.com/<tmSlug>/startseite/verein/<tmTeamId>)。competitions は取得する大会（ESPN のリーグコード）。",
+  "_help": "チームの設定。id は URL やデータフォルダ名に使う。espnTeamId=ESPN、plTeamId=premierleague.com、tmTeamId=transfermarkt.com のID。competitions は取得する大会（ESPN のリーグコード）。",
   "teams": [
     {
       "id": "man-utd",
@@ -13,13 +13,617 @@
       "tmSlug": "manchester-united",
       "color": "#da020e",
       "competitions": [
-        { "league": "eng.1", "name": "プレミアリーグ", "short": "PL" },
-        { "league": "uefa.champions", "name": "チャンピオンズリーグ", "short": "CL" },
-        { "league": "eng.league_cup", "name": "カラバオ杯", "short": "EFL" },
-        { "league": "eng.fa", "name": "FA杯", "short": "FA" },
-        { "league": "uefa.europa", "name": "ヨーロッパリーグ", "short": "EL" },
-        { "league": "uefa.europa.conf", "name": "カンファレンスリーグ", "short": "ECL" },
-        { "league": "eng.charity", "name": "コミュニティ・シールド", "short": "CS" }
+        {
+          "league": "eng.1",
+          "name": "プレミアリーグ",
+          "short": "PL"
+        },
+        {
+          "league": "eng.fa",
+          "name": "FA杯",
+          "short": "FA"
+        },
+        {
+          "league": "eng.league_cup",
+          "name": "カラバオ杯",
+          "short": "EFL"
+        },
+        {
+          "league": "uefa.champions",
+          "name": "チャンピオンズリーグ",
+          "short": "CL"
+        }
+      ]
+    },
+    {
+      "id": "bournemouth",
+      "name": "AFC Bournemouth",
+      "shortName": "ボーンマス",
+      "league": "eng.1",
+      "leagueName": "プレミアリーグ",
+      "espnTeamId": "349",
+      "plTeamId": 127,
+      "tmTeamId": 989,
+      "tmSlug": "club",
+      "color": "#f42727",
+      "competitions": [
+        {
+          "league": "eng.1",
+          "name": "プレミアリーグ",
+          "short": "PL"
+        },
+        {
+          "league": "eng.fa",
+          "name": "FA杯",
+          "short": "FA"
+        },
+        {
+          "league": "eng.league_cup",
+          "name": "カラバオ杯",
+          "short": "EFL"
+        },
+        {
+          "league": "uefa.europa",
+          "name": "ヨーロッパリーグ",
+          "short": "EL"
+        }
+      ]
+    },
+    {
+      "id": "arsenal",
+      "name": "Arsenal",
+      "shortName": "アーセナル",
+      "league": "eng.1",
+      "leagueName": "プレミアリーグ",
+      "espnTeamId": "359",
+      "plTeamId": 1,
+      "tmTeamId": 11,
+      "tmSlug": "club",
+      "color": "#e20520",
+      "competitions": [
+        {
+          "league": "eng.1",
+          "name": "プレミアリーグ",
+          "short": "PL"
+        },
+        {
+          "league": "eng.fa",
+          "name": "FA杯",
+          "short": "FA"
+        },
+        {
+          "league": "eng.league_cup",
+          "name": "カラバオ杯",
+          "short": "EFL"
+        },
+        {
+          "league": "uefa.champions",
+          "name": "チャンピオンズリーグ",
+          "short": "CL"
+        }
+      ]
+    },
+    {
+      "id": "aston-villa",
+      "name": "Aston Villa",
+      "shortName": "アストン・ヴィラ",
+      "league": "eng.1",
+      "leagueName": "プレミアリーグ",
+      "espnTeamId": "362",
+      "plTeamId": 2,
+      "tmTeamId": 405,
+      "tmSlug": "club",
+      "color": "#660e36",
+      "competitions": [
+        {
+          "league": "eng.1",
+          "name": "プレミアリーグ",
+          "short": "PL"
+        },
+        {
+          "league": "eng.fa",
+          "name": "FA杯",
+          "short": "FA"
+        },
+        {
+          "league": "eng.league_cup",
+          "name": "カラバオ杯",
+          "short": "EFL"
+        },
+        {
+          "league": "uefa.champions",
+          "name": "チャンピオンズリーグ",
+          "short": "CL"
+        }
+      ]
+    },
+    {
+      "id": "brentford",
+      "name": "Brentford",
+      "shortName": "ブレントフォード",
+      "league": "eng.1",
+      "leagueName": "プレミアリーグ",
+      "espnTeamId": "337",
+      "plTeamId": 130,
+      "tmTeamId": 1148,
+      "tmSlug": "club",
+      "color": "#f42727",
+      "competitions": [
+        {
+          "league": "eng.1",
+          "name": "プレミアリーグ",
+          "short": "PL"
+        },
+        {
+          "league": "eng.fa",
+          "name": "FA杯",
+          "short": "FA"
+        },
+        {
+          "league": "eng.league_cup",
+          "name": "カラバオ杯",
+          "short": "EFL"
+        }
+      ]
+    },
+    {
+      "id": "brighton",
+      "name": "Brighton & Hove Albion",
+      "shortName": "ブライトン",
+      "league": "eng.1",
+      "leagueName": "プレミアリーグ",
+      "espnTeamId": "331",
+      "plTeamId": 131,
+      "tmTeamId": 1237,
+      "tmSlug": "club",
+      "color": "#0606fa",
+      "competitions": [
+        {
+          "league": "eng.1",
+          "name": "プレミアリーグ",
+          "short": "PL"
+        },
+        {
+          "league": "eng.fa",
+          "name": "FA杯",
+          "short": "FA"
+        },
+        {
+          "league": "eng.league_cup",
+          "name": "カラバオ杯",
+          "short": "EFL"
+        },
+        {
+          "league": "uefa.europa.conf",
+          "name": "カンファレンスリーグ",
+          "short": "ECL"
+        }
+      ]
+    },
+    {
+      "id": "chelsea",
+      "name": "Chelsea",
+      "shortName": "チェルシー",
+      "league": "eng.1",
+      "leagueName": "プレミアリーグ",
+      "espnTeamId": "363",
+      "plTeamId": 4,
+      "tmTeamId": 631,
+      "tmSlug": "club",
+      "color": "#144992",
+      "competitions": [
+        {
+          "league": "eng.1",
+          "name": "プレミアリーグ",
+          "short": "PL"
+        },
+        {
+          "league": "eng.fa",
+          "name": "FA杯",
+          "short": "FA"
+        },
+        {
+          "league": "eng.league_cup",
+          "name": "カラバオ杯",
+          "short": "EFL"
+        }
+      ]
+    },
+    {
+      "id": "coventry",
+      "name": "Coventry City",
+      "shortName": "コヴェントリー",
+      "league": "eng.1",
+      "leagueName": "プレミアリーグ",
+      "espnTeamId": "388",
+      "plTeamId": 5,
+      "tmTeamId": 990,
+      "tmSlug": "club",
+      "color": "#87cced",
+      "competitions": [
+        {
+          "league": "eng.1",
+          "name": "プレミアリーグ",
+          "short": "PL"
+        },
+        {
+          "league": "eng.fa",
+          "name": "FA杯",
+          "short": "FA"
+        },
+        {
+          "league": "eng.league_cup",
+          "name": "カラバオ杯",
+          "short": "EFL"
+        }
+      ]
+    },
+    {
+      "id": "crystal-palace",
+      "name": "Crystal Palace",
+      "shortName": "クリスタル・パレス",
+      "league": "eng.1",
+      "leagueName": "プレミアリーグ",
+      "espnTeamId": "384",
+      "plTeamId": 6,
+      "tmTeamId": 873,
+      "tmSlug": "club",
+      "color": "#0202fb",
+      "competitions": [
+        {
+          "league": "eng.1",
+          "name": "プレミアリーグ",
+          "short": "PL"
+        },
+        {
+          "league": "eng.fa",
+          "name": "FA杯",
+          "short": "FA"
+        },
+        {
+          "league": "eng.league_cup",
+          "name": "カラバオ杯",
+          "short": "EFL"
+        },
+        {
+          "league": "uefa.europa",
+          "name": "ヨーロッパリーグ",
+          "short": "EL"
+        }
+      ]
+    },
+    {
+      "id": "everton",
+      "name": "Everton",
+      "shortName": "エバートン",
+      "league": "eng.1",
+      "leagueName": "プレミアリーグ",
+      "espnTeamId": "368",
+      "plTeamId": 7,
+      "tmTeamId": 29,
+      "tmSlug": "club",
+      "color": "#0606fa",
+      "competitions": [
+        {
+          "league": "eng.1",
+          "name": "プレミアリーグ",
+          "short": "PL"
+        },
+        {
+          "league": "eng.fa",
+          "name": "FA杯",
+          "short": "FA"
+        },
+        {
+          "league": "eng.league_cup",
+          "name": "カラバオ杯",
+          "short": "EFL"
+        }
+      ]
+    },
+    {
+      "id": "fulham",
+      "name": "Fulham",
+      "shortName": "フラム",
+      "league": "eng.1",
+      "leagueName": "プレミアリーグ",
+      "espnTeamId": "370",
+      "plTeamId": 34,
+      "tmTeamId": 931,
+      "tmSlug": "club",
+      "color": "#ffffff",
+      "competitions": [
+        {
+          "league": "eng.1",
+          "name": "プレミアリーグ",
+          "short": "PL"
+        },
+        {
+          "league": "eng.fa",
+          "name": "FA杯",
+          "short": "FA"
+        },
+        {
+          "league": "eng.league_cup",
+          "name": "カラバオ杯",
+          "short": "EFL"
+        }
+      ]
+    },
+    {
+      "id": "hull",
+      "name": "Hull City",
+      "shortName": "ハル",
+      "league": "eng.1",
+      "leagueName": "プレミアリーグ",
+      "espnTeamId": "306",
+      "plTeamId": 41,
+      "tmTeamId": 3008,
+      "tmSlug": "club",
+      "color": "#f28800",
+      "competitions": [
+        {
+          "league": "eng.1",
+          "name": "プレミアリーグ",
+          "short": "PL"
+        },
+        {
+          "league": "eng.fa",
+          "name": "FA杯",
+          "short": "FA"
+        },
+        {
+          "league": "eng.league_cup",
+          "name": "カラバオ杯",
+          "short": "EFL"
+        }
+      ]
+    },
+    {
+      "id": "ipswich",
+      "name": "Ipswich Town",
+      "shortName": "イプスウィッチ",
+      "league": "eng.1",
+      "leagueName": "プレミアリーグ",
+      "espnTeamId": "373",
+      "plTeamId": 8,
+      "tmTeamId": 677,
+      "tmSlug": "club",
+      "color": "#0000fa",
+      "competitions": [
+        {
+          "league": "eng.1",
+          "name": "プレミアリーグ",
+          "short": "PL"
+        },
+        {
+          "league": "eng.fa",
+          "name": "FA杯",
+          "short": "FA"
+        },
+        {
+          "league": "eng.league_cup",
+          "name": "カラバオ杯",
+          "short": "EFL"
+        }
+      ]
+    },
+    {
+      "id": "leeds",
+      "name": "Leeds United",
+      "shortName": "リーズ",
+      "league": "eng.1",
+      "leagueName": "プレミアリーグ",
+      "espnTeamId": "357",
+      "plTeamId": 9,
+      "tmTeamId": 399,
+      "tmSlug": "club",
+      "color": "#ffffff",
+      "competitions": [
+        {
+          "league": "eng.1",
+          "name": "プレミアリーグ",
+          "short": "PL"
+        },
+        {
+          "league": "eng.fa",
+          "name": "FA杯",
+          "short": "FA"
+        },
+        {
+          "league": "eng.league_cup",
+          "name": "カラバオ杯",
+          "short": "EFL"
+        }
+      ]
+    },
+    {
+      "id": "liverpool",
+      "name": "Liverpool",
+      "shortName": "リバプール",
+      "league": "eng.1",
+      "leagueName": "プレミアリーグ",
+      "espnTeamId": "364",
+      "plTeamId": 10,
+      "tmTeamId": 31,
+      "tmSlug": "club",
+      "color": "#d11317",
+      "competitions": [
+        {
+          "league": "eng.1",
+          "name": "プレミアリーグ",
+          "short": "PL"
+        },
+        {
+          "league": "eng.fa",
+          "name": "FA杯",
+          "short": "FA"
+        },
+        {
+          "league": "eng.league_cup",
+          "name": "カラバオ杯",
+          "short": "EFL"
+        },
+        {
+          "league": "uefa.champions",
+          "name": "チャンピオンズリーグ",
+          "short": "CL"
+        }
+      ]
+    },
+    {
+      "id": "man-city",
+      "name": "Manchester City",
+      "shortName": "マンC",
+      "league": "eng.1",
+      "leagueName": "プレミアリーグ",
+      "espnTeamId": "382",
+      "plTeamId": 11,
+      "tmTeamId": 281,
+      "tmSlug": "club",
+      "color": "#99c5ea",
+      "competitions": [
+        {
+          "league": "eng.1",
+          "name": "プレミアリーグ",
+          "short": "PL"
+        },
+        {
+          "league": "eng.fa",
+          "name": "FA杯",
+          "short": "FA"
+        },
+        {
+          "league": "eng.league_cup",
+          "name": "カラバオ杯",
+          "short": "EFL"
+        },
+        {
+          "league": "uefa.champions",
+          "name": "チャンピオンズリーグ",
+          "short": "CL"
+        }
+      ]
+    },
+    {
+      "id": "newcastle",
+      "name": "Newcastle United",
+      "shortName": "ニューカッスル",
+      "league": "eng.1",
+      "leagueName": "プレミアリーグ",
+      "espnTeamId": "361",
+      "plTeamId": 23,
+      "tmTeamId": 762,
+      "tmSlug": "club",
+      "color": "#000000",
+      "competitions": [
+        {
+          "league": "eng.1",
+          "name": "プレミアリーグ",
+          "short": "PL"
+        },
+        {
+          "league": "eng.fa",
+          "name": "FA杯",
+          "short": "FA"
+        },
+        {
+          "league": "eng.league_cup",
+          "name": "カラバオ杯",
+          "short": "EFL"
+        }
+      ]
+    },
+    {
+      "id": "nottm-forest",
+      "name": "Nottingham Forest",
+      "shortName": "ノッティンガム・フォレスト",
+      "league": "eng.1",
+      "leagueName": "プレミアリーグ",
+      "espnTeamId": "393",
+      "plTeamId": 15,
+      "tmTeamId": 703,
+      "tmSlug": "club",
+      "color": "#c8102e",
+      "competitions": [
+        {
+          "league": "eng.1",
+          "name": "プレミアリーグ",
+          "short": "PL"
+        },
+        {
+          "league": "eng.fa",
+          "name": "FA杯",
+          "short": "FA"
+        },
+        {
+          "league": "eng.league_cup",
+          "name": "カラバオ杯",
+          "short": "EFL"
+        }
+      ]
+    },
+    {
+      "id": "sunderland",
+      "name": "Sunderland",
+      "shortName": "サンダーランド",
+      "league": "eng.1",
+      "leagueName": "プレミアリーグ",
+      "espnTeamId": "366",
+      "plTeamId": 29,
+      "tmTeamId": 289,
+      "tmSlug": "club",
+      "color": "#EB172B",
+      "competitions": [
+        {
+          "league": "eng.1",
+          "name": "プレミアリーグ",
+          "short": "PL"
+        },
+        {
+          "league": "eng.fa",
+          "name": "FA杯",
+          "short": "FA"
+        },
+        {
+          "league": "eng.league_cup",
+          "name": "カラバオ杯",
+          "short": "EFL"
+        },
+        {
+          "league": "uefa.europa",
+          "name": "ヨーロッパリーグ",
+          "short": "EL"
+        }
+      ]
+    },
+    {
+      "id": "tottenham",
+      "name": "Tottenham Hotspur",
+      "shortName": "トッテナム",
+      "league": "eng.1",
+      "leagueName": "プレミアリーグ",
+      "espnTeamId": "367",
+      "plTeamId": 21,
+      "tmTeamId": 148,
+      "tmSlug": "club",
+      "color": "#ffffff",
+      "competitions": [
+        {
+          "league": "eng.1",
+          "name": "プレミアリーグ",
+          "short": "PL"
+        },
+        {
+          "league": "eng.fa",
+          "name": "FA杯",
+          "short": "FA"
+        },
+        {
+          "league": "eng.league_cup",
+          "name": "カラバオ杯",
+          "short": "EFL"
+        }
       ]
     }
   ]

@@ -1,0 +1,24 @@
+{
+ "eventId": "401879287",
+ "date": "2026-09-05T14:00:00Z",
+ "opponent": {
+  "name": "Coventry City",
+  "abbr": "COV"
+ },
+ "isHome": true,
+ "score": {
+  "us": 1,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Erling Haaland",
+   "assist": "Antoine Semenyo",
+   "minute": "26'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

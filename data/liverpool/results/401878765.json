@@ -1,0 +1,31 @@
+{
+ "eventId": "401878765",
+ "date": "2026-10-25T14:00:00Z",
+ "opponent": {
+  "name": "Brighton & Hove Albion",
+  "abbr": "BHA"
+ },
+ "isHome": true,
+ "score": {
+  "us": 2,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Pascal Gross",
+   "assist": null,
+   "minute": "17'",
+   "kind": "og"
+  },
+  {
+   "side": "us",
+   "scorer": "Alexander Isak",
+   "assist": "Bradley Barcola",
+   "minute": "21'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

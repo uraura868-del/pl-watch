@@ -1,0 +1,30 @@
+{
+ "eventId": "401878770",
+ "date": "2026-10-17T14:00:00Z",
+ "opponent": {
+  "name": "Fulham",
+  "abbr": "FUL"
+ },
+ "isHome": false,
+ "score": {
+  "us": 0,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Alex Iwobi",
+   "assist": "Sander Berge",
+   "minute": "33'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [
+  {
+   "side": "opp",
+   "name": "Ryan Sessegnon",
+   "minute": "90'+4'"
+  }
+ ],
+ "source": "ESPN"
+}

@@ -1,0 +1,78 @@
+{
+ "eventId": "401908140",
+ "date": "2026-08-26T18:45:00Z",
+ "opponent": {
+  "name": "Charlton Athletic",
+  "abbr": "CHA"
+ },
+ "ht": {
+  "us": {
+   "shots": 7,
+   "onTarget": 2,
+   "offTarget": 1,
+   "blocked": 4,
+   "corners": 7,
+   "fouls": 8,
+   "offsides": 1,
+   "yellow": 1,
+   "red": 0
+  },
+  "opp": {
+   "shots": 2,
+   "onTarget": 1,
+   "offTarget": 1,
+   "blocked": 0,
+   "corners": 2,
+   "fouls": 14,
+   "offsides": 1,
+   "yellow": 1,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 15,
+   "onTarget": 6,
+   "offTarget": 2,
+   "blocked": 7,
+   "corners": 11,
+   "fouls": 10,
+   "offsides": 1,
+   "yellow": 1,
+   "red": 0,
+   "possession": "72.6",
+   "passesAccurate": "556",
+   "passes": "618",
+   "passAcc": "0.9",
+   "crossesAccurate": "3",
+   "crosses": "26",
+   "tacklesWon": "5",
+   "tackles": "15",
+   "interceptions": "3",
+   "clearances": "11"
+  },
+  "opp": {
+   "shots": 5,
+   "onTarget": 3,
+   "offTarget": 1,
+   "blocked": 1,
+   "corners": 6,
+   "fouls": 20,
+   "offsides": 1,
+   "yellow": 1,
+   "red": 0,
+   "possession": "27.4",
+   "passesAccurate": "167",
+   "passes": "225",
+   "passAcc": "0.7",
+   "crossesAccurate": "4",
+   "crosses": "13",
+   "tacklesWon": "10",
+   "tackles": "16",
+   "interceptions": "16",
+   "clearances": "23"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

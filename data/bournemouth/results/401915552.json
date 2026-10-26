@@ -1,0 +1,44 @@
+{
+ "eventId": "401915552",
+ "date": "2026-10-22T19:00:00Z",
+ "opponent": {
+  "name": "AC Milan",
+  "abbr": "MIL"
+ },
+ "isHome": true,
+ "score": {
+  "us": 3,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Justin Kluivert",
+   "assist": null,
+   "minute": "8'",
+   "kind": "pen"
+  },
+  {
+   "side": "us",
+   "scorer": "Marcus Tavernier",
+   "assist": null,
+   "minute": "32'",
+   "kind": "pen"
+  },
+  {
+   "side": "us",
+   "scorer": "Amine Adli",
+   "assist": null,
+   "minute": "84'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [
+  {
+   "side": "opp",
+   "name": "Mike Maignan",
+   "minute": "27'"
+  }
+ ],
+ "source": "ESPN"
+}

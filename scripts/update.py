@@ -213,6 +213,8 @@ WD_SPARQL = "https://query.wikidata.org/sparql"
 # Wikimedia の UA ポリシーに合わせる（連絡先URL入り。形式が違うと 429 で弾かれる）
 WD_UA = "Mozilla/5.0 (compatible; pl-watch/0.1; +https://github.com/uraura868-del/pl-watch)"
 CAREER_TTL_DAYS = 30
+CAREERS_MAX_PER_RUN = 60  # 1回の更新で Wikidata に問い合わせる人数の上限（20チーム分は数回に分けて埋める）
+_careers_fetched_total = 0
 
 
 def sparql(query: str) -> list[dict]:
@@ -410,6 +412,7 @@ def update_careers(path: Path, roster: list[dict]) -> None:
             cache = json.loads(path.read_text(encoding="utf-8")).get("players", {})
         except Exception:  # noqa: BLE001
             cache = {}
+    global _careers_fetched_total
     fetched = 0
     for p in roster:
         pid = p["id"]
@@ -419,6 +422,8 @@ def update_careers(path: Path, roster: list[dict]) -> None:
             # 見つかった人は30日、見つからなかった人は1日でリトライ（429 等の一時失敗に備える）
             if age < timedelta(days=CAREER_TTL_DAYS if old.get("qid") else 1):
                 continue
+        if _careers_fetched_total >= CAREERS_MAX_PER_RUN:
+            break  # 上限に達したら残りは次回
         if not p.get("dob"):
             cache[pid] = {"name": p["name"], "qid": None, "career": [], "fetchedAt": iso(NOW)}
             continue
@@ -430,6 +435,7 @@ def update_careers(path: Path, roster: list[dict]) -> None:
             continue
         cache[pid] = {"name": p["name"], "qid": qid, "career": career, "fetchedAt": iso(NOW)}
         fetched += 1
+        _careers_fetched_total += 1
         if fetched % 10 == 0:
             write_json(path, {"updatedAt": iso(NOW), "players": cache})  # 途中経過を保存
         time.sleep(2.0)
@@ -483,7 +489,7 @@ def tm_fetch(url: str) -> str | None:
 # ---------------------------------------------------------------- 選手写真 (Transfermarkt)
 TM_PHOTOS = DATA / "tm-photos.json"
 TM_PHOTO_TTL_DAYS = 7
-TM_MAX_NEW_CLUBS_PER_RUN = 6  # 1回の更新で新しく読みに行くクラブ数の上限（負荷を抑える）
+TM_MAX_NEW_CLUBS_PER_RUN = 12  # 1回の更新で新しく読みに行くクラブ数の上限（負荷を抑える）
 _tm_cache: dict = {}
 
 
@@ -1438,6 +1444,15 @@ def refresh_match_photos(mdir: Path, fixtures: list[dict], roster_by_id: dict, p
 def collect_opponent_players(teams: list[dict], photo_index: dict[str, dict]) -> list[dict]:
     """保存済みの試合ファイルから、相手チームのスタメン・ベンチに入った選手を集める（チーム横断で共有）"""
     players: dict[str, dict] = {}
+    # 追跡しているチームの名鑑に載っている選手は、相手側として取り直さない（PL 同士の対戦はこれで済む）
+    known: set[str] = set()
+    for team in teams:
+        rp = DATA / team["id"] / "roster.json"
+        if rp.exists():
+            try:
+                known |= {p["id"] for p in json.loads(rp.read_text(encoding="utf-8")).get("players", [])}
+            except Exception:  # noqa: BLE001
+                pass
     for team in teams:
         mdir = DATA / team["id"] / "matches"
         if not mdir.exists():
@@ -1455,6 +1470,8 @@ def collect_opponent_players(teams: list[dict], photo_index: dict[str, dict]) ->
             except Exception:  # noqa: BLE001
                 dist = 9999
             for p in (o.get("starters") or []) + (o.get("bench") or []):
+                if p.get("id") in known:
+                    continue
                 if p.get("id") in players:
                     players[p["id"]]["dist"] = min(players[p["id"]]["dist"], dist)
                     continue

@@ -1,0 +1,38 @@
+{
+ "eventId": "401879301",
+ "date": "2026-08-21T19:00:00Z",
+ "opponent": {
+  "name": "Coventry City",
+  "abbr": "COV"
+ },
+ "isHome": true,
+ "score": {
+  "us": 3,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Kai Havertz",
+   "assist": "Riccardo Calafiori",
+   "minute": "15'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Bukayo Saka",
+   "assist": null,
+   "minute": "23'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Martin Ødegaard",
+   "assist": "Ben White",
+   "minute": "49'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

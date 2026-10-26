@@ -1,0 +1,51 @@
+{
+ "eventId": "401879297",
+ "date": "2026-08-23T13:00:00Z",
+ "opponent": {
+  "name": "Brighton & Hove Albion",
+  "abbr": "BHA"
+ },
+ "isHome": false,
+ "score": {
+  "us": 0,
+  "opp": 4
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Victor Lindelöf",
+   "assist": null,
+   "minute": "8'",
+   "kind": "og"
+  },
+  {
+   "side": "opp",
+   "scorer": "Maxim De Cuyper",
+   "assist": "Georginio Rutter",
+   "minute": "18'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Jack Hinshelwood",
+   "assist": "Diego Gómez",
+   "minute": "30'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Jack Hinshelwood",
+   "assist": null,
+   "minute": "31'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [
+  {
+   "side": "us",
+   "name": "João Gomes",
+   "minute": "40'"
+  }
+ ],
+ "source": "ESPN"
+}

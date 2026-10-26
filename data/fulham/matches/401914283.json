@@ -1,0 +1,518 @@
+{
+ "eventId": "401914283",
+ "date": "2026-09-15T18:45:00Z",
+ "final": true,
+ "updatedAt": "2026-10-26T12:16:14Z",
+ "team": {
+  "formation": "4-2-3-1",
+  "rows": [
+   [
+    "149517"
+   ],
+   [
+    "222396",
+    "252031",
+    "196081",
+    "197163"
+   ],
+   [
+    "336460",
+    "193246"
+   ],
+   [
+    "12172",
+    "266697",
+    "330764"
+   ],
+   [
+    "301525"
+   ]
+  ],
+  "starters": [
+   {
+    "id": "149517",
+    "name": "Benjamin Lecomte",
+    "jersey": "23",
+    "pos": "G",
+    "starter": true,
+    "place": "1",
+    "photo": "data/photos/f2ec67d7b51a9a00.jpg"
+   },
+   {
+    "id": "252031",
+    "name": "Jorge Cuenca",
+    "jersey": "4",
+    "pos": "CD-L",
+    "starter": true,
+    "place": "6",
+    "photo": "https://img.a.transfermarkt.technology/portrait/medium/494880-1737920132.jpg?lm=4711"
+   },
+   {
+    "id": "196081",
+    "name": "Joachim Andersen",
+    "jersey": "5",
+    "pos": "CD-R",
+    "starter": true,
+    "place": "5",
+    "photo": "data/photos/314f6b6b3fae6264.jpg"
+   },
+   {
+    "id": "222396",
+    "name": "Antonee Robinson",
+    "jersey": "33",
+    "pos": "LB",
+    "starter": true,
+    "place": "3",
+    "photo": "data/photos/7e55a5e654f40ceb.jpg"
+   },
+   {
+    "id": "197163",
+    "name": "Timothy Castagne",
+    "jersey": "21",
+    "pos": "RB",
+    "starter": true,
+    "place": "2",
+    "photo": "data/photos/ccc71abd4940ba31.jpg"
+   },
+   {
+    "id": "266697",
+    "name": "Emile Smith Rowe",
+    "jersey": "32",
+    "pos": "AM",
+    "starter": true,
+    "place": "10",
+    "photo": "data/photos/7cdd735376380431.jpg"
+   },
+   {
+    "id": "336460",
+    "name": "Hugo Larsson",
+    "jersey": "15",
+    "pos": "LM",
+    "starter": true,
+    "place": "4",
+    "photo": "data/photos/2bda4e0b49a3dbc9.jpg"
+   },
+   {
+    "id": "193246",
+    "name": "Harrison Reed",
+    "jersey": "6",
+    "pos": "RM",
+    "starter": true,
+    "place": "8",
+    "photo": "https://img.a.transfermarkt.technology/portrait/medium/226973-1762354305.jpg?lm=4711"
+   },
+   {
+    "id": "301525",
+    "name": "Rodrigo Muniz",
+    "jersey": "9",
+    "pos": "F",
+    "starter": true,
+    "place": "9",
+    "photo": "data/photos/e5bac6b511e2673e.jpg"
+   },
+   {
+    "id": "12172",
+    "name": "César Palacios",
+    "jersey": "8",
+    "pos": "AM-L",
+    "starter": true,
+    "place": "11",
+    "photo": "data/photos/51765eda0f51b6d6.jpg"
+   },
+   {
+    "id": "330764",
+    "name": "Kevin",
+    "jersey": "11",
+    "pos": "AM-R",
+    "starter": true,
+    "place": "7",
+    "photo": "data/photos/5ae6ab9f5c6d67d2.jpg"
+   }
+  ],
+  "bench": [
+   {
+    "id": "313230",
+    "name": "David Affengruber",
+    "jersey": "22",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": "data/photos/4cfb06f9f4b9265f.jpg"
+   },
+   {
+    "id": "364812",
+    "name": "Manuel Ángel",
+    "jersey": "20",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": "data/photos/cbd5569e0fe1abd7.jpg"
+   },
+   {
+    "id": "263110",
+    "name": "Calvin Bassey",
+    "jersey": "3",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": "data/photos/a727b0555d2ef9cc.jpg"
+   },
+   {
+    "id": "153765",
+    "name": "Bernd Leno",
+    "jersey": "1",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": "data/photos/09cf9d6d6a67e979.jpg"
+   },
+   {
+    "id": "409541",
+    "name": "Josh King",
+    "jersey": "24",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": "data/photos/0c8cff34842ea4c4.jpg"
+   },
+   {
+    "id": "87297",
+    "name": "Gonzalo García",
+    "jersey": "7",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": "data/photos/94123c5b0875f580.jpg"
+   },
+   {
+    "id": "307111",
+    "name": "Oscar Bobb",
+    "jersey": "14",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": "data/photos/a60816cce279b4e8.jpg"
+   },
+   {
+    "id": "218998",
+    "name": "Sander Berge",
+    "jersey": "16",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": "data/photos/c777a009802aa592.jpg"
+   },
+   {
+    "id": "324164",
+    "name": "Shea Charles",
+    "jersey": "19",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": "data/photos/a4ead2e8c0b22d8e.jpg"
+   }
+  ]
+ },
+ "opponent": {
+  "id": "371",
+  "name": "West Ham United",
+  "formation": "4-4-2",
+  "rows": [
+   [
+    "361263"
+   ],
+   [
+    "201304",
+    "229967",
+    "242705",
+    "235129"
+   ],
+   [
+    "314177",
+    "351382",
+    "368333",
+    "358577"
+   ],
+   [
+    "379137",
+    "313229"
+   ]
+  ],
+  "starters": [
+   {
+    "id": "361263",
+    "name": "Finlay Herrick",
+    "jersey": "49",
+    "pos": "G",
+    "starter": true,
+    "place": "1",
+    "photo": null
+   },
+   {
+    "id": "229967",
+    "name": "Max Kilman",
+    "jersey": "3",
+    "pos": "CD-L",
+    "starter": true,
+    "place": "6",
+    "photo": null
+   },
+   {
+    "id": "242705",
+    "name": "Konstantinos Mavropanos",
+    "jersey": "15",
+    "pos": "CD-R",
+    "starter": true,
+    "place": "5",
+    "photo": null
+   },
+   {
+    "id": "201304",
+    "name": "Morato",
+    "jersey": "5",
+    "pos": "LB",
+    "starter": true,
+    "place": "3",
+    "photo": null
+   },
+   {
+    "id": "235129",
+    "name": "Kyle Walker-Peters",
+    "jersey": "2",
+    "pos": "RB",
+    "starter": true,
+    "place": "2",
+    "photo": null
+   },
+   {
+    "id": "314177",
+    "name": "Arne Engels",
+    "jersey": "7",
+    "pos": "CM-L",
+    "starter": true,
+    "place": "8",
+    "photo": null
+   },
+   {
+    "id": "351382",
+    "name": "Lewis Orford",
+    "jersey": "61",
+    "pos": "CM-R",
+    "starter": true,
+    "place": "4",
+    "photo": null
+   },
+   {
+    "id": "368333",
+    "name": "Mohamadou Kanté",
+    "jersey": "17",
+    "pos": "LM",
+    "starter": true,
+    "place": "11",
+    "photo": null
+   },
+   {
+    "id": "358577",
+    "name": "Divine Mukasa",
+    "jersey": "14",
+    "pos": "RM",
+    "starter": true,
+    "place": "7",
+    "photo": null
+   },
+   {
+    "id": "379137",
+    "name": "Joshua Ajala",
+    "jersey": "66",
+    "pos": "CF-L",
+    "starter": true,
+    "place": "9",
+    "photo": null
+   },
+   {
+    "id": "313229",
+    "name": "Pablo",
+    "jersey": "19",
+    "pos": "CF-R",
+    "starter": true,
+    "place": "10",
+    "photo": null
+   }
+  ],
+  "bench": [
+   {
+    "id": "281564",
+    "name": "Mads Hermansen",
+    "jersey": "1",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": null
+   },
+   {
+    "id": "245562",
+    "name": "Joël Piroe",
+    "jersey": "9",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": null
+   },
+   {
+    "id": "380182",
+    "name": "Ezra Mayers",
+    "jersey": "63",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": null
+   },
+   {
+    "id": "252933",
+    "name": "Valentín Castellanos",
+    "jersey": "11",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": null
+   },
+   {
+    "id": "386204",
+    "name": "Airidas Golambeckis",
+    "jersey": "58",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": null
+   },
+   {
+    "id": "350502",
+    "name": "Oliver Scarles",
+    "jersey": "30",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": null
+   },
+   {
+    "id": "333240",
+    "name": "Soungoutou Magassa",
+    "jersey": "27",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": null
+   },
+   {
+    "id": "201089",
+    "name": "Jarrod Bowen",
+    "jersey": "20",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": null
+   },
+   {
+    "id": "257256",
+    "name": "Manor Solomon",
+    "jersey": "10",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": null
+   }
+  ]
+ },
+ "absentees": [
+  {
+   "id": "190974",
+   "name": "Kenny Tete",
+   "jersey": "2",
+   "pos": "D",
+   "photo": "https://img.a.transfermarkt.technology/portrait/medium/206746-1746645948.jpg?lm=4711",
+   "type": "理由不明",
+   "reason": "",
+   "source": "none"
+  },
+  {
+   "id": "140033",
+   "name": "Tom Cairney",
+   "jersey": "10",
+   "pos": "M",
+   "photo": "https://img.a.transfermarkt.technology/portrait/medium/123275-1651652849.jpg?lm=4711",
+   "type": "理由不明",
+   "reason": "",
+   "source": "none"
+  },
+  {
+   "id": "175063",
+   "name": "Alex Iwobi",
+   "jersey": "17",
+   "pos": "F",
+   "photo": "data/photos/945352eb79da69ee.jpg",
+   "type": "理由不明",
+   "reason": "",
+   "source": "none"
+  },
+  {
+   "id": "369363",
+   "name": "Jonah Kusi-Asare",
+   "jersey": "18",
+   "pos": "F",
+   "photo": "https://img.a.transfermarkt.technology/portrait/medium/1069512-1739808814.jpg?lm=4711",
+   "type": "理由不明",
+   "reason": "",
+   "source": "none"
+  },
+  {
+   "id": "241328",
+   "name": "Ryan Sessegnon",
+   "jersey": "30",
+   "pos": "M",
+   "photo": "data/photos/f2dc8d470f46346c.jpg",
+   "type": "理由不明",
+   "reason": "",
+   "source": "none"
+  },
+  {
+   "id": "365351",
+   "name": "Chibuzo Nwoko",
+   "jersey": "34",
+   "pos": "M",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p552006.png",
+   "type": "理由不明",
+   "reason": "",
+   "source": "none"
+  },
+  {
+   "id": "392697",
+   "name": "Macauley Zepa",
+   "jersey": "35",
+   "pos": "F",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p616069.png",
+   "type": "理由不明",
+   "reason": "",
+   "source": "none"
+  },
+  {
+   "id": "362553",
+   "name": "Alex Borto",
+   "jersey": "36",
+   "pos": "G",
+   "photo": "https://img.a.transfermarkt.technology/portrait/medium/817613-1775549108.jpg?lm=4711",
+   "type": "理由不明",
+   "reason": "",
+   "source": "none"
+  },
+  {
+   "id": "376050",
+   "name": "Bradley Slade",
+   "jersey": "40",
+   "pos": "D",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p590032.png",
+   "type": "理由不明",
+   "reason": "",
+   "source": "none"
+  }
+ ]
+}

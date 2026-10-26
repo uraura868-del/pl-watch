@@ -1,0 +1,24 @@
+{
+ "eventId": "401914255",
+ "date": "2026-09-08T19:00:00Z",
+ "opponent": {
+  "name": "Millwall",
+  "abbr": "MIL"
+ },
+ "isHome": false,
+ "score": {
+  "us": 1,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Joe Willock",
+   "assist": "Lewis Hall",
+   "minute": "81'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

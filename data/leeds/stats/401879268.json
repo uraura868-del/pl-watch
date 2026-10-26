@@ -1,0 +1,78 @@
+{
+ "eventId": "401879268",
+ "date": "2026-10-10T11:30:00Z",
+ "opponent": {
+  "name": "Arsenal",
+  "abbr": "ARS"
+ },
+ "ht": {
+  "us": {
+   "shots": 7,
+   "onTarget": 3,
+   "offTarget": 1,
+   "blocked": 3,
+   "corners": 2,
+   "fouls": 20,
+   "offsides": 3,
+   "yellow": 2,
+   "red": 0
+  },
+  "opp": {
+   "shots": 4,
+   "onTarget": 1,
+   "offTarget": 2,
+   "blocked": 1,
+   "corners": 0,
+   "fouls": 14,
+   "offsides": 5,
+   "yellow": 0,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 10,
+   "onTarget": 4,
+   "offTarget": 3,
+   "blocked": 3,
+   "corners": 4,
+   "fouls": 38,
+   "offsides": 4,
+   "yellow": 4,
+   "red": 0,
+   "possession": "41.8",
+   "passesAccurate": "277",
+   "passes": "354",
+   "passAcc": "0.8",
+   "crossesAccurate": "6",
+   "crosses": "23",
+   "tacklesWon": "6",
+   "tackles": "10",
+   "interceptions": "10",
+   "clearances": "19"
+  },
+  "opp": {
+   "shots": 11,
+   "onTarget": 4,
+   "offTarget": 4,
+   "blocked": 3,
+   "corners": 3,
+   "fouls": 24,
+   "offsides": 7,
+   "yellow": 1,
+   "red": 0,
+   "possession": "58.2",
+   "passesAccurate": "436",
+   "passes": "513",
+   "passAcc": "0.9",
+   "crossesAccurate": "7",
+   "crosses": "15",
+   "tacklesWon": "8",
+   "tackles": "12",
+   "interceptions": "7",
+   "clearances": "25"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

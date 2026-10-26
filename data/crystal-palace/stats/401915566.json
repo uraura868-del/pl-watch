@@ -1,0 +1,78 @@
+{
+ "eventId": "401915566",
+ "date": "2026-10-15T16:45:00Z",
+ "opponent": {
+  "name": "Lyon",
+  "abbr": "LYON"
+ },
+ "ht": {
+  "us": {
+   "shots": 4,
+   "onTarget": 0,
+   "offTarget": 2,
+   "blocked": 2,
+   "corners": 0,
+   "fouls": 6,
+   "offsides": 0,
+   "yellow": 1,
+   "red": 0
+  },
+  "opp": {
+   "shots": 4,
+   "onTarget": 0,
+   "offTarget": 1,
+   "blocked": 3,
+   "corners": 3,
+   "fouls": 4,
+   "offsides": 0,
+   "yellow": 0,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 10,
+   "onTarget": 2,
+   "offTarget": 4,
+   "blocked": 4,
+   "corners": 3,
+   "fouls": 14,
+   "offsides": 1,
+   "yellow": 3,
+   "red": 0,
+   "possession": "49.9",
+   "passesAccurate": "414",
+   "passes": "483",
+   "passAcc": "0.9",
+   "crossesAccurate": "7",
+   "crosses": "17",
+   "tacklesWon": "7",
+   "tackles": "13",
+   "interceptions": "9",
+   "clearances": "15"
+  },
+  "opp": {
+   "shots": 8,
+   "onTarget": 1,
+   "offTarget": 2,
+   "blocked": 5,
+   "corners": 5,
+   "fouls": 8,
+   "offsides": 0,
+   "yellow": 1,
+   "red": 0,
+   "possession": "50.1",
+   "passesAccurate": "425",
+   "passes": "491",
+   "passAcc": "0.9",
+   "crossesAccurate": "2",
+   "crosses": "10",
+   "tacklesWon": "7",
+   "tackles": "9",
+   "interceptions": "18",
+   "clearances": "19"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

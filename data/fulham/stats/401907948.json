@@ -1,0 +1,78 @@
+{
+ "eventId": "401907948",
+ "date": "2026-08-27T19:00:00Z",
+ "opponent": {
+  "name": "AFC Wimbledon",
+  "abbr": "WIM"
+ },
+ "ht": {
+  "us": {
+   "shots": 9,
+   "onTarget": 1,
+   "offTarget": 5,
+   "blocked": 3,
+   "corners": 7,
+   "fouls": 4,
+   "offsides": 0,
+   "yellow": 0,
+   "red": 0
+  },
+  "opp": {
+   "shots": 2,
+   "onTarget": 1,
+   "offTarget": 1,
+   "blocked": 0,
+   "corners": 3,
+   "fouls": 6,
+   "offsides": 1,
+   "yellow": 0,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 26,
+   "onTarget": 5,
+   "offTarget": 12,
+   "blocked": 9,
+   "corners": 10,
+   "fouls": 12,
+   "offsides": 0,
+   "yellow": 1,
+   "red": 0,
+   "possession": "79.3",
+   "passesAccurate": "673",
+   "passes": "741",
+   "passAcc": "0.9",
+   "crossesAccurate": "10",
+   "crosses": "27",
+   "tacklesWon": "8",
+   "tackles": "10",
+   "interceptions": "7",
+   "clearances": "16"
+  },
+  "opp": {
+   "shots": 5,
+   "onTarget": 2,
+   "offTarget": 3,
+   "blocked": 0,
+   "corners": 4,
+   "fouls": 17,
+   "offsides": 3,
+   "yellow": 1,
+   "red": 0,
+   "possession": "20.7",
+   "passesAccurate": "117",
+   "passes": "189",
+   "passAcc": "0.6",
+   "crossesAccurate": "1",
+   "crosses": "10",
+   "tacklesWon": "12",
+   "tackles": "17",
+   "interceptions": "9",
+   "clearances": "42"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

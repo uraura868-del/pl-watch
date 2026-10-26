@@ -1,0 +1,52 @@
+{
+ "eventId": "401879261",
+ "date": "2026-10-18T13:00:00Z",
+ "opponent": {
+  "name": "Brighton & Hove Albion",
+  "abbr": "BHA"
+ },
+ "isHome": false,
+ "score": {
+  "us": 0,
+  "opp": 5
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Jaydee Canvot",
+   "assist": null,
+   "minute": "4'",
+   "kind": "og"
+  },
+  {
+   "side": "opp",
+   "scorer": "Diego Gómez",
+   "assist": "Olivier Boscagli",
+   "minute": "7'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Yasin Ayari",
+   "assist": "Charalambos Kostoulas",
+   "minute": "10'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Charalambos Kostoulas",
+   "assist": null,
+   "minute": "49'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Jack Hinshelwood",
+   "assist": null,
+   "minute": "84'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

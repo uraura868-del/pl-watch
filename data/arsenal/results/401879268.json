@@ -1,0 +1,38 @@
+{
+ "eventId": "401879268",
+ "date": "2026-10-10T11:30:00Z",
+ "opponent": {
+  "name": "Leeds United",
+  "abbr": "LEE"
+ },
+ "isHome": true,
+ "score": {
+  "us": 2,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "James Justin",
+   "assist": "Gabriel Gudmundsson",
+   "minute": "55'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Riccardo Calafiori",
+   "assist": "Ben White",
+   "minute": "62'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Bruno Guimarães",
+   "assist": "Declan Rice",
+   "minute": "70'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

@@ -1,0 +1,38 @@
+{
+ "eventId": "401879320",
+ "date": "2026-08-23T13:00:00Z",
+ "opponent": {
+  "name": "AFC Bournemouth",
+  "abbr": "BOU"
+ },
+ "isHome": true,
+ "score": {
+  "us": 2,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Marcus Tavernier",
+   "assist": "Evanilson",
+   "minute": "26'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Marc Guéhi",
+   "assist": "Rayan Cherki",
+   "minute": "84'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Josko Gvardiol",
+   "assist": "Rayan Cherki",
+   "minute": "90'+1'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

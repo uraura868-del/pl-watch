@@ -1,0 +1,38 @@
+{
+ "eventId": "401879265",
+ "date": "2026-10-10T14:00:00Z",
+ "opponent": {
+  "name": "Ipswich Town",
+  "abbr": "IPS"
+ },
+ "isHome": false,
+ "score": {
+  "us": 1,
+  "opp": 2
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Ryan Sessegnon",
+   "assist": null,
+   "minute": "55'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Abdoul Ouattara",
+   "assist": null,
+   "minute": "88'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Dara O'Shea",
+   "assist": "Jack Clarke",
+   "minute": "90'+1'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

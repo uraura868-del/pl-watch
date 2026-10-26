@@ -1,0 +1,31 @@
+{
+ "eventId": "401908126",
+ "date": "2026-08-25T18:45:00Z",
+ "opponent": {
+  "name": "Stoke City",
+  "abbr": "STK"
+ },
+ "isHome": false,
+ "score": {
+  "us": 1,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Róbert Bozeník",
+   "assist": "Sorba Thomas",
+   "minute": "39'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Kieran Dowell",
+   "assist": "Liam Millar",
+   "minute": "45'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

@@ -1,0 +1,31 @@
+{
+ "eventId": "401879290",
+ "date": "2026-09-05T14:00:00Z",
+ "opponent": {
+  "name": "Leeds United",
+  "abbr": "LEE"
+ },
+ "isHome": true,
+ "score": {
+  "us": 1,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Jayden Bogle",
+   "assist": "Ao Tanaka",
+   "minute": "15'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Luka Vuskovic",
+   "assist": "Maxim De Cuyper",
+   "minute": "71'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

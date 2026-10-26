@@ -1,0 +1,30 @@
+{
+ "eventId": "401878770",
+ "date": "2026-10-17T14:00:00Z",
+ "opponent": {
+  "name": "Hull City",
+  "abbr": "HUL"
+ },
+ "isHome": true,
+ "score": {
+  "us": 1,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Alex Iwobi",
+   "assist": "Sander Berge",
+   "minute": "33'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [
+  {
+   "side": "us",
+   "name": "Ryan Sessegnon",
+   "minute": "90'+4'"
+  }
+ ],
+ "source": "ESPN"
+}

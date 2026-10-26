@@ -1,0 +1,45 @@
+{
+ "eventId": "401915394",
+ "date": "2026-10-21T19:00:00Z",
+ "opponent": {
+  "name": "Viking FK",
+  "abbr": "VFK"
+ },
+ "isHome": true,
+ "score": {
+  "us": 3,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Ross Barkley",
+   "assist": "Ibrahim Mbaye",
+   "minute": "23'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Emiliano Buendía",
+   "assist": null,
+   "minute": "37'",
+   "kind": "pen"
+  },
+  {
+   "side": "us",
+   "scorer": "Henrik Heggheim",
+   "assist": null,
+   "minute": "62'",
+   "kind": "og"
+  },
+  {
+   "side": "opp",
+   "scorer": "Peter Christiansen",
+   "assist": "Kristoffer Askildsen",
+   "minute": "84'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

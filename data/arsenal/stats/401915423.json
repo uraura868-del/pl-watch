@@ -1,0 +1,78 @@
+{
+ "eventId": "401915423",
+ "date": "2026-09-09T19:00:00Z",
+ "opponent": {
+  "name": "Napoli",
+  "abbr": "NAP"
+ },
+ "ht": {
+  "us": {
+   "shots": 13,
+   "onTarget": 3,
+   "offTarget": 6,
+   "blocked": 4,
+   "corners": 4,
+   "fouls": 8,
+   "offsides": 0,
+   "yellow": 0,
+   "red": 0
+  },
+  "opp": {
+   "shots": 4,
+   "onTarget": 3,
+   "offTarget": 0,
+   "blocked": 1,
+   "corners": 0,
+   "fouls": 8,
+   "offsides": 1,
+   "yellow": 1,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 25,
+   "onTarget": 6,
+   "offTarget": 11,
+   "blocked": 8,
+   "corners": 6,
+   "fouls": 22,
+   "offsides": 1,
+   "yellow": 1,
+   "red": 0,
+   "possession": "57.7",
+   "passesAccurate": "559",
+   "passes": "608",
+   "passAcc": "0.9",
+   "crossesAccurate": "5",
+   "crosses": "19",
+   "tacklesWon": "6",
+   "tackles": "9",
+   "interceptions": "6",
+   "clearances": "7"
+  },
+  "opp": {
+   "shots": 5,
+   "onTarget": 3,
+   "offTarget": 0,
+   "blocked": 2,
+   "corners": 0,
+   "fouls": 24,
+   "offsides": 1,
+   "yellow": 2,
+   "red": 0,
+   "possession": "42.3",
+   "passesAccurate": "383",
+   "passes": "446",
+   "passAcc": "0.9",
+   "crossesAccurate": "0",
+   "crosses": "9",
+   "tacklesWon": "7",
+   "tackles": "15",
+   "interceptions": "4",
+   "clearances": "17"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

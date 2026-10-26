@@ -1,0 +1,38 @@
+{
+ "eventId": "401907948",
+ "date": "2026-08-27T19:00:00Z",
+ "opponent": {
+  "name": "AFC Wimbledon",
+  "abbr": "WIM"
+ },
+ "isHome": true,
+ "score": {
+  "us": 3,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Emile Smith Rowe",
+   "assist": "Ryan Sessegnon",
+   "minute": "37'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Rodrigo Muniz",
+   "assist": "Kenny Tete",
+   "minute": "42'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Gonzalo García",
+   "assist": "Macauley Zepa",
+   "minute": "90'+3'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

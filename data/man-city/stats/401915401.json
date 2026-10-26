@@ -1,0 +1,78 @@
+{
+ "eventId": "401915401",
+ "date": "2026-10-20T19:00:00Z",
+ "opponent": {
+  "name": "AEK Athens",
+  "abbr": "AEK"
+ },
+ "ht": {
+  "us": {
+   "shots": 6,
+   "onTarget": 2,
+   "offTarget": 1,
+   "blocked": 3,
+   "corners": 5,
+   "fouls": 4,
+   "offsides": 0,
+   "yellow": 0,
+   "red": 0
+  },
+  "opp": {
+   "shots": 2,
+   "onTarget": 0,
+   "offTarget": 1,
+   "blocked": 1,
+   "corners": 0,
+   "fouls": 8,
+   "offsides": 1,
+   "yellow": 0,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 10,
+   "onTarget": 2,
+   "offTarget": 2,
+   "blocked": 6,
+   "corners": 8,
+   "fouls": 12,
+   "offsides": 0,
+   "yellow": 1,
+   "red": 0,
+   "possession": "63.6",
+   "passesAccurate": "635",
+   "passes": "680",
+   "passAcc": "0.9",
+   "crossesAccurate": "3",
+   "crosses": "13",
+   "tacklesWon": "9",
+   "tackles": "11",
+   "interceptions": "10",
+   "clearances": "10"
+  },
+  "opp": {
+   "shots": 10,
+   "onTarget": 2,
+   "offTarget": 5,
+   "blocked": 3,
+   "corners": 3,
+   "fouls": 17,
+   "offsides": 1,
+   "yellow": 0,
+   "red": 0,
+   "possession": "36.4",
+   "passesAccurate": "346",
+   "passes": "387",
+   "passAcc": "0.9",
+   "crossesAccurate": "0",
+   "crosses": "5",
+   "tacklesWon": "14",
+   "tackles": "22",
+   "interceptions": "9",
+   "clearances": "20"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

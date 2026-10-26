@@ -1,0 +1,45 @@
+{
+ "eventId": "401878774",
+ "date": "2026-10-11T13:00:00Z",
+ "opponent": {
+  "name": "Everton",
+  "abbr": "EVE"
+ },
+ "isHome": true,
+ "score": {
+  "us": 2,
+  "opp": 2
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Joe Gelhardt",
+   "assist": "Sorba Thomas",
+   "minute": "48'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Kiernan Dewsbury-Hall",
+   "assist": "Ainsley Maitland-Niles",
+   "minute": "55'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Thierno Barry",
+   "assist": "Kiernan Dewsbury-Hall",
+   "minute": "68'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Mohamed Belloumi",
+   "assist": "Elliot Stroud",
+   "minute": "74'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

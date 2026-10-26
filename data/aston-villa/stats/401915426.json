@@ -1,0 +1,78 @@
+{
+ "eventId": "401915426",
+ "date": "2026-09-08T16:45:00Z",
+ "opponent": {
+  "name": "Club Brugge",
+  "abbr": "BRU"
+ },
+ "ht": {
+  "us": {
+   "shots": 11,
+   "onTarget": 4,
+   "offTarget": 4,
+   "blocked": 3,
+   "corners": 3,
+   "fouls": 8,
+   "offsides": 1,
+   "yellow": 1,
+   "red": 0
+  },
+  "opp": {
+   "shots": 4,
+   "onTarget": 2,
+   "offTarget": 2,
+   "blocked": 0,
+   "corners": 2,
+   "fouls": 13,
+   "offsides": 1,
+   "yellow": 0,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 18,
+   "onTarget": 5,
+   "offTarget": 5,
+   "blocked": 8,
+   "corners": 5,
+   "fouls": 24,
+   "offsides": 2,
+   "yellow": 3,
+   "red": 0,
+   "possession": "35.9",
+   "passesAccurate": "281",
+   "passes": "338",
+   "passAcc": "0.8",
+   "crossesAccurate": "2",
+   "crosses": "12",
+   "tacklesWon": "11",
+   "tackles": "23",
+   "interceptions": "8",
+   "clearances": "36"
+  },
+  "opp": {
+   "shots": 12,
+   "onTarget": 4,
+   "offTarget": 4,
+   "blocked": 4,
+   "corners": 4,
+   "fouls": 29,
+   "offsides": 1,
+   "yellow": 3,
+   "red": 0,
+   "possession": "64.1",
+   "passesAccurate": "532",
+   "passes": "602",
+   "passAcc": "0.9",
+   "crossesAccurate": "6",
+   "crosses": "27",
+   "tacklesWon": "16",
+   "tackles": "17",
+   "interceptions": "7",
+   "clearances": "22"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

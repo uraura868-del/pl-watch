@@ -1,0 +1,31 @@
+{
+ "eventId": "401879290",
+ "date": "2026-09-05T14:00:00Z",
+ "opponent": {
+  "name": "Brighton & Hove Albion",
+  "abbr": "BHA"
+ },
+ "isHome": false,
+ "score": {
+  "us": 1,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Jayden Bogle",
+   "assist": "Ao Tanaka",
+   "minute": "15'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Luka Vuskovic",
+   "assist": "Maxim De Cuyper",
+   "minute": "71'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

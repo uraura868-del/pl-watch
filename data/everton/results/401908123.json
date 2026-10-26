@@ -1,0 +1,45 @@
+{
+ "eventId": "401908123",
+ "date": "2026-08-26T19:00:00Z",
+ "opponent": {
+  "name": "Preston North End",
+  "abbr": "PNE"
+ },
+ "isHome": false,
+ "score": {
+  "us": 4,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Thierno Barry",
+   "assist": "Vitaliy Mykolenko",
+   "minute": "25'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Thierno Barry",
+   "assist": null,
+   "minute": "59'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Thierno Barry",
+   "assist": "Brennan Johnson",
+   "minute": "70'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Brennan Johnson",
+   "assist": "Thierno Barry",
+   "minute": "72'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

@@ -1,0 +1,38 @@
+{
+ "eventId": "401879292",
+ "date": "2026-09-06T15:30:00Z",
+ "opponent": {
+  "name": "Arsenal",
+  "abbr": "ARS"
+ },
+ "isHome": false,
+ "score": {
+  "us": 1,
+  "opp": 2
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Morgan Rogers",
+   "assist": "Jorrel Hato",
+   "minute": "2'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Kai Havertz",
+   "assist": "Declan Rice",
+   "minute": "25'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Martin Ødegaard",
+   "assist": "Christos Tzolis",
+   "minute": "50'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

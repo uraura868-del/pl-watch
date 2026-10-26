@@ -1,0 +1,38 @@
+{
+ "eventId": "401915571",
+ "date": "2026-10-15T19:00:00Z",
+ "opponent": {
+  "name": "SK Sturm Graz",
+  "abbr": "STG"
+ },
+ "isHome": true,
+ "score": {
+  "us": 3,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Evanilson",
+   "assist": "Adam Smith",
+   "minute": "43'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Rayan",
+   "assist": null,
+   "minute": "76'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Álvaro Rodríguez",
+   "assist": null,
+   "minute": "90'+2'",
+   "kind": "pen"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

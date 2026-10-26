@@ -1,0 +1,51 @@
+{
+ "eventId": "401915553",
+ "date": "2026-10-22T19:00:00Z",
+ "opponent": {
+  "name": "Besiktas",
+  "abbr": "BES"
+ },
+ "isHome": false,
+ "score": {
+  "us": 2,
+  "opp": 2
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Wilfred Ndidi",
+   "assist": "Salih Özcan",
+   "minute": "45'+2'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Yéremy Pino",
+   "assist": "Anan Khalaili",
+   "minute": "51'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Jean-Philippe Mateta",
+   "assist": null,
+   "minute": "55'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Junior Olaitan",
+   "assist": null,
+   "minute": "73'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [
+  {
+   "side": "opp",
+   "name": "Umit Akdag",
+   "minute": "77'"
+  }
+ ],
+ "source": "ESPN"
+}

@@ -1,0 +1,78 @@
+{
+ "eventId": "401907951",
+ "date": "2026-08-25T19:00:00Z",
+ "opponent": {
+  "name": "Birmingham City",
+  "abbr": "BIR"
+ },
+ "ht": {
+  "us": {
+   "shots": 5,
+   "onTarget": 2,
+   "offTarget": 3,
+   "blocked": 0,
+   "corners": 3,
+   "fouls": 10,
+   "offsides": 1,
+   "yellow": 1,
+   "red": 0
+  },
+  "opp": {
+   "shots": 3,
+   "onTarget": 0,
+   "offTarget": 3,
+   "blocked": 0,
+   "corners": 1,
+   "fouls": 6,
+   "offsides": 0,
+   "yellow": 1,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 12,
+   "onTarget": 2,
+   "offTarget": 7,
+   "blocked": 3,
+   "corners": 7,
+   "fouls": 24,
+   "offsides": 1,
+   "yellow": 1,
+   "red": 0,
+   "possession": "68.5",
+   "passesAccurate": "435",
+   "passes": "520",
+   "passAcc": "0.8",
+   "crossesAccurate": "9",
+   "crosses": "16",
+   "tacklesWon": "8",
+   "tackles": "12",
+   "interceptions": "6",
+   "clearances": "10"
+  },
+  "opp": {
+   "shots": 7,
+   "onTarget": 1,
+   "offTarget": 4,
+   "blocked": 2,
+   "corners": 4,
+   "fouls": 18,
+   "offsides": 0,
+   "yellow": 2,
+   "red": 0,
+   "possession": "31.5",
+   "passesAccurate": "155",
+   "passes": "238",
+   "passAcc": "0.7",
+   "crossesAccurate": "2",
+   "crosses": "7",
+   "tacklesWon": "14",
+   "tackles": "21",
+   "interceptions": "16",
+   "clearances": "21"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

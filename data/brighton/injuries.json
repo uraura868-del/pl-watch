@@ -1,0 +1,72 @@
+{
+ "updatedAt": "2026-10-26T12:16:14Z",
+ "fetchedOk": true,
+ "players": [
+  {
+   "name": "Stefanos Tzimas",
+   "reason": "Cruciate ligament tear",
+   "reasonJa": "十字靭帯損傷",
+   "type": "負傷",
+   "since": "2025-12-03",
+   "until": "2026-11-20",
+   "firstSeen": "2026-10-26",
+   "lastSeen": "2026-10-26",
+   "active": true
+  },
+  {
+   "name": "Evan Ferguson",
+   "reason": "Ankle injury",
+   "reasonJa": "足首の負傷",
+   "type": "負傷",
+   "since": "2026-01-18",
+   "until": "2026-11-20",
+   "firstSeen": "2026-10-26",
+   "lastSeen": "2026-10-26",
+   "active": true
+  },
+  {
+   "name": "Kaoru Mitoma",
+   "reason": "Hamstring injury",
+   "reasonJa": "ハムストリング負傷",
+   "type": "負傷",
+   "since": "2026-05-10",
+   "until": "2026-11-06",
+   "firstSeen": "2026-10-26",
+   "lastSeen": "2026-10-26",
+   "active": true
+  },
+  {
+   "name": "Zadok Yohanna",
+   "reason": "Fitness",
+   "reasonJa": "コンディション不良",
+   "type": "負傷",
+   "since": "2026-10-12",
+   "until": null,
+   "firstSeen": "2026-10-26",
+   "lastSeen": "2026-10-26",
+   "active": true
+  },
+  {
+   "name": "Femi Azeez",
+   "reason": "Fitness",
+   "reasonJa": "コンディション不良",
+   "type": "負傷",
+   "since": "2026-10-16",
+   "until": "2026-10-30",
+   "firstSeen": "2026-10-26",
+   "lastSeen": "2026-10-26",
+   "active": true
+  },
+  {
+   "name": "Ferdi Kadıoğlu",
+   "reason": "Hip injury",
+   "reasonJa": "股関節の負傷",
+   "type": "負傷",
+   "since": "2026-10-25",
+   "until": null,
+   "firstSeen": "2026-10-26",
+   "lastSeen": "2026-10-26",
+   "active": true
+  }
+ ]
+}

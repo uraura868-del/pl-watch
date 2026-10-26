@@ -1,0 +1,59 @@
+{
+ "eventId": "401915409",
+ "date": "2026-10-14T19:00:00Z",
+ "opponent": {
+  "name": "Fenerbahce",
+  "abbr": "FEN"
+ },
+ "isHome": true,
+ "score": {
+  "us": 6,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Johan Manzambi",
+   "assist": null,
+   "minute": "12'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Nicolas Jackson",
+   "assist": "Boubacar Kamara",
+   "minute": "31'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Nicolas Jackson",
+   "assist": "Ross Barkley",
+   "minute": "39'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Ross Barkley",
+   "assist": null,
+   "minute": "68'",
+   "kind": "pen"
+  },
+  {
+   "side": "us",
+   "scorer": "Ross Barkley",
+   "assist": "Ibrahim Mbaye",
+   "minute": "72'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Tammy Abraham",
+   "assist": "Alysson",
+   "minute": "90'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

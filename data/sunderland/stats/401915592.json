@@ -1,0 +1,78 @@
+{
+ "eventId": "401915592",
+ "date": "2026-09-16T19:00:00Z",
+ "opponent": {
+  "name": "AZ Alkmaar",
+  "abbr": "AZ"
+ },
+ "ht": {
+  "us": {
+   "shots": 12,
+   "onTarget": 2,
+   "offTarget": 7,
+   "blocked": 3,
+   "corners": 7,
+   "fouls": 14,
+   "offsides": 1,
+   "yellow": 2,
+   "red": 0
+  },
+  "opp": {
+   "shots": 2,
+   "onTarget": 1,
+   "offTarget": 1,
+   "blocked": 0,
+   "corners": 3,
+   "fouls": 16,
+   "offsides": 0,
+   "yellow": 1,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 18,
+   "onTarget": 3,
+   "offTarget": 10,
+   "blocked": 5,
+   "corners": 12,
+   "fouls": 26,
+   "offsides": 1,
+   "yellow": 3,
+   "red": 0,
+   "possession": "44.8",
+   "passesAccurate": "299",
+   "passes": "383",
+   "passAcc": "0.8",
+   "crossesAccurate": "6",
+   "crosses": "25",
+   "tacklesWon": "11",
+   "tackles": "16",
+   "interceptions": "8",
+   "clearances": "22"
+  },
+  "opp": {
+   "shots": 11,
+   "onTarget": 2,
+   "offTarget": 3,
+   "blocked": 6,
+   "corners": 5,
+   "fouls": 26,
+   "offsides": 0,
+   "yellow": 2,
+   "red": 0,
+   "possession": "55.2",
+   "passesAccurate": "403",
+   "passes": "493",
+   "passAcc": "0.8",
+   "crossesAccurate": "3",
+   "crosses": "9",
+   "tacklesWon": "7",
+   "tackles": "10",
+   "interceptions": "11",
+   "clearances": "31"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

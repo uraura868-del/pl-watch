@@ -1,0 +1,24 @@
+{
+ "eventId": "401879298",
+ "date": "2026-08-22T14:00:00Z",
+ "opponent": {
+  "name": "Leeds United",
+  "abbr": "LEE"
+ },
+ "isHome": true,
+ "score": {
+  "us": 0,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Anton Stach",
+   "assist": null,
+   "minute": "88'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

@@ -1,0 +1,66 @@
+{
+ "eventId": "401879293",
+ "date": "2026-08-30T15:30:00Z",
+ "opponent": {
+  "name": "Manchester United",
+  "abbr": "MAN"
+ },
+ "isHome": false,
+ "score": {
+  "us": 2,
+  "opp": 5
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Leif Davis",
+   "assist": "Fatawu Issahaku",
+   "minute": "29'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Bruno Fernandes",
+   "assist": "Matheus Cunha",
+   "minute": "40'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Jacob Greaves",
+   "assist": null,
+   "minute": "56'",
+   "kind": "og"
+  },
+  {
+   "side": "opp",
+   "scorer": "Bruno Fernandes",
+   "assist": null,
+   "minute": "61'",
+   "kind": "pen"
+  },
+  {
+   "side": "opp",
+   "scorer": "Bruno Fernandes",
+   "assist": null,
+   "minute": "68'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Bryan Mbeumo",
+   "assist": "Bruno Fernandes",
+   "minute": "82'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Chuba Akpom",
+   "assist": "Julio Enciso",
+   "minute": "90'+1'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

@@ -1,0 +1,24 @@
+{
+ "eventId": "401879295",
+ "date": "2026-08-31T19:00:00Z",
+ "opponent": {
+  "name": "Aston Villa",
+  "abbr": "AVL"
+ },
+ "isHome": false,
+ "score": {
+  "us": 1,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Bukayo Saka",
+   "assist": "Riccardo Calafiori",
+   "minute": "59'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

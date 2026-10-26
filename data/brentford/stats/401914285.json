@@ -1,0 +1,78 @@
+{
+ "eventId": "401914285",
+ "date": "2026-09-15T19:00:00Z",
+ "opponent": {
+  "name": "Reading",
+  "abbr": "REA"
+ },
+ "ht": {
+  "us": {
+   "shots": 8,
+   "onTarget": 2,
+   "offTarget": 3,
+   "blocked": 3,
+   "corners": 2,
+   "fouls": 10,
+   "offsides": 0,
+   "yellow": 0,
+   "red": 0
+  },
+  "opp": {
+   "shots": 9,
+   "onTarget": 1,
+   "offTarget": 4,
+   "blocked": 4,
+   "corners": 2,
+   "fouls": 6,
+   "offsides": 1,
+   "yellow": 0,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 22,
+   "onTarget": 6,
+   "offTarget": 10,
+   "blocked": 6,
+   "corners": 7,
+   "fouls": 22,
+   "offsides": 3,
+   "yellow": 0,
+   "red": 0,
+   "possession": "70.9",
+   "passesAccurate": "593",
+   "passes": "652",
+   "passAcc": "0.9",
+   "crossesAccurate": "7",
+   "crosses": "22",
+   "tacklesWon": "9",
+   "tackles": "10",
+   "interceptions": "7",
+   "clearances": "31"
+  },
+  "opp": {
+   "shots": 16,
+   "onTarget": 2,
+   "offTarget": 8,
+   "blocked": 6,
+   "corners": 5,
+   "fouls": 16,
+   "offsides": 2,
+   "yellow": 0,
+   "red": 0,
+   "possession": "29.1",
+   "passesAccurate": "188",
+   "passes": "259",
+   "passAcc": "0.7",
+   "crossesAccurate": "5",
+   "crosses": "14",
+   "tacklesWon": "10",
+   "tackles": "14",
+   "interceptions": "10",
+   "clearances": "20"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

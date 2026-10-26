@@ -1,6 +1,25 @@
 {
- "updatedAt": "2026-10-26T12:07:30Z",
+ "updatedAt": "2026-10-26T12:16:14Z",
  "teams": [
-  "man-utd"
+  "man-utd",
+  "bournemouth",
+  "arsenal",
+  "aston-villa",
+  "brentford",
+  "brighton",
+  "chelsea",
+  "coventry",
+  "crystal-palace",
+  "everton",
+  "fulham",
+  "hull",
+  "ipswich",
+  "leeds",
+  "liverpool",
+  "man-city",
+  "newcastle",
+  "nottm-forest",
+  "sunderland",
+  "tottenham"
  ]
 }

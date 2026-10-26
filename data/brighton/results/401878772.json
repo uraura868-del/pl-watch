@@ -1,0 +1,37 @@
+{
+ "eventId": "401878772",
+ "date": "2026-10-10T14:00:00Z",
+ "opponent": {
+  "name": "Sunderland",
+  "abbr": "SUN"
+ },
+ "isHome": false,
+ "score": {
+  "us": 2,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Maxim De Cuyper",
+   "assist": "Pascal Gross",
+   "minute": "53'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Jaouen Hadjam",
+   "assist": "Georginio Rutter",
+   "minute": "90'+3'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [
+  {
+   "side": "us",
+   "name": "Pascal Struijk",
+   "minute": "57'"
+  }
+ ],
+ "source": "ESPN"
+}

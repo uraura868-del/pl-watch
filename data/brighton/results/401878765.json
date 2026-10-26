@@ -1,0 +1,31 @@
+{
+ "eventId": "401878765",
+ "date": "2026-10-25T14:00:00Z",
+ "opponent": {
+  "name": "Liverpool",
+  "abbr": "LIV"
+ },
+ "isHome": false,
+ "score": {
+  "us": 0,
+  "opp": 2
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Pascal Gross",
+   "assist": null,
+   "minute": "17'",
+   "kind": "og"
+  },
+  {
+   "side": "opp",
+   "scorer": "Alexander Isak",
+   "assist": "Bradley Barcola",
+   "minute": "21'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

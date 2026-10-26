@@ -1,0 +1,24 @@
+{
+ "eventId": "401879255",
+ "date": "2026-10-24T14:00:00Z",
+ "opponent": {
+  "name": "Fulham",
+  "abbr": "FUL"
+ },
+ "isHome": true,
+ "score": {
+  "us": 0,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Oscar Bobb",
+   "assist": "Josh King",
+   "minute": "80'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

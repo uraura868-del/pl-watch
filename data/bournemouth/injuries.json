@@ -1,0 +1,50 @@
+{
+ "updatedAt": "2026-10-26T12:16:14Z",
+ "fetchedOk": true,
+ "players": [
+  {
+   "name": "Veljko Milosavljević",
+   "reason": "Knee injury",
+   "reasonJa": "膝の負傷",
+   "type": "負傷",
+   "since": "2026-05-27",
+   "until": null,
+   "firstSeen": "2026-10-26",
+   "lastSeen": "2026-10-26",
+   "active": true
+  },
+  {
+   "name": "Julián Araujo",
+   "reason": "Hamstring injury",
+   "reasonJa": "ハムストリング負傷",
+   "type": "負傷",
+   "since": "2026-07-24",
+   "until": "2026-11-20",
+   "firstSeen": "2026-10-26",
+   "lastSeen": "2026-10-26",
+   "active": true
+  },
+  {
+   "name": "Junior Kroupi",
+   "reason": "Foot injury",
+   "reasonJa": "足の負傷",
+   "type": "負傷",
+   "since": "2026-07-29",
+   "until": "2026-11-06",
+   "firstSeen": "2026-10-26",
+   "lastSeen": "2026-10-26",
+   "active": true
+  },
+  {
+   "name": "Alex Scott",
+   "reason": "Hamstring injury",
+   "reasonJa": "ハムストリング負傷",
+   "type": "負傷",
+   "since": "2026-10-03",
+   "until": "2026-11-06",
+   "firstSeen": "2026-10-26",
+   "lastSeen": "2026-10-26",
+   "active": true
+  }
+ ]
+}

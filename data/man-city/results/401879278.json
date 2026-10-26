@@ -1,0 +1,30 @@
+{
+ "eventId": "401879278",
+ "date": "2026-09-13T15:30:00Z",
+ "opponent": {
+  "name": "Manchester United",
+  "abbr": "MAN"
+ },
+ "isHome": false,
+ "score": {
+  "us": 1,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Erling Haaland",
+   "assist": null,
+   "minute": "60'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [
+  {
+   "side": "us",
+   "name": "Phil Foden",
+   "minute": "23'"
+  }
+ ],
+ "source": "ESPN"
+}

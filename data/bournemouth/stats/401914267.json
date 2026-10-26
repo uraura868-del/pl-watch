@@ -1,0 +1,78 @@
+{
+ "eventId": "401914267",
+ "date": "2026-09-08T18:45:00Z",
+ "opponent": {
+  "name": "Lincoln City",
+  "abbr": "LCN"
+ },
+ "ht": {
+  "us": {
+   "shots": 12,
+   "onTarget": 2,
+   "offTarget": 6,
+   "blocked": 4,
+   "corners": 5,
+   "fouls": 15,
+   "offsides": 1,
+   "yellow": 1,
+   "red": 0
+  },
+  "opp": {
+   "shots": 2,
+   "onTarget": 1,
+   "offTarget": 1,
+   "blocked": 0,
+   "corners": 0,
+   "fouls": 8,
+   "offsides": 0,
+   "yellow": 1,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 31,
+   "onTarget": 4,
+   "offTarget": 14,
+   "blocked": 13,
+   "corners": 10,
+   "fouls": 21,
+   "offsides": 1,
+   "yellow": 2,
+   "red": 0,
+   "possession": "67.9",
+   "passesAccurate": "521",
+   "passes": "586",
+   "passAcc": "0.9",
+   "crossesAccurate": "9",
+   "crosses": "25",
+   "tacklesWon": "11",
+   "tackles": "14",
+   "interceptions": "6",
+   "clearances": "14"
+  },
+  "opp": {
+   "shots": 2,
+   "onTarget": 1,
+   "offTarget": 1,
+   "blocked": 0,
+   "corners": 0,
+   "fouls": 16,
+   "offsides": 0,
+   "yellow": 3,
+   "red": 0,
+   "possession": "32.1",
+   "passesAccurate": "207",
+   "passes": "283",
+   "passAcc": "0.7",
+   "crossesAccurate": "0",
+   "crosses": "7",
+   "tacklesWon": "13",
+   "tackles": "17",
+   "interceptions": "11",
+   "clearances": "42"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

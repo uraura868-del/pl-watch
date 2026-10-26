@@ -1,0 +1,78 @@
+{
+ "eventId": "401914283",
+ "date": "2026-09-15T18:45:00Z",
+ "opponent": {
+  "name": "West Ham United",
+  "abbr": "WHU"
+ },
+ "ht": {
+  "us": {
+   "shots": 4,
+   "onTarget": 2,
+   "offTarget": 1,
+   "blocked": 1,
+   "corners": 1,
+   "fouls": 8,
+   "offsides": 0,
+   "yellow": 0,
+   "red": 0
+  },
+  "opp": {
+   "shots": 4,
+   "onTarget": 0,
+   "offTarget": 3,
+   "blocked": 1,
+   "corners": 2,
+   "fouls": 6,
+   "offsides": 0,
+   "yellow": 0,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 9,
+   "onTarget": 3,
+   "offTarget": 5,
+   "blocked": 1,
+   "corners": 4,
+   "fouls": 14,
+   "offsides": 1,
+   "yellow": 1,
+   "red": 0,
+   "possession": "61.7",
+   "passesAccurate": "632",
+   "passes": "688",
+   "passAcc": "0.9",
+   "crossesAccurate": "4",
+   "crosses": "15",
+   "tacklesWon": "13",
+   "tackles": "18",
+   "interceptions": "11",
+   "clearances": "18"
+  },
+  "opp": {
+   "shots": 9,
+   "onTarget": 0,
+   "offTarget": 6,
+   "blocked": 3,
+   "corners": 5,
+   "fouls": 14,
+   "offsides": 1,
+   "yellow": 0,
+   "red": 0,
+   "possession": "38.3",
+   "passesAccurate": "355",
+   "passes": "411",
+   "passAcc": "0.9",
+   "crossesAccurate": "7",
+   "crosses": "24",
+   "tacklesWon": "5",
+   "tackles": "10",
+   "interceptions": "5",
+   "clearances": "17"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

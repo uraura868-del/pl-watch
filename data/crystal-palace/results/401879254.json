@@ -1,0 +1,31 @@
+{
+ "eventId": "401879254",
+ "date": "2026-10-25T14:00:00Z",
+ "opponent": {
+  "name": "Newcastle United",
+  "abbr": "NEW"
+ },
+ "isHome": true,
+ "score": {
+  "us": 0,
+  "opp": 2
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "William Osula",
+   "assist": "Jacob Murphy",
+   "minute": "47'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Harvey Barnes",
+   "assist": "Amar Dedic",
+   "minute": "58'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

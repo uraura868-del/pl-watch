@@ -1,0 +1,78 @@
+{
+ "eventId": "401908127",
+ "date": "2026-08-27T18:30:00Z",
+ "opponent": {
+  "name": "Luton Town",
+  "abbr": "LTN"
+ },
+ "ht": {
+  "us": {
+   "shots": 16,
+   "onTarget": 4,
+   "offTarget": 6,
+   "blocked": 6,
+   "corners": 7,
+   "fouls": 8,
+   "offsides": 1,
+   "yellow": 0,
+   "red": 0
+  },
+  "opp": {
+   "shots": 3,
+   "onTarget": 1,
+   "offTarget": 1,
+   "blocked": 1,
+   "corners": 1,
+   "fouls": 8,
+   "offsides": 0,
+   "yellow": 0,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 22,
+   "onTarget": 6,
+   "offTarget": 8,
+   "blocked": 8,
+   "corners": 9,
+   "fouls": 20,
+   "offsides": 2,
+   "yellow": 0,
+   "red": 0,
+   "possession": "65.7",
+   "passesAccurate": "641",
+   "passes": "696",
+   "passAcc": "0.9",
+   "crossesAccurate": "6",
+   "crosses": "20",
+   "tacklesWon": "11",
+   "tackles": "15",
+   "interceptions": "5",
+   "clearances": "15"
+  },
+  "opp": {
+   "shots": 7,
+   "onTarget": 1,
+   "offTarget": 5,
+   "blocked": 1,
+   "corners": 3,
+   "fouls": 12,
+   "offsides": 0,
+   "yellow": 1,
+   "red": 0,
+   "possession": "34.3",
+   "passesAccurate": "295",
+   "passes": "364",
+   "passAcc": "0.8",
+   "crossesAccurate": "5",
+   "crosses": "7",
+   "tacklesWon": "12",
+   "tackles": "16",
+   "interceptions": "12",
+   "clearances": "29"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

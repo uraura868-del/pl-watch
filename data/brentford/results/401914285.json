@@ -1,0 +1,38 @@
+{
+ "eventId": "401914285",
+ "date": "2026-09-15T19:00:00Z",
+ "opponent": {
+  "name": "Reading",
+  "abbr": "REA"
+ },
+ "isHome": false,
+ "score": {
+  "us": 2,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Callum Wilson",
+   "assist": "Dango Ouattara",
+   "minute": "3'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Fábio Carvalho",
+   "assist": "Dango Ouattara",
+   "minute": "45'+1'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Paudie O'Conner",
+   "assist": "Charlie Savage",
+   "minute": "72'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

@@ -1,0 +1,38 @@
+{
+ "eventId": "401879299",
+ "date": "2026-08-22T14:00:00Z",
+ "opponent": {
+  "name": "Sunderland",
+  "abbr": "SUN"
+ },
+ "isHome": true,
+ "score": {
+  "us": 2,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Emersonn",
+   "assist": "Julio Enciso",
+   "minute": "24'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Nilson Angulo",
+   "assist": null,
+   "minute": "39'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Jack Clarke",
+   "assist": "Sasa Lukic",
+   "minute": "90'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

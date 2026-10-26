@@ -1,0 +1,78 @@
+{
+ "eventId": "401907954",
+ "date": "2026-08-25T18:45:00Z",
+ "opponent": {
+  "name": "Leicester City",
+  "abbr": "LEI"
+ },
+ "ht": {
+  "us": {
+   "shots": 7,
+   "onTarget": 3,
+   "offTarget": 2,
+   "blocked": 2,
+   "corners": 3,
+   "fouls": 10,
+   "offsides": 4,
+   "yellow": 0,
+   "red": 0
+  },
+  "opp": {
+   "shots": 9,
+   "onTarget": 4,
+   "offTarget": 3,
+   "blocked": 2,
+   "corners": 2,
+   "fouls": 10,
+   "offsides": 0,
+   "yellow": 1,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 12,
+   "onTarget": 6,
+   "offTarget": 3,
+   "blocked": 3,
+   "corners": 5,
+   "fouls": 22,
+   "offsides": 11,
+   "yellow": 3,
+   "red": 0,
+   "possession": "42.7",
+   "passesAccurate": "301",
+   "passes": "366",
+   "passAcc": "0.8",
+   "crossesAccurate": "6",
+   "crosses": "20",
+   "tacklesWon": "7",
+   "tackles": "15",
+   "interceptions": "8",
+   "clearances": "14"
+  },
+  "opp": {
+   "shots": 21,
+   "onTarget": 7,
+   "offTarget": 4,
+   "blocked": 10,
+   "corners": 3,
+   "fouls": 26,
+   "offsides": 1,
+   "yellow": 2,
+   "red": 0,
+   "possession": "57.3",
+   "passesAccurate": "427",
+   "passes": "501",
+   "passAcc": "0.9",
+   "crossesAccurate": "2",
+   "crosses": "9",
+   "tacklesWon": "6",
+   "tackles": "10",
+   "interceptions": "9",
+   "clearances": "21"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

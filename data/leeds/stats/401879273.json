@@ -1,0 +1,78 @@
+{
+ "eventId": "401879273",
+ "date": "2026-09-20T13:00:00Z",
+ "opponent": {
+  "name": "Crystal Palace",
+  "abbr": "CRY"
+ },
+ "ht": {
+  "us": {
+   "shots": 9,
+   "onTarget": 1,
+   "offTarget": 3,
+   "blocked": 5,
+   "corners": 4,
+   "fouls": 8,
+   "offsides": 1,
+   "yellow": 1,
+   "red": 0
+  },
+  "opp": {
+   "shots": 5,
+   "onTarget": 2,
+   "offTarget": 1,
+   "blocked": 2,
+   "corners": 1,
+   "fouls": 10,
+   "offsides": 0,
+   "yellow": 0,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 13,
+   "onTarget": 2,
+   "offTarget": 5,
+   "blocked": 6,
+   "corners": 4,
+   "fouls": 18,
+   "offsides": 2,
+   "yellow": 2,
+   "red": 0,
+   "possession": "50.6",
+   "passesAccurate": "337",
+   "passes": "416",
+   "passAcc": "0.8",
+   "crossesAccurate": "4",
+   "crosses": "17",
+   "tacklesWon": "8",
+   "tackles": "16",
+   "interceptions": "17",
+   "clearances": "18"
+  },
+  "opp": {
+   "shots": 12,
+   "onTarget": 4,
+   "offTarget": 5,
+   "blocked": 3,
+   "corners": 3,
+   "fouls": 21,
+   "offsides": 2,
+   "yellow": 3,
+   "red": 0,
+   "possession": "49.4",
+   "passesAccurate": "338",
+   "passes": "417",
+   "passAcc": "0.8",
+   "crossesAccurate": "1",
+   "crosses": "10",
+   "tacklesWon": "11",
+   "tackles": "18",
+   "interceptions": "7",
+   "clearances": "32"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

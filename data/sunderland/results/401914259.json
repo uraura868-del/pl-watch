@@ -1,0 +1,24 @@
+{
+ "eventId": "401914259",
+ "date": "2026-09-08T18:45:00Z",
+ "opponent": {
+  "name": "Hull City",
+  "abbr": "HUL"
+ },
+ "isHome": true,
+ "score": {
+  "us": 1,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Chemsdine Talbi",
+   "assist": "Thomas Meunier",
+   "minute": "71'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

@@ -1,0 +1,45 @@
+{
+ "eventId": "401878776",
+ "date": "2026-10-10T14:00:00Z",
+ "opponent": {
+  "name": "Brentford",
+  "abbr": "BRE"
+ },
+ "isHome": true,
+ "score": {
+  "us": 2,
+  "opp": 2
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Yehor Yarmoliuk",
+   "assist": null,
+   "minute": "10'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Nicolas Jackson",
+   "assist": null,
+   "minute": "12'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "John McGinn",
+   "assist": "Johan Manzambi",
+   "minute": "77'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Kristoffer Ajer",
+   "assist": "Jaidon Anthony",
+   "minute": "79'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

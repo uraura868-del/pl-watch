@@ -1,0 +1,72 @@
+{
+ "updatedAt": "2026-10-26T12:16:14Z",
+ "fetchedOk": true,
+ "players": [
+  {
+   "name": "Giovanni Leoni",
+   "reason": "Cruciate ligament tear",
+   "reasonJa": "十字靭帯損傷",
+   "type": "負傷",
+   "since": "2025-09-24",
+   "until": null,
+   "firstSeen": "2026-10-26",
+   "lastSeen": "2026-10-26",
+   "active": true
+  },
+  {
+   "name": "Conor Bradley",
+   "reason": "Knee surgery",
+   "reasonJa": "膝の負傷",
+   "type": "負傷",
+   "since": "2026-01-09",
+   "until": "2026-11-20",
+   "firstSeen": "2026-10-26",
+   "lastSeen": "2026-10-26",
+   "active": true
+  },
+  {
+   "name": "Vítězslav Jaroš",
+   "reason": "Knee surgery",
+   "reasonJa": "膝の負傷",
+   "type": "負傷",
+   "since": "2026-02-20",
+   "until": null,
+   "firstSeen": "2026-10-26",
+   "lastSeen": "2026-10-26",
+   "active": true
+  },
+  {
+   "name": "Hugo Ekitiké",
+   "reason": "Achilles tendon rupture",
+   "reasonJa": "アキレス腱の負傷",
+   "type": "負傷",
+   "since": "2026-04-15",
+   "until": "2026-12-31",
+   "firstSeen": "2026-10-26",
+   "lastSeen": "2026-10-26",
+   "active": true
+  },
+  {
+   "name": "Dominik Szoboszlai",
+   "reason": "Thigh problems",
+   "reasonJa": "太ももの負傷",
+   "type": "負傷",
+   "since": "2026-10-18",
+   "until": null,
+   "firstSeen": "2026-10-26",
+   "lastSeen": "2026-10-26",
+   "active": true
+  },
+  {
+   "name": "Jeremie Frimpong",
+   "reason": "Muscle injury",
+   "reasonJa": "筋肉系の負傷",
+   "type": "負傷",
+   "since": "2026-10-18",
+   "until": null,
+   "firstSeen": "2026-10-26",
+   "lastSeen": "2026-10-26",
+   "active": true
+  }
+ ]
+}

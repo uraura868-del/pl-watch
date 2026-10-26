@@ -1,0 +1,59 @@
+{
+ "eventId": "401914268",
+ "date": "2026-09-15T19:00:00Z",
+ "opponent": {
+  "name": "Ipswich Town",
+  "abbr": "IPS"
+ },
+ "isHome": false,
+ "score": {
+  "us": 4,
+  "opp": 2
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Max Dowman",
+   "assist": "Eberechi Eze",
+   "minute": "7'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Noni Madueke",
+   "assist": null,
+   "minute": "16'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Max Dowman",
+   "assist": "Martín Zubimendi",
+   "minute": "47'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Mikel Merino",
+   "assist": null,
+   "minute": "58'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Anis Mehmeti",
+   "assist": "Jack Clarke",
+   "minute": "62'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Chuba Akpom",
+   "assist": "Leif Davis",
+   "minute": "90'+1'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

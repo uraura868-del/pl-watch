@@ -1,0 +1,52 @@
+{
+ "eventId": "401915566",
+ "date": "2026-10-15T16:45:00Z",
+ "opponent": {
+  "name": "Lyon",
+  "abbr": "LYON"
+ },
+ "isHome": false,
+ "score": {
+  "us": 2,
+  "opp": 3
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Corentin Tolisso",
+   "assist": null,
+   "minute": "8'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Ernest Nuamah",
+   "assist": "Keito Nakamura",
+   "minute": "45'+2'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Yéremy Pino",
+   "assist": "Adam Wharton",
+   "minute": "50'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Pavel Sulc",
+   "assist": "Keito Nakamura",
+   "minute": "76'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Daichi Kamada",
+   "assist": null,
+   "minute": "81'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

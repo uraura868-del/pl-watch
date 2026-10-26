@@ -1,0 +1,39 @@
+{
+ "updatedAt": "2026-10-26T12:16:14Z",
+ "fetchedOk": true,
+ "players": [
+  {
+   "name": "Wilson Odobert",
+   "reason": "Cruciate ligament tear",
+   "reasonJa": "十字靭帯損傷",
+   "type": "負傷",
+   "since": "2026-02-10",
+   "until": "2026-11-28",
+   "firstSeen": "2026-10-26",
+   "lastSeen": "2026-10-26",
+   "active": true
+  },
+  {
+   "name": "Xavi Simons",
+   "reason": "Cruciate ligament tear",
+   "reasonJa": "十字靭帯損傷",
+   "type": "負傷",
+   "since": "2026-04-25",
+   "until": "2027-02-20",
+   "firstSeen": "2026-10-26",
+   "lastSeen": "2026-10-26",
+   "active": true
+  },
+  {
+   "name": "Mykhaylo Mudryk",
+   "reason": "Ankle injury",
+   "reasonJa": "足首の負傷",
+   "type": "負傷",
+   "since": "2026-09-09",
+   "until": "2026-11-09",
+   "firstSeen": "2026-10-26",
+   "lastSeen": "2026-10-26",
+   "active": true
+  }
+ ]
+}

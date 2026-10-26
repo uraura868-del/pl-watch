@@ -1,0 +1,78 @@
+{
+ "eventId": "401915394",
+ "date": "2026-10-21T19:00:00Z",
+ "opponent": {
+  "name": "Viking FK",
+  "abbr": "VFK"
+ },
+ "ht": {
+  "us": {
+   "shots": 12,
+   "onTarget": 5,
+   "offTarget": 4,
+   "blocked": 3,
+   "corners": 6,
+   "fouls": 8,
+   "offsides": 0,
+   "yellow": 0,
+   "red": 0
+  },
+  "opp": {
+   "shots": 1,
+   "onTarget": 0,
+   "offTarget": 0,
+   "blocked": 1,
+   "corners": 1,
+   "fouls": 24,
+   "offsides": 1,
+   "yellow": 0,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 19,
+   "onTarget": 8,
+   "offTarget": 7,
+   "blocked": 4,
+   "corners": 8,
+   "fouls": 14,
+   "offsides": 2,
+   "yellow": 0,
+   "red": 0,
+   "possession": "54.4",
+   "passesAccurate": "469",
+   "passes": "527",
+   "passAcc": "0.9",
+   "crossesAccurate": "5",
+   "crosses": "11",
+   "tacklesWon": "4",
+   "tackles": "7",
+   "interceptions": "5",
+   "clearances": "24"
+  },
+  "opp": {
+   "shots": 9,
+   "onTarget": 2,
+   "offTarget": 0,
+   "blocked": 7,
+   "corners": 6,
+   "fouls": 28,
+   "offsides": 3,
+   "yellow": 0,
+   "red": 0,
+   "possession": "45.6",
+   "passesAccurate": "377",
+   "passes": "434",
+   "passAcc": "0.9",
+   "crossesAccurate": "3",
+   "crosses": "16",
+   "tacklesWon": "7",
+   "tackles": "15",
+   "interceptions": "7",
+   "clearances": "15"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

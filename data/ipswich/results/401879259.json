@@ -1,0 +1,52 @@
+{
+ "eventId": "401879259",
+ "date": "2026-10-17T14:00:00Z",
+ "opponent": {
+  "name": "Manchester City",
+  "abbr": "MNC"
+ },
+ "isHome": false,
+ "score": {
+  "us": 2,
+  "opp": 3
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Phil Foden",
+   "assist": "Jérémy Doku",
+   "minute": "19'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Daizen Maeda",
+   "assist": "Abdoul Ouattara",
+   "minute": "21'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Erling Haaland",
+   "assist": "Mateo Kovacic",
+   "minute": "34'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Erling Haaland",
+   "assist": "Iliman Ndiaye",
+   "minute": "69'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Zian Flemming",
+   "assist": null,
+   "minute": "90'",
+   "kind": "pen"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

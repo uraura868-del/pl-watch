@@ -1,0 +1,499 @@
+{
+ "eventId": "401879298",
+ "date": "2026-08-22T14:00:00Z",
+ "final": true,
+ "updatedAt": "2026-10-26T12:16:14Z",
+ "team": {
+  "formation": "3-4-2-1",
+  "rows": [
+   [
+    "179497"
+   ],
+   [
+    "338894",
+    "238990",
+    "338876"
+   ],
+   [
+    "213718",
+    "298518",
+    "291638",
+    "206227"
+   ],
+   [
+    "243396",
+    "275842"
+   ],
+   [
+    "287869"
+   ]
+  ],
+  "starters": [
+   {
+    "id": "179497",
+    "name": "Matz Sels",
+    "jersey": "26",
+    "pos": "G",
+    "starter": true,
+    "place": "1",
+    "photo": "data/photos/6f97f8d4583e1768.jpg"
+   },
+   {
+    "id": "238990",
+    "name": "Nikola Milenkovic",
+    "jersey": "31",
+    "pos": "CD",
+    "starter": true,
+    "place": "5",
+    "photo": "data/photos/800959c08277f6cf.jpg"
+   },
+   {
+    "id": "338894",
+    "name": "Murillo",
+    "jersey": "5",
+    "pos": "CD-L",
+    "starter": true,
+    "place": "4",
+    "photo": "data/photos/aba74c1e5f88e58c.jpg"
+   },
+   {
+    "id": "338876",
+    "name": "Jair Paula",
+    "jersey": "23",
+    "pos": "CD-R",
+    "starter": true,
+    "place": "6",
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p575458.png"
+   },
+   {
+    "id": "213718",
+    "name": "Ibrahim Sangaré",
+    "jersey": "6",
+    "pos": "CM-L",
+    "starter": true,
+    "place": "8",
+    "photo": "data/photos/de739ea3f92540d7.jpg"
+   },
+   {
+    "id": "298518",
+    "name": "James McAtee",
+    "jersey": "24",
+    "pos": "CM-R",
+    "starter": true,
+    "place": "7",
+    "photo": "data/photos/70620aa730769508.jpg"
+   },
+   {
+    "id": "291638",
+    "name": "Neco Williams",
+    "jersey": "3",
+    "pos": "LM",
+    "starter": true,
+    "place": "3",
+    "photo": "data/photos/b9c82bd368c38bc8.jpg"
+   },
+   {
+    "id": "206227",
+    "name": "Ola Aina",
+    "jersey": "34",
+    "pos": "RM",
+    "starter": true,
+    "place": "2",
+    "photo": "data/photos/430312552623de0a.jpg"
+   },
+   {
+    "id": "287869",
+    "name": "Igor Jesus",
+    "jersey": "11",
+    "pos": "F",
+    "starter": true,
+    "place": "9",
+    "photo": "data/photos/4e0909e7bdff8da4.jpg"
+   },
+   {
+    "id": "243396",
+    "name": "Morgan Gibbs-White",
+    "jersey": "10",
+    "pos": "CF-L",
+    "starter": true,
+    "place": "11",
+    "photo": "data/photos/335acee7fe7644e8.jpg"
+   },
+   {
+    "id": "275842",
+    "name": "Dan Ndoye",
+    "jersey": "14",
+    "pos": "CF-R",
+    "starter": true,
+    "place": "10",
+    "photo": "data/photos/fe3f9222eedf3406.jpg"
+   }
+  ],
+  "bench": [
+   {
+    "id": "343964",
+    "name": "Ousmane Diomande",
+    "jersey": "2",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": "data/photos/abf6e08de25cc4e4.jpg"
+   },
+   {
+    "id": "348303",
+    "name": "Zach Abbott",
+    "jersey": "44",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p519327.png"
+   },
+   {
+    "id": "303765",
+    "name": "Luca Netz",
+    "jersey": "25",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": "data/photos/8a21138e5ff5d63b.jpg"
+   },
+   {
+    "id": "233241",
+    "name": "John Victor",
+    "jersey": "12",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": "data/photos/5cbd16d1753582e6.jpg"
+   },
+   {
+    "id": "238886",
+    "name": "Xaver Schlager",
+    "jersey": "21",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": "data/photos/9e0872773682cccb.jpg"
+   },
+   {
+    "id": "296321",
+    "name": "Arnaud Kalimuendo",
+    "jersey": "15",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": "data/photos/f6a732561f12f576.jpg"
+   },
+   {
+    "id": "134190",
+    "name": "Chris Wood",
+    "jersey": "9",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": "data/photos/01aaa3da4d7a7169.jpg"
+   },
+   {
+    "id": "261419",
+    "name": "Callum Hudson-Odoi",
+    "jersey": "7",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": "data/photos/9b42695126d71336.jpg"
+   },
+   {
+    "id": "254118",
+    "name": "Nicolás Domínguez",
+    "jersey": "8",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": "data/photos/fff3e222a604e405.jpg"
+   }
+  ]
+ },
+ "opponent": {
+  "id": "357",
+  "name": "Leeds United",
+  "formation": "3-4-2-1",
+  "rows": [
+   [
+    "307118"
+   ],
+   [
+    "318390",
+    "274649",
+    "232325"
+   ],
+   [
+    "241317",
+    "304802",
+    "231863",
+    "243408"
+   ],
+   [
+    "259653",
+    "194801"
+   ],
+   [
+    "197717"
+   ]
+  ],
+  "starters": [
+   {
+    "id": "307118",
+    "name": "James Trafford",
+    "jersey": "1",
+    "pos": "G",
+    "starter": true,
+    "place": "1",
+    "photo": "data/photos/44ef060b03fdb000.jpg",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/566799-1689876147.jpg?lm=4711"
+   },
+   {
+    "id": "274649",
+    "name": "Jaka Bijol",
+    "jersey": "15",
+    "pos": "CD",
+    "starter": true,
+    "place": "5",
+    "photo": "data/photos/4cc595c8a10d9e4a.jpg",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/371851-1695029407.jpg?lm=4711"
+   },
+   {
+    "id": "318390",
+    "name": "Tarik Muharemovic",
+    "jersey": "5",
+    "pos": "CD-L",
+    "starter": true,
+    "place": "4",
+    "photo": "data/photos/e74f93b06517467d.jpg",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/679423-1751529111.jpg?lm=4711"
+   },
+   {
+    "id": "232325",
+    "name": "Joe Rodon",
+    "jersey": "6",
+    "pos": "CD-R",
+    "starter": true,
+    "place": "6",
+    "photo": "https://img.a.transfermarkt.technology/portrait/medium/297212-1666698393.jpg?lm=4711",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/297212-1666698393.jpg?lm=4711"
+   },
+   {
+    "id": "241317",
+    "name": "Ethan Ampadu",
+    "jersey": "4",
+    "pos": "CM-L",
+    "starter": true,
+    "place": "8",
+    "photo": "data/photos/01362cc0d4a339af.jpg",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/392771-1658829697.jpg?lm=4711"
+   },
+   {
+    "id": "304802",
+    "name": "Anton Stach",
+    "jersey": "18",
+    "pos": "CM-R",
+    "starter": true,
+    "place": "7",
+    "photo": "data/photos/032a14e0f9c4be91.jpg",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/344069-1723921116.jpg?lm=4711"
+   },
+   {
+    "id": "231863",
+    "name": "James Justin",
+    "jersey": "24",
+    "pos": "LM",
+    "starter": true,
+    "place": "3",
+    "photo": "data/photos/e75a93157c824cdf.jpg",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/413220-1746646113.jpg?lm=4711"
+   },
+   {
+    "id": "243408",
+    "name": "Jayden Bogle",
+    "jersey": "2",
+    "pos": "RM",
+    "starter": true,
+    "place": "2",
+    "photo": "data/photos/6f375827b92ec125.jpg",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/465717-1764840719.jpg?lm=4711"
+   },
+   {
+    "id": "197717",
+    "name": "Dominic Calvert-Lewin",
+    "jersey": "9",
+    "pos": "F",
+    "starter": true,
+    "place": "9",
+    "photo": "data/photos/b832b596b4d8fe1a.jpg",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/306024-1685705768.jpg?lm=4711"
+   },
+   {
+    "id": "259653",
+    "name": "Brenden Aaronson",
+    "jersey": "11",
+    "pos": "CF-L",
+    "starter": true,
+    "place": "11",
+    "photo": "data/photos/1b8ecaa7217a7fb8.jpg",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/393323-1691614083.jpg?lm=4711"
+   },
+   {
+    "id": "194801",
+    "name": "Harry Wilson",
+    "jersey": "10",
+    "pos": "CF-R",
+    "starter": true,
+    "place": "10",
+    "photo": "data/photos/9e4a2058e780b3a4.jpg",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/279455-1782301614.jpg?lm=4711"
+   }
+  ],
+  "bench": [
+   {
+    "id": "203072",
+    "name": "Daniel James",
+    "jersey": "7",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": "https://img.a.transfermarkt.technology/portrait/medium/319301-1668520687.jpg?lm=4711",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/319301-1668520687.jpg?lm=4711"
+   },
+   {
+    "id": "408489",
+    "name": "Alfie Cresswell",
+    "jersey": "50",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p592740.png",
+    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p592740.png"
+   },
+   {
+    "id": "212237",
+    "name": "Nico Elvedi",
+    "jersey": "30",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": "data/photos/47966f20ee042431.jpg",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/192635-1691249306.jpg?lm=4711"
+   },
+   {
+    "id": "270641",
+    "name": "Noah Okafor",
+    "jersey": "19",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": "data/photos/cf5288ce4b5c6761.jpg",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/346890-1692879855.jpg?lm=4711"
+   },
+   {
+    "id": "252406",
+    "name": "Lucas Perri",
+    "jersey": "23",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": null
+   },
+   {
+    "id": "258956",
+    "name": "Lukas Nmecha",
+    "jersey": "14",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": "data/photos/8b74b559d55c76c1.jpg",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/314288-1657203640.jpg?lm=4711"
+   },
+   {
+    "id": "253173",
+    "name": "Ao Tanaka",
+    "jersey": "22",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": "data/photos/d7fb30acc09efe37.jpg",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/489359-1780324258.jpg?lm=4711"
+   },
+   {
+    "id": "408959",
+    "name": "Jayden Lienou",
+    "jersey": "65",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p643970.png",
+    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p643970.png"
+   },
+   {
+    "id": "251658",
+    "name": "Sean Longstaff",
+    "jersey": "8",
+    "pos": "SUB",
+    "starter": false,
+    "place": "0",
+    "photo": "data/photos/a1aea023b4217c84.jpg",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/346707-1682341336.jpg?lm=4711"
+   }
+  ]
+ },
+ "absentees": [
+  {
+   "id": "307114",
+   "name": "Liam Delap",
+   "jersey": "19",
+   "pos": "F",
+   "photo": "data/photos/1b268b40af03a0ab.jpg",
+   "type": "理由不明",
+   "reason": "",
+   "source": "none"
+  },
+  {
+   "id": "241253",
+   "name": "Ryan Yates",
+   "jersey": "22",
+   "pos": "M",
+   "photo": "data/photos/f31c2e574b4c0009.jpg",
+   "type": "理由不明",
+   "reason": "",
+   "source": "none"
+  },
+  {
+   "id": "146679",
+   "name": "Daniel Muñoz",
+   "jersey": "27",
+   "pos": "D",
+   "photo": "data/photos/968556f2f737769a.jpg",
+   "type": "理由不明",
+   "reason": "",
+   "source": "none"
+  },
+  {
+   "id": "266846",
+   "name": "Steven Benda",
+   "jersey": "33",
+   "pos": "G",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/381469-1737920445.jpg?lm=4711",
+   "type": "理由不明",
+   "reason": "",
+   "source": "none"
+  },
+  {
+   "id": "388024",
+   "name": "Nicolò Savona",
+   "jersey": "37",
+   "pos": "D",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/708072-1730125797.jpg?lm=4711",
+   "type": "理由不明",
+   "reason": "",
+   "source": "none"
+  }
+ ]
+}

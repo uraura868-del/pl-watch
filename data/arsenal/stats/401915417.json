@@ -1,0 +1,78 @@
+{
+ "eventId": "401915417",
+ "date": "2026-10-13T19:00:00Z",
+ "opponent": {
+  "name": "Lille",
+  "abbr": "LILL"
+ },
+ "ht": {
+  "us": {
+   "shots": 6,
+   "onTarget": 3,
+   "offTarget": 2,
+   "blocked": 1,
+   "corners": 3,
+   "fouls": 10,
+   "offsides": 2,
+   "yellow": 1,
+   "red": 0
+  },
+  "opp": {
+   "shots": 2,
+   "onTarget": 0,
+   "offTarget": 0,
+   "blocked": 2,
+   "corners": 0,
+   "fouls": 12,
+   "offsides": 3,
+   "yellow": 0,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 13,
+   "onTarget": 5,
+   "offTarget": 3,
+   "blocked": 5,
+   "corners": 7,
+   "fouls": 24,
+   "offsides": 4,
+   "yellow": 2,
+   "red": 0,
+   "possession": "58",
+   "passesAccurate": "488",
+   "passes": "543",
+   "passAcc": "0.9",
+   "crossesAccurate": "4",
+   "crosses": "26",
+   "tacklesWon": "8",
+   "tackles": "16",
+   "interceptions": "6",
+   "clearances": "8"
+  },
+  "opp": {
+   "shots": 4,
+   "onTarget": 0,
+   "offTarget": 1,
+   "blocked": 3,
+   "corners": 0,
+   "fouls": 18,
+   "offsides": 3,
+   "yellow": 1,
+   "red": 0,
+   "possession": "42",
+   "passesAccurate": "344",
+   "passes": "405",
+   "passAcc": "0.8",
+   "crossesAccurate": "0",
+   "crosses": "2",
+   "tacklesWon": "9",
+   "tackles": "18",
+   "interceptions": "8",
+   "clearances": "38"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

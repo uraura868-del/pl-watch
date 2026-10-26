@@ -1,0 +1,78 @@
+{
+ "eventId": "401908125",
+ "date": "2026-08-26T18:45:00Z",
+ "opponent": {
+  "name": "West Bromwich Albion",
+  "abbr": "WBA"
+ },
+ "ht": {
+  "us": {
+   "shots": 6,
+   "onTarget": 2,
+   "offTarget": 2,
+   "blocked": 2,
+   "corners": 4,
+   "fouls": 14,
+   "offsides": 1,
+   "yellow": 1,
+   "red": 0
+  },
+  "opp": {
+   "shots": 6,
+   "onTarget": 0,
+   "offTarget": 1,
+   "blocked": 5,
+   "corners": 1,
+   "fouls": 8,
+   "offsides": 0,
+   "yellow": 0,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 12,
+   "onTarget": 4,
+   "offTarget": 4,
+   "blocked": 4,
+   "corners": 6,
+   "fouls": 26,
+   "offsides": 3,
+   "yellow": 3,
+   "red": 0,
+   "possession": "56.7",
+   "passesAccurate": "460",
+   "passes": "518",
+   "passAcc": "0.9",
+   "crossesAccurate": "7",
+   "crosses": "19",
+   "tacklesWon": "8",
+   "tackles": "13",
+   "interceptions": "12",
+   "clearances": "26"
+  },
+  "opp": {
+   "shots": 10,
+   "onTarget": 1,
+   "offTarget": 2,
+   "blocked": 7,
+   "corners": 2,
+   "fouls": 26,
+   "offsides": 2,
+   "yellow": 3,
+   "red": 0,
+   "possession": "43.3",
+   "passesAccurate": "327",
+   "passes": "394",
+   "passAcc": "0.8",
+   "crossesAccurate": "3",
+   "crosses": "12",
+   "tacklesWon": "11",
+   "tackles": "18",
+   "interceptions": "8",
+   "clearances": "27"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

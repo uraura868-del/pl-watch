@@ -1,0 +1,78 @@
+{
+ "eventId": "401915553",
+ "date": "2026-10-22T19:00:00Z",
+ "opponent": {
+  "name": "Besiktas",
+  "abbr": "BES"
+ },
+ "ht": {
+  "us": {
+   "shots": 3,
+   "onTarget": 1,
+   "offTarget": 2,
+   "blocked": 0,
+   "corners": 3,
+   "fouls": 16,
+   "offsides": 2,
+   "yellow": 1,
+   "red": 0
+  },
+  "opp": {
+   "shots": 2,
+   "onTarget": 0,
+   "offTarget": 2,
+   "blocked": 0,
+   "corners": 1,
+   "fouls": 8,
+   "offsides": 0,
+   "yellow": 1,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 6,
+   "onTarget": 1,
+   "offTarget": 3,
+   "blocked": 2,
+   "corners": 3,
+   "fouls": 30,
+   "offsides": 2,
+   "yellow": 1,
+   "red": 0,
+   "possession": "40.9",
+   "passesAccurate": "264",
+   "passes": "356",
+   "passAcc": "0.7",
+   "crossesAccurate": "2",
+   "crosses": "17",
+   "tacklesWon": "11",
+   "tackles": "20",
+   "interceptions": "14",
+   "clearances": "22"
+  },
+  "opp": {
+   "shots": 3,
+   "onTarget": 0,
+   "offTarget": 3,
+   "blocked": 0,
+   "corners": 1,
+   "fouls": 22,
+   "offsides": 0,
+   "yellow": 2,
+   "red": 1,
+   "possession": "59.1",
+   "passesAccurate": "424",
+   "passes": "515",
+   "passAcc": "0.8",
+   "crossesAccurate": "3",
+   "crosses": "19",
+   "tacklesWon": "13",
+   "tackles": "18",
+   "interceptions": "9",
+   "clearances": "24"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

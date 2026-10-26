@@ -1,0 +1,31 @@
+{
+ "eventId": "401879311",
+ "date": "2026-09-05T14:00:00Z",
+ "opponent": {
+  "name": "Brentford",
+  "abbr": "BRE"
+ },
+ "isHome": false,
+ "score": {
+  "us": 1,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Vitaly Janelt",
+   "assist": null,
+   "minute": "57'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Enzo Le Fée",
+   "assist": null,
+   "minute": "82'",
+   "kind": "pen"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

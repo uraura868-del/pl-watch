@@ -1,0 +1,52 @@
+{
+ "eventId": "401879267",
+ "date": "2026-10-12T19:00:00Z",
+ "opponent": {
+  "name": "Newcastle United",
+  "abbr": "NEW"
+ },
+ "isHome": true,
+ "score": {
+  "us": 4,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Jack Rudoni",
+   "assist": null,
+   "minute": "6'",
+   "kind": "pen"
+  },
+  {
+   "side": "us",
+   "scorer": "Sidiki Cherif",
+   "assist": null,
+   "minute": "48'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Sven Botman",
+   "assist": "Nico González",
+   "minute": "70'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Ellis Simms",
+   "assist": "Brandon Thomas-Asante",
+   "minute": "81'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Stephen Mfuni",
+   "assist": "Jay Da Silva",
+   "minute": "86'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

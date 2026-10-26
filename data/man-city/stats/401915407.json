@@ -1,0 +1,78 @@
+{
+ "eventId": "401915407",
+ "date": "2026-10-14T19:00:00Z",
+ "opponent": {
+  "name": "Paris Saint-Germain",
+  "abbr": "PSG"
+ },
+ "ht": {
+  "us": {
+   "shots": 6,
+   "onTarget": 1,
+   "offTarget": 2,
+   "blocked": 3,
+   "corners": 6,
+   "fouls": 7,
+   "offsides": 0,
+   "yellow": 0,
+   "red": 0
+  },
+  "opp": {
+   "shots": 6,
+   "onTarget": 4,
+   "offTarget": 1,
+   "blocked": 1,
+   "corners": 2,
+   "fouls": 7,
+   "offsides": 0,
+   "yellow": 0,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 23,
+   "onTarget": 6,
+   "offTarget": 8,
+   "blocked": 9,
+   "corners": 11,
+   "fouls": 19,
+   "offsides": 2,
+   "yellow": 1,
+   "red": 0,
+   "possession": "53.9",
+   "passesAccurate": "423",
+   "passes": "499",
+   "passAcc": "0.8",
+   "crossesAccurate": "10",
+   "crosses": "26",
+   "tacklesWon": "13",
+   "tackles": "23",
+   "interceptions": "10",
+   "clearances": "5"
+  },
+  "opp": {
+   "shots": 9,
+   "onTarget": 5,
+   "offTarget": 2,
+   "blocked": 2,
+   "corners": 2,
+   "fouls": 20,
+   "offsides": 0,
+   "yellow": 1,
+   "red": 0,
+   "possession": "46.1",
+   "passesAccurate": "374",
+   "passes": "444",
+   "passAcc": "0.8",
+   "crossesAccurate": "1",
+   "crosses": "3",
+   "tacklesWon": "11",
+   "tackles": "22",
+   "interceptions": "15",
+   "clearances": "29"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

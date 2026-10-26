@@ -1,0 +1,78 @@
+{
+ "eventId": "401879258",
+ "date": "2026-10-17T16:30:00Z",
+ "opponent": {
+  "name": "Newcastle United",
+  "abbr": "NEW"
+ },
+ "ht": {
+  "us": {
+   "shots": 5,
+   "onTarget": 1,
+   "offTarget": 1,
+   "blocked": 3,
+   "corners": 3,
+   "fouls": 16,
+   "offsides": 0,
+   "yellow": 2,
+   "red": 0
+  },
+  "opp": {
+   "shots": 6,
+   "onTarget": 0,
+   "offTarget": 2,
+   "blocked": 4,
+   "corners": 2,
+   "fouls": 11,
+   "offsides": 2,
+   "yellow": 2,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 14,
+   "onTarget": 2,
+   "offTarget": 4,
+   "blocked": 8,
+   "corners": 5,
+   "fouls": 20,
+   "offsides": 0,
+   "yellow": 2,
+   "red": 0,
+   "possession": "50.7",
+   "passesAccurate": "347",
+   "passes": "432",
+   "passAcc": "0.8",
+   "crossesAccurate": "2",
+   "crosses": "9",
+   "tacklesWon": "14",
+   "tackles": "24",
+   "interceptions": "9",
+   "clearances": "36"
+  },
+  "opp": {
+   "shots": 16,
+   "onTarget": 1,
+   "offTarget": 6,
+   "blocked": 9,
+   "corners": 4,
+   "fouls": 27,
+   "offsides": 5,
+   "yellow": 6,
+   "red": 0,
+   "possession": "49.3",
+   "passesAccurate": "333",
+   "passes": "401",
+   "passAcc": "0.8",
+   "crossesAccurate": "4",
+   "crosses": "28",
+   "tacklesWon": "9",
+   "tackles": "13",
+   "interceptions": "12",
+   "clearances": "16"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

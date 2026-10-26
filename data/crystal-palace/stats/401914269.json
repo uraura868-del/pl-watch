@@ -1,0 +1,78 @@
+{
+ "eventId": "401914269",
+ "date": "2026-09-08T18:45:00Z",
+ "opponent": {
+  "name": "Middlesbrough",
+  "abbr": "MID"
+ },
+ "ht": {
+  "us": {
+   "shots": 4,
+   "onTarget": 2,
+   "offTarget": 0,
+   "blocked": 2,
+   "corners": 1,
+   "fouls": 16,
+   "offsides": 1,
+   "yellow": 0,
+   "red": 0
+  },
+  "opp": {
+   "shots": 6,
+   "onTarget": 2,
+   "offTarget": 3,
+   "blocked": 1,
+   "corners": 1,
+   "fouls": 10,
+   "offsides": 1,
+   "yellow": 0,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 5,
+   "onTarget": 2,
+   "offTarget": 1,
+   "blocked": 2,
+   "corners": 1,
+   "fouls": 20,
+   "offsides": 2,
+   "yellow": 0,
+   "red": 0,
+   "possession": "40.7",
+   "passesAccurate": "343",
+   "passes": "415",
+   "passAcc": "0.8",
+   "crossesAccurate": "3",
+   "crosses": "5",
+   "tacklesWon": "18",
+   "tackles": "34",
+   "interceptions": "5",
+   "clearances": "37"
+  },
+  "opp": {
+   "shots": 16,
+   "onTarget": 4,
+   "offTarget": 6,
+   "blocked": 6,
+   "corners": 6,
+   "fouls": 20,
+   "offsides": 3,
+   "yellow": 2,
+   "red": 0,
+   "possession": "59.3",
+   "passesAccurate": "539",
+   "passes": "600",
+   "passAcc": "0.9",
+   "crossesAccurate": "4",
+   "crosses": "17",
+   "tacklesWon": "6",
+   "tackles": "8",
+   "interceptions": "7",
+   "clearances": "4"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

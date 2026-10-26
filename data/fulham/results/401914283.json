@@ -1,0 +1,52 @@
+{
+ "eventId": "401914283",
+ "date": "2026-09-15T18:45:00Z",
+ "opponent": {
+  "name": "West Ham United",
+  "abbr": "WHU"
+ },
+ "isHome": false,
+ "score": {
+  "us": 3,
+  "opp": 2
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Rodrigo Muniz",
+   "assist": "César Palacios",
+   "minute": "13'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Morato",
+   "assist": "Konstantinos Mavropanos",
+   "minute": "16'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "César Palacios",
+   "assist": "Joachim Andersen",
+   "minute": "37'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Pablo",
+   "assist": null,
+   "minute": "45'+2'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Oscar Bobb",
+   "assist": "Josh King",
+   "minute": "78'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

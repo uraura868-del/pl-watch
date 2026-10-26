@@ -1,0 +1,58 @@
+{
+ "eventId": "401879281",
+ "date": "2026-09-12T14:00:00Z",
+ "opponent": {
+  "name": "Crystal Palace",
+  "abbr": "CRY"
+ },
+ "isHome": false,
+ "score": {
+  "us": 3,
+  "opp": 2
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Anan Khalaili",
+   "assist": "Daichi Kamada",
+   "minute": "14'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Emersonn",
+   "assist": "Leif Davis",
+   "minute": "23'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Leif Davis",
+   "assist": "Emersonn",
+   "minute": "45'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Jørgen Strand Larsen",
+   "assist": "Daichi Kamada",
+   "minute": "75'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Zian Flemming",
+   "assist": null,
+   "minute": "90'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [
+  {
+   "side": "opp",
+   "name": "Axel Disasi",
+   "minute": "34'"
+  }
+ ],
+ "source": "ESPN"
+}

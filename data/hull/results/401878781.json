@@ -1,0 +1,16 @@
+{
+ "eventId": "401878781",
+ "date": "2026-09-05T16:30:00Z",
+ "opponent": {
+  "name": "Aston Villa",
+  "abbr": "AVL"
+ },
+ "isHome": true,
+ "score": {
+  "us": 0,
+  "opp": 0
+ },
+ "goals": [],
+ "redCards": [],
+ "source": "ESPN"
+}

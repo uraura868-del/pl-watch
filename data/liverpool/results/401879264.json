@@ -1,0 +1,44 @@
+{
+ "eventId": "401879264",
+ "date": "2026-10-11T15:30:00Z",
+ "opponent": {
+  "name": "Manchester City",
+  "abbr": "MNC"
+ },
+ "isHome": true,
+ "score": {
+  "us": 0,
+  "opp": 3
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Erling Haaland",
+   "assist": null,
+   "minute": "65'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Jérémy Doku",
+   "assist": "Elliot Anderson",
+   "minute": "68'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Rayan Cherki",
+   "assist": "Josko Gvardiol",
+   "minute": "78'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [
+  {
+   "side": "us",
+   "name": "Ryan Gravenberch",
+   "minute": "62'"
+  }
+ ],
+ "source": "ESPN"
+}

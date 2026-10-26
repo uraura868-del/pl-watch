@@ -1,0 +1,31 @@
+{
+ "eventId": "401878768",
+ "date": "2026-10-24T14:00:00Z",
+ "opponent": {
+  "name": "Everton",
+  "abbr": "EVE"
+ },
+ "isHome": true,
+ "score": {
+  "us": 2,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Ezri Konsa",
+   "assist": "Viktor Gyökeres",
+   "minute": "7'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Gabriel Magalhães",
+   "assist": "Ben White",
+   "minute": "68'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

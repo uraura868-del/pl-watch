@@ -1,0 +1,45 @@
+{
+ "eventId": "401914267",
+ "date": "2026-09-08T18:45:00Z",
+ "opponent": {
+  "name": "Lincoln City",
+  "abbr": "LCN"
+ },
+ "isHome": true,
+ "score": {
+  "us": 4,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Ryan Christie",
+   "assist": "Ben Gannon-Doak",
+   "minute": "7'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Ryan Christie",
+   "assist": "David Brooks",
+   "minute": "69'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Ryan Christie",
+   "assist": "Bafodé Diakité",
+   "minute": "88'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Rayan",
+   "assist": "Daniel Jebbison",
+   "minute": "90'+4'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

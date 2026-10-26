@@ -1,0 +1,24 @@
+{
+ "eventId": "401879258",
+ "date": "2026-10-17T16:30:00Z",
+ "opponent": {
+  "name": "Newcastle United",
+  "abbr": "NEW"
+ },
+ "isHome": false,
+ "score": {
+  "us": 1,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Johan Manzambi",
+   "assist": "João Gomes",
+   "minute": "36'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

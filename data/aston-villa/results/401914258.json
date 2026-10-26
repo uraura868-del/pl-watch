@@ -1,0 +1,45 @@
+{
+ "eventId": "401914258",
+ "date": "2026-09-16T19:00:00Z",
+ "opponent": {
+  "name": "Coventry City",
+  "abbr": "COV"
+ },
+ "isHome": false,
+ "score": {
+  "us": 3,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Tammy Abraham",
+   "assist": "George Hemmings",
+   "minute": "7'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Victor Torp",
+   "assist": null,
+   "minute": "27'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Ross Barkley",
+   "assist": "Ibrahim Mbaye",
+   "minute": "40'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Tammy Abraham",
+   "assist": "Ross Barkley",
+   "minute": "59'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

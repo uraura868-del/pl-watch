@@ -1,0 +1,78 @@
+{
+ "eventId": "401914255",
+ "date": "2026-09-08T19:00:00Z",
+ "opponent": {
+  "name": "Millwall",
+  "abbr": "MIL"
+ },
+ "ht": {
+  "us": {
+   "shots": 14,
+   "onTarget": 1,
+   "offTarget": 8,
+   "blocked": 5,
+   "corners": 8,
+   "fouls": 14,
+   "offsides": 0,
+   "yellow": 0,
+   "red": 0
+  },
+  "opp": {
+   "shots": 3,
+   "onTarget": 2,
+   "offTarget": 1,
+   "blocked": 0,
+   "corners": 1,
+   "fouls": 16,
+   "offsides": 1,
+   "yellow": 0,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 24,
+   "onTarget": 5,
+   "offTarget": 9,
+   "blocked": 10,
+   "corners": 15,
+   "fouls": 24,
+   "offsides": 0,
+   "yellow": 1,
+   "red": 0,
+   "possession": "62.7",
+   "passesAccurate": "393",
+   "passes": "463",
+   "passAcc": "0.8",
+   "crossesAccurate": "5",
+   "crosses": "28",
+   "tacklesWon": "9",
+   "tackles": "12",
+   "interceptions": "5",
+   "clearances": "41"
+  },
+  "opp": {
+   "shots": 8,
+   "onTarget": 2,
+   "offTarget": 4,
+   "blocked": 2,
+   "corners": 1,
+   "fouls": 30,
+   "offsides": 2,
+   "yellow": 2,
+   "red": 0,
+   "possession": "37.3",
+   "passesAccurate": "204",
+   "passes": "276",
+   "passAcc": "0.7",
+   "crossesAccurate": "6",
+   "crosses": "14",
+   "tacklesWon": "7",
+   "tackles": "11",
+   "interceptions": "11",
+   "clearances": "24"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

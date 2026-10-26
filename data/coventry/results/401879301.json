@@ -1,0 +1,38 @@
+{
+ "eventId": "401879301",
+ "date": "2026-08-21T19:00:00Z",
+ "opponent": {
+  "name": "Arsenal",
+  "abbr": "ARS"
+ },
+ "isHome": false,
+ "score": {
+  "us": 0,
+  "opp": 3
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Kai Havertz",
+   "assist": "Riccardo Calafiori",
+   "minute": "15'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Bukayo Saka",
+   "assist": null,
+   "minute": "23'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Martin Ødegaard",
+   "assist": "Ben White",
+   "minute": "49'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

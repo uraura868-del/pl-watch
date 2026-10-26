@@ -1,0 +1,30 @@
+{
+ "eventId": "401878778",
+ "date": "2026-09-19T14:00:00Z",
+ "opponent": {
+  "name": "Everton",
+  "abbr": "EVE"
+ },
+ "isHome": false,
+ "score": {
+  "us": 0,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Thierno Barry",
+   "assist": "James Tarkowski",
+   "minute": "11'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [
+  {
+   "side": "us",
+   "name": "Fatawu Issahaku",
+   "minute": "67'"
+  }
+ ],
+ "source": "ESPN"
+}

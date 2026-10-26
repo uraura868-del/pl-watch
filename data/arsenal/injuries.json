@@ -1,0 +1,28 @@
+{
+ "updatedAt": "2026-10-26T12:16:14Z",
+ "fetchedOk": true,
+ "players": [
+  {
+   "name": "William Saliba",
+   "reason": "Back injury",
+   "reasonJa": "背中の負傷",
+   "type": "負傷",
+   "since": "2026-07-19",
+   "until": "2026-11-20",
+   "firstSeen": "2026-10-26",
+   "lastSeen": "2026-10-26",
+   "active": true
+  },
+  {
+   "name": "Christos Tzolis",
+   "reason": "Thigh problems",
+   "reasonJa": "太ももの負傷",
+   "type": "負傷",
+   "since": "2026-10-01",
+   "until": "2026-10-30",
+   "firstSeen": "2026-10-26",
+   "lastSeen": "2026-10-26",
+   "active": true
+  }
+ ]
+}

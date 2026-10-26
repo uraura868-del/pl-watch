@@ -1,0 +1,59 @@
+{
+ "eventId": "401878775",
+ "date": "2026-10-10T14:00:00Z",
+ "opponent": {
+  "name": "Chelsea",
+  "abbr": "CHE"
+ },
+ "isHome": false,
+ "score": {
+  "us": 1,
+  "opp": 5
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Jordan Henderson",
+   "assist": "Cole Palmer",
+   "minute": "2'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Morgan Rogers",
+   "assist": "Jordan Henderson",
+   "minute": "3'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "João Pedro",
+   "assist": "Pedro Neto",
+   "minute": "46'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Evanilson",
+   "assist": null,
+   "minute": "51'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "João Pedro",
+   "assist": "Pep Chavarría",
+   "minute": "67'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Jordan Henderson",
+   "assist": null,
+   "minute": "70'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

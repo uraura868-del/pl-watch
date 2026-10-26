@@ -1,0 +1,51 @@
+{
+ "eventId": "401915569",
+ "date": "2026-09-17T19:00:00Z",
+ "opponent": {
+  "name": "Lech Poznan",
+  "abbr": "LECH"
+ },
+ "isHome": true,
+ "score": {
+  "us": 4,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Yéremy Pino",
+   "assist": null,
+   "minute": "10'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Chris Richards",
+   "assist": "Adam Wharton",
+   "minute": "27'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Jørgen Strand Larsen",
+   "assist": null,
+   "minute": "34'",
+   "kind": "pen"
+  },
+  {
+   "side": "us",
+   "scorer": "Eddie Nketiah",
+   "assist": "Dwight McNeil",
+   "minute": "89'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [
+  {
+   "side": "opp",
+   "name": "Radoslaw Murawski",
+   "minute": "87'"
+  }
+ ],
+ "source": "ESPN"
+}

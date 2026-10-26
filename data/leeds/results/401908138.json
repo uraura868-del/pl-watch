@@ -1,0 +1,31 @@
+{
+ "eventId": "401908138",
+ "date": "2026-08-25T19:00:00Z",
+ "opponent": {
+  "name": "Nottingham Forest",
+  "abbr": "NFO"
+ },
+ "isHome": false,
+ "score": {
+  "us": 2,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Daniel James",
+   "assist": "Sean Longstaff",
+   "minute": "50'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "James Justin",
+   "assist": null,
+   "minute": "75'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

@@ -1,0 +1,45 @@
+{
+ "eventId": "401879285",
+ "date": "2026-09-12T14:00:00Z",
+ "opponent": {
+  "name": "AFC Bournemouth",
+  "abbr": "BOU"
+ },
+ "isHome": false,
+ "score": {
+  "us": 2,
+  "opp": 2
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Kevin Schade",
+   "assist": "Yehor Yarmoliuk",
+   "minute": "34'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Justin Kluivert",
+   "assist": null,
+   "minute": "38'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Marcus Tavernier",
+   "assist": "Evanilson",
+   "minute": "52'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Kevin Schade",
+   "assist": null,
+   "minute": "56'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

@@ -1,0 +1,31 @@
+{
+ "eventId": "401879300",
+ "date": "2026-08-22T14:00:00Z",
+ "opponent": {
+  "name": "Everton",
+  "abbr": "EVE"
+ },
+ "isHome": false,
+ "score": {
+  "us": 0,
+  "opp": 2
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Kiernan Dewsbury-Hall",
+   "assist": "Harrison Armstrong",
+   "minute": "42'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Thierno Barry",
+   "assist": "Iliman Ndiaye",
+   "minute": "53'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

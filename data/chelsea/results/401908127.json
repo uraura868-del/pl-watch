@@ -1,0 +1,31 @@
+{
+ "eventId": "401908127",
+ "date": "2026-08-27T18:30:00Z",
+ "opponent": {
+  "name": "Luton Town",
+  "abbr": "LTN"
+ },
+ "isHome": true,
+ "score": {
+  "us": 2,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Danny Welbeck",
+   "assist": "Malo Gusto",
+   "minute": "50'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Hakeem Odofin",
+   "assist": null,
+   "minute": "79'",
+   "kind": "og"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

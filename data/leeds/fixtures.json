@@ -1,0 +1,805 @@
+{
+ "updatedAt": "2026-10-26T12:16:14Z",
+ "fixtures": [
+  {
+   "eventId": "401879298",
+   "date": "2026-08-22T14:00:00Z",
+   "competition": "プレミアリーグ",
+   "matchday": null,
+   "isHome": false,
+   "opponent": {
+    "id": "393",
+    "name": "Nottingham Forest",
+    "abbr": "NFO",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png"
+   },
+   "venue": "The City Ground",
+   "status": "played",
+   "league": "eng.1",
+   "compShort": "PL",
+   "hasStats": true,
+   "hasResult": true,
+   "hasLineup": true
+  },
+  {
+   "eventId": "401908138",
+   "date": "2026-08-25T19:00:00Z",
+   "competition": "カラバオ杯",
+   "matchday": null,
+   "isHome": false,
+   "opponent": {
+    "id": "393",
+    "name": "Nottingham Forest",
+    "abbr": "NFO",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png"
+   },
+   "venue": "The City Ground",
+   "status": "played",
+   "league": "eng.league_cup",
+   "compShort": "EFL",
+   "hasStats": true,
+   "hasResult": true,
+   "hasLineup": true
+  },
+  {
+   "eventId": "401879315",
+   "date": "2026-08-30T13:00:00Z",
+   "competition": "プレミアリーグ",
+   "matchday": null,
+   "isHome": true,
+   "opponent": {
+    "id": "337",
+    "name": "Brentford",
+    "abbr": "BRE",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png"
+   },
+   "venue": "Elland Road",
+   "status": "played",
+   "league": "eng.1",
+   "compShort": "PL",
+   "hasStats": true,
+   "hasResult": true,
+   "hasLineup": true
+  },
+  {
+   "eventId": "401879290",
+   "date": "2026-09-05T14:00:00Z",
+   "competition": "プレミアリーグ",
+   "matchday": null,
+   "isHome": false,
+   "opponent": {
+    "id": "331",
+    "name": "Brighton & Hove Albion",
+    "abbr": "BHA",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png"
+   },
+   "venue": "American Express Stadium",
+   "status": "played",
+   "league": "eng.1",
+   "compShort": "PL",
+   "hasStats": true,
+   "hasResult": true,
+   "hasLineup": true
+  },
+  {
+   "eventId": "401914256",
+   "date": "2026-09-09T19:15:00Z",
+   "competition": "カラバオ杯",
+   "matchday": null,
+   "isHome": false,
+   "opponent": {
+    "id": "363",
+    "name": "Chelsea",
+    "abbr": "CHE",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png"
+   },
+   "venue": "Stamford Bridge",
+   "status": "played",
+   "league": "eng.league_cup",
+   "compShort": "EFL",
+   "hasStats": true,
+   "hasResult": true,
+   "hasLineup": true
+  },
+  {
+   "eventId": "401879280",
+   "date": "2026-09-14T19:00:00Z",
+   "competition": "プレミアリーグ",
+   "matchday": null,
+   "isHome": true,
+   "opponent": {
+    "id": "361",
+    "name": "Newcastle United",
+    "abbr": "NEW",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png"
+   },
+   "venue": "Elland Road",
+   "status": "played",
+   "league": "eng.1",
+   "compShort": "PL",
+   "hasStats": true,
+   "hasResult": true,
+   "hasLineup": true
+  },
+  {
+   "eventId": "401879273",
+   "date": "2026-09-20T13:00:00Z",
+   "competition": "プレミアリーグ",
+   "matchday": null,
+   "isHome": true,
+   "opponent": {
+    "id": "384",
+    "name": "Crystal Palace",
+    "abbr": "CRY",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png"
+   },
+   "venue": "Elland Road",
+   "status": "played",
+   "league": "eng.1",
+   "compShort": "PL",
+   "hasStats": true,
+   "hasResult": true,
+   "hasLineup": true
+  },
+  {
+   "eventId": "401879268",
+   "date": "2026-10-10T11:30:00Z",
+   "competition": "プレミアリーグ",
+   "matchday": null,
+   "isHome": false,
+   "opponent": {
+    "id": "359",
+    "name": "Arsenal",
+    "abbr": "ARS",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png"
+   },
+   "venue": "Emirates Stadium",
+   "status": "played",
+   "league": "eng.1",
+   "compShort": "PL",
+   "hasStats": true,
+   "hasResult": true,
+   "hasLineup": true
+  },
+  {
+   "eventId": "401879260",
+   "date": "2026-10-18T13:00:00Z",
+   "competition": "プレミアリーグ",
+   "matchday": null,
+   "isHome": true,
+   "opponent": {
+    "id": "360",
+    "name": "Manchester United",
+    "abbr": "MAN",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png"
+   },
+   "venue": "Elland Road",
+   "status": "played",
+   "league": "eng.1",
+   "compShort": "PL",
+   "hasStats": true,
+   "hasResult": true,
+   "hasLineup": true
+  },
+  {
+   "eventId": "401878764",
+   "date": "2026-10-25T16:30:00Z",
+   "competition": "プレミアリーグ",
+   "matchday": null,
+   "isHome": false,
+   "opponent": {
+    "id": "366",
+    "name": "Sunderland",
+    "abbr": "SUN",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png"
+   },
+   "venue": "Stadium of Light",
+   "status": "played",
+   "league": "eng.1",
+   "compShort": "PL",
+   "hasStats": true,
+   "hasResult": true,
+   "hasLineup": true
+  },
+  {
+   "eventId": "401879251",
+   "date": "2026-10-31T15:00:00Z",
+   "competition": "プレミアリーグ",
+   "matchday": null,
+   "isHome": false,
+   "opponent": {
+    "id": "349",
+    "name": "AFC Bournemouth",
+    "abbr": "BOU",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png"
+   },
+   "venue": "Vitality Stadium",
+   "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
+   "hasStats": false,
+   "hasResult": false,
+   "hasLineup": false
+  },
+  {
+   "eventId": "401878758",
+   "date": "2026-11-07T12:30:00Z",
+   "competition": "プレミアリーグ",
+   "matchday": null,
+   "isHome": true,
+   "opponent": {
+    "id": "367",
+    "name": "Tottenham Hotspur",
+    "abbr": "TOT",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png"
+   },
+   "venue": "Elland Road",
+   "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
+   "hasStats": false,
+   "hasResult": false,
+   "hasLineup": false
+  },
+  {
+   "eventId": "401879236",
+   "date": "2026-11-21T15:00:00Z",
+   "competition": "プレミアリーグ",
+   "matchday": null,
+   "isHome": false,
+   "opponent": {
+    "id": "363",
+    "name": "Chelsea",
+    "abbr": "CHE",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png"
+   },
+   "venue": "Stamford Bridge",
+   "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
+   "hasStats": false,
+   "hasResult": false,
+   "hasLineup": false
+  },
+  {
+   "eventId": "401879227",
+   "date": "2026-11-28T15:00:00Z",
+   "competition": "プレミアリーグ",
+   "matchday": null,
+   "isHome": true,
+   "opponent": {
+    "id": "388",
+    "name": "Coventry City",
+    "abbr": "COV",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png"
+   },
+   "venue": "Elland Road",
+   "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
+   "hasStats": false,
+   "hasResult": false,
+   "hasLineup": false
+  },
+  {
+   "eventId": "401879218",
+   "date": "2026-12-02T19:30:00Z",
+   "competition": "プレミアリーグ",
+   "matchday": null,
+   "isHome": false,
+   "opponent": {
+    "id": "382",
+    "name": "Manchester City",
+    "abbr": "MNC",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png"
+   },
+   "venue": "Etihad Stadium",
+   "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
+   "hasStats": false,
+   "hasResult": false,
+   "hasLineup": false
+  },
+  {
+   "eventId": "401879211",
+   "date": "2026-12-05T15:00:00Z",
+   "competition": "プレミアリーグ",
+   "matchday": null,
+   "isHome": true,
+   "opponent": {
+    "id": "373",
+    "name": "Ipswich Town",
+    "abbr": "IPS",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png"
+   },
+   "venue": "Elland Road",
+   "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
+   "hasStats": false,
+   "hasResult": false,
+   "hasLineup": false
+  },
+  {
+   "eventId": "401878743",
+   "date": "2026-12-12T15:00:00Z",
+   "competition": "プレミアリーグ",
+   "matchday": null,
+   "isHome": false,
+   "opponent": {
+    "id": "364",
+    "name": "Liverpool",
+    "abbr": "LIV",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png"
+   },
+   "venue": "Anfield",
+   "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
+   "hasStats": false,
+   "hasResult": false,
+   "hasLineup": false
+  },
+  {
+   "eventId": "401879201",
+   "date": "2026-12-19T15:00:00Z",
+   "competition": "プレミアリーグ",
+   "matchday": null,
+   "isHome": true,
+   "opponent": {
+    "id": "370",
+    "name": "Fulham",
+    "abbr": "FUL",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png"
+   },
+   "venue": "Elland Road",
+   "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
+   "hasStats": false,
+   "hasResult": false,
+   "hasLineup": false
+  },
+  {
+   "eventId": "401878737",
+   "date": "2026-12-26T12:30:00Z",
+   "competition": "プレミアリーグ",
+   "matchday": null,
+   "isHome": false,
+   "opponent": {
+    "id": "362",
+    "name": "Aston Villa",
+    "abbr": "AVL",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png"
+   },
+   "venue": "Villa Park",
+   "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
+   "hasStats": false,
+   "hasResult": false,
+   "hasLineup": false
+  },
+  {
+   "eventId": "401879190",
+   "date": "2026-12-29T19:30:00Z",
+   "competition": "プレミアリーグ",
+   "matchday": null,
+   "isHome": false,
+   "opponent": {
+    "id": "306",
+    "name": "Hull City",
+    "abbr": "HUL",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png"
+   },
+   "venue": "The MKM Stadium",
+   "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
+   "hasStats": false,
+   "hasResult": false,
+   "hasLineup": false
+  },
+  {
+   "eventId": "401879182",
+   "date": "2027-01-01T20:00:00Z",
+   "competition": "プレミアリーグ",
+   "matchday": null,
+   "isHome": true,
+   "opponent": {
+    "id": "368",
+    "name": "Everton",
+    "abbr": "EVE",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png"
+   },
+   "venue": "Elland Road",
+   "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
+   "hasStats": false,
+   "hasResult": false,
+   "hasLineup": false
+  },
+  {
+   "eventId": "401879171",
+   "date": "2027-01-06T20:15:00Z",
+   "competition": "プレミアリーグ",
+   "matchday": null,
+   "isHome": true,
+   "opponent": {
+    "id": "382",
+    "name": "Manchester City",
+    "abbr": "MNC",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png"
+   },
+   "venue": "Elland Road",
+   "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
+   "hasStats": false,
+   "hasResult": false,
+   "hasLineup": false
+  },
+  {
+   "eventId": "401879165",
+   "date": "2027-01-16T15:00:00Z",
+   "competition": "プレミアリーグ",
+   "matchday": null,
+   "isHome": false,
+   "opponent": {
+    "id": "367",
+    "name": "Tottenham Hotspur",
+    "abbr": "TOT",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png"
+   },
+   "venue": "Tottenham Hotspur Stadium",
+   "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
+   "hasStats": false,
+   "hasResult": false,
+   "hasLineup": false
+  },
+  {
+   "eventId": "401879160",
+   "date": "2027-01-23T15:00:00Z",
+   "competition": "プレミアリーグ",
+   "matchday": null,
+   "isHome": true,
+   "opponent": {
+    "id": "363",
+    "name": "Chelsea",
+    "abbr": "CHE",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png"
+   },
+   "venue": "Elland Road",
+   "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
+   "hasStats": false,
+   "hasResult": false,
+   "hasLineup": false
+  },
+  {
+   "eventId": "401879157",
+   "date": "2027-01-30T15:00:00Z",
+   "competition": "プレミアリーグ",
+   "matchday": null,
+   "isHome": false,
+   "opponent": {
+    "id": "388",
+    "name": "Coventry City",
+    "abbr": "COV",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png"
+   },
+   "venue": "Coventry Building Society Arena",
+   "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
+   "hasStats": false,
+   "hasResult": false,
+   "hasLineup": false
+  },
+  {
+   "eventId": "401878710",
+   "date": "2027-02-06T15:00:00Z",
+   "competition": "プレミアリーグ",
+   "matchday": null,
+   "isHome": true,
+   "opponent": {
+    "id": "349",
+    "name": "AFC Bournemouth",
+    "abbr": "BOU",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png"
+   },
+   "venue": "Elland Road",
+   "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
+   "hasStats": false,
+   "hasResult": false,
+   "hasLineup": false
+  },
+  {
+   "eventId": "401878707",
+   "date": "2027-02-10T20:00:00Z",
+   "competition": "プレミアリーグ",
+   "matchday": null,
+   "isHome": false,
+   "opponent": {
+    "id": "368",
+    "name": "Everton",
+    "abbr": "EVE",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png"
+   },
+   "venue": "Hill Dickinson Stadium",
+   "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
+   "hasStats": false,
+   "hasResult": false,
+   "hasLineup": false
+  },
+  {
+   "eventId": "401879136",
+   "date": "2027-02-20T15:00:00Z",
+   "competition": "プレミアリーグ",
+   "matchday": null,
+   "isHome": true,
+   "opponent": {
+    "id": "362",
+    "name": "Aston Villa",
+    "abbr": "AVL",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png"
+   },
+   "venue": "Elland Road",
+   "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
+   "hasStats": false,
+   "hasResult": false,
+   "hasLineup": false
+  },
+  {
+   "eventId": "401878699",
+   "date": "2027-02-27T15:00:00Z",
+   "competition": "プレミアリーグ",
+   "matchday": null,
+   "isHome": false,
+   "opponent": {
+    "id": "370",
+    "name": "Fulham",
+    "abbr": "FUL",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png"
+   },
+   "venue": "Craven Cottage",
+   "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
+   "hasStats": false,
+   "hasResult": false,
+   "hasLineup": false
+  },
+  {
+   "eventId": "401878694",
+   "date": "2027-03-03T20:00:00Z",
+   "competition": "プレミアリーグ",
+   "matchday": null,
+   "isHome": true,
+   "opponent": {
+    "id": "306",
+    "name": "Hull City",
+    "abbr": "HUL",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png"
+   },
+   "venue": "Elland Road",
+   "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
+   "hasStats": false,
+   "hasResult": false,
+   "hasLineup": false
+  },
+  {
+   "eventId": "401879119",
+   "date": "2027-03-13T15:00:00Z",
+   "competition": "プレミアリーグ",
+   "matchday": null,
+   "isHome": true,
+   "opponent": {
+    "id": "331",
+    "name": "Brighton & Hove Albion",
+    "abbr": "BHA",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png"
+   },
+   "venue": "Elland Road",
+   "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
+   "hasStats": false,
+   "hasResult": false,
+   "hasLineup": false
+  },
+  {
+   "eventId": "401879107",
+   "date": "2027-03-20T15:00:00Z",
+   "competition": "プレミアリーグ",
+   "matchday": null,
+   "isHome": false,
+   "opponent": {
+    "id": "361",
+    "name": "Newcastle United",
+    "abbr": "NEW",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png"
+   },
+   "venue": "St. James' Park",
+   "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
+   "hasStats": false,
+   "hasResult": false,
+   "hasLineup": false
+  },
+  {
+   "eventId": "401878688",
+   "date": "2027-04-10T14:00:00Z",
+   "competition": "プレミアリーグ",
+   "matchday": null,
+   "isHome": true,
+   "opponent": {
+    "id": "393",
+    "name": "Nottingham Forest",
+    "abbr": "NFO",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png"
+   },
+   "venue": "Elland Road",
+   "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
+   "hasStats": false,
+   "hasResult": false,
+   "hasLineup": false
+  },
+  {
+   "eventId": "401879098",
+   "date": "2027-04-17T14:00:00Z",
+   "competition": "プレミアリーグ",
+   "matchday": null,
+   "isHome": false,
+   "opponent": {
+    "id": "337",
+    "name": "Brentford",
+    "abbr": "BRE",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png"
+   },
+   "venue": "Gtech Community Stadium",
+   "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
+   "hasStats": false,
+   "hasResult": false,
+   "hasLineup": false
+  },
+  {
+   "eventId": "401879092",
+   "date": "2027-04-24T14:00:00Z",
+   "competition": "プレミアリーグ",
+   "matchday": null,
+   "isHome": true,
+   "opponent": {
+    "id": "364",
+    "name": "Liverpool",
+    "abbr": "LIV",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png"
+   },
+   "venue": "Elland Road",
+   "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
+   "hasStats": false,
+   "hasResult": false,
+   "hasLineup": false
+  },
+  {
+   "eventId": "401879084",
+   "date": "2027-05-01T14:00:00Z",
+   "competition": "プレミアリーグ",
+   "matchday": null,
+   "isHome": false,
+   "opponent": {
+    "id": "373",
+    "name": "Ipswich Town",
+    "abbr": "IPS",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png"
+   },
+   "venue": "Portman Road",
+   "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
+   "hasStats": false,
+   "hasResult": false,
+   "hasLineup": false
+  },
+  {
+   "eventId": "401879081",
+   "date": "2027-05-08T14:00:00Z",
+   "competition": "プレミアリーグ",
+   "matchday": null,
+   "isHome": true,
+   "opponent": {
+    "id": "359",
+    "name": "Arsenal",
+    "abbr": "ARS",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png"
+   },
+   "venue": "Elland Road",
+   "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
+   "hasStats": false,
+   "hasResult": false,
+   "hasLineup": false
+  },
+  {
+   "eventId": "401879074",
+   "date": "2027-05-15T14:00:00Z",
+   "competition": "プレミアリーグ",
+   "matchday": null,
+   "isHome": false,
+   "opponent": {
+    "id": "360",
+    "name": "Manchester United",
+    "abbr": "MAN",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png"
+   },
+   "venue": "Old Trafford",
+   "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
+   "hasStats": false,
+   "hasResult": false,
+   "hasLineup": false
+  },
+  {
+   "eventId": "401879068",
+   "date": "2027-05-23T14:00:00Z",
+   "competition": "プレミアリーグ",
+   "matchday": null,
+   "isHome": true,
+   "opponent": {
+    "id": "366",
+    "name": "Sunderland",
+    "abbr": "SUN",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png"
+   },
+   "venue": "Elland Road",
+   "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
+   "hasStats": false,
+   "hasResult": false,
+   "hasLineup": false
+  },
+  {
+   "eventId": "401879062",
+   "date": "2027-05-30T15:00:00Z",
+   "competition": "プレミアリーグ",
+   "matchday": null,
+   "isHome": false,
+   "opponent": {
+    "id": "384",
+    "name": "Crystal Palace",
+    "abbr": "CRY",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png"
+   },
+   "venue": "Selhurst Park",
+   "status": "scheduled",
+   "league": "eng.1",
+   "compShort": "PL",
+   "hasStats": false,
+   "hasResult": false,
+   "hasLineup": false
+  }
+ ]
+}

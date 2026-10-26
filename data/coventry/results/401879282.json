@@ -1,0 +1,58 @@
+{
+ "eventId": "401879282",
+ "date": "2026-09-13T13:00:00Z",
+ "opponent": {
+  "name": "Brighton & Hove Albion",
+  "abbr": "BHA"
+ },
+ "isHome": true,
+ "score": {
+  "us": 0,
+  "opp": 5
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Charalambos Kostoulas",
+   "assist": "Pascal Gross",
+   "minute": "35'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Malick Yalcouyé",
+   "assist": "Maxim De Cuyper",
+   "minute": "51'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Pascal Gross",
+   "assist": null,
+   "minute": "70'",
+   "kind": "pen"
+  },
+  {
+   "side": "opp",
+   "scorer": "Lewis Dunk",
+   "assist": "Chema Andrés",
+   "minute": "83'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Yasin Ayari",
+   "assist": "Pascal Gross",
+   "minute": "90'+4'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [
+  {
+   "side": "us",
+   "name": "Taiwo Awoniyi",
+   "minute": "53'"
+  }
+ ],
+ "source": "ESPN"
+}

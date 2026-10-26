@@ -1,0 +1,30 @@
+{
+ "eventId": "401878778",
+ "date": "2026-09-19T14:00:00Z",
+ "opponent": {
+  "name": "Ipswich Town",
+  "abbr": "IPS"
+ },
+ "isHome": true,
+ "score": {
+  "us": 1,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Thierno Barry",
+   "assist": "James Tarkowski",
+   "minute": "11'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [
+  {
+   "side": "opp",
+   "name": "Fatawu Issahaku",
+   "minute": "67'"
+  }
+ ],
+ "source": "ESPN"
+}

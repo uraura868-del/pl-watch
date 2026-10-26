@@ -1,0 +1,38 @@
+{
+ "eventId": "401879252",
+ "date": "2026-10-25T14:00:00Z",
+ "opponent": {
+  "name": "Manchester United",
+  "abbr": "MAN"
+ },
+ "isHome": false,
+ "score": {
+  "us": 3,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Rayan",
+   "assist": "Justin Kluivert",
+   "minute": "38'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Marcus Tavernier",
+   "assist": "Adrien Truffert",
+   "minute": "43'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Evanilson",
+   "assist": "Lewis Cook",
+   "minute": "71'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

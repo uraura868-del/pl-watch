@@ -1,0 +1,45 @@
+{
+ "eventId": "401879314",
+ "date": "2026-08-29T11:30:00Z",
+ "opponent": {
+  "name": "Nottingham Forest",
+  "abbr": "NFO"
+ },
+ "isHome": true,
+ "score": {
+  "us": 2,
+  "opp": 2
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Dan Ndoye",
+   "assist": "Morgan Gibbs-White",
+   "minute": "24'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Alexander Isak",
+   "assist": "Cody Gakpo",
+   "minute": "60'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Morgan Gibbs-White",
+   "assist": null,
+   "minute": "70'",
+   "kind": "pen"
+  },
+  {
+   "side": "us",
+   "scorer": "Víctor Muñoz",
+   "assist": "Florian Wirtz",
+   "minute": "82'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

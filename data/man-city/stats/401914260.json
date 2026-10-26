@@ -1,0 +1,78 @@
+{
+ "eventId": "401914260",
+ "date": "2026-09-17T18:30:00Z",
+ "opponent": {
+  "name": "Norwich City",
+  "abbr": "NOR"
+ },
+ "ht": {
+  "us": {
+   "shots": 5,
+   "onTarget": 0,
+   "offTarget": 3,
+   "blocked": 2,
+   "corners": 1,
+   "fouls": 6,
+   "offsides": 0,
+   "yellow": 0,
+   "red": 0
+  },
+  "opp": {
+   "shots": 1,
+   "onTarget": 0,
+   "offTarget": 0,
+   "blocked": 1,
+   "corners": 0,
+   "fouls": 6,
+   "offsides": 0,
+   "yellow": 1,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 9,
+   "onTarget": 1,
+   "offTarget": 5,
+   "blocked": 3,
+   "corners": 2,
+   "fouls": 16,
+   "offsides": 1,
+   "yellow": 0,
+   "red": 0,
+   "possession": "65.9",
+   "passesAccurate": "708",
+   "passes": "761",
+   "passAcc": "0.9",
+   "crossesAccurate": "1",
+   "crosses": "6",
+   "tacklesWon": "10",
+   "tackles": "13",
+   "interceptions": "4",
+   "clearances": "11"
+  },
+  "opp": {
+   "shots": 4,
+   "onTarget": 0,
+   "offTarget": 2,
+   "blocked": 2,
+   "corners": 3,
+   "fouls": 12,
+   "offsides": 2,
+   "yellow": 1,
+   "red": 0,
+   "possession": "34.1",
+   "passesAccurate": "314",
+   "passes": "385",
+   "passAcc": "0.8",
+   "crossesAccurate": "1",
+   "crosses": "10",
+   "tacklesWon": "18",
+   "tackles": "31",
+   "interceptions": "8",
+   "clearances": "10"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

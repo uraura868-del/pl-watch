@@ -1,0 +1,31 @@
+{
+ "eventId": "401878766",
+ "date": "2026-10-25T14:00:00Z",
+ "opponent": {
+  "name": "Hull City",
+  "abbr": "HUL"
+ },
+ "isHome": false,
+ "score": {
+  "us": 1,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Oliver McBurnie",
+   "assist": null,
+   "minute": "24'",
+   "kind": "pen"
+  },
+  {
+   "side": "us",
+   "scorer": "Dango Ouattara",
+   "assist": "Igor Thiago",
+   "minute": "63'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

@@ -1,0 +1,78 @@
+{
+ "eventId": "401879274",
+ "date": "2026-09-19T14:00:00Z",
+ "opponent": {
+  "name": "Brighton & Hove Albion",
+  "abbr": "BHA"
+ },
+ "ht": {
+  "us": {
+   "shots": 3,
+   "onTarget": 1,
+   "offTarget": 0,
+   "blocked": 2,
+   "corners": 0,
+   "fouls": 8,
+   "offsides": 2,
+   "yellow": 0,
+   "red": 0
+  },
+  "opp": {
+   "shots": 6,
+   "onTarget": 1,
+   "offTarget": 3,
+   "blocked": 2,
+   "corners": 2,
+   "fouls": 16,
+   "offsides": 0,
+   "yellow": 2,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 11,
+   "onTarget": 2,
+   "offTarget": 4,
+   "blocked": 5,
+   "corners": 6,
+   "fouls": 20,
+   "offsides": 2,
+   "yellow": 1,
+   "red": 0,
+   "possession": "59.8",
+   "passesAccurate": "425",
+   "passes": "502",
+   "passAcc": "0.8",
+   "crossesAccurate": "7",
+   "crosses": "17",
+   "tacklesWon": "9",
+   "tackles": "13",
+   "interceptions": "6",
+   "clearances": "14"
+  },
+  "opp": {
+   "shots": 13,
+   "onTarget": 2,
+   "offTarget": 8,
+   "blocked": 3,
+   "corners": 5,
+   "fouls": 26,
+   "offsides": 0,
+   "yellow": 4,
+   "red": 0,
+   "possession": "40.2",
+   "passesAccurate": "258",
+   "passes": "340",
+   "passAcc": "0.8",
+   "crossesAccurate": "5",
+   "crosses": "15",
+   "tacklesWon": "11",
+   "tackles": "18",
+   "interceptions": "11",
+   "clearances": "20"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

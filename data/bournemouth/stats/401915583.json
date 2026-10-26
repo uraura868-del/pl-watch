@@ -1,0 +1,78 @@
+{
+ "eventId": "401915583",
+ "date": "2026-09-17T19:00:00Z",
+ "opponent": {
+  "name": "Real Sociedad",
+  "abbr": "RSO"
+ },
+ "ht": {
+  "us": {
+   "shots": 4,
+   "onTarget": 0,
+   "offTarget": 3,
+   "blocked": 1,
+   "corners": 2,
+   "fouls": 8,
+   "offsides": 2,
+   "yellow": 1,
+   "red": 0
+  },
+  "opp": {
+   "shots": 4,
+   "onTarget": 0,
+   "offTarget": 2,
+   "blocked": 2,
+   "corners": 2,
+   "fouls": 16,
+   "offsides": 1,
+   "yellow": 2,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 8,
+   "onTarget": 1,
+   "offTarget": 5,
+   "blocked": 2,
+   "corners": 3,
+   "fouls": 26,
+   "offsides": 4,
+   "yellow": 3,
+   "red": 0,
+   "possession": "38.3",
+   "passesAccurate": "281",
+   "passes": "368",
+   "passAcc": "0.8",
+   "crossesAccurate": "6",
+   "crosses": "14",
+   "tacklesWon": "8",
+   "tackles": "17",
+   "interceptions": "7",
+   "clearances": "30"
+  },
+  "opp": {
+   "shots": 15,
+   "onTarget": 4,
+   "offTarget": 6,
+   "blocked": 5,
+   "corners": 10,
+   "fouls": 27,
+   "offsides": 1,
+   "yellow": 3,
+   "red": 0,
+   "possession": "61.7",
+   "passesAccurate": "490",
+   "passes": "584",
+   "passAcc": "0.8",
+   "crossesAccurate": "4",
+   "crosses": "27",
+   "tacklesWon": "11",
+   "tackles": "18",
+   "interceptions": "7",
+   "clearances": "14"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

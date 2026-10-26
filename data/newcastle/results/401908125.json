@@ -1,0 +1,52 @@
+{
+ "eventId": "401908125",
+ "date": "2026-08-26T18:45:00Z",
+ "opponent": {
+  "name": "West Bromwich Albion",
+  "abbr": "WBA"
+ },
+ "isHome": true,
+ "score": {
+  "us": 3,
+  "opp": 2
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Isaac Price",
+   "assist": null,
+   "minute": "19'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Bazoumana Touré",
+   "assist": "Amar Dedic",
+   "minute": "38'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Harvey Barnes",
+   "assist": "Malick Thiaw",
+   "minute": "48'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Isaac Price",
+   "assist": null,
+   "minute": "77'",
+   "kind": "pen"
+  },
+  {
+   "side": "us",
+   "scorer": "Harvey Barnes",
+   "assist": "Amar Dedic",
+   "minute": "81'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

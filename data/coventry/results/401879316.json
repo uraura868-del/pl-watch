@@ -1,0 +1,24 @@
+{
+ "eventId": "401879316",
+ "date": "2026-08-29T14:00:00Z",
+ "opponent": {
+  "name": "Hull City",
+  "abbr": "HUL"
+ },
+ "isHome": true,
+ "score": {
+  "us": 0,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Liam Millar",
+   "assist": "Mohamed Belloumi",
+   "minute": "82'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

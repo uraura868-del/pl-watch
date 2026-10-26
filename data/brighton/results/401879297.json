@@ -1,0 +1,51 @@
+{
+ "eventId": "401879297",
+ "date": "2026-08-23T13:00:00Z",
+ "opponent": {
+  "name": "Aston Villa",
+  "abbr": "AVL"
+ },
+ "isHome": true,
+ "score": {
+  "us": 4,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Victor Lindelöf",
+   "assist": null,
+   "minute": "8'",
+   "kind": "og"
+  },
+  {
+   "side": "us",
+   "scorer": "Maxim De Cuyper",
+   "assist": "Georginio Rutter",
+   "minute": "18'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Jack Hinshelwood",
+   "assist": "Diego Gómez",
+   "minute": "30'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Jack Hinshelwood",
+   "assist": null,
+   "minute": "31'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [
+  {
+   "side": "opp",
+   "name": "João Gomes",
+   "minute": "40'"
+  }
+ ],
+ "source": "ESPN"
+}

@@ -1,0 +1,66 @@
+{
+ "eventId": "401879317",
+ "date": "2026-08-30T13:00:00Z",
+ "opponent": {
+  "name": "Brighton & Hove Albion",
+  "abbr": "BHA"
+ },
+ "isHome": true,
+ "score": {
+  "us": 4,
+  "opp": 3
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Romeo Lavia",
+   "assist": null,
+   "minute": "4'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Pedro Neto",
+   "assist": "Morgan Rogers",
+   "minute": "14'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "João Pedro",
+   "assist": "Jorrel Hato",
+   "minute": "32'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Malick Yalcouyé",
+   "assist": null,
+   "minute": "35'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "João Pedro",
+   "assist": null,
+   "minute": "63'",
+   "kind": "og"
+  },
+  {
+   "side": "us",
+   "scorer": "Cole Palmer",
+   "assist": "João Pedro",
+   "minute": "74'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Pascal Gross",
+   "assist": null,
+   "minute": "90'+6'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

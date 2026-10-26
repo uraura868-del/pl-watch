@@ -1,0 +1,80 @@
+{
+ "eventId": "401914256",
+ "date": "2026-09-09T19:15:00Z",
+ "opponent": {
+  "name": "Leeds United",
+  "abbr": "LEE"
+ },
+ "isHome": true,
+ "score": {
+  "us": 6,
+  "opp": 3
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Tarik Muharemovic",
+   "assist": "Harry Wilson",
+   "minute": "23'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Brenden Aaronson",
+   "assist": "Lukas Nmecha",
+   "minute": "48'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Cole Palmer",
+   "assist": null,
+   "minute": "53'",
+   "kind": "pen"
+  },
+  {
+   "side": "us",
+   "scorer": "Cole Palmer",
+   "assist": "Morgan Rogers",
+   "minute": "55'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Pedro Neto",
+   "assist": "Morgan Rogers",
+   "minute": "60'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Danny Welbeck",
+   "assist": "Morgan Rogers",
+   "minute": "65'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Dominic Calvert-Lewin",
+   "assist": "Noah Okafor",
+   "minute": "75'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Valentín Barco",
+   "assist": null,
+   "minute": "80'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Danny Welbeck",
+   "assist": "Valentín Barco",
+   "minute": "90'+4'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

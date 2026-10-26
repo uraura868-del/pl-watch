@@ -1,0 +1,59 @@
+{
+ "eventId": "401915401",
+ "date": "2026-10-20T19:00:00Z",
+ "opponent": {
+  "name": "AEK Athens",
+  "abbr": "AEK"
+ },
+ "isHome": true,
+ "score": {
+  "us": 5,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Elliot Anderson",
+   "assist": null,
+   "minute": "12'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Phil Foden",
+   "assist": "Rico Lewis",
+   "minute": "34'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Stavros Pilios",
+   "assist": "Zini",
+   "minute": "52'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Rayan Cherki",
+   "assist": "Phil Foden",
+   "minute": "57'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Phil Foden",
+   "assist": "Rico Lewis",
+   "minute": "65'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Phil Foden",
+   "assist": "Ryan McAidoo",
+   "minute": "76'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

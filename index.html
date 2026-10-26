@@ -75,20 +75,10 @@
 
 <dialog id="dlg-addteam" class="dlg">
   <form method="dialog">
-    <h2>チームを追加する</h2>
-    <p>リポジトリの <code>teams.json</code> に1件追加して保存すると、次回の自動更新から表示されます。</p>
-<pre>{
-  "id": "arsenal",
-  "name": "Arsenal",
-  "shortName": "アーセナル",
-  "league": "eng.1",
-  "leagueName": "プレミアリーグ",
-  "espnTeamId": "359",
-  "plTeamId": 1,
-  "color": "#ef0107"
-}</pre>
-    <p class="note">espnTeamId は ESPN のチームページURLの数字、plTeamId は premierleague.com のクラブIDです。詳しくは README を見てください。</p>
-    <menu><button class="btn-primary" value="close">閉じる</button></menu>
+    <h2>表示するチームを選ぶ</h2>
+    <p class="note">チェックしたチームがタブに出ます。1つも選ばないと全チームが出ます。ログイン中はこの選択もアカウントに保存されます。</p>
+    <div id="team-picker" class="team-picker"></div>
+    <menu><button type="button" id="btn-teams-all" class="btn-ghost">全チーム</button><button class="btn-primary" value="close">閉じる</button></menu>
   </form>
 </dialog>
 

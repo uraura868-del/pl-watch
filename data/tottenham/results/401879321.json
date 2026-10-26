@@ -1,0 +1,38 @@
+{
+ "eventId": "401879321",
+ "date": "2026-08-22T16:30:00Z",
+ "opponent": {
+  "name": "Brentford",
+  "abbr": "BRE"
+ },
+ "isHome": false,
+ "score": {
+  "us": 0,
+  "opp": 3
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Keane Lewis-Potter",
+   "assist": "Mamadou Sangare",
+   "minute": "12'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Vitaly Janelt",
+   "assist": null,
+   "minute": "33'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Michael Kayode",
+   "assist": null,
+   "minute": "49'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

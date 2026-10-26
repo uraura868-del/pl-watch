@@ -1,0 +1,59 @@
+{
+ "eventId": "401908140",
+ "date": "2026-08-26T18:45:00Z",
+ "opponent": {
+  "name": "Charlton Athletic",
+  "abbr": "CHA"
+ },
+ "isHome": true,
+ "score": {
+  "us": 5,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Mikey Moore",
+   "assist": "Rodrigo Bentancur",
+   "minute": "41'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Dominic Solanke",
+   "assist": "Mikey Moore",
+   "minute": "45'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Kevin Danso",
+   "assist": "Mateus Fernandes",
+   "minute": "67'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Sávio",
+   "assist": "Archie Gray",
+   "minute": "82'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Ben Davies",
+   "assist": "Sávio",
+   "minute": "85'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Lloyd Jones",
+   "assist": "Joe Rankin-Costello",
+   "minute": "87'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

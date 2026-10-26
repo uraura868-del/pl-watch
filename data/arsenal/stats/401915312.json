@@ -1,0 +1,78 @@
+{
+ "eventId": "401915312",
+ "date": "2026-10-21T19:00:00Z",
+ "opponent": {
+  "name": "Bayern Munich",
+  "abbr": "MUN"
+ },
+ "ht": {
+  "us": {
+   "shots": 5,
+   "onTarget": 0,
+   "offTarget": 4,
+   "blocked": 1,
+   "corners": 3,
+   "fouls": 2,
+   "offsides": 0,
+   "yellow": 2,
+   "red": 0
+  },
+  "opp": {
+   "shots": 4,
+   "onTarget": 1,
+   "offTarget": 1,
+   "blocked": 2,
+   "corners": 2,
+   "fouls": 18,
+   "offsides": 0,
+   "yellow": 0,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 12,
+   "onTarget": 2,
+   "offTarget": 4,
+   "blocked": 6,
+   "corners": 5,
+   "fouls": 8,
+   "offsides": 1,
+   "yellow": 2,
+   "red": 0,
+   "possession": "53.9",
+   "passesAccurate": "436",
+   "passes": "502",
+   "passAcc": "0.9",
+   "crossesAccurate": "4",
+   "crosses": "17",
+   "tacklesWon": "6",
+   "tackles": "17",
+   "interceptions": "11",
+   "clearances": "15"
+  },
+  "opp": {
+   "shots": 11,
+   "onTarget": 3,
+   "offTarget": 3,
+   "blocked": 5,
+   "corners": 3,
+   "fouls": 30,
+   "offsides": 2,
+   "yellow": 0,
+   "red": 0,
+   "possession": "46.1",
+   "passesAccurate": "373",
+   "passes": "435",
+   "passAcc": "0.9",
+   "crossesAccurate": "1",
+   "crosses": "6",
+   "tacklesWon": "9",
+   "tackles": "15",
+   "interceptions": "2",
+   "clearances": "23"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

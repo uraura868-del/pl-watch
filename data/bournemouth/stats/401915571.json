@@ -1,0 +1,78 @@
+{
+ "eventId": "401915571",
+ "date": "2026-10-15T19:00:00Z",
+ "opponent": {
+  "name": "SK Sturm Graz",
+  "abbr": "STG"
+ },
+ "ht": {
+  "us": {
+   "shots": 8,
+   "onTarget": 0,
+   "offTarget": 5,
+   "blocked": 3,
+   "corners": 1,
+   "fouls": 8,
+   "offsides": 1,
+   "yellow": 1,
+   "red": 0
+  },
+  "opp": {
+   "shots": 0,
+   "onTarget": 0,
+   "offTarget": 0,
+   "blocked": 0,
+   "corners": 1,
+   "fouls": 12,
+   "offsides": 1,
+   "yellow": 1,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 19,
+   "onTarget": 3,
+   "offTarget": 9,
+   "blocked": 7,
+   "corners": 7,
+   "fouls": 18,
+   "offsides": 1,
+   "yellow": 3,
+   "red": 0,
+   "possession": "61.9",
+   "passesAccurate": "380",
+   "passes": "464",
+   "passAcc": "0.8",
+   "crossesAccurate": "10",
+   "crosses": "26",
+   "tacklesWon": "7",
+   "tackles": "13",
+   "interceptions": "6",
+   "clearances": "22"
+  },
+  "opp": {
+   "shots": 5,
+   "onTarget": 1,
+   "offTarget": 4,
+   "blocked": 0,
+   "corners": 3,
+   "fouls": 34,
+   "offsides": 2,
+   "yellow": 3,
+   "red": 0,
+   "possession": "38.1",
+   "passesAccurate": "203",
+   "passes": "291",
+   "passAcc": "0.7",
+   "crossesAccurate": "1",
+   "crosses": "7",
+   "tacklesWon": "9",
+   "tackles": "13",
+   "interceptions": "6",
+   "clearances": "31"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

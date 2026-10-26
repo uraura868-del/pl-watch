@@ -1,0 +1,38 @@
+{
+ "eventId": "401879256",
+ "date": "2026-10-24T11:30:00Z",
+ "opponent": {
+  "name": "Manchester City",
+  "abbr": "MNC"
+ },
+ "isHome": true,
+ "score": {
+  "us": 2,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Nicolas Jackson",
+   "assist": "John McGinn",
+   "minute": "6'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Erling Haaland",
+   "assist": "Iliman Ndiaye",
+   "minute": "52'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Nicolas Jackson",
+   "assist": "Ibrahim Mbaye",
+   "minute": "60'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

@@ -1,0 +1,78 @@
+{
+ "eventId": "401915853",
+ "date": "2026-10-15T19:00:00Z",
+ "opponent": {
+  "name": "Kauno Zalgiris",
+  "abbr": "ZAL"
+ },
+ "ht": {
+  "us": {
+   "shots": 14,
+   "onTarget": 2,
+   "offTarget": 6,
+   "blocked": 6,
+   "corners": 7,
+   "fouls": 10,
+   "offsides": 0,
+   "yellow": 0,
+   "red": 0
+  },
+  "opp": {
+   "shots": 2,
+   "onTarget": 0,
+   "offTarget": 2,
+   "blocked": 0,
+   "corners": 0,
+   "fouls": 4,
+   "offsides": 0,
+   "yellow": 1,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 30,
+   "onTarget": 5,
+   "offTarget": 15,
+   "blocked": 10,
+   "corners": 13,
+   "fouls": 22,
+   "offsides": 0,
+   "yellow": 0,
+   "red": 0,
+   "possession": "77.8",
+   "passesAccurate": "632",
+   "passes": "687",
+   "passAcc": "0.9",
+   "crossesAccurate": "17",
+   "crosses": "51",
+   "tacklesWon": "8",
+   "tackles": "9",
+   "interceptions": "3",
+   "clearances": "20"
+  },
+  "opp": {
+   "shots": 4,
+   "onTarget": 1,
+   "offTarget": 2,
+   "blocked": 1,
+   "corners": 1,
+   "fouls": 16,
+   "offsides": 0,
+   "yellow": 1,
+   "red": 0,
+   "possession": "22.2",
+   "passesAccurate": "136",
+   "passes": "207",
+   "passAcc": "0.7",
+   "crossesAccurate": "1",
+   "crosses": "3",
+   "tacklesWon": "12",
+   "tackles": "22",
+   "interceptions": "8",
+   "clearances": "62"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

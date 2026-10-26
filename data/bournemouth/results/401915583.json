@@ -1,0 +1,38 @@
+{
+ "eventId": "401915583",
+ "date": "2026-09-17T19:00:00Z",
+ "opponent": {
+  "name": "Real Sociedad",
+  "abbr": "RSO"
+ },
+ "isHome": false,
+ "score": {
+  "us": 2,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Justin Kluivert",
+   "assist": "Adrien Truffert",
+   "minute": "11'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Rayan",
+   "assist": "Alex Scott",
+   "minute": "20'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Sergio Gómez",
+   "assist": "Luken Beitia",
+   "minute": "57'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

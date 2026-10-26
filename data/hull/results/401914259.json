@@ -1,0 +1,24 @@
+{
+ "eventId": "401914259",
+ "date": "2026-09-08T18:45:00Z",
+ "opponent": {
+  "name": "Sunderland",
+  "abbr": "SUN"
+ },
+ "isHome": false,
+ "score": {
+  "us": 0,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Chemsdine Talbi",
+   "assist": "Thomas Meunier",
+   "minute": "71'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

@@ -1,0 +1,24 @@
+{
+ "eventId": "401879313",
+ "date": "2026-08-30T13:00:00Z",
+ "opponent": {
+  "name": "Sunderland",
+  "abbr": "SUN"
+ },
+ "isHome": false,
+ "score": {
+  "us": 0,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Wilson Isidor",
+   "assist": "Habib Diarra",
+   "minute": "75'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

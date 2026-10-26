@@ -1,0 +1,78 @@
+{
+ "eventId": "401879314",
+ "date": "2026-08-29T11:30:00Z",
+ "opponent": {
+  "name": "Liverpool",
+  "abbr": "LIV"
+ },
+ "ht": {
+  "us": {
+   "shots": 7,
+   "onTarget": 1,
+   "offTarget": 1,
+   "blocked": 5,
+   "corners": 4,
+   "fouls": 8,
+   "offsides": 0,
+   "yellow": 1,
+   "red": 0
+  },
+  "opp": {
+   "shots": 4,
+   "onTarget": 1,
+   "offTarget": 2,
+   "blocked": 1,
+   "corners": 2,
+   "fouls": 13,
+   "offsides": 2,
+   "yellow": 0,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 10,
+   "onTarget": 1,
+   "offTarget": 3,
+   "blocked": 6,
+   "corners": 5,
+   "fouls": 20,
+   "offsides": 0,
+   "yellow": 2,
+   "red": 0,
+   "possession": "30.4",
+   "passesAccurate": "192",
+   "passes": "280",
+   "passAcc": "0.7",
+   "crossesAccurate": "2",
+   "crosses": "7",
+   "tacklesWon": "13",
+   "tackles": "23",
+   "interceptions": "6",
+   "clearances": "34"
+  },
+  "opp": {
+   "shots": 11,
+   "onTarget": 2,
+   "offTarget": 5,
+   "blocked": 4,
+   "corners": 3,
+   "fouls": 25,
+   "offsides": 3,
+   "yellow": 4,
+   "red": 0,
+   "possession": "69.6",
+   "passesAccurate": "556",
+   "passes": "626",
+   "passAcc": "0.9",
+   "crossesAccurate": "5",
+   "crosses": "30",
+   "tacklesWon": "9",
+   "tackles": "22",
+   "interceptions": "10",
+   "clearances": "19"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

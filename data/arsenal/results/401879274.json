@@ -1,0 +1,38 @@
+{
+ "eventId": "401879274",
+ "date": "2026-09-19T14:00:00Z",
+ "opponent": {
+  "name": "Brighton & Hove Albion",
+  "abbr": "BHA"
+ },
+ "isHome": false,
+ "score": {
+  "us": 0,
+  "opp": 3
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Pascal Gross",
+   "assist": "Charalambos Kostoulas",
+   "minute": "31'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Charalambos Kostoulas",
+   "assist": "Diego Gómez",
+   "minute": "45'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Chema Andrés",
+   "assist": "Pascal Gross",
+   "minute": "57'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

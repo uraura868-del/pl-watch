@@ -1,0 +1,38 @@
+{
+ "eventId": "401915446",
+ "date": "2026-09-09T19:00:00Z",
+ "opponent": {
+  "name": "Atlético Madrid",
+  "abbr": "ATM"
+ },
+ "isHome": true,
+ "score": {
+  "us": 2,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Marcos Llorente",
+   "assist": "Julián Álvarez",
+   "minute": "17'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Dominik Szoboszlai",
+   "assist": "Ronald Araujo",
+   "minute": "40'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Alexis Mac Allister",
+   "assist": "Alexander Isak",
+   "minute": "50'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

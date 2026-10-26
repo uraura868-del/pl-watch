@@ -1,0 +1,78 @@
+{
+ "eventId": "401915546",
+ "date": "2026-10-22T16:45:00Z",
+ "opponent": {
+  "name": "Lech Poznan",
+  "abbr": "LECH"
+ },
+ "ht": {
+  "us": {
+   "shots": 12,
+   "onTarget": 7,
+   "offTarget": 4,
+   "blocked": 1,
+   "corners": 3,
+   "fouls": 12,
+   "offsides": 0,
+   "yellow": 1,
+   "red": 0
+  },
+  "opp": {
+   "shots": 6,
+   "onTarget": 2,
+   "offTarget": 3,
+   "blocked": 1,
+   "corners": 1,
+   "fouls": 8,
+   "offsides": 1,
+   "yellow": 0,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 23,
+   "onTarget": 10,
+   "offTarget": 10,
+   "blocked": 3,
+   "corners": 6,
+   "fouls": 26,
+   "offsides": 1,
+   "yellow": 1,
+   "red": 0,
+   "possession": "56.7",
+   "passesAccurate": "443",
+   "passes": "506",
+   "passAcc": "0.9",
+   "crossesAccurate": "3",
+   "crosses": "27",
+   "tacklesWon": "10",
+   "tackles": "11",
+   "interceptions": "11",
+   "clearances": "17"
+  },
+  "opp": {
+   "shots": 15,
+   "onTarget": 5,
+   "offTarget": 8,
+   "blocked": 2,
+   "corners": 3,
+   "fouls": 14,
+   "offsides": 1,
+   "yellow": 0,
+   "red": 0,
+   "possession": "43.3",
+   "passesAccurate": "310",
+   "passes": "393",
+   "passAcc": "0.8",
+   "crossesAccurate": "3",
+   "crosses": "11",
+   "tacklesWon": "2",
+   "tackles": "9",
+   "interceptions": "5",
+   "clearances": "33"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

@@ -1,0 +1,45 @@
+{
+ "eventId": "401915312",
+ "date": "2026-10-21T19:00:00Z",
+ "opponent": {
+  "name": "Bayern Munich",
+  "abbr": "MUN"
+ },
+ "isHome": false,
+ "score": {
+  "us": 2,
+  "opp": 2
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Eberechi Eze",
+   "assist": "Martin Ødegaard",
+   "minute": "25'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Alphonso Davies",
+   "assist": "Harry Kane",
+   "minute": "35'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Harry Kane",
+   "assist": null,
+   "minute": "61'",
+   "kind": "pen"
+  },
+  {
+   "side": "us",
+   "scorer": "Declan Rice",
+   "assist": "Viktor Gyökeres",
+   "minute": "82'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

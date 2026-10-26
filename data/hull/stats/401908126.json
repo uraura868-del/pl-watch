@@ -1,0 +1,78 @@
+{
+ "eventId": "401908126",
+ "date": "2026-08-25T18:45:00Z",
+ "opponent": {
+  "name": "Stoke City",
+  "abbr": "STK"
+ },
+ "ht": {
+  "us": {
+   "shots": 9,
+   "onTarget": 3,
+   "offTarget": 3,
+   "blocked": 3,
+   "corners": 3,
+   "fouls": 2,
+   "offsides": 1,
+   "yellow": 0,
+   "red": 0
+  },
+  "opp": {
+   "shots": 5,
+   "onTarget": 1,
+   "offTarget": 3,
+   "blocked": 1,
+   "corners": 1,
+   "fouls": 10,
+   "offsides": 1,
+   "yellow": 0,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 17,
+   "onTarget": 5,
+   "offTarget": 8,
+   "blocked": 4,
+   "corners": 4,
+   "fouls": 10,
+   "offsides": 2,
+   "yellow": 1,
+   "red": 0,
+   "possession": "55.6",
+   "passesAccurate": "498",
+   "passes": "563",
+   "passAcc": "0.9",
+   "crossesAccurate": "2",
+   "crosses": "15",
+   "tacklesWon": "7",
+   "tackles": "12",
+   "interceptions": "9",
+   "clearances": "14"
+  },
+  "opp": {
+   "shots": 9,
+   "onTarget": 3,
+   "offTarget": 5,
+   "blocked": 1,
+   "corners": 1,
+   "fouls": 22,
+   "offsides": 1,
+   "yellow": 1,
+   "red": 0,
+   "possession": "44.4",
+   "passesAccurate": "369",
+   "passes": "440",
+   "passAcc": "0.8",
+   "crossesAccurate": "5",
+   "crosses": "19",
+   "tacklesWon": "12",
+   "tackles": "19",
+   "interceptions": "4",
+   "clearances": "18"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

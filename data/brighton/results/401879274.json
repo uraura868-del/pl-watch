@@ -1,0 +1,38 @@
+{
+ "eventId": "401879274",
+ "date": "2026-09-19T14:00:00Z",
+ "opponent": {
+  "name": "Arsenal",
+  "abbr": "ARS"
+ },
+ "isHome": true,
+ "score": {
+  "us": 3,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Pascal Gross",
+   "assist": "Charalambos Kostoulas",
+   "minute": "31'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Charalambos Kostoulas",
+   "assist": "Diego Gómez",
+   "minute": "45'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Chema Andrés",
+   "assist": "Pascal Gross",
+   "minute": "57'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

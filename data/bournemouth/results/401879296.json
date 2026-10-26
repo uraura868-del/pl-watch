@@ -1,0 +1,31 @@
+{
+ "eventId": "401879296",
+ "date": "2026-08-29T14:00:00Z",
+ "opponent": {
+  "name": "Everton",
+  "abbr": "EVE"
+ },
+ "isHome": true,
+ "score": {
+  "us": 1,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Alex Scott",
+   "assist": "Evanilson",
+   "minute": "41'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "James Tarkowski",
+   "assist": null,
+   "minute": "90'+1'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

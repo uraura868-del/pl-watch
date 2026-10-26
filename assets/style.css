@@ -38,6 +38,15 @@ body.hide-names .pl .nm { display: none; }
 .tab { padding: 6px 12px; border-radius: 999px; font-size: 12px; font-weight: 700; background: var(--tab-bg); color: var(--tab-fg); border: 1px solid transparent; white-space: nowrap; cursor: pointer; }
 .tab.on { background: var(--accent); color: #fff; }
 .tab.add { opacity: .7; }
+.tab { display: inline-flex; align-items: center; gap: 6px; }
+.tab-crest { width: 16px; height: 16px; }
+.team-picker { display: grid; grid-template-columns: 1fr 1fr; gap: 4px 10px; max-height: 50vh; overflow-y: auto; margin: 8px 0; }
+.tp-row { display: flex; align-items: center; gap: 8px; padding: 6px 4px; border-radius: 8px; cursor: pointer; font-size: 13px; }
+.tp-row:hover { background: var(--tab-bg); }
+.tp-row img { width: 22px; height: 22px; }
+.tp-row span small { display: block; font-size: 10px; color: var(--muted); }
+.dlg .tp-row input[type=checkbox] { width: 16px; height: 16px; appearance: auto; background: none; border-radius: 3px; accent-color: var(--accent); flex: 0 0 auto; }
+.dlg .tp-row input[type=checkbox]::after { display: none; }
 
 /* ---- layout ---- */
 .layout { display: block; max-width: 1200px; margin: 0 auto; }

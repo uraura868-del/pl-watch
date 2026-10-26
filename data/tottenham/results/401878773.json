@@ -1,0 +1,37 @@
+{
+ "eventId": "401878773",
+ "date": "2026-10-10T16:30:00Z",
+ "opponent": {
+  "name": "Manchester United",
+  "abbr": "MAN"
+ },
+ "isHome": false,
+ "score": {
+  "us": 1,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Bryan Mbeumo",
+   "assist": "Matheus Cunha",
+   "minute": "73'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Dominic Solanke",
+   "assist": "Sandro Tonali",
+   "minute": "90'+2'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [
+  {
+   "side": "us",
+   "name": "Rodrigo Bentancur",
+   "minute": "78'"
+  }
+ ],
+ "source": "ESPN"
+}

@@ -1,0 +1,24 @@
+{
+ "eventId": "401879313",
+ "date": "2026-08-30T13:00:00Z",
+ "opponent": {
+  "name": "Fulham",
+  "abbr": "FUL"
+ },
+ "isHome": true,
+ "score": {
+  "us": 1,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Wilson Isidor",
+   "assist": "Habib Diarra",
+   "minute": "75'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

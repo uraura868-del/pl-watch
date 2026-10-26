@@ -20,7 +20,7 @@
 
   // ---------------------------------------------------------------- storage
   function normalizePrefs(p) {
-    const out = { team: p.team || null, watched: p.watched || {} };
+    const out = { team: p.team || null, watched: p.watched || {}, teams: Array.isArray(p.teams) ? p.teams.filter(x => typeof x === "string") : [] };
     for (const k of PREF_KEYS) out[k] = (k in p && p[k] !== undefined && p[k] !== null) ? !!p[k] : PREF_DEFAULTS[k];
     return out;
   }
@@ -78,10 +78,13 @@
         merged.watched = watched;
         if (c.prefs) for (const k of PREF_KEYS) if (k in c.prefs) merged[k] = !!c.prefs[k];
         if (c.team) merged.team = c.team;
+        if (Array.isArray(c.teams)) merged.teams = c.teams;
         state.prefs = normalizePrefs(merged);
         try { localStorage.setItem(LS_KEY, JSON.stringify(state.prefs)); } catch { /* ignore */ }
         await this.push();
         applyDisplayPrefs();
+        renderTabs();
+        if (state.teamId && !visibleTeams().some(t => t.id === state.teamId)) { selectTeam(visibleTeams()[0].id); return; }
         if (state.teamId) { renderList(); if (state.selected) { const f = state.fixtures.find(x => x.eventId === state.selected); if (f) renderDetail(f, state.matchCache.get(f.eventId) || null, classify().get(f.eventId)); } }
         toast(`ログインしました: ${this.user.displayName || ""}`);
       } catch (e) { console.warn("cloud pull failed", e); toast("同期に失敗しました（端末の記録を使います）"); }
@@ -90,7 +93,7 @@
     async push() {
       if (!this.user || !this.ready) return;
       const prefs = {}; for (const k of PREF_KEYS) prefs[k] = state.prefs[k];
-      await this.docRef().set({ watched: state.prefs.watched || {}, prefs, team: state.prefs.team || null,
+      await this.docRef().set({ watched: state.prefs.watched || {}, prefs, team: state.prefs.team || null, teams: state.prefs.teams || [],
         updatedAt: firebase.firestore.FieldValue.serverTimestamp() }, { merge: true });
     },
     scheduleSave() {
@@ -746,12 +749,33 @@
     }
   }
 
+  // お気に入り（prefs.teams）に絞ったチーム一覧。未選択なら全チーム
+  function visibleTeams() {
+    const fav = (state.prefs.teams || []).filter(id => state.teams.some(t => t.id === id));
+    return fav.length ? state.teams.filter(t => fav.includes(t.id)) : state.teams;
+  }
   function renderTabs() {
     const el = $("#tabs");
-    el.innerHTML = state.teams.map(t => `<button class="tab ${t.id === state.teamId ? "on" : ""}" data-id="${esc(t.id)}">${esc(t.shortName || t.name)}</button>`).join("")
-      + `<button class="tab add" id="tab-add">＋ チームを追加</button>`;
+    const list = visibleTeams();
+    el.innerHTML = list.map(t => `<button class="tab ${t.id === state.teamId ? "on" : ""}" data-id="${esc(t.id)}"><img class="tab-crest" src="https://a.espncdn.com/i/teamlogos/soccer/500/${esc(t.espnTeamId)}.png" alt="">${esc(t.shortName || t.name)}</button>`).join("")
+      + `<button class="tab add" id="tab-add">${list.length < state.teams.length ? "＋ チームを選ぶ" : "チームを絞る"}</button>`;
     el.querySelectorAll(".tab[data-id]").forEach(b => b.addEventListener("click", () => selectTeam(b.dataset.id)));
-    $("#tab-add").addEventListener("click", () => $("#dlg-addteam").showModal());
+    $("#tab-add").addEventListener("click", openTeamPicker);
+    const on = el.querySelector(".tab.on");
+    if (on) on.scrollIntoView({ inline: "center", block: "nearest" });
+  }
+  function openTeamPicker() {
+    const box = $("#team-picker");
+    const fav = new Set(state.prefs.teams || []);
+    box.innerHTML = state.teams.map(t => `<label class="tp-row"><input type="checkbox" data-id="${esc(t.id)}" ${fav.has(t.id) ? "checked" : ""}>
+      <img src="https://a.espncdn.com/i/teamlogos/soccer/500/${esc(t.espnTeamId)}.png" alt=""><span>${esc(t.shortName || t.name)}<small>${esc(t.name)}</small></span></label>`).join("");
+    box.querySelectorAll("input").forEach(cb => cb.addEventListener("change", () => {
+      const ids = [...box.querySelectorAll("input:checked")].map(x => x.dataset.id);
+      state.prefs.teams = ids; save(); renderTabs();
+      if (!visibleTeams().some(t => t.id === state.teamId)) selectTeam(visibleTeams()[0].id);
+    }));
+    $("#btn-teams-all").onclick = () => { box.querySelectorAll("input").forEach(x => x.checked = false); state.prefs.teams = []; save(); renderTabs(); };
+    $("#dlg-addteam").showModal();
   }
 
   // ---------------------------------------------------------------- 設定
@@ -802,7 +826,10 @@
       } else {
         $("#updated").textContent = "データ未取得";
       }
-      await selectTeam(state.prefs.team || (state.teams[0] && state.teams[0].id));
+      // 前回のチーム → お気に入りの先頭 → 先頭チーム の順
+      const first = visibleTeams()[0];
+      const initial = (state.prefs.team && visibleTeams().some(t => t.id === state.prefs.team)) ? state.prefs.team : (first && first.id);
+      await selectTeam(initial);
     } catch (e) {
       $("#list").innerHTML = `<div class="empty">teams.json が読み込めません。<br><small>${esc(e.message)}</small><br><br>ファイルを直接開いている場合は serve.bat でローカルサーバーを起動してください。</div>`;
     }

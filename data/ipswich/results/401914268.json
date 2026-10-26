@@ -1,0 +1,59 @@
+{
+ "eventId": "401914268",
+ "date": "2026-09-15T19:00:00Z",
+ "opponent": {
+  "name": "Arsenal",
+  "abbr": "ARS"
+ },
+ "isHome": true,
+ "score": {
+  "us": 2,
+  "opp": 4
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Max Dowman",
+   "assist": "Eberechi Eze",
+   "minute": "7'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Noni Madueke",
+   "assist": null,
+   "minute": "16'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Max Dowman",
+   "assist": "Martín Zubimendi",
+   "minute": "47'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Mikel Merino",
+   "assist": null,
+   "minute": "58'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Anis Mehmeti",
+   "assist": "Jack Clarke",
+   "minute": "62'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Chuba Akpom",
+   "assist": "Leif Davis",
+   "minute": "90'+1'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

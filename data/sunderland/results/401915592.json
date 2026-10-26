@@ -1,0 +1,24 @@
+{
+ "eventId": "401915592",
+ "date": "2026-09-16T19:00:00Z",
+ "opponent": {
+  "name": "AZ Alkmaar",
+  "abbr": "AZ"
+ },
+ "isHome": true,
+ "score": {
+  "us": 1,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Enzo Le Fée",
+   "assist": null,
+   "minute": "66'",
+   "kind": "pen"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

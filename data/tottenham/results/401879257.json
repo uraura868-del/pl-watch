@@ -1,0 +1,45 @@
+{
+ "eventId": "401879257",
+ "date": "2026-10-19T19:00:00Z",
+ "opponent": {
+  "name": "Coventry City",
+  "abbr": "COV"
+ },
+ "isHome": true,
+ "score": {
+  "us": 3,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "James Maddison",
+   "assist": "Mohammed Kudus",
+   "minute": "14'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Jack Rudoni",
+   "assist": "Brandon Thomas-Asante",
+   "minute": "49'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Omar Marmoush",
+   "assist": "Andy Robertson",
+   "minute": "58'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Ben Davies",
+   "assist": "Dominic Solanke",
+   "minute": "90'+6'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

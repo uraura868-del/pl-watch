@@ -1,0 +1,78 @@
+{
+ "eventId": "401914257",
+ "date": "2026-09-15T19:00:00Z",
+ "opponent": {
+  "name": "Tottenham Hotspur",
+  "abbr": "TOT"
+ },
+ "ht": {
+  "us": {
+   "shots": 5,
+   "onTarget": 1,
+   "offTarget": 2,
+   "blocked": 2,
+   "corners": 3,
+   "fouls": 14,
+   "offsides": 0,
+   "yellow": 2,
+   "red": 0
+  },
+  "opp": {
+   "shots": 6,
+   "onTarget": 1,
+   "offTarget": 2,
+   "blocked": 3,
+   "corners": 2,
+   "fouls": 17,
+   "offsides": 3,
+   "yellow": 2,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 9,
+   "onTarget": 2,
+   "offTarget": 2,
+   "blocked": 5,
+   "corners": 5,
+   "fouls": 28,
+   "offsides": 1,
+   "yellow": 3,
+   "red": 0,
+   "possession": "43.6",
+   "passesAccurate": "305",
+   "passes": "370",
+   "passAcc": "0.8",
+   "crossesAccurate": "3",
+   "crosses": "14",
+   "tacklesWon": "17",
+   "tackles": "23",
+   "interceptions": "14",
+   "clearances": "31"
+  },
+  "opp": {
+   "shots": 16,
+   "onTarget": 5,
+   "offTarget": 5,
+   "blocked": 6,
+   "corners": 9,
+   "fouls": 21,
+   "offsides": 3,
+   "yellow": 2,
+   "red": 0,
+   "possession": "56.4",
+   "passesAccurate": "413",
+   "passes": "476",
+   "passAcc": "0.9",
+   "crossesAccurate": "3",
+   "crosses": "20",
+   "tacklesWon": "12",
+   "tackles": "19",
+   "interceptions": "7",
+   "clearances": "16"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

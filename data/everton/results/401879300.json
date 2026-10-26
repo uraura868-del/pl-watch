@@ -1,0 +1,31 @@
+{
+ "eventId": "401879300",
+ "date": "2026-08-22T14:00:00Z",
+ "opponent": {
+  "name": "Crystal Palace",
+  "abbr": "CRY"
+ },
+ "isHome": true,
+ "score": {
+  "us": 2,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Kiernan Dewsbury-Hall",
+   "assist": "Harrison Armstrong",
+   "minute": "42'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Thierno Barry",
+   "assist": "Iliman Ndiaye",
+   "minute": "53'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

@@ -1,0 +1,78 @@
+{
+ "eventId": "401915575",
+ "date": "2026-10-15T16:45:00Z",
+ "opponent": {
+  "name": "Torreense",
+  "abbr": "TOR"
+ },
+ "ht": {
+  "us": {
+   "shots": 3,
+   "onTarget": 0,
+   "offTarget": 1,
+   "blocked": 2,
+   "corners": 3,
+   "fouls": 20,
+   "offsides": 1,
+   "yellow": 1,
+   "red": 0
+  },
+  "opp": {
+   "shots": 0,
+   "onTarget": 0,
+   "offTarget": 0,
+   "blocked": 0,
+   "corners": 1,
+   "fouls": 14,
+   "offsides": 2,
+   "yellow": 1,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 20,
+   "onTarget": 3,
+   "offTarget": 11,
+   "blocked": 6,
+   "corners": 9,
+   "fouls": 31,
+   "offsides": 1,
+   "yellow": 3,
+   "red": 0,
+   "possession": "60.9",
+   "passesAccurate": "362",
+   "passes": "425",
+   "passAcc": "0.9",
+   "crossesAccurate": "11",
+   "crosses": "39",
+   "tacklesWon": "6",
+   "tackles": "9",
+   "interceptions": "7",
+   "clearances": "12"
+  },
+  "opp": {
+   "shots": 2,
+   "onTarget": 0,
+   "offTarget": 1,
+   "blocked": 1,
+   "corners": 2,
+   "fouls": 22,
+   "offsides": 2,
+   "yellow": 1,
+   "red": 0,
+   "possession": "39.1",
+   "passesAccurate": "212",
+   "passes": "291",
+   "passAcc": "0.7",
+   "crossesAccurate": "2",
+   "crosses": "7",
+   "tacklesWon": "6",
+   "tackles": "11",
+   "interceptions": "4",
+   "clearances": "43"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

@@ -1,0 +1,52 @@
+{
+ "eventId": "401915426",
+ "date": "2026-09-08T16:45:00Z",
+ "opponent": {
+  "name": "Club Brugge",
+  "abbr": "BRU"
+ },
+ "isHome": false,
+ "score": {
+  "us": 3,
+  "opp": 2
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "John McGinn",
+   "assist": "Pau Torres",
+   "minute": "11'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Hugo Vetlesen",
+   "assist": "Jan Virgili",
+   "minute": "19'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Emiliano Buendía",
+   "assist": "João Gomes",
+   "minute": "22'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Nicolas Jackson",
+   "assist": "Pau Torres",
+   "minute": "43'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Nicolo Tresoldi",
+   "assist": null,
+   "minute": "61'",
+   "kind": "pen"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

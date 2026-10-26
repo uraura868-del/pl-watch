@@ -1,0 +1,61 @@
+{
+ "updatedAt": "2026-10-26T12:16:14Z",
+ "fetchedOk": true,
+ "players": [
+  {
+   "name": "Eliot Matazo",
+   "reason": "Cruciate ligament tear",
+   "reasonJa": "十字靭帯損傷",
+   "type": "負傷",
+   "since": "2026-04-25",
+   "until": "2027-02-19",
+   "firstSeen": "2026-10-26",
+   "lastSeen": "2026-10-26",
+   "active": true
+  },
+  {
+   "name": "Charlie Hughes",
+   "reason": "Inguinal hernia",
+   "reasonJa": "Inguinal hernia",
+   "type": "負傷",
+   "since": "2026-05-24",
+   "until": null,
+   "firstSeen": "2026-10-26",
+   "lastSeen": "2026-10-26",
+   "active": true
+  },
+  {
+   "name": "Darko Gyabi",
+   "reason": "Groin injury",
+   "reasonJa": "鼠径部の負傷",
+   "type": "負傷",
+   "since": "2026-08-01",
+   "until": "2026-11-20",
+   "firstSeen": "2026-10-26",
+   "lastSeen": "2026-10-26",
+   "active": true
+  },
+  {
+   "name": "Jack Butland",
+   "reason": "Elbow injury",
+   "reasonJa": "Elbow injury",
+   "type": "負傷",
+   "since": "2026-08-10",
+   "until": "2026-12-04",
+   "firstSeen": "2026-10-26",
+   "lastSeen": "2026-10-26",
+   "active": true
+  },
+  {
+   "name": "Lucas Gourna-Douath",
+   "reason": "Calf injury",
+   "reasonJa": "ふくらはぎの負傷",
+   "type": "負傷",
+   "since": "2026-10-09",
+   "until": null,
+   "firstSeen": "2026-10-26",
+   "lastSeen": "2026-10-26",
+   "active": true
+  }
+ ]
+}

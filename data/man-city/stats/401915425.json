@@ -1,0 +1,78 @@
+{
+ "eventId": "401915425",
+ "date": "2026-09-08T19:00:00Z",
+ "opponent": {
+  "name": "FC Porto",
+  "abbr": "FCP"
+ },
+ "ht": {
+  "us": {
+   "shots": 6,
+   "onTarget": 5,
+   "offTarget": 1,
+   "blocked": 0,
+   "corners": 1,
+   "fouls": 20,
+   "offsides": 0,
+   "yellow": 1,
+   "red": 0
+  },
+  "opp": {
+   "shots": 0,
+   "onTarget": 0,
+   "offTarget": 0,
+   "blocked": 0,
+   "corners": 0,
+   "fouls": 14,
+   "offsides": 4,
+   "yellow": 0,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 18,
+   "onTarget": 8,
+   "offTarget": 6,
+   "blocked": 4,
+   "corners": 5,
+   "fouls": 34,
+   "offsides": 1,
+   "yellow": 3,
+   "red": 0,
+   "possession": "64.5",
+   "passesAccurate": "589",
+   "passes": "639",
+   "passAcc": "0.9",
+   "crossesAccurate": "6",
+   "crosses": "18",
+   "tacklesWon": "9",
+   "tackles": "18",
+   "interceptions": "8",
+   "clearances": "11"
+  },
+  "opp": {
+   "shots": 5,
+   "onTarget": 0,
+   "offTarget": 4,
+   "blocked": 1,
+   "corners": 2,
+   "fouls": 20,
+   "offsides": 7,
+   "yellow": 1,
+   "red": 0,
+   "possession": "35.5",
+   "passesAccurate": "286",
+   "passes": "353",
+   "passAcc": "0.8",
+   "crossesAccurate": "2",
+   "crosses": "6",
+   "tacklesWon": "13",
+   "tackles": "19",
+   "interceptions": "2",
+   "clearances": "16"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

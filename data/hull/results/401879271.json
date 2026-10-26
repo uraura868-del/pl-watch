@@ -1,0 +1,38 @@
+{
+ "eventId": "401879271",
+ "date": "2026-09-19T14:00:00Z",
+ "opponent": {
+  "name": "Newcastle United",
+  "abbr": "NEW"
+ },
+ "isHome": false,
+ "score": {
+  "us": 1,
+  "opp": 2
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Joe Willock",
+   "assist": "Harvey Barnes",
+   "minute": "3'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Lewis Hall",
+   "assist": "Harvey Barnes",
+   "minute": "7'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Mohamed-Ali Cho",
+   "assist": "Mohamed Belloumi",
+   "minute": "67'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

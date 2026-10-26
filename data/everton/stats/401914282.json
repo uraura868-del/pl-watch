@@ -1,0 +1,78 @@
+{
+ "eventId": "401914282",
+ "date": "2026-09-16T18:45:00Z",
+ "opponent": {
+  "name": "Wolverhampton Wanderers",
+  "abbr": "WOL"
+ },
+ "ht": {
+  "us": {
+   "shots": 8,
+   "onTarget": 3,
+   "offTarget": 2,
+   "blocked": 3,
+   "corners": 4,
+   "fouls": 16,
+   "offsides": 2,
+   "yellow": 1,
+   "red": 0
+  },
+  "opp": {
+   "shots": 2,
+   "onTarget": 0,
+   "offTarget": 2,
+   "blocked": 0,
+   "corners": 0,
+   "fouls": 10,
+   "offsides": 0,
+   "yellow": 1,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 15,
+   "onTarget": 5,
+   "offTarget": 5,
+   "blocked": 5,
+   "corners": 6,
+   "fouls": 26,
+   "offsides": 2,
+   "yellow": 1,
+   "red": 0,
+   "possession": "62.4",
+   "passesAccurate": "572",
+   "passes": "632",
+   "passAcc": "0.9",
+   "crossesAccurate": "2",
+   "crosses": "14",
+   "tacklesWon": "6",
+   "tackles": "11",
+   "interceptions": "6",
+   "clearances": "19"
+  },
+  "opp": {
+   "shots": 6,
+   "onTarget": 2,
+   "offTarget": 4,
+   "blocked": 0,
+   "corners": 2,
+   "fouls": 23,
+   "offsides": 1,
+   "yellow": 2,
+   "red": 0,
+   "possession": "37.6",
+   "passesAccurate": "315",
+   "passes": "377",
+   "passAcc": "0.8",
+   "crossesAccurate": "3",
+   "crosses": "12",
+   "tacklesWon": "5",
+   "tackles": "13",
+   "interceptions": "12",
+   "clearances": "23"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

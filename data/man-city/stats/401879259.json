@@ -1,0 +1,78 @@
+{
+ "eventId": "401879259",
+ "date": "2026-10-17T14:00:00Z",
+ "opponent": {
+  "name": "Ipswich Town",
+  "abbr": "IPS"
+ },
+ "ht": {
+  "us": {
+   "shots": 8,
+   "onTarget": 2,
+   "offTarget": 2,
+   "blocked": 4,
+   "corners": 1,
+   "fouls": 8,
+   "offsides": 0,
+   "yellow": 0,
+   "red": 0
+  },
+  "opp": {
+   "shots": 1,
+   "onTarget": 0,
+   "offTarget": 1,
+   "blocked": 0,
+   "corners": 0,
+   "fouls": 13,
+   "offsides": 2,
+   "yellow": 0,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 15,
+   "onTarget": 3,
+   "offTarget": 6,
+   "blocked": 6,
+   "corners": 2,
+   "fouls": 16,
+   "offsides": 2,
+   "yellow": 1,
+   "red": 0,
+   "possession": "69.8",
+   "passesAccurate": "674",
+   "passes": "745",
+   "passAcc": "0.9",
+   "crossesAccurate": "6",
+   "crosses": "18",
+   "tacklesWon": "10",
+   "tackles": "16",
+   "interceptions": "5",
+   "clearances": "12"
+  },
+  "opp": {
+   "shots": 6,
+   "onTarget": 1,
+   "offTarget": 5,
+   "blocked": 0,
+   "corners": 3,
+   "fouls": 29,
+   "offsides": 5,
+   "yellow": 2,
+   "red": 0,
+   "possession": "30.2",
+   "passesAccurate": "253",
+   "passes": "313",
+   "passAcc": "0.8",
+   "crossesAccurate": "5",
+   "crosses": "15",
+   "tacklesWon": "11",
+   "tackles": "28",
+   "interceptions": "12",
+   "clearances": "25"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

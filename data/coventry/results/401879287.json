@@ -1,0 +1,24 @@
+{
+ "eventId": "401879287",
+ "date": "2026-09-05T14:00:00Z",
+ "opponent": {
+  "name": "Manchester City",
+  "abbr": "MNC"
+ },
+ "isHome": false,
+ "score": {
+  "us": 0,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Erling Haaland",
+   "assist": "Antoine Semenyo",
+   "minute": "26'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

@@ -1,0 +1,38 @@
+{
+ "eventId": "401879321",
+ "date": "2026-08-22T16:30:00Z",
+ "opponent": {
+  "name": "Tottenham Hotspur",
+  "abbr": "TOT"
+ },
+ "isHome": true,
+ "score": {
+  "us": 3,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Keane Lewis-Potter",
+   "assist": "Mamadou Sangare",
+   "minute": "12'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Vitaly Janelt",
+   "assist": null,
+   "minute": "33'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Michael Kayode",
+   "assist": null,
+   "minute": "49'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

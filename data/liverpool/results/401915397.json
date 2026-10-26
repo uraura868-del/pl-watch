@@ -1,0 +1,66 @@
+{
+ "eventId": "401915397",
+ "date": "2026-10-20T19:00:00Z",
+ "opponent": {
+  "name": "Villarreal",
+  "abbr": "VIL"
+ },
+ "isHome": true,
+ "score": {
+  "us": 4,
+  "opp": 3
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Georges Mikautadze",
+   "assist": null,
+   "minute": "4'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Sergi Cardona",
+   "assist": "Nathan Saliba",
+   "minute": "29'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Alexis Mac Allister",
+   "assist": "Kostas Tsimikas",
+   "minute": "36'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Ronald Araujo",
+   "assist": "Rio Ngumoha",
+   "minute": "45'+2'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Alexis Mac Allister",
+   "assist": "Rio Ngumoha",
+   "minute": "65'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Florian Wirtz",
+   "assist": "Cody Gakpo",
+   "minute": "68'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Tani Oluwaseyi",
+   "assist": "Ayoze Pérez",
+   "minute": "87'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

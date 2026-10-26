@@ -1,0 +1,50 @@
+{
+ "updatedAt": "2026-10-26T12:16:14Z",
+ "fetchedOk": true,
+ "players": [
+  {
+   "name": "Tino Livramento",
+   "reason": "Knee injury",
+   "reasonJa": "膝の負傷",
+   "type": "負傷",
+   "since": "2026-06-16",
+   "until": null,
+   "firstSeen": "2026-10-26",
+   "lastSeen": "2026-10-26",
+   "active": true
+  },
+  {
+   "name": "Joelinton",
+   "reason": "unknown injury",
+   "reasonJa": "負傷（詳細不明）",
+   "type": "負傷",
+   "since": "2026-08-16",
+   "until": null,
+   "firstSeen": "2026-10-26",
+   "lastSeen": "2026-10-26",
+   "active": true
+  },
+  {
+   "name": "Dan Burn",
+   "reason": "Ankle injury",
+   "reasonJa": "足首の負傷",
+   "type": "負傷",
+   "since": "2026-08-22",
+   "until": null,
+   "firstSeen": "2026-10-26",
+   "lastSeen": "2026-10-26",
+   "active": true
+  },
+  {
+   "name": "William Osula",
+   "reason": "Foot injury",
+   "reasonJa": "足の負傷",
+   "type": "負傷",
+   "since": "2026-08-23",
+   "until": null,
+   "firstSeen": "2026-10-26",
+   "lastSeen": "2026-10-26",
+   "active": true
+  }
+ ]
+}

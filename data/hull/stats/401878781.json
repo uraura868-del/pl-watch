@@ -1,0 +1,78 @@
+{
+ "eventId": "401878781",
+ "date": "2026-09-05T16:30:00Z",
+ "opponent": {
+  "name": "Aston Villa",
+  "abbr": "AVL"
+ },
+ "ht": {
+  "us": {
+   "shots": 5,
+   "onTarget": 3,
+   "offTarget": 2,
+   "blocked": 0,
+   "corners": 2,
+   "fouls": 8,
+   "offsides": 1,
+   "yellow": 1,
+   "red": 0
+  },
+  "opp": {
+   "shots": 7,
+   "onTarget": 1,
+   "offTarget": 4,
+   "blocked": 2,
+   "corners": 3,
+   "fouls": 6,
+   "offsides": 1,
+   "yellow": 0,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 10,
+   "onTarget": 4,
+   "offTarget": 6,
+   "blocked": 0,
+   "corners": 3,
+   "fouls": 19,
+   "offsides": 2,
+   "yellow": 2,
+   "red": 0,
+   "possession": "26.5",
+   "passesAccurate": "167",
+   "passes": "229",
+   "passAcc": "0.7",
+   "crossesAccurate": "2",
+   "crosses": "21",
+   "tacklesWon": "7",
+   "tackles": "17",
+   "interceptions": "16",
+   "clearances": "16"
+  },
+  "opp": {
+   "shots": 13,
+   "onTarget": 1,
+   "offTarget": 7,
+   "blocked": 5,
+   "corners": 4,
+   "fouls": 8,
+   "offsides": 2,
+   "yellow": 0,
+   "red": 0,
+   "possession": "73.5",
+   "passesAccurate": "613",
+   "passes": "683",
+   "passAcc": "0.9",
+   "crossesAccurate": "1",
+   "crosses": "12",
+   "tacklesWon": "3",
+   "tackles": "7",
+   "interceptions": "4",
+   "clearances": "18"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

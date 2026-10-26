@@ -1,0 +1,31 @@
+{
+ "eventId": "401908138",
+ "date": "2026-08-25T19:00:00Z",
+ "opponent": {
+  "name": "Leeds United",
+  "abbr": "LEE"
+ },
+ "isHome": true,
+ "score": {
+  "us": 0,
+  "opp": 2
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Daniel James",
+   "assist": "Sean Longstaff",
+   "minute": "50'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "James Justin",
+   "assist": null,
+   "minute": "75'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

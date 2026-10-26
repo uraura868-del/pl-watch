@@ -1,0 +1,45 @@
+{
+ "eventId": "401915853",
+ "date": "2026-10-15T19:00:00Z",
+ "opponent": {
+  "name": "Kauno Zalgiris",
+  "abbr": "ZAL"
+ },
+ "isHome": true,
+ "score": {
+  "us": 4,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Georginio Rutter",
+   "assist": "Ibrahim Osman",
+   "minute": "41'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Jack Hinshelwood",
+   "assist": "Georginio Rutter",
+   "minute": "45'+2'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Georginio Rutter",
+   "assist": "Ibrahim Osman",
+   "minute": "53'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Matt O'Riley",
+   "assist": "Younes Ibrahim",
+   "minute": "67'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

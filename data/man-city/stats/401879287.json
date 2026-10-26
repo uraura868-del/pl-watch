@@ -1,0 +1,78 @@
+{
+ "eventId": "401879287",
+ "date": "2026-09-05T14:00:00Z",
+ "opponent": {
+  "name": "Coventry City",
+  "abbr": "COV"
+ },
+ "ht": {
+  "us": {
+   "shots": 7,
+   "onTarget": 2,
+   "offTarget": 0,
+   "blocked": 5,
+   "corners": 4,
+   "fouls": 2,
+   "offsides": 3,
+   "yellow": 0,
+   "red": 0
+  },
+  "opp": {
+   "shots": 4,
+   "onTarget": 1,
+   "offTarget": 2,
+   "blocked": 1,
+   "corners": 2,
+   "fouls": 16,
+   "offsides": 0,
+   "yellow": 1,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 13,
+   "onTarget": 2,
+   "offTarget": 4,
+   "blocked": 7,
+   "corners": 4,
+   "fouls": 14,
+   "offsides": 5,
+   "yellow": 1,
+   "red": 0,
+   "possession": "77.6",
+   "passesAccurate": "736",
+   "passes": "803",
+   "passAcc": "0.9",
+   "crossesAccurate": "5",
+   "crosses": "19",
+   "tacklesWon": "6",
+   "tackles": "13",
+   "interceptions": "5",
+   "clearances": "26"
+  },
+  "opp": {
+   "shots": 12,
+   "onTarget": 3,
+   "offTarget": 6,
+   "blocked": 3,
+   "corners": 5,
+   "fouls": 34,
+   "offsides": 2,
+   "yellow": 2,
+   "red": 0,
+   "possession": "22.4",
+   "passesAccurate": "139",
+   "passes": "217",
+   "passAcc": "0.6",
+   "crossesAccurate": "5",
+   "crosses": "15",
+   "tacklesWon": "10",
+   "tackles": "16",
+   "interceptions": "19",
+   "clearances": "25"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

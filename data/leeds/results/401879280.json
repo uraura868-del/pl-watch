@@ -1,0 +1,52 @@
+{
+ "eventId": "401879280",
+ "date": "2026-09-14T19:00:00Z",
+ "opponent": {
+  "name": "Newcastle United",
+  "abbr": "NEW"
+ },
+ "isHome": true,
+ "score": {
+  "us": 4,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Lewis Miley",
+   "assist": null,
+   "minute": "32'",
+   "kind": "og"
+  },
+  {
+   "side": "us",
+   "scorer": "Jayden Bogle",
+   "assist": "Dominic Calvert-Lewin",
+   "minute": "34'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Dominic Calvert-Lewin",
+   "assist": "Tarik Muharemovic",
+   "minute": "45'+1'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Noah Okafor",
+   "assist": null,
+   "minute": "59'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Bazoumana Touré",
+   "assist": null,
+   "minute": "90'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

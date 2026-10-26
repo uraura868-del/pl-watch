@@ -1,0 +1,45 @@
+{
+ "eventId": "401879286",
+ "date": "2026-09-05T11:30:00Z",
+ "opponent": {
+  "name": "Newcastle United",
+  "abbr": "NEW"
+ },
+ "isHome": false,
+ "score": {
+  "us": 2,
+  "opp": 2
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Marcus Tavernier",
+   "assist": null,
+   "minute": "9'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Malick Thiaw",
+   "assist": null,
+   "minute": "35'",
+   "kind": "og"
+  },
+  {
+   "side": "opp",
+   "scorer": "Harvey Barnes",
+   "assist": "Lewis Hall",
+   "minute": "37'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Jacob Ramsey",
+   "assist": null,
+   "minute": "88'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

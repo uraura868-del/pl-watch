@@ -1,0 +1,78 @@
+{
+ "eventId": "401915409",
+ "date": "2026-10-14T19:00:00Z",
+ "opponent": {
+  "name": "Fenerbahce",
+  "abbr": "FEN"
+ },
+ "ht": {
+  "us": {
+   "shots": 9,
+   "onTarget": 3,
+   "offTarget": 4,
+   "blocked": 2,
+   "corners": 6,
+   "fouls": 10,
+   "offsides": 1,
+   "yellow": 0,
+   "red": 0
+  },
+  "opp": {
+   "shots": 6,
+   "onTarget": 3,
+   "offTarget": 1,
+   "blocked": 2,
+   "corners": 3,
+   "fouls": 4,
+   "offsides": 2,
+   "yellow": 1,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 14,
+   "onTarget": 5,
+   "offTarget": 5,
+   "blocked": 4,
+   "corners": 9,
+   "fouls": 22,
+   "offsides": 1,
+   "yellow": 0,
+   "red": 0,
+   "possession": "44.8",
+   "passesAccurate": "350",
+   "passes": "389",
+   "passAcc": "0.9",
+   "crossesAccurate": "5",
+   "crosses": "14",
+   "tacklesWon": "10",
+   "tackles": "17",
+   "interceptions": "8",
+   "clearances": "28"
+  },
+  "opp": {
+   "shots": 14,
+   "onTarget": 4,
+   "offTarget": 4,
+   "blocked": 6,
+   "corners": 7,
+   "fouls": 12,
+   "offsides": 3,
+   "yellow": 2,
+   "red": 0,
+   "possession": "55.2",
+   "passesAccurate": "424",
+   "passes": "470",
+   "passAcc": "0.9",
+   "crossesAccurate": "5",
+   "crosses": "27",
+   "tacklesWon": "10",
+   "tackles": "12",
+   "interceptions": "12",
+   "clearances": "9"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

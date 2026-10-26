@@ -1,0 +1,37 @@
+{
+ "eventId": "401879263",
+ "date": "2026-10-18T13:00:00Z",
+ "opponent": {
+  "name": "AFC Bournemouth",
+  "abbr": "BOU"
+ },
+ "isHome": false,
+ "score": {
+  "us": 0,
+  "opp": 2
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Marcus Tavernier",
+   "assist": "Evanilson",
+   "minute": "6'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Evanilson",
+   "assist": null,
+   "minute": "48'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [
+  {
+   "side": "us",
+   "name": "Kevin Danso",
+   "minute": "17'"
+  }
+ ],
+ "source": "ESPN"
+}

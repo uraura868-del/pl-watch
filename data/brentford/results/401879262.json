@@ -1,0 +1,49 @@
+{
+ "eventId": "401879262",
+ "date": "2026-10-17T14:00:00Z",
+ "opponent": {
+  "name": "Liverpool",
+  "abbr": "LIV"
+ },
+ "isHome": true,
+ "score": {
+  "us": 1,
+  "opp": 2
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Keane Lewis-Potter",
+   "assist": "Igor Thiago",
+   "minute": "44'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Víctor Muñoz",
+   "assist": "Florian Wirtz",
+   "minute": "62'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Alexander Isak",
+   "assist": "Bradley Barcola",
+   "minute": "70'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [
+  {
+   "side": "us",
+   "name": "Yehor Yarmoliuk",
+   "minute": "45'+8'"
+  },
+  {
+   "side": "us",
+   "name": "Vitaly Janelt",
+   "minute": "90'+2'"
+  }
+ ],
+ "source": "ESPN"
+}

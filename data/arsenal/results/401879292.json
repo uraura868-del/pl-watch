@@ -1,0 +1,38 @@
+{
+ "eventId": "401879292",
+ "date": "2026-09-06T15:30:00Z",
+ "opponent": {
+  "name": "Chelsea",
+  "abbr": "CHE"
+ },
+ "isHome": true,
+ "score": {
+  "us": 2,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Morgan Rogers",
+   "assist": "Jorrel Hato",
+   "minute": "2'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Kai Havertz",
+   "assist": "Declan Rice",
+   "minute": "25'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Martin Ødegaard",
+   "assist": "Christos Tzolis",
+   "minute": "50'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

@@ -1,0 +1,31 @@
+{
+ "eventId": "401878768",
+ "date": "2026-10-24T14:00:00Z",
+ "opponent": {
+  "name": "Arsenal",
+  "abbr": "ARS"
+ },
+ "isHome": false,
+ "score": {
+  "us": 0,
+  "opp": 2
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Ezri Konsa",
+   "assist": "Viktor Gyökeres",
+   "minute": "7'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Gabriel Magalhães",
+   "assist": "Ben White",
+   "minute": "68'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

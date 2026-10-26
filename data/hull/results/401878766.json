@@ -1,0 +1,31 @@
+{
+ "eventId": "401878766",
+ "date": "2026-10-25T14:00:00Z",
+ "opponent": {
+  "name": "Brentford",
+  "abbr": "BRE"
+ },
+ "isHome": true,
+ "score": {
+  "us": 1,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Oliver McBurnie",
+   "assist": null,
+   "minute": "24'",
+   "kind": "pen"
+  },
+  {
+   "side": "opp",
+   "scorer": "Dango Ouattara",
+   "assist": "Igor Thiago",
+   "minute": "63'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

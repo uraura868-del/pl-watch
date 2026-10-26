@@ -1,0 +1,52 @@
+{
+ "eventId": "401879267",
+ "date": "2026-10-12T19:00:00Z",
+ "opponent": {
+  "name": "Coventry City",
+  "abbr": "COV"
+ },
+ "isHome": false,
+ "score": {
+  "us": 1,
+  "opp": 4
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Jack Rudoni",
+   "assist": null,
+   "minute": "6'",
+   "kind": "pen"
+  },
+  {
+   "side": "opp",
+   "scorer": "Sidiki Cherif",
+   "assist": null,
+   "minute": "48'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Sven Botman",
+   "assist": "Nico González",
+   "minute": "70'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Ellis Simms",
+   "assist": "Brandon Thomas-Asante",
+   "minute": "81'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Stephen Mfuni",
+   "assist": "Jay Da Silva",
+   "minute": "86'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

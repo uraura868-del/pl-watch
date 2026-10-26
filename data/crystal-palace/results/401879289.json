@@ -1,0 +1,52 @@
+{
+ "eventId": "401879289",
+ "date": "2026-09-05T14:00:00Z",
+ "opponent": {
+  "name": "Fulham",
+  "abbr": "FUL"
+ },
+ "isHome": false,
+ "score": {
+  "us": 3,
+  "opp": 2
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Josh King",
+   "assist": null,
+   "minute": "11'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Tyrick Mitchell",
+   "assist": "Eddie Nketiah",
+   "minute": "35'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "César Palacios",
+   "assist": null,
+   "minute": "42'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Tyrick Mitchell",
+   "assist": null,
+   "minute": "54'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Ben Chilwell",
+   "assist": "Daichi Kamada",
+   "minute": "77'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

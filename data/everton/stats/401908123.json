@@ -1,0 +1,78 @@
+{
+ "eventId": "401908123",
+ "date": "2026-08-26T19:00:00Z",
+ "opponent": {
+  "name": "Preston North End",
+  "abbr": "PNE"
+ },
+ "ht": {
+  "us": {
+   "shots": 14,
+   "onTarget": 4,
+   "offTarget": 2,
+   "blocked": 8,
+   "corners": 3,
+   "fouls": 4,
+   "offsides": 1,
+   "yellow": 0,
+   "red": 0
+  },
+  "opp": {
+   "shots": 2,
+   "onTarget": 0,
+   "offTarget": 1,
+   "blocked": 1,
+   "corners": 0,
+   "fouls": 2,
+   "offsides": 1,
+   "yellow": 0,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 25,
+   "onTarget": 6,
+   "offTarget": 9,
+   "blocked": 10,
+   "corners": 5,
+   "fouls": 10,
+   "offsides": 4,
+   "yellow": 0,
+   "red": 0,
+   "possession": "67.6",
+   "passesAccurate": "609",
+   "passes": "657",
+   "passAcc": "0.9",
+   "crossesAccurate": "4",
+   "crosses": "17",
+   "tacklesWon": "12",
+   "tackles": "16",
+   "interceptions": "11",
+   "clearances": "14"
+  },
+  "opp": {
+   "shots": 5,
+   "onTarget": 1,
+   "offTarget": 1,
+   "blocked": 3,
+   "corners": 3,
+   "fouls": 6,
+   "offsides": 1,
+   "yellow": 0,
+   "red": 0,
+   "possession": "32.4",
+   "passesAccurate": "228",
+   "passes": "308",
+   "passAcc": "0.7",
+   "crossesAccurate": "1",
+   "crosses": "11",
+   "tacklesWon": "21",
+   "tackles": "26",
+   "interceptions": "6",
+   "clearances": "22"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

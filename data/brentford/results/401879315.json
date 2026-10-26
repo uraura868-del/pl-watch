@@ -1,0 +1,31 @@
+{
+ "eventId": "401879315",
+ "date": "2026-08-30T13:00:00Z",
+ "opponent": {
+  "name": "Leeds United",
+  "abbr": "LEE"
+ },
+ "isHome": false,
+ "score": {
+  "us": 1,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Kevin Schade",
+   "assist": "Keane Lewis-Potter",
+   "minute": "41'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Dominic Calvert-Lewin",
+   "assist": "Lukas Nmecha",
+   "minute": "79'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

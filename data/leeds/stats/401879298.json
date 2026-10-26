@@ -1,0 +1,78 @@
+{
+ "eventId": "401879298",
+ "date": "2026-08-22T14:00:00Z",
+ "opponent": {
+  "name": "Nottingham Forest",
+  "abbr": "NFO"
+ },
+ "ht": {
+  "us": {
+   "shots": 4,
+   "onTarget": 0,
+   "offTarget": 0,
+   "blocked": 4,
+   "corners": 1,
+   "fouls": 10,
+   "offsides": 2,
+   "yellow": 1,
+   "red": 0
+  },
+  "opp": {
+   "shots": 4,
+   "onTarget": 2,
+   "offTarget": 2,
+   "blocked": 0,
+   "corners": 1,
+   "fouls": 18,
+   "offsides": 1,
+   "yellow": 1,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 10,
+   "onTarget": 2,
+   "offTarget": 2,
+   "blocked": 6,
+   "corners": 2,
+   "fouls": 27,
+   "offsides": 3,
+   "yellow": 1,
+   "red": 0,
+   "possession": "44.8",
+   "passesAccurate": "231",
+   "passes": "325",
+   "passAcc": "0.7",
+   "crossesAccurate": "3",
+   "crosses": "8",
+   "tacklesWon": "12",
+   "tackles": "19",
+   "interceptions": "15",
+   "clearances": "30"
+  },
+  "opp": {
+   "shots": 11,
+   "onTarget": 2,
+   "offTarget": 7,
+   "blocked": 2,
+   "corners": 3,
+   "fouls": 30,
+   "offsides": 3,
+   "yellow": 2,
+   "red": 0,
+   "possession": "55.2",
+   "passesAccurate": "307",
+   "passes": "392",
+   "passAcc": "0.8",
+   "crossesAccurate": "4",
+   "crosses": "20",
+   "tacklesWon": "5",
+   "tackles": "9",
+   "interceptions": "2",
+   "clearances": "31"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

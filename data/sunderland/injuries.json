@@ -1,0 +1,28 @@
+{
+ "updatedAt": "2026-10-26T12:16:14Z",
+ "fetchedOk": true,
+ "players": [
+  {
+   "name": "Brian Brobbey",
+   "reason": "Hamstring injury",
+   "reasonJa": "ハムストリング負傷",
+   "type": "負傷",
+   "since": "2026-09-25",
+   "until": null,
+   "firstSeen": "2026-10-26",
+   "lastSeen": "2026-10-26",
+   "active": true
+  },
+  {
+   "name": "Dan Ballard",
+   "reason": "Hamstring injury",
+   "reasonJa": "ハムストリング負傷",
+   "type": "負傷",
+   "since": "2026-09-25",
+   "until": null,
+   "firstSeen": "2026-10-26",
+   "lastSeen": "2026-10-26",
+   "active": true
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "eventId": "401878771",
+ "date": "2026-10-17T11:30:00Z",
+ "opponent": {
+  "name": "Chelsea",
+  "abbr": "CHE"
+ },
+ "isHome": true,
+ "score": {
+  "us": 0,
+  "opp": 2
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Pedro Neto",
+   "assist": null,
+   "minute": "46'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Pedro Neto",
+   "assist": null,
+   "minute": "90'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

@@ -1,0 +1,38 @@
+{
+ "eventId": "401879284",
+ "date": "2026-09-12T14:00:00Z",
+ "opponent": {
+  "name": "Aston Villa",
+  "abbr": "AVL"
+ },
+ "isHome": false,
+ "score": {
+  "us": 2,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Liam Delap",
+   "assist": "Murillo",
+   "minute": "46'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Alysson",
+   "assist": "John McGinn",
+   "minute": "74'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Igor Jesus",
+   "assist": "Morgan Gibbs-White",
+   "minute": "88'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

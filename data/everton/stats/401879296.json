@@ -1,0 +1,78 @@
+{
+ "eventId": "401879296",
+ "date": "2026-08-29T14:00:00Z",
+ "opponent": {
+  "name": "AFC Bournemouth",
+  "abbr": "BOU"
+ },
+ "ht": {
+  "us": {
+   "shots": 9,
+   "onTarget": 4,
+   "offTarget": 4,
+   "blocked": 1,
+   "corners": 4,
+   "fouls": 8,
+   "offsides": 0,
+   "yellow": 0,
+   "red": 0
+  },
+  "opp": {
+   "shots": 6,
+   "onTarget": 2,
+   "offTarget": 3,
+   "blocked": 1,
+   "corners": 3,
+   "fouls": 12,
+   "offsides": 0,
+   "yellow": 2,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 12,
+   "onTarget": 5,
+   "offTarget": 6,
+   "blocked": 1,
+   "corners": 7,
+   "fouls": 28,
+   "offsides": 1,
+   "yellow": 2,
+   "red": 0,
+   "possession": "41.5",
+   "passesAccurate": "241",
+   "passes": "312",
+   "passAcc": "0.8",
+   "crossesAccurate": "2",
+   "crosses": "20",
+   "tacklesWon": "12",
+   "tackles": "18",
+   "interceptions": "10",
+   "clearances": "32"
+  },
+  "opp": {
+   "shots": 16,
+   "onTarget": 4,
+   "offTarget": 5,
+   "blocked": 7,
+   "corners": 10,
+   "fouls": 20,
+   "offsides": 0,
+   "yellow": 3,
+   "red": 0,
+   "possession": "58.5",
+   "passesAccurate": "366",
+   "passes": "444",
+   "passAcc": "0.8",
+   "crossesAccurate": "6",
+   "crosses": "22",
+   "tacklesWon": "10",
+   "tackles": "18",
+   "interceptions": "9",
+   "clearances": "27"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

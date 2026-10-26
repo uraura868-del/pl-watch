@@ -1,0 +1,24 @@
+{
+ "eventId": "401879270",
+ "date": "2026-09-19T16:30:00Z",
+ "opponent": {
+  "name": "Coventry City",
+  "abbr": "COV"
+ },
+ "isHome": true,
+ "score": {
+  "us": 0,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Jay Da Silva",
+   "assist": "Carl Rushworth",
+   "minute": "55'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

@@ -1,0 +1,157 @@
+{
+ "updatedAt": "2026-10-26T12:16:14Z",
+ "players": {
+  "132233": {
+   "name": "Marco Bizot",
+   "qid": "Q218937",
+   "career": [
+    {
+     "club": "サッカーオランダ代表",
+     "clubEn": "Netherlands national association football team",
+     "start": null,
+     "end": null,
+     "apps": null,
+     "national": true,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png"
+    },
+    {
+     "club": "U-19サッカーオランダ代表",
+     "clubEn": "Netherlands national under-19 football team",
+     "start": "2009",
+     "end": "2010",
+     "apps": 1,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png"
+    },
+    {
+     "club": "アヤックス・アムステルダム",
+     "clubEn": "AFC Ajax",
+     "start": "2011",
+     "end": "2012",
+     "apps": 0,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/139.png"
+    },
+    {
+     "club": "SCカンブール・レーワルデン",
+     "clubEn": "SC Cambuur",
+     "start": "2011",
+     "end": "2012",
+     "apps": 17,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3736.png"
+    },
+    {
+     "club": "U-21サッカーオランダ代表",
+     "clubEn": "Netherlands national under-21 football team",
+     "start": "2011",
+     "end": "2013",
+     "apps": 7,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png"
+    },
+    {
+     "club": "FCフローニンゲン",
+     "clubEn": "FC Groningen",
+     "start": "2012",
+     "end": "2014",
+     "apps": 50,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/145.png"
+    },
+    {
+     "club": "KRCヘンク",
+     "clubEn": "K.R.C. Genk",
+     "start": "2014",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/938.png"
+    }
+   ],
+   "fetchedAt": "2026-10-26T12:16:14Z"
+  },
+  "235319": {
+   "name": "James Wright",
+   "qid": "Q130279495",
+   "career": [],
+   "fetchedAt": "2026-10-26T12:16:14Z"
+  },
+  "265958": {
+   "name": "Zion Suzuki",
+   "qid": "Q67498669",
+   "career": [
+    {
+     "club": "浦和レッドダイヤモンズ",
+     "clubEn": "Urawa Red Diamonds",
+     "start": "2021",
+     "end": "2024",
+     "apps": 8,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3385.png"
+    },
+    {
+     "club": "サッカー日本代表",
+     "clubEn": "Japan men's national football team",
+     "start": "2022",
+     "end": null,
+     "apps": 28,
+     "national": true,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png"
+    },
+    {
+     "club": "シント＝トロイデンVV",
+     "clubEn": "Sint-Truidense V.V.",
+     "start": "2023",
+     "end": "2024",
+     "apps": 32,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/936.png"
+    },
+    {
+     "club": "パルマFC",
+     "clubEn": "Parma Calcio 1913",
+     "start": "2024",
+     "end": "2026",
+     "apps": 57,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png"
+    },
+    {
+     "club": "アストン・ヴィラFC",
+     "clubEn": "Aston Villa F.C.",
+     "start": "2026",
+     "end": null,
+     "apps": 0,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png"
+    }
+   ],
+   "fetchedAt": "2026-10-26T12:16:14Z"
+  }
+ }
+}

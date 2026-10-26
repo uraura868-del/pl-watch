@@ -1,0 +1,38 @@
+{
+ "eventId": "401915575",
+ "date": "2026-10-15T16:45:00Z",
+ "opponent": {
+  "name": "Torreense",
+  "abbr": "TOR"
+ },
+ "isHome": false,
+ "score": {
+  "us": 2,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Volnei Feltes",
+   "assist": "Amine Oudrhiri",
+   "minute": "37'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Jules Ahoka",
+   "assist": "Nordi Mukiele",
+   "minute": "67'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Noah Sadiki",
+   "assist": "Granit Xhaka",
+   "minute": "90'+3'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

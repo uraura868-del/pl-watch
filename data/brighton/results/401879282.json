@@ -1,0 +1,58 @@
+{
+ "eventId": "401879282",
+ "date": "2026-09-13T13:00:00Z",
+ "opponent": {
+  "name": "Coventry City",
+  "abbr": "COV"
+ },
+ "isHome": false,
+ "score": {
+  "us": 5,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Charalambos Kostoulas",
+   "assist": "Pascal Gross",
+   "minute": "35'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Malick Yalcouyé",
+   "assist": "Maxim De Cuyper",
+   "minute": "51'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Pascal Gross",
+   "assist": null,
+   "minute": "70'",
+   "kind": "pen"
+  },
+  {
+   "side": "us",
+   "scorer": "Lewis Dunk",
+   "assist": "Chema Andrés",
+   "minute": "83'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Yasin Ayari",
+   "assist": "Pascal Gross",
+   "minute": "90'+4'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [
+  {
+   "side": "opp",
+   "name": "Taiwo Awoniyi",
+   "minute": "53'"
+  }
+ ],
+ "source": "ESPN"
+}

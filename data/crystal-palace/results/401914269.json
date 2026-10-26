@@ -1,0 +1,38 @@
+{
+ "eventId": "401914269",
+ "date": "2026-09-08T18:45:00Z",
+ "opponent": {
+  "name": "Middlesbrough",
+  "abbr": "MID"
+ },
+ "isHome": true,
+ "score": {
+  "us": 3,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Jørgen Strand Larsen",
+   "assist": "Óscar Mingueza",
+   "minute": "37'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Jørgen Strand Larsen",
+   "assist": "Ben Chilwell",
+   "minute": "53'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Daichi Kamada",
+   "assist": "Jørgen Strand Larsen",
+   "minute": "72'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

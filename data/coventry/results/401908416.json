@@ -1,0 +1,59 @@
+{
+ "eventId": "401908416",
+ "date": "2026-08-25T18:45:00Z",
+ "opponent": {
+  "name": "Plymouth Argyle",
+  "abbr": "PLY"
+ },
+ "isHome": false,
+ "score": {
+  "us": 4,
+  "opp": 2
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Taiwo Awoniyi",
+   "assist": "Caleb Yirenkyi",
+   "minute": "3'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Jack Rudoni",
+   "assist": "Taiwo Awoniyi",
+   "minute": "5'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Oliver Irow",
+   "assist": "Harvey White",
+   "minute": "21'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Xavier Amaechi",
+   "assist": null,
+   "minute": "54'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Ephron Mason-Clark",
+   "assist": "Victor Torp",
+   "minute": "67'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Victor Torp",
+   "assist": null,
+   "minute": "78'",
+   "kind": "pen"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

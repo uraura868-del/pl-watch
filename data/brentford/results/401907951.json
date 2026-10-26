@@ -1,0 +1,66 @@
+{
+ "eventId": "401907951",
+ "date": "2026-08-25T19:00:00Z",
+ "opponent": {
+  "name": "Birmingham City",
+  "abbr": "BIR"
+ },
+ "isHome": false,
+ "score": {
+  "us": 6,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Callum Wilson",
+   "assist": "Yehor Yarmoliuk",
+   "minute": "6'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Demarai Gray",
+   "assist": "Paik Seung-Ho",
+   "minute": "28'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Aaron Hickey",
+   "assist": null,
+   "minute": "35'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Nathan Collins",
+   "assist": "Jaidon Anthony",
+   "minute": "40'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Mikkel Damsgaard",
+   "assist": "Jaidon Anthony",
+   "minute": "70'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Igor Thiago",
+   "assist": "Jaidon Anthony",
+   "minute": "73'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Nathan Collins",
+   "assist": "Mamadou Sangare",
+   "minute": "77'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

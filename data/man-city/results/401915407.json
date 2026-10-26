@@ -1,0 +1,59 @@
+{
+ "eventId": "401915407",
+ "date": "2026-10-14T19:00:00Z",
+ "opponent": {
+  "name": "Paris Saint-Germain",
+  "abbr": "PSG"
+ },
+ "isHome": true,
+ "score": {
+  "us": 2,
+  "opp": 4
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Désiré Doué",
+   "assist": "Fabián Ruiz",
+   "minute": "13'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Ousmane Dembélé",
+   "assist": "Désiré Doué",
+   "minute": "15'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Vitinha",
+   "assist": "Warren Zaïre-Emery",
+   "minute": "32'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Erling Haaland",
+   "assist": "Iliman Ndiaye",
+   "minute": "53'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Maghnes Akliouche",
+   "assist": "Ousmane Dembélé",
+   "minute": "62'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Erling Haaland",
+   "assist": "Ayyoub Bouaddi",
+   "minute": "75'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

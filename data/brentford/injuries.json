@@ -1,0 +1,50 @@
+{
+ "updatedAt": "2026-10-26T12:16:14Z",
+ "fetchedOk": true,
+ "players": [
+  {
+   "name": "Josh Dasilva",
+   "reason": "Hamstring injury",
+   "reasonJa": "ハムストリング負傷",
+   "type": "負傷",
+   "since": "2026-08-31",
+   "until": "2026-10-30",
+   "firstSeen": "2026-10-26",
+   "lastSeen": "2026-10-26",
+   "active": true
+  },
+  {
+   "name": "Kaye Furo",
+   "reason": "Foot surgery",
+   "reasonJa": "足の負傷",
+   "type": "負傷",
+   "since": "2026-09-14",
+   "until": "2026-11-27",
+   "firstSeen": "2026-10-26",
+   "lastSeen": "2026-10-26",
+   "active": true
+  },
+  {
+   "name": "Antoni Milambo",
+   "reason": "Fitness",
+   "reasonJa": "コンディション不良",
+   "type": "負傷",
+   "since": "2026-09-17",
+   "until": null,
+   "firstSeen": "2026-10-26",
+   "lastSeen": "2026-10-26",
+   "active": true
+  },
+  {
+   "name": "Kevin Schade",
+   "reason": "Shoulder injury",
+   "reasonJa": "肩の負傷",
+   "type": "負傷",
+   "since": "2026-10-10",
+   "until": null,
+   "firstSeen": "2026-10-26",
+   "lastSeen": "2026-10-26",
+   "active": true
+  }
+ ]
+}

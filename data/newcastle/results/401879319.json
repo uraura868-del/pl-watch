@@ -1,0 +1,45 @@
+{
+ "eventId": "401879319",
+ "date": "2026-08-23T15:30:00Z",
+ "opponent": {
+  "name": "Liverpool",
+  "abbr": "LIV"
+ },
+ "isHome": true,
+ "score": {
+  "us": 2,
+  "opp": 2
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Anthony Elanga",
+   "assist": "William Osula",
+   "minute": "5'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Cody Gakpo",
+   "assist": "Ryan Gravenberch",
+   "minute": "55'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Joe Willock",
+   "assist": "Yoane Wissa",
+   "minute": "57'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Dominik Szoboszlai",
+   "assist": null,
+   "minute": "90'+9'",
+   "kind": "pen"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

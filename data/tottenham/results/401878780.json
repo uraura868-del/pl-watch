@@ -1,0 +1,16 @@
+{
+ "eventId": "401878780",
+ "date": "2026-09-05T14:00:00Z",
+ "opponent": {
+  "name": "Nottingham Forest",
+  "abbr": "NFO"
+ },
+ "isHome": false,
+ "score": {
+  "us": 0,
+  "opp": 0
+ },
+ "goals": [],
+ "redCards": [],
+ "source": "ESPN"
+}

@@ -1,0 +1,61 @@
+{
+ "updatedAt": "2026-10-26T12:16:14Z",
+ "fetchedOk": true,
+ "players": [
+  {
+   "name": "Jamie Gittens",
+   "reason": "Ankle injury",
+   "reasonJa": "足首の負傷",
+   "type": "負傷",
+   "since": "2026-09-25",
+   "until": "2026-10-30",
+   "firstSeen": "2026-10-26",
+   "lastSeen": "2026-10-26",
+   "active": true
+  },
+  {
+   "name": "Pep Chavarría",
+   "reason": "unknown injury",
+   "reasonJa": "負傷（詳細不明）",
+   "type": "負傷",
+   "since": "2026-10-16",
+   "until": null,
+   "firstSeen": "2026-10-26",
+   "lastSeen": "2026-10-26",
+   "active": true
+  },
+  {
+   "name": "Reece James",
+   "reason": "Knee surgery",
+   "reasonJa": "膝の負傷",
+   "type": "負傷",
+   "since": "2026-10-16",
+   "until": "2027-01-01",
+   "firstSeen": "2026-10-26",
+   "lastSeen": "2026-10-26",
+   "active": true
+  },
+  {
+   "name": "Emiliano Martínez",
+   "reason": "Broken jaw",
+   "reasonJa": "Broken jaw",
+   "type": "負傷",
+   "since": "2026-10-17",
+   "until": null,
+   "firstSeen": "2026-10-26",
+   "lastSeen": "2026-10-26",
+   "active": true
+  },
+  {
+   "name": "Emmanuel Emegha",
+   "reason": "Fitness",
+   "reasonJa": "コンディション不良",
+   "type": "負傷",
+   "since": "2026-10-19",
+   "until": "2026-10-30",
+   "firstSeen": "2026-10-26",
+   "lastSeen": "2026-10-26",
+   "active": true
+  }
+ ]
+}

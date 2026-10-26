@@ -1,0 +1,52 @@
+{
+ "eventId": "401879269",
+ "date": "2026-09-19T11:30:00Z",
+ "opponent": {
+  "name": "Tottenham Hotspur",
+  "abbr": "TOT"
+ },
+ "isHome": false,
+ "score": {
+  "us": 3,
+  "opp": 2
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Johan Manzambi",
+   "assist": "Boubacar Kamara",
+   "minute": "45'+4'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Nicolas Jackson",
+   "assist": "Johan Manzambi",
+   "minute": "67'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Emiliano Buendía",
+   "assist": "John McGinn",
+   "minute": "79'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Conor Gallagher",
+   "assist": "Mohammed Kudus",
+   "minute": "86'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Jan Paul van Hecke",
+   "assist": "Andy Robertson",
+   "minute": "90'+8'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

@@ -1,0 +1,73 @@
+{
+ "eventId": "401879272",
+ "date": "2026-09-20T13:00:00Z",
+ "opponent": {
+  "name": "Sunderland",
+  "abbr": "SUN"
+ },
+ "isHome": true,
+ "score": {
+  "us": 5,
+  "opp": 3
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Enzo Fernández",
+   "assist": null,
+   "minute": "9'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Brian Brobbey",
+   "assist": "Enzo Le Fée",
+   "minute": "12'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Rayan Cherki",
+   "assist": "Antoine Semenyo",
+   "minute": "29'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Brian Brobbey",
+   "assist": "Thomas Meunier",
+   "minute": "33'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Antoine Semenyo",
+   "assist": "Marc Guéhi",
+   "minute": "43'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Antoine Semenyo",
+   "assist": null,
+   "minute": "57'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Brian Brobbey",
+   "assist": "Nilson Angulo",
+   "minute": "59'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Erling Haaland",
+   "assist": "Josko Gvardiol",
+   "minute": "81'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

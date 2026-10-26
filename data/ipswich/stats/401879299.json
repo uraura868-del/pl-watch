@@ -1,0 +1,78 @@
+{
+ "eventId": "401879299",
+ "date": "2026-08-22T14:00:00Z",
+ "opponent": {
+  "name": "Sunderland",
+  "abbr": "SUN"
+ },
+ "ht": {
+  "us": {
+   "shots": 4,
+   "onTarget": 1,
+   "offTarget": 2,
+   "blocked": 1,
+   "corners": 0,
+   "fouls": 14,
+   "offsides": 0,
+   "yellow": 0,
+   "red": 0
+  },
+  "opp": {
+   "shots": 7,
+   "onTarget": 1,
+   "offTarget": 3,
+   "blocked": 3,
+   "corners": 4,
+   "fouls": 9,
+   "offsides": 2,
+   "yellow": 1,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 8,
+   "onTarget": 1,
+   "offTarget": 6,
+   "blocked": 1,
+   "corners": 3,
+   "fouls": 24,
+   "offsides": 1,
+   "yellow": 0,
+   "red": 0,
+   "possession": "37.5",
+   "passesAccurate": "258",
+   "passes": "325",
+   "passAcc": "0.8",
+   "crossesAccurate": "4",
+   "crosses": "14",
+   "tacklesWon": "15",
+   "tackles": "23",
+   "interceptions": "7",
+   "clearances": "33"
+  },
+  "opp": {
+   "shots": 10,
+   "onTarget": 2,
+   "offTarget": 3,
+   "blocked": 5,
+   "corners": 5,
+   "fouls": 27,
+   "offsides": 4,
+   "yellow": 3,
+   "red": 0,
+   "possession": "62.5",
+   "passesAccurate": "484",
+   "passes": "549",
+   "passAcc": "0.9",
+   "crossesAccurate": "4",
+   "crosses": "23",
+   "tacklesWon": "8",
+   "tackles": "16",
+   "interceptions": "9",
+   "clearances": "12"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

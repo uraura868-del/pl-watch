@@ -1,0 +1,45 @@
+{
+ "eventId": "401907954",
+ "date": "2026-08-25T18:45:00Z",
+ "opponent": {
+  "name": "Leicester City",
+  "abbr": "LEI"
+ },
+ "isHome": true,
+ "score": {
+  "us": 3,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Sindre Walle Egeli",
+   "assist": "Jack Clarke",
+   "minute": "62'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Olabade Aluko",
+   "assist": "Bobby De Cordova-Reid",
+   "minute": "67'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Marcelino Núñez",
+   "assist": "Chuba Akpom",
+   "minute": "71'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Marcelino Núñez",
+   "assist": "Cameron Humphreys",
+   "minute": "90'+1'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

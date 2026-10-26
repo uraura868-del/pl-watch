@@ -1,0 +1,16 @@
+{
+ "eventId": "401878764",
+ "date": "2026-10-25T16:30:00Z",
+ "opponent": {
+  "name": "Leeds United",
+  "abbr": "LEE"
+ },
+ "isHome": true,
+ "score": {
+  "us": 0,
+  "opp": 0
+ },
+ "goals": [],
+ "redCards": [],
+ "source": "ESPN"
+}

@@ -1,0 +1,31 @@
+{
+ "eventId": "401879254",
+ "date": "2026-10-25T14:00:00Z",
+ "opponent": {
+  "name": "Crystal Palace",
+  "abbr": "CRY"
+ },
+ "isHome": false,
+ "score": {
+  "us": 2,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "William Osula",
+   "assist": "Jacob Murphy",
+   "minute": "47'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Harvey Barnes",
+   "assist": "Amar Dedic",
+   "minute": "58'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

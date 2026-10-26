@@ -1,0 +1,78 @@
+{
+ "eventId": "401915842",
+ "date": "2026-10-22T16:45:00Z",
+ "opponent": {
+  "name": "Jablonec",
+  "abbr": "JABL"
+ },
+ "ht": {
+  "us": {
+   "shots": 11,
+   "onTarget": 3,
+   "offTarget": 6,
+   "blocked": 2,
+   "corners": 2,
+   "fouls": 14,
+   "offsides": 1,
+   "yellow": 0,
+   "red": 0
+  },
+  "opp": {
+   "shots": 2,
+   "onTarget": 1,
+   "offTarget": 1,
+   "blocked": 0,
+   "corners": 1,
+   "fouls": 6,
+   "offsides": 1,
+   "yellow": 0,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 26,
+   "onTarget": 4,
+   "offTarget": 16,
+   "blocked": 6,
+   "corners": 7,
+   "fouls": 26,
+   "offsides": 3,
+   "yellow": 1,
+   "red": 0,
+   "possession": "72.1",
+   "passesAccurate": "503",
+   "passes": "578",
+   "passAcc": "0.9",
+   "crossesAccurate": "8",
+   "crosses": "41",
+   "tacklesWon": "13",
+   "tackles": "18",
+   "interceptions": "6",
+   "clearances": "11"
+  },
+  "opp": {
+   "shots": 9,
+   "onTarget": 4,
+   "offTarget": 5,
+   "blocked": 0,
+   "corners": 2,
+   "fouls": 10,
+   "offsides": 5,
+   "yellow": 4,
+   "red": 0,
+   "possession": "27.9",
+   "passesAccurate": "143",
+   "passes": "224",
+   "passAcc": "0.6",
+   "crossesAccurate": "5",
+   "crosses": "10",
+   "tacklesWon": "13",
+   "tackles": "18",
+   "interceptions": "5",
+   "clearances": "64"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

@@ -1,0 +1,45 @@
+{
+ "eventId": "401879291",
+ "date": "2026-09-06T13:00:00Z",
+ "opponent": {
+  "name": "Manchester United",
+  "abbr": "MAN"
+ },
+ "isHome": true,
+ "score": {
+  "us": 2,
+  "opp": 2
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Bryan Mbeumo",
+   "assist": "Kobbie Mainoo",
+   "minute": "46'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Tyrique George",
+   "assist": "Hayden Hackney",
+   "minute": "83'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Benjamin Sesko",
+   "assist": "Luke Shaw",
+   "minute": "88'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Ainsley Maitland-Niles",
+   "assist": null,
+   "minute": "90'+6'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

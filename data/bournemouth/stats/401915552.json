@@ -1,0 +1,78 @@
+{
+ "eventId": "401915552",
+ "date": "2026-10-22T19:00:00Z",
+ "opponent": {
+  "name": "AC Milan",
+  "abbr": "MIL"
+ },
+ "ht": {
+  "us": {
+   "shots": 8,
+   "onTarget": 3,
+   "offTarget": 4,
+   "blocked": 1,
+   "corners": 2,
+   "fouls": 20,
+   "offsides": 1,
+   "yellow": 2,
+   "red": 0
+  },
+  "opp": {
+   "shots": 1,
+   "onTarget": 0,
+   "offTarget": 0,
+   "blocked": 1,
+   "corners": 2,
+   "fouls": 14,
+   "offsides": 1,
+   "yellow": 1,
+   "red": 1
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 17,
+   "onTarget": 4,
+   "offTarget": 10,
+   "blocked": 3,
+   "corners": 6,
+   "fouls": 32,
+   "offsides": 2,
+   "yellow": 2,
+   "red": 0,
+   "possession": "64.1",
+   "passesAccurate": "452",
+   "passes": "512",
+   "passAcc": "0.9",
+   "crossesAccurate": "3",
+   "crosses": "19",
+   "tacklesWon": "14",
+   "tackles": "20",
+   "interceptions": "8",
+   "clearances": "12"
+  },
+  "opp": {
+   "shots": 3,
+   "onTarget": 0,
+   "offTarget": 2,
+   "blocked": 1,
+   "corners": 4,
+   "fouls": 28,
+   "offsides": 1,
+   "yellow": 3,
+   "red": 1,
+   "possession": "35.9",
+   "passesAccurate": "226",
+   "passes": "286",
+   "passAcc": "0.8",
+   "crossesAccurate": "1",
+   "crosses": "11",
+   "tacklesWon": "9",
+   "tackles": "16",
+   "interceptions": "8",
+   "clearances": "29"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

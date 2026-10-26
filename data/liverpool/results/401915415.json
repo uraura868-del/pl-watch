@@ -1,0 +1,80 @@
+{
+ "eventId": "401915415",
+ "date": "2026-10-14T16:45:00Z",
+ "opponent": {
+  "name": "LASK Linz",
+  "abbr": "LAS"
+ },
+ "isHome": false,
+ "score": {
+  "us": 6,
+  "opp": 3
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Ronald Araujo",
+   "assist": "Kostas Tsimikas",
+   "minute": "22'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Bradley Barcola",
+   "assist": "Lewis Koumas",
+   "minute": "24'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Bradley Barcola",
+   "assist": "Florian Wirtz",
+   "minute": "37'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Jeremie Frimpong",
+   "assist": "Kostas Tsimikas",
+   "minute": "51'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Robert Ljubicic",
+   "assist": "Yvan Dibango",
+   "minute": "63'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Bradley Barcola",
+   "assist": "Jeremie Frimpong",
+   "minute": "66'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Lewis Koumas",
+   "assist": "Jeremie Frimpong",
+   "minute": "72'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Florian Flecker",
+   "assist": "Yvan Dibango",
+   "minute": "74'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Florian Flecker",
+   "assist": "Yvan Dibango",
+   "minute": "77'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

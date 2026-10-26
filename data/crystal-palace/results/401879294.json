@@ -1,0 +1,52 @@
+{
+ "eventId": "401879294",
+ "date": "2026-08-28T19:00:00Z",
+ "opponent": {
+  "name": "Manchester City",
+  "abbr": "MNC"
+ },
+ "isHome": true,
+ "score": {
+  "us": 1,
+  "opp": 4
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Erling Haaland",
+   "assist": "Antoine Semenyo",
+   "minute": "17'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Rayan Cherki",
+   "assist": "Phil Foden",
+   "minute": "54'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Gianluigi Donnarumma",
+   "assist": null,
+   "minute": "56'",
+   "kind": "og"
+  },
+  {
+   "side": "opp",
+   "scorer": "Rayan Cherki",
+   "assist": "Josko Gvardiol",
+   "minute": "59'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Erling Haaland",
+   "assist": "Phil Foden",
+   "minute": "84'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

@@ -1,0 +1,49 @@
+{
+ "eventId": "401879262",
+ "date": "2026-10-17T14:00:00Z",
+ "opponent": {
+  "name": "Brentford",
+  "abbr": "BRE"
+ },
+ "isHome": false,
+ "score": {
+  "us": 2,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Keane Lewis-Potter",
+   "assist": "Igor Thiago",
+   "minute": "44'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Víctor Muñoz",
+   "assist": "Florian Wirtz",
+   "minute": "62'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Alexander Isak",
+   "assist": "Bradley Barcola",
+   "minute": "70'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [
+  {
+   "side": "opp",
+   "name": "Yehor Yarmoliuk",
+   "minute": "45'+8'"
+  },
+  {
+   "side": "opp",
+   "name": "Vitaly Janelt",
+   "minute": "90'+2'"
+  }
+ ],
+ "source": "ESPN"
+}

@@ -1,0 +1,38 @@
+{
+ "eventId": "401915417",
+ "date": "2026-10-13T19:00:00Z",
+ "opponent": {
+  "name": "Lille",
+  "abbr": "LILL"
+ },
+ "isHome": true,
+ "score": {
+  "us": 3,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Jurriën Timber",
+   "assist": "Noni Madueke",
+   "minute": "64'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Eberechi Eze",
+   "assist": "Bukayo Saka",
+   "minute": "67'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Bukayo Saka",
+   "assist": "Kai Havertz",
+   "minute": "71'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

@@ -1,0 +1,45 @@
+{
+ "eventId": "401879266",
+ "date": "2026-10-11T13:00:00Z",
+ "opponent": {
+  "name": "Nottingham Forest",
+  "abbr": "NFO"
+ },
+ "isHome": true,
+ "score": {
+  "us": 3,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Dan Ndoye",
+   "assist": null,
+   "minute": "3'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Daichi Kamada",
+   "assist": "Quinten Timber",
+   "minute": "41'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Jefferson Lerma",
+   "assist": "Adam Wharton",
+   "minute": "45'+4'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Yéremy Pino",
+   "assist": null,
+   "minute": "59'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

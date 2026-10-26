@@ -1,0 +1,31 @@
+{
+ "eventId": "401879253",
+ "date": "2026-10-23T19:00:00Z",
+ "opponent": {
+  "name": "Ipswich Town",
+  "abbr": "IPS"
+ },
+ "isHome": false,
+ "score": {
+  "us": 1,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Neco Williams",
+   "assist": "Daniel Muñoz",
+   "minute": "13'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Julio Enciso",
+   "assist": null,
+   "minute": "41'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

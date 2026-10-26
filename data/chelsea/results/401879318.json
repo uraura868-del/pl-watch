@@ -1,0 +1,52 @@
+{
+ "eventId": "401879318",
+ "date": "2026-08-24T19:00:00Z",
+ "opponent": {
+  "name": "Fulham",
+  "abbr": "FUL"
+ },
+ "isHome": false,
+ "score": {
+  "us": 3,
+  "opp": 2
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "João Pedro",
+   "assist": "Cole Palmer",
+   "minute": "1'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Josh King",
+   "assist": "Timothy Castagne",
+   "minute": "23'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Morgan Rogers",
+   "assist": "Maxence Lacroix",
+   "minute": "41'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Cole Palmer",
+   "assist": "João Pedro",
+   "minute": "49'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Gonzalo García",
+   "assist": null,
+   "minute": "54'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

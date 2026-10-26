@@ -1,0 +1,38 @@
+{
+ "eventId": "401879275",
+ "date": "2026-09-18T19:00:00Z",
+ "opponent": {
+  "name": "Chelsea",
+  "abbr": "CHE"
+ },
+ "isHome": true,
+ "score": {
+  "us": 3,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Jaidon Anthony",
+   "assist": "Jannik Schuster",
+   "minute": "61'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Igor Thiago",
+   "assist": null,
+   "minute": "83'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Fábio Carvalho",
+   "assist": null,
+   "minute": "90'+4'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

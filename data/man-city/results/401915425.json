@@ -1,0 +1,31 @@
+{
+ "eventId": "401915425",
+ "date": "2026-09-08T19:00:00Z",
+ "opponent": {
+  "name": "FC Porto",
+  "abbr": "FCP"
+ },
+ "isHome": false,
+ "score": {
+  "us": 2,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Erling Haaland",
+   "assist": "Enzo Fernández",
+   "minute": "47'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Erling Haaland",
+   "assist": "Rayan Aït-Nouri",
+   "minute": "90'+1'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

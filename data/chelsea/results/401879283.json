@@ -1,0 +1,45 @@
+{
+ "eventId": "401879283",
+ "date": "2026-09-12T14:00:00Z",
+ "opponent": {
+  "name": "Hull City",
+  "abbr": "HUL"
+ },
+ "isHome": true,
+ "score": {
+  "us": 2,
+  "opp": 2
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Morgan Rogers",
+   "assist": "João Pedro",
+   "minute": "7'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Mohamed Belloumi",
+   "assist": "Ryan Giles",
+   "minute": "28'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Mohamed Belloumi",
+   "assist": "Oliver McBurnie",
+   "minute": "34'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "João Pedro",
+   "assist": "Cole Palmer",
+   "minute": "66'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

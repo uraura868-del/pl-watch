@@ -1,0 +1,31 @@
+{
+ "eventId": "401915546",
+ "date": "2026-10-22T16:45:00Z",
+ "opponent": {
+  "name": "Lech Poznan",
+  "abbr": "LECH"
+ },
+ "isHome": false,
+ "score": {
+  "us": 1,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Tymur Tutierov",
+   "assist": "Nilson Angulo",
+   "minute": "2'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Leo Bengtsson",
+   "assist": null,
+   "minute": "70'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

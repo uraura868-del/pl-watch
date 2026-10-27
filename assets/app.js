@@ -441,7 +441,8 @@
       if (k === "locked") {
         const earlier = unseen.filter(f => f.date < latest.date).length;
         html += `<div class="catchup"><span>この前に観ていない試合が ${earlier} 試合あります。</span>
-          <button class="row-btn" data-act="catchup" data-id="${esc(latest.eventId)}">${earlier} 試合を観たことにして開く</button></div>`;
+          <span class="catchup-btns"><button class="row-btn" data-act="peek" data-id="${esc(latest.eventId)}">記録はそのままで開く</button>
+          <button class="row-btn ghost" data-act="catchup" data-id="${esc(latest.eventId)}">${earlier} 試合を観たことにして開く</button></span></div>`;
       }
       html += `</div>`;
       if (current && current !== latest && k !== "locked") {
@@ -525,6 +526,7 @@
       const id = b.dataset.id || b.closest(".fx")?.dataset.id;
       const f = state.fixtures.find(x => x.eventId === id);
       if (!f) return;
+      if (b.dataset.act === "peek") { openMatch(f.eventId, { ignoreLock: true }); return; }
       if (b.dataset.act === "catchup") {
         // 最新の試合より前の未視聴を観たことにして、最新の試合を開く
         state.fixtures.filter(x => x.date < f.date && (x.status === "played" || x.hasLineup)).forEach(x => setWatched(x.eventId, true));
@@ -571,8 +573,9 @@
       el.innerHTML = `<button class="back" id="btn-back">‹ ${state.view === "schedule" ? "日程へ" : "一覧へ"}</button>
         <div class="section-label">ロック中の試合</div><div class="card">${fixtureRow(f, "locked", true)}
         <div class="catchup"><span>${esc(team?.shortName || "")}の、この前の ${earlier} 試合をまだ観ていません。</span>
-        <button class="row-btn" data-act="catchup" data-id="${esc(f.eventId)}">${earlier} 試合を観たことにして開く</button></div></div>
-        <p class="hint">順番に観るためのロックです。設定（ネタバレロック）でオフにもできます。</p>`;
+        <span class="catchup-btns"><button class="row-btn" data-act="peek" data-id="${esc(f.eventId)}">記録はそのままで開く</button>
+        <button class="row-btn ghost" data-act="catchup" data-id="${esc(f.eventId)}">${earlier} 試合を観たことにして開く</button></span></div></div>
+        <p class="hint">順番に観るためのロックです。「記録はそのままで開く」なら前の試合は未視聴のまま残り、観たら「✓ この試合を観た」で記録できます。設定（ネタバレロック）でオフにもできます。</p>`;
       bindBack(); bindListEvents(el);
       return;
     }

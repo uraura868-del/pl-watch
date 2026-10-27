@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-27T07:42:47Z",
+ "updatedAt": "2026-10-27T14:22:26Z",
  "players": {
   "194121": {
    "name": "Freddie Woodman",
@@ -195,7 +195,7 @@
    "name": "Giorgi Mamardashvili",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-10-27T14:22:26Z"
   },
   "289840": {
    "name": "Vitezslav Jaros",
@@ -1436,7 +1436,7 @@
    "name": "Michael Laffey",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-10-27T14:22:26Z"
   },
   "234306": {
    "name": "Federico Chiesa",

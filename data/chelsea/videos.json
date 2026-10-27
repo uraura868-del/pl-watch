@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-27T07:42:47Z",
+ "updatedAt": "2026-10-27T14:22:26Z",
  "enabled": true,
  "players": {
   "158626": {
@@ -51,6 +51,31 @@
     }
    ],
    "fetchedAt": "2026-10-27T07:42:47Z"
+  },
+  "300049": {
+   "name": "Teddy Sharman-Lowe",
+   "query": "Teddy Sharman-Lowe skills",
+   "videos": [
+    {
+     "id": "_8TaZxV6_Bw",
+     "title": "Here Is Why Chelsea Recalled Teddy Sharman-Lowe From Loan At Bolton 2025/2026 (HD)",
+     "channel": "WorldOfFootballHD",
+     "publishedAt": "2026-01-14"
+    },
+    {
+     "id": "a2Kr--GZFOI",
+     "title": "60/100 | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Teddy Sharman-Lowe 🧤",
+     "channel": "MrBolsilludo",
+     "publishedAt": "2024-08-20"
+    },
+    {
+     "id": "u4i6zkcUtX0",
+     "title": "🚨 Xabi Alonso's SHOCK Chelsea Decision! 😱 Teddy Sharman-Lowe Set To Become The New No.1? 🔵",
+     "channel": "Chelsea Prediction Studio",
+     "publishedAt": "2026-07-17"
+    }
+   ],
+   "fetchedAt": "2026-10-27T14:22:26Z"
   }
  }
 }

@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-27T00:08:43Z",
+ "updatedAt": "2026-10-27T00:27:25Z",
  "clubs": {
   "manchester united": {
    "id": 985,
@@ -1897,13 +1897,6 @@
    "fetchedAt": "2026-10-26T23:57:57Z",
    "players": {}
   },
-  "aek athens": {
-   "id": null,
-   "slug": null,
-   "name": null,
-   "fetchedAt": "2026-10-27T00:08:43Z",
-   "players": {}
-  },
   "getafe": {
    "id": 3709,
    "slug": "club",
@@ -1916,6 +1909,13 @@
    "slug": "club",
    "name": "GNK Dinamo Zagreb",
    "fetchedAt": "2026-10-27T00:08:43Z",
+   "players": {}
+  },
+  "aek athens": {
+   "id": null,
+   "slug": null,
+   "name": null,
+   "fetchedAt": "2026-10-27T00:27:25Z",
    "players": {}
   }
  }

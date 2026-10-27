@@ -1,0 +1,388 @@
+{
+ "updatedAt": "2026-10-27T00:08:43Z",
+ "id": "597",
+ "name": "Dinamo Zagreb",
+ "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/597.png",
+ "manager": {
+  "name": "Mario Kovačević",
+  "role": "Manager",
+  "nat": "Croatia",
+  "natCode": null,
+  "dob": "1975-05-17",
+  "source": "wikidata"
+ },
+ "players": [
+  {
+   "id": "208815",
+   "name": "Danijel Zagorac",
+   "jersey": "1",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "222580",
+   "name": "Ivan Filipovic",
+   "jersey": "44",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "228335",
+   "name": "Ivan Nevistic",
+   "jersey": "33",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "239411",
+   "name": "Dominik Kotarski",
+   "jersey": "24",
+   "pos": "G",
+   "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/239411.png",
+   "injuries": [],
+   "photoSrc": "https://a.espncdn.com/i/headshots/soccer/players/full/239411.png"
+  },
+  {
+   "id": "191450",
+   "name": "Scott McKenna",
+   "jersey": "26",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "275414",
+   "name": "Stjepan Radeljic",
+   "jersey": "6",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "306615",
+   "name": "Niko Galesic",
+   "jersey": "15",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "355908",
+   "name": "Paul Tabinas",
+   "jersey": "13",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "364169",
+   "name": "Bruno Goda",
+   "jersey": "3",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "370760",
+   "name": "Moris Valincic",
+   "jersey": "25",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "379705",
+   "name": "Noa Mikic",
+   "jersey": "35",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "384415",
+   "name": "Matteo Vinlöf",
+   "jersey": "22",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "388284",
+   "name": "Sergi Domínguez",
+   "jersey": "36",
+   "pos": "D",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p250199.png",
+   "injuries": [],
+   "dob": "1998-06-28",
+   "nat": "Argentina",
+   "natCode": "AR",
+   "height": 179,
+   "joined": "2023-09-01",
+   "birthPlace": "Haedo",
+   "posInfo": "Centre Central Midfielder",
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p250199.png"
+  },
+  {
+   "id": "398064",
+   "name": "Borna Orlic",
+   "jersey": null,
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "403821",
+   "name": "Nikola Radnic",
+   "jersey": "49",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "421322",
+   "name": "Petar Zaja",
+   "jersey": null,
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "175812",
+   "name": "Josip Misic",
+   "jersey": "27",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "189394",
+   "name": "Miha Zajc",
+   "jersey": "8",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "228334",
+   "name": "Luka Ivanusec",
+   "jersey": "17",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "259512",
+   "name": "Robert Mudrazija",
+   "jersey": "20",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "315712",
+   "name": "Kirill Kravtsov",
+   "jersey": "5",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "326587",
+   "name": "Lukas Kacavenda",
+   "jersey": "80",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "341418",
+   "name": "Luka Stojkovic",
+   "jersey": "10",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "413777",
+   "name": "Jona Benkotic",
+   "jersey": "31",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "418601",
+   "name": "Sven Sunta",
+   "jersey": "41",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "3098709",
+   "name": "Kaloyan Bozhkov Bozhkov",
+   "jersey": null,
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "3140272",
+   "name": "Fuzy Taylor",
+   "jersey": null,
+   "pos": "M",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p231899.png",
+   "injuries": [],
+   "dob": "1998-06-23",
+   "nat": "Ireland",
+   "natCode": "IE",
+   "height": 185,
+   "joined": "2026-10-05",
+   "birthPlace": "London",
+   "posInfo": "Centre Central Midfielder",
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p231899.png"
+  },
+  {
+   "id": "194277",
+   "name": "Mislav Orsic",
+   "jersey": "99",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "206469",
+   "name": "Smail Prevljak",
+   "jersey": "14",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "274816",
+   "name": "Arbër Hoxha",
+   "jersey": "11",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "306647",
+   "name": "Dion Drena Beljo",
+   "jersey": "9",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "361788",
+   "name": "Fran Topic",
+   "jersey": "30",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "363041",
+   "name": "Daniel Rodríguez",
+   "jersey": "7",
+   "pos": "F",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p561245.png",
+   "injuries": [],
+   "dob": "2004-07-14",
+   "nat": "Uruguay",
+   "natCode": "UY",
+   "height": 192,
+   "joined": "2026-07-14",
+   "birthPlace": "Palamós",
+   "posInfo": "Striker",
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p561245.png"
+  },
+  {
+   "id": "367662",
+   "name": "Iker Almena",
+   "jersey": "23",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "370762",
+   "name": "Mateo Lisica",
+   "jersey": "21",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "390378",
+   "name": "Mislav Cutuk",
+   "jersey": "45",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "413780",
+   "name": "Gabrijel Sivalec",
+   "jersey": null,
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "414677",
+   "name": "Aleks Stojakovic",
+   "jersey": "19",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "416441",
+   "name": "Noah Nsoki",
+   "jersey": "77",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  }
+ ]
+}

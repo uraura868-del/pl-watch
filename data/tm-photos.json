@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-26T23:57:57Z",
+ "updatedAt": "2026-10-27T00:08:43Z",
  "clubs": {
   "manchester united": {
    "id": 985,
@@ -1869,13 +1869,6 @@
     "abdelkarim": "https://img.a.transfermarkt.technology/portrait/header/1259085-1780899447.jpg?lm=4711"
    }
   },
-  "aek athens": {
-   "id": null,
-   "slug": null,
-   "name": null,
-   "fetchedAt": "2026-10-26T23:57:57Z",
-   "players": {}
-  },
   "slavia prague": {
    "id": 62,
    "slug": "club",
@@ -1902,6 +1895,27 @@
    "slug": "club",
    "name": "TSG 1899 Hoffenheim",
    "fetchedAt": "2026-10-26T23:57:57Z",
+   "players": {}
+  },
+  "aek athens": {
+   "id": null,
+   "slug": null,
+   "name": null,
+   "fetchedAt": "2026-10-27T00:08:43Z",
+   "players": {}
+  },
+  "getafe": {
+   "id": 3709,
+   "slug": "club",
+   "name": "Getafe CF",
+   "fetchedAt": "2026-10-27T00:08:43Z",
+   "players": {}
+  },
+  "dinamo zagreb": {
+   "id": 419,
+   "slug": "club",
+   "name": "GNK Dinamo Zagreb",
+   "fetchedAt": "2026-10-27T00:08:43Z",
    "players": {}
   }
  }

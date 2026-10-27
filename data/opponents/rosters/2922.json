@@ -1,0 +1,327 @@
+{
+ "updatedAt": "2026-10-27T00:08:43Z",
+ "id": "2922",
+ "name": "Getafe",
+ "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
+ "manager": {
+  "name": "José Bordalás",
+  "role": "Manager",
+  "nat": "Spain",
+  "natCode": null,
+  "dob": "1964-03-05",
+  "source": "wikidata"
+ },
+ "players": [
+  {
+   "id": "196339",
+   "name": "David Soria",
+   "jersey": "13",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "344245",
+   "name": "Jirí Letácek",
+   "jersey": "1",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "388898",
+   "name": "Diego Ferrer",
+   "jersey": "35",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "125749",
+   "name": "Kiko Femenía",
+   "jersey": "17",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "168531",
+   "name": "Dani Carvajal",
+   "jersey": "14",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "173247",
+   "name": "Johan Mojica",
+   "jersey": "22",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "181355",
+   "name": "Djené",
+   "jersey": "2",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "277876",
+   "name": "Abdel Abqar",
+   "jersey": "5",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "300111",
+   "name": "Zaid Romero",
+   "jersey": "24",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "314403",
+   "name": "Saba Sazonov",
+   "jersey": "4",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "356080",
+   "name": "Andrés García",
+   "jersey": "21",
+   "pos": "D",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p551466.png",
+   "injuries": [],
+   "dob": "2004-03-24",
+   "nat": "Spain",
+   "natCode": "ES",
+   "height": 182,
+   "joined": "2026-08-03",
+   "birthPlace": "Madrid",
+   "posInfo": "Left/Centre/Right Winger",
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p551466.png"
+  },
+  {
+   "id": "359826",
+   "name": "Sebastián Boselli",
+   "jersey": "15",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "375400",
+   "name": "Mohamed Hamdoune",
+   "jersey": "31",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "394958",
+   "name": "Curro Burgos",
+   "jersey": "29",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "395479",
+   "name": "Jean Ives Valou",
+   "jersey": "26",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "406832",
+   "name": "Davinchi",
+   "jersey": "3",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "136673",
+   "name": "Nemanja Gudelj",
+   "jersey": "8",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "228424",
+   "name": "Orel Mangala",
+   "jersey": "23",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "307186",
+   "name": "Francho Serrano",
+   "jersey": "16",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "309838",
+   "name": "Ramón Terrats",
+   "jersey": "11",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "357147",
+   "name": "Mario Martín",
+   "jersey": "6",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "383912",
+   "name": "Alberto Risco",
+   "jersey": "28",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "384168",
+   "name": "Jesús Martínez",
+   "jersey": "34",
+   "pos": "M",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p98980.png",
+   "injuries": [],
+   "dob": "1992-09-02",
+   "nat": "Argentina",
+   "natCode": "AR",
+   "height": 195,
+   "joined": "2026-08-29",
+   "birthPlace": "Mar de Plata",
+   "posInfo": "Goalkeeper",
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p98980.png"
+  },
+  {
+   "id": "386256",
+   "name": "Christantus Uche",
+   "jersey": "8",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "396387",
+   "name": "Óscar López",
+   "jersey": "30",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "143643",
+   "name": "Juanmi",
+   "jersey": "7",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "218122",
+   "name": "Enes Ünal",
+   "jersey": "19",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "218793",
+   "name": "Borja Mayoral",
+   "jersey": "9",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "284854",
+   "name": "Martín Satriano",
+   "jersey": "10",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "310259",
+   "name": "Ivan Azón",
+   "jersey": "20",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "376208",
+   "name": "Joselu Pérez",
+   "jersey": "32",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "3124560",
+   "name": "Ibra Drammeh",
+   "jersey": "27",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "3139281",
+   "name": "Moha Achraf",
+   "jersey": "33",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  }
+ ]
+}

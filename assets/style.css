@@ -278,6 +278,10 @@ details.more[open] summary::before { content: "▾ "; }
 .squad .ph .num { border-color: #1a2133; }
 .squad .pl .nm { color: var(--fg); text-shadow: none; font-weight: 500; max-width: 64px; }
 
+.sched-bar { display: flex; align-items: center; gap: 8px; margin: 0 0 8px; }
+.sched-bar .spacer { flex: 1; }
+.sched-bar .back { margin: 0; }
+
 /* ---- 記録 ---- */
 .stats-hero { padding: 18px 16px 14px; display: flex; flex-wrap: wrap; gap: 8px 24px; align-items: flex-end; }
 .big-num b { font-family: Oswald, sans-serif; font-size: 44px; line-height: 1; }

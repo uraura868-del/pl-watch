@@ -989,6 +989,8 @@
   // ---------------------------------------------------------------- 「全体」タブ（全チームの日程を日付順に）
   const allFixturesCache = new Map();
   let allShowPast = false;
+  let schedFavOnly = false;
+  try { schedFavOnly = localStorage.getItem("plwatch.schedFav") === "1"; } catch { /* ignore */ }
   async function selectAll() {
     state.view = "schedule"; document.body.dataset.view = "schedule";
     state.selected = null; state.fixtures = [];
@@ -1035,7 +1037,10 @@
     state.matchCache.clear();
   }
   async function renderAllList() {
-    const teams = visibleTeams();
+    // 日程は既定で全チーム。お気に入りを選んでいるときだけ「お気に入りだけ」に絞れる
+    const favs = visibleTeams();
+    const hasFav = (state.prefs.teams || []).length > 0 && favs.length < state.teams.length;
+    const teams = (schedFavOnly && hasFav) ? favs : state.teams;
     const byEspn = new Map(state.teams.map(t => [String(t.espnTeamId), t]));
     const lists = await Promise.all(teams.map(async t => {
       if (!allFixturesCache.has(t.id)) {
@@ -1069,12 +1074,13 @@
         <div class="side">${st}</div></div>`;
     };
     let html = "";
-    if (pastCount && !allShowPast) html += `<button class="back" id="btn-all-past">‹ 終了した試合も表示（${pastCount}）</button>`;
+    html += `<div class="sched-bar">${pastCount && !allShowPast ? `<button class="back" id="btn-all-past">‹ 終了した試合も表示（${pastCount}）</button>` : ""}<span class="spacer"></span>${hasFav ? `<span class="seg"><button data-sf="0" class="${schedFavOnly ? "" : "on"}">全チーム</button><button data-sf="1" class="${schedFavOnly ? "on" : ""}">お気に入りだけ</button></span>` : ""}</div>`;
     for (const [day, fs] of groups) html += `<div class="section-label">${esc(day)} <span class="count">${fs.length}</span></div><div class="card">${fs.map(row).join("")}</div>`;
     if (!rows.length) html += `<div class="card"><div class="ghost-row">表示できる試合がありません</div></div>`;
     const el = $("#list");
     el.innerHTML = html;
     const pb = $("#btn-all-past"); if (pb) pb.addEventListener("click", () => { allShowPast = true; renderAllList(); });
+    el.querySelectorAll("[data-sf]").forEach(b => b.addEventListener("click", () => { schedFavOnly = b.dataset.sf === "1"; try { localStorage.setItem("plwatch.schedFav", schedFavOnly ? "1" : "0"); } catch { /* ignore */ } renderAllList(); }));
     el.querySelectorAll(".fx.all").forEach(r => {
       const go = () => openMatchFromSchedule(r.dataset.team, r.dataset.id);
       r.addEventListener("click", go);

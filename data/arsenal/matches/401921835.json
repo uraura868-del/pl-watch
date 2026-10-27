@@ -1,8 +1,8 @@
 {
  "eventId": "401921835",
  "date": "2026-10-27T20:00:00Z",
- "final": false,
- "updatedAt": "2026-10-27T20:01:43Z",
+ "final": true,
+ "updatedAt": "2026-10-27T23:44:18Z",
  "team": {
   "formation": "4-2-3-1",
   "rows": [
@@ -216,27 +216,25 @@
  "opponent": {
   "id": "3891",
   "name": "Fleetwood Town",
-  "formation": "3-1-4-2",
+  "formation": "5-4-1",
   "rows": [
    [
     "169599"
    ],
    [
-    "333339",
+    "347330",
     "359454",
-    "408354"
-   ],
-   [
+    "162889",
+    "408354",
     "190423"
    ],
    [
     "296624",
-    "390974",
-    "347330",
-    "162889"
+    "333339",
+    "365346",
+    "390974"
    ],
    [
-    "365346",
     "111016"
    ]
   ],
@@ -252,14 +250,14 @@
     "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/128273-1756327055.jpg?lm=4711"
    },
    {
-    "id": "408354",
-    "name": "Conor Haughey",
-    "jersey": "16",
+    "id": "162889",
+    "name": "Rhys Bennett",
+    "jersey": "6",
     "pos": "CD",
     "starter": true,
-    "place": "4",
-    "photo": "data/photos/199ef0c01f8fc703.jpg",
-    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1160449-1769197084.jpg?lm=4711"
+    "place": "5",
+    "photo": "data/photos/de5331aa31ec25be.jpg",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/794816-1771871872.jpg?lm=4711"
    },
    {
     "id": "359454",
@@ -267,29 +265,39 @@
     "jersey": "5",
     "pos": "CD-L",
     "starter": true,
-    "place": "6",
+    "place": "4",
     "photo": "data/photos/3edcb147ca00d074.jpg",
     "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/945771-1756327258.jpg?lm=4711"
+   },
+   {
+    "id": "408354",
+    "name": "Conor Haughey",
+    "jersey": "16",
+    "pos": "CD-R",
+    "starter": true,
+    "place": "6",
+    "photo": "data/photos/199ef0c01f8fc703.jpg",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1160449-1769197084.jpg?lm=4711"
+   },
+   {
+    "id": "347330",
+    "name": "Jake Batty",
+    "jersey": "24",
+    "pos": "LB",
+    "starter": true,
+    "place": "3",
+    "photo": "data/photos/cb05dcd31bd92390.jpg",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/866669-1770062759.jpg?lm=4711"
    },
    {
     "id": "190423",
     "name": "Shaun Rooney",
     "jersey": "26",
-    "pos": "CD-R",
+    "pos": "RB",
     "starter": true,
-    "place": "5",
+    "place": "2",
     "photo": "data/photos/0497b48f9ef192ae.jpg",
     "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/280409-1621259536.jpg?lm=4711"
-   },
-   {
-    "id": "333339",
-    "name": "Harrison Neal",
-    "jersey": "4",
-    "pos": "SW",
-    "starter": true,
-    "place": "8",
-    "photo": "data/photos/b89364bca12e3e14.jpg",
-    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/746736-1756327735.jpg?lm=4711"
    },
    {
     "id": "296624",
@@ -297,55 +305,45 @@
     "jersey": "10",
     "pos": "CM-L",
     "starter": true,
-    "place": "11",
+    "place": "10",
     "photo": "data/photos/dd8cf5570ddc74bc.jpg",
     "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/596217-1756327602.jpg?lm=4711"
+   },
+   {
+    "id": "333339",
+    "name": "Harrison Neal",
+    "jersey": "4",
+    "pos": "CM-R",
+    "starter": true,
+    "place": "8",
+    "photo": "data/photos/b89364bca12e3e14.jpg",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/746736-1756327735.jpg?lm=4711"
+   },
+   {
+    "id": "365346",
+    "name": "Aaron Loupalo-Bi",
+    "jersey": "20",
+    "pos": "LM",
+    "starter": true,
+    "place": "11",
+    "photo": "data/photos/3ab3582fa6b01d55.jpg",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/926131-1769197479.jpg?lm=4711"
    },
    {
     "id": "390974",
     "name": "Crispin Mclean",
     "jersey": "27",
-    "pos": "CM-R",
+    "pos": "RM",
     "starter": true,
     "place": "7",
     "photo": "data/photos/8dfa40c4ca135301.jpg",
     "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1311777-1791113667.jpg?lm=4711"
    },
    {
-    "id": "347330",
-    "name": "Jake Batty",
-    "jersey": "24",
-    "pos": "LM",
-    "starter": true,
-    "place": "3",
-    "photo": "data/photos/cb05dcd31bd92390.jpg",
-    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/866669-1770062759.jpg?lm=4711"
-   },
-   {
-    "id": "162889",
-    "name": "Rhys Bennett",
-    "jersey": "6",
-    "pos": "RM",
-    "starter": true,
-    "place": "2",
-    "photo": "data/photos/de5331aa31ec25be.jpg",
-    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/794816-1771871872.jpg?lm=4711"
-   },
-   {
-    "id": "365346",
-    "name": "Aaron Loupalo-Bi",
-    "jersey": "20",
-    "pos": "CF-L",
-    "starter": true,
-    "place": "10",
-    "photo": "data/photos/3ab3582fa6b01d55.jpg",
-    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/926131-1769197479.jpg?lm=4711"
-   },
-   {
     "id": "111016",
     "name": "Ched Evans",
     "jersey": "17",
-    "pos": "CF-R",
+    "pos": "F",
     "starter": true,
     "place": "9",
     "photo": "data/photos/ec6704fc9d7cdf7d.jpg",
@@ -357,7 +355,7 @@
     "id": "362361",
     "name": "Josh Robertson",
     "jersey": "28",
-    "pos": null,
+    "pos": "SUB",
     "starter": false,
     "place": "0",
     "photo": "data/photos/5e1c5b003448c5fa.jpg",
@@ -367,7 +365,7 @@
     "id": "345879",
     "name": "James Pradic",
     "jersey": "22",
-    "pos": null,
+    "pos": "SUB",
     "starter": false,
     "place": "0",
     "photo": "data/photos/629ec034d6324769.jpg",
@@ -377,7 +375,7 @@
     "id": "221993",
     "name": "Ronan Coughlan",
     "jersey": "19",
-    "pos": null,
+    "pos": "SUB",
     "starter": false,
     "place": "0",
     "photo": "data/photos/d544cef279a46228.jpg",
@@ -387,7 +385,7 @@
     "id": "127618",
     "name": "Danny Andrew",
     "jersey": "3",
-    "pos": null,
+    "pos": "SUB",
     "starter": false,
     "place": "0",
     "photo": "data/photos/0f817d57189a34bf.jpg",
@@ -397,7 +395,7 @@
     "id": "342879",
     "name": "Adam Murphy",
     "jersey": "15",
-    "pos": null,
+    "pos": "SUB",
     "starter": false,
     "place": "0",
     "photo": "data/photos/e2eb0d7fde5f8211.jpg",
@@ -407,7 +405,7 @@
     "id": "39191",
     "name": "Josh Thomas",
     "jersey": "11",
-    "pos": null,
+    "pos": "SUB",
     "starter": false,
     "place": "0",
     "photo": "data/photos/39e17d03d72aefae.jpg",
@@ -417,7 +415,7 @@
     "id": "223583",
     "name": "Andrew Cannon",
     "jersey": "7",
-    "pos": null,
+    "pos": "SUB",
     "starter": false,
     "place": "0",
     "photo": "data/photos/5f5425bc4da3d986.jpg",
@@ -427,7 +425,7 @@
     "id": "385117",
     "name": "Rafaele Cirino",
     "jersey": "29",
-    "pos": null,
+    "pos": "SUB",
     "starter": false,
     "place": "0",
     "photo": "data/photos/e2213c679c6482bb.jpg",
@@ -437,7 +435,7 @@
     "id": "39135",
     "name": "Will Davies",
     "jersey": "9",
-    "pos": null,
+    "pos": "SUB",
     "starter": false,
     "place": "0",
     "photo": "data/photos/a0fc7fd95d12ebff.jpg",

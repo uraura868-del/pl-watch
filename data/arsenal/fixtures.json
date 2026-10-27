@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-27T20:01:43Z",
+ "updatedAt": "2026-10-27T23:44:18Z",
  "fixtures": [
   {
    "eventId": "401879301",
@@ -257,8 +257,8 @@
    "status": "played",
    "league": "eng.league_cup",
    "compShort": "EFL",
-   "hasStats": false,
-   "hasResult": false,
+   "hasStats": true,
+   "hasResult": true,
    "hasLineup": true
   },
   {

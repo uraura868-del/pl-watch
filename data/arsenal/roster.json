@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-27T20:01:43Z",
+ "updatedAt": "2026-10-27T23:44:18Z",
  "manager": {
   "name": "Mikel Arteta",
   "role": "Manager",
@@ -200,6 +200,15 @@
    "birthPlace": "London",
    "posInfo": "Left Full Back",
    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/890721-1758053582.jpg?lm=4711"
+  },
+  {
+   "id": "399893",
+   "name": "Marcell Washington",
+   "jersey": "60",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
   },
   {
    "id": "400284",
@@ -456,6 +465,15 @@
    "birthPlace": "Kilrea",
    "posInfo": "Forward",
    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p645551.png"
+  },
+  {
+   "id": "390975",
+   "name": "Andre Annous",
+   "jersey": "71",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
   },
   {
    "id": "397263",

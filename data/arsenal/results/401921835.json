@@ -1,0 +1,37 @@
+{
+ "eventId": "401921835",
+ "date": "2026-10-27T20:00:00Z",
+ "opponent": {
+  "name": "Fleetwood Town",
+  "abbr": "FLE"
+ },
+ "isHome": false,
+ "score": {
+  "us": 1,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Aaron Loupalo-Bi",
+   "assist": "Harrison Neal",
+   "minute": "21'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Viktor Gyökeres",
+   "assist": null,
+   "minute": "50'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [
+  {
+   "side": "us",
+   "name": "Max Dowman",
+   "minute": "85'"
+  }
+ ],
+ "source": "ESPN"
+}

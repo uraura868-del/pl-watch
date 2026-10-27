@@ -1,0 +1,78 @@
+{
+ "eventId": "401921835",
+ "date": "2026-10-27T20:00:00Z",
+ "opponent": {
+  "name": "Fleetwood Town",
+  "abbr": "FLE"
+ },
+ "ht": {
+  "us": {
+   "shots": 11,
+   "onTarget": 1,
+   "offTarget": 5,
+   "blocked": 5,
+   "corners": 2,
+   "fouls": 2,
+   "offsides": 1,
+   "yellow": 0,
+   "red": 0
+  },
+  "opp": {
+   "shots": 0,
+   "onTarget": 0,
+   "offTarget": 0,
+   "blocked": 0,
+   "corners": 0,
+   "fouls": 16,
+   "offsides": 1,
+   "yellow": 0,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 25,
+   "onTarget": 5,
+   "offTarget": 9,
+   "blocked": 11,
+   "corners": 5,
+   "fouls": 10,
+   "offsides": 3,
+   "yellow": 0,
+   "red": 1,
+   "possession": "78.3",
+   "passesAccurate": "566",
+   "passes": "641",
+   "passAcc": "0.9",
+   "crossesAccurate": "8",
+   "crosses": "23",
+   "tacklesWon": "14",
+   "tackles": "16",
+   "interceptions": "8",
+   "clearances": "21"
+  },
+  "opp": {
+   "shots": 2,
+   "onTarget": 1,
+   "offTarget": 0,
+   "blocked": 1,
+   "corners": 2,
+   "fouls": 28,
+   "offsides": 3,
+   "yellow": 3,
+   "red": 0,
+   "possession": "21.7",
+   "passesAccurate": "99",
+   "passes": "180",
+   "passAcc": "0.6",
+   "crossesAccurate": "0",
+   "crosses": "5",
+   "tacklesWon": "11",
+   "tackles": "18",
+   "interceptions": "12",
+   "clearances": "29"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

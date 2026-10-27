@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-27T20:01:43Z",
+ "updatedAt": "2026-10-27T23:44:18Z",
  "enabled": true,
  "players": {
   "169532": {
@@ -726,6 +726,31 @@
     }
    ],
    "fetchedAt": "2026-10-27T07:42:47Z"
+  },
+  "399893": {
+   "name": "Marcell Washington",
+   "query": "Marcell Washington skills",
+   "videos": [
+    {
+     "id": "nNP1irHZEkA",
+     "title": "Marcell Washington- Class 2028 Point Guard Weight Room & Skill work",
+     "channel": "Marcell Washington",
+     "publishedAt": "2026-05-13"
+    },
+    {
+     "id": "Ivh3XtPqjiU",
+     "title": "Should we collab with Salish again!!🤩 @salishmatter @jordanmatter",
+     "channel": "mmgymsisters",
+     "publishedAt": "2025-05-13"
+    },
+    {
+     "id": "y4Gi9oXW3vo",
+     "title": "Love flipping with @salishmatter @markellwashington1 🤩",
+     "channel": "mmgymsisters",
+     "publishedAt": "2024-09-24"
+    }
+   ],
+   "fetchedAt": "2026-10-27T23:44:18Z"
   }
  }
 }

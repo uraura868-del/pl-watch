@@ -1,0 +1,284 @@
+{
+ "updatedAt": "2026-10-26T23:57:57Z",
+ "id": "11420",
+ "name": "RB Leipzig",
+ "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
+ "manager": {
+  "name": "Martín Demichelis",
+  "role": "Manager",
+  "nat": "Italy",
+  "natCode": null,
+  "dob": "1980-12-20",
+  "source": "wikidata"
+ },
+ "players": [
+  {
+   "id": "193610",
+   "name": "Ørjan Nyland",
+   "jersey": "1",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "200079",
+   "name": "Leopold Zingerle",
+   "jersey": "25",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "277377",
+   "name": "Maarten Vandevoordt",
+   "jersey": "26",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "162162",
+   "name": "Willi Orbán",
+   "jersey": "4",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "201803",
+   "name": "Lukas Klostermann",
+   "jersey": "16",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "220711",
+   "name": "Benjamin Henrichs",
+   "jersey": "39",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "249548",
+   "name": "David Raum",
+   "jersey": "22",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "258963",
+   "name": "Ridle Baku",
+   "jersey": "17",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "318316",
+   "name": "Maxime Estève",
+   "jersey": "3",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "319100",
+   "name": "Castello Lukeba",
+   "jersey": "23",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "368003",
+   "name": "Max Finkgrafe",
+   "jersey": "35",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "384380",
+   "name": "Abdoul Koné",
+   "jersey": "2",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "274897",
+   "name": "Christoph Baumgartner",
+   "jersey": "14",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "305956",
+   "name": "Nicolas Seiwald",
+   "jersey": "13",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "307364",
+   "name": "Rocco Reitz",
+   "jersey": "20",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "319368",
+   "name": "Antonio Nusa",
+   "jersey": "7",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "323807",
+   "name": "Neil El Aynaoui",
+   "jersey": "21",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "330233",
+   "name": "Ezechiel Banzuzi",
+   "jersey": "6",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "364897",
+   "name": "Assan Ouédraogo",
+   "jersey": "8",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "372232",
+   "name": "Andrija Maksimovic",
+   "jersey": "30",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "388683",
+   "name": "Viggo Gebel",
+   "jersey": "47",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "413837",
+   "name": "Benno Kaltefleiter",
+   "jersey": "37",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "222176",
+   "name": "Christopher Nkunku",
+   "jersey": "28",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "310131",
+   "name": "Johan Bakayoko",
+   "jersey": "11",
+   "pos": "F",
+   "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/310131.png",
+   "injuries": [],
+   "photoSrc": "https://a.espncdn.com/i/headshots/soccer/players/full/310131.png"
+  },
+  {
+   "id": "324766",
+   "name": "Rômulo",
+   "jersey": "40",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "357683",
+   "name": "Brajan Gruda",
+   "jersey": "10",
+   "pos": "F",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p513433.png",
+   "injuries": [],
+   "dob": "2004-05-31",
+   "nat": "Germany",
+   "natCode": "DE",
+   "height": 178,
+   "joined": "2024-08-14",
+   "birthPlace": "Speyer",
+   "posInfo": "Centre/Right Attacking Midfielder",
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p513433.png"
+  },
+  {
+   "id": "363038",
+   "name": "Marc Guiu",
+   "jersey": "9",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "366911",
+   "name": "Tidiam Gomis",
+   "jersey": "27",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "413839",
+   "name": "Samba Konate",
+   "jersey": "45",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  }
+ ]
+}

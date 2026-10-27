@@ -1,0 +1,320 @@
+{
+ "updatedAt": "2026-10-26T23:57:57Z",
+ "id": "433",
+ "name": "Sparta Prague",
+ "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/433.png",
+ "manager": {
+  "name": "Brian Priske",
+  "role": "Manager",
+  "nat": "Kingdom of Denmark",
+  "natCode": null,
+  "dob": "1977-05-14",
+  "source": "wikidata"
+ },
+ "players": [
+  {
+   "id": "294378",
+   "name": "Kristjan Hegyi",
+   "jersey": "47",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "336530",
+   "name": "Jakub Surovcik",
+   "jersey": "44",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "413729",
+   "name": "Lukás Franc",
+   "jersey": "54",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "419385",
+   "name": "Sebastián Zajac",
+   "jersey": "66",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "207401",
+   "name": "Pavel Kaderábek",
+   "jersey": "3",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "234718",
+   "name": "Elias Cobbaut",
+   "jersey": "33",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "276334",
+   "name": "Loïc Mbe Soh",
+   "jersey": "22",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "276659",
+   "name": "Jaroslav Zelený",
+   "jersey": "30",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "284591",
+   "name": "Ki-Jana Hoever",
+   "jersey": "25",
+   "pos": "D",
+   "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/284591.png",
+   "injuries": [],
+   "photoSrc": "https://a.espncdn.com/i/headshots/soccer/players/full/284591.png"
+  },
+  {
+   "id": "306595",
+   "name": "Jakub Martinec",
+   "jersey": "4",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "311476",
+   "name": "Matej Rynes",
+   "jersey": "11",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "330298",
+   "name": "Martin Suchomel",
+   "jersey": "2",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "380527",
+   "name": "Adam Sevinsky",
+   "jersey": "19",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "382244",
+   "name": "Tobias Guddal",
+   "jersey": "6",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "385886",
+   "name": "Viktor Vitályos",
+   "jersey": "15",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "385949",
+   "name": "Uchenna Aririerisim",
+   "jersey": "16",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "403980",
+   "name": "Jonás Topic",
+   "jersey": "42",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "159996",
+   "name": "Magnus Andersen",
+   "jersey": "8",
+   "pos": "M",
+   "photo": "data/photos/61a29f73087917c1.jpg",
+   "injuries": [],
+   "dob": "1996-05-31",
+   "nat": "Denmark",
+   "natCode": "DK",
+   "height": 192,
+   "joined": "2024-08-23",
+   "birthPlace": "Frederiksberg",
+   "posInfo": "Centre Central Defender",
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p174874.png"
+  },
+  {
+   "id": "223222",
+   "name": "Roman Macek",
+   "jersey": "28",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "239253",
+   "name": "Andrew Irving",
+   "jersey": "18",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "306895",
+   "name": "Adam Karabec",
+   "jersey": "10",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "310026",
+   "name": "Matej Jurásek",
+   "jersey": "31",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "312162",
+   "name": "Sivert Mannsverk",
+   "jersey": "20",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "322792",
+   "name": "Santiago Eneme",
+   "jersey": "5",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "340212",
+   "name": "Patrik Vydra",
+   "jersey": "26",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "342633",
+   "name": "Ebrima Singhateh",
+   "jersey": "27",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "403974",
+   "name": "Hugo Sochurek",
+   "jersey": "38",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "415079",
+   "name": "Ondrej Penxa",
+   "jersey": "52",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "297141",
+   "name": "John Mercado",
+   "jersey": "17",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "302516",
+   "name": "Joao Grimaldo",
+   "jersey": "21",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "312933",
+   "name": "Jonatan Brunes",
+   "jersey": "14",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "328393",
+   "name": "Josimar Alcócer",
+   "jersey": "7",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "385849",
+   "name": "Matyás Vojta",
+   "jersey": "29",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  }
+ ]
+}

@@ -1,0 +1,277 @@
+{
+ "updatedAt": "2026-10-26T23:57:57Z",
+ "id": "7911",
+ "name": "TSG Hoffenheim",
+ "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png",
+ "manager": {
+  "name": "Christian Ilzer",
+  "role": "Manager",
+  "nat": "Austria",
+  "natCode": null,
+  "dob": "1977-10-21",
+  "source": "wikidata"
+ },
+ "players": [
+  {
+   "id": "138213",
+   "name": "Oliver Baumann",
+   "jersey": "1",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "304795",
+   "name": "Luca Philipp",
+   "jersey": "37",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "364646",
+   "name": "Lúkas Petersson",
+   "jersey": "36",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "191209",
+   "name": "Vladimír Coufal",
+   "jersey": "34",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "218980",
+   "name": "Bernardo",
+   "jersey": "13",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "238025",
+   "name": "Koki Machida",
+   "jersey": "28",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "266565",
+   "name": "Ozan Kabak",
+   "jersey": "5",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "277301",
+   "name": "Valentin Gendrey",
+   "jersey": "15",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "307567",
+   "name": "Albian Hajdari",
+   "jersey": "21",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "320939",
+   "name": "Alexander Prass",
+   "jersey": "22",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "322510",
+   "name": "Robin Hranác",
+   "jersey": "2",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "359744",
+   "name": "Mats Rots",
+   "jersey": "39",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "403802",
+   "name": "Natnael Abraha",
+   "jersey": "29",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "418789",
+   "name": "Valentin Lässig",
+   "jersey": "47",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "3098291",
+   "name": "Sean Dulic",
+   "jersey": "4",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "3111131",
+   "name": "Tristan Spranger",
+   "jersey": "40",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "274860",
+   "name": "Wouter Burger",
+   "jersey": "18",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "300095",
+   "name": "Patrick Wimmer",
+   "jersey": "8",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "336355",
+   "name": "Bambasé Conté",
+   "jersey": "20",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "362590",
+   "name": "Leon Avdullahu",
+   "jersey": "7",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "383188",
+   "name": "Luis Engelns",
+   "jersey": "16",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "386884",
+   "name": "Nathan De Cat",
+   "jersey": "17",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "407682",
+   "name": "Cajetan Lenz",
+   "jersey": "32",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "139520",
+   "name": "Andrej Kramaric",
+   "jersey": "27",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "292169",
+   "name": "Adam Hlozek",
+   "jersey": "10",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "303792",
+   "name": "Tim Lemperle",
+   "jersey": "19",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "331057",
+   "name": "Fisnik Asllani",
+   "jersey": "11",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "338854",
+   "name": "Adam Daghim",
+   "jersey": "14",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "372035",
+   "name": "Max Moerstedt",
+   "jersey": "9",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  }
+ ]
+}

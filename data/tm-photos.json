@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-26T23:54:27Z",
+ "updatedAt": "2026-10-26T23:57:57Z",
  "clubs": {
   "manchester united": {
    "id": 985,
@@ -1868,6 +1868,41 @@
     "hamza abdelkarim": "https://img.a.transfermarkt.technology/portrait/header/1259085-1780899447.jpg?lm=4711",
     "abdelkarim": "https://img.a.transfermarkt.technology/portrait/header/1259085-1780899447.jpg?lm=4711"
    }
+  },
+  "aek athens": {
+   "id": null,
+   "slug": null,
+   "name": null,
+   "fetchedAt": "2026-10-26T23:57:57Z",
+   "players": {}
+  },
+  "slavia prague": {
+   "id": 62,
+   "slug": "club",
+   "name": "SK Slavia Prague",
+   "fetchedAt": "2026-10-26T23:57:57Z",
+   "players": {}
+  },
+  "rb leipzig": {
+   "id": 23826,
+   "slug": "club",
+   "name": "RB Leipzig",
+   "fetchedAt": "2026-10-26T23:57:57Z",
+   "players": {}
+  },
+  "sparta prague": {
+   "id": 197,
+   "slug": "club",
+   "name": "AC Sparta Prague",
+   "fetchedAt": "2026-10-26T23:57:57Z",
+   "players": {}
+  },
+  "tsg hoffenheim": {
+   "id": 533,
+   "slug": "club",
+   "name": "TSG 1899 Hoffenheim",
+   "fetchedAt": "2026-10-26T23:57:57Z",
+   "players": {}
   }
  }
 }

@@ -1,0 +1,356 @@
+{
+ "updatedAt": "2026-10-26T23:57:57Z",
+ "id": "494",
+ "name": "Slavia Prague",
+ "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/494.png",
+ "manager": {
+  "name": "Jindřich Trpišovský",
+  "role": "Manager",
+  "nat": "Czech Republic",
+  "natCode": null,
+  "dob": "1976-02-27",
+  "source": "wikidata"
+ },
+ "players": [
+  {
+   "id": "159130",
+   "name": "Ondrej Kolar",
+   "jersey": "1",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "291407",
+   "name": "Jakub Markovic",
+   "jersey": "35",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "411696",
+   "name": "Adam Rezek",
+   "jersey": null,
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "412120",
+   "name": "Nazar Domchak",
+   "jersey": "29",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "220165",
+   "name": "Ange N'Guessan",
+   "jersey": "6",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "271265",
+   "name": "Igoh Ogbu",
+   "jersey": "5",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "280885",
+   "name": "Tomás Holes",
+   "jersey": "3",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "283008",
+   "name": "Tomás Vlcek",
+   "jersey": "27",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "290116",
+   "name": "David Zima",
+   "jersey": "4",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "335996",
+   "name": "David Jurásek",
+   "jersey": "39",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "352303",
+   "name": "Mikulás Konecny",
+   "jersey": "42",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "370744",
+   "name": "Stepán Chaloupek",
+   "jersey": "2",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "395008",
+   "name": "Jakub Kolísek",
+   "jersey": null,
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "403926",
+   "name": "David Barcot",
+   "jersey": "47",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "413840",
+   "name": "Miguel Solarte",
+   "jersey": null,
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "413940",
+   "name": "Eliás Piták",
+   "jersey": "43",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "417931",
+   "name": "Samuel Isife",
+   "jersey": "14",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "3099524",
+   "name": "Oskar Kubiak",
+   "jersey": "8",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "3101991",
+   "name": "Pavel Behenský",
+   "jersey": null,
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "249525",
+   "name": "Michal Sadílek",
+   "jersey": "23",
+   "pos": "M",
+   "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/249525.png",
+   "injuries": [],
+   "photoSrc": "https://a.espncdn.com/i/headshots/soccer/players/full/249525.png"
+  },
+  {
+   "id": "256751",
+   "name": "David Moses",
+   "jersey": "16",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "294618",
+   "name": "Lukás Provod",
+   "jersey": "17",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "406125",
+   "name": "Toumani Diakité",
+   "jersey": "22",
+   "pos": "M",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p242882.png",
+   "injuries": [],
+   "dob": "2001-01-06",
+   "nat": "France",
+   "natCode": "FR",
+   "height": 185,
+   "joined": "2025-08-13",
+   "birthPlace": "Toulouse",
+   "posInfo": "Centre Central Defender",
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p242882.png"
+  },
+  {
+   "id": "410093",
+   "name": "Wiktor Nowak",
+   "jersey": "30",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "414121",
+   "name": "Adam Rajnoha",
+   "jersey": null,
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "418535",
+   "name": "Mubarak Suleiman",
+   "jersey": "15",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "419800",
+   "name": "Izuchukwu Okonkwo",
+   "jersey": null,
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "420913",
+   "name": "Pavel Kacor",
+   "jersey": "32",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "3098601",
+   "name": "Emmanuel Dennis Ayaosi",
+   "jersey": "20",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "3101981",
+   "name": "Karel Belžík",
+   "jersey": "48",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "175766",
+   "name": "Ivan Schranz",
+   "jersey": "26",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "257336",
+   "name": "Tomás Chorý",
+   "jersey": "25",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "322169",
+   "name": "Danijel Sturm",
+   "jersey": "10",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "343733",
+   "name": "Mojmír Chytil",
+   "jersey": "13",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "403778",
+   "name": "Petr Potmesil",
+   "jersey": "60",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "3098598",
+   "name": "Adonija Bryan Ouanda",
+   "jersey": "18",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "3111595",
+   "name": "Matěj Kotrba",
+   "jersey": "53",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  }
+ ]
+}

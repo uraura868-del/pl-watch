@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-27T00:27:25Z",
+ "updatedAt": "2026-10-27T02:00:12Z",
  "players": {
   "david raya": {
    "name": "David Raya",
@@ -400,7 +400,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": null,
-   "joined": "2025-02-06",
+   "joined": "2026-01-27",
    "birthPlace": "London",
    "posInfo": "Centre Defensive Midfielder"
   },
@@ -413,7 +413,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": null,
-   "joined": "2024-10-04",
+   "joined": "2026-07-30",
    "birthPlace": "London",
    "posInfo": "Centre Central Midfielder"
   },
@@ -712,7 +712,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 193,
-   "joined": "2025-08-14",
+   "joined": "2026-07-01",
    "birthPlace": null,
    "posInfo": "Goalkeeper"
   },
@@ -725,7 +725,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 188,
-   "joined": "2021-08-30",
+   "joined": "2023-03-31",
    "birthPlace": null,
    "posInfo": "Goalkeeper"
   },
@@ -737,7 +737,7 @@
    "dob": "2007-03-04",
    "nat": "England",
    "natCode": "GB-ENG",
-   "height": null,
+   "height": 182,
    "joined": "2025-08-05",
    "birthPlace": null,
    "posInfo": "Central Midfielder"
@@ -1479,7 +1479,7 @@
    "nat": "Portugal",
    "natCode": "PT",
    "height": 170,
-   "joined": "2025-10-15",
+   "joined": "2024-08-12",
    "birthPlace": "Torres Vedras",
    "posInfo": "Left/Centre/Right Attacking Midfielder"
   },
@@ -1492,7 +1492,7 @@
    "nat": "Portugal",
    "natCode": "PT",
    "height": 170,
-   "joined": "2025-10-15",
+   "joined": "2024-08-12",
    "birthPlace": "Torres Vedras",
    "posInfo": "Left/Centre/Right Attacking Midfielder"
   },
@@ -1661,7 +1661,7 @@
    "nat": "Brazil",
    "natCode": "BR",
    "height": 173,
-   "joined": "2025-10-15",
+   "joined": "2024-08-28",
    "birthPlace": "São Vicente do Sul",
    "posInfo": "Left Winger"
   },
@@ -1674,7 +1674,7 @@
    "nat": "Brazil",
    "natCode": "BR",
    "height": 173,
-   "joined": "2025-10-15",
+   "joined": "2024-08-28",
    "birthPlace": "São Vicente do Sul",
    "posInfo": "Left Winger"
   },
@@ -1687,7 +1687,7 @@
    "nat": "Nigeria",
    "natCode": "NG",
    "height": 187,
-   "joined": "2023-09-14",
+   "joined": "2024-01-05",
    "birthPlace": "Kaduna",
    "posInfo": "Centre Central Defender"
   },
@@ -2246,7 +2246,7 @@
    "nat": "Australia",
    "natCode": "AU",
    "height": 187,
-   "joined": "2024-01-26",
+   "joined": "2026-10-21",
    "birthPlace": null,
    "posInfo": "Goalkeeper"
   },
@@ -2636,7 +2636,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 187,
-   "joined": "2025-01-30",
+   "joined": "2026-07-01",
    "birthPlace": "Sydney",
    "posInfo": "Central Midfielder"
   },
@@ -2649,7 +2649,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 187,
-   "joined": "2025-01-30",
+   "joined": "2026-07-01",
    "birthPlace": "Sydney",
    "posInfo": "Central Midfielder"
   },
@@ -2805,7 +2805,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 183,
-   "joined": "2026-10-12",
+   "joined": "2022-01-17",
    "birthPlace": null,
    "posInfo": "Left Full Back"
   },
@@ -3429,7 +3429,7 @@
    "nat": "Mali",
    "natCode": "ML",
    "height": 180,
-   "joined": "2026-03-05",
+   "joined": "2022-07-11",
    "birthPlace": "Bamako",
    "posInfo": "Centre Defensive Midfielder"
   },
@@ -3494,7 +3494,7 @@
    "nat": "United States",
    "natCode": "US",
    "height": 180,
-   "joined": "2026-08-21",
+   "joined": "2026-08-18",
    "birthPlace": "West Valley City",
    "posInfo": "Right Winger"
   },
@@ -3566,13 +3566,13 @@
   "sebastian williams": {
    "name": "Sebastian Williams",
    "team": "Crystal Palace",
-   "jersey": 8,
+   "jersey": 43,
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p577729.png",
    "dob": "2007-01-10",
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 185,
-   "joined": "2024-02-25",
+   "joined": "2026-09-16",
    "birthPlace": null,
    "posInfo": "Attacking Midfielder"
   },
@@ -3585,7 +3585,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 170,
-   "joined": "2023-01-20",
+   "joined": "2024-07-30",
    "birthPlace": null,
    "posInfo": "Right Full Back"
   },
@@ -4326,7 +4326,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": null,
-   "joined": "2023-10-30",
+   "joined": "2026-08-26",
    "birthPlace": null,
    "posInfo": "Left Full Back"
   },
@@ -5964,7 +5964,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 175,
-   "joined": "2026-02-02",
+   "joined": "2023-07-18",
    "birthPlace": "Morpeth",
    "posInfo": "Centre Defensive Midfielder"
   },
@@ -6058,19 +6058,6 @@
    "joined": "2024-02-20",
    "birthPlace": "Liverpool",
    "posInfo": "Centre Striker"
-  },
-  "will wright": {
-   "name": "Will Wright",
-   "team": "Liverpool",
-   "jersey": 79,
-   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p677945.png",
-   "dob": "2008-04-03",
-   "nat": "England",
-   "natCode": "GB-ENG",
-   "height": 190,
-   "joined": "2025-08-04",
-   "birthPlace": null,
-   "posInfo": "Forward"
   },
   "victor munoz": {
    "name": "Víctor Muñoz",
@@ -6497,7 +6484,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 174,
-   "joined": "2024-10-28",
+   "joined": "2025-09-26",
    "birthPlace": "London",
    "posInfo": "Left/Right Winger"
   },
@@ -6900,7 +6887,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 180,
-   "joined": "2024-08-19",
+   "joined": "2024-07-12",
    "birthPlace": "Manchester",
    "posInfo": "Centre/Right Attacking Midfielder"
   },
@@ -6913,7 +6900,7 @@
    "nat": "Scotland",
    "natCode": "GB-SCT",
    "height": 183,
-   "joined": "2024-09-30",
+   "joined": "2025-05-26",
    "birthPlace": "Manchester",
    "posInfo": "Centre Central Midfielder"
   },
@@ -7017,7 +7004,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 181,
-   "joined": "2024-02-18",
+   "joined": "2024-04-06",
    "birthPlace": "London",
    "posInfo": "Left Full Back"
   },
@@ -7128,13 +7115,13 @@
   "shea lacey": {
    "name": "Shea Lacey",
    "team": "Manchester United",
-   "jersey": 61,
+   "jersey": 31,
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p576628.png",
    "dob": "2007-04-14",
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 167,
-   "joined": "2023-01-23",
+   "joined": "2025-05-26",
    "birthPlace": "Liverpool",
    "posInfo": "Right Winger"
   },
@@ -8148,7 +8135,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 174,
-   "joined": "2023-01-29",
+   "joined": "2018-07-30",
    "birthPlace": "Hemel Hempstead",
    "posInfo": "Centre Central Midfielder"
   },
@@ -8161,7 +8148,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 174,
-   "joined": "2023-01-29",
+   "joined": "2018-07-30",
    "birthPlace": "Hemel Hempstead",
    "posInfo": "Centre Central Midfielder"
   },
@@ -8460,7 +8447,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 182,
-   "joined": "2022-07-01",
+   "joined": "2025-08-24",
    "birthPlace": null,
    "posInfo": "Right Full Back"
   },
@@ -8473,7 +8460,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": null,
-   "joined": "2023-09-28",
+   "joined": "2025-08-24",
    "birthPlace": null,
    "posInfo": "Centre Attacking Midfielder"
   },
@@ -8486,7 +8473,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": null,
-   "joined": "2025-08-27",
+   "joined": "2026-07-24",
    "birthPlace": null,
    "posInfo": "Attacking Midfielder"
   },
@@ -8499,9 +8486,9 @@
    "nat": "Ukraine",
    "natCode": "UA",
    "height": 183,
-   "joined": "2023-04-13",
+   "joined": "2024-08-30",
    "birthPlace": "Bakhchysaray",
-   "posInfo": "Centre Striker"
+   "posInfo": "Left Winger"
   },
   "antonin kinsky": {
    "name": "Antonín Kinsky",
@@ -8746,7 +8733,7 @@
    "nat": "Brazil",
    "natCode": "BR",
    "height": 184,
-   "joined": "2026-10-12",
+   "joined": "2022-07-01",
    "birthPlace": "Nova Venécia",
    "posInfo": "Left/Centre/Right Second Striker"
   },
@@ -8759,7 +8746,7 @@
    "nat": "Brazil",
    "natCode": "BR",
    "height": 184,
-   "joined": "2026-10-12",
+   "joined": "2022-07-01",
    "birthPlace": "Nova Venécia",
    "posInfo": "Left/Centre/Right Second Striker"
   },

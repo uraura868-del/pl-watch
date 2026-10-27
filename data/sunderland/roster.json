@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-27T00:27:25Z",
+ "updatedAt": "2026-10-27T02:00:12Z",
  "manager": {
   "name": "Régis Le Bris",
   "role": "Manager",
@@ -132,7 +132,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 182,
-   "joined": "2022-07-01",
+   "joined": "2025-08-24",
    "birthPlace": null,
    "posInfo": "Right Full Back",
    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p232356.png"
@@ -228,7 +228,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 174,
-   "joined": "2023-01-29",
+   "joined": "2018-07-30",
    "birthPlace": "Hemel Hempstead",
    "posInfo": "Centre Central Midfielder",
    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/282939-1724770104.jpg?lm=4711"
@@ -260,7 +260,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": null,
-   "joined": "2023-09-28",
+   "joined": "2025-08-24",
    "birthPlace": null,
    "posInfo": "Centre Attacking Midfielder",
    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p570929.png"
@@ -356,7 +356,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": null,
-   "joined": "2025-08-27",
+   "joined": "2026-07-24",
    "birthPlace": null,
    "posInfo": "Attacking Midfielder",
    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p629583.png"
@@ -484,9 +484,9 @@
    "nat": "Ukraine",
    "natCode": "UA",
    "height": 183,
-   "joined": "2023-04-13",
+   "joined": "2024-08-30",
    "birthPlace": "Bakhchysaray",
-   "posInfo": "Centre Striker",
+   "posInfo": "Left Winger",
    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p604211.png"
   },
   {

@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-27T02:00:12Z",
+ "updatedAt": "2026-10-27T07:42:47Z",
  "enabled": true,
  "players": {
   "249527": {
@@ -26,6 +26,131 @@
     }
    ],
    "fetchedAt": "2026-10-26T12:38:46Z"
+  },
+  "275599": {
+   "name": "Caoimhín Kelleher",
+   "query": "Caoimhín Kelleher skills",
+   "videos": [
+    {
+     "id": "58RbkfCLJMY",
+     "title": "Caoimhín Kelleher ◐ The Star ◑ Best Saves & Skills 2025/26 ∣ HD",
+     "channel": "Full Time Goalkeepers",
+     "publishedAt": "2025-10-13"
+    },
+    {
+     "id": "RWNpjDAFoT0",
+     "title": "Caoimhin Kelleher ● Best Saves Ever | FHD",
+     "channel": "THIS GOALKEEPER",
+     "publishedAt": "2024-02-26"
+    },
+    {
+     "id": "d8OE1zK2DNo",
+     "title": "Caoimhín Kelleher ◐ The Rising Star ◑ Impossible Saves 2024/25 ∣ HD",
+     "channel": "Full Time Goalkeepers",
+     "publishedAt": "2024-11-28"
+    }
+   ],
+   "fetchedAt": "2026-10-27T07:42:47Z"
+  },
+  "311527": {
+   "name": "Hákon Valdimarsson",
+   "query": "Hákon Valdimarsson skills",
+   "videos": [
+    {
+     "id": "5B9Rrg9y2yM",
+     "title": "Hákon Valdimarsson ● 2023",
+     "channel": "FCompsTV",
+     "publishedAt": "2023-07-24"
+    },
+    {
+     "id": "fJtf8hOM07I",
+     "title": "Long SHOTS 2026.⚽😮 | MONTAGEM RITMADA. #shorts #viral",
+     "channel": "SOURFOOTY",
+     "publishedAt": "2026-05-10"
+    },
+    {
+     "id": "NPsCJNN4CAU",
+     "title": "Elfsborgsmålvakten: \"Jag jobbar varje dag för att bli bättre\"",
+     "channel": "Borås Tidning",
+     "publishedAt": "2021-11-01"
+    }
+   ],
+   "fetchedAt": "2026-10-27T07:42:47Z"
+  },
+  "206173": {
+   "name": "Kristoffer Ajer",
+   "query": "Kristoffer Ajer skills",
+   "videos": [
+    {
+     "id": "OKx91er7WDs",
+     "title": "Kristoffer Ajer's career🇳🇴",
+     "channel": "ikickl",
+     "publishedAt": "2024-09-20"
+    },
+    {
+     "id": "nGObpOCXtPg",
+     "title": "Cancelo Response on Ajer's Banger 🥶 😈",
+     "channel": "Defender Scout",
+     "publishedAt": "2026-10-04"
+    },
+    {
+     "id": "2YI4ymLA7lw",
+     "title": "Mengenal Kristoffer ajer : tembok kokoh Brentford #football",
+     "channel": "bigergol ",
+     "publishedAt": "2025-11-23"
+    }
+   ],
+   "fetchedAt": "2026-10-27T07:42:47Z"
+  },
+  "206761": {
+   "name": "Rico Henry",
+   "query": "Rico Henry skills",
+   "videos": [
+    {
+     "id": "7hsMqfZDVgE",
+     "title": "Rico Henry - Left Back - Brentford - 2020",
+     "channel": "A.R.F. SPORTS",
+     "publishedAt": "2020-05-15"
+    },
+    {
+     "id": "5Cje_s44ixw",
+     "title": "Rico Henry | Amazing Dribblings & Defensive Skills | Wonderkid | HD |",
+     "channel": "Football Talents",
+     "publishedAt": "2018-01-31"
+    },
+    {
+     "id": "TeVfJrhyOvE",
+     "title": "Rico Henry thumps Brentford in front of Newcastle United | Premier League | NBC Sports",
+     "channel": "NBC Sports",
+     "publishedAt": "2021-11-20"
+    }
+   ],
+   "fetchedAt": "2026-10-27T07:42:47Z"
+  },
+  "270507": {
+   "name": "Sepp van den Berg",
+   "query": "Sepp van den Berg skills",
+   "videos": [
+    {
+     "id": "cT9_6SKAkTc",
+     "title": "Sepp van den Berg Deserves to be Seen in 2024!",
+     "channel": "SilvaSkills",
+     "publishedAt": "2024-04-27"
+    },
+    {
+     "id": "RWtALDDCXZI",
+     "title": "Van Den Berg 2024/25 - Defensive Skills, Passes & Tackles | HD",
+     "channel": "FUTScoutHD",
+     "publishedAt": "2025-01-08"
+    },
+    {
+     "id": "aRrJzbMB9Mc",
+     "title": "Sepp van den Berg • The Next Great Defender ?",
+     "channel": "MTFilmz",
+     "publishedAt": "2019-06-28"
+    }
+   ],
+   "fetchedAt": "2026-10-27T07:42:47Z"
   }
  }
 }

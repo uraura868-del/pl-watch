@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-27T02:00:12Z",
+ "updatedAt": "2026-10-27T07:42:47Z",
  "enabled": true,
  "players": {
   "111114": {
@@ -51,6 +51,56 @@
     }
    ],
    "fetchedAt": "2026-10-26T12:38:46Z"
+  },
+  "248761": {
+   "name": "Tom McGill",
+   "query": "Tom McGill skills",
+   "videos": [
+    {
+     "id": "C89EKtI8a3o",
+     "title": "The McGill Big 3 (HOW TO DO IT CORRECTLY)",
+     "channel": "Squat University",
+     "publishedAt": "2022-04-29"
+    },
+    {
+     "id": "7cCbKXE34Vc",
+     "title": "Cone Line Footwork",
+     "channel": "Pinnacles FC",
+     "publishedAt": "2023-07-04"
+    },
+    {
+     "id": "uzMYRO05kJw",
+     "title": "Modified Curl Up for stability! #mcgill #drstuart #backpain",
+     "channel": "Dr.Stuart McGill SpineLab",
+     "publishedAt": "2024-08-10"
+    }
+   ],
+   "fetchedAt": "2026-10-27T07:42:47Z"
+  },
+  "291609": {
+   "name": "Bart Verbruggen",
+   "query": "Bart Verbruggen skills",
+   "videos": [
+    {
+     "id": "Bgc_HNspOjY",
+     "title": "Best Of Bart Verbruggen 2024/25 | Best Saves And THAT Assist!",
+     "channel": "Official Brighton & Hove Albion FC",
+     "publishedAt": "2025-06-05"
+    },
+    {
+     "id": "qm4-JIG1Row",
+     "title": "Bart Verbruggen - Full Season Show - 2026ᴴᴰ",
+     "channel": "Brazil Scout ",
+     "publishedAt": "2026-06-30"
+    },
+    {
+     "id": "Casml1XLpFQ",
+     "title": "Bart Verbruggen's INCREDIBLE Double Save 😱",
+     "channel": "Premier League",
+     "publishedAt": "2025-12-08"
+    }
+   ],
+   "fetchedAt": "2026-10-27T07:42:47Z"
   }
  }
 }

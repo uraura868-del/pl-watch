@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-28T12:42:19Z",
+ "updatedAt": "2026-10-28T18:48:10Z",
  "manager": {
   "name": "Régis Le Bris",
   "role": "Manager",
@@ -526,7 +526,7 @@
    "name": "Felix Scott",
    "jersey": "49",
    "pos": "F",
-   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p503139.png",
+   "photo": "data/photos/cee0234cd1b4ccc5.jpg",
    "injuries": [],
    "dob": "2003-08-21",
    "nat": "England",

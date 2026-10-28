@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-28T12:42:19Z",
+ "updatedAt": "2026-10-28T18:48:10Z",
  "enabled": true,
  "players": {
   "179497": {
@@ -26,6 +26,31 @@
     }
    ],
    "fetchedAt": "2026-10-27T07:42:47Z"
+  },
+  "233241": {
+   "name": "John Victor",
+   "query": "John Victor skills",
+   "videos": [
+    {
+     "id": "JkUImTw2X4g",
+     "title": "John Victor ● Welcome to Nottingham Forest 2025 🔴🇧🇷 Best Saves, Reflexes & Passes",
+     "channel": "SVMM",
+     "publishedAt": "2025-07-12"
+    },
+    {
+     "id": "OhOUYBOLl1o",
+     "title": "John Victor 2025 - Best Saves Show | HD",
+     "channel": "LUTYHD",
+     "publishedAt": "2025-08-01"
+    },
+    {
+     "id": "r6a9AiBd4zU",
+     "title": "John Victor ► Welcome to Nottingham Forest 2025 - Saves Skills Show | HD",
+     "channel": "Scout90",
+     "publishedAt": "2025-09-04"
+    }
+   ],
+   "fetchedAt": "2026-10-28T18:48:10Z"
   }
  }
 }

@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-28T05:28:42Z",
+ "updatedAt": "2026-10-28T12:42:19Z",
  "enabled": true,
  "players": {
   "194121": {
@@ -26,6 +26,56 @@
     }
    ],
    "fetchedAt": "2026-10-27T07:42:47Z"
+  },
+  "196876": {
+   "name": "Alisson Becker",
+   "query": "Alisson Becker skills",
+   "videos": [
+    {
+     "id": "XOu6kxJaVmA",
+     "title": "The BEST Alisson Becker Moments!",
+     "channel": "Liverpool FC",
+     "publishedAt": "2026-02-12"
+    },
+    {
+     "id": "0DP8A85MELw",
+     "title": "Best Saves: Alisson Becker | Liverpool FC",
+     "channel": "Liverpool FC",
+     "publishedAt": "2024-01-03"
+    },
+    {
+     "id": "bKm-rj9H4cA",
+     "title": "Alisson Becker showboat skill🤯❤️#amazingskills #beautifulskills #footballskills",
+     "channel": "DN skills TV show ",
+     "publishedAt": "2023-05-12"
+    }
+   ],
+   "fetchedAt": "2026-10-28T12:42:19Z"
+  },
+  "274742": {
+   "name": "Giorgi Mamardashvili",
+   "query": "Giorgi Mamardashvili skills",
+   "videos": [
+    {
+     "id": "43tX3zQ7rP8",
+     "title": "¡Lo MEJOR de GIORGI MAMARDASHVILI en LALIGA!",
+     "channel": "LALIGA EA SPORTS",
+     "publishedAt": "2025-09-09"
+    },
+    {
+     "id": "TbQlS0OY2PI",
+     "title": "Big save from Mamardashvili 💪",
+     "channel": "Liverpool FC",
+     "publishedAt": "2025-07-30"
+    },
+    {
+     "id": "eeheK2Svnu8",
+     "title": "GIORGI MAMARDASHVILI ● Liverpool Transfer Target 🔴🇬🇪 Best Saves, Reflexes & Passes",
+     "channel": "SVMM",
+     "publishedAt": "2024-08-05"
+    }
+   ],
+   "fetchedAt": "2026-10-28T12:42:19Z"
   }
  }
 }

@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-28T05:28:42Z",
+ "updatedAt": "2026-10-28T12:42:19Z",
  "enabled": true,
  "players": {
   "149517": {
@@ -51,6 +51,106 @@
     }
    ],
    "fetchedAt": "2026-10-27T07:42:47Z"
+  },
+  "362553": {
+   "name": "Alex Borto",
+   "query": "Alex Borto skills",
+   "videos": [
+    {
+     "id": "nRjYYSfBnHM",
+     "title": "Alex Borto PK save",
+     "channel": "Betty Borto",
+     "publishedAt": "2019-03-06"
+    },
+    {
+     "id": "B028djQGRN8",
+     "title": "Is Alex Borto The Next Tim Howard?",
+     "channel": "Ladcast",
+     "publishedAt": "2020-12-12"
+    },
+    {
+     "id": "c-a0nqDVgpY",
+     "title": "Alex Borto, 16 year old GK Fulham FC",
+     "channel": "Betty Borto",
+     "publishedAt": "2020-08-05"
+    }
+   ],
+   "fetchedAt": "2026-10-28T12:42:19Z"
+  },
+  "190974": {
+   "name": "Kenny Tete",
+   "query": "Kenny Tete skills",
+   "videos": [
+    {
+     "id": "BvPd-0iJGQ8",
+     "title": "Kenny Tete ● Everton Transfer Target 2026 🔵🇳🇱 Best Skills & Tackles",
+     "channel": "SVMM",
+     "publishedAt": "2026-08-29"
+    },
+    {
+     "id": "kpzEXd4AnbU",
+     "title": "Kenny Tete (2017/18) - Amazing Defensive Skills, Assists, Passes, Dribbling",
+     "channel": "PassDontShoot",
+     "publishedAt": "2018-01-04"
+    },
+    {
+     "id": "NO13Rlf4OFs",
+     "title": "Referee Did Fulham Dirty… But Kenny Tete makes up for it! 🔥⚽️",
+     "channel": "ballie101",
+     "publishedAt": "2025-08-05"
+    }
+   ],
+   "fetchedAt": "2026-10-28T12:42:19Z"
+  },
+  "196081": {
+   "name": "Joachim Andersen",
+   "query": "Joachim Andersen skills",
+   "videos": [
+    {
+     "id": "_bo96b4KX98",
+     "title": "Joachim Andersen defending skills",
+     "channel": "FOOTBALL PEARLS",
+     "publishedAt": "2021-06-05"
+    },
+    {
+     "id": "ZpdKuCj26pQ",
+     "title": "Best of Joachim Andersen ▪ Art of Defending 2021 HD",
+     "channel": "Footballskillz Unleashed",
+     "publishedAt": "2021-04-17"
+    },
+    {
+     "id": "4AoVfajvLys",
+     "title": "Joachim Andersen nets Fulham equalizer against Leeds United | Premier League | NBC Sports",
+     "channel": "NBC Sports",
+     "publishedAt": "2021-03-19"
+    }
+   ],
+   "fetchedAt": "2026-10-28T12:42:19Z"
+  },
+  "197163": {
+   "name": "Timothy Castagne",
+   "query": "Timothy Castagne skills",
+   "videos": [
+    {
+     "id": "YX-Y_9zM4W8",
+     "title": "Timothy Castagne Career & Stats  ⚽ Castagne Net Worth ⚽ Age, Height, Teams",
+     "channel": "WorldGoalStats",
+     "publishedAt": "2019-11-14"
+    },
+    {
+     "id": "BzJg5VG3vTA",
+     "title": "You NEED to see these five plays! Tella's touch, Castagne's class, Mitrovic's power, Saint-Maximin's",
+     "channel": "Foot Clips",
+     "publishedAt": "2026-08-20"
+    },
+    {
+     "id": "T0pUjDZP23c",
+     "title": "Made him do the SPLITS 🕺",
+     "channel": "Premier League",
+     "publishedAt": "2025-02-28"
+    }
+   ],
+   "fetchedAt": "2026-10-28T12:42:19Z"
   }
  }
 }

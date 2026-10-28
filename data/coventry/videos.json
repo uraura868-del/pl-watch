@@ -1,5 +1,650 @@
 {
- "updatedAt": "2026-10-28T05:28:42Z",
+ "updatedAt": "2026-10-28T12:42:19Z",
  "enabled": true,
- "players": {}
+ "players": {
+  "143007": {
+   "name": "Daniel Bentley",
+   "query": "Daniel Bentley skills",
+   "videos": [
+    {
+     "id": "RyukpoqTPug",
+     "title": "DANIEL BENTLEY | BEST SAVES",
+     "channel": "Naylor United",
+     "publishedAt": "2016-03-20"
+    },
+    {
+     "id": "ZFmC1riq_d8",
+     "title": "Daniel Bentley visits the Community Sports Trust's October Soccer School",
+     "channel": "Brentford Football Club",
+     "publishedAt": "2016-10-27"
+    },
+    {
+     "id": "rZHvGgr2wq8",
+     "title": "Dan Bentley: Brentford 16/17",
+     "channel": "SamPage Videos",
+     "publishedAt": "2017-06-11"
+    }
+   ],
+   "fetchedAt": "2026-10-28T12:42:19Z"
+  },
+  "169619": {
+   "name": "Ben Wilson",
+   "query": "Ben Wilson skills",
+   "videos": [
+    {
+     "id": "fWDHEsglZFM",
+     "title": "The BEST Way to Study Audit Reports in 2026",
+     "channel": "ACCA Ben Wilson AAA",
+     "publishedAt": "2026-04-17"
+    },
+    {
+     "id": "4FlnBpSKjB0",
+     "title": "You’re Not Behind (Yet): How to Learn AAA in 21 Minutes",
+     "channel": "ACCA Ben Wilson AAA",
+     "publishedAt": "2026-02-22"
+    },
+    {
+     "id": "s2MVn33lIXk",
+     "title": "Group Accounting Explained in 15 Minutes",
+     "channel": "ACCA Ben Wilson AAA",
+     "publishedAt": "2026-04-25"
+    }
+   ],
+   "fetchedAt": "2026-10-28T12:42:19Z"
+  },
+  "307069": {
+   "name": "Carl Rushworth",
+   "query": "Carl Rushworth skills",
+   "videos": [
+    {
+     "id": "TW4eBEDwUBg",
+     "title": "Bruno to Arsenal off ? + Newcastle United WANT James Trafford or Carl Rushworth TO REPLACE NICK POPE",
+     "channel": "Adam Pearson",
+     "publishedAt": "2026-07-16"
+    },
+    {
+     "id": "E4iWeUh-vJ4",
+     "title": "Exclusive: Carl Rushworth joins the Saddlers on a season-long loan from Brighton and Hove Albion",
+     "channel": "Walsall FC Official",
+     "publishedAt": "2021-07-15"
+    },
+    {
+     "id": "7tuxe7I9BH0",
+     "title": "Rushworth has skills ⚽️ #coventry #coventrycity #coventrycityfc #cov #pusb #football #ccfc",
+     "channel": "Zain Al-Ramadani",
+     "publishedAt": "2026-08-15"
+    }
+   ],
+   "fetchedAt": "2026-10-28T12:42:19Z"
+  },
+  "143533": {
+   "name": "Jake Bidwell",
+   "query": "Jake Bidwell skills",
+   "videos": [
+    {
+     "id": "8zN6P_QROTU",
+     "title": "My Favourite Game | Jake Bidwell",
+     "channel": "Swansea City AFC",
+     "publishedAt": "2020-06-11"
+    },
+    {
+     "id": "GOFEUAJZaUI",
+     "title": "Tekkers: Ultimate Nutmeg from Jake Bidwell",
+     "channel": "Brentford Football Club",
+     "publishedAt": "2013-11-19"
+    },
+    {
+     "id": "kEhhZkFE8_g",
+     "title": "Jake Bidwell | One To Eleven",
+     "channel": "Swansea City AFC",
+     "publishedAt": "2020-04-17"
+    }
+   ],
+   "fetchedAt": "2026-10-28T12:42:19Z"
+  },
+  "206172": {
+   "name": "Jay Da Silva",
+   "query": "Jay Da Silva skills",
+   "videos": [
+    {
+     "id": "KGYqfiHlmUM",
+     "title": "THE BEST OF: JAY DASILVA",
+     "channel": "Ciara Grimstead",
+     "publishedAt": "2019-09-05"
+    },
+    {
+     "id": "4eYMSW5-f10",
+     "title": "Football Made To Look Easy 🥵",
+     "channel": "Premier League",
+     "publishedAt": "2026-09-20"
+    },
+    {
+     "id": "bZvtfd0F5mA",
+     "title": "J.Dasilva long distance #Dasulva #Brentford",
+     "channel": "FOOTBALL LEAGUE",
+     "publishedAt": "2023-08-11"
+    }
+   ],
+   "fetchedAt": "2026-10-28T12:42:19Z"
+  },
+  "241093": {
+   "name": "Ethan Pinnock",
+   "query": "Ethan Pinnock skills",
+   "videos": [
+    {
+     "id": "dNM4jmBD3pU",
+     "title": "Ethan Pinnock is Underrated ● Ethan Pinnock Defensive Skills for Brentford",
+     "channel": "90 Minutes Football",
+     "publishedAt": "2024-10-19"
+    },
+    {
+     "id": "TC91PRXxLpE",
+     "title": "Ethan Pinnock - Complete Season in 2024!",
+     "channel": "SilvaSkills",
+     "publishedAt": "2024-05-11"
+    },
+    {
+     "id": "XGAOaXEUI3A",
+     "title": "HERE'S Why Coventry City Signed 33-Year-Old Brentford Defender Ethan Pinnock 🇯🇲 😲 ",
+     "channel": "90 Minutes Football",
+     "publishedAt": "2026-08-24"
+    }
+   ],
+   "fetchedAt": "2026-10-28T12:42:19Z"
+  },
+  "260168": {
+   "name": "Joel Latibeaudiere",
+   "query": "Joel Latibeaudiere skills",
+   "videos": [
+    {
+     "id": "I5So3M-Ug_g",
+     "title": "Joel Latibeaudiere is back! 🇯🇲",
+     "channel": "Reggae Boyz Commentary",
+     "publishedAt": "2025-12-23"
+    },
+    {
+     "id": "k4Qp-vXwZSw",
+     "title": "JOEL LATIBEAUDIERE ✭ MAN CITY ✭ THE NEXT KOMPANY ✭ Skills ✭",
+     "channel": "miroP10 - The Best Football Talents",
+     "publishedAt": "2016-12-27"
+    },
+    {
+     "id": "102DYV1DJ1g",
+     "title": "Joel Latibeaudiere Swansea & Jamaica International 21/22 Season",
+     "channel": "DannyWilliamsUK",
+     "publishedAt": "2023-01-19"
+    }
+   ],
+   "fetchedAt": "2026-10-28T12:42:19Z"
+  },
+  "261083": {
+   "name": "Luke Woolfenden",
+   "query": "Luke Woolfenden skills",
+   "videos": [
+    {
+     "id": "u0KpPeg_x5Y",
+     "title": "LUKE WOOLFENDEN PRE PETERBOROUGH UNITED",
+     "channel": "Ipswich Town FC",
+     "publishedAt": "2022-12-08"
+    },
+    {
+     "id": "lK490UotP0o",
+     "title": "EFL YOUTH DEVELOPMENT WEEK | LUKE WOOLFENDEN",
+     "channel": "Ipswich Town FC",
+     "publishedAt": "2022-02-10"
+    },
+    {
+     "id": "z0n7_VdtHZE",
+     "title": "LUKE WOOLFENDEN signs for Coventry City on Deadline Day ✍️ | City Unseen EP139 ⛫",
+     "channel": "Coventry City FC",
+     "publishedAt": "2025-09-02"
+    }
+   ],
+   "fetchedAt": "2026-10-28T12:42:19Z"
+  },
+  "281139": {
+   "name": "Milan van Ewijk",
+   "query": "Milan van Ewijk skills",
+   "videos": [
+    {
+     "id": "-smaT1VKrWQ",
+     "title": "Milan Van Ewijk Is An Incredible Wing Back!",
+     "channel": "HugoFilmz",
+     "publishedAt": "2025-10-04"
+    },
+    {
+     "id": "NBxPWalfc1w",
+     "title": "Milan van Ewijk is a Brilliant Winger Back!",
+     "channel": "BlazeControl",
+     "publishedAt": "2026-01-30"
+    },
+    {
+     "id": "dkbN6hO2rio",
+     "title": "Milan van Ewijk | Skills | Coventry City | 2025",
+     "channel": "Futbol Transfer",
+     "publishedAt": "2025-07-20"
+    }
+   ],
+   "fetchedAt": "2026-10-28T12:42:19Z"
+  },
+  "294308": {
+   "name": "Kaine Kesler Hayden",
+   "query": "Kaine Kesler Hayden skills",
+   "videos": [
+    {
+     "id": "ppVAZlPG5ZM",
+     "title": "Kaine KESLER Hayden... Step by Step",
+     "channel": "Diamond 29",
+     "publishedAt": "2026-07-26"
+    },
+    {
+     "id": "ce8i-dT9vXg",
+     "title": "Kaine Kesler Hayden… Touch of an angel…",
+     "channel": "Kaine Kesler Hayden fan",
+     "publishedAt": "2022-11-21"
+    },
+    {
+     "id": "jvBHpVLOUdo",
+     "title": "Kaine Kesler Hayden - The Perfect Modern Fullback",
+     "channel": "PBcomps",
+     "publishedAt": "2021-08-04"
+    }
+   ],
+   "fetchedAt": "2026-10-28T12:42:19Z"
+  },
+  "303931": {
+   "name": "Bobby Thomas",
+   "query": "Bobby Thomas skills",
+   "videos": [
+    {
+     "id": "pOh_uWy9qBI",
+     "title": "Bobby Thomas Sent Him Flying 👋",
+     "channel": "Premier League",
+     "publishedAt": "2026-09-01"
+    },
+    {
+     "id": "XWUddu1lr6A",
+     "title": "Bobby Thomas was rocking Newcastle #epl #laliga #football #footballshorts #entertainment",
+     "channel": "Shortsssss",
+     "publishedAt": "2026-10-13"
+    },
+    {
+     "id": "T1fBvkRFq5k",
+     "title": "Bobby Thomas Is The New Dan Ballard.🧱 #footballtactics #bobbythomas #tacticalbreakdown #transfers",
+     "channel": "Ryan Hurst",
+     "publishedAt": "2026-10-13"
+    }
+   ],
+   "fetchedAt": "2026-10-28T12:42:19Z"
+  },
+  "319404": {
+   "name": "Aurèle Amenda",
+   "query": "Aurèle Amenda skills",
+   "videos": [
+    {
+     "id": "pxndfEOwCT8",
+     "title": "AURELE AMENDA | Welcome To Coventry 2026 🔵⚪ Elite Tackles, Skills & Passes (HD)",
+     "channel": "WorldOfFootballHD",
+     "publishedAt": "2024-01-04"
+    },
+    {
+     "id": "-jqBzwTahK4",
+     "title": "Aurele Amenda Is Very Underrated Young Player on FC25 Career Mode! 🔥",
+     "channel": "IvoZ",
+     "publishedAt": "2025-07-14"
+    },
+    {
+     "id": "F_bTjVWSt-c",
+     "title": "AURELE AMENDA - pronto a trasferirsi al Torino ?",
+     "channel": "Fratelli.Granata",
+     "publishedAt": "2025-08-05"
+    }
+   ],
+   "fetchedAt": "2026-10-28T12:42:19Z"
+  },
+  "374220": {
+   "name": "Stephen Mfuni",
+   "query": "Stephen Mfuni skills",
+   "videos": [
+    {
+     "id": "BZbkn_setjc",
+     "title": "'OUTSTANDING!': Stephen Mfuni stuns Newcastle with Coventry's fourth | Premier League | NBC Sports",
+     "channel": "NBC Sports",
+     "publishedAt": "2026-10-12"
+    },
+    {
+     "id": "ptFiSCn9AfU",
+     "title": "Stephen Mfuni Is So Comfortable On The Ball..",
+     "channel": "PBcomps",
+     "publishedAt": "2026-10-13"
+    },
+    {
+     "id": "ZDnpD3pKeNM",
+     "title": "Stephen Mfuni - World Class Potential",
+     "channel": "Brazil Scout ",
+     "publishedAt": "2025-12-12"
+    }
+   ],
+   "fetchedAt": "2026-10-28T12:42:19Z"
+  },
+  "191337": {
+   "name": "Matt Grimes",
+   "query": "Matt Grimes skills",
+   "videos": [
+    {
+     "id": "fOysAgKD778",
+     "title": "Matt Grimes - The Complete Midfielder",
+     "channel": "Zwodde",
+     "publishedAt": "2020-05-09"
+    },
+    {
+     "id": "UyfL9CqBLlc",
+     "title": "Matt Grimes | 10 Years at the Swans",
+     "channel": "Swansea City AFC",
+     "publishedAt": "2025-01-03"
+    },
+    {
+     "id": "OHEjVduS_1g",
+     "title": "Matt Grimes - Passes, Tackles, Interceptions & Skills",
+     "channel": "Swonz",
+     "publishedAt": "2020-09-25"
+    }
+   ],
+   "fetchedAt": "2026-10-28T12:42:19Z"
+  },
+  "236912": {
+   "name": "Gustavo Hamer",
+   "query": "Gustavo Hamer skills",
+   "videos": [
+    {
+     "id": "KCn1h2O7Am4",
+     "title": "Gustavo Hamer - Full Season Show - 2026ᴴᴰ",
+     "channel": "Brazil Scout Comps",
+     "publishedAt": "2026-05-05"
+    },
+    {
+     "id": "X-timt7vJeU",
+     "title": "Gustavo Hamer Welcome back to Coventry City 2026 Skills",
+     "channel": "90 Minutes Football",
+     "publishedAt": "2026-08-07"
+    },
+    {
+     "id": "YI22npdiHjk",
+     "title": "Gustavo Hamer - Complete Season in 2026!",
+     "channel": "SilvaSkills PLUS",
+     "publishedAt": "2026-05-09"
+    }
+   ],
+   "fetchedAt": "2026-10-28T12:42:19Z"
+  },
+  "246954": {
+   "name": "Ephron Mason-Clark",
+   "query": "Ephron Mason-Clark skills",
+   "videos": [
+    {
+     "id": "v79VfbvL75U",
+     "title": "Ephron Mason-Clark Deserves Your Attention! 2025",
+     "channel": "JM Scout",
+     "publishedAt": "2025-03-20"
+    },
+    {
+     "id": "V_vcFkfl21Q",
+     "title": "Ephron Mason-Clark SHINES | Reggae Boyz Target? | Rudolph Speid Eyeing? | Coventry City | CONCACAF",
+     "channel": "Premier 7",
+     "publishedAt": "2026-02-22"
+    },
+    {
+     "id": "85OII0wtKJQ",
+     "title": "Ephron Mason-Clark Barnet F.C. 2019/20",
+     "channel": "CSN Football Videos",
+     "publishedAt": "2020-05-28"
+    }
+   ],
+   "fetchedAt": "2026-10-28T12:42:19Z"
+  },
+  "256015": {
+   "name": "Victor Torp",
+   "query": "Victor Torp skills",
+   "videos": [
+    {
+     "id": "bq9CpQylyOY",
+     "title": "Congratulations to Victor Torp who made his 100th appearance for the Sky Blues on Tuesday night. 🩵",
+     "channel": "Coventry City FC",
+     "publishedAt": "2026-04-24"
+    },
+    {
+     "id": "HZFIB90uh9c",
+     "title": "Coventry City signs Danish midfielder VICTOR TORP! ⚡",
+     "channel": "Coventry City FC",
+     "publishedAt": "2024-01-11"
+    },
+    {
+     "id": "pZ_7c-uJb78",
+     "title": "🪄 Magic from Torp and Coventry #efl",
+     "channel": "EFL",
+     "publishedAt": "2025-08-23"
+    }
+   ],
+   "fetchedAt": "2026-10-28T12:42:19Z"
+  },
+  "258491": {
+   "name": "Frank Onyeka",
+   "query": "Frank Onyeka skills",
+   "videos": [
+    {
+     "id": "4q_H3JbXCLk",
+     "title": "Look What Frank Onyeka is Doing in The Championship 25/26! 🔥",
+     "channel": "HugoFilmz",
+     "publishedAt": "2026-04-30"
+    },
+    {
+     "id": "bSPOnCrC9Sk",
+     "title": "Frank Onyeka's first day as Coventry City player! 💼",
+     "channel": "Coventry City FC",
+     "publishedAt": "2026-02-05"
+    },
+    {
+     "id": "mnLZ6SIfPZQ",
+     "title": "Frank Onyeka’s fiery approach today 😮‍💨🔥#coventrycity #premierleague #covcovcov #pusb #nigeria",
+     "channel": "Joner Fat Cat",
+     "publishedAt": "2026-08-08"
+    }
+   ],
+   "fetchedAt": "2026-10-28T12:42:19Z"
+  },
+  "277614": {
+   "name": "Josh Eccles",
+   "query": "Josh Eccles skills",
+   "videos": [
+    {
+     "id": "VeR4aSoQ3oc",
+     "title": "Josh eccles he’s one of our own",
+     "channel": "COVENTRY BASED FAN",
+     "publishedAt": "2023-10-01"
+    },
+    {
+     "id": "7irtPKNEhnI",
+     "title": "Josh Eccles signs new LONG-TERM deal with the Sky Blues | \"It's a dream come true!\"",
+     "channel": "Coventry City FC",
+     "publishedAt": "2023-01-12"
+    },
+    {
+     "id": "bmfo1bO0ViQ",
+     "title": "Football's Smoothest Elastico 🤯",
+     "channel": "JM-Haz",
+     "publishedAt": "2026-06-05"
+    }
+   ],
+   "fetchedAt": "2026-10-28T12:42:19Z"
+  },
+  "286967": {
+   "name": "Jack Rudoni",
+   "query": "Jack Rudoni skills",
+   "videos": [
+    {
+     "id": "aX3mzmhkruM",
+     "title": "Look What Jack Rudoni is Doing At Coventry 25/26!",
+     "channel": "HugoFilmz",
+     "publishedAt": "2026-03-01"
+    },
+    {
+     "id": "wgtPWooRtjY",
+     "title": "My Journey to the Premier League | Jack Rudoni",
+     "channel": "Jack Rudoni",
+     "publishedAt": "2026-10-13"
+    },
+    {
+     "id": "RCIVSKeqUFo",
+     "title": "Jack Rudoni - Welcome to Newcastle United",
+     "channel": "90 Minutes Football",
+     "publishedAt": "2025-05-23"
+    }
+   ],
+   "fetchedAt": "2026-10-28T12:42:19Z"
+  },
+  "302002": {
+   "name": "Tatsuhiro Sakamoto",
+   "query": "Tatsuhiro Sakamoto skills",
+   "videos": [
+    {
+     "id": "C06cbVAy0VU",
+     "title": "From Japan to the Motor City 🇯🇵 | Tatsuhiro Sakamoto & Ayao Komatsu’s story | Sent to Coventry",
+     "channel": "Coventry City FC",
+     "publishedAt": "2026-03-26"
+    },
+    {
+     "id": "_8i21PnnD2k",
+     "title": "100 City appearances for Tatsuhiro Sakamoto! 🩵",
+     "channel": "Coventry City FC",
+     "publishedAt": "2025-12-31"
+    },
+    {
+     "id": "qT02AsHxTWE",
+     "title": "Tatsuhiro Sakamoto. EPL Quality? #football #premierleague #coventrycityfc #championship #epl",
+     "channel": "GoalThread Media",
+     "publishedAt": "2025-12-10"
+    }
+   ],
+   "fetchedAt": "2026-10-28T12:42:19Z"
+  },
+  "387659": {
+   "name": "Caleb Yirenkyi",
+   "query": "Caleb Yirenkyi skills",
+   "videos": [
+    {
+     "id": "BXT-Ma204c8",
+     "title": "BREAKING   CALEB YIRENKYI TO REAL MADRID DETAILS",
+     "channel": "Sahara Football",
+     "publishedAt": "2026-06-05"
+    },
+    {
+     "id": "v8bQU-oPo4w",
+     "title": "Who Is Caleb Yirenkyi? 👀 Arsenal Fans Need to Watch This Talent",
+     "channel": "Robz Arsenal Recap",
+     "publishedAt": "2026-06-23"
+    },
+    {
+     "id": "t7HlDL2Pi1o",
+     "title": "Caleb Yirenkyi - Complete Season in 2026!",
+     "channel": "SilvaSkills",
+     "publishedAt": "2026-06-05"
+    }
+   ],
+   "fetchedAt": "2026-10-28T12:42:19Z"
+  },
+  "194686": {
+   "name": "Taiwo Awoniyi",
+   "query": "Taiwo Awoniyi skills",
+   "videos": [
+    {
+     "id": "tWT8sWLt9OI",
+     "title": "Taiwo Awoniyi | Skills & Dribbling | Nottingham Forest | 2025",
+     "channel": "Futbol Transfer",
+     "publishedAt": "2025-06-22"
+    },
+    {
+     "id": "-jBHOXect48",
+     "title": "Taiwo Awoniyi gives Nottingham Forest fast start against Fulham | Premier League | NBC Sports",
+     "channel": "NBC Sports",
+     "publishedAt": "2022-09-16"
+    }
+   ],
+   "fetchedAt": "2026-10-28T12:42:19Z"
+  },
+  "220474": {
+   "name": "Haji Wright",
+   "query": "Haji Wright skills",
+   "videos": [
+    {
+     "id": "t5ytkD_o2eo",
+     "title": "Haji Wright is On Fire in 2025! 🔥",
+     "channel": "HugoFilmz",
+     "publishedAt": "2025-10-16"
+    },
+    {
+     "id": "lacR7r-j3QA",
+     "title": "Haji Wright builds the perfect baller 🤩",
+     "channel": "GOAL BACKUP",
+     "publishedAt": "2023-12-18"
+    },
+    {
+     "id": "yWTnhqjJTao",
+     "title": "The Championship Has A Haji Wright Problem",
+     "channel": "PedTalksSports",
+     "publishedAt": "2026-04-01"
+    }
+   ],
+   "fetchedAt": "2026-10-28T12:42:19Z"
+  },
+  "240495": {
+   "name": "Brandon Thomas-Asante",
+   "query": "Brandon Thomas-Asante skills",
+   "videos": [
+    {
+     "id": "6npnt2v8bso",
+     "title": "Ghana Black Stars New Striker Brandon Thomas-Asante dance moves #ghana #blackstars #osikanitv #dance",
+     "channel": "OSIKANI tv",
+     "publishedAt": "2024-06-03"
+    },
+    {
+     "id": "4fGO6Aq_NPo",
+     "title": "BRANDON THOMAS-ASANTE SCORES A SCREAMER AGAINST SWANSEA! 😮‍💨",
+     "channel": "Coventry City FC",
+     "publishedAt": "2025-02-01"
+    },
+    {
+     "id": "q8CJZp7GEBU",
+     "title": "U can't ignore Brandon Thomas-Asante  and Antoine Semenyo as Wright and Keane analyse ",
+     "channel": "OXZY TV ",
+     "publishedAt": "2026-06-12"
+    }
+   ],
+   "fetchedAt": "2026-10-28T12:42:19Z"
+  },
+  "277383": {
+   "name": "Yann Gboho",
+   "query": "Yann Gboho skills",
+   "videos": [
+    {
+     "id": "9hDJY6qIaCU",
+     "title": "YANN GBOHO | The Definition of Underrated! 🔥",
+     "channel": "Le Talent Comps",
+     "publishedAt": "2026-09-09"
+    },
+    {
+     "id": "MhtevCLkBnw",
+     "title": "Yann Gboho - Saucy Boy - 2026ᴴᴰ",
+     "channel": "Brazil Scout ",
+     "publishedAt": "2026-02-23"
+    },
+    {
+     "id": "GrcPI_x96Ws",
+     "title": "Yann Gboho Turns the Left Side Into a Trap 🎯",
+     "channel": "BlazeControl",
+     "publishedAt": "2026-05-12"
+    }
+   ],
+   "fetchedAt": "2026-10-28T12:42:19Z"
+  }
+ }
 }

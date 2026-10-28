@@ -1,8 +1,8 @@
 {
  "eventId": "401921841",
  "date": "2026-10-28T19:45:00Z",
- "final": false,
- "updatedAt": "2026-10-28T18:48:10Z",
+ "final": true,
+ "updatedAt": "2026-10-28T23:08:30Z",
  "team": {
   "formation": "4-2-3-1",
   "rows": [
@@ -10,19 +10,19 @@
     "149517"
    ],
    [
-    "190974",
     "222396",
+    "263110",
     "196081",
-    "263110"
-   ],
-   [
-    "12172",
-    "175063"
+    "190974"
    ],
    [
     "336460",
-    "307111",
     "218998"
+   ],
+   [
+    "12172",
+    "175063",
+    "307111"
    ],
    [
     "301525"
@@ -42,43 +42,52 @@
     "id": "263110",
     "name": "Calvin Bassey",
     "jersey": "3",
-    "pos": "D",
+    "pos": "CD-L",
     "starter": true,
     "place": "6",
     "photo": "data/photos/a727b0555d2ef9cc.jpg"
    },
    {
-    "id": "190974",
-    "name": "Kenny Tete",
-    "jersey": "2",
-    "pos": "D",
-    "starter": true,
-    "place": "2",
-    "photo": "data/photos/6af80840edaf73d1.jpg"
-   },
-   {
-    "id": "222396",
-    "name": "Antonee Robinson",
-    "jersey": "33",
-    "pos": "D",
-    "starter": true,
-    "place": "3",
-    "photo": "data/photos/7e55a5e654f40ceb.jpg"
-   },
-   {
     "id": "196081",
     "name": "Joachim Andersen",
     "jersey": "5",
-    "pos": "D",
+    "pos": "CD-R",
     "starter": true,
     "place": "5",
     "photo": "data/photos/314f6b6b3fae6264.jpg"
    },
    {
+    "id": "222396",
+    "name": "Antonee Robinson",
+    "jersey": "33",
+    "pos": "LB",
+    "starter": true,
+    "place": "3",
+    "photo": "data/photos/7e55a5e654f40ceb.jpg"
+   },
+   {
+    "id": "190974",
+    "name": "Kenny Tete",
+    "jersey": "2",
+    "pos": "RB",
+    "starter": true,
+    "place": "2",
+    "photo": "data/photos/6af80840edaf73d1.jpg"
+   },
+   {
+    "id": "175063",
+    "name": "Alex Iwobi",
+    "jersey": "17",
+    "pos": "AM",
+    "starter": true,
+    "place": "10",
+    "photo": "data/photos/945352eb79da69ee.jpg"
+   },
+   {
     "id": "336460",
     "name": "Hugo Larsson",
     "jersey": "15",
-    "pos": "M",
+    "pos": "LM",
     "starter": true,
     "place": "4",
     "photo": "data/photos/2bda4e0b49a3dbc9.jpg"
@@ -87,37 +96,10 @@
     "id": "218998",
     "name": "Sander Berge",
     "jersey": "16",
-    "pos": "M",
+    "pos": "RM",
     "starter": true,
     "place": "8",
     "photo": "data/photos/c777a009802aa592.jpg"
-   },
-   {
-    "id": "12172",
-    "name": "César Palacios",
-    "jersey": "8",
-    "pos": "M",
-    "starter": true,
-    "place": "10",
-    "photo": "data/photos/51765eda0f51b6d6.jpg"
-   },
-   {
-    "id": "175063",
-    "name": "Alex Iwobi",
-    "jersey": "17",
-    "pos": "M",
-    "starter": true,
-    "place": "11",
-    "photo": "data/photos/945352eb79da69ee.jpg"
-   },
-   {
-    "id": "307111",
-    "name": "Oscar Bobb",
-    "jersey": "14",
-    "pos": "M",
-    "starter": true,
-    "place": "7",
-    "photo": "data/photos/a60816cce279b4e8.jpg"
    },
    {
     "id": "301525",
@@ -127,6 +109,24 @@
     "starter": true,
     "place": "9",
     "photo": "data/photos/e5bac6b511e2673e.jpg"
+   },
+   {
+    "id": "12172",
+    "name": "César Palacios",
+    "jersey": "8",
+    "pos": "AM-L",
+    "starter": true,
+    "place": "11",
+    "photo": "data/photos/51765eda0f51b6d6.jpg"
+   },
+   {
+    "id": "307111",
+    "name": "Oscar Bobb",
+    "jersey": "14",
+    "pos": "AM-R",
+    "starter": true,
+    "place": "7",
+    "photo": "data/photos/a60816cce279b4e8.jpg"
    }
   ],
   "bench": [
@@ -223,18 +223,18 @@
    ],
    [
     "388605",
-    "225426",
-    "272585"
-   ],
-   [
-    "288924",
-    "315668",
-    "276546",
+    "272585",
     "197399"
    ],
    [
+    "266628",
     "168421",
-    "266628"
+    "225426",
+    "276546"
+   ],
+   [
+    "288924",
+    "315668"
    ],
    [
     "259486"
@@ -252,90 +252,70 @@
     "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p172649.png"
    },
    {
-    "id": "225426",
-    "name": "Ben Chilwell",
-    "jersey": "33",
-    "pos": "D",
+    "id": "272585",
+    "name": "Chris Richards",
+    "jersey": "26",
+    "pos": "CD",
     "starter": true,
     "place": "5",
-    "photo": "data/photos/6c76c9219cfbc090.jpg",
-    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p172850.png"
+    "photo": "data/photos/ac9c23bcca8be5db.jpg",
+    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p427623.png"
    },
    {
     "id": "388605",
     "name": "Honest Ahanor",
     "jersey": "21",
-    "pos": "D",
+    "pos": "CD-L",
     "starter": true,
     "place": "4",
     "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p605972.png",
     "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p605972.png"
    },
    {
-    "id": "272585",
-    "name": "Chris Richards",
-    "jersey": "26",
-    "pos": "D",
+    "id": "197399",
+    "name": "Jefferson Lerma",
+    "jersey": "8",
+    "pos": "CD-R",
     "starter": true,
     "place": "6",
-    "photo": "data/photos/ac9c23bcca8be5db.jpg",
-    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p427623.png"
-   },
-   {
-    "id": "168421",
-    "name": "Will Hughes",
-    "jersey": "19",
-    "pos": "M",
-    "starter": true,
-    "place": "7",
-    "photo": "data/photos/fe923013c43f44e7.jpg",
-    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p108413.png"
-   },
-   {
-    "id": "315668",
-    "name": "Darío Osorio",
-    "jersey": "24",
-    "pos": "M",
-    "starter": true,
-    "place": "11",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p533646.png",
-    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p533646.png"
-   },
-   {
-    "id": "288924",
-    "name": "Evann Guessand",
-    "jersey": "29",
-    "pos": "M",
-    "starter": true,
-    "place": "10",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p485337.png",
-    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p485337.png"
+    "photo": "data/photos/b9bb52327ce52014.jpg",
+    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p152551.png"
    },
    {
     "id": "266628",
     "name": "Cheick Doucouré",
     "jersey": "28",
-    "pos": "M",
+    "pos": "CM-L",
     "starter": true,
     "place": "8",
     "photo": "data/photos/18603ee047683530.jpg",
     "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p438464.png"
    },
    {
-    "id": "197399",
-    "name": "Jefferson Lerma",
-    "jersey": "8",
-    "pos": "M",
+    "id": "168421",
+    "name": "Will Hughes",
+    "jersey": "19",
+    "pos": "CM-R",
+    "starter": true,
+    "place": "7",
+    "photo": "data/photos/fe923013c43f44e7.jpg",
+    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p108413.png"
+   },
+   {
+    "id": "225426",
+    "name": "Ben Chilwell",
+    "jersey": "33",
+    "pos": "LM",
     "starter": true,
     "place": "3",
-    "photo": "data/photos/b9bb52327ce52014.jpg",
-    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p152551.png"
+    "photo": "data/photos/6c76c9219cfbc090.jpg",
+    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p172850.png"
    },
    {
     "id": "276546",
     "name": "Óscar Mingueza",
     "jersey": "30",
-    "pos": "M",
+    "pos": "RM",
     "starter": true,
     "place": "2",
     "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p242313.png",
@@ -350,6 +330,26 @@
     "place": "9",
     "photo": "data/photos/b9272819b795b7f9.jpg",
     "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p205533.png"
+   },
+   {
+    "id": "288924",
+    "name": "Evann Guessand",
+    "jersey": "29",
+    "pos": "CF-L",
+    "starter": true,
+    "place": "11",
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p485337.png",
+    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p485337.png"
+   },
+   {
+    "id": "315668",
+    "name": "Darío Osorio",
+    "jersey": "24",
+    "pos": "CF-R",
+    "starter": true,
+    "place": "10",
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p533646.png",
+    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p533646.png"
    }
   ],
   "bench": [

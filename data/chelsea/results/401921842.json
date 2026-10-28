@@ -1,0 +1,31 @@
+{
+ "eventId": "401921842",
+ "date": "2026-10-28T20:00:00Z",
+ "opponent": {
+  "name": "Liverpool",
+  "abbr": "LIV"
+ },
+ "isHome": false,
+ "score": {
+  "us": 1,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Morgan Rogers",
+   "assist": null,
+   "minute": "40'",
+   "kind": "pen"
+  },
+  {
+   "side": "opp",
+   "scorer": "Cody Gakpo",
+   "assist": null,
+   "minute": "43'",
+   "kind": "pen"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

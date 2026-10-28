@@ -1,0 +1,24 @@
+{
+ "eventId": "401921841",
+ "date": "2026-10-28T19:45:00Z",
+ "opponent": {
+  "name": "Crystal Palace",
+  "abbr": "CRY"
+ },
+ "isHome": true,
+ "score": {
+  "us": 0,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Eddie Nketiah",
+   "assist": "Óscar Mingueza",
+   "minute": "37'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

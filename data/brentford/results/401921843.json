@@ -1,0 +1,52 @@
+{
+ "eventId": "401921843",
+ "date": "2026-10-28T19:45:00Z",
+ "opponent": {
+  "name": "Sunderland",
+  "abbr": "SUN"
+ },
+ "isHome": false,
+ "score": {
+  "us": 2,
+  "opp": 3
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Chemsdine Talbi",
+   "assist": null,
+   "minute": "26'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Tymur Tutierov",
+   "assist": "Jocelin Ta Bi",
+   "minute": "29'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Malick Fofana",
+   "assist": "Jocelin Ta Bi",
+   "minute": "39'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Callum Wilson",
+   "assist": "Vitaly Janelt",
+   "minute": "42'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Igor Thiago",
+   "assist": "Mathias Jensen",
+   "minute": "90'+4'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

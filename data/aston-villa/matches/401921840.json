@@ -1,8 +1,8 @@
 {
  "eventId": "401921840",
  "date": "2026-10-28T19:45:00Z",
- "final": false,
- "updatedAt": "2026-10-28T18:48:10Z",
+ "final": true,
+ "updatedAt": "2026-10-28T23:08:30Z",
  "team": {
   "formation": "4-2-3-1",
   "rows": [
@@ -10,19 +10,19 @@
     "132233"
    ],
    [
-    "310607",
     "281125",
+    "181312",
     "281121",
-    "181312"
-   ],
-   [
-    "214375",
-    "366248"
+    "310607"
    ],
    [
     "174550",
-    "388522",
     "301524"
+   ],
+   [
+    "366248",
+    "214375",
+    "388522"
    ],
    [
     "401451"
@@ -39,28 +39,10 @@
     "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p72147.png"
    },
    {
-    "id": "281125",
-    "name": "Ian Maatsen",
-    "jersey": "22",
-    "pos": "D",
-    "starter": true,
-    "place": "3",
-    "photo": "data/photos/64431b11a2ce7453.jpg"
-   },
-   {
-    "id": "310607",
-    "name": "Lamare Bogarde",
-    "jersey": "26",
-    "pos": "D",
-    "starter": true,
-    "place": "2",
-    "photo": "data/photos/58e96c8b790671a5.jpg"
-   },
-   {
     "id": "181312",
     "name": "Tyrone Mings",
     "jersey": "5",
-    "pos": "D",
+    "pos": "CD-L",
     "starter": true,
     "place": "6",
     "photo": "data/photos/df2fb694b1270d1f.jpg"
@@ -69,55 +51,55 @@
     "id": "281121",
     "name": "Taylor Harwood-Bellis",
     "jersey": "4",
-    "pos": "D",
+    "pos": "CD-R",
     "starter": true,
     "place": "5",
     "photo": "data/photos/d1c2fafff9435df7.jpg"
    },
    {
-    "id": "301524",
-    "name": "João Gomes",
-    "jersey": "35",
-    "pos": "M",
+    "id": "281125",
+    "name": "Ian Maatsen",
+    "jersey": "22",
+    "pos": "LB",
     "starter": true,
-    "place": "8",
-    "photo": "data/photos/416ef32ac65e3ef9.jpg"
+    "place": "3",
+    "photo": "data/photos/64431b11a2ce7453.jpg"
    },
    {
-    "id": "388522",
-    "name": "Ibrahim Mbaye",
-    "jersey": "19",
-    "pos": "M",
+    "id": "310607",
+    "name": "Lamare Bogarde",
+    "jersey": "26",
+    "pos": "RB",
     "starter": true,
-    "place": "7",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p638987.png"
-   },
-   {
-    "id": "366248",
-    "name": "George Hemmings",
-    "jersey": "53",
-    "pos": "M",
-    "starter": true,
-    "place": "11",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p577285.png"
-   },
-   {
-    "id": "174550",
-    "name": "Leon Goretzka",
-    "jersey": "27",
-    "pos": "M",
-    "starter": true,
-    "place": "4",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p119090.png"
+    "place": "2",
+    "photo": "data/photos/58e96c8b790671a5.jpg"
    },
    {
     "id": "214375",
     "name": "Emiliano Buendía",
     "jersey": "10",
-    "pos": "M",
+    "pos": "AM",
     "starter": true,
     "place": "10",
     "photo": "data/photos/6081ea64808922d2.jpg"
+   },
+   {
+    "id": "174550",
+    "name": "Leon Goretzka",
+    "jersey": "27",
+    "pos": "LM",
+    "starter": true,
+    "place": "4",
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p119090.png"
+   },
+   {
+    "id": "301524",
+    "name": "João Gomes",
+    "jersey": "35",
+    "pos": "RM",
+    "starter": true,
+    "place": "8",
+    "photo": "data/photos/416ef32ac65e3ef9.jpg"
    },
    {
     "id": "401451",
@@ -127,6 +109,24 @@
     "starter": true,
     "place": "9",
     "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p690838.png"
+   },
+   {
+    "id": "366248",
+    "name": "George Hemmings",
+    "jersey": "53",
+    "pos": "AM-L",
+    "starter": true,
+    "place": "11",
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p577285.png"
+   },
+   {
+    "id": "388522",
+    "name": "Ibrahim Mbaye",
+    "jersey": "19",
+    "pos": "AM-R",
+    "starter": true,
+    "place": "7",
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p638987.png"
    }
   ],
   "bench": [
@@ -216,25 +216,25 @@
  "opponent": {
   "id": "349",
   "name": "AFC Bournemouth",
-  "formation": "4-2-3-1",
+  "formation": "4-1-4-1",
   "rows": [
    [
     "240055"
    ],
    [
-    "303804",
     "339797",
+    "346588",
     "282675",
-    "346588"
+    "303804"
    ],
    [
-    "291613",
-    "243364"
+    "223452"
    ],
    [
     "93435",
-    "332948",
-    "223452"
+    "243364",
+    "291613",
+    "332948"
    ],
    [
     "353151"
@@ -252,62 +252,62 @@
     "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/301238-1730125609.jpg?lm=4711"
    },
    {
-    "id": "303804",
-    "name": "Juanlu Sanchez",
-    "jersey": "24",
-    "pos": "D",
-    "starter": true,
-    "place": "2",
-    "photo": "data/photos/f4ee0ed36a36c76c.jpg",
-    "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/676042-1695240552.jpg?lm=4711"
-   },
-   {
-    "id": "282675",
-    "name": "Bafodé Diakité",
-    "jersey": "18",
-    "pos": "D",
-    "starter": true,
-    "place": "5",
-    "photo": "data/photos/53fd92a13929fd53.jpg",
-    "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/463605-1666691072.jpg?lm=4711"
-   },
-   {
     "id": "346588",
     "name": "António Silva",
     "jersey": "14",
-    "pos": "D",
+    "pos": "CD-L",
     "starter": true,
     "place": "6",
     "photo": "data/photos/65accaca3d29b572.jpg",
     "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/650568-1700235534.jpg?lm=4711"
    },
    {
+    "id": "282675",
+    "name": "Bafodé Diakité",
+    "jersey": "18",
+    "pos": "CD-R",
+    "starter": true,
+    "place": "5",
+    "photo": "data/photos/53fd92a13929fd53.jpg",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/463605-1666691072.jpg?lm=4711"
+   },
+   {
+    "id": "223452",
+    "name": "Lewis Cook",
+    "jersey": "4",
+    "pos": "DM",
+    "starter": true,
+    "place": "4",
+    "photo": "data/photos/85155ea251078eff.jpg",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/249089-1700671190.jpg?lm=4711"
+   },
+   {
     "id": "339797",
     "name": "Julio Soler",
     "jersey": "6",
-    "pos": "D",
+    "pos": "LB",
     "starter": true,
     "place": "3",
     "photo": "data/photos/22cf434b60b83dce.jpg",
     "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/1009658-1721934099.png?lm=4711"
    },
    {
-    "id": "223452",
-    "name": "Lewis Cook",
-    "jersey": "4",
-    "pos": "M",
+    "id": "303804",
+    "name": "Juanlu Sanchez",
+    "jersey": "24",
+    "pos": "RB",
     "starter": true,
-    "place": "8",
-    "photo": "data/photos/85155ea251078eff.jpg",
-    "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/249089-1700671190.jpg?lm=4711"
+    "place": "2",
+    "photo": "data/photos/f4ee0ed36a36c76c.jpg",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/676042-1695240552.jpg?lm=4711"
    },
    {
     "id": "93435",
     "name": "Ryan Christie",
     "jersey": "10",
-    "pos": "M",
+    "pos": "CM-L",
     "starter": true,
-    "place": "4",
+    "place": "10",
     "photo": "data/photos/2deccfd87b9c5da2.jpg",
     "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/188077-1697450633.jpg?lm=4711"
    },
@@ -315,31 +315,31 @@
     "id": "243364",
     "name": "Marcus Tavernier",
     "jersey": "16",
-    "pos": "M",
+    "pos": "CM-R",
     "starter": true,
-    "place": "11",
+    "place": "8",
     "photo": "data/photos/8b53972e04ab634c.jpg",
     "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/399434-1700650360.jpg?lm=4711"
-   },
-   {
-    "id": "332948",
-    "name": "Ben Gannon-Doak",
-    "jersey": "11",
-    "pos": "M",
-    "starter": true,
-    "place": "7",
-    "photo": "data/photos/e4b7faf552b61c96.jpg",
-    "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/719673-1780071350.jpg?lm=4711"
    },
    {
     "id": "291613",
     "name": "Amine Adli",
     "jersey": "21",
-    "pos": "M",
+    "pos": "LM",
     "starter": true,
-    "place": "10",
+    "place": "11",
     "photo": "data/photos/baaa7953e71fa9eb.jpg",
     "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/532776-1689710574.jpg?lm=4711"
+   },
+   {
+    "id": "332948",
+    "name": "Ben Gannon-Doak",
+    "jersey": "11",
+    "pos": "RM",
+    "starter": true,
+    "place": "7",
+    "photo": "data/photos/e4b7faf552b61c96.jpg",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/719673-1780071350.jpg?lm=4711"
    },
    {
     "id": "353151",

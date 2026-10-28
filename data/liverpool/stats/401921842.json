@@ -1,0 +1,78 @@
+{
+ "eventId": "401921842",
+ "date": "2026-10-28T20:00:00Z",
+ "opponent": {
+  "name": "Chelsea",
+  "abbr": "CHE"
+ },
+ "ht": {
+  "us": {
+   "shots": 5,
+   "onTarget": 1,
+   "offTarget": 1,
+   "blocked": 3,
+   "corners": 5,
+   "fouls": 10,
+   "offsides": 1,
+   "yellow": 2,
+   "red": 0
+  },
+  "opp": {
+   "shots": 1,
+   "onTarget": 0,
+   "offTarget": 1,
+   "blocked": 0,
+   "corners": 0,
+   "fouls": 6,
+   "offsides": 1,
+   "yellow": 0,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 9,
+   "onTarget": 3,
+   "offTarget": 1,
+   "blocked": 5,
+   "corners": 7,
+   "fouls": 20,
+   "offsides": 1,
+   "yellow": 2,
+   "red": 0,
+   "possession": "51.7",
+   "passesAccurate": "347",
+   "passes": "441",
+   "passAcc": "0.8",
+   "crossesAccurate": "5",
+   "crosses": "21",
+   "tacklesWon": "6",
+   "tackles": "12",
+   "interceptions": "12",
+   "clearances": "15"
+  },
+  "opp": {
+   "shots": 10,
+   "onTarget": 3,
+   "offTarget": 4,
+   "blocked": 3,
+   "corners": 5,
+   "fouls": 16,
+   "offsides": 3,
+   "yellow": 2,
+   "red": 0,
+   "possession": "48.3",
+   "passesAccurate": "334",
+   "passes": "422",
+   "passAcc": "0.8",
+   "crossesAccurate": "2",
+   "crosses": "12",
+   "tacklesWon": "12",
+   "tackles": "15",
+   "interceptions": "4",
+   "clearances": "32"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

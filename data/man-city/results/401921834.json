@@ -1,0 +1,45 @@
+{
+ "eventId": "401921834",
+ "date": "2026-10-28T19:30:00Z",
+ "opponent": {
+  "name": "Brighton & Hove Albion",
+  "abbr": "BHA"
+ },
+ "isHome": true,
+ "score": {
+  "us": 2,
+  "opp": 2
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Malick Yalcouyé",
+   "assist": "Georginio Rutter",
+   "minute": "30'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Mateo Kovacic",
+   "assist": "Phil Foden",
+   "minute": "40'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Georginio Rutter",
+   "assist": "Jaouen Hadjam",
+   "minute": "47'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Vitor Reis",
+   "assist": "Rayan Cherki",
+   "minute": "72'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

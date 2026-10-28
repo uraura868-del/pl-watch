@@ -1,30 +1,28 @@
 {
  "eventId": "401921843",
  "date": "2026-10-28T19:45:00Z",
- "final": false,
- "updatedAt": "2026-10-28T18:48:10Z",
+ "final": true,
+ "updatedAt": "2026-10-28T23:08:30Z",
  "team": {
-  "formation": "4-2-3-1",
+  "formation": "4-4-2",
   "rows": [
    [
     "307800"
    ],
    [
-    "197627",
     "388070",
+    "215401",
     "250543",
-    "215401"
-   ],
-   [
-    "324991",
-    "340645"
+    "197627"
    ],
    [
     "410687",
-    "417825",
-    "360062"
+    "324991",
+    "340645",
+    "417825"
    ],
    [
+    "360062",
     "387460"
    ]
   ],
@@ -42,7 +40,7 @@
     "id": "215401",
     "name": "Omar Alderete",
     "jersey": "15",
-    "pos": "D",
+    "pos": "CD-L",
     "starter": true,
     "place": "6",
     "photo": "data/photos/9bbe33b162862eea.jpg"
@@ -51,7 +49,7 @@
     "id": "250543",
     "name": "Kevin Danso",
     "jersey": "4",
-    "pos": "D",
+    "pos": "CD-R",
     "starter": true,
     "place": "5",
     "photo": "data/photos/5fd965de59d8e019.jpg"
@@ -60,7 +58,7 @@
     "id": "388070",
     "name": "Dayann Methalie",
     "jersey": "6",
-    "pos": "D",
+    "pos": "LB",
     "starter": true,
     "place": "3",
     "photo": "data/photos/229112bf9aa39436.jpg"
@@ -69,7 +67,7 @@
     "id": "197627",
     "name": "Alan Browne",
     "jersey": "8",
-    "pos": "D",
+    "pos": "RB",
     "starter": true,
     "place": "2",
     "photo": "data/photos/a22b4df1cfb5194d.jpg"
@@ -78,16 +76,25 @@
     "id": "410687",
     "name": "Jules Ahoka",
     "jersey": "29",
-    "pos": "M",
+    "pos": "CM-L",
+    "starter": true,
+    "place": "8",
+    "photo": "data/photos/869c1a5b3cd2f538.jpg"
+   },
+   {
+    "id": "324991",
+    "name": "Habib Diarra",
+    "jersey": "19",
+    "pos": "CM-R",
     "starter": true,
     "place": "4",
-    "photo": "data/photos/869c1a5b3cd2f538.jpg"
+    "photo": "data/photos/610783a3a60442b7.jpg"
    },
    {
     "id": "340645",
     "name": "Malick Fofana",
     "jersey": "39",
-    "pos": "M",
+    "pos": "LM",
     "starter": true,
     "place": "11",
     "photo": "data/photos/5a703109eccbe497.jpg"
@@ -96,36 +103,27 @@
     "id": "417825",
     "name": "Jocelin Ta Bi",
     "jersey": "37",
-    "pos": "M",
+    "pos": "RM",
     "starter": true,
     "place": "7",
     "photo": "data/photos/7301d1cdf07f74d3.jpg"
    },
    {
-    "id": "324991",
-    "name": "Habib Diarra",
-    "jersey": "19",
-    "pos": "M",
-    "starter": true,
-    "place": "10",
-    "photo": "data/photos/610783a3a60442b7.jpg"
-   },
-   {
     "id": "360062",
     "name": "Chemsdine Talbi",
     "jersey": "7",
-    "pos": "M",
+    "pos": "CF-L",
     "starter": true,
-    "place": "8",
+    "place": "9",
     "photo": "data/photos/018398a2caf44f22.jpg"
    },
    {
     "id": "387460",
     "name": "Tymur Tutierov",
     "jersey": "57",
-    "pos": "F",
+    "pos": "CF-R",
     "starter": true,
-    "place": "9",
+    "place": "10",
     "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p604211.png"
    }
   ],
@@ -216,27 +214,25 @@
  "opponent": {
   "id": "337",
   "name": "Brentford",
-  "formation": "4-2-3-1",
+  "formation": "4-4-2",
   "rows": [
    [
     "311527"
    ],
    [
-    "356640",
     "359796",
+    "279780",
     "376683",
-    "279780"
+    "356640"
    ],
    [
+    "225564",
+    "228547",
     "308932",
     "307657"
    ],
    [
-    "225564",
     "138924",
-    "228547"
-   ],
-   [
     "301894"
    ]
   ],
@@ -255,7 +251,7 @@
     "id": "279780",
     "name": "Nathan Collins",
     "jersey": "22",
-    "pos": "D",
+    "pos": "CD-L",
     "starter": true,
     "place": "6",
     "photo": "data/photos/9736b246e755645a.jpg",
@@ -265,7 +261,7 @@
     "id": "376683",
     "name": "Jannik Schuster",
     "jersey": "44",
-    "pos": "D",
+    "pos": "CD-R",
     "starter": true,
     "place": "5",
     "photo": "data/photos/1beab54e574e303a.jpg",
@@ -275,7 +271,7 @@
     "id": "359796",
     "name": "El Hadji Malick Diouf",
     "jersey": "25",
-    "pos": "D",
+    "pos": "LB",
     "starter": true,
     "place": "3",
     "photo": "data/photos/d555fdf781d49205.jpg",
@@ -285,69 +281,69 @@
     "id": "356640",
     "name": "Michael Kayode",
     "jersey": "33",
-    "pos": "D",
+    "pos": "RB",
     "starter": true,
     "place": "2",
     "photo": "data/photos/9a2738127e7a4674.jpg",
     "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/823486-1725531169.jpg?lm=4711"
    },
    {
-    "id": "308932",
-    "name": "Mikkel Damsgaard",
-    "jersey": "24",
-    "pos": "M",
-    "starter": true,
-    "place": "10",
-    "photo": "data/photos/8aaa82f80d7841e6.jpg",
-    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/540941-1668183899.jpg?lm=4711"
-   },
-   {
     "id": "225564",
     "name": "Vitaly Janelt",
     "jersey": "27",
-    "pos": "M",
+    "pos": "CM-L",
     "starter": true,
-    "place": "4",
+    "place": "8",
     "photo": "data/photos/5e19977b1fd312de.jpg",
     "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/270171-1790318102.jpg?lm=4711"
-   },
-   {
-    "id": "138924",
-    "name": "Callum Wilson",
-    "jersey": "13",
-    "pos": "M",
-    "starter": true,
-    "place": "7",
-    "photo": "data/photos/08fec4df638cbd97.jpg",
-    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/123682-1668090039.jpg?lm=4711"
-   },
-   {
-    "id": "307657",
-    "name": "Jaidon Anthony",
-    "jersey": "19",
-    "pos": "M",
-    "starter": true,
-    "place": "11",
-    "photo": "data/photos/1536dfb19c227d05.jpg",
-    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/684210-1784821258.jpg?lm=4711"
    },
    {
     "id": "228547",
     "name": "Mamadou Sangare",
     "jersey": "18",
-    "pos": "M",
+    "pos": "CM-R",
     "starter": true,
-    "place": "8",
+    "place": "4",
     "photo": "data/photos/2cb60fc3a3f625fd.jpg",
     "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/808348-1726049980.jpg?lm=4711"
+   },
+   {
+    "id": "308932",
+    "name": "Mikkel Damsgaard",
+    "jersey": "24",
+    "pos": "LM",
+    "starter": true,
+    "place": "11",
+    "photo": "data/photos/8aaa82f80d7841e6.jpg",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/540941-1668183899.jpg?lm=4711"
+   },
+   {
+    "id": "307657",
+    "name": "Jaidon Anthony",
+    "jersey": "19",
+    "pos": "RM",
+    "starter": true,
+    "place": "7",
+    "photo": "data/photos/1536dfb19c227d05.jpg",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/684210-1784821258.jpg?lm=4711"
+   },
+   {
+    "id": "138924",
+    "name": "Callum Wilson",
+    "jersey": "13",
+    "pos": "CF-L",
+    "starter": true,
+    "place": "9",
+    "photo": "data/photos/08fec4df638cbd97.jpg",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/123682-1668090039.jpg?lm=4711"
    },
    {
     "id": "301894",
     "name": "Igor Thiago",
     "jersey": "9",
-    "pos": "F",
+    "pos": "CF-R",
     "starter": true,
-    "place": "9",
+    "place": "10",
     "photo": "data/photos/5d7988eb9a816ecb.jpg",
     "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/739443-1770372295.jpg?lm=4711"
    }

@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-28T18:48:10Z",
+ "updatedAt": "2026-10-28T23:08:30Z",
  "manager": {
   "name": "Enzo Maresca",
   "role": "Manager",
@@ -344,6 +344,15 @@
    "birthPlace": "Macclesfield",
    "posInfo": "Centre Central Midfielder",
    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p595480.png"
+  },
+  {
+   "id": "3129530",
+   "name": "Dexter Oliver",
+   "jersey": null,
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
   },
   {
    "id": "253989",

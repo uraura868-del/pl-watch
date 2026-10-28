@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-28T18:48:10Z",
+ "updatedAt": "2026-10-28T23:08:30Z",
  "fixtures": [
   {
    "eventId": "401879320",
@@ -254,11 +254,11 @@
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png"
    },
    "venue": "Etihad Stadium",
-   "status": "scheduled",
+   "status": "played",
    "league": "eng.league_cup",
    "compShort": "EFL",
-   "hasStats": false,
-   "hasResult": false,
+   "hasStats": true,
+   "hasResult": true,
    "hasLineup": true
   },
   {

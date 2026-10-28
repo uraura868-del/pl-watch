@@ -1,0 +1,31 @@
+{
+ "eventId": "401921842",
+ "date": "2026-10-28T20:00:00Z",
+ "opponent": {
+  "name": "Chelsea",
+  "abbr": "CHE"
+ },
+ "isHome": true,
+ "score": {
+  "us": 1,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Morgan Rogers",
+   "assist": null,
+   "minute": "40'",
+   "kind": "pen"
+  },
+  {
+   "side": "us",
+   "scorer": "Cody Gakpo",
+   "assist": null,
+   "minute": "43'",
+   "kind": "pen"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

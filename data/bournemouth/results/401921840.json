@@ -1,0 +1,38 @@
+{
+ "eventId": "401921840",
+ "date": "2026-10-28T19:45:00Z",
+ "opponent": {
+  "name": "Aston Villa",
+  "abbr": "AVL"
+ },
+ "isHome": true,
+ "score": {
+  "us": 3,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Amine Adli",
+   "assist": "Julio Soler",
+   "minute": "7'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Lewis Cook",
+   "assist": "Ben Gannon-Doak",
+   "minute": "51'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Álvaro Rodríguez",
+   "assist": "Tyler Adams",
+   "minute": "69'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

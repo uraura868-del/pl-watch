@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-28T18:48:10Z",
+ "updatedAt": "2026-10-28T23:08:30Z",
  "players": {
   "167192": {
    "name": "Gerónimo Rulli",
@@ -290,7 +290,7 @@
    "name": "Max-Edgar Chabot",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-10-27T20:01:43Z"
+   "fetchedAt": "2026-10-28T23:08:30Z"
   },
   "234878": {
    "name": "Rúben Dias",
@@ -1901,6 +1901,12 @@
    "qid": "Q136668030",
    "career": [],
    "fetchedAt": "2026-10-26T17:17:41Z"
+  },
+  "3129530": {
+   "name": "Dexter Oliver",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-10-28T23:08:30Z"
   }
  }
 }

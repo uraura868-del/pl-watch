@@ -1,28 +1,28 @@
 {
  "eventId": "401921840",
  "date": "2026-10-28T19:45:00Z",
- "final": false,
- "updatedAt": "2026-10-28T18:48:10Z",
+ "final": true,
+ "updatedAt": "2026-10-28T23:08:30Z",
  "team": {
-  "formation": "4-2-3-1",
+  "formation": "4-1-4-1",
   "rows": [
    [
     "240055"
    ],
    [
-    "303804",
     "339797",
+    "346588",
     "282675",
-    "346588"
+    "303804"
    ],
    [
-    "291613",
-    "243364"
+    "223452"
    ],
    [
     "93435",
-    "332948",
-    "223452"
+    "243364",
+    "291613",
+    "332948"
    ],
    [
     "353151"
@@ -39,85 +39,85 @@
     "photo": "data/photos/1a394d9a46baa736.jpg"
    },
    {
-    "id": "303804",
-    "name": "Juanlu Sanchez",
-    "jersey": "24",
-    "pos": "D",
-    "starter": true,
-    "place": "2",
-    "photo": "data/photos/f4ee0ed36a36c76c.jpg"
-   },
-   {
-    "id": "282675",
-    "name": "Bafodé Diakité",
-    "jersey": "18",
-    "pos": "D",
-    "starter": true,
-    "place": "5",
-    "photo": "data/photos/53fd92a13929fd53.jpg"
-   },
-   {
     "id": "346588",
     "name": "António Silva",
     "jersey": "14",
-    "pos": "D",
+    "pos": "CD-L",
     "starter": true,
     "place": "6",
     "photo": "data/photos/65accaca3d29b572.jpg"
    },
    {
-    "id": "339797",
-    "name": "Julio Soler",
-    "jersey": "6",
-    "pos": "D",
+    "id": "282675",
+    "name": "Bafodé Diakité",
+    "jersey": "18",
+    "pos": "CD-R",
     "starter": true,
-    "place": "3",
-    "photo": "data/photos/22cf434b60b83dce.jpg"
+    "place": "5",
+    "photo": "data/photos/53fd92a13929fd53.jpg"
    },
    {
     "id": "223452",
     "name": "Lewis Cook",
     "jersey": "4",
-    "pos": "M",
+    "pos": "DM",
     "starter": true,
-    "place": "8",
+    "place": "4",
     "photo": "data/photos/85155ea251078eff.jpg"
+   },
+   {
+    "id": "339797",
+    "name": "Julio Soler",
+    "jersey": "6",
+    "pos": "LB",
+    "starter": true,
+    "place": "3",
+    "photo": "data/photos/22cf434b60b83dce.jpg"
+   },
+   {
+    "id": "303804",
+    "name": "Juanlu Sanchez",
+    "jersey": "24",
+    "pos": "RB",
+    "starter": true,
+    "place": "2",
+    "photo": "data/photos/f4ee0ed36a36c76c.jpg"
    },
    {
     "id": "93435",
     "name": "Ryan Christie",
     "jersey": "10",
-    "pos": "M",
+    "pos": "CM-L",
     "starter": true,
-    "place": "4",
+    "place": "10",
     "photo": "data/photos/2deccfd87b9c5da2.jpg"
    },
    {
     "id": "243364",
     "name": "Marcus Tavernier",
     "jersey": "16",
-    "pos": "M",
+    "pos": "CM-R",
     "starter": true,
-    "place": "11",
+    "place": "8",
     "photo": "data/photos/8b53972e04ab634c.jpg"
-   },
-   {
-    "id": "332948",
-    "name": "Ben Gannon-Doak",
-    "jersey": "11",
-    "pos": "M",
-    "starter": true,
-    "place": "7",
-    "photo": "data/photos/e4b7faf552b61c96.jpg"
    },
    {
     "id": "291613",
     "name": "Amine Adli",
     "jersey": "21",
-    "pos": "M",
+    "pos": "LM",
     "starter": true,
-    "place": "10",
+    "place": "11",
     "photo": "data/photos/baaa7953e71fa9eb.jpg"
+   },
+   {
+    "id": "332948",
+    "name": "Ben Gannon-Doak",
+    "jersey": "11",
+    "pos": "RM",
+    "starter": true,
+    "place": "7",
+    "photo": "data/photos/e4b7faf552b61c96.jpg"
    },
    {
     "id": "353151",
@@ -222,19 +222,19 @@
     "132233"
    ],
    [
-    "310607",
     "281125",
+    "181312",
     "281121",
-    "181312"
-   ],
-   [
-    "214375",
-    "366248"
+    "310607"
    ],
    [
     "174550",
-    "388522",
     "301524"
+   ],
+   [
+    "366248",
+    "214375",
+    "388522"
    ],
    [
     "401451"
@@ -252,30 +252,10 @@
     "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p72147.png"
    },
    {
-    "id": "281125",
-    "name": "Ian Maatsen",
-    "jersey": "22",
-    "pos": "D",
-    "starter": true,
-    "place": "3",
-    "photo": "data/photos/64431b11a2ce7453.jpg",
-    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p441302.png"
-   },
-   {
-    "id": "310607",
-    "name": "Lamare Bogarde",
-    "jersey": "26",
-    "pos": "D",
-    "starter": true,
-    "place": "2",
-    "photo": "data/photos/58e96c8b790671a5.jpg",
-    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p515597.png"
-   },
-   {
     "id": "181312",
     "name": "Tyrone Mings",
     "jersey": "5",
-    "pos": "D",
+    "pos": "CD-L",
     "starter": true,
     "place": "6",
     "photo": "data/photos/df2fb694b1270d1f.jpg",
@@ -285,61 +265,61 @@
     "id": "281121",
     "name": "Taylor Harwood-Bellis",
     "jersey": "4",
-    "pos": "D",
+    "pos": "CD-R",
     "starter": true,
     "place": "5",
     "photo": "data/photos/d1c2fafff9435df7.jpg",
     "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p245719.png"
    },
    {
-    "id": "301524",
-    "name": "João Gomes",
-    "jersey": "35",
-    "pos": "M",
+    "id": "281125",
+    "name": "Ian Maatsen",
+    "jersey": "22",
+    "pos": "LB",
     "starter": true,
-    "place": "8",
-    "photo": "data/photos/416ef32ac65e3ef9.jpg",
-    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p448089.png"
+    "place": "3",
+    "photo": "data/photos/64431b11a2ce7453.jpg",
+    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p441302.png"
    },
    {
-    "id": "388522",
-    "name": "Ibrahim Mbaye",
-    "jersey": "19",
-    "pos": "M",
+    "id": "310607",
+    "name": "Lamare Bogarde",
+    "jersey": "26",
+    "pos": "RB",
     "starter": true,
-    "place": "7",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p638987.png",
-    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p638987.png"
+    "place": "2",
+    "photo": "data/photos/58e96c8b790671a5.jpg",
+    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p515597.png"
    },
    {
-    "id": "366248",
-    "name": "George Hemmings",
-    "jersey": "53",
-    "pos": "M",
+    "id": "214375",
+    "name": "Emiliano Buendía",
+    "jersey": "10",
+    "pos": "AM",
     "starter": true,
-    "place": "11",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p577285.png",
-    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p577285.png"
+    "place": "10",
+    "photo": "data/photos/6081ea64808922d2.jpg",
+    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p195546.png"
    },
    {
     "id": "174550",
     "name": "Leon Goretzka",
     "jersey": "27",
-    "pos": "M",
+    "pos": "LM",
     "starter": true,
     "place": "4",
     "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p119090.png",
     "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p119090.png"
    },
    {
-    "id": "214375",
-    "name": "Emiliano Buendía",
-    "jersey": "10",
-    "pos": "M",
+    "id": "301524",
+    "name": "João Gomes",
+    "jersey": "35",
+    "pos": "RM",
     "starter": true,
-    "place": "10",
-    "photo": "data/photos/6081ea64808922d2.jpg",
-    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p195546.png"
+    "place": "8",
+    "photo": "data/photos/416ef32ac65e3ef9.jpg",
+    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p448089.png"
    },
    {
     "id": "401451",
@@ -350,6 +330,26 @@
     "place": "9",
     "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p690838.png",
     "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p690838.png"
+   },
+   {
+    "id": "366248",
+    "name": "George Hemmings",
+    "jersey": "53",
+    "pos": "AM-L",
+    "starter": true,
+    "place": "11",
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p577285.png",
+    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p577285.png"
+   },
+   {
+    "id": "388522",
+    "name": "Ibrahim Mbaye",
+    "jersey": "19",
+    "pos": "AM-R",
+    "starter": true,
+    "place": "7",
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p638987.png",
+    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p638987.png"
    }
   ],
   "bench": [

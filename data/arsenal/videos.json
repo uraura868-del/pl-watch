@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-27T23:44:18Z",
+ "updatedAt": "2026-10-28T05:28:42Z",
  "enabled": true,
  "players": {
   "169532": {
@@ -751,6 +751,31 @@
     }
    ],
    "fetchedAt": "2026-10-27T23:44:18Z"
+  },
+  "390975": {
+   "name": "Andre Annous",
+   "query": "Andre Annous skills",
+   "videos": [
+    {
+     "id": "zcFQCGBdQ80",
+     "title": "He’s only 17! Remember the name: Andre Annous 🥶 #football #arsenal",
+     "channel": "Academy Social",
+     "publishedAt": "2025-10-28"
+    },
+    {
+     "id": "_hHSXklpld0",
+     "title": "Andre Harriman-Annous | 17 Year-Old - The Gem Of Arsenal ",
+     "channel": "ED-Football",
+     "publishedAt": "2025-11-04"
+    },
+    {
+     "id": "RZZzS4DVBAE",
+     "title": "17 year old Andre Harriman-Annous Is An Absolute Gem!",
+     "channel": "PBcomps",
+     "publishedAt": "2025-05-28"
+    }
+   ],
+   "fetchedAt": "2026-10-28T05:28:42Z"
   }
  }
 }

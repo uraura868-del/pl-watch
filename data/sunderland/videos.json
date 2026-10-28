@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-27T23:44:18Z",
+ "updatedAt": "2026-10-28T05:28:42Z",
  "enabled": true,
  "players": {
   "138481": {
@@ -26,6 +26,31 @@
     }
    ],
    "fetchedAt": "2026-10-26T13:04:00Z"
+  },
+  "301449": {
+   "name": "Robin Roefs",
+   "query": "Robin Roefs skills",
+   "videos": [
+    {
+     "id": "p5NIWaHF31c",
+     "title": "Robin Roefs - Full Season Show - 2026ᴴᴰ",
+     "channel": "Brazil Scout Comps",
+     "publishedAt": "2026-07-17"
+    },
+    {
+     "id": "Gjzn7Ug-hlA",
+     "title": "Robin Roefs 2026 • Best Saves & Reflexes •  Sunderland ᴴᴰ",
+     "channel": "Mega Football",
+     "publishedAt": "2026-05-19"
+    },
+    {
+     "id": "5jEF9U9ulNM",
+     "title": "Robin Roefs ◐ The Master ◑ Impossible Saves & Skills 2026/25 ∣ HD",
+     "channel": "Full Time Goalkeepers",
+     "publishedAt": "2025-12-30"
+    }
+   ],
+   "fetchedAt": "2026-10-28T05:28:42Z"
   }
  }
 }

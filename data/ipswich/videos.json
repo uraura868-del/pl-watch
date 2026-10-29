@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-29T05:37:11Z",
+ "updatedAt": "2026-10-29T12:51:30Z",
  "enabled": true,
  "players": {
   "111337": {
@@ -26,6 +26,181 @@
     }
    ],
    "fetchedAt": "2026-10-28T12:42:19Z"
+  },
+  "168746": {
+   "name": "Christian Walton",
+   "query": "Christian Walton skills",
+   "videos": [
+    {
+     "id": "qiPLkxpU2N4",
+     "title": "Christian Walton #ipswichtownfc",
+     "channel": "Creetos",
+     "publishedAt": "2026-04-03"
+    },
+    {
+     "id": "wcmNa2Um8Lo",
+     "title": "Christian Walton Edit",
+     "channel": "Creetos",
+     "publishedAt": "2026-02-17"
+    },
+    {
+     "id": "eAHY7fod5E0",
+     "title": "Some strange choices in there 🤨 | Wharton blind ranking #crystalpalace #premierleague #football",
+     "channel": "Crystal Palace FC",
+     "publishedAt": "2024-06-18"
+    }
+   ],
+   "fetchedAt": "2026-10-29T12:51:30Z"
+  },
+  "219390": {
+   "name": "Alex Palmer",
+   "query": "Alex Palmer skills",
+   "videos": [
+    {
+     "id": "e7aE8faKfRI",
+     "title": "The Art of Cole Palmer 🥶❄️",
+     "channel": "All Football",
+     "publishedAt": "2026-08-25"
+    },
+    {
+     "id": "mYqVq2Cu1TE",
+     "title": "Cole Palmer Ultimate Skill Show 🤯",
+     "channel": "ChelsTV",
+     "publishedAt": "2025-09-14"
+    },
+    {
+     "id": "5QZgNgcDK60",
+     "title": "Extraordinary Moments By Cole Palmer",
+     "channel": "Nino12x",
+     "publishedAt": "2025-07-17"
+    }
+   ],
+   "fetchedAt": "2026-10-29T12:51:30Z"
+  },
+  "246244": {
+   "name": "Kjell Scherpen",
+   "query": "Kjell Scherpen skills",
+   "videos": [
+    {
+     "id": "XsrW09DHmxM",
+     "title": "Kjell Scherpen - Tormann der Saison 2024/25",
+     "channel": "Österreichische Fußball-Bundesliga",
+     "publishedAt": "2025-05-21"
+    },
+    {
+     "id": "b_ylfpNtnbA",
+     "title": "Kjell Scherpen Makes Strikers Shoot Smaller 🧤",
+     "channel": "BlazeControl",
+     "publishedAt": "2026-06-01"
+    },
+    {
+     "id": "UBsJhv6FZyg",
+     "title": "Kjell Scherpen || Best Saves 2020/2021 • Welcome To Brighton",
+     "channel": "Dutch Scout",
+     "publishedAt": "2021-05-27"
+    }
+   ],
+   "fetchedAt": "2026-10-29T12:51:30Z"
+  },
+  "215075": {
+   "name": "Darnell Furlong",
+   "query": "Darnell Furlong skills",
+   "videos": [
+    {
+     "id": "kH9sZ1QEYLw",
+     "title": "DARNELL FURLONG | PREMIER LEAGUE DEBUT FOR QPR",
+     "channel": "QPR FC",
+     "publishedAt": "2015-02-22"
+    },
+    {
+     "id": "2MTUwZhz4Xo",
+     "title": "TEKKERS | WHAT A STRIKE FROM FURLONG",
+     "channel": "QPR FC",
+     "publishedAt": "2016-07-07"
+    },
+    {
+     "id": "R1m2FNziQwo",
+     "title": "Darnell Hospedales Defensive Skills and Passes 2018/19",
+     "channel": "Tristan Straker",
+     "publishedAt": "2019-01-31"
+    }
+   ],
+   "fetchedAt": "2026-10-29T12:51:30Z"
+  },
+  "230963": {
+   "name": "Issa Diop",
+   "query": "Issa Diop skills",
+   "videos": [
+    {
+     "id": "U-TZ0gWvLcc",
+     "title": "Issa Diop ● Welcome to Ipswich Town 2026 🔵🇲🇦 Best Defensive Skills & Passes",
+     "channel": "SVMM",
+     "publishedAt": "2026-07-20"
+    },
+    {
+     "id": "GTE0TlwTuhg",
+     "title": "Issa Diop 2026 • Crazy Defensive Skills, Passes | Fulham ᴴᴰ",
+     "channel": "Mega Football",
+     "publishedAt": "2026-02-03"
+    },
+    {
+     "id": "NCEIrWQKN88",
+     "title": "Issa Diop ● Beşiktaş Transfer Target 2026 ⚪⚫",
+     "channel": "SVMM",
+     "publishedAt": "2026-01-23"
+    }
+   ],
+   "fetchedAt": "2026-10-29T12:51:30Z"
+  },
+  "243440": {
+   "name": "Dara O'Shea",
+   "query": "Dara O'Shea skills",
+   "videos": [
+    {
+     "id": "6_hYHOIpzQY",
+     "title": "Dara O'Shea Evolution (Fifa17-FC25)",
+     "channel": "Fifcard",
+     "publishedAt": "2025-03-31"
+    },
+    {
+     "id": "QeEChiSqhYY",
+     "title": "Dara O'Shea screamer for West Bromwich Albion Under-18s against Tottenham",
+     "channel": "West Bromwich Albion",
+     "publishedAt": "2016-02-29"
+    },
+    {
+     "id": "FmHWuPZCLqY",
+     "title": "Ronaldo slapped Ireland defender Dara O'Shea",
+     "channel": "ScOpE",
+     "publishedAt": "2021-09-02"
+    }
+   ],
+   "fetchedAt": "2026-10-29T12:51:30Z"
+  },
+  "243648": {
+   "name": "Cedric Kipre",
+   "query": "Cedric Kipre skills",
+   "videos": [
+    {
+     "id": "XzicBY2mW5k",
+     "title": "Crazy Dribble by Cedric Kipre Leaves Defender Behind  #football #skills  #soccer",
+     "channel": "Soccer Stars Unleashed",
+     "publishedAt": "2024-09-27"
+    },
+    {
+     "id": "TGCh2CsUVCY",
+     "title": "Cédric Kipré: I felt I let everyone down",
+     "channel": "Motherwell FC",
+     "publishedAt": "2018-03-21"
+    },
+    {
+     "id": "-ezc-OlZhkw",
+     "title": "Ipswich’s Cedric Kipre with one of the most satisfying tackles you’ll see 👏",
+     "channel": "Med Footix ",
+     "publishedAt": "2025-09-21"
+    }
+   ],
+   "fetchedAt": "2026-10-29T12:51:30Z"
   }
  }
 }

@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-29T05:37:11Z",
+ "updatedAt": "2026-10-29T12:51:30Z",
  "enabled": true,
  "players": {
   "141705": {
@@ -226,6 +226,56 @@
     }
    ],
    "fetchedAt": "2026-10-28T12:42:19Z"
+  },
+  "303444": {
+   "name": "Malick Thiaw",
+   "query": "Malick Thiaw skills",
+   "videos": [
+    {
+     "id": "J4WRJypvSkE",
+     "title": "Malick Thiaw 2024/25 - Defensive Skills, Passes & Tackles | HD",
+     "channel": "FUTScoutHD",
+     "publishedAt": "2025-01-13"
+    },
+    {
+     "id": "XRyM3lTAJyk",
+     "title": "Malick Thiaw - Full Season Show - 2026ᴴᴰ",
+     "channel": "Brazil Scout ",
+     "publishedAt": "2026-08-17"
+    },
+    {
+     "id": "xkZJRVS5oUY",
+     "title": "Malick Thiaw ● Welcome to Newcastle ⚫️⚪️🇩🇪 Best Defensive Skills & Passes",
+     "channel": "SVMM",
+     "publishedAt": "2025-08-09"
+    }
+   ],
+   "fetchedAt": "2026-10-29T12:51:30Z"
+  },
+  "308979": {
+   "name": "Amar Dedic",
+   "query": "Amar Dedic skills",
+   "videos": [
+    {
+     "id": "N_UW3X82KIQ",
+     "title": "Amar Dedić 2026 - Ultimate Defensive Skills & Speedy Dribbles",
+     "channel": "ED-Football",
+     "publishedAt": "2026-06-03"
+    },
+    {
+     "id": "xAgCudjVeVE",
+     "title": "This Is Why Newcastle Want Amar Dedić 🇧🇦⚫️⚪️",
+     "channel": "anthonyprod",
+     "publishedAt": "2026-08-11"
+    },
+    {
+     "id": "KKCnbHK5RJc",
+     "title": "Amar Dedić | Skills | 2026 | Welcome to Fenerbahçe ?",
+     "channel": "Futbol Transfer",
+     "publishedAt": "2026-07-26"
+    }
+   ],
+   "fetchedAt": "2026-10-29T12:51:30Z"
   }
  }
 }

@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-28T23:08:30Z",
+ "updatedAt": "2026-10-29T05:37:11Z",
  "enabled": true,
  "players": {
   "157933": {
@@ -101,6 +101,56 @@
     }
    ],
    "fetchedAt": "2026-10-28T12:42:19Z"
+  },
+  "168424": {
+   "name": "John Egan",
+   "query": "John Egan skills",
+   "videos": [
+    {
+     "id": "CE2gnFamJ_o",
+     "title": "John Egan • Amazing Tackles •  Sheffield United",
+     "channel": "Mega Football",
+     "publishedAt": "2020-12-07"
+    },
+    {
+     "id": "szxjP7noneU",
+     "title": "John Egan's GAA warm-up routine 🏐☘️🔥",
+     "channel": "FAI TV",
+     "publishedAt": "2026-08-26"
+    },
+    {
+     "id": "zqAAhWbyNjc",
+     "title": "John Egan thumps in Sheffield United's equalizer against Burnley | Premier League | NBC Sports",
+     "channel": "NBC Sports",
+     "publishedAt": "2020-07-05"
+    }
+   ],
+   "fetchedAt": "2026-10-29T05:37:11Z"
+  },
+  "178051": {
+   "name": "Semi Ajayi",
+   "query": "Semi Ajayi skills",
+   "videos": [
+    {
+     "id": "wKgtahS-zI4",
+     "title": "Semi Ajayi was there! #afcon2025 #football #nigeriafootball",
+     "channel": "Richard Nwajei ",
+     "publishedAt": "2025-12-18"
+    },
+    {
+     "id": "DFNErVEmbCk",
+     "title": "Semi Ajayi Talked About Areas To Improve For Super Eagles #totalenergiesafcon2025 #fyp #afcon2025",
+     "channel": "ELEGBETE TV SPORTS",
+     "publishedAt": "2025-12-24"
+    },
+    {
+     "id": "ePIs5u3OkF0",
+     "title": "The Albion Boys with Semi Ajayi | Episode 5",
+     "channel": "West Bromwich Albion",
+     "publishedAt": "2023-10-12"
+    }
+   ],
+   "fetchedAt": "2026-10-29T05:37:11Z"
   }
  }
 }

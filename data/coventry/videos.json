@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-28T23:08:30Z",
+ "updatedAt": "2026-10-29T05:37:11Z",
  "enabled": true,
  "players": {
   "143007": {
@@ -645,6 +645,31 @@
     }
    ],
    "fetchedAt": "2026-10-28T12:42:19Z"
+  },
+  "282647": {
+   "name": "Ellis Simms",
+   "query": "Ellis Simms skills",
+   "videos": [
+    {
+     "id": "7mAZWr08NVE",
+     "title": "Ellis Simms a Classic Striker - 2024",
+     "channel": "JM Scout",
+     "publishedAt": "2024-04-27"
+    },
+    {
+     "id": "mxgDPLzOqlg",
+     "title": "Ellis Simms - Target Man | 24/25",
+     "channel": "ajas",
+     "publishedAt": "2025-02-20"
+    },
+    {
+     "id": "Fi_Gr3RSZoE",
+     "title": "Ellis Simms to the Polish National Team..there we are k*rwa! 🇵🇱📝#laczynaspilka #ccfc  #coventry",
+     "channel": "Huberto News",
+     "publishedAt": "2026-01-25"
+    }
+   ],
+   "fetchedAt": "2026-10-29T05:37:11Z"
   }
  }
 }

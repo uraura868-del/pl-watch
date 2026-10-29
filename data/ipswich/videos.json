@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-29T12:51:30Z",
+ "updatedAt": "2026-10-29T18:55:52Z",
  "enabled": true,
  "players": {
   "111337": {
@@ -201,6 +201,106 @@
     }
    ],
    "fetchedAt": "2026-10-29T12:51:30Z"
+  },
+  "283086": {
+   "name": "Leif Davis",
+   "query": "Leif Davis skills",
+   "videos": [
+    {
+     "id": "btt6e6ZlTT0",
+     "title": "Leif Davis - Complete Season in 2025!",
+     "channel": "SilvaSkills",
+     "publishedAt": "2025-05-20"
+    },
+    {
+     "id": "aGfm9Bi0VqM",
+     "title": "🐟 🎣 TIGHT LINES | EPISODE ONE WITH LEIF DAVIS",
+     "channel": "Ipswich Town FC",
+     "publishedAt": "2026-10-18"
+    },
+    {
+     "id": "zUE-frat5DA",
+     "title": "Here's Why Nottingham Forest Want to Sign Leif Davis 🔥",
+     "channel": "90 Minutes Football",
+     "publishedAt": "2025-08-09"
+    }
+   ],
+   "fetchedAt": "2026-10-29T18:55:52Z"
+  },
+  "291174": {
+   "name": "Jacob Greaves",
+   "query": "Jacob Greaves skills",
+   "videos": [
+    {
+     "id": "506QSFNbKlI",
+     "title": "Jake Greaves demo reel",
+     "channel": "Jacob Greaves",
+     "publishedAt": "2010-02-13"
+    },
+    {
+     "id": "UQlxyIfIFSY",
+     "title": "Cheltenham Town rising star Jacob Greaves wins EFL Young Player of the Month",
+     "channel": "EFL",
+     "publishedAt": "2019-10-09"
+    },
+    {
+     "id": "WFUQxUUolrs",
+     "title": "Jacob Greaves named EFL Young Player of the Month",
+     "channel": "Cheltenham Town",
+     "publishedAt": "2019-10-09"
+    }
+   ],
+   "fetchedAt": "2026-10-29T18:55:52Z"
+  },
+  "336794": {
+   "name": "Abdoul Ouattara",
+   "query": "Abdoul Ouattara skills",
+   "videos": [
+    {
+     "id": "iGH3THVedsA",
+     "title": "Abdoul Ouattara - Talented and Versatile",
+     "channel": "Brazil Scout Comps",
+     "publishedAt": "2026-02-22"
+    },
+    {
+     "id": "oedKafikdQQ",
+     "title": "Best Skills of Abdoul Ouattara in 2026!",
+     "channel": "SilvaSkills PLUS",
+     "publishedAt": "2026-02-16"
+    },
+    {
+     "id": "7_4RIp-pjcM",
+     "title": "Abdoul Ouattara A valuable talent for Strasbourg - 2026",
+     "channel": "JM Scout",
+     "publishedAt": "2026-04-23"
+    }
+   ],
+   "fetchedAt": "2026-10-29T18:55:52Z"
+  },
+  "20975": {
+   "name": "Julio Enciso",
+   "query": "Julio Enciso skills",
+   "videos": [
+    {
+     "id": "8NM8IgyKGO8",
+     "title": "Julio Enciso – Explosive Playmaker 🇵🇾 | 2026ᴴᴰ",
+     "channel": "FS Scout",
+     "publishedAt": "2026-07-12"
+    },
+    {
+     "id": "BIi0IFKDipQ",
+     "title": "JULIO ENCISO | A Magnificent Season 🇵🇾✨",
+     "channel": "Le Talent Comps",
+     "publishedAt": "2026-06-29"
+    },
+    {
+     "id": "r5AZQwu_oUA",
+     "title": "Julio Enciso 2026 ● Welcome Back to Ipswich Town 🔵🇵🇾",
+     "channel": "SVMM",
+     "publishedAt": "2026-08-12"
+    }
+   ],
+   "fetchedAt": "2026-10-29T18:55:52Z"
   }
  }
 }

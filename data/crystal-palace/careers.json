@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-29T12:51:30Z",
+ "updatedAt": "2026-10-29T18:55:52Z",
  "players": {
   "195738": {
    "name": "Walter Benítez",
@@ -235,7 +235,7 @@
    "name": "Lucca Benetton",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-10-28T18:48:10Z"
+   "fetchedAt": "2026-10-29T18:55:52Z"
   },
   "225426": {
    "name": "Ben Chilwell",
@@ -1517,7 +1517,7 @@
    "name": "Sebastian Williams",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-10-28T18:48:10Z"
+   "fetchedAt": "2026-10-29T18:55:52Z"
   },
   "241012": {
    "name": "Ismaïla Sarr",

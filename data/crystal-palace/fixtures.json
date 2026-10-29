@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-29T12:51:30Z",
+ "updatedAt": "2026-10-29T18:55:52Z",
  "fixtures": [
   {
    "eventId": "401879300",
@@ -457,6 +457,26 @@
    "status": "scheduled",
    "league": "eng.1",
    "compShort": "PL",
+   "hasStats": false,
+   "hasResult": false,
+   "hasLineup": false
+  },
+  {
+   "eventId": "401932163",
+   "date": "2026-12-15T20:00:00Z",
+   "competition": "カラバオ杯",
+   "matchday": null,
+   "isHome": true,
+   "opponent": {
+    "id": "366",
+    "name": "Sunderland",
+    "abbr": "SUN",
+    "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png"
+   },
+   "venue": "Selhurst Park",
+   "status": "scheduled",
+   "league": "eng.league_cup",
+   "compShort": "EFL",
    "hasStats": false,
    "hasResult": false,
    "hasLineup": false

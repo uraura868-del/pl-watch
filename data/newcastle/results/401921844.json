@@ -1,0 +1,45 @@
+{
+ "eventId": "401921844",
+ "date": "2026-10-29T19:45:00Z",
+ "opponent": {
+  "name": "Everton",
+  "abbr": "EVE"
+ },
+ "isHome": false,
+ "score": {
+  "us": 1,
+  "opp": 3
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "James Garner",
+   "assist": "Hayden Hackney",
+   "minute": "34'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Hayden Hackney",
+   "assist": "Thierno Barry",
+   "minute": "45'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Thierno Barry",
+   "assist": "Kiernan Dewsbury-Hall",
+   "minute": "69'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Dan Burn",
+   "assist": "Joe Willock",
+   "minute": "88'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

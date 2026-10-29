@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-29T18:55:52Z",
+ "updatedAt": "2026-10-29T23:14:22Z",
  "enabled": true,
  "players": {
   "167192": {
@@ -276,6 +276,31 @@
     }
    ],
    "fetchedAt": "2026-10-29T12:51:30Z"
+  },
+  "362211": {
+   "name": "Abdukodir Khusanov",
+   "query": "Abdukodir Khusanov skills",
+   "videos": [
+    {
+     "id": "A8FaEWBrizE",
+     "title": "Abdukodir Khusanov is a Warrior",
+     "channel": "Eleven 90",
+     "publishedAt": "2026-05-05"
+    },
+    {
+     "id": "1BbjXekLH9I",
+     "title": "Abdukodir Khusanov - Dominant Defender 2026ᴴᴰ",
+     "channel": "Brazil Scout ",
+     "publishedAt": "2026-01-12"
+    },
+    {
+     "id": "33UEpvBFyn4",
+     "title": "Khusanov's speed #abdukodir #khusanov #football #edit #abdukodirkhusanov #mancity #manchestercity",
+     "channel": "FootUzbekBall",
+     "publishedAt": "2026-07-10"
+    }
+   ],
+   "fetchedAt": "2026-10-29T23:14:22Z"
   }
  }
 }

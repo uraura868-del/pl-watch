@@ -1,8 +1,8 @@
 {
  "eventId": "401921844",
  "date": "2026-10-29T19:45:00Z",
- "final": false,
- "updatedAt": "2026-10-29T18:55:52Z",
+ "final": true,
+ "updatedAt": "2026-10-29T23:14:22Z",
  "team": {
   "formation": "4-2-3-1",
   "rows": [
@@ -222,19 +222,19 @@
     "319267"
    ],
    [
-    "308979",
     "106139",
+    "198138",
     "179233",
-    "198138"
+    "308979"
    ],
    [
+    "323986",
+    "286090"
+   ],
+   [
+    "243386",
     "259517",
-    "243386"
-   ],
-   [
-    "286090",
-    "172836",
-    "323986"
+    "172836"
    ],
    [
     "319431"
@@ -252,10 +252,30 @@
     "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/629773-1732826321.jpg?lm=4711"
    },
    {
+    "id": "198138",
+    "name": "Dan Burn",
+    "jersey": "33",
+    "pos": "CD-L",
+    "starter": true,
+    "place": "6",
+    "photo": "data/photos/ab269d4de3af562b.jpg",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/134270-1682340860.jpg?lm=4711"
+   },
+   {
+    "id": "179233",
+    "name": "Fabian Schär",
+    "jersey": "5",
+    "pos": "CD-R",
+    "starter": true,
+    "place": "5",
+    "photo": "data/photos/346c1c7718c1931d.jpg",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/135343-1667990394.jpg?lm=4711"
+   },
+   {
     "id": "106139",
     "name": "Lewis Hall",
     "jersey": "3",
-    "pos": "D",
+    "pos": "LB",
     "starter": true,
     "place": "3",
     "photo": "data/photos/f96a352d2a06e037.jpg",
@@ -265,47 +285,17 @@
     "id": "308979",
     "name": "Amar Dedic",
     "jersey": "37",
-    "pos": "D",
+    "pos": "RB",
     "starter": true,
     "place": "2",
     "photo": "data/photos/76faa73ed669609f.jpg",
     "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/519184-1758058581.jpg?lm=4711"
    },
    {
-    "id": "179233",
-    "name": "Fabian Schär",
-    "jersey": "5",
-    "pos": "D",
-    "starter": true,
-    "place": "5",
-    "photo": "data/photos/346c1c7718c1931d.jpg",
-    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/135343-1667990394.jpg?lm=4711"
-   },
-   {
-    "id": "198138",
-    "name": "Dan Burn",
-    "jersey": "33",
-    "pos": "D",
-    "starter": true,
-    "place": "6",
-    "photo": "data/photos/ab269d4de3af562b.jpg",
-    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/134270-1682340860.jpg?lm=4711"
-   },
-   {
-    "id": "172836",
-    "name": "Jacob Murphy",
-    "jersey": "23",
-    "pos": "M",
-    "starter": true,
-    "place": "7",
-    "photo": "data/photos/632ec56b59f0d2b0.jpg",
-    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/199527-1674210561.jpg?lm=4711"
-   },
-   {
     "id": "259517",
     "name": "Joe Willock",
     "jersey": "28",
-    "pos": "M",
+    "pos": "AM",
     "starter": true,
     "place": "10",
     "photo": "data/photos/787e27ae3e3bb739.jpg",
@@ -315,29 +305,19 @@
     "id": "323986",
     "name": "Nico González",
     "jersey": "6",
-    "pos": "M",
+    "pos": "LM",
     "starter": true,
-    "place": "8",
+    "place": "4",
     "photo": "data/photos/43acf46ddd07376f.jpg",
     "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/466805-1743669968.jpg?lm=4711"
-   },
-   {
-    "id": "243386",
-    "name": "Harvey Barnes",
-    "jersey": "11",
-    "pos": "M",
-    "starter": true,
-    "place": "11",
-    "photo": "data/photos/24820dd2afa8cac7.jpg",
-    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/398065-1761079974.jpg?lm=4711"
    },
    {
     "id": "286090",
     "name": "Jacob Ramsey",
     "jersey": "41",
-    "pos": "M",
+    "pos": "RM",
     "starter": true,
-    "place": "4",
+    "place": "8",
     "photo": "data/photos/21447a75ce0c8d5e.jpg",
     "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/503749-1687975464.jpg?lm=4711"
    },
@@ -350,6 +330,26 @@
     "place": "9",
     "photo": "data/photos/5df735836fe562ad.jpg",
     "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/609556-1693217416.jpg?lm=4711"
+   },
+   {
+    "id": "243386",
+    "name": "Harvey Barnes",
+    "jersey": "11",
+    "pos": "AM-L",
+    "starter": true,
+    "place": "11",
+    "photo": "data/photos/24820dd2afa8cac7.jpg",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/398065-1761079974.jpg?lm=4711"
+   },
+   {
+    "id": "172836",
+    "name": "Jacob Murphy",
+    "jersey": "23",
+    "pos": "AM-R",
+    "starter": true,
+    "place": "7",
+    "photo": "data/photos/632ec56b59f0d2b0.jpg",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/199527-1674210561.jpg?lm=4711"
    }
   ],
   "bench": [

@@ -1,0 +1,45 @@
+{
+ "eventId": "401921844",
+ "date": "2026-10-29T19:45:00Z",
+ "opponent": {
+  "name": "Newcastle United",
+  "abbr": "NEW"
+ },
+ "isHome": true,
+ "score": {
+  "us": 3,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "James Garner",
+   "assist": "Hayden Hackney",
+   "minute": "34'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Hayden Hackney",
+   "assist": "Thierno Barry",
+   "minute": "45'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Thierno Barry",
+   "assist": "Kiernan Dewsbury-Hall",
+   "minute": "69'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Dan Burn",
+   "assist": "Joe Willock",
+   "minute": "88'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

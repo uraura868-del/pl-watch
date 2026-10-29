@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-29T18:55:52Z",
+ "updatedAt": "2026-10-29T23:14:22Z",
  "fixtures": [
   {
    "eventId": "401879319",
@@ -214,11 +214,11 @@
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png"
    },
    "venue": "Hill Dickinson Stadium",
-   "status": "scheduled",
+   "status": "played",
    "league": "eng.league_cup",
    "compShort": "EFL",
-   "hasStats": false,
-   "hasResult": false,
+   "hasStats": true,
+   "hasResult": true,
    "hasLineup": true
   },
   {

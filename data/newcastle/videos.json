@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-30T12:43:02Z",
+ "updatedAt": "2026-10-30T18:33:30Z",
  "enabled": true,
  "players": {
   "141705": {
@@ -376,6 +376,81 @@
     }
    ],
    "fetchedAt": "2026-10-30T12:43:02Z"
+  },
+  "259517": {
+   "name": "Joe Willock",
+   "query": "Joe Willock skills",
+   "videos": [
+    {
+     "id": "tOZsFJpY3Kc",
+     "title": "Joe Willock | Skills | 2026 | Welcome to Beşiktaş ?",
+     "channel": "Futbol Transfer",
+     "publishedAt": "2026-07-21"
+    },
+    {
+     "id": "_xwELJUDHkg",
+     "title": "Joe Willock football skills",
+     "channel": "FOOTBALL PEARLS",
+     "publishedAt": "2021-06-06"
+    },
+    {
+     "id": "rXcYzyCzjQQ",
+     "title": "Joe Willock so far this season 🥶 #newcastle #football #premierleague",
+     "channel": "Newcastle United",
+     "publishedAt": "2026-09-27"
+    }
+   ],
+   "fetchedAt": "2026-10-30T18:33:30Z"
+  },
+  "286090": {
+   "name": "Jacob Ramsey",
+   "query": "Jacob Ramsey skills",
+   "videos": [
+    {
+     "id": "JH7Id5y9T8g",
+     "title": "Jacob Ramsey • Craziest Defensive Skills & Passes",
+     "channel": "football plus",
+     "publishedAt": "2025-10-17"
+    },
+    {
+     "id": "BvGp3N6Jax4",
+     "title": "Jacob Ramsey's voice crack  #footballmemes #footballshorts #footballmeme #funny #memes",
+     "channel": "Footy Memes Daily",
+     "publishedAt": "2025-08-19"
+    },
+    {
+     "id": "0A6QsQ8O5bg",
+     "title": "Jacob Ramsey - one of our own - scoring in the UEFA Champions League 🙌",
+     "channel": "Aston Villa Football Club",
+     "publishedAt": "2024-09-19"
+    }
+   ],
+   "fetchedAt": "2026-10-30T18:33:30Z"
+  },
+  "323986": {
+   "name": "Nico González",
+   "query": "Nico González skills",
+   "videos": [
+    {
+     "id": "x53qCy8OL1o",
+     "title": "Nico Gonzalez's INCREDIBLE No-Look Pass! 😱",
+     "channel": "Premier League",
+     "publishedAt": "2025-10-14"
+    },
+    {
+     "id": "OQAKG7vV2Ps",
+     "title": "Nico González | Skills | 2026 | Welcome to Beşiktaş ?",
+     "channel": "Futbol Transfer",
+     "publishedAt": "2026-08-11"
+    },
+    {
+     "id": "UzPLndGyii4",
+     "title": "NICO GONZÁLEZ ● Welcome to Newcastle 2026 ⚫️⚪️🇪🇸",
+     "channel": "SVMM",
+     "publishedAt": "2026-08-24"
+    }
+   ],
+   "fetchedAt": "2026-10-30T18:33:30Z"
   }
  }
 }

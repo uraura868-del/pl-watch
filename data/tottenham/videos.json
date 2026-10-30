@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-30T12:43:02Z",
+ "updatedAt": "2026-10-30T18:33:30Z",
  "enabled": true,
  "players": {
   "126703": {
@@ -151,6 +151,31 @@
     }
    ],
    "fetchedAt": "2026-10-30T12:43:02Z"
+  },
+  "233945": {
+   "name": "Marcos Senesi",
+   "query": "Marcos Senesi skills",
+   "videos": [
+    {
+     "id": "36aX1htOM14",
+     "title": "Marcos Senesi ● Welcome to Tottenham Hotspur 2026 ⚪🇦🇷 Best Defensive Skills & Passes",
+     "channel": "SVMM",
+     "publishedAt": "2026-05-25"
+    },
+    {
+     "id": "FJvGaivqiYM",
+     "title": "Marcos Senesi - Solid and Technical Defender 2025ᴴᴰ",
+     "channel": "Brazil Scout Comps",
+     "publishedAt": "2025-12-26"
+    },
+    {
+     "id": "CejdVYBoQxI",
+     "title": "Marcos Senesi 2026 ● Welcome to Tottenham Hotspur ⚪🇦🇷",
+     "channel": "SVMM",
+     "publishedAt": "2026-05-29"
+    }
+   ],
+   "fetchedAt": "2026-10-30T18:33:30Z"
   }
  }
 }

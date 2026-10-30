@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-30T12:43:02Z",
+ "updatedAt": "2026-10-30T18:33:30Z",
  "enabled": true,
  "players": {
   "336794": {
@@ -2532,6 +2532,31 @@
     }
    ],
    "fetchedAt": "2026-10-30T12:43:02Z"
+  },
+  "342879": {
+   "name": "Adam Murphy",
+   "query": "Adam Murphy skills",
+   "videos": [
+    {
+     "id": "EKotVdo7vQ0",
+     "title": "Adam Murphy - St Patrick's Athletic FC 2022/23",
+     "channel": "CSN Football Videos",
+     "publishedAt": "2023-08-03"
+    },
+    {
+     "id": "x4I_w1kHmcg",
+     "title": "Bristol City Recall: Adam Murphy's Surprising Loan Return from Swindon",
+     "channel": "Sports Bulletine",
+     "publishedAt": "2026-01-09"
+    },
+    {
+     "id": "Ytv8Tifx1nY",
+     "title": "Good Ol’ Days of Southwest VA with Adam Murphy for Congress- Solar Future",
+     "channel": "Pickups & Progress",
+     "publishedAt": "2026-04-22"
+    }
+   ],
+   "fetchedAt": "2026-10-30T18:33:30Z"
   }
  }
 }

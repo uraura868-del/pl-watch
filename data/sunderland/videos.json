@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-30T12:43:02Z",
+ "updatedAt": "2026-10-30T18:33:30Z",
  "enabled": true,
  "players": {
   "138481": {
@@ -76,6 +76,56 @@
     }
    ],
    "fetchedAt": "2026-10-29T23:14:22Z"
+  },
+  "166473": {
+   "name": "Thomas Meunier",
+   "query": "Thomas Meunier skills",
+   "videos": [
+    {
+     "id": "86TPU_P6FfU",
+     "title": "Thomas Meunier   PSG   Amazing Skills   2017 HD",
+     "channel": "Love King Officiel",
+     "publishedAt": "2017-08-08"
+    },
+    {
+     "id": "-InYpIynzAg",
+     "title": "Thomas Meunier 2021 ● Amazing Skills Show | HD",
+     "channel": "FBtalentsHD",
+     "publishedAt": "2021-01-26"
+    },
+    {
+     "id": "DnYBLDmd5Mg",
+     "title": "8 Buts de MEUNIER qui ont fait le tour du MONDE",
+     "channel": "CandyClash",
+     "publishedAt": "2019-06-15"
+    }
+   ],
+   "fetchedAt": "2026-10-30T18:33:30Z"
+  },
+  "214188": {
+   "name": "Nordi Mukiele",
+   "query": "Nordi Mukiele skills",
+   "videos": [
+    {
+     "id": "3WOC20BgI34",
+     "title": "Nordi Mukiele ● Welcome to Sunderland 🔴⚪🇫🇷 Skills, Tackles & Passes",
+     "channel": "SVMM",
+     "publishedAt": "2025-08-15"
+    },
+    {
+     "id": "76VeQ3139E8",
+     "title": "NORDI MUKIELE | Welcome To Sunderland 2025 🔴 Elite Tackles, Skills & Passes | PSG (HD)",
+     "channel": "WorldOfFootballHD",
+     "publishedAt": "2025-08-15"
+    },
+    {
+     "id": "daa3Xg5ih14",
+     "title": "Nordi Mukiele - Overpower Player 2024ᴴᴰ",
+     "channel": "Brazil Scout ",
+     "publishedAt": "2024-01-08"
+    }
+   ],
+   "fetchedAt": "2026-10-30T18:33:30Z"
   }
  }
 }

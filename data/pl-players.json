@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-30T12:43:02Z",
+ "updatedAt": "2026-10-30T18:33:30Z",
  "players": {
   "david raya": {
    "name": "David Raya",
@@ -400,7 +400,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": null,
-   "joined": "2025-02-06",
+   "joined": "2026-01-27",
    "birthPlace": "London",
    "posInfo": "Centre Defensive Midfielder"
   },
@@ -413,7 +413,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": null,
-   "joined": "2024-10-04",
+   "joined": "2026-07-30",
    "birthPlace": "London",
    "posInfo": "Centre Central Midfielder"
   },
@@ -439,7 +439,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": null,
-   "joined": "2025-02-06",
+   "joined": "2026-10-26",
    "birthPlace": "Cambridge",
    "posInfo": "Left Full Back"
   },
@@ -452,9 +452,9 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 181,
-   "joined": "2024-07-01",
+   "joined": "2025-07-22",
    "birthPlace": "London",
-   "posInfo": "Winger"
+   "posInfo": "Striker"
   },
   "harriman annous": {
    "name": "Andre Harriman-Annous",
@@ -465,9 +465,9 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 181,
-   "joined": "2024-07-01",
+   "joined": "2025-07-22",
    "birthPlace": "London",
-   "posInfo": "Winger"
+   "posInfo": "Striker"
   },
   "marco bizot": {
    "name": "Marco Bizot",
@@ -751,7 +751,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 193,
-   "joined": "2025-08-14",
+   "joined": "2026-07-01",
    "birthPlace": null,
    "posInfo": "Goalkeeper"
   },
@@ -764,7 +764,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 188,
-   "joined": "2021-08-30",
+   "joined": "2023-03-31",
    "birthPlace": null,
    "posInfo": "Goalkeeper"
   },
@@ -6003,7 +6003,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 175,
-   "joined": "2026-02-02",
+   "joined": "2023-07-18",
    "birthPlace": "Morpeth",
    "posInfo": "Centre Defensive Midfielder"
   },
@@ -6536,7 +6536,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 174,
-   "joined": "2024-10-28",
+   "joined": "2025-09-26",
    "birthPlace": "London",
    "posInfo": "Left/Right Winger"
   },
@@ -6686,7 +6686,7 @@
   "dexter oliver": {
    "name": "Dexter Oliver",
    "team": "Manchester City",
-   "jersey": null,
+   "jersey": 76,
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p679860.png",
    "dob": "2008-12-02",
    "nat": "England",
@@ -6965,7 +6965,7 @@
    "nat": "Scotland",
    "natCode": "GB-SCT",
    "height": 183,
-   "joined": "2024-09-30",
+   "joined": "2025-05-26",
    "birthPlace": "Manchester",
    "posInfo": "Centre Central Midfielder"
   },
@@ -7069,7 +7069,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 181,
-   "joined": "2024-02-18",
+   "joined": "2024-04-06",
    "birthPlace": "London",
    "posInfo": "Left Full Back"
   },
@@ -7180,13 +7180,13 @@
   "shea lacey": {
    "name": "Shea Lacey",
    "team": "Manchester United",
-   "jersey": 61,
+   "jersey": 31,
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p576628.png",
    "dob": "2007-04-14",
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 167,
-   "joined": "2023-01-23",
+   "joined": "2025-05-26",
    "birthPlace": "Liverpool",
    "posInfo": "Right Winger"
   },

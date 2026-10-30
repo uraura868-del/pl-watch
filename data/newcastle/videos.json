@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-30T05:36:07Z",
+ "updatedAt": "2026-10-30T12:43:02Z",
  "enabled": true,
  "players": {
   "141705": {
@@ -276,6 +276,106 @@
     }
    ],
    "fetchedAt": "2026-10-29T12:51:30Z"
+  },
+  "346776": {
+   "name": "Miodrag Pivas",
+   "query": "Miodrag Pivas skills",
+   "videos": [
+    {
+     "id": "KOX48a9MU58",
+     "title": "Miodrag Pivas ● Welcome to Newcastle ⚫️⚪️🇷🇸 Best Tackles, Passes & Skills",
+     "channel": "SVMM",
+     "publishedAt": "2024-06-27"
+    },
+    {
+     "id": "t0-Pcbd7Akg",
+     "title": "Newcastle SIGN ‘Highly Rated’ Serbian Defender Miodrag Pivas!",
+     "channel": "Roobenstein",
+     "publishedAt": "2024-07-20"
+    },
+    {
+     "id": "TUhNv7xLRX4",
+     "title": "😱BOMB TRANSFER NEWS: TOON SIGN 19-YEAR-OLD SERBIAN DEFENSIVE GEM!",
+     "channel": "NUFC Quick News",
+     "publishedAt": "2024-07-21"
+    }
+   ],
+   "fetchedAt": "2026-10-30T12:43:02Z"
+  },
+  "172836": {
+   "name": "Jacob Murphy",
+   "query": "Jacob Murphy skills",
+   "videos": [
+    {
+     "id": "BiKJp-YYWvQ",
+     "title": "Be Surprised by Jacob Murphy in 2025!",
+     "channel": "SilvaSkills PLUS",
+     "publishedAt": "2025-02-24"
+    },
+    {
+     "id": "S5OsJPJXyZA",
+     "title": "Unbelievable Assist_ Jacob Murphy's Stunning Back-Heel!",
+     "channel": "SportShorts!",
+     "publishedAt": "2025-07-20"
+    },
+    {
+     "id": "obt3EoUnHb4",
+     "title": "Player Takes His Throw-Ins VERY Seriously 😤",
+     "channel": "Premier League",
+     "publishedAt": "2025-07-18"
+    }
+   ],
+   "fetchedAt": "2026-10-30T12:43:02Z"
+  },
+  "202232": {
+   "name": "Joelinton",
+   "query": "Joelinton skills",
+   "videos": [
+    {
+     "id": "4qxt_1FW_Sw",
+     "title": "The Best of Joelinton in 2022/23!",
+     "channel": "Newcastle United",
+     "publishedAt": "2023-06-29"
+    },
+    {
+     "id": "2WfTynknIko",
+     "title": "Joelinton SUBLIMING Skills For Newcastle🙌#footballplayer #footballgame #footballmatch #footballfan",
+     "channel": "BlackSports TV",
+     "publishedAt": "2023-04-06"
+    },
+    {
+     "id": "8sahxXKXemk",
+     "title": "Ultimate Newcastle Teammate?! Tonali, Elanga, Gordon, Joelinton",
+     "channel": "Premier League",
+     "publishedAt": "2025-12-30"
+    }
+   ],
+   "fetchedAt": "2026-10-30T12:43:02Z"
+  },
+  "243386": {
+   "name": "Harvey Barnes",
+   "query": "Harvey Barnes skills",
+   "videos": [
+    {
+     "id": "qqqgZxHdSSk",
+     "title": "Harvey Barnes Deserves to be Seen in 2025!",
+     "channel": "SilvaSkills",
+     "publishedAt": "2025-05-02"
+    },
+    {
+     "id": "o55XZjf-pGE",
+     "title": "Harvey Barnes buries Newcastle's second against Crystal Palace | Premier League",
+     "channel": "NBC Sports",
+     "publishedAt": "2026-10-25"
+    },
+    {
+     "id": "3ujIaZkgeT0",
+     "title": "Harvey Barnes' screamer gives Newcastle lifeline against Bournemouth | Premier League | NBC Sports",
+     "channel": "NBC Sports",
+     "publishedAt": "2026-09-05"
+    }
+   ],
+   "fetchedAt": "2026-10-30T12:43:02Z"
   }
  }
 }

@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-30T05:36:07Z",
+ "updatedAt": "2026-10-30T12:43:02Z",
  "enabled": true,
  "players": {
   "111337": {
@@ -301,6 +301,425 @@
     }
    ],
    "fetchedAt": "2026-10-29T18:55:52Z"
+  },
+  "139744": {
+   "name": "Jack Taylor",
+   "query": "Jack Taylor skills",
+   "videos": [
+    {
+     "id": "DvfzFTPhp30",
+     "title": "Jack Taylor Skills Video",
+     "channel": "Humnbirds",
+     "publishedAt": "2021-02-16"
+    },
+    {
+     "id": "K3t1e9JvW3Q",
+     "title": "Jack Taylor - Peterborough United FC 2019/20",
+     "channel": "CSN Football Videos",
+     "publishedAt": "2020-08-07"
+    },
+    {
+     "id": "FuheCq4gn6A",
+     "title": "Jack Taylor scores 138 points for Grinnell College",
+     "channel": "ScoutsFocus.com",
+     "publishedAt": "2012-11-21"
+    }
+   ],
+   "fetchedAt": "2026-10-30T12:43:02Z"
+  },
+  "222300": {
+   "name": "Sasa Lukic",
+   "query": "Sasa Lukic skills",
+   "videos": [
+    {
+     "id": "EuWStwXRZjk",
+     "title": "THIS is why Fulham Want Saša Lukić!",
+     "channel": "J Media",
+     "publishedAt": "2023-03-31"
+    },
+    {
+     "id": "Li25TqKRUUo",
+     "title": "Sasa Lukic heads Fulham level with Newcastle | Premier League | NBC Sports",
+     "channel": "NBC Sports",
+     "publishedAt": "2025-10-25"
+    },
+    {
+     "id": "8u7h4KALfF4",
+     "title": "Alex Iwobi, Reiss Nelson, Adama Traore & Saša Lukić 😮‍💨",
+     "channel": "Premier League",
+     "publishedAt": "2025-02-26"
+    }
+   ],
+   "fetchedAt": "2026-10-30T12:43:02Z"
+  },
+  "228393": {
+   "name": "Exequiel Palacios",
+   "query": "Exequiel Palacios skills",
+   "videos": [
+    {
+     "id": "hqH5gMt9DA8",
+     "title": "Exequiel Palacios ● Welcome to Ipswich Town 2026 🔵🇦🇷 Tackles, Passes & Skills",
+     "channel": "SVMM",
+     "publishedAt": "2026-08-25"
+    },
+    {
+     "id": "ret59TdU3ho",
+     "title": "Exequiel Palacios - The Midfielder Commander - 2026ᴴᴰ",
+     "channel": "Brazil Scout Comps",
+     "publishedAt": "2026-08-26"
+    },
+    {
+     "id": "hGkLjPP1cwU",
+     "title": "Exequiel Palacios Brings the Fight to Every Midfield Battle",
+     "channel": "BlazeControl",
+     "publishedAt": "2026-03-23"
+    }
+   ],
+   "fetchedAt": "2026-10-30T12:43:02Z"
+  },
+  "246825": {
+   "name": "Azor Matusiwa",
+   "query": "Azor Matusiwa skills",
+   "videos": [
+    {
+     "id": "T6qxlQmjC78",
+     "title": "AZOR MATUSIWA | Dutch Security",
+     "channel": "Le Talent Comps",
+     "publishedAt": "2024-09-17"
+    },
+    {
+     "id": "BIwyBnBZNio",
+     "title": "Azor Matusiwa ● DUTCH N'GOLO KANTÉ ● interceptions, Tackles & Passes ●",
+     "channel": "GROBORG",
+     "publishedAt": "2020-04-28"
+    },
+    {
+     "id": "aq4jRFLZxGA",
+     "title": "Azor Matusiwa with a STUNNER! 🤩 @IpswichTown #EFL | #Football #ipswichtown",
+     "channel": "EFL",
+     "publishedAt": "2026-03-04"
+    }
+   ],
+   "fetchedAt": "2026-10-30T12:43:02Z"
+  },
+  "256607": {
+   "name": "Florentino",
+   "query": "Florentino skills",
+   "videos": [
+    {
+     "id": "rYoFYFV1uVo",
+     "title": "The EASIEST Florentino Guide in Honor of Kings",
+     "channel": "J1ng",
+     "publishedAt": "2026-07-05"
+    },
+    {
+     "id": "hWQSzn__Gf0",
+     "title": "Florentino Luis ● Welcome to Burnley 2025 🟣🇵🇹 Best Tackles, Skills & Passes",
+     "channel": "SVMM",
+     "publishedAt": "2025-08-28"
+    },
+    {
+     "id": "AhtbcCyrTTA",
+     "title": "The header from Maxime and the skill from Florentino 😮‍💨 #burnleyfc #football #premierleague",
+     "channel": "Burnley Football Club",
+     "publishedAt": "2025-09-21"
+    }
+   ],
+   "fetchedAt": "2026-10-30T12:43:02Z"
+  },
+  "301554": {
+   "name": "Marcelino Núñez",
+   "query": "Marcelino Núñez skills",
+   "videos": [
+    {
+     "id": "NAaHsiI2Jq4",
+     "title": "Marcelino Núñez - Electric Midfielder - 2025ᴴᴰ",
+     "channel": "Brazil Scout ",
+     "publishedAt": "2025-02-22"
+    },
+    {
+     "id": "sgu14H4wGJY",
+     "title": "Welcome to Ipswich Town, Marcelino Núñez.",
+     "channel": "Ipswich Town FC",
+     "publishedAt": "2025-08-29"
+    },
+    {
+     "id": "Zcku8L65sPs",
+     "title": "¡DOBLETE! de Marcelino Núñez al Leicester City ¡HOY! (GOLES)",
+     "channel": "BR sports",
+     "publishedAt": "2026-08-25"
+    }
+   ],
+   "fetchedAt": "2026-10-30T12:43:02Z"
+  },
+  "307073": {
+   "name": "Kasey McAteer",
+   "query": "Kasey McAteer skills",
+   "videos": [
+    {
+     "id": "I1_f_cQac24",
+     "title": "Kasey Mcateer Deserves Your Attention ! 2023ᴴᴰ",
+     "channel": "Brazil Scout ",
+     "publishedAt": "2023-10-25"
+    },
+    {
+     "id": "FJnvAI6wkk8",
+     "title": "Kasey McAteer is a Pure Talent Player !",
+     "channel": "TfutProd",
+     "publishedAt": "2023-09-07"
+    },
+    {
+     "id": "_eK86WhwdLI",
+     "title": "From ball boy to the first team | Kasey McAteer and Jamie Vardy 10 years on!",
+     "channel": "SuperSport",
+     "publishedAt": "2025-05-20"
+    }
+   ],
+   "fetchedAt": "2026-10-30T12:43:02Z"
+  },
+  "308891": {
+   "name": "Anis Mehmeti",
+   "query": "Anis Mehmeti skills",
+   "videos": [
+    {
+     "id": "llSSS88wexc",
+     "title": "Why is Nobody Talking About Anis Mehmeti?",
+     "channel": "Brazil Scout Comps",
+     "publishedAt": "2025-10-22"
+    },
+    {
+     "id": "FxMJyJeNVUo",
+     "title": "Be Surpised by Anis Mehmeti in 2025!",
+     "channel": "SilvaSkills",
+     "publishedAt": "2025-10-06"
+    },
+    {
+     "id": "xTX2OkWqRgA",
+     "title": "ANIS MEHMETI WORLDIE 🤯 #bristolcity #efl",
+     "channel": "Bristol City",
+     "publishedAt": "2025-09-21"
+    }
+   ],
+   "fetchedAt": "2026-10-30T12:43:02Z"
+  },
+  "3132863": {
+   "name": "Matthew Charles Compton",
+   "query": "Matthew Charles Compton skills",
+   "videos": [
+    {
+     "id": "n_aC_S47HJU",
+     "title": "Tyson Chandler’s Curls Used To Be Epic 😂",
+     "channel": "ALL THE SMOKE",
+     "publishedAt": "2023-09-13"
+    },
+    {
+     "id": "ba74-_9cSGI",
+     "title": "ONE OF THE BEST SHOOTING FORM IN NBA",
+     "channel": "Richards skills",
+     "publishedAt": "2023-09-21"
+    },
+    {
+     "id": "JN_-5bXMHuM",
+     "title": "When Jacob Fatu says something, he means it. 😤",
+     "channel": "WWE",
+     "publishedAt": "2025-01-30"
+    }
+   ],
+   "fetchedAt": "2026-10-30T12:43:02Z"
+  },
+  "181092": {
+   "name": "Chuba Akpom",
+   "query": "Chuba Akpom skills",
+   "videos": [
+    {
+     "id": "3LaexdBbS0g",
+     "title": "Chuba Akpom a complete Striker - 2025",
+     "channel": "JM Scout",
+     "publishedAt": "2025-08-09"
+    },
+    {
+     "id": "BV9_07GZYDw",
+     "title": "Chuba Akpom ● Preseason 2014/2015 ● Arsenal",
+     "channel": "FootyScoutHD",
+     "publishedAt": "2014-08-15"
+    },
+    {
+     "id": "cjrc0GGhsYM",
+     "title": "AK47 is back.",
+     "channel": "PAOK COMMUNITY",
+     "publishedAt": "2021-08-25"
+    }
+   ],
+   "fetchedAt": "2026-10-30T12:43:02Z"
+  },
+  "261598": {
+   "name": "Zian Flemming",
+   "query": "Zian Flemming skills",
+   "videos": [
+    {
+     "id": "IehyelDkYwE",
+     "title": "Zian Flemming stuns Fulham to give Burnley lead | Premier League | NBC Sports",
+     "channel": "NBC Sports",
+     "publishedAt": "2026-03-21"
+    },
+    {
+     "id": "1MvicgoyRP0",
+     "title": "Burnley's Zian Flemming on celebrations of mental strength & taking 'long way round' to PL",
+     "channel": "Sky Sports News",
+     "publishedAt": "2026-05-14"
+    }
+   ],
+   "fetchedAt": "2026-10-30T12:43:02Z"
+  },
+  "269343": {
+   "name": "Jack Clarke",
+   "query": "Jack Clarke skills",
+   "videos": [
+    {
+     "id": "yenfjlTQPko",
+     "title": "Jack Clarke - Full Season Show - 2026ᴴᴰ",
+     "channel": "Brazil Scout Comps",
+     "publishedAt": "2026-05-15"
+    },
+    {
+     "id": "8AYoELV0a6o",
+     "title": "Jack Clarke - Complete Season in 2026!",
+     "channel": "SilvaSkills PLUS",
+     "publishedAt": "2026-05-11"
+    },
+    {
+     "id": "iHZqrWrRyds",
+     "title": "Jack Clarke Full Season Show 25/26",
+     "channel": "HugoFilmz",
+     "publishedAt": "2026-05-09"
+    }
+   ],
+   "fetchedAt": "2026-10-30T12:43:02Z"
+  },
+  "286347": {
+   "name": "Daizen Maeda",
+   "query": "Daizen Maeda skills",
+   "videos": [
+    {
+     "id": "tYziWoOx4ko",
+     "title": "DAIZEN MAEDA 🇯🇵 | Top Plays & Clutch Moments 👏 | William Hill Premiership 25/26",
+     "channel": "SPFL",
+     "publishedAt": "2026-06-29"
+    },
+    {
+     "id": "iIuT5GBkiFs",
+     "title": "Fastest man in football?! Daizen Maeda is UNREAL 🤯",
+     "channel": "Celtic News",
+     "publishedAt": "2025-08-19"
+    },
+    {
+     "id": "ZDV6rsgmebE",
+     "title": "Daizen Maeda is Premier League Ready!",
+     "channel": "HugoFilmz",
+     "publishedAt": "2026-07-22"
+    }
+   ],
+   "fetchedAt": "2026-10-30T12:43:02Z"
+  },
+  "295370": {
+   "name": "Jaden Philogene",
+   "query": "Jaden Philogene skills",
+   "videos": [
+    {
+     "id": "duj9wBdSieA",
+     "title": "Jaden Philogene Was COOKING in 25/26! 🔥",
+     "channel": "HugoFilmz",
+     "publishedAt": "2026-05-13"
+    },
+    {
+     "id": "MZVizUfVViU",
+     "title": "Jaden Philogene Is Silky Smooth..",
+     "channel": "PBcomps",
+     "publishedAt": "2024-02-15"
+    },
+    {
+     "id": "FJr4BH-ErOo",
+     "title": "Jaden Philogene Born to Dribble",
+     "channel": "Brazil Scout Comps",
+     "publishedAt": "2026-01-29"
+    }
+   ],
+   "fetchedAt": "2026-10-30T12:43:02Z"
+  },
+  "318680": {
+   "name": "Fatawu Issahaku",
+   "query": "Fatawu Issahaku skills",
+   "videos": [
+    {
+     "id": "z7l8K1uDNOs",
+     "title": "Issahaku Abdul Fatawu Born to Dribble",
+     "channel": "Brazil Scout ",
+     "publishedAt": "2025-12-31"
+    },
+    {
+     "id": "gWZJUVCevYs",
+     "title": "Abdul Fatawu - Full Season Show - 2026ᴴᴰ",
+     "channel": "Brazil Scout ",
+     "publishedAt": "2026-05-07"
+    },
+    {
+     "id": "KF_3aI3cEqU",
+     "title": "Fatawu Issahaku is a real baller ⛹️ 🔥🔥🔥🔥🇬🇭🇬🇭🇬🇭⚽️⚽️⚽️🚨🚨🚨",
+     "channel": "Kay Sports ",
+     "publishedAt": "2026-09-06"
+    }
+   ],
+   "fetchedAt": "2026-10-30T12:43:02Z"
+  },
+  "322654": {
+   "name": "Emersonn",
+   "query": "Emersonn skills",
+   "videos": [
+    {
+     "id": "iKoJLLZMpfc",
+     "title": "EMERSONN | The Brazillian Striker",
+     "channel": "Le Talent Comps",
+     "publishedAt": "2026-05-28"
+    },
+    {
+     "id": "sc-0bZB03k4",
+     "title": "Emersonn Correia - Every Big Club Should Want This Talent",
+     "channel": "Brazil Scout ",
+     "publishedAt": "2022-11-04"
+    },
+    {
+     "id": "cmyfuc73dUU",
+     "title": "Emerson Palmieri 2026 - Amazing Skills, Tackles & Assists - OM | HD",
+     "channel": "JM Productions HD",
+     "publishedAt": "2026-06-09"
+    }
+   ],
+   "fetchedAt": "2026-10-30T12:43:02Z"
+  },
+  "330045": {
+   "name": "Sindre Walle Egeli",
+   "query": "Sindre Walle Egeli skills",
+   "videos": [
+    {
+     "id": "k9Cm7T14FJU",
+     "title": "19-Year Old Sindre Walle Egeli is The New Gem Of Norway!",
+     "channel": "HugoFilmz",
+     "publishedAt": "2026-02-27"
+    },
+    {
+     "id": "rZ_YzcpImvg",
+     "title": "Sindre Walle Egeli Underrated Norwegians - 2026",
+     "channel": "JM Scout",
+     "publishedAt": "2026-03-04"
+    },
+    {
+     "id": "d77gcnCYcxg",
+     "title": "Sindre Walle Egeli is Ready For New Challenges!",
+     "channel": "Brazil Scout ",
+     "publishedAt": "2025-08-31"
+    }
+   ],
+   "fetchedAt": "2026-10-30T12:43:02Z"
   }
  }
 }

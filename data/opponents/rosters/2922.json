@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-27T00:08:43Z",
+ "updatedAt": "2026-10-30T12:43:02Z",
  "id": "2922",
  "name": "Getafe",
  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
@@ -164,6 +164,15 @@
    "photoSrc": null
   },
   {
+   "id": "411023",
+   "name": "Vladyslav Kysil",
+   "jersey": "38",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
    "id": "136673",
    "name": "Nemanja Gudelj",
    "jersey": "8",
@@ -236,7 +245,7 @@
   {
    "id": "386256",
    "name": "Christantus Uche",
-   "jersey": "8",
+   "jersey": "18",
    "pos": "M",
    "photo": null,
    "injuries": [],
@@ -306,6 +315,24 @@
    "photoSrc": null
   },
   {
+   "id": "3101327",
+   "name": "Sebastián Salazar Trujillo",
+   "jersey": "37",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "3121766",
+   "name": "Ibrahima Danfakha Keita",
+   "jersey": "36",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
    "id": "3124560",
    "name": "Ibra Drammeh",
    "jersey": "27",
@@ -318,6 +345,15 @@
    "id": "3139281",
    "name": "Moha Achraf",
    "jersey": "33",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "5327018",
+   "name": "Irahima Danfakha Keita",
+   "jersey": null,
    "pos": "F",
    "photo": null,
    "injuries": [],

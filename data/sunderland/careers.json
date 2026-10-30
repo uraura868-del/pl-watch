@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-30T05:36:07Z",
+ "updatedAt": "2026-10-30T12:43:02Z",
  "players": {
   "138481": {
    "name": "Simon Moore",
@@ -439,7 +439,7 @@
    "name": "Jenson Arron Jones",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-10-29T05:37:11Z"
+   "fetchedAt": "2026-10-30T12:43:02Z"
   },
   "250543": {
    "name": "Kevin Danso",
@@ -877,7 +877,7 @@
    "name": "Jack Whittaker",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-10-29T05:37:11Z"
+   "fetchedAt": "2026-10-30T12:43:02Z"
   },
   "288340": {
    "name": "Enzo Le Fée",
@@ -942,13 +942,13 @@
    "name": "Jules Ahoka",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-10-29T05:37:11Z"
+   "fetchedAt": "2026-10-30T12:43:02Z"
   },
   "3111010": {
    "name": "Tom Proctor",
-   "qid": null,
+   "qid": "Q141915569",
    "career": [],
-   "fetchedAt": "2026-10-29T05:37:11Z"
+   "fetchedAt": "2026-10-30T12:43:02Z"
   },
   "48106": {
    "name": "Juan Angulo",
@@ -1283,7 +1283,7 @@
    "name": "Trey Ogunsuyi",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-10-29T05:37:11Z"
+   "fetchedAt": "2026-10-30T12:43:02Z"
   },
   "417825": {
    "name": "Jocelin Ta Bi",

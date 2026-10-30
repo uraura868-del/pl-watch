@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-30T05:36:07Z",
+ "updatedAt": "2026-10-30T12:43:02Z",
  "enabled": true,
  "players": {
   "336794": {
@@ -2513,6 +2513,25 @@
     }
    ],
    "fetchedAt": "2026-10-27T07:42:47Z"
+  },
+  "365346": {
+   "name": "Aaron Loupalo-Bi",
+   "query": "Aaron Loupalo-Bi skills",
+   "videos": [
+    {
+     "id": "wmPVreK1vw4",
+     "title": "Arsenal Got Eliminated by a League Two Team 😭💀",
+     "channel": "HK FC",
+     "publishedAt": "2026-10-28"
+    },
+    {
+     "id": "8u7h4KALfF4",
+     "title": "Alex Iwobi, Reiss Nelson, Adama Traore & Saša Lukić 😮‍💨",
+     "channel": "Premier League",
+     "publishedAt": "2025-02-26"
+    }
+   ],
+   "fetchedAt": "2026-10-30T12:43:02Z"
   }
  }
 }

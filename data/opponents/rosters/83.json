@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-26T23:54:27Z",
+ "updatedAt": "2026-10-30T05:36:07Z",
  "id": "83",
  "name": "Barcelona",
  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
@@ -37,6 +37,13 @@
    "pos": "G",
    "photo": "data/photos/adb49aeeab74f58a.jpg",
    "injuries": [],
+   "dob": "2004-03-24",
+   "nat": "Spain",
+   "natCode": "ES",
+   "height": 182,
+   "joined": "2026-08-03",
+   "birthPlace": "Madrid",
+   "posInfo": "Left/Centre/Right Winger",
    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/561613-1747386081.jpg?lm=4711"
   },
   {
@@ -44,9 +51,16 @@
    "name": "Iker Rodríguez",
    "jersey": "35",
    "pos": "G",
-   "photo": null,
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p561245.png",
    "injuries": [],
-   "photoSrc": null
+   "dob": "2004-07-14",
+   "nat": "Uruguay",
+   "natCode": "UY",
+   "height": 192,
+   "joined": "2026-07-14",
+   "birthPlace": "Palamós",
+   "posInfo": "Striker",
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p561245.png"
   },
   {
    "id": "403587",
@@ -73,6 +87,13 @@
    "pos": "D",
    "photo": "data/photos/e5a6f59ea83e49b8.jpg",
    "injuries": [],
+   "dob": "2004-03-24",
+   "nat": "Spain",
+   "natCode": "ES",
+   "height": 182,
+   "joined": "2026-08-03",
+   "birthPlace": "Madrid",
+   "posInfo": "Left/Centre/Right Winger",
    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/466794-1788248040.jpg?lm=4711"
   },
   {

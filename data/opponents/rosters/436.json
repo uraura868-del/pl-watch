@@ -1,14 +1,14 @@
 {
- "updatedAt": "2026-10-26T23:54:27Z",
+ "updatedAt": "2026-10-30T05:36:07Z",
  "id": "436",
  "name": "Fenerbahce",
  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
  "manager": {
-  "name": "İsmail Kartal",
+  "name": "Dirk Kuyt",
   "role": "Manager",
-  "nat": "Turkey",
+  "nat": "Kingdom of the Netherlands",
   "natCode": null,
-  "dob": "1961-06-15",
+  "dob": "1980-07-22",
   "source": "wikidata"
  },
  "players": [
@@ -113,7 +113,7 @@
   },
   {
    "id": "340186",
-   "name": "Yiğit Demir",
+   "name": "Yigit Demir",
    "jersey": "14",
    "pos": "D",
    "photo": null,

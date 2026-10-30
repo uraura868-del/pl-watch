@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-30T18:33:30Z",
+ "updatedAt": "2026-10-30T22:55:55Z",
  "enabled": true,
  "players": {
   "179497": {
@@ -276,6 +276,56 @@
     }
    ],
    "fetchedAt": "2026-10-30T12:43:02Z"
+  },
+  "388024": {
+   "name": "Nicolò Savona",
+   "query": "Nicolò Savona skills",
+   "videos": [
+    {
+     "id": "OjTfhhfKzko",
+     "title": "Nicolo Savona is INSANE Italian Right-Back !",
+     "channel": "90 Minutes Football",
+     "publishedAt": "2025-05-12"
+    },
+    {
+     "id": "rfiLN1zWJw8",
+     "title": "Savona’s superb second at Anfield. 🔥",
+     "channel": "Nottingham Forest FC ",
+     "publishedAt": "2025-11-23"
+    },
+    {
+     "id": "9SHDDhcyxiA",
+     "title": "𝑯𝒐𝒎𝒆𝒈𝒓𝒐𝒘𝒏. And here to 𝐬𝐭𝐚𝐲.Nicolò Savona, Juventus through and through, renews until 2030 ⚪️⚫️",
+     "channel": "Juventus",
+     "publishedAt": "2025-06-12"
+    }
+   ],
+   "fetchedAt": "2026-10-30T22:55:55Z"
+  },
+  "213718": {
+   "name": "Ibrahim Sangaré",
+   "query": "Ibrahim Sangaré skills",
+   "videos": [
+    {
+     "id": "mIhTy58xUKQ",
+     "title": "WE SEE YOU 😎 IBRAHIM SANGARÉ",
+     "channel": "Nottingham Forest FC ",
+     "publishedAt": "2023-10-03"
+    },
+    {
+     "id": "oP1zy88-zOg",
+     "title": "Ibrahim Sangare 2026 • Unreal Defensive Skills, Passes | Nottingham Forest ᴴᴰ",
+     "channel": "Mega Football",
+     "publishedAt": "2026-03-11"
+    },
+    {
+     "id": "RzzdHV9XpH8",
+     "title": "Ibrahim Sangaré Turns Midfield Into a No-Go Zone 🧱",
+     "channel": "BlazeControl",
+     "publishedAt": "2026-03-27"
+    }
+   ],
+   "fetchedAt": "2026-10-30T22:55:55Z"
   }
  }
 }

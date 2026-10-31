@@ -1,0 +1,31 @@
+{
+ "eventId": "401879250",
+ "date": "2026-10-31T20:00:00Z",
+ "opponent": {
+  "name": "Fulham",
+  "abbr": "FUL"
+ },
+ "isHome": true,
+ "score": {
+  "us": 1,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Nicolas Jackson",
+   "assist": "Johan Manzambi",
+   "minute": "39'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Zion Suzuki",
+   "assist": null,
+   "minute": "64'",
+   "kind": "og"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

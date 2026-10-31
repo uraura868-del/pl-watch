@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-31T19:54:23Z",
+ "updatedAt": "2026-10-31T23:18:41Z",
  "enabled": true,
  "players": {
   "336794": {
@@ -3257,6 +3257,56 @@
     }
    ],
    "fetchedAt": "2026-10-31T15:42:11Z"
+  },
+  "308449": {
+   "name": "Emmanuel Agbadou",
+   "query": "Emmanuel Agbadou skills",
+   "videos": [
+    {
+     "id": "qXA74uxjHgk",
+     "title": "Emmanuel Agbadou ● Beşiktaş Transfer Target 2026 ⚪⚫🇨🇮 Defensive Skills & Passes",
+     "channel": "SVMM",
+     "publishedAt": "2025-12-11"
+    },
+    {
+     "id": "gr-allzxkQs",
+     "title": "Emmanuel Agbadou 2026 • INSANE Skills, Tackles & Control • Wolverhampton | HD",
+     "channel": "Mega Football",
+     "publishedAt": "2025-12-20"
+    },
+    {
+     "id": "20Cg8QD5fGc",
+     "title": "EMMANUEL AGBADOU | Welcome To Beşiktaş 2026 ⚪⚫🦅 Elite Skills, Tackles & Passes (HD)",
+     "channel": "WorldOfFootballHD",
+     "publishedAt": "2026-02-05"
+    }
+   ],
+   "fetchedAt": "2026-10-31T23:18:41Z"
+  },
+  "318534": {
+   "name": "Ernest Poku",
+   "query": "Ernest Poku skills",
+   "videos": [
+    {
+     "id": "Ha3FEMtpPZc",
+     "title": "Ernest Poku - Supersonic Winger 2025ᴴᴰ",
+     "channel": "Brazil Scout Comps",
+     "publishedAt": "2025-08-11"
+    },
+    {
+     "id": "N6TuP8wLFBg",
+     "title": "This is Why Bayer Leverkusen Signed Ernest Poku!",
+     "channel": "HugoFilmz",
+     "publishedAt": "2025-08-09"
+    },
+    {
+     "id": "XfG_TajRevI",
+     "title": "Ernest Poku Skills Edit Welcome to Beşiktaş #bjk #beşiktaş #ernestpoku #poku #kartal #bjk1903",
+     "channel": "365 Edition ",
+     "publishedAt": "2026-08-25"
+    }
+   ],
+   "fetchedAt": "2026-10-31T23:18:41Z"
   }
  }
 }

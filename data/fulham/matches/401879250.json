@@ -1,8 +1,8 @@
 {
  "eventId": "401879250",
  "date": "2026-10-31T20:00:00Z",
- "final": false,
- "updatedAt": "2026-10-31T19:54:23Z",
+ "final": true,
+ "updatedAt": "2026-10-31T23:18:41Z",
  "team": {
   "formation": "4-2-3-1",
   "rows": [
@@ -232,8 +232,8 @@
     "250936"
    ],
    [
-    "162843",
     "386992",
+    "162843",
     "382839"
    ],
    [
@@ -292,14 +292,14 @@
     "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p199796.png"
    },
    {
-    "id": "386992",
-    "name": "Johan Manzambi",
-    "jersey": "44",
+    "id": "162843",
+    "name": "John McGinn",
+    "jersey": "7",
     "pos": "AM",
     "starter": true,
-    "place": "11",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p614071.png",
-    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p614071.png"
+    "place": "10",
+    "photo": "data/photos/b8b7c822ed9689ef.jpg",
+    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p122806.png"
    },
    {
     "id": "174550",
@@ -332,14 +332,14 @@
     "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p517052.png"
    },
    {
-    "id": "162843",
-    "name": "John McGinn",
-    "jersey": "7",
+    "id": "386992",
+    "name": "Johan Manzambi",
+    "jersey": "44",
     "pos": "AM-L",
     "starter": true,
-    "place": "10",
-    "photo": "data/photos/b8b7c822ed9689ef.jpg",
-    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p122806.png"
+    "place": "11",
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p614071.png",
+    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p614071.png"
    },
    {
     "id": "382839",

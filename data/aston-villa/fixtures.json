@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-31T19:54:23Z",
+ "updatedAt": "2026-10-31T23:18:41Z",
  "fixtures": [
   {
    "eventId": "401879297",
@@ -274,11 +274,11 @@
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png"
    },
    "venue": "Villa Park",
-   "status": "scheduled",
+   "status": "played",
    "league": "eng.1",
    "compShort": "PL",
-   "hasStats": false,
-   "hasResult": false,
+   "hasStats": true,
+   "hasResult": true,
    "hasLineup": true
   },
   {

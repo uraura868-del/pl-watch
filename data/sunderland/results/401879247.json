@@ -1,0 +1,51 @@
+{
+ "eventId": "401879247",
+ "date": "2026-10-31T15:00:00Z",
+ "opponent": {
+  "name": "Coventry City",
+  "abbr": "COV"
+ },
+ "isHome": false,
+ "score": {
+  "us": 1,
+  "opp": 3
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Tatsuhiro Sakamoto",
+   "assist": null,
+   "minute": "17'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Taiwo Awoniyi",
+   "assist": null,
+   "minute": "37'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Jack Rudoni",
+   "assist": "Victor Torp",
+   "minute": "52'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Enzo Le Fée",
+   "assist": null,
+   "minute": "67'",
+   "kind": "pen"
+  }
+ ],
+ "redCards": [
+  {
+   "side": "us",
+   "name": "Omar Alderete",
+   "minute": "90'+9'"
+  }
+ ],
+ "source": "ESPN"
+}

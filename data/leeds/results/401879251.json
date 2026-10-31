@@ -1,0 +1,31 @@
+{
+ "eventId": "401879251",
+ "date": "2026-10-31T15:00:00Z",
+ "opponent": {
+  "name": "AFC Bournemouth",
+  "abbr": "BOU"
+ },
+ "isHome": false,
+ "score": {
+  "us": 0,
+  "opp": 2
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Evanilson",
+   "assist": "Justin Kluivert",
+   "minute": "31'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Amine Adli",
+   "assist": "Junior Kroupi",
+   "minute": "90'+4'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

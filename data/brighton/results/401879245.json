@@ -1,0 +1,24 @@
+{
+ "eventId": "401879245",
+ "date": "2026-10-31T15:00:00Z",
+ "opponent": {
+  "name": "Manchester City",
+  "abbr": "MNC"
+ },
+ "isHome": false,
+ "score": {
+  "us": 1,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Yasin Ayari",
+   "assist": "Maxim De Cuyper",
+   "minute": "11'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

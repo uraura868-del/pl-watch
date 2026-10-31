@@ -1,0 +1,78 @@
+{
+ "eventId": "401878763",
+ "date": "2026-10-31T15:00:00Z",
+ "opponent": {
+  "name": "Hull City",
+  "abbr": "HUL"
+ },
+ "ht": {
+  "us": {
+   "shots": 4,
+   "onTarget": 1,
+   "offTarget": 1,
+   "blocked": 2,
+   "corners": 3,
+   "fouls": 10,
+   "offsides": 1,
+   "yellow": 1,
+   "red": 0
+  },
+  "opp": {
+   "shots": 2,
+   "onTarget": 0,
+   "offTarget": 2,
+   "blocked": 0,
+   "corners": 3,
+   "fouls": 12,
+   "offsides": 1,
+   "yellow": 0,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 13,
+   "onTarget": 1,
+   "offTarget": 6,
+   "blocked": 6,
+   "corners": 3,
+   "fouls": 22,
+   "offsides": 3,
+   "yellow": 3,
+   "red": 0,
+   "possession": "61.5",
+   "passesAccurate": "489",
+   "passes": "560",
+   "passAcc": "0.9",
+   "crossesAccurate": "2",
+   "crosses": "11",
+   "tacklesWon": "5",
+   "tackles": "8",
+   "interceptions": "10",
+   "clearances": "34"
+  },
+  "opp": {
+   "shots": 7,
+   "onTarget": 1,
+   "offTarget": 5,
+   "blocked": 1,
+   "corners": 6,
+   "fouls": 26,
+   "offsides": 4,
+   "yellow": 3,
+   "red": 0,
+   "possession": "38.5",
+   "passesAccurate": "245",
+   "passes": "335",
+   "passAcc": "0.7",
+   "crossesAccurate": "3",
+   "crosses": "16",
+   "tacklesWon": "5",
+   "tackles": "20",
+   "interceptions": "7",
+   "clearances": "22"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

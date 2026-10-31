@@ -1,0 +1,45 @@
+{
+ "eventId": "401878763",
+ "date": "2026-10-31T15:00:00Z",
+ "opponent": {
+  "name": "Hull City",
+  "abbr": "HUL"
+ },
+ "isHome": false,
+ "score": {
+  "us": 2,
+  "opp": 2
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Florentino",
+   "assist": "Abdoul Ouattara",
+   "minute": "22'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Tim Iroegbunam",
+   "assist": "Oliver McBurnie",
+   "minute": "58'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Oliver McBurnie",
+   "assist": null,
+   "minute": "68'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Julio Enciso",
+   "assist": "Azor Matusiwa",
+   "minute": "74'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

@@ -1,0 +1,31 @@
+{
+ "eventId": "401879249",
+ "date": "2026-10-31T15:00:00Z",
+ "opponent": {
+  "name": "Nottingham Forest",
+  "abbr": "NFO"
+ },
+ "isHome": true,
+ "score": {
+  "us": 2,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Nikola Milenkovic",
+   "assist": null,
+   "minute": "30'",
+   "kind": "og"
+  },
+  {
+   "side": "us",
+   "scorer": "Igor Thiago",
+   "assist": "Jaidon Anthony",
+   "minute": "76'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

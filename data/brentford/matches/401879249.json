@@ -1,8 +1,8 @@
 {
  "eventId": "401879249",
  "date": "2026-10-31T15:00:00Z",
- "final": false,
- "updatedAt": "2026-10-31T15:42:11Z",
+ "final": true,
+ "updatedAt": "2026-10-31T19:54:23Z",
  "team": {
   "formation": "4-3-3",
   "rows": [
@@ -231,8 +231,8 @@
     "206227"
    ],
    [
-    "275842",
-    "243396"
+    "243396",
+    "275842"
    ],
    [
     "307114"
@@ -329,24 +329,24 @@
     "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/610849-1746646306.jpg?lm=4711"
    },
    {
-    "id": "275842",
-    "name": "Dan Ndoye",
-    "jersey": "14",
-    "pos": "CF-L",
-    "starter": true,
-    "place": "11",
-    "photo": "data/photos/fe3f9222eedf3406.jpg",
-    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/365108-1718218474.jpg?lm=4711"
-   },
-   {
     "id": "243396",
     "name": "Morgan Gibbs-White",
     "jersey": "10",
+    "pos": "CF-L",
+    "starter": true,
+    "place": "11",
+    "photo": "data/photos/335acee7fe7644e8.jpg",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/429014-1687975822.jpg?lm=4711"
+   },
+   {
+    "id": "275842",
+    "name": "Dan Ndoye",
+    "jersey": "14",
     "pos": "CF-R",
     "starter": true,
     "place": "10",
-    "photo": "data/photos/335acee7fe7644e8.jpg",
-    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/429014-1687975822.jpg?lm=4711"
+    "photo": "data/photos/fe3f9222eedf3406.jpg",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/365108-1718218474.jpg?lm=4711"
    }
   ],
   "bench": [

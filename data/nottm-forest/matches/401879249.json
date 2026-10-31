@@ -1,8 +1,8 @@
 {
  "eventId": "401879249",
  "date": "2026-10-31T15:00:00Z",
- "final": false,
- "updatedAt": "2026-10-31T15:42:11Z",
+ "final": true,
+ "updatedAt": "2026-10-31T19:54:23Z",
  "team": {
   "formation": "3-4-2-1",
   "rows": [
@@ -21,8 +21,8 @@
     "206227"
    ],
    [
-    "275842",
-    "243396"
+    "243396",
+    "275842"
    ],
    [
     "307114"
@@ -111,22 +111,22 @@
     "photo": "data/photos/1b268b40af03a0ab.jpg"
    },
    {
-    "id": "275842",
-    "name": "Dan Ndoye",
-    "jersey": "14",
-    "pos": "CF-L",
-    "starter": true,
-    "place": "11",
-    "photo": "data/photos/fe3f9222eedf3406.jpg"
-   },
-   {
     "id": "243396",
     "name": "Morgan Gibbs-White",
     "jersey": "10",
+    "pos": "CF-L",
+    "starter": true,
+    "place": "11",
+    "photo": "data/photos/335acee7fe7644e8.jpg"
+   },
+   {
+    "id": "275842",
+    "name": "Dan Ndoye",
+    "jersey": "14",
     "pos": "CF-R",
     "starter": true,
     "place": "10",
-    "photo": "data/photos/335acee7fe7644e8.jpg"
+    "photo": "data/photos/fe3f9222eedf3406.jpg"
    }
   ],
   "bench": [

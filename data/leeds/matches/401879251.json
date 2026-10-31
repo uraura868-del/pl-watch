@@ -1,8 +1,8 @@
 {
  "eventId": "401879251",
  "date": "2026-10-31T15:00:00Z",
- "final": false,
- "updatedAt": "2026-10-31T15:42:11Z",
+ "final": true,
+ "updatedAt": "2026-10-31T19:54:23Z",
  "team": {
   "formation": "3-4-2-1",
   "rows": [

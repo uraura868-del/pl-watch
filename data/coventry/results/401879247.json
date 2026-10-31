@@ -1,0 +1,51 @@
+{
+ "eventId": "401879247",
+ "date": "2026-10-31T15:00:00Z",
+ "opponent": {
+  "name": "Sunderland",
+  "abbr": "SUN"
+ },
+ "isHome": true,
+ "score": {
+  "us": 3,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Tatsuhiro Sakamoto",
+   "assist": null,
+   "minute": "17'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Taiwo Awoniyi",
+   "assist": null,
+   "minute": "37'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Jack Rudoni",
+   "assist": "Victor Torp",
+   "minute": "52'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Enzo Le Fée",
+   "assist": null,
+   "minute": "67'",
+   "kind": "pen"
+  }
+ ],
+ "redCards": [
+  {
+   "side": "opp",
+   "name": "Omar Alderete",
+   "minute": "90'+9'"
+  }
+ ],
+ "source": "ESPN"
+}

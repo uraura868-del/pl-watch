@@ -1,0 +1,31 @@
+{
+ "eventId": "401879249",
+ "date": "2026-10-31T15:00:00Z",
+ "opponent": {
+  "name": "Brentford",
+  "abbr": "BRE"
+ },
+ "isHome": false,
+ "score": {
+  "us": 0,
+  "opp": 2
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Nikola Milenkovic",
+   "assist": null,
+   "minute": "30'",
+   "kind": "og"
+  },
+  {
+   "side": "opp",
+   "scorer": "Igor Thiago",
+   "assist": "Jaidon Anthony",
+   "minute": "76'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

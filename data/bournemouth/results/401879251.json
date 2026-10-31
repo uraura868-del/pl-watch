@@ -1,0 +1,31 @@
+{
+ "eventId": "401879251",
+ "date": "2026-10-31T15:00:00Z",
+ "opponent": {
+  "name": "Leeds United",
+  "abbr": "LEE"
+ },
+ "isHome": true,
+ "score": {
+  "us": 2,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Evanilson",
+   "assist": "Justin Kluivert",
+   "minute": "31'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Amine Adli",
+   "assist": "Junior Kroupi",
+   "minute": "90'+4'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

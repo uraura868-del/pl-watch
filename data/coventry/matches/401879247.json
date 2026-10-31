@@ -1,8 +1,8 @@
 {
  "eventId": "401879247",
  "date": "2026-10-31T15:00:00Z",
- "final": false,
- "updatedAt": "2026-10-31T15:42:11Z",
+ "final": true,
+ "updatedAt": "2026-10-31T19:54:23Z",
  "team": {
   "formation": "4-2-3-1",
   "rows": [
@@ -470,7 +470,7 @@
    "id": "169619",
    "name": "Ben Wilson",
    "jersey": "13",
-   "pos": "G",
+   "pos": "M",
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p110690.png",
    "type": "理由不明",
    "reason": "",

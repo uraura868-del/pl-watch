@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-31T15:42:11Z",
+ "updatedAt": "2026-10-31T19:54:23Z",
  "manager": {
   "name": "Oliver Glasner",
   "role": "Manager",
@@ -245,7 +245,7 @@
   {
    "id": "400110",
    "name": "George King",
-   "jersey": null,
+   "jersey": "60",
    "pos": "D",
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p591384.png",
    "injuries": [],

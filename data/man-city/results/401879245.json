@@ -1,0 +1,24 @@
+{
+ "eventId": "401879245",
+ "date": "2026-10-31T15:00:00Z",
+ "opponent": {
+  "name": "Brighton & Hove Albion",
+  "abbr": "BHA"
+ },
+ "isHome": true,
+ "score": {
+  "us": 0,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Yasin Ayari",
+   "assist": "Maxim De Cuyper",
+   "minute": "11'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

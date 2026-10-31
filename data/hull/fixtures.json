@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-31T09:30:35Z",
+ "updatedAt": "2026-10-31T15:42:11Z",
  "fixtures": [
   {
    "eventId": "401879322",
@@ -214,12 +214,12 @@
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png"
    },
    "venue": "The MKM Stadium",
-   "status": "scheduled",
+   "status": "played",
    "league": "eng.1",
    "compShort": "PL",
    "hasStats": false,
    "hasResult": false,
-   "hasLineup": false
+   "hasLineup": true
   },
   {
    "eventId": "401878760",

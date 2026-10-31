@@ -1,0 +1,37 @@
+{
+ "eventId": "401879248",
+ "date": "2026-10-31T12:30:00Z",
+ "opponent": {
+  "name": "Chelsea",
+  "abbr": "CHE"
+ },
+ "isHome": false,
+ "score": {
+  "us": 0,
+  "opp": 2
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Morgan Rogers",
+   "assist": "Romeo Lavia",
+   "minute": "50'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Cole Palmer",
+   "assist": null,
+   "minute": "64'",
+   "kind": "pen"
+  }
+ ],
+ "redCards": [
+  {
+   "side": "us",
+   "name": "Lisandro Martínez",
+   "minute": "63'"
+  }
+ ],
+ "source": "ESPN"
+}

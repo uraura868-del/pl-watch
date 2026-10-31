@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-31T09:30:35Z",
+ "updatedAt": "2026-10-31T15:42:11Z",
  "enabled": true,
  "players": {
   "336794": {
@@ -3182,6 +3182,81 @@
     }
    ],
    "fetchedAt": "2026-10-31T09:30:35Z"
+  },
+  "278790": {
+   "name": "Dogan Alemdar",
+   "query": "Dogan Alemdar skills",
+   "videos": [
+    {
+     "id": "ZJmvlUGzIXE",
+     "title": "Doğan Alemdar ● Welcome to Beşiktaş 2026 ⚪⚫🇹🇷 Best Saves, Reflexes & Passes",
+     "channel": "SVMM",
+     "publishedAt": "2026-07-06"
+    },
+    {
+     "id": "MuPUeL2BEjg",
+     "title": "Doğan Alemdar ► 2020/2021 Amazing Skills ● Duvar!",
+     "channel": "ScoutMarkt",
+     "publishedAt": "2021-04-07"
+    },
+    {
+     "id": "JUF02_3A3dU",
+     "title": "Doğan Alemdar (GK) - Stade Rennais | 2021/2022",
+     "channel": "Le Talent Comps",
+     "publishedAt": "2022-06-12"
+    }
+   ],
+   "fetchedAt": "2026-10-31T15:42:11Z"
+  },
+  "235677": {
+   "name": "Dusan Vlahovic",
+   "query": "Dusan Vlahovic skills",
+   "videos": [
+    {
+     "id": "3fUL3sS3vms",
+     "title": "Ice in his veins 🥶 Dusan Vlahovic #juventus #vlahovic #IQ #serieA",
+     "channel": "Juventus",
+     "publishedAt": "2025-02-24"
+    },
+    {
+     "id": "J0_PQ1LmfFM",
+     "title": "Dusan Vlahovic Is a Killer Striker | Barcelona Transfer Target",
+     "channel": "JRXComps",
+     "publishedAt": "2026-01-03"
+    },
+    {
+     "id": "D1oQTq85MJU",
+     "title": "Dusan Vlahovic is WORLD CLASS..",
+     "channel": "colo99",
+     "publishedAt": "2023-07-20"
+    }
+   ],
+   "fetchedAt": "2026-10-31T15:42:11Z"
+  },
+  "280711": {
+   "name": "Emir Han Topcu",
+   "query": "Emir Han Topcu skills",
+   "videos": [
+    {
+     "id": "OcrWbmgrgts",
+     "title": "Emirhan Topçu - Welcome To Beşiktaş ⚫⚪- Defensive Skills - 2024 HD",
+     "channel": "🅥 7FUTCNZ1",
+     "publishedAt": "2024-06-25"
+    },
+    {
+     "id": "jQmSjuxmDvg",
+     "title": "Emirhan Topçu, Osimhen balonuna haddini bildiriyor 🥶 - After Effect 4K Edit",
+     "channel": "Victory Kartal ",
+     "publishedAt": "2025-10-05"
+    },
+    {
+     "id": "Wq9Nq6SjHNw",
+     "title": "ÇAPKIN EMİRHAN TOPÇU ♥️ #emirhantopçu #beşiktaş #futbol",
+     "channel": "SEROTTO",
+     "publishedAt": "2025-05-22"
+    }
+   ],
+   "fetchedAt": "2026-10-31T15:42:11Z"
   }
  }
 }

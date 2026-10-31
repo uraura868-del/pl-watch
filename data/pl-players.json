@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-30T22:55:55Z",
+ "updatedAt": "2026-10-31T02:16:34Z",
  "players": {
   "david raya": {
    "name": "David Raya",
@@ -400,7 +400,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": null,
-   "joined": "2026-01-27",
+   "joined": "2025-02-06",
    "birthPlace": "London",
    "posInfo": "Centre Defensive Midfielder"
   },
@@ -413,7 +413,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": null,
-   "joined": "2026-07-30",
+   "joined": "2024-10-04",
    "birthPlace": "London",
    "posInfo": "Centre Central Midfielder"
   },
@@ -439,7 +439,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": null,
-   "joined": "2026-10-26",
+   "joined": "2025-02-06",
    "birthPlace": "Cambridge",
    "posInfo": "Left Full Back"
   },
@@ -452,9 +452,9 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 181,
-   "joined": "2025-07-22",
+   "joined": "2024-07-01",
    "birthPlace": "London",
-   "posInfo": "Striker"
+   "posInfo": "Winger"
   },
   "harriman annous": {
    "name": "Andre Harriman-Annous",
@@ -465,9 +465,9 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 181,
-   "joined": "2025-07-22",
+   "joined": "2024-07-01",
    "birthPlace": "London",
-   "posInfo": "Striker"
+   "posInfo": "Winger"
   },
   "marco bizot": {
    "name": "Marco Bizot",
@@ -751,7 +751,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 193,
-   "joined": "2026-07-01",
+   "joined": "2025-08-14",
    "birthPlace": null,
    "posInfo": "Goalkeeper"
   },
@@ -764,7 +764,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 188,
-   "joined": "2023-03-31",
+   "joined": "2021-08-30",
    "birthPlace": null,
    "posInfo": "Goalkeeper"
   },
@@ -2285,7 +2285,7 @@
    "nat": "Australia",
    "natCode": "AU",
    "height": 187,
-   "joined": "2026-10-21",
+   "joined": "2024-01-26",
    "birthPlace": null,
    "posInfo": "Goalkeeper"
   },
@@ -2844,7 +2844,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 183,
-   "joined": "2022-01-17",
+   "joined": "2026-10-12",
    "birthPlace": null,
    "posInfo": "Left Full Back"
   },
@@ -3468,7 +3468,7 @@
    "nat": "Mali",
    "natCode": "ML",
    "height": 180,
-   "joined": "2022-07-11",
+   "joined": "2026-03-05",
    "birthPlace": "Bamako",
    "posInfo": "Centre Defensive Midfielder"
   },
@@ -3533,7 +3533,7 @@
    "nat": "United States",
    "natCode": "US",
    "height": 180,
-   "joined": "2026-08-18",
+   "joined": "2026-08-21",
    "birthPlace": "West Valley City",
    "posInfo": "Right Winger"
   },
@@ -3605,13 +3605,13 @@
   "sebastian williams": {
    "name": "Sebastian Williams",
    "team": "Crystal Palace",
-   "jersey": 43,
+   "jersey": 8,
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p577729.png",
    "dob": "2007-01-10",
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 185,
-   "joined": "2026-09-16",
+   "joined": "2024-02-25",
    "birthPlace": null,
    "posInfo": "Attacking Midfielder"
   },
@@ -3624,7 +3624,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 170,
-   "joined": "2024-07-30",
+   "joined": "2023-01-20",
    "birthPlace": null,
    "posInfo": "Right Full Back"
   },
@@ -6003,7 +6003,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 175,
-   "joined": "2023-07-18",
+   "joined": "2026-02-02",
    "birthPlace": "Morpeth",
    "posInfo": "Centre Defensive Midfielder"
   },
@@ -6536,7 +6536,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 174,
-   "joined": "2025-09-26",
+   "joined": "2024-10-28",
    "birthPlace": "London",
    "posInfo": "Left/Right Winger"
   },
@@ -6692,7 +6692,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": null,
-   "joined": "2026-10-27",
+   "joined": "2026-08-14",
    "birthPlace": null,
    "posInfo": "Midfielder"
   },
@@ -6965,7 +6965,7 @@
    "nat": "Scotland",
    "natCode": "GB-SCT",
    "height": 183,
-   "joined": "2025-05-26",
+   "joined": "2024-09-30",
    "birthPlace": "Manchester",
    "posInfo": "Centre Central Midfielder"
   },
@@ -7069,7 +7069,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 181,
-   "joined": "2024-04-06",
+   "joined": "2024-02-18",
    "birthPlace": "London",
    "posInfo": "Left Full Back"
   },
@@ -7180,13 +7180,13 @@
   "shea lacey": {
    "name": "Shea Lacey",
    "team": "Manchester United",
-   "jersey": 31,
+   "jersey": 61,
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p576628.png",
    "dob": "2007-04-14",
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 167,
-   "joined": "2025-05-26",
+   "joined": "2023-01-23",
    "birthPlace": "Liverpool",
    "posInfo": "Right Winger"
   },
@@ -8200,7 +8200,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 174,
-   "joined": "2018-07-30",
+   "joined": "2023-01-29",
    "birthPlace": "Hemel Hempstead",
    "posInfo": "Centre Central Midfielder"
   },
@@ -8213,7 +8213,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 174,
-   "joined": "2018-07-30",
+   "joined": "2023-01-29",
    "birthPlace": "Hemel Hempstead",
    "posInfo": "Centre Central Midfielder"
   },
@@ -8512,7 +8512,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 182,
-   "joined": "2025-08-24",
+   "joined": "2022-07-01",
    "birthPlace": null,
    "posInfo": "Right Full Back"
   },
@@ -8525,7 +8525,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": null,
-   "joined": "2025-08-24",
+   "joined": "2023-09-28",
    "birthPlace": null,
    "posInfo": "Centre Attacking Midfielder"
   },
@@ -8538,7 +8538,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": null,
-   "joined": "2026-07-24",
+   "joined": "2025-08-27",
    "birthPlace": null,
    "posInfo": "Attacking Midfielder"
   },
@@ -8551,9 +8551,9 @@
    "nat": "Ukraine",
    "natCode": "UA",
    "height": 183,
-   "joined": "2024-08-30",
+   "joined": "2023-04-13",
    "birthPlace": "Bakhchysaray",
-   "posInfo": "Left Winger"
+   "posInfo": "Centre Striker"
   },
   "felix scott": {
    "name": "Felix Scott",
@@ -8564,7 +8564,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": null,
-   "joined": "2026-07-24",
+   "joined": "2024-09-26",
    "birthPlace": null,
    "posInfo": "Winger"
   },

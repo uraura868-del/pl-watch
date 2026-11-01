@@ -377,7 +377,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p592031.png",
+    "photo": "data/photos/b47875d97203bccd.jpg",
     "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p592031.png"
    },
    {
@@ -448,7 +448,7 @@
    "name": "Marcus Bettinelli",
    "jersey": "13",
    "pos": "G",
-   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p122074.png",
+   "photo": "data/photos/91432493ef10b9c4.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"

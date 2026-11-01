@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-01T18:52:25Z",
+ "updatedAt": "2026-11-01T22:43:32Z",
  "manager": {
   "name": "Daniel Farke",
   "role": "Manager",
@@ -126,7 +126,7 @@
    "name": "Joe Rodon",
    "jersey": "6",
    "pos": "D",
-   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p214225.png",
+   "photo": "data/photos/d87a48dd781dfa7f.jpg",
    "injuries": [],
    "dob": "1997-10-22",
    "nat": "Wales",

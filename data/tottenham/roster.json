@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-01T18:52:25Z",
+ "updatedAt": "2026-11-01T22:43:32Z",
  "manager": {
   "name": "Roberto De Zerbi",
   "role": "Manager",
@@ -270,7 +270,7 @@
    "name": "Dejan Kulusevski",
    "jersey": "21",
    "pos": "M",
-   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p445044.png",
+   "photo": "data/photos/d89470e2ed061ff8.jpg",
    "injuries": [],
    "dob": "2000-04-25",
    "nat": "Sweden",
@@ -398,7 +398,7 @@
    "name": "Richarlison",
    "jersey": "9",
    "pos": "F",
-   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p212319.png",
+   "photo": "data/photos/796564e317b9981d.jpg",
    "injuries": [],
    "dob": "1997-05-10",
    "nat": "Brazil",

@@ -146,7 +146,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p445044.png"
+    "photo": "data/photos/d89470e2ed061ff8.jpg"
    },
    {
     "id": "266696",
@@ -471,7 +471,7 @@
    "name": "Richarlison",
    "jersey": "9",
    "pos": "F",
-   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p212319.png",
+   "photo": "data/photos/796564e317b9981d.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"

@@ -182,7 +182,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p209288.png"
+    "photo": "data/photos/153259837c85c98e.jpg"
    },
    {
     "id": "364962",
@@ -486,7 +486,7 @@
    "name": "Kaoru Mitoma",
    "jersey": "7",
    "pos": "M",
-   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p451340.png",
+   "photo": "data/photos/d75d0847085cf3dd.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -506,7 +506,7 @@
    "name": "Yankuba Minteh",
    "jersey": "11",
    "pos": "F",
-   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p592031.png",
+   "photo": "data/photos/b47875d97203bccd.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -546,7 +546,7 @@
    "name": "Evan Ferguson",
    "jersey": "28",
    "pos": "M",
-   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p487117.png",
+   "photo": "data/photos/c71af92fadba4ca6.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"

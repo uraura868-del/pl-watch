@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-01T18:52:25Z",
+ "updatedAt": "2026-11-01T22:43:32Z",
  "manager": {
   "name": "Enzo Maresca",
   "role": "Manager",
@@ -30,7 +30,7 @@
    "name": "Marcus Bettinelli",
    "jersey": "13",
    "pos": "G",
-   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p122074.png",
+   "photo": "data/photos/91432493ef10b9c4.jpg",
    "injuries": [],
    "dob": "1992-05-24",
    "nat": "England",

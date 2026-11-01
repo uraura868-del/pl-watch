@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-31T23:18:41Z",
+ "updatedAt": "2026-11-01T05:51:52Z",
  "enabled": true,
  "players": {
   "336794": {
@@ -3307,6 +3307,56 @@
     }
    ],
    "fetchedAt": "2026-10-31T23:18:41Z"
+  },
+  "323975": {
+   "name": "Fabio Miretti",
+   "query": "Fabio Miretti skills",
+   "videos": [
+    {
+     "id": "VAFZxDff7XI",
+     "title": "FABIO MIRETTI ● WELCOME TO BEŞİKTAŞ ⚪⚫🇮🇹",
+     "channel": "SVMM",
+     "publishedAt": "2026-08-25"
+    },
+    {
+     "id": "ObIX6pazOlI",
+     "title": "Fabio Miretti | Skills | 2026 | Welcome to Beşiktaş ?",
+     "channel": "Futbol Transfer",
+     "publishedAt": "2026-07-24"
+    },
+    {
+     "id": "sZyYS-4_IKo",
+     "title": "Fabio Miretti is the Next Italian Star",
+     "channel": "colo99",
+     "publishedAt": "2025-07-28"
+    }
+   ],
+   "fetchedAt": "2026-11-01T05:51:52Z"
+  },
+  "236210": {
+   "name": "Fikayo Tomori",
+   "query": "Fikayo Tomori skills",
+   "videos": [
+    {
+     "id": "k_Y-rok4P8c",
+     "title": "Fikayo Tomori - The Defensive Beast of AC Milan",
+     "channel": "Matrix Comps",
+     "publishedAt": "2021-04-11"
+    },
+    {
+     "id": "ALenZznWcqs",
+     "title": "Fikayo Tomori - Best English Defender - Defensive Skills (2022)",
+     "channel": "EuroScouter™",
+     "publishedAt": "2022-05-15"
+    },
+    {
+     "id": "uSSORuSfG08",
+     "title": "Here Is Why Liverpool Want Fikayo Tomori 🔴",
+     "channel": "GDcomps",
+     "publishedAt": "2026-07-28"
+    }
+   ],
+   "fetchedAt": "2026-11-01T05:51:52Z"
   }
  }
 }

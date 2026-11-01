@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-31T23:18:41Z",
+ "updatedAt": "2026-11-01T05:51:52Z",
  "clubs": {
   "manchester united": {
    "id": 985,
@@ -1915,7 +1915,7 @@
    "id": null,
    "slug": null,
    "name": null,
-   "fetchedAt": "2026-10-31T23:18:41Z",
+   "fetchedAt": "2026-11-01T05:51:52Z",
    "players": {}
   }
  }

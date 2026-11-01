@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-01T13:11:45Z",
+ "updatedAt": "2026-11-01T18:52:25Z",
  "manager": {
   "name": "Michael Carrick",
   "role": "Manager",
@@ -14,7 +14,7 @@
    "name": "Tom Heaton",
    "jersey": "22",
    "pos": "G",
-   "photo": "data/photos/86c3c29f57233bad.jpg",
+   "photo": "data/photos/de109146c48f321c.jpg",
    "injuries": [],
    "dob": "1986-04-15",
    "nat": "England",
@@ -23,14 +23,14 @@
    "joined": "2021-07-02",
    "birthPlace": "Chester",
    "posInfo": "Goalkeeper",
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/34130-1688121718.jpg?lm=4711"
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p21205.png"
   },
   {
    "id": "130877",
    "name": "Karl Darlow",
    "jersey": "12",
    "pos": "G",
-   "photo": "data/photos/df44fd6f8e7018ef.jpg",
+   "photo": "data/photos/ceaa81625b434880.jpg",
    "injuries": [],
    "dob": "1990-10-08",
    "nat": "Wales",
@@ -39,14 +39,14 @@
    "joined": "2026-06-14",
    "birthPlace": "Northampton",
    "posInfo": "Goalkeeper",
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/99397-1724939153.jpg?lm=4711"
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p59735.png"
   },
   {
    "id": "301425",
    "name": "Senne Lammens",
    "jersey": "1",
    "pos": "G",
-   "photo": "data/photos/a5cf6c37da830fd6.jpg",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p465247.png",
    "injuries": [],
    "dob": "2002-07-07",
    "nat": "Belgium",
@@ -55,14 +55,14 @@
    "joined": "2025-09-01",
    "birthPlace": "Zottegem",
    "posInfo": "Goalkeeper",
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/503883-1755675220.jpg?lm=4711"
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p465247.png"
   },
   {
    "id": "325550",
    "name": "Dermot Mee",
    "jersey": "45",
    "pos": "G",
-   "photo": "data/photos/b7d2a1dfe67971ff.jpg",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p461537.png",
    "injuries": [],
    "dob": "2002-11-20",
    "nat": "Northern Ireland",
@@ -71,14 +71,14 @@
    "joined": "2023-07-24",
    "birthPlace": "Birmingham",
    "posInfo": "Goalkeeper",
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/620362-1746691943.jpg?lm=4711"
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p461537.png"
   },
   {
    "id": "157073",
    "name": "Harry Maguire",
    "jersey": "5",
    "pos": "D",
-   "photo": "data/photos/821c38fcb617ea5e.jpg",
+   "photo": "data/photos/b800665e5419af3a.jpg",
    "injuries": [],
    "dob": "1993-03-05",
    "nat": "England",
@@ -87,14 +87,14 @@
    "joined": "2019-08-05",
    "birthPlace": "Sheffield",
    "posInfo": "Centre Central Defender",
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/177907-1663841733.jpg?lm=4711"
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p95658.png"
   },
   {
    "id": "167127",
    "name": "Luke Shaw",
    "jersey": "23",
    "pos": "D",
-   "photo": "data/photos/ebdab4a1f36a5d41.jpg",
+   "photo": "data/photos/75511af7eb0c7e00.jpg",
    "injuries": [],
    "dob": "1995-07-12",
    "nat": "England",
@@ -103,14 +103,14 @@
    "joined": "2014-07-01",
    "birthPlace": "Kingston upon Thames",
    "posInfo": "Left Full Back",
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/183288-1668500175.jpg?lm=4711"
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p106760.png"
   },
   {
    "id": "233937",
    "name": "Lisandro Martínez",
    "jersey": "6",
    "pos": "D",
-   "photo": "data/photos/3c4e720481cf7e99.jpg",
+   "photo": "data/photos/1425df57196f3668.jpg",
    "injuries": [],
    "dob": "1998-01-18",
    "nat": "Argentina",
@@ -119,14 +119,14 @@
    "joined": "2022-07-17",
    "birthPlace": "Gualeguay",
    "posInfo": "Central Defender",
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/480762-1680681507.jpg?lm=4711"
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p221820.png"
   },
   {
    "id": "238902",
    "name": "Diogo Dalot",
    "jersey": "2",
    "pos": "D",
-   "photo": "data/photos/84cd4e0265929f11.jpg",
+   "photo": "data/photos/df36e1d4059fa3dd.jpg",
    "injuries": [],
    "dob": "1999-03-18",
    "nat": "Portugal",
@@ -135,14 +135,14 @@
    "joined": "2018-06-08",
    "birthPlace": "Braga",
    "posInfo": "Right Full Back",
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/357147-1727785546.jpg?lm=4711"
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p216051.png"
   },
   {
    "id": "239349",
    "name": "Matthijs de Ligt",
    "jersey": "4",
    "pos": "D",
-   "photo": "data/photos/02324775d644112c.jpg",
+   "photo": "data/photos/add4fc22cc8c86b2.jpg",
    "injuries": [],
    "dob": "1999-08-12",
    "nat": "Netherlands",
@@ -151,14 +151,14 @@
    "joined": "2024-08-13",
    "birthPlace": "Leiderdorp",
    "posInfo": "Centre Central Defender",
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/326031-1700659567.jpg?lm=4711"
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p209365.png"
   },
   {
    "id": "239350",
    "name": "Noussair Mazraoui",
    "jersey": "3",
    "pos": "D",
-   "photo": "data/photos/f30dae5563f6e165.jpg",
+   "photo": "data/photos/0764789126f0958a.jpg",
    "injuries": [],
    "dob": "1997-11-14",
    "nat": "Morocco",
@@ -167,14 +167,14 @@
    "joined": "2024-08-13",
    "birthPlace": "Leiderdorp",
    "posInfo": "Right Full Back",
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/340456-1783200177.jpg?lm=4711"
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p230001.png"
   },
   {
    "id": "340206",
    "name": "Leny Yoro",
    "jersey": "15",
    "pos": "D",
-   "photo": "data/photos/9548e4459494e54f.jpg",
+   "photo": "data/photos/04680d4f9e6e9798.jpg",
    "injuries": [],
    "dob": "2005-11-13",
    "nat": "France",
@@ -183,14 +183,14 @@
    "joined": "2024-07-19",
    "birthPlace": "Saint-Maurice",
    "posInfo": "Centre Central Defender",
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/923831-1747857948.jpg?lm=4711"
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p550864.png"
   },
   {
    "id": "356044",
    "name": "Ayden Heaven",
    "jersey": "26",
    "pos": "D",
-   "photo": "data/photos/0b850e749ffda886.jpg",
+   "photo": "data/photos/aed8bb4b17de743d.jpg",
    "injuries": [],
    "dob": "2006-09-22",
    "nat": "England",
@@ -199,14 +199,14 @@
    "joined": "2025-02-01",
    "birthPlace": "London",
    "posInfo": "Left Full Back",
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/1078163-1727382016.jpg?lm=4711"
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p606745.png"
   },
   {
    "id": "356940",
    "name": "Harry Amass",
    "jersey": "41",
    "pos": "D",
-   "photo": "data/photos/68240ad98c8d2fdd.jpg",
+   "photo": "data/photos/c5f63b8f654efa74.jpg",
    "injuries": [],
    "dob": "2007-03-16",
    "nat": "England",
@@ -215,14 +215,14 @@
    "joined": "2024-02-18",
    "birthPlace": "London",
    "posInfo": "Left Full Back",
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/1011738-1712585934.jpg?lm=4711"
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p577974.png"
   },
   {
    "id": "366781",
    "name": "Patrick Dorgu",
    "jersey": "13",
    "pos": "D",
-   "photo": "data/photos/d9ea83712ff1a251.jpg",
+   "photo": "data/photos/9107ee95340d2434.jpg",
    "injuries": [],
    "dob": "2004-10-26",
    "nat": "Denmark",
@@ -231,7 +231,7 @@
    "joined": "2025-02-02",
    "birthPlace": "København",
    "posInfo": "Left Full Back",
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/926952-1747857569.jpg?lm=4711"
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p596777.png"
   },
   {
    "id": "381055",
@@ -270,7 +270,7 @@
    "name": "Bruno Fernandes",
    "jersey": "8",
    "pos": "M",
-   "photo": "data/photos/fefac211094c41b8.jpg",
+   "photo": "data/photos/9614c86890387228.jpg",
    "injuries": [],
    "dob": "1994-09-08",
    "nat": "Portugal",
@@ -279,14 +279,14 @@
    "joined": "2020-01-30",
    "birthPlace": "Maia",
    "posInfo": "Left/Centre/Right Attacking Midfielder",
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/240306-1683882766.jpg?lm=4711"
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p141746.png"
   },
   {
    "id": "193297",
    "name": "Youri Tielemans",
    "jersey": "18",
    "pos": "M",
-   "photo": "data/photos/f905721c9686c1fd.jpg",
+   "photo": "data/photos/d9b0552531dd9c3f.jpg",
    "injuries": [],
    "dob": "1997-05-07",
    "nat": "Belgium",
@@ -295,14 +295,14 @@
    "joined": "2026-07-14",
    "birthPlace": "Sint-Pieters-Leeuw",
    "posInfo": "Central Midfielder",
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/249565-1716886438.jpg?lm=4711"
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p166989.png"
   },
   {
    "id": "205081",
    "name": "Jack Fletcher",
    "jersey": "38",
    "pos": "M",
-   "photo": "data/photos/744e1effcdd20800.jpg",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p547037.png",
    "injuries": [],
    "dob": "2007-03-19",
    "nat": "England",
@@ -311,14 +311,14 @@
    "joined": "2024-08-19",
    "birthPlace": "Manchester",
    "posInfo": "Centre/Right Attacking Midfielder",
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/1049911-1782339780.jpg?lm=4711"
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p547037.png"
   },
   {
    "id": "231167",
    "name": "Mason Mount",
    "jersey": "7",
    "pos": "M",
-   "photo": "data/photos/9db1e832d3d73b79.jpg",
+   "photo": "data/photos/75fce71fb91b095d.jpg",
    "injuries": [],
    "dob": "1999-01-10",
    "nat": "England",
@@ -327,14 +327,14 @@
    "joined": "2023-07-05",
    "birthPlace": "Portsmouth",
    "posInfo": "Centre Attacking Midfielder",
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/346483-1683291495.jpg?lm=4711"
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p184341.png"
   },
   {
    "id": "241468",
    "name": "Manuel Ugarte",
    "jersey": "25",
    "pos": "M",
-   "photo": "data/photos/c929738767c7243e.jpg",
+   "photo": "data/photos/38227823670dc8f1.jpg",
    "injuries": [],
    "dob": "2001-04-11",
    "nat": "Uruguay",
@@ -343,14 +343,14 @@
    "joined": "2024-08-30",
    "birthPlace": "Montevideo",
    "posInfo": "Centre Defensive Midfielder",
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/476701-1715107512.jpg?lm=4711"
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p232112.png"
   },
   {
    "id": "314858",
    "name": "Andrey Santos",
    "jersey": "17",
    "pos": "M",
-   "photo": "data/photos/a0d5b64e7cd70796.jpg",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p532605.png",
    "injuries": [],
    "dob": "2004-05-03",
    "nat": "Brazil",
@@ -359,14 +359,14 @@
    "joined": "2026-07-13",
    "birthPlace": "Rio de Janeiro",
    "posInfo": "Defensive Midfielder",
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/743600-1788427034.jpg?lm=4711"
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p532605.png"
   },
   {
    "id": "328466",
    "name": "Kobbie Mainoo",
    "jersey": "37",
    "pos": "M",
-   "photo": "data/photos/ce0e2f36b26d65f5.jpg",
+   "photo": "data/photos/441e5e6ec93ff49a.jpg",
    "injuries": [],
    "dob": "2005-04-19",
    "nat": "England",
@@ -375,14 +375,14 @@
    "joined": "2022-10-15",
    "birthPlace": "Stockport",
    "posInfo": "Centre Central Midfielder",
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/820374-1719349758.jpg?lm=4711"
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p516895.png"
   },
   {
    "id": "338814",
    "name": "Carlos Baleba",
    "jersey": "20",
    "pos": "M",
-   "photo": "data/photos/05b3d1f5b9b423cd.jpg",
+   "photo": "data/photos/57ca30ac06f0a45b.jpg",
    "injuries": [],
    "dob": "2004-01-03",
    "nat": "Cameroon",
@@ -391,14 +391,14 @@
    "joined": "2026-08-25",
    "birthPlace": "Douala",
    "posInfo": "Centre Defensive Midfielder",
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/973085-1666690662.jpg?lm=4711"
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p535301.png"
   },
   {
    "id": "393138",
    "name": "Tyler Fletcher",
    "jersey": "39",
    "pos": "M",
-   "photo": "data/photos/744e1effcdd20800.jpg",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p519913.png",
    "injuries": [],
    "dob": "2007-03-19",
    "nat": "Scotland",
@@ -407,14 +407,14 @@
    "joined": "2024-09-30",
    "birthPlace": "Manchester",
    "posInfo": "Centre Central Midfielder",
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/1049911-1782339780.jpg?lm=4711"
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p519913.png"
   },
   {
    "id": "230945",
    "name": "Marcus Rashford",
    "jersey": "9",
    "pos": "F",
-   "photo": "data/photos/ffccfc8cec95fa70.jpg",
+   "photo": "data/photos/9e75c2cc4a446ead.jpg",
    "injuries": [],
    "dob": "1997-10-31",
    "nat": "England",
@@ -423,14 +423,14 @@
    "joined": "2015-07-01",
    "birthPlace": "Manchester",
    "posInfo": "Left/Centre Second Striker",
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/258923-1674473054.jpg?lm=4711"
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p176297.png"
   },
   {
    "id": "259902",
    "name": "Matheus Cunha",
    "jersey": "10",
    "pos": "F",
-   "photo": "data/photos/57d79f238fea0cf4.jpg",
+   "photo": "data/photos/247e4f5b0afd7c4f.jpg",
    "injuries": [],
    "dob": "1999-05-27",
    "nat": "Brazil",
@@ -439,14 +439,14 @@
    "joined": "2025-06-01",
    "birthPlace": "João Pessoa",
    "posInfo": "Left/Centre Second Striker",
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/517894-1780390711.jpg?lm=4711"
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p430871.png"
   },
   {
    "id": "271170",
    "name": "Bryan Mbeumo",
    "jersey": "19",
    "pos": "F",
-   "photo": "data/photos/aebc2fe956f23b66.jpg",
+   "photo": "data/photos/391923384499f0b2.jpg",
    "injuries": [],
    "dob": "1999-08-07",
    "nat": "Cameroon",
@@ -455,14 +455,14 @@
    "joined": "2025-07-21",
    "birthPlace": "Avallon",
    "posInfo": "Right Winger",
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/413039-1769532496.jpg?lm=4711"
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p446008.png"
   },
   {
    "id": "276327",
    "name": "Joshua Zirkzee",
    "jersey": "11",
    "pos": "F",
-   "photo": "data/photos/0497eef0753fd89e.jpg",
+   "photo": "data/photos/d6db3cc49f43f38c.jpg",
    "injuries": [],
    "dob": "2001-05-22",
    "nat": "Netherlands",
@@ -471,14 +471,14 @@
    "joined": "2024-07-17",
    "birthPlace": "Schiedam",
    "posInfo": "Centre Striker",
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/435648-1775738266.jpg?lm=4711"
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p458249.png"
   },
   {
    "id": "289155",
    "name": "Benjamin Sesko",
    "jersey": "30",
    "pos": "F",
-   "photo": "data/photos/eaa32a8822354536.jpg",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p485711.png",
    "injuries": [],
    "dob": "2003-05-31",
    "nat": "Slovenia",
@@ -487,14 +487,14 @@
    "joined": "2025-08-09",
    "birthPlace": "Radece",
    "posInfo": "Striker",
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/627442-1779803478.jpg?lm=4711"
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p485711.png"
   },
   {
    "id": "291630",
    "name": "Amad Diallo",
    "jersey": "16",
    "pos": "F",
-   "photo": "data/photos/f1babbd4abe1d8d7.jpg",
+   "photo": "data/photos/8f1d1ed40f618198.jpg",
    "injuries": [],
    "dob": "2002-07-11",
    "nat": "Cote D’Ivoire",
@@ -503,14 +503,14 @@
    "joined": "2021-01-07",
    "birthPlace": "Abidjan",
    "posInfo": "Right Winger",
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/536835-1747857754.jpg?lm=4711"
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p493250.png"
   },
   {
    "id": "358180",
    "name": "Shea Lacey",
    "jersey": "31",
    "pos": "F",
-   "photo": "data/photos/200dd094476a544e.jpg",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p576628.png",
    "injuries": [],
    "dob": "2007-04-14",
    "nat": "England",
@@ -519,7 +519,7 @@
    "joined": "2023-01-23",
    "birthPlace": "Liverpool",
    "posInfo": "Right Winger",
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/medium/926309-1767956214.jpg?lm=4711"
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p576628.png"
   },
   {
    "id": "397881",

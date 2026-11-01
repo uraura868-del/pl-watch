@@ -1,0 +1,24 @@
+{
+ "eventId": "401879246",
+ "date": "2026-11-01T16:30:00Z",
+ "opponent": {
+  "name": "Arsenal",
+  "abbr": "ARS"
+ },
+ "isHome": true,
+ "score": {
+  "us": 0,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Kai Havertz",
+   "assist": "Declan Rice",
+   "minute": "16'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

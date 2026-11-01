@@ -36,7 +36,7 @@
     "pos": "G",
     "starter": true,
     "place": "1",
-    "photo": "data/photos/27a376185bbfbd36.jpg"
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p204936.png"
    },
    {
     "id": "265907",
@@ -45,7 +45,7 @@
     "pos": "CD-L",
     "starter": true,
     "place": "6",
-    "photo": "data/photos/8ba58435c7e16a2c.jpg"
+    "photo": "data/photos/051b034fe6f1090c.jpg"
    },
    {
     "id": "234878",
@@ -54,7 +54,7 @@
     "pos": "CD-R",
     "starter": true,
     "place": "5",
-    "photo": "data/photos/5ae00cc2183e3bbb.jpg"
+    "photo": "data/photos/0d84de90309e2ded.jpg"
    },
    {
     "id": "299910",
@@ -63,7 +63,7 @@
     "pos": "LB",
     "starter": true,
     "place": "3",
-    "photo": "data/photos/f5a61415131c8d4d.jpg"
+    "photo": "data/photos/ac843eb50a157f1c.jpg"
    },
    {
     "id": "362211",
@@ -72,7 +72,7 @@
     "pos": "RB",
     "starter": true,
     "place": "2",
-    "photo": "data/photos/223b365d15ac0ca0.jpg"
+    "photo": "data/photos/7a31bb7d86d7b88c.jpg"
    },
    {
     "id": "298008",
@@ -81,7 +81,7 @@
     "pos": "AM",
     "starter": true,
     "place": "10",
-    "photo": "data/photos/4957848ffcc8c87d.jpg"
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p466052.png"
    },
    {
     "id": "238472",
@@ -90,7 +90,7 @@
     "pos": "LM",
     "starter": true,
     "place": "4",
-    "photo": "data/photos/71bf1ac01542dcb3.jpg"
+    "photo": "data/photos/bbd9f00b02411348.jpg"
    },
    {
     "id": "285450",
@@ -99,7 +99,7 @@
     "pos": "RM",
     "starter": true,
     "place": "8",
-    "photo": "data/photos/1d3df06ad9f959b0.jpg"
+    "photo": "data/photos/ec96601db1b3d7bc.jpg"
    },
    {
     "id": "253989",
@@ -108,7 +108,7 @@
     "pos": "F",
     "starter": true,
     "place": "9",
-    "photo": "data/photos/4566ca149b818f08.jpg"
+    "photo": "data/photos/bb45698b2f8542e3.jpg"
    },
    {
     "id": "283672",
@@ -117,7 +117,7 @@
     "pos": "AM-L",
     "starter": true,
     "place": "11",
-    "photo": "data/photos/500c0bfcdfa3761c.jpg"
+    "photo": "data/photos/8fc002769e4b90a7.jpg"
    },
    {
     "id": "273292",
@@ -126,7 +126,7 @@
     "pos": "AM-R",
     "starter": true,
     "place": "7",
-    "photo": "data/photos/8005a2ec284c5a3d.jpg"
+    "photo": "data/photos/8a1eec01a59fe2c0.jpg"
    }
   ],
   "bench": [
@@ -137,7 +137,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "data/photos/c4b46c4fcc7692fc.jpg"
+    "photo": "data/photos/8972882794266b3b.jpg"
    },
    {
     "id": "361434",
@@ -146,7 +146,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "data/photos/ffd92a8fdf041319.jpg"
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p616222.png"
    },
    {
     "id": "303785",
@@ -155,7 +155,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "data/photos/04b7f15a76bccb76.jpg"
+    "photo": "data/photos/c74d8c9f5e590e4e.jpg"
    },
    {
     "id": "272512",
@@ -164,7 +164,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "data/photos/78cb9da4dd4cc786.jpg"
+    "photo": "data/photos/15301e98dffcfcb2.jpg"
    },
    {
     "id": "268641",
@@ -173,7 +173,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "data/photos/f09293b31462bf55.jpg"
+    "photo": "data/photos/25dc15bec1601dcf.jpg"
    },
    {
     "id": "177545",
@@ -182,7 +182,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "data/photos/719b610a8f4b6473.jpg"
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p122074.png"
    },
    {
     "id": "154595",
@@ -191,7 +191,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "data/photos/4bff64cc0a036613.jpg"
+    "photo": "data/photos/08ad37f0ddf2c7c8.jpg"
    },
    {
     "id": "328464",
@@ -200,7 +200,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "data/photos/21d65bad2cc11789.jpg"
+    "photo": "data/photos/accd947deada48b2.jpg"
    },
    {
     "id": "382966",
@@ -218,7 +218,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "data/photos/c6e3291063bbc234.jpg"
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p106921.png"
    },
    {
     "id": "325564",
@@ -227,7 +227,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "data/photos/42fe5f3aed0a34bd.jpg"
+    "photo": "data/photos/d7a7896a1af6d03f.jpg"
    },
    {
     "id": "373927",
@@ -236,7 +236,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "data/photos/a0649bc4cb953d45.jpg"
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p637238.png"
    }
   ]
  },
@@ -485,7 +485,7 @@
    "name": "Ryan McAidoo",
    "jersey": "56",
    "pos": "F",
-   "photo": "data/photos/27e87d297f2f3ee2.jpg",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p616288.png",
    "type": "理由不明",
    "reason": "",
    "source": "none"

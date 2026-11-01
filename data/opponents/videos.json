@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-01T13:11:45Z",
+ "updatedAt": "2026-11-01T18:52:25Z",
  "enabled": true,
  "players": {
   "336794": {
@@ -5752,6 +5752,131 @@
     }
    ],
    "fetchedAt": "2026-11-01T13:11:45Z"
+  },
+  "304956": {
+   "name": "Lubomir Belko",
+   "query": "Lubomir Belko skills",
+   "videos": [
+    {
+     "id": "Fn3h4P5k8eE",
+     "title": "Ľubomír Belko | ZOSTRIH zákrokov",
+     "channel": "DikiFootball",
+     "publishedAt": "2022-08-14"
+    },
+    {
+     "id": "5Kqub0f22Gg",
+     "title": "2 asistencie Ľubomíra Belka z MŠK Žilina",
+     "channel": "Niké liga",
+     "publishedAt": "2023-09-08"
+    },
+    {
+     "id": "BAv57XGXhKQ",
+     "title": "Belko, Kaprálik a tréneri hodnotia zápas",
+     "channel": "SP 21 - Spravodajský portál 21. storočia ",
+     "publishedAt": "2022-11-07"
+    }
+   ],
+   "fetchedAt": "2026-11-01T18:52:25Z"
+  },
+  "257390": {
+   "name": "Luis Díaz",
+   "query": "Luis Díaz skills",
+   "videos": [
+    {
+     "id": "yi5tpuiIonk",
+     "title": "The Art of Luis Díaz 🇨🇴⚡",
+     "channel": "All Football",
+     "publishedAt": "2026-10-18"
+    },
+    {
+     "id": "RjWX-VI54w8",
+     "title": "Luis Díaz Dribbling Everyone in 2024",
+     "channel": "Jose Jr Productions",
+     "publishedAt": "2024-05-27"
+    },
+    {
+     "id": "0Kwir3R6uw0",
+     "title": "Luis Díaz Is Actually a MONSTER",
+     "channel": "LE FOOT EN VIDÉO",
+     "publishedAt": "2026-07-03"
+    }
+   ],
+   "fetchedAt": "2026-11-01T18:52:25Z"
+  },
+  "84774": {
+   "name": "Manuel Neuer",
+   "query": "Manuel Neuer skills",
+   "videos": [
+    {
+     "id": "pbsNA_6b8tM",
+     "title": "Manuel Neuer Top 33 Impossible Saves",
+     "channel": "mr bundesteam",
+     "publishedAt": "2024-09-18"
+    },
+    {
+     "id": "q2A4H183vdw",
+     "title": "Manuel Neuer Sweeper Keeper Skills",
+     "channel": "FC Bayern München",
+     "publishedAt": "2019-11-21"
+    },
+    {
+     "id": "a4hBT31aLR4",
+     "title": "Manuel Neuer's Amazing Skill",
+     "channel": "Baydar ( Films )",
+     "publishedAt": "2026-09-08"
+    }
+   ],
+   "fetchedAt": "2026-11-01T18:52:25Z"
+  },
+  "120829": {
+   "name": "Nathaniel Brown",
+   "query": "Nathaniel Brown skills",
+   "videos": [
+    {
+     "id": "lgO82NFNT8g",
+     "title": "Germany’s Future Full-Back STAR ⭐️ | THIS Is Nathaniel Brown 💥",
+     "channel": "Bundesliga",
+     "publishedAt": "2026-04-17"
+    },
+    {
+     "id": "KmVNfkWI0zg",
+     "title": "Nathaniel Brown ● Bayern Munich Transfer Target 2026 🔴⚪🇩🇪 Best Skills, Tackles & Assists",
+     "channel": "SVMM",
+     "publishedAt": "2026-06-04"
+    },
+    {
+     "id": "bbUlqt5k_8Q",
+     "title": "Nathaniel Brown ▶ Left Back Sensation ● Offensive & Defensive Skills",
+     "channel": "YES Skills Vault",
+     "publishedAt": "2025-10-14"
+    }
+   ],
+   "fetchedAt": "2026-11-01T18:52:25Z"
+  },
+  "386923": {
+   "name": "Niklas Fuglestad",
+   "query": "Niklas Fuglestad skills",
+   "videos": [
+    {
+     "id": "D2ypz-2Bjfk",
+     "title": "Niklas Fuglestad 🇳🇴 - Viking FK's Next Big Star?",
+     "channel": "Eliteserien Wizard",
+     "publishedAt": "2026-06-17"
+    },
+    {
+     "id": "b2UOCaB-caU",
+     "title": "Niklas Fuglestad, a Talented Norwegian midfielder - 2026",
+     "channel": "JM Scout",
+     "publishedAt": "2026-08-24"
+    },
+    {
+     "id": "zmcj8w2gaOY",
+     "title": "Viking FK’s 2006-Born Winger To Watch! 🇳🇴💎 | Niklas Fuglestad",
+     "channel": "CSN Football Videos",
+     "publishedAt": "2026-09-18"
+    }
+   ],
+   "fetchedAt": "2026-11-01T18:52:25Z"
   }
  }
 }

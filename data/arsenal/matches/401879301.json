@@ -36,7 +36,7 @@
     "pos": "G",
     "starter": true,
     "place": "1",
-    "photo": "data/photos/dca8986d5f59915c.jpg"
+    "photo": "data/photos/2755abe6a6d19a28.jpg"
    },
    {
     "id": "236322",
@@ -54,7 +54,7 @@
     "pos": "CD-R",
     "starter": true,
     "place": "5",
-    "photo": "data/photos/26854a29f8c615d1.jpg"
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p500040.png"
    },
    {
     "id": "298329",
@@ -63,7 +63,7 @@
     "pos": "LB",
     "starter": true,
     "place": "3",
-    "photo": "data/photos/c1e1fc8146620543.jpg"
+    "photo": "data/photos/e194b3bded6ecf87.jpg"
    },
    {
     "id": "241077",
@@ -72,7 +72,7 @@
     "pos": "RB",
     "starter": true,
     "place": "2",
-    "photo": "data/photos/28e32502a7d9ab24.jpg"
+    "photo": "data/photos/c3d3f4771a1751be.jpg"
    },
    {
     "id": "203669",
@@ -81,7 +81,7 @@
     "pos": "AM",
     "starter": true,
     "place": "10",
-    "photo": "data/photos/a953902727c05900.jpg"
+    "photo": "data/photos/e3169a34b3df9b87.jpg"
    },
    {
     "id": "238262",
@@ -90,7 +90,7 @@
     "pos": "LM",
     "starter": true,
     "place": "4",
-    "photo": "data/photos/cdfc7e94911d0e52.jpg"
+    "photo": "data/photos/f1d647592972e991.jpg"
    },
    {
     "id": "352758",
@@ -99,7 +99,7 @@
     "pos": "RM",
     "starter": true,
     "place": "8",
-    "photo": "data/photos/a9172b20b9411924.jpg"
+    "photo": "data/photos/ec73464fafb6e1ef.jpg"
    },
    {
     "id": "231182",
@@ -108,7 +108,7 @@
     "pos": "F",
     "starter": true,
     "place": "9",
-    "photo": "data/photos/4483dc42ad83cb14.jpg"
+    "photo": "data/photos/8777695a2165385f.jpg"
    },
    {
     "id": "303793",
@@ -117,7 +117,7 @@
     "pos": "AM-L",
     "starter": true,
     "place": "11",
-    "photo": "data/photos/983d8f92416b4e0d.jpg"
+    "photo": "data/photos/fd58d0e080be8b8a.jpg"
    },
    {
     "id": "280555",
@@ -126,7 +126,7 @@
     "pos": "AM-R",
     "starter": true,
     "place": "7",
-    "photo": "data/photos/9246d4275280b16f.jpg"
+    "photo": "data/photos/a9fc23dba78d0178.jpg"
    }
   ],
   "bench": [
@@ -137,7 +137,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "data/photos/6ebe154097c0e628.jpg"
+    "photo": "data/photos/ba5d3b53d23e94a4.jpg"
    },
    {
     "id": "397263",
@@ -146,7 +146,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "data/photos/a259b281f0510f2c.jpg"
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p616077.png"
    },
    {
     "id": "209581",
@@ -155,7 +155,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "data/photos/3138de2b2ae88452.jpg"
+    "photo": "data/photos/c23ce8727275e5e4.jpg"
    },
    {
     "id": "169532",
@@ -164,7 +164,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "data/photos/e3150faa2ab5d82b.jpg"
+    "photo": "data/photos/ca96e6eaf3137646.jpg"
    },
    {
     "id": "292062",
@@ -173,7 +173,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "data/photos/b6beb0e651970c60.jpg"
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p448104.png"
    },
    {
     "id": "258906",
@@ -182,7 +182,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "data/photos/41611413322a6919.jpg"
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p224117.png"
    },
    {
     "id": "251400",
@@ -191,7 +191,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "data/photos/6be6fd206b7b2390.jpg"
+    "photo": "data/photos/9549b4f0e4643742.jpg"
    },
    {
     "id": "287266",
@@ -200,7 +200,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "data/photos/e71b3d5ba2f45493.jpg"
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p481655.png"
    },
    {
     "id": "349733",
@@ -449,7 +449,7 @@
    "name": "William Saliba",
    "jersey": "2",
    "pos": "D",
-   "photo": "data/photos/f0f4befad2ad7b19.jpg",
+   "photo": "data/photos/2b6de2a936d8c8db.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -459,7 +459,7 @@
    "name": "Jurriën Timber",
    "jersey": "12",
    "pos": "D",
-   "photo": "data/photos/4e9ac374bbe73339.jpg",
+   "photo": "data/photos/ee744cd23d79c88e.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -469,7 +469,7 @@
    "name": "Ezri Konsa",
    "jersey": "15",
    "pos": "D",
-   "photo": "data/photos/97923ed9e314b004.jpg",
+   "photo": "data/photos/67d7ba689f33462e.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -479,7 +479,7 @@
    "name": "Illan Meslier",
    "jersey": "30",
    "pos": "G",
-   "photo": "data/photos/586662b79615f1ef.jpg",
+   "photo": "data/photos/59fc61f92427d389.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -489,7 +489,7 @@
    "name": "Bruno Guimarães",
    "jersey": "39",
    "pos": "M",
-   "photo": "data/photos/ddfc1cd8bd7dadad.jpg",
+   "photo": "data/photos/40c0b2acc58b53dc.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"

@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-30T12:43:02Z",
+ "updatedAt": "2026-11-02T20:44:24Z",
  "id": "7911",
  "name": "TSG Hoffenheim",
  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png",
@@ -157,6 +157,15 @@
    "photoSrc": null
   },
   {
+   "id": "208608",
+   "name": "Klaus Gjasula",
+   "jersey": "52",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
    "id": "274860",
    "name": "Wouter Burger",
    "jersey": "18",
@@ -220,6 +229,15 @@
    "photoSrc": null
   },
   {
+   "id": "3111134",
+   "name": "Oskar Hencke",
+   "jersey": "41",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
    "id": "139520",
    "name": "Andrej Kramaric",
    "jersey": "27",
@@ -268,6 +286,24 @@
    "id": "372035",
    "name": "Max Moerstedt",
    "jersey": "9",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "3099575",
+   "name": "Jykese Fields",
+   "jersey": "46",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "3105981",
+   "name": "Muhammed Yasin Batuhan Zor",
+   "jersey": "55",
    "pos": "F",
    "photo": null,
    "injuries": [],

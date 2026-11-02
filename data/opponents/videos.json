@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-02T10:54:22Z",
+ "updatedAt": "2026-11-02T20:44:24Z",
  "enabled": true,
  "players": {
   "336794": {
@@ -8535,6 +8535,56 @@
    "query": "Gustavo Sousa Alhinho Alves Rijo skills",
    "videos": [],
    "fetchedAt": "2026-11-02T10:54:22Z"
+  },
+  "266780": {
+   "name": "Javier Vazquez",
+   "query": "Javier Vazquez skills",
+   "videos": [
+    {
+     "id": "Sw49QUMjlOc",
+     "title": "Side Control Masterclass: Professor Javier Vazquez (5th degree)",
+     "channel": "The Art of Skill",
+     "publishedAt": "2026-06-08"
+    },
+    {
+     "id": "8FCm6tr6a_c",
+     "title": "Your Jiu Jitsu Will Get You Punched",
+     "channel": "The Art of Skill",
+     "publishedAt": "2024-07-31"
+    },
+    {
+     "id": "0AUDut0qJms",
+     "title": "Control The Hands, Control The Fight",
+     "channel": "The Art of Skill",
+     "publishedAt": "2026-03-25"
+    }
+   ],
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "355033": {
+   "name": "Jonathan Mutombo",
+   "query": "Jonathan Mutombo skills",
+   "videos": [
+    {
+     "id": "mBbKGaF4-OQ",
+     "title": "Jonathan Mutombo with an incredible move",
+     "channel": "Taha Barak",
+     "publishedAt": "2020-04-12"
+    },
+    {
+     "id": "IlQMEwCdGEI",
+     "title": "“No, no, no!” Dikembe Mutombo had 3 straight blocks and broke out the finger wag in 1997.",
+     "channel": "NBA",
+     "publishedAt": "2022-04-09"
+    },
+    {
+     "id": "LszlJrVGYAo",
+     "title": "Jonathan Khemde dan Gabriel Mutombo yang tampil gemilang sat melawan Persib Bandung",
+     "channel": "KETAN BAKAR NEWS",
+     "publishedAt": "2026-02-21"
+    }
+   ],
+   "fetchedAt": "2026-11-02T20:44:24Z"
   }
  }
 }

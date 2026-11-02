@@ -1,12 +1,12 @@
 {
- "updatedAt": "2026-11-02T10:54:22Z",
+ "updatedAt": "2026-11-02T20:44:24Z",
  "manager": {
   "name": "Enzo Maresca",
   "role": "Manager",
   "nat": "Italy",
-  "natCode": null,
+  "natCode": "IT",
   "dob": "1980-02-10",
-  "source": "wikidata"
+  "source": "pl"
  },
  "players": [
   {

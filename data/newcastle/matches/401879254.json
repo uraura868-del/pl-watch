@@ -36,7 +36,7 @@
     "pos": "G",
     "starter": true,
     "place": "1",
-    "photo": "data/photos/6fdcb749dfcaacf7.jpg"
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p470551.png"
    },
    {
     "id": "198138",
@@ -45,7 +45,7 @@
     "pos": "CD-L",
     "starter": true,
     "place": "6",
-    "photo": "data/photos/ab269d4de3af562b.jpg"
+    "photo": "data/photos/9b7eb30e6871c21e.jpg"
    },
    {
     "id": "179233",
@@ -54,7 +54,7 @@
     "pos": "CD-R",
     "starter": true,
     "place": "5",
-    "photo": "data/photos/346c1c7718c1931d.jpg"
+    "photo": "data/photos/d65aefae7d59826b.jpg"
    },
    {
     "id": "106139",
@@ -63,7 +63,7 @@
     "pos": "LB",
     "starter": true,
     "place": "3",
-    "photo": "data/photos/f96a352d2a06e037.jpg"
+    "photo": "data/photos/ac4b1686737f1823.jpg"
    },
    {
     "id": "308979",
@@ -72,7 +72,7 @@
     "pos": "RB",
     "starter": true,
     "place": "2",
-    "photo": "data/photos/76faa73ed669609f.jpg"
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p463726.png"
    },
    {
     "id": "259517",
@@ -81,7 +81,7 @@
     "pos": "AM",
     "starter": true,
     "place": "10",
-    "photo": "data/photos/787e27ae3e3bb739.jpg"
+    "photo": "data/photos/04221aa4b93a707b.jpg"
    },
    {
     "id": "202232",
@@ -90,7 +90,7 @@
     "pos": "LM",
     "starter": true,
     "place": "4",
-    "photo": "data/photos/4a7e2ec46b3a981a.jpg"
+    "photo": "data/photos/45bbb27a34192776.jpg"
    },
    {
     "id": "323986",
@@ -99,7 +99,7 @@
     "pos": "RM",
     "starter": true,
     "place": "8",
-    "photo": "data/photos/43acf46ddd07376f.jpg"
+    "photo": "data/photos/98457564eba3a310.jpg"
    },
    {
     "id": "319431",
@@ -108,7 +108,7 @@
     "pos": "F",
     "starter": true,
     "place": "9",
-    "photo": "data/photos/5df735836fe562ad.jpg"
+    "photo": "data/photos/4187370502f37140.jpg"
    },
    {
     "id": "243386",
@@ -117,7 +117,7 @@
     "pos": "AM-L",
     "starter": true,
     "place": "11",
-    "photo": "data/photos/24820dd2afa8cac7.jpg"
+    "photo": "data/photos/193b24ba97d5aedc.jpg"
    },
    {
     "id": "172836",
@@ -126,7 +126,7 @@
     "pos": "AM-R",
     "starter": true,
     "place": "7",
-    "photo": "data/photos/632ec56b59f0d2b0.jpg"
+    "photo": "data/photos/1ede2ccd0dcc656a.jpg"
    }
   ],
   "bench": [
@@ -137,7 +137,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "data/photos/dbe74f133b4d5541.jpg"
+    "photo": "data/photos/6729dda9bccc9127.jpg"
    },
    {
     "id": "296622",
@@ -146,7 +146,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "data/photos/0711d942177f46b0.jpg"
+    "photo": "data/photos/6ff89e988d63ee86.jpg"
    },
    {
     "id": "274633",
@@ -155,7 +155,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "data/photos/e15c2d6bb3f1bd5d.jpg"
+    "photo": "data/photos/3d948222bec6d7de.jpg"
    },
    {
     "id": "161715",
@@ -164,7 +164,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "data/photos/6fcbbba754c45517.jpg"
+    "photo": "data/photos/c2f398d66f9ce5ed.jpg"
    },
    {
     "id": "359108",
@@ -173,7 +173,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "data/photos/57f0c256f04eaa48.jpg"
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p611665.png"
    },
    {
     "id": "303444",
@@ -182,7 +182,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "data/photos/9cd994d91052a4a3.jpg"
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p465642.png"
    },
    {
     "id": "396630",
@@ -191,7 +191,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "data/photos/075c1b54a20b870e.jpg"
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p632794.png"
    },
    {
     "id": "286090",
@@ -200,7 +200,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "data/photos/21447a75ce0c8d5e.jpg"
+    "photo": "data/photos/36c858309074c724.jpg"
    },
    {
     "id": "384372",
@@ -209,7 +209,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "data/photos/5409ebb2f5def9a8.jpg"
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p636852.png"
    }
   ]
  },
@@ -451,7 +451,7 @@
    "name": "Tino Livramento",
    "jersey": "2",
    "pos": "D",
-   "photo": "data/photos/ea2a347ed034ef34.jpg",
+   "photo": "data/photos/6e3ebe679358e5d2.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -461,7 +461,7 @@
    "name": "Matias Fernandez-Pardo",
    "jersey": "20",
    "pos": "F",
-   "photo": "data/photos/10f01cafdbdbd5f7.jpg",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p613221.png",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -471,7 +471,7 @@
    "name": "Ewen Jaouen",
    "jersey": "24",
    "pos": "G",
-   "photo": "data/photos/369ab509b0a05cb1.jpg",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p554578.png",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -481,7 +481,7 @@
    "name": "Mark Gillespie",
    "jersey": "29",
    "pos": "G",
-   "photo": "data/photos/d0690840c26c01be.jpg",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p81441.png",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -521,7 +521,7 @@
    "name": "Lewis Miley",
    "jersey": "67",
    "pos": "M",
-   "photo": "data/photos/78bd33aad9b6f7d8.jpg",
+   "photo": "data/photos/399640425ad15a8a.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -531,7 +531,7 @@
    "name": "Mason Miley",
    "jersey": "76",
    "pos": "M",
-   "photo": "data/photos/78bd33aad9b6f7d8.jpg",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p665243.png",
    "type": "理由不明",
    "reason": "",
    "source": "none"

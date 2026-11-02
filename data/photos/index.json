@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-02T10:54:22Z",
+ "updatedAt": "2026-11-02T20:44:24Z",
  "size": 256,
  "photos": {
   "https://img.a.transfermarkt.technology/portrait/medium/34130-1688121718.jpg?lm=4711": {
@@ -5257,6 +5257,384 @@
    "face": true,
    "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p445044.png",
    "fetchedAt": "2026-11-01T22:43:32Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p460028.png": {
+   "file": "bae11210dca9ddee.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p460028.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p577016.png": {
+   "file": "9bee7787b8442a91.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p577016.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p486672.png": {
+   "file": "5b3481a6f64830a8.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p486672.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p514356.png": {
+   "file": "6b73c068b9fc2e30.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p514356.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p247632.png": {
+   "file": "a0da16e2f5f316c0.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p247632.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p244850.png": {
+   "file": "48be9100522e47ea.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p244850.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p543158.png": {
+   "file": "9ba78db2f9d89caa.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p543158.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p50175.png": {
+   "file": "d2aebc42171168aa.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p50175.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p482609.png": {
+   "file": "f9ff0b6171f5aec1.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p482609.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p84450.png": {
+   "file": "a1071b303b315c05.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p84450.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p437499.png": {
+   "file": "5208028a9042dca8.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p437499.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p56979.png": {
+   "file": "548b969b73267611.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p56979.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p475168.png": {
+   "file": "24245e6916ab26f6.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p475168.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p219168.png": {
+   "file": "4960abd3094546d2.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p219168.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p200720.png": {
+   "file": "1b68b03f11f317ed.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p200720.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p191866.png": {
+   "file": "272b442e84634ae0.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p191866.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p249231.png": {
+   "file": "a07c6378e85c206a.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p249231.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p472713.png": {
+   "file": "eb2b100ff84b797a.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p472713.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p204580.png": {
+   "file": "7d2e79f014ada4ad.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p204580.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p502500.png": {
+   "file": "e23e82e8463092c7.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p502500.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p513418.png": {
+   "file": "721f2893e5e9bf7c.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p513418.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p444180.png": {
+   "file": "ebd002dd9acf5706.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p444180.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p75115.png": {
+   "file": "0bf7f31452be3311.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p75115.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p440089.png": {
+   "file": "265ecf6fe4d26525.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p440089.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p244858.png": {
+   "file": "0c56da8a5ccac566.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p244858.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p626464.png": {
+   "file": "1b3b45c878b8cad8.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p626464.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p194010.png": {
+   "file": "2c72c18c3e2ce24d.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p194010.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p507433.png": {
+   "file": "c97623285466d15f.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p507433.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p607464.png": {
+   "file": "c36fc747407897eb.jpg",
+   "face": false,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p607464.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p220237.png": {
+   "file": "3d948222bec6d7de.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p220237.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p487838.png": {
+   "file": "ac4b1686737f1823.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p487838.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p200089.png": {
+   "file": "04221aa4b93a707b.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p200089.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p547719.png": {
+   "file": "399640425ad15a8a.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p547719.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p216646.png": {
+   "file": "6729dda9bccc9127.jpg",
+   "face": false,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p216646.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p201666.png": {
+   "file": "193b24ba97d5aedc.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p201666.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p449434.png": {
+   "file": "6ff89e988d63ee86.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p449434.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p441191.png": {
+   "file": "6e3ebe679358e5d2.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p441191.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p98747.png": {
+   "file": "c2f398d66f9ce5ed.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p98747.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p119471.png": {
+   "file": "d65aefae7d59826b.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p119471.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p114243.png": {
+   "file": "1ede2ccd0dcc656a.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p114243.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p232653.png": {
+   "file": "36c858309074c724.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p232653.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p109745.png": {
+   "file": "ca96e6eaf3137646.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p109745.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p154561.png": {
+   "file": "2755abe6a6d19a28.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p154561.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p437495.png": {
+   "file": "59fc61f92427d389.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p437495.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p199798.png": {
+   "file": "67d7ba689f33462e.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p199798.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p445122.png": {
+   "file": "ee744cd23d79c88e.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p445122.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p466075.png": {
+   "file": "e194b3bded6ecf87.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p466075.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p499169.png": {
+   "file": "ec73464fafb6e1ef.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p499169.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p184029.png": {
+   "file": "e3169a34b3df9b87.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p184029.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p195384.png": {
+   "file": "c23ce8727275e5e4.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p195384.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p208706.png": {
+   "file": "40c0b2acc58b53dc.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p208706.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p204480.png": {
+   "file": "f1d647592972e991.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p204480.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p232413.png": {
+   "file": "9549b4f0e4643742.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p232413.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p219847.png": {
+   "file": "8777695a2165385f.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p219847.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p223340.png": {
+   "file": "a9fc23dba78d0178.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p223340.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p248857.png": {
+   "file": "ba5d3b53d23e94a4.jpg",
+   "face": false,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p248857.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p439509.png": {
+   "file": "fd58d0e080be8b8a.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p439509.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p180974.png": {
+   "file": "45bbb27a34192776.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p180974.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p78916.png": {
+   "file": "9b7eb30e6871c21e.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p78916.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p538207.png": {
+   "file": "4187370502f37140.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p538207.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p444765.png": {
+   "file": "70657a655b670aad.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p444765.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p207283.png": {
+   "file": "1b5a5d7ed9e72ebf.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p207283.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p612534.png": {
+   "file": "4247612970ca76da.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p612534.png",
+   "fetchedAt": "2026-11-02T20:44:24Z"
   }
  }
 }

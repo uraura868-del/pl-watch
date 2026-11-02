@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-01T22:43:32Z",
+ "updatedAt": "2026-11-02T02:23:33Z",
  "enabled": true,
  "players": {
   "336794": {
@@ -5927,6 +5927,81 @@
     }
    ],
    "fetchedAt": "2026-11-01T22:43:32Z"
+  },
+  "287225": {
+   "name": "Sacha Boey",
+   "query": "Sacha Boey skills",
+   "videos": [
+    {
+     "id": "7adx-XZO-Js",
+     "title": "Sacha Boey ● Welcome Back to Galatasaray 2026 🟡🔴🇫🇷 Best Skills, Tackles & Passes",
+     "channel": "SVMM",
+     "publishedAt": "2026-02-05"
+    },
+    {
+     "id": "XQIw-ijWBOo",
+     "title": "Smash the like button if you‘re hyped to see Sacha Boey in a Bayern jersey! 🤩",
+     "channel": "FC Bayern München",
+     "publishedAt": "2024-01-30"
+    },
+    {
+     "id": "NxDgWnPxuSk",
+     "title": "Sacha Boey Skills ✨ #football #skills #galatasaray #sachaboey",
+     "channel": "Burak Yavuz Yılmaz",
+     "publishedAt": "2023-10-17"
+    }
+   ],
+   "fetchedAt": "2026-11-02T02:23:33Z"
+  },
+  "178980": {
+   "name": "Serge Gnabry",
+   "query": "Serge Gnabry skills",
+   "videos": [
+    {
+     "id": "4KRw6kNRYKQ",
+     "title": "Serge Gnabry ● The Chef ● 2020",
+     "channel": "Elemental Comps FHD",
+     "publishedAt": "2020-07-30"
+    },
+    {
+     "id": "IlJoEnSOU9E",
+     "title": "Serge Gnabry is UNSTOPPABLE in 2020!",
+     "channel": "AyJayVids™",
+     "publishedAt": "2020-08-20"
+    },
+    {
+     "id": "1hVmZO8O74k",
+     "title": "Chin up, Serge 😁",
+     "channel": "FC Bayern München",
+     "publishedAt": "2026-01-28"
+    }
+   ],
+   "fetchedAt": "2026-11-02T02:23:33Z"
+  },
+  "320678": {
+   "name": "Simen Kvia-Egeskog",
+   "query": "Simen Kvia-Egeskog skills",
+   "videos": [
+    {
+     "id": "j1ESWKtAv0o",
+     "title": "Simen Kvia-Egeskog • Promising Norwegian Midfielder🇳🇴💫",
+     "channel": "NextUpBallers",
+     "publishedAt": "2026-08-31"
+    },
+    {
+     "id": "Xv38cr4-184",
+     "title": "Simen Kvia‑Egeskog – Baskı Altında Bile Soğukkanlı , İnce Bilek Hareketleri",
+     "channel": "Scouting 35",
+     "publishedAt": "2026-03-28"
+    },
+    {
+     "id": "e3PIyTw7c5c",
+     "title": "Talent Scouting 15 : Simen Kvia Egeskog",
+     "channel": "EDDE SPORTS",
+     "publishedAt": "2024-11-02"
+    }
+   ],
+   "fetchedAt": "2026-11-02T02:23:33Z"
   }
  }
 }

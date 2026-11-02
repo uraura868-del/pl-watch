@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-30T05:36:07Z",
+ "updatedAt": "2026-11-02T10:54:22Z",
  "id": "83",
  "name": "Barcelona",
  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
@@ -160,6 +160,15 @@
    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1018912-1768246502.jpg?lm=4711"
   },
   {
+   "id": "403583",
+   "name": "Guillem Víctor",
+   "jersey": "40",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
    "id": "416511",
    "name": "Jordi Pesquer",
    "jersey": "33",
@@ -244,6 +253,15 @@
    "id": "416496",
    "name": "Orian Goren",
    "jersey": "32",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "416502",
+   "name": "Ebrima Tunkara",
+   "jersey": "30",
    "pos": "M",
    "photo": null,
    "injuries": [],

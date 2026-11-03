@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-30T18:33:30Z",
+ "updatedAt": "2026-11-03T02:52:21Z",
  "id": "597",
  "name": "Dinamo Zagreb",
  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/597.png",
@@ -125,7 +125,7 @@
    "name": "Sergi Domínguez",
    "jersey": "36",
    "pos": "D",
-   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p250199.png",
+   "photo": "data/photos/760ebcf2fddbea59.jpg",
    "injuries": [],
    "dob": "1998-06-28",
    "nat": "Argentina",

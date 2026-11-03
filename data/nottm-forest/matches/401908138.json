@@ -34,7 +34,7 @@
     "pos": "G",
     "starter": true,
     "place": "1",
-    "photo": "data/photos/6f97f8d4583e1768.jpg"
+    "photo": "data/photos/6882f01eea446391.jpg"
    },
    {
     "id": "238990",
@@ -43,7 +43,7 @@
     "pos": "CD",
     "starter": true,
     "place": "5",
-    "photo": "data/photos/800959c08277f6cf.jpg"
+    "photo": "data/photos/2aa4f5300799802d.jpg"
    },
    {
     "id": "338876",
@@ -61,7 +61,7 @@
     "pos": "CD-R",
     "starter": true,
     "place": "6",
-    "photo": "data/photos/abf6e08de25cc4e4.jpg"
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p568420.png"
    },
    {
     "id": "254118",
@@ -70,7 +70,7 @@
     "pos": "CM-L",
     "starter": true,
     "place": "8",
-    "photo": "data/photos/fff3e222a604e405.jpg"
+    "photo": "data/photos/760ebcf2fddbea59.jpg"
    },
    {
     "id": "238886",
@@ -79,7 +79,7 @@
     "pos": "CM-R",
     "starter": true,
     "place": "7",
-    "photo": "data/photos/9e0872773682cccb.jpg"
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p204561.png"
    },
    {
     "id": "291638",
@@ -88,7 +88,7 @@
     "pos": "LM",
     "starter": true,
     "place": "3",
-    "photo": "data/photos/b9c82bd368c38bc8.jpg"
+    "photo": "data/photos/c502ee01f8872191.jpg"
    },
    {
     "id": "206227",
@@ -97,7 +97,7 @@
     "pos": "RM",
     "starter": true,
     "place": "2",
-    "photo": "data/photos/430312552623de0a.jpg"
+    "photo": "data/photos/2e0fc84d8ef84b8b.jpg"
    },
    {
     "id": "134190",
@@ -106,7 +106,7 @@
     "pos": "F",
     "starter": true,
     "place": "9",
-    "photo": "data/photos/01aaa3da4d7a7169.jpg"
+    "photo": "data/photos/8eec43143a2a89d6.jpg"
    },
    {
     "id": "296321",
@@ -115,7 +115,7 @@
     "pos": "CF-L",
     "starter": true,
     "place": "11",
-    "photo": "data/photos/f6a732561f12f576.jpg"
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p465680.png"
    },
    {
     "id": "287869",
@@ -124,7 +124,7 @@
     "pos": "CF-R",
     "starter": true,
     "place": "10",
-    "photo": "data/photos/4e0909e7bdff8da4.jpg"
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p482973.png"
    }
   ],
   "bench": [
@@ -135,7 +135,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "data/photos/5cbd16d1753582e6.jpg"
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p221389.png"
    },
    {
     "id": "338894",
@@ -144,7 +144,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "data/photos/aba74c1e5f88e58c.jpg"
+    "photo": "data/photos/43e17b8edbaa7a01.jpg"
    },
    {
     "id": "322771",
@@ -171,7 +171,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "data/photos/70620aa730769508.jpg"
+    "photo": "data/photos/99abc674568d43a4.jpg"
    },
    {
     "id": "303765",
@@ -180,7 +180,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "data/photos/8a21138e5ff5d63b.jpg"
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p470315.png"
    },
    {
     "id": "261419",
@@ -189,7 +189,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "data/photos/9b42695126d71336.jpg"
+    "photo": "data/photos/d127d7ee2aa8d76c.jpg"
    },
    {
     "id": "275842",
@@ -198,7 +198,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "data/photos/fe3f9222eedf3406.jpg"
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p456512.png"
    },
    {
     "id": "213718",
@@ -207,7 +207,7 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": "data/photos/de739ea3f92540d7.jpg"
+    "photo": "data/photos/7e9b1af469e20df8.jpg"
    }
   ]
  },
@@ -448,7 +448,7 @@
    "name": "Morgan Gibbs-White",
    "jersey": "10",
    "pos": "M",
-   "photo": "data/photos/335acee7fe7644e8.jpg",
+   "photo": "data/photos/fead871d324bc3b5.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -458,7 +458,7 @@
    "name": "Liam Delap",
    "jersey": "19",
    "pos": "F",
-   "photo": "data/photos/1b268b40af03a0ab.jpg",
+   "photo": "data/photos/e036fd01a9c3c1bd.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -468,7 +468,7 @@
    "name": "Ryan Yates",
    "jersey": "22",
    "pos": "M",
-   "photo": "data/photos/f31c2e574b4c0009.jpg",
+   "photo": "data/photos/631bbf4965d98ae0.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -478,7 +478,7 @@
    "name": "Daniel Muñoz",
    "jersey": "27",
    "pos": "D",
-   "photo": "data/photos/968556f2f737769a.jpg",
+   "photo": "data/photos/c2decfc5e34fcf96.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -488,7 +488,7 @@
    "name": "Steven Benda",
    "jersey": "33",
    "pos": "G",
-   "photo": "https://img.a.transfermarkt.technology/portrait/header/381469-1737920445.jpg?lm=4711",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p428971.png",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -498,7 +498,7 @@
    "name": "Nicolò Savona",
    "jersey": "37",
    "pos": "D",
-   "photo": "https://img.a.transfermarkt.technology/portrait/header/708072-1730125797.jpg?lm=4711",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p500151.png",
    "type": "理由不明",
    "reason": "",
    "source": "none"

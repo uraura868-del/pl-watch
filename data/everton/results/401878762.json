@@ -1,0 +1,30 @@
+{
+ "eventId": "401878762",
+ "date": "2026-11-02T20:00:00Z",
+ "opponent": {
+  "name": "Newcastle United",
+  "abbr": "NEW"
+ },
+ "isHome": false,
+ "score": {
+  "us": 1,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Thierno Barry",
+   "assist": null,
+   "minute": "49'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [
+  {
+   "side": "opp",
+   "name": "Jacob Ramsey",
+   "minute": "90'+8'"
+  }
+ ],
+ "source": "ESPN"
+}

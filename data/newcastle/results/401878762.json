@@ -1,0 +1,30 @@
+{
+ "eventId": "401878762",
+ "date": "2026-11-02T20:00:00Z",
+ "opponent": {
+  "name": "Everton",
+  "abbr": "EVE"
+ },
+ "isHome": true,
+ "score": {
+  "us": 0,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Thierno Barry",
+   "assist": null,
+   "minute": "49'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [
+  {
+   "side": "us",
+   "name": "Jacob Ramsey",
+   "minute": "90'+8'"
+  }
+ ],
+ "source": "ESPN"
+}

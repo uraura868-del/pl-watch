@@ -1,0 +1,78 @@
+{
+ "eventId": "401878762",
+ "date": "2026-11-02T20:00:00Z",
+ "opponent": {
+  "name": "Everton",
+  "abbr": "EVE"
+ },
+ "ht": {
+  "us": {
+   "shots": 5,
+   "onTarget": 0,
+   "offTarget": 2,
+   "blocked": 3,
+   "corners": 2,
+   "fouls": 14,
+   "offsides": 0,
+   "yellow": 1,
+   "red": 0
+  },
+  "opp": {
+   "shots": 10,
+   "onTarget": 0,
+   "offTarget": 9,
+   "blocked": 1,
+   "corners": 0,
+   "fouls": 14,
+   "offsides": 1,
+   "yellow": 0,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 16,
+   "onTarget": 2,
+   "offTarget": 8,
+   "blocked": 6,
+   "corners": 4,
+   "fouls": 26,
+   "offsides": 0,
+   "yellow": 3,
+   "red": 1,
+   "possession": "51.6",
+   "passesAccurate": "332",
+   "passes": "419",
+   "passAcc": "0.8",
+   "crossesAccurate": "7",
+   "crosses": "24",
+   "tacklesWon": "4",
+   "tackles": "8",
+   "interceptions": "2",
+   "clearances": "33"
+  },
+  "opp": {
+   "shots": 15,
+   "onTarget": 4,
+   "offTarget": 10,
+   "blocked": 1,
+   "corners": 5,
+   "fouls": 18,
+   "offsides": 2,
+   "yellow": 2,
+   "red": 0,
+   "possession": "48.4",
+   "passesAccurate": "314",
+   "passes": "393",
+   "passAcc": "0.8",
+   "crossesAccurate": "7",
+   "crosses": "22",
+   "tacklesWon": "4",
+   "tackles": "10",
+   "interceptions": "6",
+   "clearances": "26"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

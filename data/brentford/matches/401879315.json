@@ -45,7 +45,7 @@
     "pos": "CD-L",
     "starter": true,
     "place": "6",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p432830.png"
+    "photo": "data/photos/490fa0e7e1bb1cca.jpg"
    },
    {
     "id": "206173",
@@ -470,7 +470,7 @@
    "name": "Josh Dasilva",
    "jersey": "10",
    "pos": "M",
-   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p183656.png",
+   "photo": "data/photos/9c18755435645770.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"
@@ -490,7 +490,7 @@
    "name": "Ellery Balcombe",
    "jersey": "31",
    "pos": "G",
-   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p235448.png",
+   "photo": "data/photos/3d5a5e01db2ead2d.jpg",
    "type": "理由不明",
    "reason": "",
    "source": "none"

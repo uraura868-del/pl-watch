@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-02T20:44:24Z",
+ "updatedAt": "2026-11-03T02:52:21Z",
  "manager": {
   "name": "Keith Andrews",
   "role": "Manager",
@@ -14,7 +14,7 @@
    "name": "Ellery Balcombe",
    "jersey": "31",
    "pos": "G",
-   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p235448.png",
+   "photo": "data/photos/3d5a5e01db2ead2d.jpg",
    "injuries": [],
    "dob": "1999-10-15",
    "nat": "England",
@@ -110,7 +110,7 @@
    "name": "Nathan Collins",
    "jersey": "22",
    "pos": "D",
-   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p432830.png",
+   "photo": "data/photos/490fa0e7e1bb1cca.jpg",
    "injuries": [],
    "dob": "2001-04-30",
    "nat": "Ireland",
@@ -286,7 +286,7 @@
    "name": "Josh Dasilva",
    "jersey": "10",
    "pos": "M",
-   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p183656.png",
+   "photo": "data/photos/9c18755435645770.jpg",
    "injuries": [],
    "dob": "1998-10-23",
    "nat": "England",
@@ -356,7 +356,7 @@
    "nat": "Ukraine",
    "natCode": "UA",
    "height": 180,
-   "joined": "2022-10-28",
+   "joined": "2022-07-14",
    "birthPlace": "Verkhniodniprovsk",
    "posInfo": "Centre Attacking Midfielder",
    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p508395.png"

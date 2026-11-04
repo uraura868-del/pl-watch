@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-03T23:57:10Z",
+ "updatedAt": "2026-11-04T06:04:18Z",
  "clubs": {
   "manchester united": {
    "id": 985,
@@ -477,18 +477,18 @@
    "fetchedAt": "2026-10-27T00:08:43Z",
    "players": {}
   },
-  "aek athens": {
-   "id": null,
-   "slug": null,
-   "name": null,
-   "fetchedAt": "2026-11-03T23:57:10Z",
-   "players": {}
-  },
   "borussia dortmund": {
    "id": 16,
    "slug": "club",
    "name": "Borussia Dortmund",
    "fetchedAt": "2026-11-03T23:57:10Z",
+   "players": {}
+  },
+  "aek athens": {
+   "id": null,
+   "slug": null,
+   "name": null,
+   "fetchedAt": "2026-11-04T06:04:18Z",
    "players": {}
   }
  }

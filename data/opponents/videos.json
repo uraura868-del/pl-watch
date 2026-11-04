@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-03T23:57:10Z",
+ "updatedAt": "2026-11-04T06:04:18Z",
  "enabled": true,
  "players": {
   "336794": {
@@ -11355,6 +11355,56 @@
     }
    ],
    "fetchedAt": "2026-11-03T18:22:39Z"
+  },
+  "323703": {
+   "name": "Alejandro Balde",
+   "query": "Alejandro Balde skills",
+   "videos": [
+    {
+     "id": "QGs4RMJc4kA",
+     "title": "Balde Is Perfect For Manchester United - Balde Skills 2026",
+     "channel": "BROS EDITS HD",
+     "publishedAt": "2026-08-22"
+    },
+    {
+     "id": "dUozQLI7Jwk",
+     "title": "Here’s Why Manchester United Want Alejandro Balde 🇪🇸",
+     "channel": "Tenz HD",
+     "publishedAt": "2026-08-24"
+    },
+    {
+     "id": "AFxZbBcc9eU",
+     "title": "Alejandro Balde ● Manchester United Transfer Target 2026 🔴🇪🇸 Skills, Tackles & Passes",
+     "channel": "SVMM",
+     "publishedAt": "2026-09-01"
+    }
+   ],
+   "fetchedAt": "2026-11-04T06:04:18Z"
+  },
+  "3098218": {
+   "name": "Alessandro Di Nunzio",
+   "query": "Alessandro Di Nunzio skills",
+   "videos": [
+    {
+     "id": "9TwSKLOU35c",
+     "title": "Alessandro Di Nunzio - Full Season Show - 2025",
+     "channel": "Roma_Comps1927",
+     "publishedAt": "2025-09-15"
+    },
+    {
+     "id": "0YE9MinaMVk",
+     "title": "Alessandro Di Nunzio - Future Regista of Rome - 2024",
+     "channel": "Roma_Comps1927",
+     "publishedAt": "2024-06-28"
+    },
+    {
+     "id": "1zwlpK9XRuA",
+     "title": "✨ DREAMING ROMA | ALESSANDRO DI NUNZIO",
+     "channel": "AS Roma",
+     "publishedAt": "2025-11-12"
+    }
+   ],
+   "fetchedAt": "2026-11-04T06:04:18Z"
   }
  }
 }

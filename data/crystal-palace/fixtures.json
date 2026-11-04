@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-04T06:04:18Z",
+ "updatedAt": "2026-11-04T14:23:33Z",
  "fixtures": [
   {
    "eventId": "401879300",
@@ -463,7 +463,7 @@
   },
   {
    "eventId": "401932163",
-   "date": "2026-12-15T20:00:00Z",
+   "date": "2026-12-16T19:30:00Z",
    "competition": "カラバオ杯",
    "matchday": null,
    "isHome": true,

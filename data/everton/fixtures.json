@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-04T06:04:18Z",
+ "updatedAt": "2026-11-04T14:23:33Z",
  "fixtures": [
   {
    "eventId": "401879300",
@@ -363,7 +363,7 @@
   },
   {
    "eventId": "401932186",
-   "date": "2026-12-15T20:00:00Z",
+   "date": "2026-12-17T20:00:00Z",
    "competition": "カラバオ杯",
    "matchday": null,
    "isHome": false,
@@ -383,7 +383,7 @@
   },
   {
    "eventId": "401879198",
-   "date": "2026-12-19T15:00:00Z",
+   "date": "2026-12-20T14:00:00Z",
    "competition": "プレミアリーグ",
    "matchday": null,
    "isHome": false,

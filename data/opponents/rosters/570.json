@@ -1,0 +1,311 @@
+{
+ "updatedAt": "2026-11-04T21:15:09Z",
+ "id": "570",
+ "name": "Club Brugge",
+ "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/570.png",
+ "manager": {
+  "name": "Ivan Leko",
+  "role": "Manager",
+  "nat": "Croatia",
+  "natCode": null,
+  "dob": "1978-02-07",
+  "source": "wikidata"
+ },
+ "players": [
+  {
+   "id": "93197",
+   "name": "Yann Sommer",
+   "jersey": "1",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "202101",
+   "name": "Nordin Jackers",
+   "jersey": "29",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "356107",
+   "name": "Axl De Corte",
+   "jersey": "71",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "371691",
+   "name": "Argus Driessche",
+   "jersey": "81",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "143970",
+   "name": "Andre Garcia",
+   "jersey": "90",
+   "pos": "D",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p551466.png",
+   "injuries": [],
+   "dob": "2004-03-24",
+   "nat": "Spain",
+   "natCode": "ES",
+   "height": 182,
+   "joined": "2026-08-03",
+   "birthPlace": "Madrid",
+   "posInfo": "Left/Centre/Right Winger",
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p551466.png"
+  },
+  {
+   "id": "191222",
+   "name": "Brandon Mechele",
+   "jersey": "44",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "297788",
+   "name": "Lee Han-Beom",
+   "jersey": "3",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "310023",
+   "name": "Hugo Siquet",
+   "jersey": "41",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "329465",
+   "name": "Samba Coulibaly",
+   "jersey": "54",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "331153",
+   "name": "Matteo Dams",
+   "jersey": "32",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "336589",
+   "name": "Joel Ordóñez",
+   "jersey": "4",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "351301",
+   "name": "Jorne Spileers",
+   "jersey": "58",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "351373",
+   "name": "Kyriani Sabbe",
+   "jersey": "64",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "363068",
+   "name": "Joaquin Seys",
+   "jersey": "65",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "372316",
+   "name": "Samuel Gomez Van Hoogen",
+   "jersey": "82",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "3102200",
+   "name": "Wout Verlinden",
+   "jersey": "93",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "193849",
+   "name": "Hans Vanaken",
+   "jersey": "20",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "255261",
+   "name": "Hugo Vetlesen",
+   "jersey": "10",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "310325",
+   "name": "Freddie Potts",
+   "jersey": "8",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "324419",
+   "name": "Felix Lemarechal",
+   "jersey": "80",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "329449",
+   "name": "Lynnt Audoor",
+   "jersey": "62",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "380662",
+   "name": "Cheveyo Tsawa",
+   "jersey": "16",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "417829",
+   "name": "Tian Nai Koren",
+   "jersey": "85",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "422970",
+   "name": "Gianluca Okon-Engstler",
+   "jersey": "86",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "78836",
+   "name": "Carlos Forbs",
+   "jersey": "9",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "328745",
+   "name": "Milan Robberechts",
+   "jersey": "39",
+   "pos": "F",
+   "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/328745.png",
+   "injuries": [],
+   "photoSrc": "https://a.espncdn.com/i/headshots/soccer/players/full/328745.png"
+  },
+  {
+   "id": "335201",
+   "name": "Nicolo Tresoldi",
+   "jersey": "7",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "360422",
+   "name": "Romeo Vermant",
+   "jersey": "17",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "362875",
+   "name": "Mamadou Diakhon",
+   "jersey": "67",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "395631",
+   "name": "Andrej Vasovic",
+   "jersey": "77",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "399864",
+   "name": "Wisdom Mike",
+   "jersey": "27",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "403592",
+   "name": "Jan Virgili",
+   "jersey": "11",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  }
+ ]
+}

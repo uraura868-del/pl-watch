@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-04T14:23:33Z",
+ "updatedAt": "2026-11-04T21:15:09Z",
  "players": {
   "336794": {
    "name": "Abdoul Ouattara",
@@ -19090,61 +19090,61 @@
    "name": "Andrew Cannon",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-11-03T18:22:39Z"
+   "fetchedAt": "2026-11-04T21:15:09Z"
   },
   "111016": {
    "name": "Ched Evans",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-11-03T18:22:39Z"
+   "fetchedAt": "2026-11-04T21:15:09Z"
   },
   "408354": {
    "name": "Conor Haughey",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-11-03T18:22:39Z"
+   "fetchedAt": "2026-11-04T21:15:09Z"
   },
   "390974": {
    "name": "Crispin Mclean",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-11-03T18:22:39Z"
+   "fetchedAt": "2026-11-04T21:15:09Z"
   },
   "127618": {
    "name": "Danny Andrew",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-11-03T18:22:39Z"
+   "fetchedAt": "2026-11-04T21:15:09Z"
   },
   "359454": {
    "name": "Finley Potter",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-11-03T18:22:39Z"
+   "fetchedAt": "2026-11-04T21:15:09Z"
   },
   "333339": {
    "name": "Harrison Neal",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-11-03T18:22:39Z"
+   "fetchedAt": "2026-11-04T21:15:09Z"
   },
   "347330": {
    "name": "Jake Batty",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-11-03T18:22:39Z"
+   "fetchedAt": "2026-11-04T21:15:09Z"
   },
   "345879": {
    "name": "James Pradic",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-11-03T18:22:39Z"
+   "fetchedAt": "2026-11-04T21:15:09Z"
   },
   "169599": {
    "name": "Jay Lynch",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-11-03T18:22:39Z"
+   "fetchedAt": "2026-11-04T21:15:09Z"
   },
   "362361": {
    "name": "Josh Robertson",
@@ -19240,31 +19240,31 @@
    "name": "Mark Helm",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-11-03T18:22:39Z"
+   "fetchedAt": "2026-11-04T21:15:09Z"
   },
   "385117": {
    "name": "Rafaele Cirino",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-11-03T18:22:39Z"
+   "fetchedAt": "2026-11-04T21:15:09Z"
   },
   "162889": {
    "name": "Rhys Bennett",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-11-03T18:22:39Z"
+   "fetchedAt": "2026-11-04T21:15:09Z"
   },
   "221993": {
    "name": "Ronan Coughlan",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-11-03T18:22:39Z"
+   "fetchedAt": "2026-11-04T21:15:09Z"
   },
   "190423": {
    "name": "Shaun Rooney",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-11-03T18:22:39Z"
+   "fetchedAt": "2026-11-04T21:15:09Z"
   },
   "39135": {
    "name": "Will Davies",
@@ -19535,6 +19535,383 @@
    "qid": null,
    "career": [],
    "fetchedAt": "2026-11-03T23:57:10Z"
+  },
+  "384380": {
+   "name": "Abdoul Koné",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-11-04T21:15:09Z"
+  },
+  "411696": {
+   "name": "Adam Rezek",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-11-04T21:15:09Z"
+  },
+  "372232": {
+   "name": "Andrija Maksimovic",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-11-04T21:15:09Z"
+  },
+  "220165": {
+   "name": "Ange N'Guessan",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-11-04T21:15:09Z"
+  },
+  "319368": {
+   "name": "Antonio Nusa",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-11-04T21:15:09Z"
+  },
+  "220711": {
+   "name": "Benjamin Henrichs",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-11-04T21:15:09Z"
+  },
+  "357683": {
+   "name": "Brajan Gruda",
+   "qid": "Q116432094",
+   "career": [
+    {
+     "club": "1.FSVマインツ05",
+     "clubEn": "1. FSV Mainz 05",
+     "start": "2023",
+     "end": "2024",
+     "apps": 30,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": null
+    },
+    {
+     "club": "ブライトン・アンド・ホーヴ・アルビオンFC",
+     "clubEn": "Brighton & Hove Albion F.C.",
+     "start": "2024",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png"
+    },
+    {
+     "club": "RBライプツィヒ",
+     "clubEn": "RB Leipzig",
+     "start": "2026",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png"
+    }
+   ],
+   "fetchedAt": "2026-11-04T21:15:09Z"
+  },
+  "319100": {
+   "name": "Castello Lukeba",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-11-04T21:15:09Z"
+  },
+  "274897": {
+   "name": "Christoph Baumgartner",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-11-04T21:15:09Z"
+  },
+  "222176": {
+   "name": "Christopher Nkunku",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-11-04T21:15:09Z"
+  },
+  "322169": {
+   "name": "Danijel Sturm",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-11-04T21:15:09Z"
+  },
+  "403926": {
+   "name": "David Barcot",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-11-04T21:15:09Z"
+  },
+  "335996": {
+   "name": "David Jurásek",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-11-04T21:15:09Z"
+  },
+  "256751": {
+   "name": "David Moses",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-11-04T21:15:09Z"
+  },
+  "249548": {
+   "name": "David Raum",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-11-04T21:15:09Z"
+  },
+  "290116": {
+   "name": "David Zima",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-11-04T21:15:09Z"
+  },
+  "3098601": {
+   "name": "Emmanuel Dennis Ayaosi",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-11-04T21:15:09Z"
+  },
+  "330233": {
+   "name": "Ezechiel Banzuzi",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-11-04T21:15:09Z"
+  },
+  "291407": {
+   "name": "Jakub Markovic",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-11-04T21:15:09Z"
+  },
+  "310131": {
+   "name": "Johan Bakayoko",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-11-04T21:15:09Z"
+  },
+  "201803": {
+   "name": "Lukas Klostermann",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-11-04T21:15:09Z"
+  },
+  "294618": {
+   "name": "Lukás Provod",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-11-04T21:15:09Z"
+  },
+  "277377": {
+   "name": "Maarten Vandevoordt",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-11-04T21:15:09Z"
+  },
+  "3111595": {
+   "name": "Matěj Kotrba",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-11-04T21:15:09Z"
+  },
+  "318316": {
+   "name": "Maxime Estève",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-11-04T21:15:09Z"
+  },
+  "249525": {
+   "name": "Michal Sadílek",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-11-04T21:15:09Z"
+  },
+  "352303": {
+   "name": "Mikulás Konecny",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-11-04T21:15:09Z"
+  },
+  "343733": {
+   "name": "Mojmír Chytil",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-11-04T21:15:09Z"
+  },
+  "418535": {
+   "name": "Mubarak Suleiman",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-11-04T21:15:09Z"
+  },
+  "412120": {
+   "name": "Nazar Domchak",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-11-04T21:15:09Z"
+  },
+  "323807": {
+   "name": "Neil El Aynaoui",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-11-04T21:15:09Z"
+  },
+  "305956": {
+   "name": "Nicolas Seiwald",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-11-04T21:15:09Z"
+  },
+  "3099524": {
+   "name": "Oskar Kubiak",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-11-04T21:15:09Z"
+  },
+  "420913": {
+   "name": "Pavel Kacor",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-11-04T21:15:09Z"
+  },
+  "258963": {
+   "name": "Ridle Baku",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-11-04T21:15:09Z"
+  },
+  "307364": {
+   "name": "Rocco Reitz",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-11-04T21:15:09Z"
+  },
+  "324766": {
+   "name": "Rômulo",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-11-04T21:15:09Z"
+  },
+  "370744": {
+   "name": "Stepán Chaloupek",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-11-04T21:15:09Z"
+  },
+  "366911": {
+   "name": "Tidiam Gomis",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-11-04T21:15:09Z"
+  },
+  "280885": {
+   "name": "Tomás Holes",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-11-04T21:15:09Z"
+  },
+  "283008": {
+   "name": "Tomás Vlcek",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-11-04T21:15:09Z"
+  },
+  "406125": {
+   "name": "Toumani Diakité",
+   "qid": "Q59528545",
+   "career": [
+    {
+     "club": "U-16サッカーフランス代表",
+     "clubEn": "France national under-16 association football team",
+     "start": "2016",
+     "end": "2017",
+     "apps": 8,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png"
+    },
+    {
+     "club": "U-18サッカーフランス代表",
+     "clubEn": "France national under-18 association football team",
+     "start": "2018",
+     "end": "2019",
+     "apps": 6,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png"
+    },
+    {
+     "club": "トゥールーズFC",
+     "clubEn": "Toulouse FC",
+     "start": "2018",
+     "end": "2022",
+     "apps": 82,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png"
+    },
+    {
+     "club": "U-19サッカーフランス代表",
+     "clubEn": "France national under-19 association football team",
+     "start": "2019",
+     "end": "2019",
+     "apps": 3,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png"
+    },
+    {
+     "club": "U-21サッカーフランス代表",
+     "clubEn": "France national under-21 association football team",
+     "start": "2020",
+     "end": "2022",
+     "apps": 1,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png"
+    },
+    {
+     "club": "LOSCリール",
+     "clubEn": "Lille OSC",
+     "start": "2022",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": null
+    }
+   ],
+   "fetchedAt": "2026-11-04T21:15:09Z"
+  },
+  "410093": {
+   "name": "Wiktor Nowak",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-11-04T21:15:09Z"
+  },
+  "162162": {
+   "name": "Willi Orbán",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-11-04T21:15:09Z"
+  },
+  "193610": {
+   "name": "Ørjan Nyland",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-11-04T21:15:09Z"
+  },
+  "266002": {
+   "name": "Mert Müldür",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-11-04T21:15:09Z"
   }
  }
 }

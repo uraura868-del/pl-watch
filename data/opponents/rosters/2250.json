@@ -1,0 +1,361 @@
+{
+ "updatedAt": "2026-11-04T21:15:09Z",
+ "id": "2250",
+ "name": "Sporting CP",
+ "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
+ "manager": {
+  "name": "position not filled",
+  "role": "Manager",
+  "nat": null,
+  "natCode": null,
+  "dob": null,
+  "source": "wikidata"
+ },
+ "players": [
+  {
+   "id": "177898",
+   "name": "Rui Silva",
+   "jersey": "1",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "329031",
+   "name": "Diego Callai",
+   "jersey": "41",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "332352",
+   "name": "Kaique",
+   "jersey": "30",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "362066",
+   "name": "Francisco Silva",
+   "jersey": "99",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "105237",
+   "name": "Ibrahima Ba",
+   "jersey": "55",
+   "pos": "D",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p477851.png",
+   "injuries": [],
+   "dob": "2003-07-31",
+   "nat": "France",
+   "natCode": "FR",
+   "height": 180,
+   "joined": "2022-10-09",
+   "birthPlace": "Saint-Aubin-lès-Elbeuf",
+   "posInfo": "Central Midfielder",
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p477851.png"
+  },
+  {
+   "id": "124204",
+   "name": "Nuno Santos",
+   "jersey": "11",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "290590",
+   "name": "Eduardo Quaresma",
+   "jersey": "72",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "300514",
+   "name": "Georgios Vagiannidis",
+   "jersey": "13",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "304106",
+   "name": "Gonçalo Inácio",
+   "jersey": "25",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "314473",
+   "name": "Zeno Debast",
+   "jersey": "6",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "333209",
+   "name": "Iván Fresneda",
+   "jersey": "22",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "394429",
+   "name": "Lucas Taibo",
+   "jersey": null,
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "403413",
+   "name": "Moncef Zekri",
+   "jersey": "18",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "414124",
+   "name": "Salvador Blopa",
+   "jersey": "70",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "416643",
+   "name": "Rodrigo Dias",
+   "jersey": "50",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "287025",
+   "name": "Maxi Araújo",
+   "jersey": "20",
+   "pos": "M",
+   "photo": "data/photos/4653fd523ffabc8c.jpg",
+   "injuries": [],
+   "dob": "2001-08-13",
+   "nat": "Mexico",
+   "natCode": "MX",
+   "height": 176,
+   "joined": "2024-08-13",
+   "birthPlace": "Lompoc",
+   "posInfo": "Right Full Back",
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p436893.png"
+  },
+  {
+   "id": "287494",
+   "name": "Rodrigo Zalazar",
+   "jersey": "17",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "296969",
+   "name": "Geny Catamo",
+   "jersey": "10",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "307930",
+   "name": "Pedro Lima",
+   "jersey": "21",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "309478",
+   "name": "Mateo Tanlongo",
+   "jersey": null,
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "331426",
+   "name": "Sergi Altimira",
+   "jersey": "5",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "355408",
+   "name": "Silas Andersen",
+   "jersey": "4",
+   "pos": "M",
+   "photo": "data/photos/61a29f73087917c1.jpg",
+   "injuries": [],
+   "dob": "1996-05-31",
+   "nat": "Denmark",
+   "natCode": "DK",
+   "height": 192,
+   "joined": "2024-08-23",
+   "birthPlace": "Frederiksberg",
+   "posInfo": "Centre Central Defender",
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p174874.png"
+  },
+  {
+   "id": "364672",
+   "name": "Samuel Justo",
+   "jersey": "96",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "386592",
+   "name": "Issa Doumbia",
+   "jersey": "77",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "392622",
+   "name": "João Simões",
+   "jersey": "8",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "398054",
+   "name": "Eduardo Felicíssimo",
+   "jersey": "73",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "266318",
+   "name": "Fotis Ioannidis",
+   "jersey": "7",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "272722",
+   "name": "Luis Suárez",
+   "jersey": "97",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "328535",
+   "name": "Nestory Irankunda",
+   "jersey": "19",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "349812",
+   "name": "Mauro Couto",
+   "jersey": null,
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "361429",
+   "name": "Luis Guilherme",
+   "jersey": "31",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "373759",
+   "name": "Jesse Derry",
+   "jersey": "28",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "380529",
+   "name": "Rafael Nel",
+   "jersey": "9",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "403524",
+   "name": "Rodrigo Rodrigues",
+   "jersey": "76",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "414123",
+   "name": "Flávio Gonçalves",
+   "jersey": "58",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "3124013",
+   "name": "Paulo Yanick Moreno Vieira Sanches Cardoso",
+   "jersey": null,
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  }
+ ]
+}

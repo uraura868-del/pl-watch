@@ -1,0 +1,52 @@
+{
+ "eventId": "401915382",
+ "date": "2026-11-04T17:45:00Z",
+ "opponent": {
+  "name": "Fenerbahce",
+  "abbr": "FEN"
+ },
+ "isHome": false,
+ "score": {
+  "us": 2,
+  "opp": 3
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Trey Nyoni",
+   "assist": null,
+   "minute": "25'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Mason Greenwood",
+   "assist": null,
+   "minute": "29'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Alexander Isak",
+   "assist": "Cody Gakpo",
+   "minute": "69'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Archie Brown",
+   "assist": null,
+   "minute": "73'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Vedat Muriqi",
+   "assist": "Archie Brown",
+   "minute": "79'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

@@ -1,0 +1,318 @@
+{
+ "updatedAt": "2026-11-03T23:57:10Z",
+ "id": "124",
+ "name": "Borussia Dortmund",
+ "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+ "manager": {
+  "name": "Niko Kovač",
+  "role": "Manager",
+  "nat": "Croatia",
+  "natCode": null,
+  "dob": "1971-10-15",
+  "source": "wikidata"
+ },
+ "players": [
+  {
+   "id": "174521",
+   "name": "Patrick Drewes",
+   "jersey": "30",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "178380",
+   "name": "Alexander Meyer",
+   "jersey": "33",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "238544",
+   "name": "Gregor Kobel",
+   "jersey": "1",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "331297",
+   "name": "Silas Ostrzinski",
+   "jersey": "31",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "220703",
+   "name": "Ramy Bensebaini",
+   "jersey": "5",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "220714",
+   "name": "Waldemar Anton",
+   "jersey": "3",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "222991",
+   "name": "Julian Ryerson",
+   "jersey": "26",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "286828",
+   "name": "Nico Schlotterbeck",
+   "jersey": "4",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "310709",
+   "name": "Daniel Svensson",
+   "jersey": "24",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "371500",
+   "name": "Kouakou Gadou",
+   "jersey": "22",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "387437",
+   "name": "Filippo Mané",
+   "jersey": "39",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "399455",
+   "name": "Kauã Prates",
+   "jersey": "36",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "413817",
+   "name": "Luca Reggiani",
+   "jersey": "49",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "414315",
+   "name": "Miguel Adje",
+   "jersey": "47",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "3102556",
+   "name": "Jan-Luca Riedl",
+   "jersey": "42",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "159142",
+   "name": "Emre Can",
+   "jersey": "23",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "173907",
+   "name": "Marcel Sabitzer",
+   "jersey": "20",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "240912",
+   "name": "Joey Veerman",
+   "jersey": "25",
+   "pos": "M",
+   "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/240912.png",
+   "injuries": [],
+   "photoSrc": "https://a.espncdn.com/i/headshots/soccer/players/full/240912.png"
+  },
+  {
+   "id": "281122",
+   "name": "Felix Nmecha",
+   "jersey": "8",
+   "pos": "M",
+   "photo": "data/photos/0fa848809379247b.jpg",
+   "injuries": [],
+   "dob": "1998-12-14",
+   "nat": "Germany",
+   "natCode": "DE",
+   "height": 185,
+   "joined": "2025-07-01",
+   "birthPlace": "Hamburg",
+   "posInfo": "Striker",
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p174594.png"
+  },
+  {
+   "id": "294317",
+   "name": "Carney Chukwuemeka",
+   "jersey": "17",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "311428",
+   "name": "Giannis Konstantelias",
+   "jersey": "45",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "324820",
+   "name": "Jobe Bellingham",
+   "jersey": "7",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "349733",
+   "name": "Ethan Nwaneri",
+   "jersey": "18",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "357801",
+   "name": "Konstantinos Karetsas",
+   "jersey": "19",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "383070",
+   "name": "Justin Lerma",
+   "jersey": "28",
+   "pos": "M",
+   "photo": "data/photos/b9bb52327ce52014.jpg",
+   "injuries": [],
+   "dob": "1994-10-25",
+   "nat": "Colombia",
+   "natCode": "CO",
+   "height": 179,
+   "joined": "2023-07-01",
+   "birthPlace": "Cerrito",
+   "posInfo": "Centre Central Midfielder",
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p152551.png"
+  },
+  {
+   "id": "401450",
+   "name": "Enzo De Pina Duarte Dos Santos",
+   "jersey": "44",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "403933",
+   "name": "Mussa Kaba",
+   "jersey": "48",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "186381",
+   "name": "Serhou Guirassy",
+   "jersey": "9",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "290639",
+   "name": "Maximilian Beier",
+   "jersey": "14",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "291629",
+   "name": "Fábio Silva",
+   "jersey": "21",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "403781",
+   "name": "Mathis Albert",
+   "jersey": "41",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "403833",
+   "name": "Samuele Inácio",
+   "jersey": "40",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  }
+ ]
+}

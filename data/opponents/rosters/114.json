@@ -1,0 +1,313 @@
+{
+ "updatedAt": "2026-11-03T23:57:10Z",
+ "id": "114",
+ "name": "Napoli",
+ "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+ "manager": {
+  "name": "Massimiliano Allegri",
+  "role": "Manager",
+  "nat": "Italy",
+  "natCode": null,
+  "dob": "1967-08-11",
+  "source": "wikidata"
+ },
+ "players": [
+  {
+   "id": "198082",
+   "name": "Nikita Contini",
+   "jersey": "14",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "209746",
+   "name": "Alex Meret",
+   "jersey": "1",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "219531",
+   "name": "Vanja Milinkovic-Savic",
+   "jersey": "32",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "413630",
+   "name": "David Spinelli",
+   "jersey": "41",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "3138825",
+   "name": "Claudio Pugliese",
+   "jersey": "12",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "148974",
+   "name": "Leonardo Spinazzola",
+   "jersey": "37",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "155904",
+   "name": "Giovanni Di Lorenzo",
+   "jersey": "22",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "205576",
+   "name": "Amir Rrahmani",
+   "jersey": "13",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "234881",
+   "name": "Mathías Olivera",
+   "jersey": "17",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "252605",
+   "name": "Alessandro Buongiorno",
+   "jersey": "4",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "261594",
+   "name": "Sam Beukema",
+   "jersey": "31",
+   "pos": "D",
+   "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/261594.png",
+   "injuries": [],
+   "photoSrc": "https://a.espncdn.com/i/headshots/soccer/players/full/261594.png"
+  },
+  {
+   "id": "282585",
+   "name": "Benoît Badiashile",
+   "jersey": "5",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "297360",
+   "name": "Rafa Marín",
+   "jersey": "16",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "346622",
+   "name": "Costantino Favasuli",
+   "jersey": "2",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "367690",
+   "name": "Luca Marianucci",
+   "jersey": "35",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "5327646",
+   "name": "Claudio Lieto",
+   "jersey": "40",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "134947",
+   "name": "Kevin De Bruyne",
+   "jersey": "11",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "188412",
+   "name": "Stanislav Lobotka",
+   "jersey": "68",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "215721",
+   "name": "Frank Anguissa",
+   "jersey": "99",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "255850",
+   "name": "Scott McTominay",
+   "jersey": "8",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "274217",
+   "name": "Billy Gilmour",
+   "jersey": "6",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "332411",
+   "name": "Antonio Vergara",
+   "jersey": "26",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "416154",
+   "name": "Francisco Baridó",
+   "jersey": "18",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "5327645",
+   "name": "Nikita Melnyk",
+   "jersey": "39",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "5327647",
+   "name": "Andrea Chiummariello",
+   "jersey": "38",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "188306",
+   "name": "Matteo Politano",
+   "jersey": "21",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "245637",
+   "name": "David Neres",
+   "jersey": "7",
+   "pos": "F",
+   "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/245637.png",
+   "injuries": [],
+   "photoSrc": "https://a.espncdn.com/i/headshots/soccer/players/full/245637.png"
+  },
+  {
+   "id": "255344",
+   "name": "Noa Lang",
+   "jersey": "70",
+   "pos": "F",
+   "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/255344.png",
+   "injuries": [],
+   "photoSrc": "https://a.espncdn.com/i/headshots/soccer/players/full/255344.png"
+  },
+  {
+   "id": "282564",
+   "name": "Lorenzo Lucca",
+   "jersey": "20",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "309273",
+   "name": "Rasmus Højlund",
+   "jersey": "19",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "319697",
+   "name": "Alisson Santos",
+   "jersey": "27",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "339953",
+   "name": "Giovane",
+   "jersey": "23",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "3145436",
+   "name": "Milton Agustín Pereyra",
+   "jersey": "36",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  }
+ ]
+}

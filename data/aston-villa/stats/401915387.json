@@ -1,0 +1,78 @@
+{
+ "eventId": "401915387",
+ "date": "2026-11-03T20:00:00Z",
+ "opponent": {
+  "name": "Barcelona",
+  "abbr": "BAR"
+ },
+ "ht": {
+  "us": {
+   "shots": 5,
+   "onTarget": 1,
+   "offTarget": 2,
+   "blocked": 2,
+   "corners": 4,
+   "fouls": 8,
+   "offsides": 2,
+   "yellow": 3,
+   "red": 0
+  },
+  "opp": {
+   "shots": 4,
+   "onTarget": 2,
+   "offTarget": 1,
+   "blocked": 1,
+   "corners": 2,
+   "fouls": 8,
+   "offsides": 0,
+   "yellow": 1,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 8,
+   "onTarget": 1,
+   "offTarget": 5,
+   "blocked": 2,
+   "corners": 8,
+   "fouls": 14,
+   "offsides": 3,
+   "yellow": 3,
+   "red": 0,
+   "possession": "35.2",
+   "passesAccurate": "258",
+   "passes": "323",
+   "passAcc": "0.8",
+   "crossesAccurate": "3",
+   "crosses": "11",
+   "tacklesWon": "11",
+   "tackles": "18",
+   "interceptions": "9",
+   "clearances": "12"
+  },
+  "opp": {
+   "shots": 13,
+   "onTarget": 5,
+   "offTarget": 6,
+   "blocked": 2,
+   "corners": 4,
+   "fouls": 28,
+   "offsides": 1,
+   "yellow": 1,
+   "red": 0,
+   "possession": "64.8",
+   "passesAccurate": "552",
+   "passes": "603",
+   "passAcc": "0.9",
+   "crossesAccurate": "3",
+   "crosses": "10",
+   "tacklesWon": "9",
+   "tackles": "18",
+   "interceptions": "8",
+   "clearances": "23"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

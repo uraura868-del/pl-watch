@@ -1,0 +1,58 @@
+{
+ "eventId": "401915308",
+ "date": "2026-11-03T20:00:00Z",
+ "opponent": {
+  "name": "AS Roma",
+  "abbr": "ROMA"
+ },
+ "isHome": true,
+ "score": {
+  "us": 3,
+  "opp": 2
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Matìas Soulè",
+   "assist": "Rodrigo Mora",
+   "minute": "11'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Donyell Malen",
+   "assist": null,
+   "minute": "17'",
+   "kind": "pen"
+  },
+  {
+   "side": "us",
+   "scorer": "Bruno Fernandes",
+   "assist": null,
+   "minute": "58'",
+   "kind": "pen"
+  },
+  {
+   "side": "us",
+   "scorer": "Matheus Cunha",
+   "assist": null,
+   "minute": "83'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Matheus Cunha",
+   "assist": "Shea Lacey",
+   "minute": "86'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [
+  {
+   "side": "us",
+   "name": "Matheus Cunha",
+   "minute": "90'+1'"
+  }
+ ],
+ "source": "ESPN"
+}

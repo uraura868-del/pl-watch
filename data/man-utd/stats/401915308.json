@@ -1,0 +1,78 @@
+{
+ "eventId": "401915308",
+ "date": "2026-11-03T20:00:00Z",
+ "opponent": {
+  "name": "AS Roma",
+  "abbr": "ROMA"
+ },
+ "ht": {
+  "us": {
+   "shots": 5,
+   "onTarget": 1,
+   "offTarget": 2,
+   "blocked": 2,
+   "corners": 0,
+   "fouls": 4,
+   "offsides": 1,
+   "yellow": 1,
+   "red": 0
+  },
+  "opp": {
+   "shots": 4,
+   "onTarget": 2,
+   "offTarget": 1,
+   "blocked": 1,
+   "corners": 1,
+   "fouls": 16,
+   "offsides": 1,
+   "yellow": 3,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 11,
+   "onTarget": 2,
+   "offTarget": 4,
+   "blocked": 5,
+   "corners": 3,
+   "fouls": 17,
+   "offsides": 1,
+   "yellow": 4,
+   "red": 1,
+   "possession": "52.4",
+   "passesAccurate": "415",
+   "passes": "503",
+   "passAcc": "0.8",
+   "crossesAccurate": "3",
+   "crosses": "11",
+   "tacklesWon": "10",
+   "tackles": "20",
+   "interceptions": "13",
+   "clearances": "15"
+  },
+  "opp": {
+   "shots": 4,
+   "onTarget": 2,
+   "offTarget": 1,
+   "blocked": 1,
+   "corners": 1,
+   "fouls": 26,
+   "offsides": 2,
+   "yellow": 3,
+   "red": 0,
+   "possession": "47.6",
+   "passesAccurate": "373",
+   "passes": "457",
+   "passAcc": "0.8",
+   "crossesAccurate": "1",
+   "crosses": "8",
+   "tacklesWon": "13",
+   "tackles": "21",
+   "interceptions": "18",
+   "clearances": "24"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

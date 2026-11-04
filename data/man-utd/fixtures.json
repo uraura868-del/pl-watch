@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-03T18:22:39Z",
+ "updatedAt": "2026-11-03T23:57:10Z",
  "fixtures": [
   {
    "eventId": "401879322",
@@ -274,12 +274,12 @@
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png"
    },
    "venue": "Old Trafford",
-   "status": "scheduled",
+   "status": "played",
    "league": "uefa.champions",
    "compShort": "CL",
-   "hasStats": false,
-   "hasResult": false,
-   "hasLineup": false
+   "hasStats": true,
+   "hasResult": true,
+   "hasLineup": true
   },
   {
    "eventId": "401879240",

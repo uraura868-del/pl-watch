@@ -1,0 +1,38 @@
+{
+ "eventId": "401915387",
+ "date": "2026-11-03T20:00:00Z",
+ "opponent": {
+  "name": "Barcelona",
+  "abbr": "BAR"
+ },
+ "isHome": false,
+ "score": {
+  "us": 0,
+  "opp": 3
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Lamine Yamal",
+   "assist": null,
+   "minute": "7'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Raphinha",
+   "assist": "Fermín López",
+   "minute": "52'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Raphinha",
+   "assist": "João Cancelo",
+   "minute": "64'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

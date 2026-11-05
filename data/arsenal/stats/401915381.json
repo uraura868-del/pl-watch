@@ -1,0 +1,78 @@
+{
+ "eventId": "401915381",
+ "date": "2026-11-04T20:00:00Z",
+ "opponent": {
+  "name": "Slavia Prague",
+  "abbr": "SLP"
+ },
+ "ht": {
+  "us": {
+   "shots": 6,
+   "onTarget": 2,
+   "offTarget": 2,
+   "blocked": 2,
+   "corners": 2,
+   "fouls": 8,
+   "offsides": 1,
+   "yellow": 0,
+   "red": 0
+  },
+  "opp": {
+   "shots": 1,
+   "onTarget": 0,
+   "offTarget": 1,
+   "blocked": 0,
+   "corners": 0,
+   "fouls": 13,
+   "offsides": 2,
+   "yellow": 1,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 10,
+   "onTarget": 3,
+   "offTarget": 3,
+   "blocked": 4,
+   "corners": 2,
+   "fouls": 19,
+   "offsides": 1,
+   "yellow": 2,
+   "red": 0,
+   "possession": "56.5",
+   "passesAccurate": "402",
+   "passes": "484",
+   "passAcc": "0.8",
+   "crossesAccurate": "1",
+   "crosses": "7",
+   "tacklesWon": "14",
+   "tackles": "18",
+   "interceptions": "8",
+   "clearances": "23"
+  },
+  "opp": {
+   "shots": 17,
+   "onTarget": 3,
+   "offTarget": 6,
+   "blocked": 8,
+   "corners": 4,
+   "fouls": 29,
+   "offsides": 3,
+   "yellow": 1,
+   "red": 0,
+   "possession": "43.5",
+   "passesAccurate": "300",
+   "passes": "363",
+   "passAcc": "0.8",
+   "crossesAccurate": "5",
+   "crosses": "15",
+   "tacklesWon": "12",
+   "tackles": "17",
+   "interceptions": "19",
+   "clearances": "14"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

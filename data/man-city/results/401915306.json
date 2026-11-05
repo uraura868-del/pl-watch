@@ -1,0 +1,52 @@
+{
+ "eventId": "401915306",
+ "date": "2026-11-04T20:00:00Z",
+ "opponent": {
+  "name": "RB Leipzig",
+  "abbr": "RBL"
+ },
+ "isHome": false,
+ "score": {
+  "us": 3,
+  "opp": 2
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Castello Lukeba",
+   "assist": null,
+   "minute": "37'",
+   "kind": "og"
+  },
+  {
+   "side": "opp",
+   "scorer": "Ridle Baku",
+   "assist": "Brajan Gruda",
+   "minute": "49'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Enzo Fernández",
+   "assist": "Iliman Ndiaye",
+   "minute": "58'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Antonio Nusa",
+   "assist": "Christopher Nkunku",
+   "minute": "61'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Erling Haaland",
+   "assist": "Elliot Anderson",
+   "minute": "78'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

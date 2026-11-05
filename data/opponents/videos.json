@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-04T21:15:09Z",
+ "updatedAt": "2026-11-05T02:17:44Z",
  "enabled": true,
  "players": {
   "336794": {
@@ -14080,6 +14080,31 @@
     }
    ],
    "fetchedAt": "2026-11-04T21:15:09Z"
+  },
+  "220165": {
+   "name": "Ange N'Guessan",
+   "query": "Ange N'Guessan skills",
+   "videos": [
+    {
+     "id": "apqE_zscanU",
+     "title": "Představení: Ange N’Guessan",
+     "channel": "FC Slovan Liberec",
+     "publishedAt": "2025-08-02"
+    },
+    {
+     "id": "bZGGYs39xhU",
+     "title": "DJYLIAN N'GUESSAN | His First Professional Minutes!",
+     "channel": "Le Talent Comps",
+     "publishedAt": "2026-08-31"
+    },
+    {
+     "id": "CnkQYwvdbNY",
+     "title": "Ange N'Guessan: podzim 2025",
+     "channel": "FC Slovan Liberec",
+     "publishedAt": "2026-01-04"
+    }
+   ],
+   "fetchedAt": "2026-11-05T02:17:44Z"
   }
  }
 }

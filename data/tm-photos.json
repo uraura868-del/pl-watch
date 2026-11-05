@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-04T21:15:09Z",
+ "updatedAt": "2026-11-05T02:17:44Z",
  "clubs": {
   "manchester united": {
    "id": 985,
@@ -484,18 +484,18 @@
    "fetchedAt": "2026-11-03T23:57:10Z",
    "players": {}
   },
-  "aek athens": {
-   "id": null,
-   "slug": null,
-   "name": null,
-   "fetchedAt": "2026-11-04T21:15:09Z",
-   "players": {}
-  },
   "sporting cp": {
    "id": 336,
    "slug": "club",
    "name": "Sporting CP",
    "fetchedAt": "2026-11-04T21:15:09Z",
+   "players": {}
+  },
+  "aek athens": {
+   "id": null,
+   "slug": null,
+   "name": null,
+   "fetchedAt": "2026-11-05T02:17:44Z",
    "players": {}
   }
  }

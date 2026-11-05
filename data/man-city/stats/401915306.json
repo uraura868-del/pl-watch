@@ -1,0 +1,78 @@
+{
+ "eventId": "401915306",
+ "date": "2026-11-04T20:00:00Z",
+ "opponent": {
+  "name": "RB Leipzig",
+  "abbr": "RBL"
+ },
+ "ht": {
+  "us": {
+   "shots": 4,
+   "onTarget": 1,
+   "offTarget": 3,
+   "blocked": 0,
+   "corners": 1,
+   "fouls": 2,
+   "offsides": 3,
+   "yellow": 0,
+   "red": 0
+  },
+  "opp": {
+   "shots": 6,
+   "onTarget": 2,
+   "offTarget": 2,
+   "blocked": 2,
+   "corners": 2,
+   "fouls": 16,
+   "offsides": 1,
+   "yellow": 2,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 9,
+   "onTarget": 3,
+   "offTarget": 5,
+   "blocked": 1,
+   "corners": 3,
+   "fouls": 14,
+   "offsides": 5,
+   "yellow": 2,
+   "red": 0,
+   "possession": "64.6",
+   "passesAccurate": "611",
+   "passes": "676",
+   "passAcc": "0.9",
+   "crossesAccurate": "5",
+   "crosses": "9",
+   "tacklesWon": "9",
+   "tackles": "17",
+   "interceptions": "10",
+   "clearances": "18"
+  },
+  "opp": {
+   "shots": 12,
+   "onTarget": 4,
+   "offTarget": 5,
+   "blocked": 3,
+   "corners": 5,
+   "fouls": 40,
+   "offsides": 3,
+   "yellow": 4,
+   "red": 0,
+   "possession": "35.4",
+   "passesAccurate": "305",
+   "passes": "361",
+   "passAcc": "0.8",
+   "crossesAccurate": "3",
+   "crosses": "16",
+   "tacklesWon": "8",
+   "tackles": "16",
+   "interceptions": "11",
+   "clearances": "15"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

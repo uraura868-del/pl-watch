@@ -1,0 +1,38 @@
+{
+ "eventId": "401915381",
+ "date": "2026-11-04T20:00:00Z",
+ "opponent": {
+  "name": "Slavia Prague",
+  "abbr": "SLP"
+ },
+ "isHome": false,
+ "score": {
+  "us": 2,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Noni Madueke",
+   "assist": "Viktor Gyökeres",
+   "minute": "9'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Viktor Gyökeres",
+   "assist": "Mikel Merino",
+   "minute": "38'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Wiktor Nowak",
+   "assist": "David Jurásek",
+   "minute": "90'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

@@ -1,0 +1,78 @@
+{
+ "eventId": "401915523",
+ "date": "2026-11-05T20:00:00Z",
+ "opponent": {
+  "name": "Dinamo Zagreb",
+  "abbr": "DZG"
+ },
+ "ht": {
+  "us": {
+   "shots": 5,
+   "onTarget": 3,
+   "offTarget": 1,
+   "blocked": 1,
+   "corners": 0,
+   "fouls": 8,
+   "offsides": 1,
+   "yellow": 2,
+   "red": 0
+  },
+  "opp": {
+   "shots": 6,
+   "onTarget": 1,
+   "offTarget": 3,
+   "blocked": 2,
+   "corners": 3,
+   "fouls": 12,
+   "offsides": 0,
+   "yellow": 1,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 15,
+   "onTarget": 7,
+   "offTarget": 4,
+   "blocked": 4,
+   "corners": 5,
+   "fouls": 18,
+   "offsides": 3,
+   "yellow": 3,
+   "red": 0,
+   "possession": "62.2",
+   "passesAccurate": "382",
+   "passes": "455",
+   "passAcc": "0.8",
+   "crossesAccurate": "8",
+   "crosses": "27",
+   "tacklesWon": "14",
+   "tackles": "19",
+   "interceptions": "6",
+   "clearances": "24"
+  },
+  "opp": {
+   "shots": 7,
+   "onTarget": 1,
+   "offTarget": 4,
+   "blocked": 2,
+   "corners": 3,
+   "fouls": 34,
+   "offsides": 0,
+   "yellow": 2,
+   "red": 0,
+   "possession": "37.8",
+   "passesAccurate": "194",
+   "passes": "280",
+   "passAcc": "0.7",
+   "crossesAccurate": "1",
+   "crosses": "11",
+   "tacklesWon": "10",
+   "tackles": "19",
+   "interceptions": "11",
+   "clearances": "40"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

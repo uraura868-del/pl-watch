@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-05T18:41:28Z",
+ "updatedAt": "2026-11-06T00:07:19Z",
  "fixtures": [
   {
    "eventId": "401879320",
@@ -297,8 +297,8 @@
    "status": "played",
    "league": "uefa.europa",
    "compShort": "EL",
-   "hasStats": false,
-   "hasResult": false,
+   "hasStats": true,
+   "hasResult": true,
    "hasLineup": true
   },
   {

@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-05T18:41:28Z",
+ "updatedAt": "2026-11-06T00:07:19Z",
  "clubs": {
   "manchester united": {
    "id": 985,
@@ -467,14 +467,14 @@
    "id": 3709,
    "slug": "club",
    "name": "Getafe CF",
-   "fetchedAt": "2026-10-27T00:08:43Z",
+   "fetchedAt": "2026-11-06T00:07:19Z",
    "players": {}
   },
   "dinamo zagreb": {
    "id": 419,
    "slug": "club",
    "name": "GNK Dinamo Zagreb",
-   "fetchedAt": "2026-10-27T00:08:43Z",
+   "fetchedAt": "2026-11-06T00:07:19Z",
    "players": {}
   },
   "borussia dortmund": {
@@ -491,13 +491,6 @@
    "fetchedAt": "2026-11-04T21:15:09Z",
    "players": {}
   },
-  "aek athens": {
-   "id": null,
-   "slug": null,
-   "name": null,
-   "fetchedAt": "2026-11-05T18:41:28Z",
-   "players": {}
-  },
   "celta vigo": {
    "id": 940,
    "slug": "club",
@@ -510,6 +503,20 @@
    "slug": "club",
    "name": "CS Universitatea Craiova",
    "fetchedAt": "2026-11-05T18:41:28Z",
+   "players": {}
+  },
+  "aek athens": {
+   "id": null,
+   "slug": null,
+   "name": null,
+   "fetchedAt": "2026-11-06T00:07:19Z",
+   "players": {}
+  },
+  "jagiellonia bialystok": {
+   "id": 2300,
+   "slug": "club",
+   "name": "Jagiellonia Białystok",
+   "fetchedAt": "2026-11-06T00:07:19Z",
    "players": {}
   }
  }

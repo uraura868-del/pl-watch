@@ -1,0 +1,24 @@
+{
+ "eventId": "401915821",
+ "date": "2026-11-05T20:00:00Z",
+ "opponent": {
+  "name": "Getafe",
+  "abbr": "GET"
+ },
+ "isHome": false,
+ "score": {
+  "us": 1,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Malick Yalcouyé",
+   "assist": "Costinha",
+   "minute": "64'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

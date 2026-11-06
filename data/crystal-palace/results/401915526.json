@@ -1,0 +1,37 @@
+{
+ "eventId": "401915526",
+ "date": "2026-11-05T17:45:00Z",
+ "opponent": {
+  "name": "TSG Hoffenheim",
+  "abbr": "TSG"
+ },
+ "isHome": true,
+ "score": {
+  "us": 1,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Alexander Prass",
+   "assist": "Tim Lemperle",
+   "minute": "7'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Daichi Kamada",
+   "assist": null,
+   "minute": "90'+1'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [
+  {
+   "side": "us",
+   "name": "Adam Wharton",
+   "minute": "77'"
+  }
+ ],
+ "source": "ESPN"
+}

@@ -1,0 +1,78 @@
+{
+ "eventId": "401915526",
+ "date": "2026-11-05T17:45:00Z",
+ "opponent": {
+  "name": "TSG Hoffenheim",
+  "abbr": "TSG"
+ },
+ "ht": {
+  "us": {
+   "shots": 7,
+   "onTarget": 2,
+   "offTarget": 4,
+   "blocked": 1,
+   "corners": 2,
+   "fouls": 6,
+   "offsides": 2,
+   "yellow": 1,
+   "red": 0
+  },
+  "opp": {
+   "shots": 8,
+   "onTarget": 3,
+   "offTarget": 3,
+   "blocked": 2,
+   "corners": 2,
+   "fouls": 14,
+   "offsides": 1,
+   "yellow": 2,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 12,
+   "onTarget": 4,
+   "offTarget": 5,
+   "blocked": 3,
+   "corners": 5,
+   "fouls": 26,
+   "offsides": 2,
+   "yellow": 5,
+   "red": 1,
+   "possession": "54.7",
+   "passesAccurate": "421",
+   "passes": "514",
+   "passAcc": "0.8",
+   "crossesAccurate": "4",
+   "crosses": "22",
+   "tacklesWon": "14",
+   "tackles": "16",
+   "interceptions": "9",
+   "clearances": "32"
+  },
+  "opp": {
+   "shots": 14,
+   "onTarget": 4,
+   "offTarget": 5,
+   "blocked": 5,
+   "corners": 5,
+   "fouls": 30,
+   "offsides": 1,
+   "yellow": 3,
+   "red": 0,
+   "possession": "45.3",
+   "passesAccurate": "335",
+   "passes": "428",
+   "passAcc": "0.8",
+   "crossesAccurate": "5",
+   "crosses": "14",
+   "tacklesWon": "14",
+   "tackles": "23",
+   "interceptions": "12",
+   "clearances": "41"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

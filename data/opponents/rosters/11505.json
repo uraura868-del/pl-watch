@@ -1,0 +1,340 @@
+{
+ "updatedAt": "2026-11-06T00:07:19Z",
+ "id": "11505",
+ "name": "Jagiellonia Bialystok",
+ "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11505.png",
+ "manager": {
+  "name": "Adrian Siemieniec",
+  "role": "Manager",
+  "nat": "Poland",
+  "natCode": null,
+  "dob": "1992-01-13",
+  "source": "wikidata"
+ },
+ "players": [
+  {
+   "id": "364679",
+   "name": "Slawomir Abramowicz",
+   "jersey": "50",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "407468",
+   "name": "Adrian Damasiewicz",
+   "jersey": "66",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "407692",
+   "name": "Jakub Rabiczko",
+   "jersey": "67",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "3100054",
+   "name": "Michał Perchel",
+   "jersey": "1",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "303927",
+   "name": "Apostolos Konstantopoulos",
+   "jersey": "44",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "305431",
+   "name": "Dusan Stojinovic",
+   "jersey": "3",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "321360",
+   "name": "Bernardo Vital",
+   "jersey": "5",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "323813",
+   "name": "Rodrigo Conceição",
+   "jersey": "27",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "341444",
+   "name": "Bartlomiej Wdowik",
+   "jersey": "20",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "346925",
+   "name": "Yuki Kobayashi",
+   "jersey": "4",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "382108",
+   "name": "Cezary Polak",
+   "jersey": "2",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "382780",
+   "name": "Guilherme Montoia",
+   "jersey": "23",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "387768",
+   "name": "Bartlomiej Krasiewicz",
+   "jersey": "61",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "399460",
+   "name": "Norbert Wojtuszek",
+   "jersey": "15",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "422185",
+   "name": "Szymon Pankiewicz",
+   "jersey": "62",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "3115028",
+   "name": "Olaf Pankiewicz",
+   "jersey": "63",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "207720",
+   "name": "Jesus Imaz",
+   "jersey": "11",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "220849",
+   "name": "Taras Romanczuk",
+   "jersey": "6",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "235672",
+   "name": "Kamil Jozwiak",
+   "jersey": "72",
+   "pos": "M",
+   "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/235672.png",
+   "injuries": [],
+   "photoSrc": "https://a.espncdn.com/i/headshots/soccer/players/full/235672.png"
+  },
+  {
+   "id": "268751",
+   "name": "Sergio Lozano",
+   "jersey": "21",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "272148",
+   "name": "Hampus Finndell",
+   "jersey": "14",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "303934",
+   "name": "Anders Klynge",
+   "jersey": "19",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "345447",
+   "name": "Ousmane Sow",
+   "jersey": "30",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "363718",
+   "name": "Dawid Drachal",
+   "jersey": "8",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "370144",
+   "name": "Kajetan Szmyt",
+   "jersey": "7",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "392560",
+   "name": "Eryk Kozlowski",
+   "jersey": "85",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "415433",
+   "name": "Maciej Kuczynski",
+   "jersey": "90",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "418400",
+   "name": "Zachary Zalewski",
+   "jersey": "80",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "3115026",
+   "name": "Paweł Pakieła",
+   "jersey": "59",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "3123705",
+   "name": "Jakub Kucharski",
+   "jersey": null,
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "296557",
+   "name": "Aleksandar Cirkovic",
+   "jersey": "32",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "307060",
+   "name": "Nik Prelec",
+   "jersey": "99",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "312714",
+   "name": "Youssuf Sylla",
+   "jersey": "17",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "381082",
+   "name": "Jeremy Agbonifo",
+   "jersey": "10",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "388725",
+   "name": "Dimitris Rallis",
+   "jersey": "9",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "3115027",
+   "name": "Maksim Kononov",
+   "jersey": "65",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  }
+ ]
+}

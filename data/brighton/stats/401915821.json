@@ -1,0 +1,78 @@
+{
+ "eventId": "401915821",
+ "date": "2026-11-05T20:00:00Z",
+ "opponent": {
+  "name": "Getafe",
+  "abbr": "GET"
+ },
+ "ht": {
+  "us": {
+   "shots": 8,
+   "onTarget": 1,
+   "offTarget": 5,
+   "blocked": 2,
+   "corners": 3,
+   "fouls": 10,
+   "offsides": 0,
+   "yellow": 1,
+   "red": 0
+  },
+  "opp": {
+   "shots": 4,
+   "onTarget": 2,
+   "offTarget": 1,
+   "blocked": 1,
+   "corners": 3,
+   "fouls": 8,
+   "offsides": 1,
+   "yellow": 0,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 14,
+   "onTarget": 1,
+   "offTarget": 10,
+   "blocked": 3,
+   "corners": 5,
+   "fouls": 24,
+   "offsides": 1,
+   "yellow": 4,
+   "red": 0,
+   "possession": "61.5",
+   "passesAccurate": "377",
+   "passes": "473",
+   "passAcc": "0.8",
+   "crossesAccurate": "3",
+   "crosses": "13",
+   "tacklesWon": "8",
+   "tackles": "12",
+   "interceptions": "7",
+   "clearances": "32"
+  },
+  "opp": {
+   "shots": 8,
+   "onTarget": 4,
+   "offTarget": 3,
+   "blocked": 1,
+   "corners": 5,
+   "fouls": 18,
+   "offsides": 3,
+   "yellow": 1,
+   "red": 0,
+   "possession": "38.5",
+   "passesAccurate": "181",
+   "passes": "291",
+   "passAcc": "0.6",
+   "crossesAccurate": "5",
+   "crosses": "18",
+   "tacklesWon": "3",
+   "tackles": "5",
+   "interceptions": "14",
+   "clearances": "18"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

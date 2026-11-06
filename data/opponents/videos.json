@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-05T18:41:28Z",
+ "updatedAt": "2026-11-06T00:07:19Z",
  "enabled": true,
  "players": {
   "336794": {
@@ -16675,6 +16675,31 @@
     }
    ],
    "fetchedAt": "2026-11-05T18:41:28Z"
+  },
+  "277876": {
+   "name": "Abdel Abqar",
+   "query": "Abdel Abqar skills",
+   "videos": [
+    {
+     "id": "Spzas_Crw64",
+     "title": "THAT TACKLE ❌☠️",
+     "channel": "LALIGA EA SPORTS",
+     "publishedAt": "2024-08-16"
+    },
+    {
+     "id": "4-s5Ft472lI",
+     "title": "Gutariko bat, Abqar",
+     "channel": "Deportivo Alavés",
+     "publishedAt": "2025-06-30"
+    },
+    {
+     "id": "_jqTiuRO8DE",
+     "title": "شاهد لحظة استفزاز المغربي عبد الكبير عبقار للامين يامال أمام الكاميرات:«باغي تلعب للمغرب» 😂🇲🇦 #يامال",
+     "channel": "آخر الأخبار",
+     "publishedAt": "2026-10-13"
+    }
+   ],
+   "fetchedAt": "2026-11-06T00:07:19Z"
   }
  }
 }

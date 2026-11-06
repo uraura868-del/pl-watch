@@ -1,0 +1,31 @@
+{
+ "eventId": "401915523",
+ "date": "2026-11-05T20:00:00Z",
+ "opponent": {
+  "name": "Dinamo Zagreb",
+  "abbr": "DZG"
+ },
+ "isHome": true,
+ "score": {
+  "us": 0,
+  "opp": 2
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Luka Stojkovic",
+   "assist": null,
+   "minute": "22'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Dion Drena Beljo",
+   "assist": "Luka Stojkovic",
+   "minute": "39'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

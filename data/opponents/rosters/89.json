@@ -1,0 +1,323 @@
+{
+ "updatedAt": "2026-11-06T00:07:19Z",
+ "id": "89",
+ "name": "Real Sociedad",
+ "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
+ "manager": {
+  "name": "Pellegrino Matarazzo",
+  "role": "Manager",
+  "nat": "United States",
+  "natCode": null,
+  "dob": "1977-11-28",
+  "source": "wikidata"
+ },
+ "players": [
+  {
+   "id": "217319",
+   "name": "Álex Remiro",
+   "jersey": "1",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "312011",
+   "name": "Unai Marrero",
+   "jersey": "13",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "368327",
+   "name": "Aitor Fraga",
+   "jersey": "32",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "235693",
+   "name": "Igor Zubeldia",
+   "jersey": "5",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "236156",
+   "name": "Álvaro Odriozola",
+   "jersey": "20",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "283891",
+   "name": "Aihen Muñoz",
+   "jersey": "3",
+   "pos": "D",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p551499.png",
+   "injuries": [],
+   "dob": "2003-07-13",
+   "nat": "Spain",
+   "natCode": "ES",
+   "height": 173,
+   "joined": "2026-06-18",
+   "birthPlace": "Barcelona",
+   "posInfo": "Left/Right Winger",
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p551499.png"
+  },
+  {
+   "id": "297359",
+   "name": "Jon Pacheco",
+   "jersey": "16",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "318063",
+   "name": "Jon Aramburu",
+   "jersey": "2",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "355433",
+   "name": "Mamadou Sarr",
+   "jersey": "19",
+   "pos": "F",
+   "photo": "data/photos/dac6d615a7d1fe17.jpg",
+   "injuries": [],
+   "dob": "1998-02-25",
+   "nat": "Senegal",
+   "natCode": "SN",
+   "height": 185,
+   "joined": "2024-08-01",
+   "birthPlace": "Saint-Louis",
+   "posInfo": "Right Winger",
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p232185.png"
+  },
+  {
+   "id": "363039",
+   "name": "Héctor Fort",
+   "jersey": "22",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "366885",
+   "name": "Jon Martín",
+   "jersey": "6",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "379457",
+   "name": "Iñaki Rupérez",
+   "jersey": "33",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "396607",
+   "name": "Luken Beitia",
+   "jersey": "34",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "235072",
+   "name": "Carlos Soler",
+   "jersey": "18",
+   "pos": "M",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p575901.png",
+   "injuries": [],
+   "dob": "2005-02-16",
+   "nat": "Argentina",
+   "natCode": "AR",
+   "height": 175,
+   "joined": "2025-01-07",
+   "birthPlace": "Asunción",
+   "posInfo": "Left Full Back",
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p575901.png"
+  },
+  {
+   "id": "236185",
+   "name": "Yangel Herrera",
+   "jersey": "21",
+   "pos": "M",
+   "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/236185.png",
+   "injuries": [],
+   "photoSrc": "https://a.espncdn.com/i/headshots/soccer/players/full/236185.png"
+  },
+  {
+   "id": "297371",
+   "name": "Beñat Turrientes",
+   "jersey": "8",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "306263",
+   "name": "Luka Sucic",
+   "jersey": "24",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "307487",
+   "name": "Arsen Zakharyan",
+   "jersey": "23",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "326900",
+   "name": "Pablo Marín",
+   "jersey": "15",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "366886",
+   "name": "Alex Lebarbier",
+   "jersey": "28",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "388601",
+   "name": "Jon Gorrotxategi",
+   "jersey": "4",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "410486",
+   "name": "Ibai Aguirre",
+   "jersey": "26",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "213141",
+   "name": "Gonçalo Guedes",
+   "jersey": "11",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "229018",
+   "name": "Mikel Oyarzabal",
+   "jersey": "10",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "256587",
+   "name": "Takefusa Kubo",
+   "jersey": "14",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "265993",
+   "name": "Sergio Gómez",
+   "jersey": "17",
+   "pos": "F",
+   "photo": "data/photos/f83e97a028bc383a.jpg",
+   "injuries": [],
+   "dob": "2003-03-27",
+   "nat": "Paraguay",
+   "natCode": "PY",
+   "height": 185,
+   "joined": "2025-01-01",
+   "birthPlace": "San Juan Bautista",
+   "posInfo": "Central Midfielder",
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p514254.png"
+  },
+  {
+   "id": "283941",
+   "name": "Ander Barrenetxea",
+   "jersey": "7",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "341367",
+   "name": "Orri Óskarsson",
+   "jersey": "9",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "396613",
+   "name": "Alex Marchal",
+   "jersey": "29",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "406379",
+   "name": "Job Ochieng",
+   "jersey": "12",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "406383",
+   "name": "Gorka Carrera",
+   "jersey": "27",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  }
+ ]
+}

@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-05T18:41:28Z",
+ "updatedAt": "2026-11-06T00:07:19Z",
  "fixtures": [
   {
    "eventId": "401879297",
@@ -274,12 +274,12 @@
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png"
    },
    "venue": "Estadio Coliseum",
-   "status": "scheduled",
+   "status": "played",
    "league": "uefa.europa.conf",
    "compShort": "ECL",
-   "hasStats": false,
-   "hasResult": false,
-   "hasLineup": false
+   "hasStats": true,
+   "hasResult": true,
+   "hasLineup": true
   },
   {
    "eventId": "401879244",

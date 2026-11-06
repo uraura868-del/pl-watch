@@ -1,0 +1,78 @@
+{
+ "eventId": "401915528",
+ "date": "2026-11-05T17:45:00Z",
+ "opponent": {
+  "name": "Sparta Prague",
+  "abbr": "SPP"
+ },
+ "ht": {
+  "us": {
+   "shots": 8,
+   "onTarget": 3,
+   "offTarget": 2,
+   "blocked": 3,
+   "corners": 4,
+   "fouls": 8,
+   "offsides": 0,
+   "yellow": 1,
+   "red": 0
+  },
+  "opp": {
+   "shots": 7,
+   "onTarget": 1,
+   "offTarget": 4,
+   "blocked": 2,
+   "corners": 2,
+   "fouls": 8,
+   "offsides": 1,
+   "yellow": 2,
+   "red": 1
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 16,
+   "onTarget": 6,
+   "offTarget": 5,
+   "blocked": 5,
+   "corners": 10,
+   "fouls": 20,
+   "offsides": 1,
+   "yellow": 2,
+   "red": 0,
+   "possession": "58.7",
+   "passesAccurate": "465",
+   "passes": "539",
+   "passAcc": "0.9",
+   "crossesAccurate": "8",
+   "crosses": "29",
+   "tacklesWon": "11",
+   "tackles": "26",
+   "interceptions": "14",
+   "clearances": "20"
+  },
+  "opp": {
+   "shots": 11,
+   "onTarget": 2,
+   "offTarget": 6,
+   "blocked": 3,
+   "corners": 3,
+   "fouls": 18,
+   "offsides": 1,
+   "yellow": 3,
+   "red": 1,
+   "possession": "41.3",
+   "passesAccurate": "313",
+   "passes": "386",
+   "passAcc": "0.8",
+   "crossesAccurate": "2",
+   "crosses": "11",
+   "tacklesWon": "11",
+   "tackles": "15",
+   "interceptions": "14",
+   "clearances": "35"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

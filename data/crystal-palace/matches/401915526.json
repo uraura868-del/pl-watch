@@ -1,8 +1,8 @@
 {
  "eventId": "401915526",
  "date": "2026-11-05T17:45:00Z",
- "final": false,
- "updatedAt": "2026-11-05T18:41:28Z",
+ "final": true,
+ "updatedAt": "2026-11-06T00:07:19Z",
  "team": {
   "formation": "3-4-3",
   "rows": [
@@ -226,8 +226,8 @@
     "403802"
    ],
    [
-    "362590",
     "274860",
+    "362590",
     "320939",
     "139520"
    ],
@@ -283,18 +283,18 @@
     "photo": null
    },
    {
-    "id": "362590",
-    "name": "Leon Avdullahu",
-    "jersey": "7",
+    "id": "274860",
+    "name": "Wouter Burger",
+    "jersey": "18",
     "pos": "CM-L",
     "starter": true,
     "place": "8",
     "photo": null
    },
    {
-    "id": "274860",
-    "name": "Wouter Burger",
-    "jersey": "18",
+    "id": "362590",
+    "name": "Leon Avdullahu",
+    "jersey": "7",
     "pos": "CM-R",
     "starter": true,
     "place": "4",

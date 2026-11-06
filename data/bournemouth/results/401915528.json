@@ -1,0 +1,51 @@
+{
+ "eventId": "401915528",
+ "date": "2026-11-05T17:45:00Z",
+ "opponent": {
+  "name": "Sparta Prague",
+  "abbr": "SPP"
+ },
+ "isHome": false,
+ "score": {
+  "us": 3,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Ebrima Singhateh",
+   "assist": "Jakub Surovcik",
+   "minute": "35'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Tyler Adams",
+   "assist": null,
+   "minute": "57'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Evanilson",
+   "assist": "Ryan Christie",
+   "minute": "81'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Rayan",
+   "assist": "Evanilson",
+   "minute": "90'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [
+  {
+   "side": "opp",
+   "name": "Tobias Guddal",
+   "minute": "37'"
+  }
+ ],
+ "source": "ESPN"
+}

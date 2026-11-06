@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-06T00:07:19Z",
+ "updatedAt": "2026-11-06T07:52:07Z",
  "players": {
   "david raya": {
    "name": "David Raya",
@@ -2844,7 +2844,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 183,
-   "joined": "2022-01-17",
+   "joined": "2026-10-12",
    "birthPlace": null,
    "posInfo": "Left Full Back"
   },
@@ -4573,7 +4573,7 @@
    "nat": "Northern Ireland",
    "natCode": "GB-NIR",
    "height": 183,
-   "joined": "2026-01-28",
+   "joined": "2026-11-01",
    "birthPlace": null,
    "posInfo": "Central Defender"
   },
@@ -4599,7 +4599,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 196,
-   "joined": "2025-09-01",
+   "joined": "2026-11-01",
    "birthPlace": null,
    "posInfo": "Centre Central Midfielder"
   },
@@ -4690,7 +4690,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 196,
-   "joined": "2026-07-02",
+   "joined": "2026-11-01",
    "birthPlace": "Bristol",
    "posInfo": "Goalkeeper"
   },
@@ -4703,7 +4703,7 @@
    "nat": "Ecuador",
    "natCode": "EC",
    "height": 172,
-   "joined": "2026-07-21",
+   "joined": "2026-11-01",
    "birthPlace": null,
    "posInfo": "Defensive Midfielder"
   },
@@ -4755,7 +4755,7 @@
    "nat": "Norway",
    "natCode": "NO",
    "height": null,
-   "joined": "2026-08-07",
+   "joined": "2026-11-01",
    "birthPlace": null,
    "posInfo": "Central Midfielder"
   },
@@ -4768,7 +4768,7 @@
    "nat": "Norway",
    "natCode": "NO",
    "height": null,
-   "joined": "2026-08-07",
+   "joined": "2026-11-01",
    "birthPlace": null,
    "posInfo": "Central Midfielder"
   },
@@ -4924,7 +4924,7 @@
    "nat": "France",
    "natCode": "FR",
    "height": 185,
-   "joined": "2026-09-01",
+   "joined": "2026-11-01",
    "birthPlace": "Mantes-la-Jolie",
    "posInfo": "Centre Striker"
   },
@@ -4937,7 +4937,7 @@
    "nat": "Greece",
    "natCode": "GR",
    "height": null,
-   "joined": "2026-09-01",
+   "joined": "2026-11-01",
    "birthPlace": null,
    "posInfo": "Centre Central Midfielder"
   },

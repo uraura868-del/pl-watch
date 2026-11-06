@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-06T00:07:19Z",
+ "updatedAt": "2026-11-06T07:52:07Z",
  "clubs": {
   "manchester united": {
    "id": 985,
@@ -505,18 +505,18 @@
    "fetchedAt": "2026-11-05T18:41:28Z",
    "players": {}
   },
-  "aek athens": {
-   "id": null,
-   "slug": null,
-   "name": null,
-   "fetchedAt": "2026-11-06T00:07:19Z",
-   "players": {}
-  },
   "jagiellonia bialystok": {
    "id": 2300,
    "slug": "club",
    "name": "Jagiellonia Białystok",
    "fetchedAt": "2026-11-06T00:07:19Z",
+   "players": {}
+  },
+  "aek athens": {
+   "id": null,
+   "slug": null,
+   "name": null,
+   "fetchedAt": "2026-11-06T07:52:07Z",
    "players": {}
   }
  }

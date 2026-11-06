@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-06T00:07:19Z",
+ "updatedAt": "2026-11-06T07:52:07Z",
  "enabled": true,
  "players": {
   "336794": {
@@ -16700,6 +16700,31 @@
     }
    ],
    "fetchedAt": "2026-11-06T00:07:19Z"
+  },
+  "383912": {
+   "name": "Alberto Risco",
+   "query": "Alberto Risco skills",
+   "videos": [
+    {
+     "id": "nPjj2ngTGuY",
+     "title": "VIDEO PESCADOR THOMAS RISCO",
+     "channel": "Alberto Risco",
+     "publishedAt": "2020-04-20"
+    },
+    {
+     "id": "b6ZHodbNgSk",
+     "title": "Richard Rios é craque, é habilidoso, mas a entregada dele no jogo, foi demais. #palmeiras #futebol",
+     "channel": "Go Verdão",
+     "publishedAt": "2025-03-17"
+    },
+    {
+     "id": "tkq3L3L-YiQ",
+     "title": "Richard drios bailando no campo #richardrios #colombia #palmeiras",
+     "channel": "M10 jogador ",
+     "publishedAt": "2024-07-23"
+    }
+   ],
+   "fetchedAt": "2026-11-06T07:52:07Z"
   }
  }
 }

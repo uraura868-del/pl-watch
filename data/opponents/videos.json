@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-06T15:52:27Z",
+ "updatedAt": "2026-11-06T21:26:56Z",
  "enabled": true,
  "players": {
   "336794": {
@@ -18944,6 +18944,131 @@
     }
    ],
    "fetchedAt": "2026-11-06T15:52:27Z"
+  },
+  "201304": {
+   "name": "Morato",
+   "query": "Morato skills",
+   "videos": [
+    {
+     "id": "YK5Uw_I3N18",
+     "title": "Morato ● Welcome to West Ham 2026 ⚒🇧🇷 Best Defensive Skills & Passes",
+     "channel": "SVMM",
+     "publishedAt": "2026-08-26"
+    },
+    {
+     "id": "gcYfsOwvRlA",
+     "title": "Morato - Welcome to AS Roma? 2026 - Best Skills & Tackles | HD",
+     "channel": "WIK7",
+     "publishedAt": "2026-08-26"
+    },
+    {
+     "id": "cCJyb9Q-VJg",
+     "title": "Morato - Solid and Technical Defender 2022ᴴᴰ",
+     "channel": "Brazil Scout ",
+     "publishedAt": "2022-09-04"
+    }
+   ],
+   "fetchedAt": "2026-11-06T21:26:56Z"
+  },
+  "350502": {
+   "name": "Oliver Scarles",
+   "query": "Oliver Scarles skills",
+   "videos": [
+    {
+     "id": "tWTg6zqDe7A",
+     "title": "Ollie Scarles Turns Into Roberto Carlos Against Arsenal",
+     "channel": "NextGen Ballers",
+     "publishedAt": "2025-10-21"
+    },
+    {
+     "id": "7ZPUwX44U_w",
+     "title": "Scarles❤️⚒️",
+     "channel": "Edits",
+     "publishedAt": "2026-02-27"
+    },
+    {
+     "id": "GAG7DOt2uu0",
+     "title": "Linda Caneta do Isak no Oliver Scarles (2025)",
+     "channel": "CANETArte",
+     "publishedAt": "2025-06-01"
+    }
+   ],
+   "fetchedAt": "2026-11-06T21:26:56Z"
+  },
+  "313229": {
+   "name": "Pablo",
+   "query": "Pablo skills",
+   "videos": [
+    {
+     "id": "JjduxPu_Yco",
+     "title": "Pablo Cavazos Skills Blue Lock World Champion #bluelock #bluelockprojectworldchampion #anime",
+     "channel": "Ijal",
+     "publishedAt": "2024-09-11"
+    },
+    {
+     "id": "PO58FK5CpHI",
+     "title": "Pablo Aimar Skills Will Blow Your Mind 🤯",
+     "channel": "AJcompsHD",
+     "publishedAt": "2023-05-14"
+    },
+    {
+     "id": "5MRySnW9j5k",
+     "title": "Pablo Barrios 2025 - The Complete Midfielder | HD",
+     "channel": "Fabian Football",
+     "publishedAt": "2025-04-10"
+    }
+   ],
+   "fetchedAt": "2026-11-06T21:26:56Z"
+  },
+  "333240": {
+   "name": "Soungoutou Magassa",
+   "query": "Soungoutou Magassa skills",
+   "videos": [
+    {
+     "id": "SQYVX80FMC0",
+     "title": "SOUNGOUTOU MAGASSA | Welcome To West Ham 2025 🟣🔵⚒ Elite Skills, Tackles & Passses (HD)",
+     "channel": "WorldOfFootballHD",
+     "publishedAt": "2025-08-26"
+    },
+    {
+     "id": "RFt8X-6Tdh4",
+     "title": "Soungoutou Magassa ● Welcome to West Ham ⚒🇫🇷 Tackles & Passes",
+     "channel": "SVMM",
+     "publishedAt": "2025-08-10"
+    },
+    {
+     "id": "xYj5q88zPvI",
+     "title": "Soungoutou Magassa 2024 - Defensive Skills & Tackles - Monaco | HD",
+     "channel": "JM Productions HD",
+     "publishedAt": "2024-08-20"
+    }
+   ],
+   "fetchedAt": "2026-11-06T21:26:56Z"
+  },
+  "252933": {
+   "name": "Valentín Castellanos",
+   "query": "Valentín Castellanos skills",
+   "videos": [
+    {
+     "id": "870smUhOk78",
+     "title": "Throwback to this skills masterclass from Taty Castellanos 👀😱",
+     "channel": "New York City FC",
+     "publishedAt": "2023-07-25"
+    },
+    {
+     "id": "aoYNYJQRkBw",
+     "title": "Ridiculous skill 😮‍💨 #nycfc #tatycastellanos #soccerclub #soccer #footballclub #soccershorts",
+     "channel": "New York City FC",
+     "publishedAt": "2026-01-17"
+    },
+    {
+     "id": "IdoBKeERRfg",
+     "title": "Be Surprised by Valentín Castellanos in 2023!",
+     "channel": "SilvaSkills",
+     "publishedAt": "2023-04-26"
+    }
+   ],
+   "fetchedAt": "2026-11-06T21:26:56Z"
   }
  }
 }

@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-06T15:52:27Z",
+ "updatedAt": "2026-11-06T21:26:56Z",
  "clubs": {
   "manchester united": {
    "id": 985,
@@ -516,7 +516,14 @@
    "id": null,
    "slug": null,
    "name": null,
-   "fetchedAt": "2026-11-06T15:52:27Z",
+   "fetchedAt": "2026-11-06T21:26:56Z",
+   "players": {}
+  },
+  "galatasaray": {
+   "id": 141,
+   "slug": "club",
+   "name": "Galatasaray S.K.",
+   "fetchedAt": "2026-11-06T21:26:56Z",
    "players": {}
   }
  }

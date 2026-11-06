@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-06T07:52:07Z",
+ "updatedAt": "2026-11-06T15:52:27Z",
  "manager": {
   "name": "Sergej Jakirovic",
   "role": "Manager",
@@ -20,7 +20,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 196,
-   "joined": "2026-11-01",
+   "joined": "2026-07-02",
    "birthPlace": "Bristol",
    "posInfo": "Goalkeeper",
    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p105666.png"
@@ -132,7 +132,7 @@
    "nat": "Northern Ireland",
    "natCode": "GB-NIR",
    "height": 183,
-   "joined": "2026-11-01",
+   "joined": "2026-01-28",
    "birthPlace": null,
    "posInfo": "Central Defender",
    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p160817.png"
@@ -356,7 +356,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 196,
-   "joined": "2026-11-01",
+   "joined": "2025-09-01",
    "birthPlace": null,
    "posInfo": "Centre Central Midfielder",
    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p470294.png"
@@ -388,7 +388,7 @@
    "nat": "Ecuador",
    "natCode": "EC",
    "height": 172,
-   "joined": "2026-11-01",
+   "joined": "2026-07-21",
    "birthPlace": null,
    "posInfo": "Defensive Midfielder",
    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p553783.png"
@@ -404,7 +404,7 @@
    "nat": "Norway",
    "natCode": "NO",
    "height": null,
-   "joined": "2026-11-01",
+   "joined": "2026-08-07",
    "birthPlace": null,
    "posInfo": "Central Midfielder",
    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p552946.png"
@@ -436,7 +436,7 @@
    "nat": "Greece",
    "natCode": "GR",
    "height": null,
-   "joined": "2026-11-01",
+   "joined": "2026-09-01",
    "birthPlace": null,
    "posInfo": "Centre Central Midfielder",
    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p647839.png"
@@ -548,7 +548,7 @@
    "nat": "France",
    "natCode": "FR",
    "height": 185,
-   "joined": "2026-11-01",
+   "joined": "2026-09-01",
    "birthPlace": "Mantes-la-Jolie",
    "posInfo": "Centre Striker",
    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p631000.png"

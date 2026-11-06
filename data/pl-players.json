@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-06T07:52:07Z",
+ "updatedAt": "2026-11-06T15:52:27Z",
  "players": {
   "david raya": {
    "name": "David Raya",
@@ -1219,7 +1219,7 @@
    "nat": "Canada",
    "natCode": "CA",
    "height": 188,
-   "joined": "2024-07-10",
+   "joined": "2026-11-01",
    "birthPlace": "Oakville",
    "posInfo": "Centre Striker"
   },
@@ -2285,7 +2285,7 @@
    "nat": "Australia",
    "natCode": "AU",
    "height": 187,
-   "joined": "2026-10-21",
+   "joined": "2024-01-26",
    "birthPlace": null,
    "posInfo": "Goalkeeper"
   },
@@ -2844,7 +2844,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 183,
-   "joined": "2026-10-12",
+   "joined": "2022-01-17",
    "birthPlace": null,
    "posInfo": "Left Full Back"
   },
@@ -3468,7 +3468,7 @@
    "nat": "Mali",
    "natCode": "ML",
    "height": 180,
-   "joined": "2022-07-11",
+   "joined": "2026-03-05",
    "birthPlace": "Bamako",
    "posInfo": "Centre Defensive Midfielder"
   },
@@ -3533,7 +3533,7 @@
    "nat": "United States",
    "natCode": "US",
    "height": 180,
-   "joined": "2026-08-18",
+   "joined": "2026-08-21",
    "birthPlace": "West Valley City",
    "posInfo": "Right Winger"
   },
@@ -3605,13 +3605,13 @@
   "sebastian williams": {
    "name": "Sebastian Williams",
    "team": "Crystal Palace",
-   "jersey": 43,
+   "jersey": 8,
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p577729.png",
    "dob": "2007-01-10",
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 185,
-   "joined": "2026-09-16",
+   "joined": "2024-02-25",
    "birthPlace": null,
    "posInfo": "Attacking Midfielder"
   },
@@ -3650,7 +3650,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 170,
-   "joined": "2024-07-30",
+   "joined": "2023-01-20",
    "birthPlace": null,
    "posInfo": "Right Full Back"
   },
@@ -4573,7 +4573,7 @@
    "nat": "Northern Ireland",
    "natCode": "GB-NIR",
    "height": 183,
-   "joined": "2026-11-01",
+   "joined": "2026-01-28",
    "birthPlace": null,
    "posInfo": "Central Defender"
   },
@@ -4599,7 +4599,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 196,
-   "joined": "2026-11-01",
+   "joined": "2025-09-01",
    "birthPlace": null,
    "posInfo": "Centre Central Midfielder"
   },
@@ -4690,7 +4690,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 196,
-   "joined": "2026-11-01",
+   "joined": "2026-07-02",
    "birthPlace": "Bristol",
    "posInfo": "Goalkeeper"
   },
@@ -4703,7 +4703,7 @@
    "nat": "Ecuador",
    "natCode": "EC",
    "height": 172,
-   "joined": "2026-11-01",
+   "joined": "2026-07-21",
    "birthPlace": null,
    "posInfo": "Defensive Midfielder"
   },
@@ -4755,7 +4755,7 @@
    "nat": "Norway",
    "natCode": "NO",
    "height": null,
-   "joined": "2026-11-01",
+   "joined": "2026-08-07",
    "birthPlace": null,
    "posInfo": "Central Midfielder"
   },
@@ -4768,7 +4768,7 @@
    "nat": "Norway",
    "natCode": "NO",
    "height": null,
-   "joined": "2026-11-01",
+   "joined": "2026-08-07",
    "birthPlace": null,
    "posInfo": "Central Midfielder"
   },
@@ -4924,7 +4924,7 @@
    "nat": "France",
    "natCode": "FR",
    "height": 185,
-   "joined": "2026-11-01",
+   "joined": "2026-09-01",
    "birthPlace": "Mantes-la-Jolie",
    "posInfo": "Centre Striker"
   },
@@ -4937,7 +4937,7 @@
    "nat": "Greece",
    "natCode": "GR",
    "height": null,
-   "joined": "2026-11-01",
+   "joined": "2026-09-01",
    "birthPlace": null,
    "posInfo": "Centre Central Midfielder"
   },
@@ -8226,7 +8226,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 174,
-   "joined": "2018-07-30",
+   "joined": "2023-01-29",
    "birthPlace": "Hemel Hempstead",
    "posInfo": "Centre Central Midfielder"
   },
@@ -8239,7 +8239,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 174,
-   "joined": "2018-07-30",
+   "joined": "2023-01-29",
    "birthPlace": "Hemel Hempstead",
    "posInfo": "Centre Central Midfielder"
   },
@@ -8538,7 +8538,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 182,
-   "joined": "2025-08-24",
+   "joined": "2022-07-01",
    "birthPlace": null,
    "posInfo": "Right Full Back"
   },
@@ -8551,7 +8551,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": null,
-   "joined": "2025-08-24",
+   "joined": "2023-09-28",
    "birthPlace": null,
    "posInfo": "Centre Attacking Midfielder"
   },
@@ -8564,7 +8564,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": null,
-   "joined": "2026-07-24",
+   "joined": "2025-08-27",
    "birthPlace": null,
    "posInfo": "Attacking Midfielder"
   },
@@ -8577,9 +8577,9 @@
    "nat": "Ukraine",
    "natCode": "UA",
    "height": 183,
-   "joined": "2024-08-30",
+   "joined": "2023-04-13",
    "birthPlace": "Bakhchysaray",
-   "posInfo": "Left Winger"
+   "posInfo": "Centre Striker"
   },
   "felix scott": {
    "name": "Felix Scott",
@@ -8590,7 +8590,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": null,
-   "joined": "2026-07-24",
+   "joined": "2024-09-26",
    "birthPlace": null,
    "posInfo": "Winger"
   },

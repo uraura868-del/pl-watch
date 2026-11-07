@@ -1,0 +1,45 @@
+{
+ "eventId": "401879242",
+ "date": "2026-11-06T20:00:00Z",
+ "opponent": {
+  "name": "Coventry City",
+  "abbr": "COV"
+ },
+ "isHome": true,
+ "score": {
+  "us": 3,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Yann Gboho",
+   "assist": null,
+   "minute": "52'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Thierno Barry",
+   "assist": "Vitaliy Mykolenko",
+   "minute": "56'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Thierno Barry",
+   "assist": null,
+   "minute": "61'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Kiernan Dewsbury-Hall",
+   "assist": "Thierno Barry",
+   "minute": "81'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

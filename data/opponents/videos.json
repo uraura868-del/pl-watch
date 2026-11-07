@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-06T21:26:56Z",
+ "updatedAt": "2026-11-07T01:50:08Z",
  "enabled": true,
  "players": {
   "336794": {
@@ -19069,6 +19069,144 @@
     }
    ],
    "fetchedAt": "2026-11-06T21:26:56Z"
+  },
+  "204778": {
+   "name": "Akim Zedadka",
+   "query": "Akim Zedadka skills",
+   "videos": [
+    {
+     "id": "4nHsY9YSQEc",
+     "title": "Akim ZEDADKA | 2025/26 | european games",
+     "channel": "bakufootba11",
+     "publishedAt": "2026-07-25"
+    },
+    {
+     "id": "1mMk51t2g48",
+     "title": "حكيم زدادكة ● مهارات الوافد الجديد في كتيبة الخضر 2022/21",
+     "channel": "MB Channel",
+     "publishedAt": "2022-05-28"
+    },
+    {
+     "id": "Lmzyo-iKteo",
+     "title": "Rémy Cabella et Akim Zedadka s'affrontent dans l'avion 👊",
+     "channel": "LOSC",
+     "publishedAt": "2023-10-17"
+    }
+   ],
+   "fetchedAt": "2026-11-07T01:50:08Z"
+  },
+  "274878": {
+   "name": "Aleksey Isayev",
+   "query": "Aleksey Isayev skills",
+   "videos": [
+    {
+     "id": "CQy1md2Zs7A",
+     "title": "Timoteuş Puxaçdan dəqiq ötürmə, Aleksey İsayevdən sərrast zərbə!",
+     "channel": "SABAH FC",
+     "publishedAt": "2026-10-17"
+    },
+    {
+     "id": "vPblDokk-hc",
+     "title": "Aleksey İsayevdən DUBL!",
+     "channel": "SABAH FC",
+     "publishedAt": "2026-10-17"
+    },
+    {
+     "id": "p_nrsoMONjI",
+     "title": "Aleksey İsayev 🔥🥇🇦🇿 #sabahfc# #football",
+     "channel": "1951_【D】【U】【R】【A】【N】",
+     "publishedAt": "2026-07-28"
+    }
+   ],
+   "fetchedAt": "2026-11-07T01:50:08Z"
+  },
+  "327995": {
+   "name": "Amin Ramazanov",
+   "query": "Amin Ramazanov skills",
+   "videos": [
+    {
+     "id": "M7thJx8FgBw",
+     "title": "Amin Ramazanov🤩",
+     "channel": "QARABAG EDITS",
+     "publishedAt": "2026-05-22"
+    },
+    {
+     "id": "Uti2qzSoQqs",
+     "title": "Amin Ramazanov🔥😈",
+     "channel": "JUZRAS",
+     "publishedAt": "2023-03-31"
+    },
+    {
+     "id": "RoA7hVGsMaI",
+     "title": "Amin Ramazanovun o əfsanə qurtarışı #trending #shorts #football #qarabağ #qurbanqurbanov",
+     "channel": "Qarabağfk TV",
+     "publishedAt": "2023-05-13"
+    }
+   ],
+   "fetchedAt": "2026-11-07T01:50:08Z"
+  },
+  "385377": {
+   "name": "Christian Nwachukwu",
+   "query": "Christian Nwachukwu skills",
+   "videos": [
+    {
+     "id": "OXWy15srWA4",
+     "title": "Christian Nwachukwu #keşfet #sabahfk #maraton #4kcc #capcut",
+     "channel": "sab.aep01",
+     "publishedAt": "2026-09-14"
+    },
+    {
+     "id": "L1gd02dXP6E",
+     "title": "Izuchukwu Nwachukwu the Amputee footballer, skills and composure",
+     "channel": "Izuchukwu Nwachukwu",
+     "publishedAt": "2023-07-15"
+    },
+    {
+     "id": "5DjEXta7JPo",
+     "title": "Alexander Nwachukwu",
+     "channel": "prosoccer",
+     "publishedAt": "2023-04-03"
+    }
+   ],
+   "fetchedAt": "2026-11-07T01:50:08Z"
+  },
+  "3098819": {
+   "name": "Cəfər Muxtarov",
+   "query": "Cəfər Muxtarov skills",
+   "videos": [
+    {
+     "id": "RauYlA3bDLc",
+     "title": "Gənc yaşında karyerasını məhv edən futbolçu... #shortsvideo #nicatmuxtarov #qarabağfk",
+     "channel": "STADİONAZ",
+     "publishedAt": "2023-08-06"
+    }
+   ],
+   "fetchedAt": "2026-11-07T01:50:08Z"
+  },
+  "321356": {
+   "name": "Du Queiroz",
+   "query": "Du Queiroz skills",
+   "videos": [
+    {
+     "id": "F1izNPHlI4E",
+     "title": "Du Queiroz - Volante (Defensive Midfielder) - 2026",
+     "channel": "Prime Highlights",
+     "publishedAt": "2026-07-22"
+    },
+    {
+     "id": "MSmg4e3KjjM",
+     "title": "Du Queiroz 2022 ● Corinthians ► Desarmes, Dribles & Gols | HD",
+     "channel": "Futcrown",
+     "publishedAt": "2022-12-01"
+    },
+    {
+     "id": "zrMdpqlpytc",
+     "title": "TODOS OS 3 GOLS DE DU QUEIROZ PELO CORINTHIANS",
+     "channel": "Boleiragem Gols",
+     "publishedAt": "2023-05-09"
+    }
+   ],
+   "fetchedAt": "2026-11-07T01:50:08Z"
   }
  }
 }

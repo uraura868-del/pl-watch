@@ -1,0 +1,45 @@
+{
+ "eventId": "401879242",
+ "date": "2026-11-06T20:00:00Z",
+ "opponent": {
+  "name": "Everton",
+  "abbr": "EVE"
+ },
+ "isHome": false,
+ "score": {
+  "us": 1,
+  "opp": 3
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Yann Gboho",
+   "assist": null,
+   "minute": "52'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Thierno Barry",
+   "assist": "Vitaliy Mykolenko",
+   "minute": "56'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Thierno Barry",
+   "assist": null,
+   "minute": "61'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Kiernan Dewsbury-Hall",
+   "assist": "Thierno Barry",
+   "minute": "81'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

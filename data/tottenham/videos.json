@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-07T08:41:08Z",
+ "updatedAt": "2026-11-07T15:37:23Z",
  "enabled": true,
  "players": {
   "126703": {
@@ -745,6 +745,31 @@
     }
    ],
    "fetchedAt": "2026-10-31T09:30:35Z"
+  },
+  "359158": {
+   "name": "Luca Gunter",
+   "query": "Luca Gunter skills",
+   "videos": [
+    {
+     "id": "NZHobhhMO_s",
+     "title": "He invented this at 10 years old 🤯 #gymnastics #gymnast #olympics #sports  #LA28 #olympic #ncaa",
+     "channel": "Ian Gunther",
+     "publishedAt": "2025-04-20"
+    },
+    {
+     "id": "s3w55S74atA",
+     "title": "I INVENTED a gymnastics move 💪#gymnastics #gymnast #sports #olympics #olympic #flip #calisthenics",
+     "channel": "Ian Gunther",
+     "publishedAt": "2025-06-27"
+    },
+    {
+     "id": "2UY1LlE1KfY",
+     "title": "HARDEST move in the world 🤯 @Don_Whittenburg #gymnastics #gymnast #sports #olympics #olympic",
+     "channel": "Ian Gunther",
+     "publishedAt": "2025-08-07"
+    }
+   ],
+   "fetchedAt": "2026-11-07T15:37:23Z"
   }
  }
 }

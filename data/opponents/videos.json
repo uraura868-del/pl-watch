@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-07T08:41:08Z",
+ "updatedAt": "2026-11-07T15:37:23Z",
  "enabled": true,
  "players": {
   "336794": {
@@ -21544,6 +21544,156 @@
     }
    ],
    "fetchedAt": "2026-11-07T08:41:08Z"
+  },
+  "241429": {
+   "name": "Joe Gauci",
+   "query": "Joe Gauci skills",
+   "videos": [
+    {
+     "id": "7qECQdG_um4",
+     "title": "Joe Gauci | Best Saves | Adelaide United to Aston Villa CONFIRMED",
+     "channel": "A-Leagues",
+     "publishedAt": "2024-01-31"
+    },
+    {
+     "id": "oeV2q-0N-4U",
+     "title": "Two big saves from Tom Glover and Joe Gauci 🧤😮 #Socceroos #save #football #shorts",
+     "channel": "Football Australia",
+     "publishedAt": "2025-05-23"
+    },
+    {
+     "id": "MDqGIaRnkjQ",
+     "title": "Joe Gauci on his time training with the Socceroos",
+     "channel": "Adelaide United",
+     "publishedAt": "2022-03-23"
+    }
+   ],
+   "fetchedAt": "2026-11-07T15:37:23Z"
+  },
+  "385406": {
+   "name": "Joshua Honohan",
+   "query": "Joshua Honohan skills",
+   "videos": [
+    {
+     "id": "tzmTrF4ZW0k",
+     "title": "Where Did Lincoln Go Wrong Against Birmingham?",
+     "channel": "Where Imps Walk",
+     "publishedAt": "2026-11-02"
+    },
+    {
+     "id": "a5kd13tZDdI",
+     "title": "Justin Obikwu pre Peterborough United",
+     "channel": "Lincoln City FC",
+     "publishedAt": "2026-01-03"
+    },
+    {
+     "id": "21Cql8RDabI",
+     "title": "Jake Paul JUMPED by Floyd Mayweather 😱👀 Paul RUNS AWAY SCARED 🚨",
+     "channel": "All Hail Cullen",
+     "publishedAt": "2023-03-10"
+    }
+   ],
+   "fetchedAt": "2026-11-07T15:37:23Z"
+  },
+  "347314": {
+   "name": "Leo Castledine",
+   "query": "Leo Castledine skills",
+   "videos": [
+    {
+     "id": "MqO5PC0zUXc",
+     "title": "Leo Castledine Is A Special Talent ",
+     "channel": "CFC_Nathan",
+     "publishedAt": "2025-12-27"
+    },
+    {
+     "id": "KO3z03Fv4QQ",
+     "title": "Leo castledine edit",
+     "channel": "Cindereditz",
+     "publishedAt": "2026-01-14"
+    },
+    {
+     "id": "LR0lkOPMA9o",
+     "title": "England U15's Leo Castledine takes on our first ever Wonderkids Challenge | Football Wonderkids",
+     "channel": "BBC Sport",
+     "publishedAt": "2020-02-10"
+    }
+   ],
+   "fetchedAt": "2026-11-07T15:37:23Z"
+  },
+  "136380": {
+   "name": "Luke Ayling",
+   "query": "Luke Ayling skills",
+   "videos": [
+    {
+     "id": "6eTFdstEKhI",
+     "title": "Thank you Luke Ayling | A Leeds United icon",
+     "channel": "Leeds United Official",
+     "publishedAt": "2024-01-10"
+    },
+    {
+     "id": "obQr4CkljAA",
+     "title": "Garnacho Destroys Luke Ayling",
+     "channel": "M4HComps",
+     "publishedAt": "2023-02-08"
+    },
+    {
+     "id": "XlUlO6yFRWs",
+     "title": "LUKE AYLING 🤩🤩 #football #leedsunited #capcut",
+     "channel": "LUFC Thomas",
+     "publishedAt": "2023-02-25"
+    }
+   ],
+   "fetchedAt": "2026-11-07T15:37:23Z"
+  },
+  "359542": {
+   "name": "Max Arfsten",
+   "query": "Max Arfsten skills",
+   "videos": [
+    {
+     "id": "nhBzEKv6c4E",
+     "title": "Max Arfsten had this world-class throw-in against FC Cincinnati 🤣",
+     "channel": "ESPN FC",
+     "publishedAt": "2026-07-27"
+    },
+    {
+     "id": "m8uG4IK3aq4",
+     "title": "MAX ARFSTEN - RIGHT WINGER - COLUMBUS CREW - USA - 2024",
+     "channel": "Bruno Villa Audiovisual",
+     "publishedAt": "2024-06-25"
+    },
+    {
+     "id": "_X0Pd3Ov18I",
+     "title": "✨Max Arfsten. Magnifique ✨ #crew96 #football #sportsball",
+     "channel": "Columbus Crew",
+     "publishedAt": "2024-05-16"
+    }
+   ],
+   "fetchedAt": "2026-11-07T15:37:23Z"
+  },
+  "386347": {
+   "name": "Mikkel Ladefoged",
+   "query": "Mikkel Ladefoged skills",
+   "videos": [
+    {
+     "id": "3uh3vSUhl60",
+     "title": "Mikkel Ladefoged (2003) – Västerås SK | Superettan, Sweden (2nd Tier)",
+     "channel": "SkyrScout ",
+     "publishedAt": "2025-11-20"
+    },
+    {
+     "id": "ap7iMIIasHg",
+     "title": "Lincoln City Players (11) Mikkel Ladefoged #shorts",
+     "channel": "The Stacey West",
+     "publishedAt": "2026-10-07"
+    },
+    {
+     "id": "XXSBzlPCzWA",
+     "title": "I Found The Striker Luton Town SHOULD Sign… 👀",
+     "channel": "Lewis Williams",
+     "publishedAt": "2026-07-20"
+    }
+   ],
+   "fetchedAt": "2026-11-07T15:37:23Z"
   }
  }
 }

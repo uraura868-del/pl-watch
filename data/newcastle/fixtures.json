@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-07T08:41:08Z",
+ "updatedAt": "2026-11-07T15:37:23Z",
  "fixtures": [
   {
    "eventId": "401879319",
@@ -254,12 +254,12 @@
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png"
    },
    "venue": "Craven Cottage",
-   "status": "scheduled",
+   "status": "played",
    "league": "eng.1",
    "compShort": "PL",
    "hasStats": false,
    "hasResult": false,
-   "hasLineup": false
+   "hasLineup": true
   },
   {
    "eventId": "401879232",

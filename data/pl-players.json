@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-07T08:41:08Z",
+ "updatedAt": "2026-11-07T15:37:23Z",
  "players": {
   "david raya": {
    "name": "David Raya",
@@ -6878,19 +6878,6 @@
    "birthPlace": "London",
    "posInfo": "Left Full Back"
   },
-  "diego leon": {
-   "name": "Diego León",
-   "team": "Manchester United",
-   "jersey": 35,
-   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p661712.png",
-   "dob": "2007-04-03",
-   "nat": "Paraguay",
-   "natCode": "PY",
-   "height": 177,
-   "joined": "2025-09-20",
-   "birthPlace": "Yguazu",
-   "posInfo": "Left Full Back"
-  },
   "mason mount": {
    "name": "Mason Mount",
    "team": "Manchester United",
@@ -7176,19 +7163,6 @@
    "joined": "2025-05-26",
    "birthPlace": null,
    "posInfo": "Centre Central Defender"
-  },
-  "jim thwaites": {
-   "name": "Jim Thwaites",
-   "team": "Manchester United",
-   "jersey": 77,
-   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p576634.png",
-   "dob": "2007-12-20",
-   "nat": "England",
-   "natCode": "GB-ENG",
-   "height": null,
-   "joined": "2024-02-28",
-   "birthPlace": null,
-   "posInfo": "Centre Central Midfielder"
   },
   "shea lacey": {
    "name": "Shea Lacey",
@@ -8607,6 +8581,19 @@
    "birthPlace": "Hemel Hempstead",
    "posInfo": "Goalkeeper"
   },
+  "luca gunter": {
+   "name": "Luca Gunter",
+   "team": "Tottenham Hotspur",
+   "jersey": 46,
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p536108.png",
+   "dob": "2005-03-23",
+   "nat": "England",
+   "natCode": "GB-ENG",
+   "height": null,
+   "joined": "2025-07-25",
+   "birthPlace": "London",
+   "posInfo": "Goalkeeper"
+  },
   "destiny udogie": {
    "name": "Destiny Udogie",
    "team": "Tottenham Hotspur",
@@ -8996,19 +8983,6 @@
    "joined": "2026-07-06",
    "birthPlace": "Lodi",
    "posInfo": "Centre Defensive Midfielder"
-  },
-  "dylan thompson": {
-   "name": "Dylan Thompson",
-   "team": "Tottenham Hotspur",
-   "jersey": null,
-   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p656151.png",
-   "dob": "2007-09-09",
-   "nat": "England",
-   "natCode": "GB-ENG",
-   "height": null,
-   "joined": "2026-07-01",
-   "birthPlace": "Norwich",
-   "posInfo": "Goalkeeper"
   },
   "savio": {
    "name": "Sávio",

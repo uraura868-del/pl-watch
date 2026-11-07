@@ -1,0 +1,24 @@
+{
+ "eventId": "401878758",
+ "date": "2026-11-07T12:30:00Z",
+ "opponent": {
+  "name": "Leeds United",
+  "abbr": "LEE"
+ },
+ "isHome": false,
+ "score": {
+  "us": 0,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Noah Okafor",
+   "assist": null,
+   "minute": "79'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

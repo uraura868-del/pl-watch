@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-07T08:41:08Z",
+ "updatedAt": "2026-11-07T15:37:23Z",
  "manager": {
   "name": "Roberto De Zerbi",
   "role": "Manager",
@@ -56,6 +56,22 @@
    "birthPlace": "Praha",
    "posInfo": "Goalkeeper",
    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p485055.png"
+  },
+  {
+   "id": "359158",
+   "name": "Luca Gunter",
+   "jersey": "46",
+   "pos": "G",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p536108.png",
+   "injuries": [],
+   "dob": "2005-03-23",
+   "nat": "England",
+   "natCode": "GB-ENG",
+   "height": null,
+   "joined": "2025-07-25",
+   "birthPlace": "London",
+   "posInfo": "Goalkeeper",
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p536108.png"
   },
   {
    "id": "6327",

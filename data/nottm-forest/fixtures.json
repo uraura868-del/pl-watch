@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-07T15:37:23Z",
+ "updatedAt": "2026-11-07T20:10:04Z",
  "fixtures": [
   {
    "eventId": "401879298",
@@ -214,12 +214,12 @@
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png"
    },
    "venue": "The City Ground",
-   "status": "scheduled",
+   "status": "played",
    "league": "eng.1",
    "compShort": "PL",
-   "hasStats": false,
-   "hasResult": false,
-   "hasLineup": false
+   "hasStats": true,
+   "hasResult": true,
+   "hasLineup": true
   },
   {
    "eventId": "401879238",

@@ -1,0 +1,45 @@
+{
+ "eventId": "401878757",
+ "date": "2026-11-07T17:30:00Z",
+ "opponent": {
+  "name": "Manchester City",
+  "abbr": "MNC"
+ },
+ "isHome": true,
+ "score": {
+  "us": 3,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Jair Cunha",
+   "assist": null,
+   "minute": "6'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Liam Delap",
+   "assist": "Xaver Schlager",
+   "minute": "18'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Rayan Cherki",
+   "assist": null,
+   "minute": "52'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Liam Delap",
+   "assist": "Morgan Gibbs-White",
+   "minute": "73'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

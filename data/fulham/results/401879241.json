@@ -1,0 +1,31 @@
+{
+ "eventId": "401879241",
+ "date": "2026-11-07T15:00:00Z",
+ "opponent": {
+  "name": "Newcastle United",
+  "abbr": "NEW"
+ },
+ "isHome": true,
+ "score": {
+  "us": 1,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Jacob Murphy",
+   "assist": null,
+   "minute": "80'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Rodrigo Muniz",
+   "assist": null,
+   "minute": "83'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

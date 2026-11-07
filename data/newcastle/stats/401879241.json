@@ -1,0 +1,78 @@
+{
+ "eventId": "401879241",
+ "date": "2026-11-07T15:00:00Z",
+ "opponent": {
+  "name": "Fulham",
+  "abbr": "FUL"
+ },
+ "ht": {
+  "us": {
+   "shots": 2,
+   "onTarget": 2,
+   "offTarget": 0,
+   "blocked": 0,
+   "corners": 3,
+   "fouls": 11,
+   "offsides": 1,
+   "yellow": 0,
+   "red": 0
+  },
+  "opp": {
+   "shots": 4,
+   "onTarget": 2,
+   "offTarget": 1,
+   "blocked": 1,
+   "corners": 2,
+   "fouls": 6,
+   "offsides": 0,
+   "yellow": 0,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 8,
+   "onTarget": 4,
+   "offTarget": 3,
+   "blocked": 1,
+   "corners": 3,
+   "fouls": 24,
+   "offsides": 1,
+   "yellow": 2,
+   "red": 1,
+   "possession": "42.1",
+   "passesAccurate": "294",
+   "passes": "376",
+   "passAcc": "0.8",
+   "crossesAccurate": "3",
+   "crosses": "11",
+   "tacklesWon": "10",
+   "tackles": "16",
+   "interceptions": "12",
+   "clearances": "33"
+  },
+  "opp": {
+   "shots": 9,
+   "onTarget": 4,
+   "offTarget": 4,
+   "blocked": 1,
+   "corners": 3,
+   "fouls": 18,
+   "offsides": 3,
+   "yellow": 0,
+   "red": 0,
+   "possession": "57.9",
+   "passesAccurate": "426",
+   "passes": "522",
+   "passAcc": "0.8",
+   "crossesAccurate": "3",
+   "crosses": "14",
+   "tacklesWon": "8",
+   "tackles": "12",
+   "interceptions": "6",
+   "clearances": "25"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

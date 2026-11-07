@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-07T15:37:23Z",
+ "updatedAt": "2026-11-07T20:10:04Z",
  "players": {
   "111114": {
    "name": "Jason Steele",
@@ -1373,13 +1373,13 @@
    "name": "Shane Nti",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-11-06T15:52:27Z"
+   "fetchedAt": "2026-11-07T20:10:04Z"
   },
   "413274": {
    "name": "Younes Ibrahim",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-11-06T15:52:27Z"
+   "fetchedAt": "2026-11-07T20:10:04Z"
   },
   "278061": {
    "name": "Georginio Rutter",
@@ -1595,7 +1595,7 @@
    "name": "Stefanos Tzimas",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-11-06T15:52:27Z"
+   "fetchedAt": "2026-11-07T20:10:04Z"
   },
   "359400": {
    "name": "Ibrahim Osman",

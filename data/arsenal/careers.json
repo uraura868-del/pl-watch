@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-07T15:37:23Z",
+ "updatedAt": "2026-11-07T20:10:04Z",
  "players": {
   "169532": {
    "name": "Kepa Arrizabalaga",
@@ -1754,13 +1754,13 @@
    "name": "Theo Julienne",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-11-06T15:52:27Z"
+   "fetchedAt": "2026-11-07T20:10:04Z"
   },
   "399007": {
    "name": "Maalik Hashi",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-11-06T15:52:27Z"
+   "fetchedAt": "2026-11-07T20:10:04Z"
   },
   "399894": {
    "name": "Ife Ibrahim",
@@ -2226,7 +2226,7 @@
    "name": "Ceadach O’Neill",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-11-06T15:52:27Z"
+   "fetchedAt": "2026-11-07T20:10:04Z"
   },
   "397263": {
    "name": "Max Dowman",

@@ -1,0 +1,31 @@
+{
+ "eventId": "401879241",
+ "date": "2026-11-07T15:00:00Z",
+ "opponent": {
+  "name": "Fulham",
+  "abbr": "FUL"
+ },
+ "isHome": false,
+ "score": {
+  "us": 1,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Jacob Murphy",
+   "assist": null,
+   "minute": "80'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Rodrigo Muniz",
+   "assist": null,
+   "minute": "83'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

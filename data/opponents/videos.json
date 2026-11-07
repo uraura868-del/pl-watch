@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-07T15:37:23Z",
+ "updatedAt": "2026-11-07T20:10:04Z",
  "enabled": true,
  "players": {
   "336794": {
@@ -21694,6 +21694,31 @@
     }
    ],
    "fetchedAt": "2026-11-07T15:37:23Z"
+  },
+  "306541": {
+   "name": "Myles Peart-Harris",
+   "query": "Myles Peart-Harris skills",
+   "videos": [
+    {
+     "id": "8zg0bipKYKk",
+     "title": "Myles Peart-Harris deal explained as Middlesbrough complete first signing!",
+     "channel": "Bonkers For Boro with Phil Spencer",
+     "publishedAt": "2026-07-03"
+    },
+    {
+     "id": "PDDcjjUAfFM",
+     "title": "Myles Peart-Harris | Chelsea Youth",
+     "channel": "ChelseaYouth",
+     "publishedAt": "2020-12-16"
+    },
+    {
+     "id": "FzviTPaeqG4",
+     "title": "The REAL Reason Middlesbrough Signed Myles Peart-Harris 🌟",
+     "channel": "The Jack Ward Football Podcast",
+     "publishedAt": "2026-07-03"
+    }
+   ],
+   "fetchedAt": "2026-11-07T20:10:04Z"
   }
  }
 }

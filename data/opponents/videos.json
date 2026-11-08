@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-07T20:10:04Z",
+ "updatedAt": "2026-11-08T00:27:13Z",
  "enabled": true,
  "players": {
   "336794": {
@@ -21719,6 +21719,106 @@
     }
    ],
    "fetchedAt": "2026-11-07T20:10:04Z"
+  },
+  "272281": {
+   "name": "Neto Borges",
+   "query": "Neto Borges skills",
+   "videos": [
+    {
+     "id": "JNJlWArcObU",
+     "title": "Neto Borges - Lateral Esquerdo (Left Back) - 2025",
+     "channel": "RC International",
+     "publishedAt": "2025-12-20"
+    },
+    {
+     "id": "2RoreAlucOc",
+     "title": "Neto Borges welcomed to club! 👏 #bristolcity #efl #football",
+     "channel": "Bristol City",
+     "publishedAt": "2025-09-03"
+    },
+    {
+     "id": "zYdbniWiDJs",
+     "title": "No laugh challenge with Neto Borges and George Edmundson 🥤",
+     "channel": "Middlesbrough FC",
+     "publishedAt": "2024-11-21"
+    }
+   ],
+   "fetchedAt": "2026-11-08T00:27:13Z"
+  },
+  "325556": {
+   "name": "Radek Vítek",
+   "query": "Radek Vítek skills",
+   "videos": [
+    {
+     "id": "xzMUE-k4c2Y",
+     "title": "RADEK VITEK 2025 | Manchester United's Future Star GK 🔴 Saves, Passes, Exits & Aerial Ability (HD)",
+     "channel": "WorldOfFootballHD",
+     "publishedAt": "2025-07-12"
+    },
+    {
+     "id": "7_NdYGLWBGw",
+     "title": "Radek Vítek is Ready For New Challenges!",
+     "channel": "Brazil Scout ",
+     "publishedAt": "2026-04-11"
+    },
+    {
+     "id": "Rt5jIhfQuks",
+     "title": "Radek Vitek best saves at Bristol City so far ",
+     "channel": "RowanTheRobin",
+     "publishedAt": "2025-10-06"
+    }
+   ],
+   "fetchedAt": "2026-11-08T00:27:13Z"
+  },
+  "245522": {
+   "name": "Recco Hackett-Fairchild",
+   "query": "Recco Hackett-Fairchild skills",
+   "videos": [
+    {
+     "id": "OK5rjEr2svQ",
+     "title": "Reeco Hackett-Fairchild - Bromley FC 2019/20",
+     "channel": "CSN Football Videos",
+     "publishedAt": "2020-06-08"
+    },
+    {
+     "id": "pm5wnlepyH4",
+     "title": "Best EFL winger #reecohackett #imps #efl #edit #viral",
+     "channel": "IMPS fan page",
+     "publishedAt": "2026-04-02"
+    },
+    {
+     "id": "9-Axm9l2_3A",
+     "title": "NEW SIGNING - Recco Hackett Fairchild Joins Southend",
+     "channel": "D1VERSITY",
+     "publishedAt": "2021-01-08"
+    }
+   ],
+   "fetchedAt": "2026-11-08T00:27:13Z"
+  },
+  "312940": {
+   "name": "Robert Street",
+   "query": "Robert Street skills",
+   "videos": [
+    {
+     "id": "CmzucPLbk2I",
+     "title": "Robert Carlos With Public Skills😯😂",
+     "channel": "Shuftbl",
+     "publishedAt": "2026-02-05"
+    },
+    {
+     "id": "18_oNYeEwtQ",
+     "title": "St. Roberts practice their shooting skills before the game #pinoyhoopers #basketball #ballislife",
+     "channel": "Sir JV TV",
+     "publishedAt": "2026-10-11"
+    },
+    {
+     "id": "pEgp5IiaJGY",
+     "title": "robert dance | Amazing skills | competition | advance | dance show | performance | super | skilled.",
+     "channel": "Garden world ",
+     "publishedAt": "2021-11-10"
+    }
+   ],
+   "fetchedAt": "2026-11-08T00:27:13Z"
   }
  }
 }

@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-08T19:33:11Z",
+ "updatedAt": "2026-11-08T23:39:14Z",
  "clubs": {
   "manchester united": {
    "id": 985,
@@ -89,7 +89,7 @@
    "id": 3008,
    "slug": "club",
    "name": "Hull City A.F.C.",
-   "fetchedAt": "2026-11-01T22:43:32Z",
+   "fetchedAt": "2026-11-08T23:39:14Z",
    "players": {}
   },
   "ac milan": {
@@ -517,6 +517,13 @@
    "slug": "club",
    "name": "Galatasaray S.K.",
    "fetchedAt": "2026-11-06T21:26:56Z",
+   "players": {}
+  },
+  "aek athens": {
+   "id": null,
+   "slug": null,
+   "name": null,
+   "fetchedAt": "2026-11-08T23:39:14Z",
    "players": {}
   }
  }

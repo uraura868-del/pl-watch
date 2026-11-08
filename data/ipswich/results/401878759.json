@@ -1,0 +1,38 @@
+{
+ "eventId": "401878759",
+ "date": "2026-11-08T14:00:00Z",
+ "opponent": {
+  "name": "AFC Bournemouth",
+  "abbr": "BOU"
+ },
+ "isHome": true,
+ "score": {
+  "us": 1,
+  "opp": 2
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Evanilson",
+   "assist": null,
+   "minute": "5'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Leif Davis",
+   "assist": null,
+   "minute": "46'",
+   "kind": "og"
+  },
+  {
+   "side": "us",
+   "scorer": "Jack Clarke",
+   "assist": null,
+   "minute": "73'",
+   "kind": "pen"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

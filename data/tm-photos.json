@@ -1,88 +1,88 @@
 {
- "updatedAt": "2026-11-08T15:02:21Z",
+ "updatedAt": "2026-11-08T19:33:11Z",
  "clubs": {
   "manchester united": {
    "id": 985,
    "slug": "manchester-united",
    "name": "Manchester United",
-   "fetchedAt": "2026-11-01T18:52:25Z",
+   "fetchedAt": "2026-11-08T19:33:11Z",
    "players": {}
   },
   "afc bournemouth": {
    "id": 989,
    "slug": "afc-bournemouth",
    "name": "AFC Bournemouth",
-   "fetchedAt": "2026-11-01T18:52:25Z",
+   "fetchedAt": "2026-11-08T19:33:11Z",
    "players": {}
   },
   "como": {
    "id": 1047,
    "slug": "como-1907",
    "name": "Como 1907",
-   "fetchedAt": "2026-11-01T18:52:25Z",
+   "fetchedAt": "2026-11-08T19:33:11Z",
    "players": {}
   },
   "leeds united": {
    "id": 399,
    "slug": "leeds-united",
    "name": "Leeds United",
-   "fetchedAt": "2026-11-01T18:52:25Z",
+   "fetchedAt": "2026-11-08T19:33:11Z",
    "players": {}
   },
   "atletico madrid": {
    "id": 13,
    "slug": "atletico-madrid",
    "name": "Atlético de Madrid",
-   "fetchedAt": "2026-11-01T18:52:25Z",
+   "fetchedAt": "2026-11-08T19:33:11Z",
    "players": {}
   },
   "tottenham hotspur": {
    "id": 148,
    "slug": "tottenham-hotspur",
    "name": "Tottenham Hotspur",
-   "fetchedAt": "2026-11-01T18:52:25Z",
+   "fetchedAt": "2026-11-08T19:33:11Z",
    "players": {}
   },
   "fulham": {
    "id": 931,
    "slug": "club",
    "name": "Fulham F.C.",
-   "fetchedAt": "2026-11-01T18:52:25Z",
+   "fetchedAt": "2026-11-08T19:33:11Z",
    "players": {}
   },
   "brighton hove albion": {
    "id": 1237,
    "slug": "club",
    "name": "Brighton & Hove Albion F.C.",
-   "fetchedAt": "2026-11-01T18:52:25Z",
+   "fetchedAt": "2026-11-08T19:33:11Z",
    "players": {}
   },
   "manchester city": {
    "id": 281,
    "slug": "club",
    "name": "Manchester City F.C.",
-   "fetchedAt": "2026-11-01T18:52:25Z",
+   "fetchedAt": "2026-11-08T19:33:11Z",
    "players": {}
   },
   "sabah fk": {
    "id": 63993,
    "slug": "club",
    "name": "Sabah Football Club",
-   "fetchedAt": "2026-11-01T18:52:25Z",
+   "fetchedAt": "2026-11-08T19:33:11Z",
    "players": {}
   },
   "everton": {
    "id": 29,
    "slug": "club",
    "name": "Everton F.C.",
-   "fetchedAt": "2026-11-01T18:52:25Z",
+   "fetchedAt": "2026-11-08T19:33:11Z",
    "players": {}
   },
   "ipswich town": {
    "id": 677,
    "slug": "club",
    "name": "Ipswich Town F.C.",
-   "fetchedAt": "2026-11-01T18:52:25Z",
+   "fetchedAt": "2026-11-08T19:33:11Z",
    "players": {}
   },
   "hull city": {
@@ -517,13 +517,6 @@
    "slug": "club",
    "name": "Galatasaray S.K.",
    "fetchedAt": "2026-11-06T21:26:56Z",
-   "players": {}
-  },
-  "aek athens": {
-   "id": null,
-   "slug": null,
-   "name": null,
-   "fetchedAt": "2026-11-08T15:02:21Z",
    "players": {}
   }
  }

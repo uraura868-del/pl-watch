@@ -1,0 +1,73 @@
+{
+ "eventId": "401879240",
+ "date": "2026-11-08T16:30:00Z",
+ "opponent": {
+  "name": "Aston Villa",
+  "abbr": "AVL"
+ },
+ "isHome": true,
+ "score": {
+  "us": 4,
+  "opp": 4
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Alysson",
+   "assist": "John McGinn",
+   "minute": "1'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Nicolas Jackson",
+   "assist": null,
+   "minute": "4'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Bruno Fernandes",
+   "assist": null,
+   "minute": "16'",
+   "kind": "pen"
+  },
+  {
+   "side": "us",
+   "scorer": "Youri Tielemans",
+   "assist": "Noussair Mazraoui",
+   "minute": "44'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "John McGinn",
+   "assist": null,
+   "minute": "48'",
+   "kind": "pen"
+  },
+  {
+   "side": "opp",
+   "scorer": "Leon Goretzka",
+   "assist": "Nicolas Jackson",
+   "minute": "53'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Joshua Zirkzee",
+   "assist": "Patrick Dorgu",
+   "minute": "90'+2'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Patrick Dorgu",
+   "assist": "Bruno Fernandes",
+   "minute": "90'+6'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

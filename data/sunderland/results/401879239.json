@@ -1,0 +1,24 @@
+{
+ "eventId": "401879239",
+ "date": "2026-11-08T14:00:00Z",
+ "opponent": {
+  "name": "Chelsea",
+  "abbr": "CHE"
+ },
+ "isHome": true,
+ "score": {
+  "us": 1,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Enzo Le Fée",
+   "assist": null,
+   "minute": "36'",
+   "kind": "pen"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

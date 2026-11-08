@@ -1,0 +1,45 @@
+{
+ "eventId": "401879243",
+ "date": "2026-11-08T14:00:00Z",
+ "opponent": {
+  "name": "Liverpool",
+  "abbr": "LIV"
+ },
+ "isHome": true,
+ "score": {
+  "us": 1,
+  "opp": 3
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Alexis Mac Allister",
+   "assist": "Dominik Szoboszlai",
+   "minute": "40'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Florian Wirtz",
+   "assist": "Bradley Barcola",
+   "minute": "54'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Alexander Isak",
+   "assist": "Florian Wirtz",
+   "minute": "89'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Eddie Nketiah",
+   "assist": null,
+   "minute": "90'+5'",
+   "kind": "pen"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

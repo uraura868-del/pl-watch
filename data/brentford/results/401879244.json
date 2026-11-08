@@ -1,0 +1,37 @@
+{
+ "eventId": "401879244",
+ "date": "2026-11-08T14:00:00Z",
+ "opponent": {
+  "name": "Brighton & Hove Albion",
+  "abbr": "BHA"
+ },
+ "isHome": false,
+ "score": {
+  "us": 0,
+  "opp": 2
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Diego Gómez",
+   "assist": null,
+   "minute": "15'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Pascal Gross",
+   "assist": null,
+   "minute": "42'",
+   "kind": "pen"
+  }
+ ],
+ "redCards": [
+  {
+   "side": "us",
+   "name": "Igor Thiago",
+   "minute": "23'"
+  }
+ ],
+ "source": "ESPN"
+}

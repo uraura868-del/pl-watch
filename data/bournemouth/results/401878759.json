@@ -1,0 +1,38 @@
+{
+ "eventId": "401878759",
+ "date": "2026-11-08T14:00:00Z",
+ "opponent": {
+  "name": "Ipswich Town",
+  "abbr": "IPS"
+ },
+ "isHome": false,
+ "score": {
+  "us": 2,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Evanilson",
+   "assist": null,
+   "minute": "5'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Leif Davis",
+   "assist": null,
+   "minute": "46'",
+   "kind": "og"
+  },
+  {
+   "side": "opp",
+   "scorer": "Jack Clarke",
+   "assist": null,
+   "minute": "73'",
+   "kind": "pen"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

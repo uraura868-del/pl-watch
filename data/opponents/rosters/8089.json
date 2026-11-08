@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-05T18:41:28Z",
+ "updatedAt": "2026-11-08T19:33:11Z",
  "id": "8089",
  "name": "CSU Craiova",
  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/8089.png",
@@ -16,7 +16,7 @@
    "id": "173816",
    "name": "Alexandru Maxim",
    "jersey": "1",
-   "pos": "M",
+   "pos": "G",
    "photo": null,
    "injuries": [],
    "photoSrc": null
@@ -59,9 +59,9 @@
   },
   {
    "id": "275362",
-   "name": "Nikola Stevanović",
+   "name": "Nikola Stevanovic",
    "jersey": "24",
-   "pos": "M",
+   "pos": "D",
    "photo": null,
    "injuries": [],
    "photoSrc": null

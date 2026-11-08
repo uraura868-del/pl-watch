@@ -1,10 +1,10 @@
 {
  "eventId": "401879244",
  "date": "2026-11-08T14:00:00Z",
- "final": false,
- "updatedAt": "2026-11-08T15:02:21Z",
+ "final": true,
+ "updatedAt": "2026-11-08T19:33:11Z",
  "team": {
-  "formation": "4-2-3-1",
+  "formation": "4-4-2",
   "rows": [
    [
     "275599"
@@ -17,14 +17,12 @@
    ],
    [
     "225564",
-    "228547"
-   ],
-   [
+    "228547",
     "284490",
-    "310958",
     "315530"
    ],
    [
+    "310958",
     "301894"
    ]
   ],
@@ -75,46 +73,28 @@
     "photo": "data/photos/c36fc747407897eb.jpg"
    },
    {
-    "id": "310958",
-    "name": "Kevin Schade",
-    "jersey": "7",
-    "pos": "AM",
-    "starter": true,
-    "place": "10",
-    "photo": "data/photos/721f2893e5e9bf7c.jpg"
-   },
-   {
     "id": "225564",
     "name": "Vitaly Janelt",
     "jersey": "27",
-    "pos": "LM",
+    "pos": "CM-L",
     "starter": true,
-    "place": "4",
+    "place": "8",
     "photo": "data/photos/7d2e79f014ada4ad.jpg"
    },
    {
     "id": "228547",
     "name": "Mamadou Sangare",
     "jersey": "18",
-    "pos": "RM",
+    "pos": "CM-R",
     "starter": true,
-    "place": "8",
+    "place": "4",
     "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p513545.png"
-   },
-   {
-    "id": "301894",
-    "name": "Igor Thiago",
-    "jersey": "9",
-    "pos": "F",
-    "starter": true,
-    "place": "9",
-    "photo": "data/photos/e23e82e8463092c7.jpg"
    },
    {
     "id": "284490",
     "name": "Keane Lewis-Potter",
     "jersey": "23",
-    "pos": "AM-L",
+    "pos": "LM",
     "starter": true,
     "place": "11",
     "photo": "data/photos/a07c6378e85c206a.jpg"
@@ -123,10 +103,28 @@
     "id": "315530",
     "name": "Dango Ouattara",
     "jersey": "11",
-    "pos": "AM-R",
+    "pos": "RM",
     "starter": true,
     "place": "7",
     "photo": "data/photos/980eb0a2db995b34.jpg"
+   },
+   {
+    "id": "310958",
+    "name": "Kevin Schade",
+    "jersey": "7",
+    "pos": "CF-L",
+    "starter": true,
+    "place": "9",
+    "photo": "data/photos/721f2893e5e9bf7c.jpg"
+   },
+   {
+    "id": "301894",
+    "name": "Igor Thiago",
+    "jersey": "9",
+    "pos": "CF-R",
+    "starter": true,
+    "place": "10",
+    "photo": "data/photos/e23e82e8463092c7.jpg"
    }
   ],
   "bench": [

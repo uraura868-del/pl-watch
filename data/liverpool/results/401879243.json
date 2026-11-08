@@ -1,0 +1,45 @@
+{
+ "eventId": "401879243",
+ "date": "2026-11-08T14:00:00Z",
+ "opponent": {
+  "name": "Crystal Palace",
+  "abbr": "CRY"
+ },
+ "isHome": false,
+ "score": {
+  "us": 3,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Alexis Mac Allister",
+   "assist": "Dominik Szoboszlai",
+   "minute": "40'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Florian Wirtz",
+   "assist": "Bradley Barcola",
+   "minute": "54'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Alexander Isak",
+   "assist": "Florian Wirtz",
+   "minute": "89'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Eddie Nketiah",
+   "assist": null,
+   "minute": "90'+5'",
+   "kind": "pen"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

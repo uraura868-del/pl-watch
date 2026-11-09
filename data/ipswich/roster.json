@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-08T23:39:14Z",
+ "updatedAt": "2026-11-09T06:06:51Z",
  "manager": {
   "name": "Kieran McKenna",
   "role": "Manager",
@@ -132,7 +132,7 @@
    "nat": "Cote D’Ivoire",
    "natCode": "CI",
    "height": 193,
-   "joined": "2026-10-01",
+   "joined": "2026-07-01",
    "birthPlace": "Paris",
    "posInfo": "Central Defender",
    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p183015.png"
@@ -212,7 +212,7 @@
    "nat": "Ireland",
    "natCode": "IE",
    "height": 185,
-   "joined": "2026-10-05",
+   "joined": "2023-06-26",
    "birthPlace": "London",
    "posInfo": "Centre Central Midfielder",
    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p231899.png"
@@ -260,7 +260,7 @@
    "nat": "Netherlands",
    "natCode": "NL",
    "height": 173,
-   "joined": "2026-09-21",
+   "joined": "2025-07-13",
    "birthPlace": "Hilversum",
    "posInfo": "Centre Defensive Midfielder",
    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p241117.png"
@@ -292,7 +292,7 @@
    "nat": "Chile",
    "natCode": "CL",
    "height": 173,
-   "joined": "2026-10-19",
+   "joined": "2025-08-29",
    "birthPlace": "Recoleta",
    "posInfo": "Centre Central Midfielder",
    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p501390.png"
@@ -340,7 +340,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 180,
-   "joined": "2024-11-08",
+   "joined": "2026-08-24",
    "birthPlace": null,
    "posInfo": "Centre Central Midfielder",
    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p678557.png"

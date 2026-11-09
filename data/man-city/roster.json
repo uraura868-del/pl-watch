@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-09T06:06:51Z",
+ "updatedAt": "2026-11-09T16:07:59Z",
  "manager": {
   "name": "Enzo Maresca",
   "role": "Manager",
@@ -348,7 +348,7 @@
   {
    "id": "3129530",
    "name": "Dexter Oliver",
-   "jersey": null,
+   "jersey": "76",
    "pos": "M",
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p679860.png",
    "injuries": [],

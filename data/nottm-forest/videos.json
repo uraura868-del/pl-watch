@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-10T16:59:03Z",
+ "updatedAt": "2026-11-10T22:18:21Z",
  "enabled": true,
  "players": {
   "179497": {
@@ -595,6 +595,50 @@
     }
    ],
    "fetchedAt": "2026-10-31T09:30:35Z"
+  },
+  "418111": {
+   "name": "Okello Bartley",
+   "query": "Okello Bartley skills",
+   "videos": [
+    {
+     "id": "uXCCqCVVlVo",
+     "title": "Okello x Watambala hit that trademark celebration again! 🔥 This duo is cooking!",
+     "channel": "sportslens1",
+     "publishedAt": "2025-04-19"
+    },
+    {
+     "id": "to4lUyiYEh0",
+     "title": "🌳 2 min in to his pro debut for Nottingham Forest! #efl",
+     "channel": "EFL",
+     "publishedAt": "2025-09-09"
+    },
+    {
+     "id": "AkYnmu7gfPk",
+     "title": "From Humble Beginnings to Stardom | Okello Max on His Music Journey and love life.",
+     "channel": "DPL FESTIVE LIMITED",
+     "publishedAt": "2025-09-26"
+    }
+   ],
+   "fetchedAt": "2026-11-10T22:18:21Z"
+  },
+  "3123883": {
+   "name": "Jaydon Maveso",
+   "query": "Jaydon Maveso skills",
+   "videos": [
+    {
+     "id": "j4M20GfCQMo",
+     "title": "Berlive and Arsele Engagement Party 2018",
+     "channel": "Mansueka Kiabala",
+     "publishedAt": "2018-12-23"
+    }
+   ],
+   "fetchedAt": "2026-11-10T22:18:21Z"
+  },
+  "5332458": {
+   "name": "Jaxon Tomak",
+   "query": "Jaxon Tomak skills",
+   "videos": [],
+   "fetchedAt": "2026-11-10T22:18:21Z"
   }
  }
 }

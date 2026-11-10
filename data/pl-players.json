@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-10T00:39:39Z",
+ "updatedAt": "2026-11-10T08:19:50Z",
  "players": {
   "david raya": {
    "name": "David Raya",
@@ -3620,10 +3620,10 @@
    "team": "Crystal Palace",
    "jersey": 65,
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p736908.png",
-   "dob": null,
+   "dob": "2010-10-28",
    "nat": "England",
    "natCode": "GB-ENG",
-   "height": null,
+   "height": 184,
    "joined": "2026-10-02",
    "birthPlace": null,
    "posInfo": "Right Full Back"
@@ -3633,10 +3633,10 @@
    "team": "Crystal Palace",
    "jersey": 65,
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p736908.png",
-   "dob": null,
+   "dob": "2010-10-28",
    "nat": "England",
    "natCode": "GB-ENG",
-   "height": null,
+   "height": 184,
    "joined": "2026-10-02",
    "birthPlace": null,
    "posInfo": "Right Full Back"

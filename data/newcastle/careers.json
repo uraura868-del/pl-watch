@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-10T08:19:50Z",
+ "updatedAt": "2026-11-10T16:59:03Z",
  "players": {
   "141705": {
    "name": "Mark Gillespie",
@@ -1804,13 +1804,13 @@
    "name": "Kyran Thompson",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-11-09T16:07:59Z"
+   "fetchedAt": "2026-11-10T16:59:03Z"
   },
   "418769": {
    "name": "Michael Mills",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-11-09T16:07:59Z"
+   "fetchedAt": "2026-11-10T16:59:03Z"
   }
  }
 }

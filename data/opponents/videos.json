@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-09T16:07:59Z",
+ "updatedAt": "2026-11-10T00:39:39Z",
  "enabled": true,
  "players": {
   "336794": {
@@ -26878,6 +26878,131 @@
     }
    ],
    "fetchedAt": "2026-11-09T16:07:59Z"
+  },
+  "3102199": {
+   "name": "Riley Carr",
+   "query": "Riley Carr skills",
+   "videos": [
+    {
+     "id": "Pd5sj2cQAyU",
+     "title": "Jimmy Carr roasts Rachel Riley for eating an emu egg 😂 | 8 Out of 10 Cats",
+     "channel": "8 Out of 10 Cats",
+     "publishedAt": "2026-06-05"
+    },
+    {
+     "id": "QnBP8hQVPb8",
+     "title": "A Rachel Riley maths lesson! #8outof10cats #britishcomedy #jimmycarr #rachelriley #comedy #panelshow",
+     "channel": "Jimmy Carr",
+     "publishedAt": "2023-11-17"
+    },
+    {
+     "id": "bk4UWxEXlFQ",
+     "title": "How does CJ Carr Compare to Riley Leonard as a Competitor? #notredame",
+     "channel": "Irish Illustrated",
+     "publishedAt": "2025-10-13"
+    }
+   ],
+   "fetchedAt": "2026-11-10T00:39:39Z"
+  },
+  "234917": {
+   "name": "Ronan Curtis",
+   "query": "Ronan Curtis skills",
+   "videos": [
+    {
+     "id": "hHTkWIAzEMs",
+     "title": "Ronan Curtis Skill Moves",
+     "channel": "Matt Hedrick",
+     "publishedAt": "2019-07-29"
+    },
+    {
+     "id": "qtCQVLfjK-A",
+     "title": "Ronan Curtis",
+     "channel": "Full Contact",
+     "publishedAt": "2018-02-20"
+    },
+    {
+     "id": "uzADctBNp6g",
+     "title": "Ronan Curtis talks on Declan Rice",
+     "channel": "The Beautiful Game Podcast",
+     "publishedAt": "2023-07-18"
+    }
+   ],
+   "fetchedAt": "2026-11-10T00:39:39Z"
+  },
+  "277100": {
+   "name": "Róbert Bozeník",
+   "query": "Róbert Bozeník skills",
+   "videos": [
+    {
+     "id": "xg334NL2vHM",
+     "title": "👀​ Meet City's super Slovak! 🇸🇰​ | Introducing: Róbert Boženík",
+     "channel": "Stoke City FC",
+     "publishedAt": "2025-08-04"
+    },
+    {
+     "id": "YFcEvtR1mb4",
+     "title": "Golo Bozeník: Boavista (3)-2 Benfica - Liga Portugal Betclic | SPORT TV",
+     "channel": "sport tv",
+     "publishedAt": "2023-08-14"
+    },
+    {
+     "id": "-CWozYFXeLM",
+     "title": "Power Plate | Robert Bozenik Feyenoord fc Rotterdam",
+     "channel": "Power Plate Gulf and India",
+     "publishedAt": "2021-06-14"
+    }
+   ],
+   "fetchedAt": "2026-11-10T00:39:39Z"
+  },
+  "196098": {
+   "name": "Sam Gallagher",
+   "query": "Sam Gallagher skills",
+   "videos": [
+    {
+     "id": "6QO4Vg1yRg0",
+     "title": "Introducing: Sam Gallagher | 'I have belief in myself and my abilities' 💪​",
+     "channel": "Stoke City FC",
+     "publishedAt": "2024-08-02"
+    },
+    {
+     "id": "dkhWos_S4Lk",
+     "title": "Sam Gallagher, Football Head Coach and Australian representative",
+     "channel": "International Sport College Australia",
+     "publishedAt": "2020-12-21"
+    },
+    {
+     "id": "l9peYzOU8kc",
+     "title": "Sam Gallagher Missed Chance Against Aston Villa",
+     "channel": "BluenoseGeo",
+     "publishedAt": "2017-10-29"
+    }
+   ],
+   "fetchedAt": "2026-11-10T00:39:39Z"
+  },
+  "333417": {
+   "name": "Sammy Braybrooke",
+   "query": "Sammy Braybrooke skills",
+   "videos": [
+    {
+     "id": "I4vZ3mfubbw",
+     "title": "'Doing what we love again' ⚽ 🥰 | Alves & Braybrooke Fighting Back To Fitness",
+     "channel": "Leicester City",
+     "publishedAt": "2023-09-11"
+    },
+    {
+     "id": "XnO4Qv7ox6s",
+     "title": "Behind-the-scenes on loan with Sammy Braybrooke 👀 #shorts",
+     "channel": "Leicester City",
+     "publishedAt": "2026-06-24"
+    },
+    {
+     "id": "9icDxu3gXUw",
+     "title": "Sammy Braybroke-The Heart Of Leicester City",
+     "channel": "BallerzHood Premium",
+     "publishedAt": "2022-10-13"
+    }
+   ],
+   "fetchedAt": "2026-11-10T00:39:39Z"
   }
  }
 }

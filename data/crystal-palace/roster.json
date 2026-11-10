@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-09T16:07:59Z",
+ "updatedAt": "2026-11-10T00:39:39Z",
  "manager": {
   "name": "Oliver Glasner",
   "role": "Manager",
@@ -275,6 +275,22 @@
    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p643426.png"
   },
   {
+   "id": "3141489",
+   "name": "Nathanael James Kalembo",
+   "jersey": "65",
+   "pos": "D",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p736908.png",
+   "injuries": [],
+   "dob": null,
+   "nat": "England",
+   "natCode": "GB-ENG",
+   "height": null,
+   "joined": "2026-10-02",
+   "birthPlace": null,
+   "posInfo": "Right Full Back",
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p736908.png"
+  },
+  {
    "id": "168421",
    "name": "Will Hughes",
    "jersey": "19",
@@ -417,22 +433,6 @@
    "birthPlace": null,
    "posInfo": "Attacking Midfielder",
    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p577729.png"
-  },
-  {
-   "id": "3141489",
-   "name": "Nathanael James Kalembo",
-   "jersey": "65",
-   "pos": "M",
-   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p736908.png",
-   "injuries": [],
-   "dob": null,
-   "nat": "England",
-   "natCode": "GB-ENG",
-   "height": null,
-   "joined": "2026-10-02",
-   "birthPlace": null,
-   "posInfo": "Right Full Back",
-   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p736908.png"
   },
   {
    "id": "241012",

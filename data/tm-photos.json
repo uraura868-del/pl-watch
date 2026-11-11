@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-10T22:18:21Z",
+ "updatedAt": "2026-11-11T02:43:52Z",
  "clubs": {
   "manchester united": {
    "id": 985,
@@ -425,14 +425,14 @@
    "id": 12,
    "slug": "club",
    "name": "AS Roma",
-   "fetchedAt": "2026-11-03T23:57:10Z",
+   "fetchedAt": "2026-11-11T02:43:52Z",
    "players": {}
   },
   "barcelona": {
    "id": 131,
    "slug": "club",
    "name": "FC Barcelona",
-   "fetchedAt": "2026-11-03T23:57:10Z",
+   "fetchedAt": "2026-11-11T02:43:52Z",
    "players": {}
   },
   "slavia prague": {
@@ -523,7 +523,7 @@
    "id": null,
    "slug": null,
    "name": null,
-   "fetchedAt": "2026-11-10T22:18:21Z",
+   "fetchedAt": "2026-11-11T02:43:52Z",
    "players": {}
   }
  }

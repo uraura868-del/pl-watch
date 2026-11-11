@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-08T00:27:13Z",
+ "updatedAt": "2026-11-11T02:43:52Z",
  "id": "570",
  "name": "Club Brugge",
  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/570.png",
@@ -275,6 +275,15 @@
    "id": "362875",
    "name": "Mamadou Diakhon",
    "jersey": "67",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "365317",
+   "name": "Jessi Silva",
+   "jersey": "72",
    "pos": "F",
    "photo": null,
    "injuries": [],

@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-11T18:38:02Z",
+ "updatedAt": "2026-11-12T01:28:50Z",
  "players": {
   "179497": {
    "name": "Matz Sels",
@@ -1554,19 +1554,19 @@
    "name": "Okello Bartley",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-11-10T22:18:21Z"
+   "fetchedAt": "2026-11-12T01:28:50Z"
   },
   "3123883": {
    "name": "Jaydon Maveso",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-11-10T22:18:21Z"
+   "fetchedAt": "2026-11-12T01:28:50Z"
   },
   "5332458": {
    "name": "Jaxon Tomak",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-11-10T22:18:21Z"
+   "fetchedAt": "2026-11-12T01:28:50Z"
   }
  }
 }

@@ -1,12 +1,12 @@
 {
- "updatedAt": "2026-11-12T09:43:21Z",
+ "updatedAt": "2026-11-12T18:11:31Z",
  "manager": {
-  "name": "Michael Carrick",
+  "name": "position not filled",
   "role": "Manager",
-  "nat": "England",
-  "natCode": "GB-ENG",
-  "dob": "1981-07-28",
-  "source": "pl"
+  "nat": null,
+  "natCode": null,
+  "dob": null,
+  "source": "wikidata"
  },
  "players": [
   {
@@ -93,7 +93,7 @@
    "id": "167127",
    "name": "Luke Shaw",
    "jersey": "23",
-   "pos": "M",
+   "pos": "D",
    "photo": "data/photos/75511af7eb0c7e00.jpg",
    "injuries": [],
    "dob": "1995-07-12",
@@ -212,7 +212,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 181,
-   "joined": "2024-02-18",
+   "joined": "2024-04-06",
    "birthPlace": "London",
    "posInfo": "Left Full Back",
    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p577974.png"
@@ -308,7 +308,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 180,
-   "joined": "2024-08-19",
+   "joined": "2024-07-12",
    "birthPlace": "Manchester",
    "posInfo": "Centre/Right Attacking Midfielder",
    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p547037.png"
@@ -404,7 +404,7 @@
    "nat": "Scotland",
    "natCode": "GB-SCT",
    "height": 183,
-   "joined": "2024-09-30",
+   "joined": "2025-05-26",
    "birthPlace": "Manchester",
    "posInfo": "Centre Central Midfielder",
    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p519913.png"
@@ -516,7 +516,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 167,
-   "joined": "2023-01-23",
+   "joined": "2025-05-26",
    "birthPlace": "Liverpool",
    "posInfo": "Right Winger",
    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p576628.png"

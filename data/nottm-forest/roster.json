@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-12T09:43:21Z",
+ "updatedAt": "2026-11-12T18:11:31Z",
  "manager": {
   "name": "Vítor Manuel de Oliveira Lopes Pereira",
   "role": "Manager",
@@ -202,24 +202,6 @@
    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p500151.png"
   },
   {
-   "id": "418111",
-   "name": "Okello Bartley",
-   "jersey": null,
-   "pos": "D",
-   "photo": null,
-   "injuries": [],
-   "photoSrc": null
-  },
-  {
-   "id": "3123883",
-   "name": "Jaydon Maveso",
-   "jersey": null,
-   "pos": "D",
-   "photo": null,
-   "injuries": [],
-   "photoSrc": null
-  },
-  {
    "id": "213718",
    "name": "Ibrahim Sangaré",
    "jersey": "6",
@@ -410,15 +392,6 @@
    "birthPlace": "Winchester",
    "posInfo": "Centre Striker",
    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p463034.png"
-  },
-  {
-   "id": "5332458",
-   "name": "Jaxon Tomak",
-   "jersey": null,
-   "pos": "F",
-   "photo": null,
-   "injuries": [],
-   "photoSrc": null
   }
  ]
 }

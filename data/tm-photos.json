@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-12T09:43:21Z",
+ "updatedAt": "2026-11-12T18:11:31Z",
  "clubs": {
   "manchester united": {
    "id": 985,
@@ -520,10 +520,10 @@
    "players": {}
   },
   "aek athens": {
-   "id": null,
-   "slug": null,
-   "name": null,
-   "fetchedAt": "2026-11-12T09:43:21Z",
+   "id": 2441,
+   "slug": "club",
+   "name": "AEK Athens F.C.",
+   "fetchedAt": "2026-11-12T18:11:31Z",
    "players": {}
   }
  }

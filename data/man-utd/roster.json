@@ -1,11 +1,11 @@
 {
- "updatedAt": "2026-11-13T07:49:51Z",
+ "updatedAt": "2026-11-13T16:10:53Z",
  "manager": {
-  "name": "position not filled",
+  "name": "Mauricio Pochettino",
   "role": "Manager",
-  "nat": null,
+  "nat": "Spain",
   "natCode": null,
-  "dob": null,
+  "dob": "1972-03-02",
   "source": "wikidata"
  },
  "players": [

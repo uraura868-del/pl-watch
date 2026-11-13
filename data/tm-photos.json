@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-13T07:49:51Z",
+ "updatedAt": "2026-11-13T16:10:53Z",
  "clubs": {
   "manchester united": {
    "id": 985,
@@ -702,7 +702,7 @@
    "id": 16,
    "slug": "club",
    "name": "Borussia Dortmund",
-   "fetchedAt": "2026-11-03T23:57:10Z",
+   "fetchedAt": "2026-11-13T16:10:53Z",
    "players": {}
   },
   "sporting cp": {

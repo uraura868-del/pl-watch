@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-13T00:11:28Z",
+ "updatedAt": "2026-11-13T07:49:51Z",
  "fetchedOk": true,
  "players": [
   {
@@ -19,10 +19,10 @@
    "reasonJa": "足の負傷",
    "type": "負傷",
    "since": "2026-09-14",
-   "until": "2026-11-27",
+   "until": "2026-11-13",
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-13",
-   "active": true
+   "active": false
   },
   {
    "name": "Antoni Milambo",
@@ -30,10 +30,10 @@
    "reasonJa": "コンディション不良",
    "type": "負傷",
    "since": "2026-09-17",
-   "until": "2026-11-23",
+   "until": "2026-11-13",
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-13",
-   "active": true
+   "active": false
   },
   {
    "name": "Kevin Schade",
@@ -52,10 +52,10 @@
    "reasonJa": "股関節の負傷",
    "type": "負傷",
    "since": "2026-10-27",
-   "until": "2026-11-23",
+   "until": "2026-11-13",
    "firstSeen": "2026-11-13",
    "lastSeen": "2026-11-13",
-   "active": true
+   "active": false
   },
   {
    "name": "Fábio Carvalho",
@@ -63,10 +63,10 @@
    "reasonJa": "打撲",
    "type": "負傷",
    "since": "2026-10-30",
-   "until": "2026-11-23",
+   "until": "2026-11-13",
    "firstSeen": "2026-11-13",
    "lastSeen": "2026-11-13",
-   "active": true
+   "active": false
   }
  ]
 }

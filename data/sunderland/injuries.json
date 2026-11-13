@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-13T00:11:28Z",
+ "updatedAt": "2026-11-13T07:49:51Z",
  "fetchedOk": true,
  "players": [
   {
@@ -8,10 +8,10 @@
    "reasonJa": "Meniscus injury",
    "type": "負傷",
    "since": "2026-09-10",
-   "until": "2027-01-02",
+   "until": "2026-11-13",
    "firstSeen": "2026-11-13",
    "lastSeen": "2026-11-13",
-   "active": true
+   "active": false
   },
   {
    "name": "Brian Brobbey",
@@ -30,10 +30,10 @@
    "reasonJa": "ハムストリング負傷",
    "type": "負傷",
    "since": "2026-09-25",
-   "until": "2026-12-13",
+   "until": "2026-11-13",
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-13",
-   "active": true
+   "active": false
   },
   {
    "name": "Habib Diarra",
@@ -41,10 +41,10 @@
    "reasonJa": "ハムストリング負傷",
    "type": "負傷",
    "since": "2026-11-04",
-   "until": "2026-12-13",
+   "until": "2026-11-13",
    "firstSeen": "2026-11-13",
    "lastSeen": "2026-11-13",
-   "active": true
+   "active": false
   },
   {
    "name": "Granit Xhaka",
@@ -52,10 +52,10 @@
    "reasonJa": "ふくらはぎの負傷",
    "type": "負傷",
    "since": "2026-11-09",
-   "until": "2026-12-21",
+   "until": "2026-11-13",
    "firstSeen": "2026-11-13",
    "lastSeen": "2026-11-13",
-   "active": true
+   "active": false
   }
  ]
 }

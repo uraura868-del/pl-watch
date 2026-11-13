@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-13T00:11:28Z",
+ "updatedAt": "2026-11-13T07:49:51Z",
  "fetchedOk": true,
  "players": [
   {
@@ -8,10 +8,10 @@
    "reasonJa": "十字靭帯損傷",
    "type": "負傷",
    "since": "2026-04-25",
-   "until": "2027-02-19",
+   "until": "2026-11-13",
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-13",
-   "active": true
+   "active": false
   },
   {
    "name": "Charlie Hughes",
@@ -19,10 +19,10 @@
    "reasonJa": "Inguinal hernia",
    "type": "負傷",
    "since": "2026-05-24",
-   "until": null,
+   "until": "2026-11-13",
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-13",
-   "active": true
+   "active": false
   },
   {
    "name": "Darko Gyabi",
@@ -30,10 +30,10 @@
    "reasonJa": "鼠径部の負傷",
    "type": "負傷",
    "since": "2026-08-01",
-   "until": "2026-11-20",
+   "until": "2026-11-13",
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-13",
-   "active": true
+   "active": false
   },
   {
    "name": "Jack Butland",
@@ -41,10 +41,10 @@
    "reasonJa": "Elbow injury",
    "type": "負傷",
    "since": "2026-08-10",
-   "until": "2026-12-04",
+   "until": "2026-11-13",
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-13",
-   "active": true
+   "active": false
   },
   {
    "name": "Ilyas Ansah",
@@ -52,10 +52,10 @@
    "reasonJa": "背中の負傷",
    "type": "負傷",
    "since": "2026-09-01",
-   "until": "2026-11-22",
+   "until": "2026-11-13",
    "firstSeen": "2026-11-13",
    "lastSeen": "2026-11-13",
-   "active": true
+   "active": false
   },
   {
    "name": "Lucas Gourna-Douath",
@@ -63,10 +63,10 @@
    "reasonJa": "ふくらはぎの負傷",
    "type": "負傷",
    "since": "2026-10-09",
-   "until": null,
+   "until": "2026-11-13",
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-13",
-   "active": true
+   "active": false
   },
   {
    "name": "Matt Targett",
@@ -74,10 +74,10 @@
    "reasonJa": "足首の負傷",
    "type": "負傷",
    "since": "2026-10-09",
-   "until": "2026-12-19",
+   "until": "2026-11-13",
    "firstSeen": "2026-11-13",
    "lastSeen": "2026-11-13",
-   "active": true
+   "active": false
   },
   {
    "name": "Hidemasa Morita",
@@ -85,10 +85,10 @@
    "reasonJa": "鼠径部の負傷",
    "type": "負傷",
    "since": "2026-11-05",
-   "until": "2026-11-22",
+   "until": "2026-11-13",
    "firstSeen": "2026-11-13",
    "lastSeen": "2026-11-13",
-   "active": true
+   "active": false
   },
   {
    "name": "Mohamed Belloumi",
@@ -96,10 +96,10 @@
    "reasonJa": "ハムストリング負傷",
    "type": "負傷",
    "since": "2026-11-05",
-   "until": null,
+   "until": "2026-11-13",
    "firstSeen": "2026-11-13",
    "lastSeen": "2026-11-13",
-   "active": true
+   "active": false
   },
   {
    "name": "Elliot Stroud",
@@ -107,10 +107,10 @@
    "reasonJa": "ハムストリング負傷",
    "type": "負傷",
    "since": "2026-11-07",
-   "until": null,
+   "until": "2026-11-13",
    "firstSeen": "2026-11-13",
    "lastSeen": "2026-11-13",
-   "active": true
+   "active": false
   },
   {
    "name": "Semi Ajayi",
@@ -118,10 +118,10 @@
    "reasonJa": "ハムストリング負傷",
    "type": "負傷",
    "since": "2026-11-07",
-   "until": null,
+   "until": "2026-11-13",
    "firstSeen": "2026-11-13",
    "lastSeen": "2026-11-13",
-   "active": true
+   "active": false
   }
  ]
 }

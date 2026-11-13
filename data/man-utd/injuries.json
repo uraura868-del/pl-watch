@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-12T18:11:31Z",
+ "updatedAt": "2026-11-13T00:11:28Z",
  "fetchedOk": true,
  "players": [
   {
@@ -8,10 +8,21 @@
    "reasonJa": "十字靭帯損傷",
    "type": "負傷",
    "since": "2026-06-28",
-   "until": "2026-10-26",
+   "until": "2027-04-03",
    "firstSeen": "2026-10-25",
-   "lastSeen": "2026-10-26",
-   "active": false
+   "lastSeen": "2026-11-13",
+   "active": true
+  },
+  {
+   "name": "Benjamin Šeško",
+   "reason": "Shin injury",
+   "reasonJa": "Shin injury",
+   "type": "負傷",
+   "since": "2026-09-16",
+   "until": "2027-01-02",
+   "firstSeen": "2026-11-13",
+   "lastSeen": "2026-11-13",
+   "active": true
   },
   {
    "name": "Noussair Mazraoui",
@@ -23,6 +34,50 @@
    "firstSeen": "2026-10-25",
    "lastSeen": "2026-10-26",
    "active": false
+  },
+  {
+   "name": "Luke Shaw",
+   "reason": "Muscle injury",
+   "reasonJa": "筋肉系の負傷",
+   "type": "負傷",
+   "since": "2026-10-11",
+   "until": null,
+   "firstSeen": "2026-11-13",
+   "lastSeen": "2026-11-13",
+   "active": true
+  },
+  {
+   "name": "Marcus Rashford",
+   "reason": "Hip injury",
+   "reasonJa": "股関節の負傷",
+   "type": "負傷",
+   "since": "2026-10-19",
+   "until": null,
+   "firstSeen": "2026-11-13",
+   "lastSeen": "2026-11-13",
+   "active": true
+  },
+  {
+   "name": "Carlos Baleba",
+   "reason": "Hamstring injury",
+   "reasonJa": "ハムストリング負傷",
+   "type": "負傷",
+   "since": "2026-11-06",
+   "until": "2026-12-02",
+   "firstSeen": "2026-11-13",
+   "lastSeen": "2026-11-13",
+   "active": true
+  },
+  {
+   "name": "Harry Maguire",
+   "reason": "Back problems",
+   "reasonJa": "背中の負傷",
+   "type": "負傷",
+   "since": "2026-11-09",
+   "until": null,
+   "firstSeen": "2026-11-13",
+   "lastSeen": "2026-11-13",
+   "active": true
   }
  ]
 }

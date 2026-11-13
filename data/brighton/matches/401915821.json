@@ -255,7 +255,8 @@
     "pos": "G",
     "starter": true,
     "place": "1",
-    "photo": null
+    "photo": "https://img.a.transfermarkt.technology/portrait/header/226012-1696863038.jpg?lm=4711",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/226012-1696863038.jpg?lm=4711"
    },
    {
     "id": "181355",
@@ -264,7 +265,8 @@
     "pos": "CD-L",
     "starter": true,
     "place": "6",
-    "photo": null
+    "photo": "https://img.a.transfermarkt.technology/portrait/header/221150-1669364811.jpg?lm=4711",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/221150-1669364811.jpg?lm=4711"
    },
    {
     "id": "359826",
@@ -273,7 +275,8 @@
     "pos": "CD-R",
     "starter": true,
     "place": "5",
-    "photo": null
+    "photo": "https://img.a.transfermarkt.technology/portrait/header/898352-1739826537.jpg?lm=4711",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/898352-1739826537.jpg?lm=4711"
    },
    {
     "id": "173247",
@@ -282,7 +285,8 @@
     "pos": "LB",
     "starter": true,
     "place": "3",
-    "photo": null
+    "photo": "https://img.a.transfermarkt.technology/portrait/header/262939-1541161893.jpg?lm=4711",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/262939-1541161893.jpg?lm=4711"
    },
    {
     "id": "125749",
@@ -291,7 +295,8 @@
     "pos": "RB",
     "starter": true,
     "place": "2",
-    "photo": null
+    "photo": "https://img.a.transfermarkt.technology/portrait/header/76467-1726231817.jpg?lm=4711",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/76467-1726231817.jpg?lm=4711"
    },
    {
     "id": "284854",
@@ -300,7 +305,8 @@
     "pos": "AM",
     "starter": true,
     "place": "10",
-    "photo": null
+    "photo": "https://img.a.transfermarkt.technology/portrait/header/640109-1626685122.jpg?lm=4711",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/640109-1626685122.jpg?lm=4711"
    },
    {
     "id": "228424",
@@ -309,7 +315,8 @@
     "pos": "LM",
     "starter": true,
     "place": "4",
-    "photo": null
+    "photo": "https://img.a.transfermarkt.technology/portrait/header/289592-1657181518.jpg?lm=4711",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/289592-1657181518.jpg?lm=4711"
    },
    {
     "id": "136673",
@@ -318,7 +325,8 @@
     "pos": "RM",
     "starter": true,
     "place": "8",
-    "photo": null
+    "photo": "https://img.a.transfermarkt.technology/portrait/header/74294-1718893660.jpg?lm=4711",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/74294-1718893660.jpg?lm=4711"
    },
    {
     "id": "310259",
@@ -327,7 +335,8 @@
     "pos": "F",
     "starter": true,
     "place": "9",
-    "photo": null
+    "photo": "https://img.a.transfermarkt.technology/portrait/header/633306-1732367699.jpg?lm=4711",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/633306-1732367699.jpg?lm=4711"
    },
    {
     "id": "309838",
@@ -336,7 +345,8 @@
     "pos": "AM-L",
     "starter": true,
     "place": "11",
-    "photo": null
+    "photo": "https://img.a.transfermarkt.technology/portrait/header/783396-1726231968.jpg?lm=4711",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/783396-1726231968.jpg?lm=4711"
    },
    {
     "id": "356080",
@@ -345,8 +355,8 @@
     "pos": "AM-R",
     "starter": true,
     "place": "7",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p551466.png",
-    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p551466.png"
+    "photo": "https://img.a.transfermarkt.technology/portrait/header/1063329-1698880585.jpg?lm=4711",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1063329-1698880585.jpg?lm=4711"
    }
   ],
   "bench": [
@@ -357,7 +367,8 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": null
+    "photo": "https://img.a.transfermarkt.technology/portrait/header/559979-1705337125.jpg?lm=4711",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/559979-1705337125.jpg?lm=4711"
    },
    {
     "id": "357147",
@@ -366,7 +377,8 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": null
+    "photo": "https://img.a.transfermarkt.technology/portrait/header/948273-1707861820.jpg?lm=4711",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/948273-1707861820.jpg?lm=4711"
    },
    {
     "id": "307186",
@@ -375,7 +387,8 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": null
+    "photo": "https://img.a.transfermarkt.technology/portrait/header/632930-1732368027.jpg?lm=4711",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/632930-1732368027.jpg?lm=4711"
    },
    {
     "id": "344245",
@@ -384,7 +397,8 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": null
+    "photo": "https://img.a.transfermarkt.technology/portrait/header/339079-1714922207.jpg?lm=4711",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/339079-1714922207.jpg?lm=4711"
    },
    {
     "id": "218793",
@@ -393,7 +407,8 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": null
+    "photo": "https://img.a.transfermarkt.technology/portrait/header/298976-1669365430.jpg?lm=4711",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/298976-1669365430.jpg?lm=4711"
    },
    {
     "id": "406832",
@@ -402,7 +417,8 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": null
+    "photo": "https://img.a.transfermarkt.technology/portrait/header/1268764-1732577167.jpg?lm=4711",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1268764-1732577167.jpg?lm=4711"
    },
    {
     "id": "218122",
@@ -411,7 +427,8 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": null
+    "photo": "https://img.a.transfermarkt.technology/portrait/header/251106-1669365680.jpg?lm=4711",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/251106-1669365680.jpg?lm=4711"
    },
    {
     "id": "395479",
@@ -438,7 +455,8 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": null
+    "photo": "https://img.a.transfermarkt.technology/portrait/header/1255616-1732138298.png?lm=4711",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1255616-1732138298.png?lm=4711"
    },
    {
     "id": "314403",
@@ -447,7 +465,8 @@
     "pos": "SUB",
     "starter": false,
     "place": "0",
-    "photo": null
+    "photo": "https://img.a.transfermarkt.technology/portrait/header/655456-1695386095.jpg?lm=4711",
+    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/655456-1695386095.jpg?lm=4711"
    }
   ]
  },

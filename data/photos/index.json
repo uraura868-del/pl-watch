@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-12T18:11:31Z",
+ "updatedAt": "2026-11-13T00:11:28Z",
  "size": 256,
  "photos": {
   "https://img.a.transfermarkt.technology/portrait/medium/34130-1688121718.jpg?lm=4711": {
@@ -5719,6 +5719,132 @@
    "face": true,
    "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p183656.png",
    "fetchedAt": "2026-11-03T02:52:21Z"
+  },
+  "https://img.a.transfermarkt.technology/portrait/header/610607-1793790884.jpg?lm=4711": {
+   "file": "237e49a129f0e7b3.jpg",
+   "face": true,
+   "src": "https://img.a.transfermarkt.technology/portrait/header/610607-1793790884.jpg?lm=4711",
+   "fetchedAt": "2026-11-13T00:11:28Z"
+  },
+  "https://img.a.transfermarkt.technology/portrait/header/890617-1779430655.jpg?lm=4711": {
+   "file": "cdbc3c20b329ba14.jpg",
+   "face": false,
+   "src": "https://img.a.transfermarkt.technology/portrait/header/890617-1779430655.jpg?lm=4711",
+   "fetchedAt": "2026-11-13T00:11:28Z"
+  },
+  "https://img.a.transfermarkt.technology/portrait/header/463610-1557735619.jpg?lm=4711": {
+   "file": "6a4f88beaf922f29.jpg",
+   "face": true,
+   "src": "https://img.a.transfermarkt.technology/portrait/header/463610-1557735619.jpg?lm=4711",
+   "fetchedAt": "2026-11-13T00:11:28Z"
+  },
+  "https://img.a.transfermarkt.technology/portrait/header/707327-1702843309.png?lm=4711": {
+   "file": "a2c67169c3e25791.jpg",
+   "face": true,
+   "src": "https://img.a.transfermarkt.technology/portrait/header/707327-1702843309.png?lm=4711",
+   "fetchedAt": "2026-11-13T00:11:28Z"
+  },
+  "https://img.a.transfermarkt.technology/portrait/header/485583-1724259461.jpg?lm=4711": {
+   "file": "11220c4cd8337268.jpg",
+   "face": true,
+   "src": "https://img.a.transfermarkt.technology/portrait/header/485583-1724259461.jpg?lm=4711",
+   "fetchedAt": "2026-11-13T00:11:28Z"
+  },
+  "https://img.a.transfermarkt.technology/portrait/header/510310-1668692766.jpg?lm=4711": {
+   "file": "06e07c8452c721f5.jpg",
+   "face": true,
+   "src": "https://img.a.transfermarkt.technology/portrait/header/510310-1668692766.jpg?lm=4711",
+   "fetchedAt": "2026-11-13T00:11:28Z"
+  },
+  "https://img.a.transfermarkt.technology/portrait/header/430310-1692965140.png?lm=4711": {
+   "file": "7ceead9e839d45b3.jpg",
+   "face": true,
+   "src": "https://img.a.transfermarkt.technology/portrait/header/430310-1692965140.png?lm=4711",
+   "fetchedAt": "2026-11-13T00:11:28Z"
+  },
+  "https://img.a.transfermarkt.technology/portrait/header/256085-1738931893.jpg?lm=4711": {
+   "file": "20ec187f60216e22.jpg",
+   "face": true,
+   "src": "https://img.a.transfermarkt.technology/portrait/header/256085-1738931893.jpg?lm=4711",
+   "fetchedAt": "2026-11-13T00:11:28Z"
+  },
+  "https://img.a.transfermarkt.technology/portrait/header/435587-1737298549.jpg?lm=4711": {
+   "file": "279b6c52197e8a7e.jpg",
+   "face": true,
+   "src": "https://img.a.transfermarkt.technology/portrait/header/435587-1737298549.jpg?lm=4711",
+   "fetchedAt": "2026-11-13T00:11:28Z"
+  },
+  "https://img.a.transfermarkt.technology/portrait/header/743629-1713450709.png?lm=4711": {
+   "file": "5e6ea678b9e8bcc0.jpg",
+   "face": true,
+   "src": "https://img.a.transfermarkt.technology/portrait/header/743629-1713450709.png?lm=4711",
+   "fetchedAt": "2026-11-13T00:11:28Z"
+  },
+  "https://img.a.transfermarkt.technology/portrait/header/972353-1670005207.jpg?lm=4711": {
+   "file": "21f2fa92d491631a.jpg",
+   "face": true,
+   "src": "https://img.a.transfermarkt.technology/portrait/header/972353-1670005207.jpg?lm=4711",
+   "fetchedAt": "2026-11-13T00:11:28Z"
+  },
+  "https://img.a.transfermarkt.technology/portrait/header/293360-1699718998.png?lm=4711": {
+   "file": "5bb0c300cce606ad.jpg",
+   "face": true,
+   "src": "https://img.a.transfermarkt.technology/portrait/header/293360-1699718998.png?lm=4711",
+   "fetchedAt": "2026-11-13T00:11:28Z"
+  },
+  "https://img.a.transfermarkt.technology/portrait/header/142219-1781248144.jpg?lm=4711": {
+   "file": "afe2d81dd460e13b.jpg",
+   "face": true,
+   "src": "https://img.a.transfermarkt.technology/portrait/header/142219-1781248144.jpg?lm=4711",
+   "fetchedAt": "2026-11-13T00:11:28Z"
+  },
+  "https://img.a.transfermarkt.technology/portrait/header/143798-1657200722.jpg?lm=4711": {
+   "file": "9dbddd12225554be.jpg",
+   "face": true,
+   "src": "https://img.a.transfermarkt.technology/portrait/header/143798-1657200722.jpg?lm=4711",
+   "fetchedAt": "2026-11-13T00:11:28Z"
+  },
+  "https://img.a.transfermarkt.technology/portrait/header/1206877-1761246727.jpg?lm=4711": {
+   "file": "1816cbd2bcf76b5f.jpg",
+   "face": true,
+   "src": "https://img.a.transfermarkt.technology/portrait/header/1206877-1761246727.jpg?lm=4711",
+   "fetchedAt": "2026-11-13T00:11:28Z"
+  },
+  "https://img.a.transfermarkt.technology/portrait/header/836196-1702842362.png?lm=4711": {
+   "file": "14135040e1bc1a20.jpg",
+   "face": true,
+   "src": "https://img.a.transfermarkt.technology/portrait/header/836196-1702842362.png?lm=4711",
+   "fetchedAt": "2026-11-13T00:11:28Z"
+  },
+  "https://img.a.transfermarkt.technology/portrait/header/615618-1701639802.png?lm=4711": {
+   "file": "a9f6675b70773ac7.jpg",
+   "face": true,
+   "src": "https://img.a.transfermarkt.technology/portrait/header/615618-1701639802.png?lm=4711",
+   "fetchedAt": "2026-11-13T00:11:28Z"
+  },
+  "https://img.a.transfermarkt.technology/portrait/header/726714-1697832409.png?lm=4711": {
+   "file": "ec5f881263c08dbc.jpg",
+   "face": true,
+   "src": "https://img.a.transfermarkt.technology/portrait/header/726714-1697832409.png?lm=4711",
+   "fetchedAt": "2026-11-13T00:11:28Z"
+  },
+  "https://img.a.transfermarkt.technology/portrait/header/662701-1742398666.png?lm=4711": {
+   "file": "f51c679bc2392da6.jpg",
+   "face": true,
+   "src": "https://img.a.transfermarkt.technology/portrait/header/662701-1742398666.png?lm=4711",
+   "fetchedAt": "2026-11-13T00:11:28Z"
+  },
+  "https://img.a.transfermarkt.technology/portrait/header/543726-1667549315.jpg?lm=4711": {
+   "file": "d83d348ff1be5066.jpg",
+   "face": true,
+   "src": "https://img.a.transfermarkt.technology/portrait/header/543726-1667549315.jpg?lm=4711",
+   "fetchedAt": "2026-11-13T00:11:28Z"
+  },
+  "https://img.a.transfermarkt.technology/portrait/header/655300-1731173237.png?lm=4711": {
+   "file": "062aa0e2ebdd385f.jpg",
+   "face": true,
+   "src": "https://img.a.transfermarkt.technology/portrait/header/655300-1731173237.png?lm=4711",
+   "fetchedAt": "2026-11-13T00:11:28Z"
   }
  }
 }

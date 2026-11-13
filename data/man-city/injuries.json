@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-12T18:11:31Z",
+ "updatedAt": "2026-11-13T00:11:28Z",
  "fetchedOk": true,
  "players": [
   {
@@ -8,10 +8,32 @@
    "reasonJa": "膝の負傷",
    "type": "負傷",
    "since": "2026-10-18",
-   "until": "2026-10-26",
+   "until": null,
    "firstSeen": "2026-10-26",
-   "lastSeen": "2026-10-26",
-   "active": false
+   "lastSeen": "2026-11-13",
+   "active": true
+  },
+  {
+   "name": "Abdukodir Khusanov",
+   "reason": "Knock",
+   "reasonJa": "打撲",
+   "type": "負傷",
+   "since": "2026-11-08",
+   "until": "2026-11-22",
+   "firstSeen": "2026-11-13",
+   "lastSeen": "2026-11-13",
+   "active": true
+  },
+  {
+   "name": "Marc Guéhi",
+   "reason": "Hip injury",
+   "reasonJa": "股関節の負傷",
+   "type": "負傷",
+   "since": "2026-11-08",
+   "until": null,
+   "firstSeen": "2026-11-13",
+   "lastSeen": "2026-11-13",
+   "active": true
   }
  ]
 }

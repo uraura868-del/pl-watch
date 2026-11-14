@@ -1,11 +1,11 @@
 {
- "updatedAt": "2026-11-14T03:06:01Z",
+ "updatedAt": "2026-11-14T10:14:48Z",
  "fetchedOk": true,
  "players": [
   {
    "name": "Chadi Riad",
-   "reason": "Knee injury",
-   "reasonJa": "膝の負傷",
+   "reason": "Cruciate ligament tear",
+   "reasonJa": "十字靭帯損傷",
    "type": "負傷",
    "since": "2026-08-23",
    "until": "2027-06-07",

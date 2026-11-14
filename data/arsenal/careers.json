@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-13T22:31:44Z",
+ "updatedAt": "2026-11-14T03:06:01Z",
  "players": {
   "169532": {
    "name": "Kepa Arrizabalaga",
@@ -2272,13 +2272,13 @@
    "name": "Marcell Washington",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-11-13T00:11:28Z"
+   "fetchedAt": "2026-11-14T03:06:01Z"
   },
   "390975": {
    "name": "Andre Annous",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-11-13T00:11:28Z"
+   "fetchedAt": "2026-11-14T03:06:01Z"
   }
  }
 }

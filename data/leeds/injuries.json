@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-13T22:31:44Z",
+ "updatedAt": "2026-11-14T03:06:01Z",
  "fetchedOk": true,
  "players": [
   {
@@ -8,10 +8,10 @@
    "reasonJa": "十字靭帯損傷",
    "type": "負傷",
    "since": "2026-04-08",
-   "until": "2026-11-13",
+   "until": "2027-02-01",
    "firstSeen": "2026-10-26",
-   "lastSeen": "2026-11-13",
-   "active": false
+   "lastSeen": "2026-11-14",
+   "active": true
   },
   {
    "name": "Joe Rodon",
@@ -30,10 +30,10 @@
    "reasonJa": "つま先の負傷",
    "type": "負傷",
    "since": "2026-11-05",
-   "until": "2026-11-13",
+   "until": "2026-11-21",
    "firstSeen": "2026-11-13",
-   "lastSeen": "2026-11-13",
-   "active": false
+   "lastSeen": "2026-11-14",
+   "active": true
   },
   {
    "name": "Gabriel Gudmundsson",
@@ -41,10 +41,10 @@
    "reasonJa": "ハムストリング負傷",
    "type": "負傷",
    "since": "2026-11-09",
-   "until": "2026-11-13",
+   "until": null,
    "firstSeen": "2026-11-13",
-   "lastSeen": "2026-11-13",
-   "active": false
+   "lastSeen": "2026-11-14",
+   "active": true
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-13T22:31:44Z",
+ "updatedAt": "2026-11-14T03:06:01Z",
  "fetchedOk": true,
  "players": [
   {
@@ -8,10 +8,10 @@
    "reasonJa": "太ももの負傷",
    "type": "負傷",
    "since": "2026-09-07",
-   "until": "2026-11-13",
+   "until": null,
    "firstSeen": "2026-11-13",
-   "lastSeen": "2026-11-13",
-   "active": false
+   "lastSeen": "2026-11-14",
+   "active": true
   },
   {
    "name": "Jamie Gittens",
@@ -19,10 +19,10 @@
    "reasonJa": "足首の負傷",
    "type": "負傷",
    "since": "2026-09-25",
-   "until": "2026-11-13",
+   "until": null,
    "firstSeen": "2026-10-26",
-   "lastSeen": "2026-11-13",
-   "active": false
+   "lastSeen": "2026-11-14",
+   "active": true
   },
   {
    "name": "Pep Chavarría",
@@ -41,10 +41,10 @@
    "reasonJa": "膝の負傷",
    "type": "負傷",
    "since": "2026-10-16",
-   "until": "2026-11-13",
+   "until": "2027-01-01",
    "firstSeen": "2026-10-26",
-   "lastSeen": "2026-11-13",
-   "active": false
+   "lastSeen": "2026-11-14",
+   "active": true
   },
   {
    "name": "Emiliano Martínez",
@@ -52,10 +52,10 @@
    "reasonJa": "Broken jaw",
    "type": "負傷",
    "since": "2026-10-17",
-   "until": "2026-11-13",
+   "until": null,
    "firstSeen": "2026-10-26",
-   "lastSeen": "2026-11-13",
-   "active": false
+   "lastSeen": "2026-11-14",
+   "active": true
   },
   {
    "name": "Emmanuel Emegha",
@@ -74,10 +74,10 @@
    "reasonJa": "ハムストリング負傷",
    "type": "負傷",
    "since": "2026-10-20",
-   "until": "2026-11-13",
+   "until": null,
    "firstSeen": "2026-11-13",
-   "lastSeen": "2026-11-13",
-   "active": false
+   "lastSeen": "2026-11-14",
+   "active": true
   },
   {
    "name": "Jorrel Hato",
@@ -85,10 +85,10 @@
    "reasonJa": "背中の負傷",
    "type": "負傷",
    "since": "2026-10-25",
-   "until": "2026-11-13",
+   "until": "2026-11-21",
    "firstSeen": "2026-11-13",
-   "lastSeen": "2026-11-13",
-   "active": false
+   "lastSeen": "2026-11-14",
+   "active": true
   },
   {
    "name": "Maxence Lacroix",
@@ -96,10 +96,10 @@
    "reasonJa": "ハムストリング負傷",
    "type": "負傷",
    "since": "2026-10-28",
-   "until": "2026-11-13",
+   "until": null,
    "firstSeen": "2026-11-13",
-   "lastSeen": "2026-11-13",
-   "active": false
+   "lastSeen": "2026-11-14",
+   "active": true
   },
   {
    "name": "Josh Acheampong",
@@ -107,10 +107,10 @@
    "reasonJa": "打撲",
    "type": "負傷",
    "since": "2026-11-08",
-   "until": "2026-11-13",
+   "until": "2026-11-16",
    "firstSeen": "2026-11-13",
-   "lastSeen": "2026-11-13",
-   "active": false
+   "lastSeen": "2026-11-14",
+   "active": true
   }
  ]
 }

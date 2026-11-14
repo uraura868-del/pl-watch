@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-13T22:31:44Z",
+ "updatedAt": "2026-11-14T03:06:01Z",
  "fetchedOk": true,
  "players": [
   {
@@ -8,10 +8,10 @@
    "reasonJa": "背中の負傷",
    "type": "負傷",
    "since": "2026-07-19",
-   "until": "2026-11-13",
+   "until": "2026-11-20",
    "firstSeen": "2026-10-26",
-   "lastSeen": "2026-11-13",
-   "active": false
+   "lastSeen": "2026-11-14",
+   "active": true
   },
   {
    "name": "Christos Tzolis",
@@ -30,10 +30,10 @@
    "reasonJa": "太ももの負傷",
    "type": "負傷",
    "since": "2026-10-23",
-   "until": "2026-11-13",
+   "until": "2026-12-31",
    "firstSeen": "2026-11-13",
-   "lastSeen": "2026-11-13",
-   "active": false
+   "lastSeen": "2026-11-14",
+   "active": true
   },
   {
    "name": "Ezri Konsa",
@@ -41,10 +41,10 @@
    "reasonJa": "膝の負傷",
    "type": "負傷",
    "since": "2026-11-10",
-   "until": "2026-11-13",
+   "until": null,
    "firstSeen": "2026-11-13",
-   "lastSeen": "2026-11-13",
-   "active": false
+   "lastSeen": "2026-11-14",
+   "active": true
   }
  ]
 }

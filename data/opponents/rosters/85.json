@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-12T01:28:50Z",
+ "updatedAt": "2026-11-15T01:47:35Z",
  "id": "85",
  "name": "Celta Vigo",
  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
@@ -38,6 +38,22 @@
    "photo": null,
    "injuries": [],
    "photoSrc": null
+  },
+  {
+   "id": "376424",
+   "name": "Marcos González",
+   "jersey": "40",
+   "pos": "G",
+   "photo": "data/photos/98457564eba3a310.jpg",
+   "injuries": [],
+   "dob": "2002-01-03",
+   "nat": "Spain",
+   "natCode": "ES",
+   "height": 189,
+   "joined": "2026-08-26",
+   "birthPlace": "La Coruña",
+   "posInfo": "Central Midfielder",
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p465694.png"
   },
   {
    "id": "21990",
@@ -289,6 +305,15 @@
    "id": "334111",
    "name": "Jones El-Abdellaoui",
    "jersey": "39",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "411412",
+   "name": "Vladimir Silva",
+   "jersey": "38",
    "pos": "F",
    "photo": null,
    "injuries": [],

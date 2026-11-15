@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-14T21:23:00Z",
+ "updatedAt": "2026-11-15T01:47:35Z",
  "clubs": {
   "manchester united": {
    "id": 985,
@@ -775,14 +775,14 @@
    "id": 940,
    "slug": "club",
    "name": "RC Celta de Vigo",
-   "fetchedAt": "2026-11-05T18:41:28Z",
+   "fetchedAt": "2026-11-15T01:47:35Z",
    "players": {}
   },
   "csu craiova": {
    "id": 40812,
    "slug": "club",
    "name": "CS Universitatea Craiova",
-   "fetchedAt": "2026-11-05T18:41:28Z",
+   "fetchedAt": "2026-11-15T01:47:35Z",
    "players": {}
   },
   "jagiellonia bialystok": {

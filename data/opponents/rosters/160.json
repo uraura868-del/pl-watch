@@ -1,0 +1,282 @@
+{
+ "updatedAt": "2026-11-17T22:12:58Z",
+ "id": "160",
+ "name": "Paris Saint-Germain",
+ "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+ "manager": {
+  "name": "Luis Enrique",
+  "role": "Manager",
+  "nat": "Spain",
+  "natCode": null,
+  "dob": "1970-05-08",
+  "source": "wikidata"
+ },
+ "players": [
+  {
+   "id": "248699",
+   "name": "Matvei Safonov",
+   "jersey": "39",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "288925",
+   "name": "Lucas Chevalier",
+   "jersey": "30",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "387725",
+   "name": "Alessandro Longoni",
+   "jersey": "16",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "3143886",
+   "name": "Adam Mouak",
+   "jersey": "80",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "5328183",
+   "name": "Arthur Bar",
+   "jersey": "90",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "159047",
+   "name": "Marquinhos",
+   "jersey": "5",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "160115",
+   "name": "Lucas Digne",
+   "jersey": "12",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "196200",
+   "name": "Lucas Hernández",
+   "jersey": "21",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "240233",
+   "name": "Achraf Hakimi",
+   "jersey": "2",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "287005",
+   "name": "Willian Pacho",
+   "jersey": "51",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "290591",
+   "name": "Nuno Mendes",
+   "jersey": "25",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "304503",
+   "name": "Illia Zabarnyi",
+   "jersey": "6",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "316128",
+   "name": "Lucas Beraldo",
+   "jersey": "4",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "403981",
+   "name": "David Boly",
+   "jersey": "42",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "214596",
+   "name": "Fabián Ruiz",
+   "jersey": "8",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "288897",
+   "name": "Vitinha",
+   "jersey": "17",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "329690",
+   "name": "Maghnes Akliouche",
+   "jersey": "11",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "345581",
+   "name": "Warren Zaïre-Emery",
+   "jersey": "33",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "355061",
+   "name": "João Neves",
+   "jersey": "87",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "379088",
+   "name": "Senny Mayulu",
+   "jersey": "24",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "403578",
+   "name": "Dro Fernández",
+   "jersey": "27",
+   "pos": "M",
+   "photo": "data/photos/ec96601db1b3d7bc.jpg",
+   "injuries": [],
+   "dob": "2001-01-17",
+   "nat": "Argentina",
+   "natCode": "AR",
+   "height": 178,
+   "joined": "2026-09-01",
+   "birthPlace": "San Martín",
+   "posInfo": "Centre Central Midfielder",
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p448047.png"
+  },
+  {
+   "id": "3121652",
+   "name": "Younes Idder",
+   "jersey": "46",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "229744",
+   "name": "Ousmane Dembélé",
+   "jersey": "10",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "265869",
+   "name": "Ferran Torres",
+   "jersey": "9",
+   "pos": "F",
+   "photo": "data/photos/ae2fa00a7391f0ba.jpg",
+   "injuries": [],
+   "dob": "1997-01-16",
+   "nat": "Spain",
+   "natCode": "ES",
+   "height": 192,
+   "joined": "2023-07-12",
+   "birthPlace": "Villarreal",
+   "posInfo": "Central Defender",
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p244954.png"
+  },
+  {
+   "id": "274745",
+   "name": "Khvicha Kvaratskhelia",
+   "jersey": "7",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "336388",
+   "name": "Désiré Doué",
+   "jersey": "14",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "353363",
+   "name": "Mika Godts",
+   "jersey": "22",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "403419",
+   "name": "Quentin Ndjantou",
+   "jersey": "47",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  }
+ ]
+}

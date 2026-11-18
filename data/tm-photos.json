@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-17T22:12:58Z",
+ "updatedAt": "2026-11-18T04:10:41Z",
  "clubs": {
   "manchester united": {
    "id": 985,
@@ -408,70 +408,70 @@
    "id": 1003,
    "slug": "club",
    "name": "Leicester City F.C.",
-   "fetchedAt": "2026-11-10T22:18:21Z",
+   "fetchedAt": "2026-11-18T04:10:41Z",
    "players": {}
   },
   "villarreal": {
    "id": 1050,
    "slug": "club",
    "name": "Villarreal CF",
-   "fetchedAt": "2026-11-10T22:18:21Z",
+   "fetchedAt": "2026-11-18T04:10:41Z",
    "players": {}
   },
   "lask linz": {
    "id": 413,
    "slug": "club",
    "name": "LASK Linz",
-   "fetchedAt": "2026-11-10T22:18:21Z",
+   "fetchedAt": "2026-11-18T04:10:41Z",
    "players": {}
   },
   "paris saint germain": {
    "id": 583,
    "slug": "club",
    "name": "Paris Saint-Germain FC",
-   "fetchedAt": "2026-11-10T22:18:21Z",
+   "fetchedAt": "2026-11-18T04:10:41Z",
    "players": {}
   },
   "norwich city": {
    "id": 1123,
    "slug": "club",
    "name": "Norwich City F.C.",
-   "fetchedAt": "2026-11-10T22:18:21Z",
+   "fetchedAt": "2026-11-18T04:10:41Z",
    "players": {}
   },
   "fc porto": {
    "id": 720,
    "slug": "club",
    "name": "FC Porto",
-   "fetchedAt": "2026-11-10T22:18:21Z",
+   "fetchedAt": "2026-11-18T04:10:41Z",
    "players": {}
   },
   "millwall": {
    "id": 1028,
    "slug": "club",
    "name": "Millwall F.C.",
-   "fetchedAt": "2026-11-10T22:18:21Z",
+   "fetchedAt": "2026-11-18T04:10:41Z",
    "players": {}
   },
   "west bromwich albion": {
    "id": 984,
    "slug": "club",
    "name": "West Bromwich Albion F.C.",
-   "fetchedAt": "2026-11-10T22:18:21Z",
+   "fetchedAt": "2026-11-18T04:10:41Z",
    "players": {}
   },
   "torreense": {
    "id": 2432,
    "slug": "club",
    "name": "S.C.U. Torreense",
-   "fetchedAt": "2026-11-10T22:18:21Z",
+   "fetchedAt": "2026-11-18T04:10:41Z",
    "players": {}
   },
   "az alkmaar": {
    "id": 1090,
    "slug": "club",
    "name": "AZ Alkmaar",
-   "fetchedAt": "2026-11-10T22:18:21Z",
+   "fetchedAt": "2026-11-18T04:10:41Z",
    "players": {}
   },
   "charlton athletic": {
@@ -492,14 +492,14 @@
    "id": 12,
    "slug": "club",
    "name": "AS Roma",
-   "fetchedAt": "2026-11-11T02:43:52Z",
+   "fetchedAt": "2026-11-18T04:10:41Z",
    "players": {}
   },
   "barcelona": {
    "id": 131,
    "slug": "club",
    "name": "FC Barcelona",
-   "fetchedAt": "2026-11-11T02:43:52Z",
+   "fetchedAt": "2026-11-18T04:10:41Z",
    "players": {}
   },
   "slavia prague": {

@@ -1,12 +1,12 @@
 {
- "updatedAt": "2026-11-17T22:12:58Z",
+ "updatedAt": "2026-11-18T04:10:41Z",
  "manager": {
   "name": "Mauricio Pochettino",
   "role": "Manager",
-  "nat": "Spain",
-  "natCode": null,
+  "nat": "Argentina",
+  "natCode": "AR",
   "dob": "1972-03-02",
-  "source": "wikidata"
+  "source": "pl"
  },
  "players": [
   {
@@ -212,7 +212,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 181,
-   "joined": "2024-04-06",
+   "joined": "2024-02-18",
    "birthPlace": "London",
    "posInfo": "Left Full Back",
    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p577974.png"
@@ -308,7 +308,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 180,
-   "joined": "2024-08-19",
+   "joined": "2024-07-12",
    "birthPlace": "Manchester",
    "posInfo": "Centre/Right Attacking Midfielder",
    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p547037.png"
@@ -404,7 +404,7 @@
    "nat": "Scotland",
    "natCode": "GB-SCT",
    "height": 183,
-   "joined": "2025-05-26",
+   "joined": "2024-09-30",
    "birthPlace": "Manchester",
    "posInfo": "Centre Central Midfielder",
    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p519913.png"
@@ -516,7 +516,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 167,
-   "joined": "2025-05-26",
+   "joined": "2023-01-23",
    "birthPlace": "Liverpool",
    "posInfo": "Right Winger",
    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p576628.png"

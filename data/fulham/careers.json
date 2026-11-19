@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-18T21:50:43Z",
+ "updatedAt": "2026-11-19T03:14:49Z",
  "players": {
   "149517": {
    "name": "Benjamin Lecomte",
@@ -734,7 +734,7 @@
    "name": "Bradley Slade",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-11-17T22:12:58Z"
+   "fetchedAt": "2026-11-19T03:14:49Z"
   },
   "12172": {
    "name": "César Palacios",
@@ -1357,7 +1357,7 @@
    "name": "Macauley Zepa",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-11-17T22:12:58Z"
+   "fetchedAt": "2026-11-19T03:14:49Z"
   }
  }
 }

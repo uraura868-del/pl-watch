@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-18T21:50:43Z",
+ "updatedAt": "2026-11-19T03:14:49Z",
  "clubs": {
   "manchester united": {
    "id": 985,
@@ -506,14 +506,14 @@
    "id": 62,
    "slug": "club",
    "name": "SK Slavia Prague",
-   "fetchedAt": "2026-11-12T01:28:50Z",
+   "fetchedAt": "2026-11-19T03:14:49Z",
    "players": {}
   },
   "rb leipzig": {
    "id": 23826,
    "slug": "club",
    "name": "RB Leipzig",
-   "fetchedAt": "2026-11-12T01:28:50Z",
+   "fetchedAt": "2026-11-19T03:14:49Z",
    "players": {}
   },
   "sparta prague": {

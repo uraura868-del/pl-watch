@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-19T03:14:49Z",
+ "updatedAt": "2026-11-19T12:53:05Z",
  "fixtures": [
   {
    "eventId": "401879299",
@@ -443,7 +443,7 @@
   },
   {
    "eventId": "401878726",
-   "date": "2027-01-16T15:00:00Z",
+   "date": "2027-01-17T14:00:00Z",
    "competition": "プレミアリーグ",
    "matchday": null,
    "isHome": false,

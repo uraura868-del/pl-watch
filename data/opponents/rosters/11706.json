@@ -1,0 +1,275 @@
+{
+ "updatedAt": "2026-11-19T21:24:57Z",
+ "id": "11706",
+ "name": "Viktoria Plzen",
+ "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11706.png",
+ "manager": {
+  "name": "Radoslav Kováč",
+  "role": "Manager",
+  "nat": "Czech Republic",
+  "natCode": null,
+  "dob": "1979-11-27",
+  "source": "wikidata"
+ },
+ "players": [
+  {
+   "id": "323283",
+   "name": "Marián Tvrdon",
+   "jersey": "13",
+   "pos": "G",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/316202-1713472041.jpg?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/316202-1713472041.jpg?lm=4711"
+  },
+  {
+   "id": "342725",
+   "name": "Dominik Tapaj",
+   "jersey": "1",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "362826",
+   "name": "Viktor Baier",
+   "jersey": "30",
+   "pos": "G",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/947524-1755081009.jpg?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/947524-1755081009.jpg?lm=4711"
+  },
+  {
+   "id": "387869",
+   "name": "Florian Wiegele",
+   "jersey": "44",
+   "pos": "G",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/393999-1773666827.jpg?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/393999-1773666827.jpg?lm=4711"
+  },
+  {
+   "id": "191176",
+   "name": "Denis Vavro",
+   "jersey": "3",
+   "pos": "D",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/239962-1752735947.jpg?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/239962-1752735947.jpg?lm=4711"
+  },
+  {
+   "id": "274358",
+   "name": "Vaclav Jemelka",
+   "jersey": "21",
+   "pos": "D",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/384879-1727419664.jpg?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/384879-1727419664.jpg?lm=4711"
+  },
+  {
+   "id": "309111",
+   "name": "Adam Gabriel",
+   "jersey": "29",
+   "pos": "D",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/665538-1727290765.jpg?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/665538-1727290765.jpg?lm=4711"
+  },
+  {
+   "id": "320391",
+   "name": "Sampson Dweh",
+   "jersey": "40",
+   "pos": "D",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/686806-1713472232.jpg?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/686806-1713472232.jpg?lm=4711"
+  },
+  {
+   "id": "345320",
+   "name": "Merchas Doski",
+   "jersey": "14",
+   "pos": "D",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/530527-1780662743.jpg?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/530527-1780662743.jpg?lm=4711"
+  },
+  {
+   "id": "360381",
+   "name": "Filip Prebsl",
+   "jersey": "98",
+   "pos": "D",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/728635-1706252244.png?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/728635-1706252244.png?lm=4711"
+  },
+  {
+   "id": "365884",
+   "name": "Jan Paluska",
+   "jersey": "22",
+   "pos": "D",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/931426-1713472140.jpg?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/931426-1713472140.jpg?lm=4711"
+  },
+  {
+   "id": "391012",
+   "name": "Karel Spácil",
+   "jersey": "5",
+   "pos": "D",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/1109671-1702193838.png?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1109671-1702193838.png?lm=4711"
+  },
+  {
+   "id": "405942",
+   "name": "Tobiás Paliscák",
+   "jersey": "2",
+   "pos": "D",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/1187621-1793791036.jpg?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1187621-1793791036.jpg?lm=4711"
+  },
+  {
+   "id": "169214",
+   "name": "Patrik Hrosovský",
+   "jersey": "17",
+   "pos": "M",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/217879-1714038111.png?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/217879-1714038111.png?lm=4711"
+  },
+  {
+   "id": "303726",
+   "name": "Lukás Cerv",
+   "jersey": "6",
+   "pos": "M",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/611049-1659447996.jpg?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/611049-1659447996.jpg?lm=4711"
+  },
+  {
+   "id": "304489",
+   "name": "Cheick Souare",
+   "jersey": "19",
+   "pos": "M",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/569367-1701639955.png?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/569367-1701639955.png?lm=4711"
+  },
+  {
+   "id": "310027",
+   "name": "Denis Visinský",
+   "jersey": "9",
+   "pos": "M",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/652060-1659447783.jpg?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/652060-1659447783.jpg?lm=4711"
+  },
+  {
+   "id": "338199",
+   "name": "Amar Memic",
+   "jersey": "99",
+   "pos": "M",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/638990-1781813641.jpg?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/638990-1781813641.jpg?lm=4711"
+  },
+  {
+   "id": "387865",
+   "name": "Alexandr Sojka",
+   "jersey": "12",
+   "pos": "M",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/826103-1750680908.jpg?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/826103-1750680908.jpg?lm=4711"
+  },
+  {
+   "id": "387866",
+   "name": "Jirí Panos",
+   "jersey": "20",
+   "pos": "M",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/1013804-1754428041.jpg?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1013804-1754428041.jpg?lm=4711"
+  },
+  {
+   "id": "394701",
+   "name": "Stefan Pirgic",
+   "jersey": "36",
+   "pos": "M",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/845857-1737834812.jpg?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/845857-1737834812.jpg?lm=4711"
+  },
+  {
+   "id": "148624",
+   "name": "Matej Vydra",
+   "jersey": "11",
+   "pos": "F",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/101500-1520420314.jpg?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/101500-1520420314.jpg?lm=4711"
+  },
+  {
+   "id": "290630",
+   "name": "Tomás Ladra",
+   "jersey": "18",
+   "pos": "F",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/334803-1702842456.png?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/334803-1702842456.png?lm=4711"
+  },
+  {
+   "id": "362666",
+   "name": "Salim Lawal",
+   "jersey": "7",
+   "pos": "F",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/1129903-1768658306.jpg?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1129903-1768658306.jpg?lm=4711"
+  },
+  {
+   "id": "370742",
+   "name": "Christophe Kabongo",
+   "jersey": "25",
+   "pos": "F",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/707347-1596835050.jpg?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/707347-1596835050.jpg?lm=4711"
+  },
+  {
+   "id": "387861",
+   "name": "Prince Adu",
+   "jersey": "80",
+   "pos": "F",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/734799-1780561982.jpg?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/734799-1780561982.jpg?lm=4711"
+  },
+  {
+   "id": "3098533",
+   "name": "Mohamed Toure",
+   "jersey": "10",
+   "pos": "F",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/1305470-1744276943.png?lm=4711",
+   "injuries": [],
+   "dob": "2006-03-02",
+   "nat": "Cote D’Ivoire",
+   "natCode": "CI",
+   "height": 178,
+   "joined": "2026-07-05",
+   "birthPlace": "Bouaké",
+   "posInfo": "Left Winger",
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1305470-1744276943.png?lm=4711"
+  },
+  {
+   "id": "3098951",
+   "name": "Baboucarr Faal",
+   "jersey": "23",
+   "pos": "F",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/1111025-1740315142.png?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1111025-1740315142.png?lm=4711"
+  }
+ ]
+}

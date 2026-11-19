@@ -1,0 +1,291 @@
+{
+ "updatedAt": "2026-11-19T21:24:57Z",
+ "id": "174",
+ "name": "AS Monaco",
+ "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
+ "manager": {
+  "name": "Filipe Luís",
+  "role": "Manager",
+  "nat": "Brazil",
+  "natCode": null,
+  "dob": "1985-08-09",
+  "source": "wikidata"
+ },
+ "players": [
+  {
+   "id": "134169",
+   "name": "Lukas Hradecky",
+   "jersey": "1",
+   "pos": "G",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/48015-1695367833.jpg?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/48015-1695367833.jpg?lm=4711"
+  },
+  {
+   "id": "258875",
+   "name": "Philipp Köhn",
+   "jersey": "16",
+   "pos": "G",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/251322-1661531623.png?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/251322-1661531623.png?lm=4711"
+  },
+  {
+   "id": "388329",
+   "name": "Jules Stawiecki",
+   "jersey": "40",
+   "pos": "G",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/1075582-1779871264.jpg?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1075582-1779871264.jpg?lm=4711"
+  },
+  {
+   "id": "155532",
+   "name": "Eric Dier",
+   "jersey": "3",
+   "pos": "D",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/175722-1665608595.jpg?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/175722-1665608595.jpg?lm=4711"
+  },
+  {
+   "id": "240660",
+   "name": "Jordan Teze",
+   "jersey": "4",
+   "pos": "D",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/364245-1707214531.jpg?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/364245-1707214531.jpg?lm=4711"
+  },
+  {
+   "id": "277718",
+   "name": "Mohammed Salisu",
+   "jersey": "22",
+   "pos": "D",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/563963-1668428508.jpg?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/563963-1668428508.jpg?lm=4711"
+  },
+  {
+   "id": "310640",
+   "name": "Vanderson",
+   "jersey": "2",
+   "pos": "D",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/789082-1794910280.jpg?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/789082-1794910280.jpg?lm=4711"
+  },
+  {
+   "id": "316559",
+   "name": "Názinho",
+   "jersey": "20",
+   "pos": "D",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/668587-1772556287.jpg?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/668587-1772556287.jpg?lm=4711"
+  },
+  {
+   "id": "350525",
+   "name": "Christian Mawissa",
+   "jersey": "13",
+   "pos": "D",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/1005240-1708555606.jpg?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1005240-1708555606.jpg?lm=4711"
+  },
+  {
+   "id": "362288",
+   "name": "Sadibou Sané",
+   "jersey": "72",
+   "pos": "D",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/1111777-1697462116.png?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1111777-1697462116.png?lm=4711"
+  },
+  {
+   "id": "38721",
+   "name": "Lamine Camara",
+   "jersey": "15",
+   "pos": "M",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/918969-1726834088.jpg?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/918969-1726834088.jpg?lm=4711"
+  },
+  {
+   "id": "159348",
+   "name": "Takumi Minamino",
+   "jersey": "18",
+   "pos": "M",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/165793-1737490576.jpg?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/165793-1737490576.jpg?lm=4711"
+  },
+  {
+   "id": "195501",
+   "name": "Aleksandr Golovin",
+   "jersey": "10",
+   "pos": "M",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/263918-1790708734.png?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/263918-1790708734.png?lm=4711"
+  },
+  {
+   "id": "208518",
+   "name": "Mamadou Coulibaly",
+   "jersey": "28",
+   "pos": "M",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/745173-1693947752.png?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/745173-1693947752.png?lm=4711"
+  },
+  {
+   "id": "222628",
+   "name": "Denis Zakaria",
+   "jersey": "6",
+   "pos": "M",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/334526-1780491997.jpg?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/334526-1780491997.jpg?lm=4711"
+  },
+  {
+   "id": "345645",
+   "name": "Edan Diop",
+   "jersey": "37",
+   "pos": "M",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/745178-1757426837.jpg?lm=4711",
+   "injuries": [],
+   "dob": "1997-01-09",
+   "nat": "Morocco",
+   "natCode": "MA",
+   "height": 194,
+   "joined": "2026-07-22",
+   "birthPlace": "Toulouse",
+   "posInfo": "Centre Central Defender",
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/745178-1757426837.jpg?lm=4711"
+  },
+  {
+   "id": "356925",
+   "name": "Stanis Idumbo",
+   "jersey": "17",
+   "pos": "M",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/743387-1652692759.jpg?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/743387-1652692759.jpg?lm=4711"
+  },
+  {
+   "id": "388328",
+   "name": "Samuel Nibombé",
+   "jersey": "44",
+   "pos": "M",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/981700-1693953677.png?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/981700-1693953677.png?lm=4711"
+  },
+  {
+   "id": "411027",
+   "name": "Ilane Touré",
+   "jersey": "49",
+   "pos": "M",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p611665.png",
+   "injuries": [],
+   "dob": "2006-03-02",
+   "nat": "Cote D’Ivoire",
+   "natCode": "CI",
+   "height": 178,
+   "joined": "2026-07-05",
+   "birthPlace": "Bouaké",
+   "posInfo": "Left Winger",
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p611665.png"
+  },
+  {
+   "id": "411449",
+   "name": "Pape Cabral",
+   "jersey": "19",
+   "pos": "M",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/1075588-1693953767.png?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1075588-1693953767.png?lm=4711"
+  },
+  {
+   "id": "3124793",
+   "name": "Aymen Assab",
+   "jersey": "41",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "3124794",
+   "name": "Safouane Benzahra",
+   "jersey": "47",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "3124795",
+   "name": "Anis Soubeir",
+   "jersey": "46",
+   "pos": "M",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/1307000-1788969230.jpg?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1307000-1788969230.jpg?lm=4711"
+  },
+  {
+   "id": "282643",
+   "name": "Folarin Balogun",
+   "jersey": "9",
+   "pos": "F",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/503770-1672838317.jpg?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/503770-1672838317.jpg?lm=4711"
+  },
+  {
+   "id": "292957",
+   "name": "Ansu Fati",
+   "jersey": "31",
+   "pos": "F",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/466810-1721828228.jpg?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/466810-1721828228.jpg?lm=4711"
+  },
+  {
+   "id": "308552",
+   "name": "Mika Biereth",
+   "jersey": "14",
+   "pos": "F",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/565821-1736777758.jpg?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/565821-1736777758.jpg?lm=4711"
+  },
+  {
+   "id": "318389",
+   "name": "Matthis Abline",
+   "jersey": "11",
+   "pos": "F",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/659543-1704213657.jpg?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/659543-1704213657.jpg?lm=4711"
+  },
+  {
+   "id": "365789",
+   "name": "Paris Brunner",
+   "jersey": "29",
+   "pos": "F",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/918414-1790256791.jpg?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/918414-1790256791.jpg?lm=4711"
+  },
+  {
+   "id": "397994",
+   "name": "Mathys Detourbet",
+   "jersey": "7",
+   "pos": "F",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/1171981-1749199277.jpg?lm=4711",
+   "injuries": [],
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1171981-1749199277.jpg?lm=4711"
+  }
+ ]
+}

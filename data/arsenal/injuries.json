@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-19T21:24:57Z",
+ "updatedAt": "2026-11-20T03:02:09Z",
  "fetchedOk": true,
  "players": [
   {
@@ -11,7 +11,7 @@
    "until": "2026-11-20",
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-19",
-   "active": true
+   "active": false
   },
   {
    "name": "Christos Tzolis",
@@ -30,10 +30,10 @@
    "reasonJa": "太ももの負傷",
    "type": "負傷",
    "since": "2026-10-23",
-   "until": "2026-12-31",
+   "until": "2026-11-19",
    "firstSeen": "2026-11-13",
    "lastSeen": "2026-11-19",
-   "active": true
+   "active": false
   },
   {
    "name": "Ezri Konsa",

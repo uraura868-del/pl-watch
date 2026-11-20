@@ -1,0 +1,336 @@
+{
+ "updatedAt": "2026-11-20T03:02:09Z",
+ "id": "103",
+ "name": "AC Milan",
+ "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
+ "manager": {
+  "name": "Ruben Amorim",
+  "role": "Manager",
+  "nat": "Portugal",
+  "natCode": null,
+  "dob": "1985-01-27",
+  "source": "wikidata"
+ },
+ "players": [
+  {
+   "id": "143100",
+   "name": "Pietro Terracciano",
+   "jersey": "1",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "189026",
+   "name": "Mike Maignan",
+   "jersey": "16",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "384305",
+   "name": "Lorenzo Torriani",
+   "jersey": "96",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "403839",
+   "name": "Léo-Paul Bouyer",
+   "jersey": "41",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "407906",
+   "name": "Matteo Pittarella",
+   "jersey": "37",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "214689",
+   "name": "Pervis Estupiñán",
+   "jersey": "2",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "236210",
+   "name": "Fikayo Tomori",
+   "jersey": "23",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "255922",
+   "name": "Matteo Gabbia",
+   "jersey": "46",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "290375",
+   "name": "Strahinja Pavlovic",
+   "jersey": "31",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "303919",
+   "name": "Filippo Terracciano",
+   "jersey": "42",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "309570",
+   "name": "Koni De Winter",
+   "jersey": "5",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "324097",
+   "name": "Mario Gila",
+   "jersey": "34",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "345637",
+   "name": "Davide Bartesaghi",
+   "jersey": "33",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "388239",
+   "name": "Sankhoun Diawara",
+   "jersey": "13",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "409491",
+   "name": "Valeri Vladimirov",
+   "jersey": "34",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "5326343",
+   "name": "El Hadji Malick Cissé",
+   "jersey": "48",
+   "pos": "D",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p671103.png",
+   "injuries": [],
+   "dob": "2005-08-04",
+   "nat": "Senegal",
+   "natCode": "SN",
+   "height": 191,
+   "joined": "2026-07-01",
+   "birthPlace": "Dakar",
+   "posInfo": "Central Defender",
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p671103.png"
+  },
+  {
+   "id": "5326344",
+   "name": "Nirash Raffaello Perera",
+   "jersey": "47",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "76762",
+   "name": "Luka Modric",
+   "jersey": "14",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "176203",
+   "name": "Adrien Rabiot",
+   "jersey": "12",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "186505",
+   "name": "Ruben Loftus-Cheek",
+   "jersey": "8",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "225607",
+   "name": "Christian Pulisic",
+   "jersey": "11",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "303973",
+   "name": "Ardon Jashari",
+   "jersey": "30",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "307527",
+   "name": "Yunus Musah",
+   "jersey": "80",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "335207",
+   "name": "Silvano Vos",
+   "jersey": "55",
+   "pos": "M",
+   "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/335207.png",
+   "injuries": [],
+   "photoSrc": "https://a.espncdn.com/i/headshots/soccer/players/full/335207.png"
+  },
+  {
+   "id": "359754",
+   "name": "Alphadjo Cissè",
+   "jersey": "70",
+   "pos": "M",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p671103.png",
+   "injuries": [],
+   "dob": "2005-08-04",
+   "nat": "Senegal",
+   "natCode": "SN",
+   "height": 191,
+   "joined": "2026-07-01",
+   "birthPlace": "Dakar",
+   "posInfo": "Central Defender",
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p671103.png"
+  },
+  {
+   "id": "403807",
+   "name": "Christian Comotto",
+   "jersey": "28",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "3110063",
+   "name": "Lorenzo Ossola",
+   "jersey": "40",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "228298",
+   "name": "Samuel Chukwueze",
+   "jersey": "21",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "271132",
+   "name": "Alexis Saelemaekers",
+   "jersey": "56",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "288896",
+   "name": "Gonçalo Ramos",
+   "jersey": "9",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "322771",
+   "name": "Omari Hutchinson",
+   "jersey": "20",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "340678",
+   "name": "Diego Moreira",
+   "jersey": "22",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "377563",
+   "name": "Francesco Camarda",
+   "jersey": "73",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "5326345",
+   "name": "Luca Menon",
+   "jersey": "49",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  }
+ ]
+}

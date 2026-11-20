@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-19T21:24:57Z",
+ "updatedAt": "2026-11-20T03:02:09Z",
  "fetchedOk": true,
  "players": [
   {
@@ -11,7 +11,7 @@
    "until": "2026-11-20",
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-19",
-   "active": true
+   "active": false
   },
   {
    "name": "Evan Ferguson",
@@ -22,7 +22,7 @@
    "until": "2026-11-20",
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-19",
-   "active": true
+   "active": false
   },
   {
    "name": "Kaoru Mitoma",
@@ -30,10 +30,10 @@
    "reasonJa": "ハムストリング負傷",
    "type": "負傷",
    "since": "2026-05-10",
-   "until": "2026-11-22",
+   "until": "2026-11-19",
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-19",
-   "active": true
+   "active": false
   },
   {
    "name": "Pascal Struijk",
@@ -41,10 +41,10 @@
    "reasonJa": "太ももの負傷",
    "type": "負傷",
    "since": "2026-10-12",
-   "until": "2026-11-22",
+   "until": "2026-11-19",
    "firstSeen": "2026-11-13",
    "lastSeen": "2026-11-19",
-   "active": true
+   "active": false
   },
   {
    "name": "Zadok Yohanna",
@@ -52,10 +52,10 @@
    "reasonJa": "コンディション不良",
    "type": "負傷",
    "since": "2026-10-12",
-   "until": null,
+   "until": "2026-11-19",
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-19",
-   "active": true
+   "active": false
   },
   {
    "name": "Femi Azeez",
@@ -63,10 +63,10 @@
    "reasonJa": "コンディション不良",
    "type": "負傷",
    "since": "2026-10-16",
-   "until": "2026-11-22",
+   "until": "2026-11-19",
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-19",
-   "active": true
+   "active": false
   },
   {
    "name": "Ferdi Kadıoğlu",

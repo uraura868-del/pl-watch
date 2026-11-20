@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-17T03:43:21Z",
+ "updatedAt": "2026-11-20T11:24:03Z",
  "id": "2250",
  "name": "Sporting CP",
  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
@@ -121,7 +121,7 @@
   {
    "id": "394429",
    "name": "Lucas Taibo",
-   "jersey": null,
+   "jersey": "95",
    "pos": "D",
    "photo": null,
    "injuries": [],
@@ -200,7 +200,7 @@
   {
    "id": "309478",
    "name": "Mateo Tanlongo",
-   "jersey": null,
+   "jersey": "40",
    "pos": "M",
    "photo": null,
    "injuries": [],
@@ -297,7 +297,7 @@
   {
    "id": "349812",
    "name": "Mauro Couto",
-   "jersey": null,
+   "jersey": "78",
    "pos": "F",
    "photo": null,
    "injuries": [],
@@ -351,7 +351,7 @@
   {
    "id": "3124013",
    "name": "Paulo Yanick Moreno Vieira Sanches Cardoso",
-   "jersey": null,
+   "jersey": "87",
    "pos": "F",
    "photo": null,
    "injuries": [],

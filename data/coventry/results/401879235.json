@@ -1,0 +1,52 @@
+{
+ "eventId": "401879235",
+ "date": "2026-11-21T15:00:00Z",
+ "opponent": {
+  "name": "Crystal Palace",
+  "abbr": "CRY"
+ },
+ "isHome": true,
+ "score": {
+  "us": 3,
+  "opp": 2
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Taiwo Awoniyi",
+   "assist": "Jack Rudoni",
+   "minute": "5'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Yéremy Pino",
+   "assist": "Jørgen Strand Larsen",
+   "minute": "13'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Tatsuhiro Sakamoto",
+   "assist": "Jack Rudoni",
+   "minute": "30'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Jørgen Strand Larsen",
+   "assist": "Yéremy Pino",
+   "minute": "45'+1'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Dwight McNeil",
+   "assist": null,
+   "minute": "85'",
+   "kind": "og"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

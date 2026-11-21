@@ -1,0 +1,31 @@
+{
+ "eventId": "401879233",
+ "date": "2026-11-21T12:30:00Z",
+ "opponent": {
+  "name": "Manchester City",
+  "abbr": "MNC"
+ },
+ "isHome": false,
+ "score": {
+  "us": 1,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Rodrigo Muniz",
+   "assist": "Oscar Bobb",
+   "minute": "16'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Elliot Anderson",
+   "assist": null,
+   "minute": "57'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

@@ -1,0 +1,16 @@
+{
+ "eventId": "401878756",
+ "date": "2026-11-21T15:00:00Z",
+ "opponent": {
+  "name": "Sunderland",
+  "abbr": "SUN"
+ },
+ "isHome": true,
+ "score": {
+  "us": 0,
+  "opp": 0
+ },
+ "goals": [],
+ "redCards": [],
+ "source": "ESPN"
+}

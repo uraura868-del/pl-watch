@@ -1,0 +1,31 @@
+{
+ "eventId": "401879238",
+ "date": "2026-11-21T15:00:00Z",
+ "opponent": {
+  "name": "Nottingham Forest",
+  "abbr": "NFO"
+ },
+ "isHome": true,
+ "score": {
+  "us": 2,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Evanilson",
+   "assist": "James Hill",
+   "minute": "19'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Justin Kluivert",
+   "assist": "Marcus Tavernier",
+   "minute": "45'+3'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

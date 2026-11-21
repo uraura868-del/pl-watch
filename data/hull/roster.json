@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-21T09:38:39Z",
+ "updatedAt": "2026-11-21T17:23:01Z",
  "manager": {
   "name": "Sergej Jakirovic",
   "role": "Manager",
@@ -20,7 +20,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 196,
-   "joined": "2026-11-01",
+   "joined": "2026-07-02",
    "birthPlace": "Bristol",
    "posInfo": "Goalkeeper",
    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/128899-1672916012.jpg?lm=4711"
@@ -132,7 +132,7 @@
    "nat": "Northern Ireland",
    "natCode": "GB-NIR",
    "height": 183,
-   "joined": "2026-11-01",
+   "joined": "2026-01-28",
    "birthPlace": null,
    "posInfo": "Central Defender",
    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/167268-1741027527.jpg?lm=4711"
@@ -356,7 +356,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 196,
-   "joined": "2026-11-01",
+   "joined": "2025-09-01",
    "birthPlace": null,
    "posInfo": "Centre Central Midfielder",
    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/663264-1656928941.jpg?lm=4711"
@@ -388,7 +388,7 @@
    "nat": "Ecuador",
    "natCode": "EC",
    "height": 172,
-   "joined": "2026-11-01",
+   "joined": "2026-07-21",
    "birthPlace": null,
    "posInfo": "Defensive Midfielder",
    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/893658-1718722748.jpg?lm=4711"
@@ -404,7 +404,7 @@
    "nat": "Norway",
    "natCode": "NO",
    "height": null,
-   "joined": "2026-11-01",
+   "joined": "2026-08-07",
    "birthPlace": null,
    "posInfo": "Central Midfielder",
    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/923535-1711151620.jpg?lm=4711"
@@ -436,7 +436,7 @@
    "nat": "Greece",
    "natCode": "GR",
    "height": null,
-   "joined": "2026-11-01",
+   "joined": "2026-09-01",
    "birthPlace": null,
    "posInfo": "Centre Central Midfielder",
    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/964426-1784902252.png?lm=4711"
@@ -548,7 +548,7 @@
    "nat": "France",
    "natCode": "FR",
    "height": 185,
-   "joined": "2026-11-01",
+   "joined": "2026-09-01",
    "birthPlace": "Mantes-la-Jolie",
    "posInfo": "Centre Striker",
    "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1131161-1761232363.jpg?lm=4711"

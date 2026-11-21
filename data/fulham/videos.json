@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-21T09:38:39Z",
+ "updatedAt": "2026-11-21T17:23:01Z",
  "enabled": true,
  "players": {
   "149517": {
@@ -720,6 +720,31 @@
     }
    ],
    "fetchedAt": "2026-10-29T12:51:30Z"
+  },
+  "379392": {
+   "name": "Dino Kaiser",
+   "query": "Dino Kaiser skills",
+   "videos": [
+    {
+     "id": "boPOfUvvwXk",
+     "title": "asi FUE como se CREO la MEJOR HABILIDAD de KASIER el IMPACTUS MAGNUS #shorts #bluelock #manga #isagi",
+     "channel": "El Dino Otaku ",
+     "publishedAt": "2025-06-23"
+    },
+    {
+     "id": "bSW0wQhZZ5E",
+     "title": "How many Correct Answers did you get? Dinocore Playtime Animation",
+     "channel": "ENJO DinoCore Cartoon",
+     "publishedAt": "2022-09-22"
+    },
+    {
+     "id": "gPxSGGDagAY",
+     "title": "The Hardest Skill in FC 25",
+     "channel": "TFVGaming",
+     "publishedAt": "2023-10-08"
+    }
+   ],
+   "fetchedAt": "2026-11-21T17:23:01Z"
   }
  }
 }

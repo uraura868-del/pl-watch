@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-21T09:38:39Z",
+ "updatedAt": "2026-11-21T17:23:01Z",
  "manager": {
   "name": "Álvaro Arbeloa",
   "role": "Manager",
@@ -56,6 +56,22 @@
    "birthPlace": "New Jersey",
    "posInfo": "Goalkeeper",
    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p468682.png"
+  },
+  {
+   "id": "379392",
+   "name": "Dino Kaiser",
+   "jersey": "37",
+   "pos": "G",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p605845.png",
+   "injuries": [],
+   "dob": "2007-02-09",
+   "nat": "Bosnia & Herzegovina",
+   "natCode": "BA",
+   "height": null,
+   "joined": "2026-11-20",
+   "birthPlace": null,
+   "posInfo": "Goalkeeper",
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p605845.png"
   },
   {
    "id": "190974",
@@ -356,7 +372,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": null,
-   "joined": "2022-12-15",
+   "joined": "2026-08-26",
    "birthPlace": null,
    "posInfo": "Centre Central Midfielder",
    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p552006.png"
@@ -452,7 +468,7 @@
    "nat": "Sweden",
    "natCode": "SE",
    "height": 196,
-   "joined": "2025-11-24",
+   "joined": "2026-06-27",
    "birthPlace": "Solna",
    "posInfo": "Striker",
    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p631786.png"
@@ -468,7 +484,7 @@
    "nat": "Cameroon",
    "natCode": "CM",
    "height": null,
-   "joined": "2024-09-23",
+   "joined": "2026-07-06",
    "birthPlace": null,
    "posInfo": "Right Winger",
    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p616069.png"

@@ -1,0 +1,52 @@
+{
+ "eventId": "401879236",
+ "date": "2026-11-21T15:00:00Z",
+ "opponent": {
+  "name": "Chelsea",
+  "abbr": "CHE"
+ },
+ "isHome": false,
+ "score": {
+  "us": 4,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Emmanuel Emegha",
+   "assist": "Morgan Rogers",
+   "minute": "25'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Noah Okafor",
+   "assist": "Dominic Calvert-Lewin",
+   "minute": "28'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Dominic Calvert-Lewin",
+   "assist": null,
+   "minute": "53'",
+   "kind": "pen"
+  },
+  {
+   "side": "us",
+   "scorer": "Noah Okafor",
+   "assist": null,
+   "minute": "58'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Brenden Aaronson",
+   "assist": "Harry Wilson",
+   "minute": "90'+1'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

@@ -1,0 +1,31 @@
+{
+ "eventId": "401878754",
+ "date": "2026-11-21T15:00:00Z",
+ "opponent": {
+  "name": "Tottenham Hotspur",
+  "abbr": "TOT"
+ },
+ "isHome": false,
+ "score": {
+  "us": 0,
+  "opp": 2
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Luca Williams-Barnett",
+   "assist": "Pedro Porro",
+   "minute": "15'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Dominic Solanke",
+   "assist": null,
+   "minute": "51'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

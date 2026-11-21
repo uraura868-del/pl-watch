@@ -1,0 +1,45 @@
+{
+ "eventId": "401879232",
+ "date": "2026-11-21T17:30:00Z",
+ "opponent": {
+  "name": "Newcastle United",
+  "abbr": "NEW"
+ },
+ "isHome": false,
+ "score": {
+  "us": 2,
+  "opp": 2
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Eberechi Eze",
+   "assist": "Kai Havertz",
+   "minute": "33'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Harvey Barnes",
+   "assist": "William Osula",
+   "minute": "49'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Malick Thiaw",
+   "assist": "Joe Willock",
+   "minute": "62'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Noni Madueke",
+   "assist": "Martin Ødegaard",
+   "minute": "78'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

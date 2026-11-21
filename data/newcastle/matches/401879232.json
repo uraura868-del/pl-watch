@@ -1,8 +1,8 @@
 {
  "eventId": "401879232",
  "date": "2026-11-21T17:30:00Z",
- "final": false,
- "updatedAt": "2026-11-21T17:23:01Z",
+ "final": true,
+ "updatedAt": "2026-11-21T23:05:46Z",
  "team": {
   "formation": "4-2-3-1",
   "rows": [
@@ -10,19 +10,19 @@
     "319267"
    ],
    [
-    "308979",
     "106139",
+    "198138",
     "303444",
-    "198138"
-   ],
-   [
-    "259517",
-    "243386"
+    "308979"
    ],
    [
     "349078",
-    "172836",
     "384372"
+   ],
+   [
+    "243386",
+    "259517",
+    "172836"
    ],
    [
     "319431"
@@ -39,85 +39,67 @@
     "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p470551.png"
    },
    {
-    "id": "303444",
-    "name": "Malick Thiaw",
-    "jersey": "12",
-    "pos": "D",
-    "starter": true,
-    "place": "5",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p465642.png"
-   },
-   {
-    "id": "308979",
-    "name": "Amar Dedic",
-    "jersey": "37",
-    "pos": "D",
-    "starter": true,
-    "place": "2",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p463726.png"
-   },
-   {
-    "id": "106139",
-    "name": "Lewis Hall",
-    "jersey": "3",
-    "pos": "D",
-    "starter": true,
-    "place": "3",
-    "photo": "data/photos/ac4b1686737f1823.jpg"
-   },
-   {
     "id": "198138",
     "name": "Dan Burn",
     "jersey": "33",
-    "pos": "D",
+    "pos": "CD-L",
     "starter": true,
     "place": "6",
     "photo": "data/photos/9b7eb30e6871c21e.jpg"
    },
    {
-    "id": "384372",
-    "name": "Sean Steur",
-    "jersey": "14",
-    "pos": "M",
+    "id": "303444",
+    "name": "Malick Thiaw",
+    "jersey": "12",
+    "pos": "CD-R",
     "starter": true,
-    "place": "8",
-    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p636852.png"
+    "place": "5",
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p465642.png"
+   },
+   {
+    "id": "106139",
+    "name": "Lewis Hall",
+    "jersey": "3",
+    "pos": "LB",
+    "starter": true,
+    "place": "3",
+    "photo": "data/photos/ac4b1686737f1823.jpg"
+   },
+   {
+    "id": "308979",
+    "name": "Amar Dedic",
+    "jersey": "37",
+    "pos": "RB",
+    "starter": true,
+    "place": "2",
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p463726.png"
    },
    {
     "id": "259517",
     "name": "Joe Willock",
     "jersey": "28",
-    "pos": "M",
+    "pos": "AM",
     "starter": true,
     "place": "10",
     "photo": "data/photos/04221aa4b93a707b.jpg"
    },
    {
-    "id": "243386",
-    "name": "Harvey Barnes",
-    "jersey": "11",
-    "pos": "M",
-    "starter": true,
-    "place": "11",
-    "photo": "data/photos/193b24ba97d5aedc.jpg"
-   },
-   {
     "id": "349078",
     "name": "Lewis Miley",
     "jersey": "67",
-    "pos": "M",
+    "pos": "LM",
     "starter": true,
     "place": "4",
     "photo": "data/photos/399640425ad15a8a.jpg"
    },
    {
-    "id": "172836",
-    "name": "Jacob Murphy",
-    "jersey": "23",
-    "pos": "M",
+    "id": "384372",
+    "name": "Sean Steur",
+    "jersey": "14",
+    "pos": "RM",
     "starter": true,
-    "place": "7",
-    "photo": "data/photos/1ede2ccd0dcc656a.jpg"
+    "place": "8",
+    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p636852.png"
    },
    {
     "id": "319431",
@@ -127,6 +109,24 @@
     "starter": true,
     "place": "9",
     "photo": "data/photos/4187370502f37140.jpg"
+   },
+   {
+    "id": "243386",
+    "name": "Harvey Barnes",
+    "jersey": "11",
+    "pos": "AM-L",
+    "starter": true,
+    "place": "11",
+    "photo": "data/photos/193b24ba97d5aedc.jpg"
+   },
+   {
+    "id": "172836",
+    "name": "Jacob Murphy",
+    "jersey": "23",
+    "pos": "AM-R",
+    "starter": true,
+    "place": "7",
+    "photo": "data/photos/1ede2ccd0dcc656a.jpg"
    }
   ],
   "bench": [
@@ -222,19 +222,19 @@
     "196176"
    ],
    [
-    "282716",
     "298329",
+    "236322",
     "231859",
-    "236322"
-   ],
-   [
-    "203669",
-    "251400"
+    "282716"
    ],
    [
     "238262",
-    "293236",
     "218522"
+   ],
+   [
+    "251400",
+    "203669",
+    "293236"
    ],
    [
     "231182"
@@ -252,10 +252,30 @@
     "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p154561.png"
    },
    {
+    "id": "236322",
+    "name": "Gabriel Magalhães",
+    "jersey": "6",
+    "pos": "CD-L",
+    "starter": true,
+    "place": "6",
+    "photo": "data/photos/8bbc7cbfaf07b02e.jpg",
+    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p226597.png"
+   },
+   {
+    "id": "231859",
+    "name": "Ezri Konsa",
+    "jersey": "15",
+    "pos": "CD-R",
+    "starter": true,
+    "place": "5",
+    "photo": "data/photos/67d7ba689f33462e.jpg",
+    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p199798.png"
+   },
+   {
     "id": "298329",
     "name": "Riccardo Calafiori",
     "jersey": "33",
-    "pos": "D",
+    "pos": "LB",
     "starter": true,
     "place": "3",
     "photo": "data/photos/e194b3bded6ecf87.jpg",
@@ -265,81 +285,41 @@
     "id": "282716",
     "name": "Jurriën Timber",
     "jersey": "12",
-    "pos": "D",
+    "pos": "RB",
     "starter": true,
     "place": "2",
     "photo": "data/photos/ee744cd23d79c88e.jpg",
     "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p445122.png"
    },
    {
-    "id": "231859",
-    "name": "Ezri Konsa",
-    "jersey": "15",
-    "pos": "D",
+    "id": "203669",
+    "name": "Martin Ødegaard",
+    "jersey": "8",
+    "pos": "AM",
     "starter": true,
-    "place": "5",
-    "photo": "data/photos/67d7ba689f33462e.jpg",
-    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p199798.png"
-   },
-   {
-    "id": "236322",
-    "name": "Gabriel Magalhães",
-    "jersey": "6",
-    "pos": "D",
-    "starter": true,
-    "place": "6",
-    "photo": "data/photos/8bbc7cbfaf07b02e.jpg",
-    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p226597.png"
-   },
-   {
-    "id": "218522",
-    "name": "Bruno Guimarães",
-    "jersey": "39",
-    "pos": "M",
-    "starter": true,
-    "place": "8",
-    "photo": "data/photos/40c0b2acc58b53dc.jpg",
-    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p208706.png"
-   },
-   {
-    "id": "251400",
-    "name": "Eberechi Eze",
-    "jersey": "10",
-    "pos": "M",
-    "starter": true,
-    "place": "11",
-    "photo": "data/photos/9549b4f0e4643742.jpg",
-    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p232413.png"
-   },
-   {
-    "id": "293236",
-    "name": "Noni Madueke",
-    "jersey": "20",
-    "pos": "M",
-    "starter": true,
-    "place": "7",
-    "photo": "data/photos/ba5d3b53d23e94a4.jpg",
-    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p248857.png"
+    "place": "10",
+    "photo": "data/photos/e3169a34b3df9b87.jpg",
+    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p184029.png"
    },
    {
     "id": "238262",
     "name": "Declan Rice",
     "jersey": "41",
-    "pos": "M",
+    "pos": "LM",
     "starter": true,
     "place": "4",
     "photo": "data/photos/f1d647592972e991.jpg",
     "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p204480.png"
    },
    {
-    "id": "203669",
-    "name": "Martin Ødegaard",
-    "jersey": "8",
-    "pos": "M",
+    "id": "218522",
+    "name": "Bruno Guimarães",
+    "jersey": "39",
+    "pos": "RM",
     "starter": true,
-    "place": "10",
-    "photo": "data/photos/e3169a34b3df9b87.jpg",
-    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p184029.png"
+    "place": "8",
+    "photo": "data/photos/40c0b2acc58b53dc.jpg",
+    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p208706.png"
    },
    {
     "id": "231182",
@@ -350,6 +330,26 @@
     "place": "9",
     "photo": "data/photos/8777695a2165385f.jpg",
     "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p219847.png"
+   },
+   {
+    "id": "251400",
+    "name": "Eberechi Eze",
+    "jersey": "10",
+    "pos": "AM-L",
+    "starter": true,
+    "place": "11",
+    "photo": "data/photos/9549b4f0e4643742.jpg",
+    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p232413.png"
+   },
+   {
+    "id": "293236",
+    "name": "Noni Madueke",
+    "jersey": "20",
+    "pos": "AM-R",
+    "starter": true,
+    "place": "7",
+    "photo": "data/photos/ba5d3b53d23e94a4.jpg",
+    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p248857.png"
    }
   ],
   "bench": [

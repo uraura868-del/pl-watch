@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-21T17:23:01Z",
+ "updatedAt": "2026-11-21T23:05:46Z",
  "fixtures": [
   {
    "eventId": "401879319",
@@ -274,11 +274,11 @@
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png"
    },
    "venue": "St. James' Park",
-   "status": "scheduled",
+   "status": "played",
    "league": "eng.1",
    "compShort": "PL",
-   "hasStats": false,
-   "hasResult": false,
+   "hasStats": true,
+   "hasResult": true,
    "hasLineup": true
   },
   {

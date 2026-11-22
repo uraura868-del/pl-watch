@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-22T03:03:44Z",
+ "updatedAt": "2026-11-22T11:09:34Z",
  "players": {
   "david raya": {
    "name": "David Raya",
@@ -439,7 +439,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": null,
-   "joined": "2025-02-06",
+   "joined": "2026-10-26",
    "birthPlace": "Cambridge",
    "posInfo": "Left Full Back"
   },
@@ -751,7 +751,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 193,
-   "joined": "2025-08-14",
+   "joined": "2026-07-01",
    "birthPlace": null,
    "posInfo": "Goalkeeper"
   },
@@ -2298,7 +2298,7 @@
    "nat": "Australia",
    "natCode": "AU",
    "height": 187,
-   "joined": "2024-01-26",
+   "joined": "2026-10-21",
    "birthPlace": null,
    "posInfo": "Goalkeeper"
   },
@@ -2688,7 +2688,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 187,
-   "joined": "2025-01-30",
+   "joined": "2026-07-01",
    "birthPlace": "Sydney",
    "posInfo": "Central Midfielder"
   },
@@ -2701,7 +2701,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 187,
-   "joined": "2025-01-30",
+   "joined": "2026-07-01",
    "birthPlace": "Sydney",
    "posInfo": "Central Midfielder"
   },
@@ -3546,7 +3546,7 @@
    "nat": "United States",
    "natCode": "US",
    "height": 180,
-   "joined": "2026-08-21",
+   "joined": "2026-08-18",
    "birthPlace": "West Valley City",
    "posInfo": "Right Winger"
   },
@@ -3624,7 +3624,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 185,
-   "joined": "2024-02-25",
+   "joined": "2026-09-16",
    "birthPlace": null,
    "posInfo": "Attacking Midfielder"
   },
@@ -4326,7 +4326,7 @@
    "nat": "Sweden",
    "natCode": "SE",
    "height": 196,
-   "joined": "2025-11-24",
+   "joined": "2026-06-27",
    "birthPlace": "Solna",
    "posInfo": "Striker"
   },
@@ -4339,7 +4339,7 @@
    "nat": "Sweden",
    "natCode": "SE",
    "height": 196,
-   "joined": "2025-11-24",
+   "joined": "2026-06-27",
    "birthPlace": "Solna",
    "posInfo": "Striker"
   },
@@ -4404,7 +4404,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": null,
-   "joined": "2023-10-30",
+   "joined": "2026-08-26",
    "birthPlace": null,
    "posInfo": "Left Full Back"
   },
@@ -4417,7 +4417,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": null,
-   "joined": "2022-12-15",
+   "joined": "2026-08-26",
    "birthPlace": null,
    "posInfo": "Centre Central Midfielder"
   },
@@ -5197,7 +5197,7 @@
    "nat": "Cote D’Ivoire",
    "natCode": "CI",
    "height": 193,
-   "joined": "2026-10-01",
+   "joined": "2026-07-01",
    "birthPlace": "Paris",
    "posInfo": "Central Defender"
   },
@@ -5379,7 +5379,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": 180,
-   "joined": "2024-11-08",
+   "joined": "2026-08-24",
    "birthPlace": null,
    "posInfo": "Centre Central Midfielder"
   },
@@ -6150,19 +6150,6 @@
    "birthPlace": "Liverpool",
    "posInfo": "Centre Striker"
   },
-  "will wright": {
-   "name": "Will Wright",
-   "team": "Liverpool",
-   "jersey": 79,
-   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p677945.png",
-   "dob": "2008-04-03",
-   "nat": "England",
-   "natCode": "GB-ENG",
-   "height": 190,
-   "joined": "2025-08-04",
-   "birthPlace": "Preston",
-   "posInfo": "Forward"
-  },
   "victor munoz": {
    "name": "Víctor Muñoz",
    "team": "Liverpool",
@@ -6744,7 +6731,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": null,
-   "joined": "2026-08-14",
+   "joined": "2026-10-27",
    "birthPlace": null,
    "posInfo": "Midfielder"
   },
@@ -6915,19 +6902,6 @@
    "height": 189,
    "joined": "2025-02-01",
    "birthPlace": "London",
-   "posInfo": "Left Full Back"
-  },
-  "diego leon": {
-   "name": "Diego León",
-   "team": "Manchester United",
-   "jersey": 35,
-   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p661712.png",
-   "dob": "2007-04-03",
-   "nat": "Paraguay",
-   "natCode": "PY",
-   "height": 177,
-   "joined": "2025-09-20",
-   "birthPlace": "Yguazu",
    "posInfo": "Left Full Back"
   },
   "mason mount": {
@@ -7215,19 +7189,6 @@
    "joined": "2025-05-26",
    "birthPlace": null,
    "posInfo": "Centre Central Defender"
-  },
-  "jim thwaites": {
-   "name": "Jim Thwaites",
-   "team": "Manchester United",
-   "jersey": 77,
-   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p576634.png",
-   "dob": "2007-12-20",
-   "nat": "England",
-   "natCode": "GB-ENG",
-   "height": null,
-   "joined": "2024-02-28",
-   "birthPlace": null,
-   "posInfo": "Centre Central Midfielder"
   },
   "shea lacey": {
    "name": "Shea Lacey",
@@ -7706,7 +7667,7 @@
    "nat": "England",
    "natCode": "GB-ENG",
    "height": null,
-   "joined": "2026-02-05",
+   "joined": "2026-09-18",
    "birthPlace": null,
    "posInfo": "Left Winger"
   },
@@ -9048,19 +9009,6 @@
    "joined": "2026-07-06",
    "birthPlace": "Lodi",
    "posInfo": "Centre Defensive Midfielder"
-  },
-  "dylan thompson": {
-   "name": "Dylan Thompson",
-   "team": "Tottenham Hotspur",
-   "jersey": null,
-   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p656151.png",
-   "dob": "2007-09-09",
-   "nat": "England",
-   "natCode": "GB-ENG",
-   "height": null,
-   "joined": "2026-07-01",
-   "birthPlace": "Norwich",
-   "posInfo": "Goalkeeper"
   },
   "savio": {
    "name": "Sávio",

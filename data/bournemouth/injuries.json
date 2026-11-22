@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-22T11:09:34Z",
+ "updatedAt": "2026-11-22T19:28:40Z",
  "fetchedOk": true,
  "players": [
   {
@@ -36,6 +36,17 @@
    "active": false
   },
   {
+   "name": "Julián Araujo",
+   "reason": "Hamstring injury",
+   "reasonJa": "ハムストリング負傷",
+   "type": "負傷",
+   "since": "2026-09-10",
+   "until": "2026-11-29",
+   "firstSeen": "2026-11-22",
+   "lastSeen": "2026-11-22",
+   "active": true
+  },
+  {
    "name": "Alex Scott",
    "reason": "Hamstring injury",
    "reasonJa": "ハムストリング負傷",
@@ -52,10 +63,10 @@
    "reasonJa": "ハムストリング負傷",
    "type": "負傷",
    "since": "2026-10-23",
-   "until": "2026-11-19",
+   "until": "2027-02-06",
    "firstSeen": "2026-11-13",
-   "lastSeen": "2026-11-19",
-   "active": false
+   "lastSeen": "2026-11-22",
+   "active": true
   },
   {
    "name": "Juanlu Sánchez",
@@ -63,10 +74,10 @@
    "reasonJa": "足首の負傷",
    "type": "負傷",
    "since": "2026-11-05",
-   "until": "2026-11-19",
+   "until": null,
    "firstSeen": "2026-11-13",
-   "lastSeen": "2026-11-19",
-   "active": false
+   "lastSeen": "2026-11-22",
+   "active": true
   },
   {
    "name": "Ryan Christie",
@@ -74,10 +85,10 @@
    "reasonJa": "足首の負傷",
    "type": "負傷",
    "since": "2026-11-08",
-   "until": "2026-11-19",
+   "until": null,
    "firstSeen": "2026-11-13",
-   "lastSeen": "2026-11-19",
-   "active": false
+   "lastSeen": "2026-11-22",
+   "active": true
   }
  ]
 }

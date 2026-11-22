@@ -1,0 +1,51 @@
+{
+ "eventId": "401878755",
+ "date": "2026-11-22T16:30:00Z",
+ "opponent": {
+  "name": "Manchester United",
+  "abbr": "MAN"
+ },
+ "isHome": true,
+ "score": {
+  "us": 4,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Dominik Szoboszlai",
+   "assist": null,
+   "minute": "10'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Florian Wirtz",
+   "assist": "Rio Ngumoha",
+   "minute": "13'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Rio Ngumoha",
+   "assist": "Bradley Barcola",
+   "minute": "66'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Víctor Muñoz",
+   "assist": "Florian Wirtz",
+   "minute": "82'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [
+  {
+   "side": "opp",
+   "name": "Leny Yoro",
+   "minute": "8'"
+  }
+ ],
+ "source": "ESPN"
+}

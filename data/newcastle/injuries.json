@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-22T11:09:34Z",
+ "updatedAt": "2026-11-22T19:28:40Z",
  "fetchedOk": true,
  "players": [
   {
@@ -52,10 +52,10 @@
    "reasonJa": "ハムストリング負傷",
    "type": "負傷",
    "since": "2026-11-09",
-   "until": "2026-11-19",
+   "until": "2026-12-12",
    "firstSeen": "2026-11-13",
-   "lastSeen": "2026-11-19",
-   "active": false
+   "lastSeen": "2026-11-22",
+   "active": true
   }
  ]
 }

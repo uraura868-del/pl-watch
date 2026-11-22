@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-22T11:09:34Z",
+ "updatedAt": "2026-11-22T19:28:40Z",
  "size": 256,
  "photos": {
   "https://img.a.transfermarkt.technology/portrait/medium/34130-1688121718.jpg?lm=4711": {
@@ -6001,6 +6001,12 @@
    "face": false,
    "src": "https://img.a.transfermarkt.technology/portrait/header/475416-1668520548.jpg?lm=4711",
    "fetchedAt": "2026-11-16T01:54:26Z"
+  },
+  "https://resources.premierleague.com/premierleague/photos/players/250x250/p491501.png": {
+   "file": "ce46f7ffdfb03d83.jpg",
+   "face": true,
+   "src": "https://resources.premierleague.com/premierleague/photos/players/250x250/p491501.png",
+   "fetchedAt": "2026-11-22T19:28:40Z"
   }
  }
 }

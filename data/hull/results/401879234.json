@@ -1,0 +1,37 @@
+{
+ "eventId": "401879234",
+ "date": "2026-11-22T14:00:00Z",
+ "opponent": {
+  "name": "Brighton & Hove Albion",
+  "abbr": "BHA"
+ },
+ "isHome": true,
+ "score": {
+  "us": 2,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Oliver McBurnie",
+   "assist": "Lucas Gourna-Douath",
+   "minute": "90'+2'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Oliver McBurnie",
+   "assist": "Mohamed Belloumi",
+   "minute": "90'+5'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [
+  {
+   "side": "opp",
+   "name": "Costinha",
+   "minute": "89'"
+  }
+ ],
+ "source": "ESPN"
+}

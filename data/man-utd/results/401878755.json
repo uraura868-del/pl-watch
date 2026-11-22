@@ -1,0 +1,51 @@
+{
+ "eventId": "401878755",
+ "date": "2026-11-22T16:30:00Z",
+ "opponent": {
+  "name": "Liverpool",
+  "abbr": "LIV"
+ },
+ "isHome": false,
+ "score": {
+  "us": 0,
+  "opp": 4
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Dominik Szoboszlai",
+   "assist": null,
+   "minute": "10'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Florian Wirtz",
+   "assist": "Rio Ngumoha",
+   "minute": "13'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Rio Ngumoha",
+   "assist": "Bradley Barcola",
+   "minute": "66'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Víctor Muñoz",
+   "assist": "Florian Wirtz",
+   "minute": "82'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [
+  {
+   "side": "us",
+   "name": "Leny Yoro",
+   "minute": "8'"
+  }
+ ],
+ "source": "ESPN"
+}

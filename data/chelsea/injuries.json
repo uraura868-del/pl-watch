@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-22T11:09:34Z",
+ "updatedAt": "2026-11-22T19:28:40Z",
  "fetchedOk": true,
  "players": [
   {
@@ -41,10 +41,10 @@
    "reasonJa": "膝の負傷",
    "type": "負傷",
    "since": "2026-10-16",
-   "until": "2026-11-19",
+   "until": "2027-01-01",
    "firstSeen": "2026-10-26",
-   "lastSeen": "2026-11-19",
-   "active": false
+   "lastSeen": "2026-11-22",
+   "active": true
   },
   {
    "name": "Emiliano Martínez",
@@ -70,14 +70,14 @@
   },
   {
    "name": "João Pedro",
-   "reason": "Hamstring injury",
-   "reasonJa": "ハムストリング負傷",
+   "reason": "Thigh problems",
+   "reasonJa": "太ももの負傷",
    "type": "負傷",
    "since": "2026-10-20",
-   "until": "2026-11-19",
+   "until": null,
    "firstSeen": "2026-11-13",
-   "lastSeen": "2026-11-19",
-   "active": false
+   "lastSeen": "2026-11-22",
+   "active": true
   },
   {
    "name": "Jorrel Hato",

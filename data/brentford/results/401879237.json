@@ -1,0 +1,51 @@
+{
+ "eventId": "401879237",
+ "date": "2026-11-23T20:00:00Z",
+ "opponent": {
+  "name": "Everton",
+  "abbr": "EVE"
+ },
+ "isHome": true,
+ "score": {
+  "us": 4,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Keane Lewis-Potter",
+   "assist": "Jaidon Anthony",
+   "minute": "23'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Keane Lewis-Potter",
+   "assist": null,
+   "minute": "25'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Vitaly Janelt",
+   "assist": "Jaidon Anthony",
+   "minute": "67'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Fábio Carvalho",
+   "assist": "Mathias Jensen",
+   "minute": "90'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [
+  {
+   "side": "opp",
+   "name": "James Tarkowski",
+   "minute": "40'"
+  }
+ ],
+ "source": "ESPN"
+}

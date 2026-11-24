@@ -1,0 +1,78 @@
+{
+ "eventId": "401879237",
+ "date": "2026-11-23T20:00:00Z",
+ "opponent": {
+  "name": "Brentford",
+  "abbr": "BRE"
+ },
+ "ht": {
+  "us": {
+   "shots": 3,
+   "onTarget": 2,
+   "offTarget": 1,
+   "blocked": 0,
+   "corners": 3,
+   "fouls": 12,
+   "offsides": 0,
+   "yellow": 1,
+   "red": 1
+  },
+  "opp": {
+   "shots": 11,
+   "onTarget": 3,
+   "offTarget": 1,
+   "blocked": 7,
+   "corners": 3,
+   "fouls": 8,
+   "offsides": 0,
+   "yellow": 0,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 4,
+   "onTarget": 2,
+   "offTarget": 1,
+   "blocked": 1,
+   "corners": 3,
+   "fouls": 18,
+   "offsides": 0,
+   "yellow": 1,
+   "red": 1,
+   "possession": "27.9",
+   "passesAccurate": "205",
+   "passes": "296",
+   "passAcc": "0.7",
+   "crossesAccurate": "1",
+   "crosses": "8",
+   "tacklesWon": "6",
+   "tackles": "17",
+   "interceptions": "15",
+   "clearances": "49"
+  },
+  "opp": {
+   "shots": 17,
+   "onTarget": 3,
+   "offTarget": 4,
+   "blocked": 10,
+   "corners": 6,
+   "fouls": 16,
+   "offsides": 2,
+   "yellow": 0,
+   "red": 0,
+   "possession": "72.1",
+   "passesAccurate": "681",
+   "passes": "758",
+   "passAcc": "0.9",
+   "crossesAccurate": "8",
+   "crosses": "31",
+   "tacklesWon": "3",
+   "tackles": "3",
+   "interceptions": "8",
+   "clearances": "13"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

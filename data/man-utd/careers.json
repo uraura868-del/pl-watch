@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-23T21:14:16Z",
+ "updatedAt": "2026-11-24T05:56:22Z",
  "players": {
   "42250": {
    "name": "Tom Heaton",
@@ -83,17 +83,6 @@
      "logo": null
     },
     {
-     "club": "カーディフ・シティFC",
-     "clubEn": "Cardiff City F.C.",
-     "start": "2008",
-     "end": "2009",
-     "apps": 21,
-     "national": false,
-     "youth": false,
-     "loan": true,
-     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/347.png"
-    },
-    {
      "club": "サッカーイングランドU-21代表",
      "clubEn": "England national under-21 association football team",
      "start": "2008",
@@ -103,6 +92,17 @@
      "youth": true,
      "loan": false,
      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
+    },
+    {
+     "club": "カーディフ・シティFC",
+     "clubEn": "Cardiff City F.C.",
+     "start": "2008",
+     "end": "2009",
+     "apps": 21,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/347.png"
     },
     {
      "club": "クイーンズ・パーク・レンジャーズFC",
@@ -204,7 +204,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png"
     }
    ],
-   "fetchedAt": "2026-10-25T02:04:24Z"
+   "fetchedAt": "2026-11-24T05:56:22Z"
   },
   "130877": {
    "name": "Karl Darlow",
@@ -222,17 +222,6 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png"
     },
     {
-     "club": "ウォルソールFC",
-     "clubEn": "Walsall F.C.",
-     "start": "2012",
-     "end": "2012",
-     "apps": 7,
-     "national": false,
-     "youth": false,
-     "loan": true,
-     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/401.png"
-    },
-    {
      "club": "ニューポート・カウンティAFC",
      "clubEn": "Newport County A.F.C.",
      "start": "2012",
@@ -242,6 +231,17 @@
      "youth": false,
      "loan": true,
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/635.png"
+    },
+    {
+     "club": "ウォルソールFC",
+     "clubEn": "Walsall F.C.",
+     "start": "2012",
+     "end": "2012",
+     "apps": 7,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/401.png"
     },
     {
      "club": "ウォルソールFC",
@@ -288,7 +288,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png"
     }
    ],
-   "fetchedAt": "2026-10-25T02:04:24Z"
+   "fetchedAt": "2026-11-24T05:56:22Z"
   },
   "301425": {
    "name": "Senne Lammens",
@@ -339,13 +339,13 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png"
     }
    ],
-   "fetchedAt": "2026-10-25T02:04:24Z"
+   "fetchedAt": "2026-11-24T05:56:22Z"
   },
   "325550": {
    "name": "Dermot Mee",
    "qid": "Q134080600",
    "career": [],
-   "fetchedAt": "2026-10-25T02:04:24Z"
+   "fetchedAt": "2026-11-24T05:56:22Z"
   },
   "167127": {
    "name": "Luke Shaw",
@@ -418,12 +418,23 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png"
     }
    ],
-   "fetchedAt": "2026-10-25T02:04:24Z"
+   "fetchedAt": "2026-11-24T05:56:22Z"
   },
   "233937": {
    "name": "Lisandro Martínez",
    "qid": "Q30881092",
    "career": [
+    {
+     "club": "ニューウェルズ・オールドボーイズ",
+     "clubEn": "Newell's Old Boys",
+     "start": "2017",
+     "end": "2018",
+     "apps": 1,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": null
+    },
     {
      "club": "CSDデフェンサ・イ・フスティシア",
      "clubEn": "Defensa y Justicia",
@@ -445,17 +456,6 @@
      "youth": true,
      "loan": false,
      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png"
-    },
-    {
-     "club": "ニューウェルズ・オールドボーイズ",
-     "clubEn": "Newell's Old Boys",
-     "start": "2017",
-     "end": "2018",
-     "apps": 1,
-     "national": false,
-     "youth": false,
-     "loan": false,
-     "logo": null
     },
     {
      "club": "CSDデフェンサ・イ・フスティシア",
@@ -513,7 +513,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png"
     }
    ],
-   "fetchedAt": "2026-10-25T02:04:24Z"
+   "fetchedAt": "2026-11-24T05:56:22Z"
   },
   "238902": {
    "name": "Diogo Dalot",
@@ -575,7 +575,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png"
     }
    ],
-   "fetchedAt": "2026-10-25T02:04:24Z"
+   "fetchedAt": "2026-11-24T05:56:22Z"
   },
   "239349": {
    "name": "Matthijs de Ligt",
@@ -637,7 +637,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png"
     }
    ],
-   "fetchedAt": "2026-10-25T02:04:24Z"
+   "fetchedAt": "2026-11-24T05:56:22Z"
   },
   "239350": {
    "name": "Noussair Mazraoui",
@@ -677,7 +677,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png"
     }
    ],
-   "fetchedAt": "2026-10-25T02:04:24Z"
+   "fetchedAt": "2026-11-24T05:56:22Z"
   },
   "340206": {
    "name": "Leny Yoro",
@@ -706,7 +706,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png"
     }
    ],
-   "fetchedAt": "2026-10-25T02:04:24Z"
+   "fetchedAt": "2026-11-24T05:56:22Z"
   },
   "356044": {
    "name": "Ayden Heaven",
@@ -735,19 +735,75 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png"
     }
    ],
-   "fetchedAt": "2026-10-25T02:04:24Z"
+   "fetchedAt": "2026-11-24T05:56:22Z"
   },
   "356940": {
    "name": "Harry Amass",
    "qid": "Q119971486",
    "career": [],
-   "fetchedAt": "2026-10-25T02:04:24Z"
+   "fetchedAt": "2026-11-24T05:56:22Z"
   },
   "366781": {
    "name": "Patrick Dorgu",
    "qid": "Q121903982",
-   "career": [],
-   "fetchedAt": "2026-10-25T02:04:24Z"
+   "career": [
+    {
+     "club": "ABコペンハーゲン",
+     "clubEn": "Akademisk Boldklub",
+     "start": "2016",
+     "end": "2018",
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": null
+    },
+    {
+     "club": "FCノアシェラン",
+     "clubEn": "FC Nordsjælland",
+     "start": "2018",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": null
+    },
+    {
+     "club": "USレッチェ",
+     "clubEn": "US Lecce",
+     "start": "2022",
+     "end": "2025",
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png"
+    },
+    {
+     "club": "サッカーデンマーク代表",
+     "clubEn": "Denmark men's national football team",
+     "start": "2024",
+     "end": null,
+     "apps": null,
+     "national": true,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/den.png"
+    },
+    {
+     "club": "マンチェスター・ユナイテッドFC",
+     "clubEn": "Manchester United F.C.",
+     "start": "2025",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png"
+    }
+   ],
+   "fetchedAt": "2026-11-24T05:56:22Z"
   },
   "381055": {
    "name": "Daniel Armer",
@@ -787,13 +843,13 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/545.png"
     }
    ],
-   "fetchedAt": "2026-10-25T02:04:24Z"
+   "fetchedAt": "2026-11-24T05:56:22Z"
   },
   "386199": {
    "name": "Jaydan Kamason",
    "qid": "Q134017281",
    "career": [],
-   "fetchedAt": "2026-10-25T02:04:24Z"
+   "fetchedAt": "2026-11-24T05:56:22Z"
   },
   "124091": {
    "name": "Bruno Fernandes",
@@ -910,7 +966,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png"
     }
    ],
-   "fetchedAt": "2026-10-25T02:04:24Z"
+   "fetchedAt": "2026-11-24T05:56:22Z"
   },
   "193297": {
    "name": "Youri Tielemans",
@@ -1016,13 +1072,13 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png"
     }
    ],
-   "fetchedAt": "2026-10-25T02:04:24Z"
+   "fetchedAt": "2026-11-24T05:56:22Z"
   },
   "205081": {
    "name": "Jack Fletcher",
    "qid": "Q129631946",
    "career": [],
-   "fetchedAt": "2026-10-25T02:04:24Z"
+   "fetchedAt": "2026-11-24T05:56:22Z"
   },
   "231167": {
    "name": "Mason Mount",
@@ -1139,7 +1195,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png"
     }
    ],
-   "fetchedAt": "2026-10-25T02:04:24Z"
+   "fetchedAt": "2026-11-24T05:56:22Z"
   },
   "241468": {
    "name": "Manuel Ugarte",
@@ -1223,13 +1279,13 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png"
     }
    ],
-   "fetchedAt": "2026-10-25T02:04:24Z"
+   "fetchedAt": "2026-11-24T05:56:22Z"
   },
   "314858": {
    "name": "Andrey Santos",
    "qid": "Q106171073",
    "career": [],
-   "fetchedAt": "2026-10-25T02:04:24Z"
+   "fetchedAt": "2026-11-24T05:56:22Z"
   },
   "328466": {
    "name": "Kobbie Mainoo",
@@ -1291,7 +1347,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
     }
    ],
-   "fetchedAt": "2026-10-25T02:04:24Z"
+   "fetchedAt": "2026-11-24T05:56:22Z"
   },
   "338814": {
    "name": "Carlos Baleba",
@@ -1342,13 +1398,13 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png"
     }
    ],
-   "fetchedAt": "2026-10-25T02:04:24Z"
+   "fetchedAt": "2026-11-24T05:56:22Z"
   },
   "393138": {
    "name": "Tyler Fletcher",
    "qid": "Q137384640",
    "career": [],
-   "fetchedAt": "2026-10-25T02:04:24Z"
+   "fetchedAt": "2026-11-24T05:56:22Z"
   },
   "230945": {
    "name": "Marcus Rashford",
@@ -1388,22 +1444,22 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png"
     },
     {
-     "club": "U-20サッカーイングランド代表",
-     "clubEn": "England national under-20 association football team",
+     "club": "サッカーイングランドU-21代表",
+     "clubEn": "England national under-21 association football team",
      "start": "2016",
      "end": "2016",
-     "apps": 2,
+     "apps": 1,
      "national": true,
      "youth": true,
      "loan": false,
      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
     },
     {
-     "club": "サッカーイングランドU-21代表",
-     "clubEn": "England national under-21 association football team",
+     "club": "U-20サッカーイングランド代表",
+     "clubEn": "England national under-20 association football team",
      "start": "2016",
      "end": "2016",
-     "apps": 1,
+     "apps": 2,
      "national": true,
      "youth": true,
      "loan": false,
@@ -1443,7 +1499,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png"
     }
    ],
-   "fetchedAt": "2026-10-25T02:04:24Z"
+   "fetchedAt": "2026-11-24T05:56:22Z"
   },
   "259902": {
    "name": "Matheus Cunha",
@@ -1549,7 +1605,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png"
     }
    ],
-   "fetchedAt": "2026-10-25T02:04:24Z"
+   "fetchedAt": "2026-11-24T05:56:22Z"
   },
   "271170": {
    "name": "Bryan Mbeumo",
@@ -1633,7 +1689,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png"
     }
    ],
-   "fetchedAt": "2026-10-25T02:04:24Z"
+   "fetchedAt": "2026-11-24T05:56:22Z"
   },
   "276327": {
    "name": "Joshua Zirkzee",
@@ -1750,17 +1806,6 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png"
     },
     {
-     "club": "サッカーオランダ代表",
-     "clubEn": "Netherlands national association football team",
-     "start": "2024",
-     "end": null,
-     "apps": 6,
-     "national": true,
-     "youth": false,
-     "loan": false,
-     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png"
-    },
-    {
      "club": "マンチェスター・ユナイテッドFC",
      "clubEn": "Manchester United F.C.",
      "start": "2024",
@@ -1770,9 +1815,20 @@
      "youth": false,
      "loan": false,
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png"
+    },
+    {
+     "club": "サッカーオランダ代表",
+     "clubEn": "Netherlands national association football team",
+     "start": "2024",
+     "end": null,
+     "apps": 6,
+     "national": true,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png"
     }
    ],
-   "fetchedAt": "2026-10-25T02:04:24Z"
+   "fetchedAt": "2026-11-24T05:56:22Z"
   },
   "291630": {
    "name": "Amad Diallo",
@@ -1823,13 +1879,13 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png"
     }
    ],
-   "fetchedAt": "2026-10-25T02:04:24Z"
+   "fetchedAt": "2026-11-24T05:56:22Z"
   },
   "358180": {
    "name": "Shea Lacey",
    "qid": "Q117207006",
    "career": [],
-   "fetchedAt": "2026-10-25T02:04:24Z"
+   "fetchedAt": "2026-11-24T05:56:22Z"
   },
   "157073": {
    "name": "Harry Maguire",
@@ -1913,7 +1969,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png"
     }
    ],
-   "fetchedAt": "2026-10-25T02:07:17Z"
+   "fetchedAt": "2026-11-24T05:56:22Z"
   },
   "289155": {
    "name": "Benjamin Sesko",
@@ -1997,7 +2053,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png"
     }
    ],
-   "fetchedAt": "2026-10-25T02:07:17Z"
+   "fetchedAt": "2026-11-24T05:56:22Z"
   },
   "397881": {
    "name": "Tynan Thompson",

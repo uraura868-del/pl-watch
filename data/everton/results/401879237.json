@@ -1,0 +1,51 @@
+{
+ "eventId": "401879237",
+ "date": "2026-11-23T20:00:00Z",
+ "opponent": {
+  "name": "Brentford",
+  "abbr": "BRE"
+ },
+ "isHome": false,
+ "score": {
+  "us": 0,
+  "opp": 4
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Keane Lewis-Potter",
+   "assist": "Jaidon Anthony",
+   "minute": "23'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Keane Lewis-Potter",
+   "assist": null,
+   "minute": "25'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Vitaly Janelt",
+   "assist": "Jaidon Anthony",
+   "minute": "67'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Fábio Carvalho",
+   "assist": "Mathias Jensen",
+   "minute": "90'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [
+  {
+   "side": "us",
+   "name": "James Tarkowski",
+   "minute": "40'"
+  }
+ ],
+ "source": "ESPN"
+}

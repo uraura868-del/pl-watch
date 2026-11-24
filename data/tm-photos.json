@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-23T21:14:16Z",
+ "updatedAt": "2026-11-24T05:56:22Z",
  "clubs": {
   "manchester united": {
    "id": 985,
@@ -96,77 +96,77 @@
    "id": 5,
    "slug": "club",
    "name": "AC Milan",
-   "fetchedAt": "2026-11-17T03:43:21Z",
+   "fetchedAt": "2026-11-24T05:56:22Z",
    "players": {}
   },
   "sunderland": {
    "id": 289,
    "slug": "club",
    "name": "Sunderland A.F.C.",
-   "fetchedAt": "2026-11-17T03:43:21Z",
+   "fetchedAt": "2026-11-24T05:56:22Z",
    "players": {}
   },
   "sk sturm graz": {
    "id": 122,
    "slug": "club",
    "name": "SK Sturm Graz",
-   "fetchedAt": "2026-11-17T03:43:21Z",
+   "fetchedAt": "2026-11-24T05:56:22Z",
    "players": {}
   },
   "chelsea": {
    "id": 631,
    "slug": "club",
    "name": "Chelsea F.C.",
-   "fetchedAt": "2026-11-17T03:43:21Z",
+   "fetchedAt": "2026-11-24T05:56:22Z",
    "players": {}
   },
   "liverpool": {
    "id": 31,
    "slug": "club",
    "name": "Liverpool F.C.",
-   "fetchedAt": "2026-11-17T03:43:21Z",
+   "fetchedAt": "2026-11-24T05:56:22Z",
    "players": {}
   },
   "real sociedad": {
    "id": 681,
    "slug": "club",
    "name": "Real Sociedad",
-   "fetchedAt": "2026-11-17T03:43:21Z",
+   "fetchedAt": "2026-11-24T05:56:22Z",
    "players": {}
   },
   "brentford": {
    "id": 1148,
    "slug": "club",
    "name": "Brentford F.C.",
-   "fetchedAt": "2026-11-17T03:43:21Z",
+   "fetchedAt": "2026-11-24T05:56:22Z",
    "players": {}
   },
   "lincoln city": {
    "id": 1198,
    "slug": "club",
    "name": "Lincoln City F.C.",
-   "fetchedAt": "2026-11-17T03:43:21Z",
+   "fetchedAt": "2026-11-24T05:56:22Z",
    "players": {}
   },
   "newcastle united": {
    "id": 762,
    "slug": "club",
    "name": "Newcastle United F.C.",
-   "fetchedAt": "2026-11-17T03:43:21Z",
+   "fetchedAt": "2026-11-24T05:56:22Z",
    "players": {}
   },
   "arsenal": {
    "id": 11,
    "slug": "club",
    "name": "Arsenal",
-   "fetchedAt": "2026-11-17T03:43:21Z",
+   "fetchedAt": "2026-11-24T05:56:22Z",
    "players": {}
   },
   "bayern munich": {
    "id": 27,
    "slug": "club",
    "name": "FC Bayern Munich",
-   "fetchedAt": "2026-11-17T03:43:21Z",
+   "fetchedAt": "2026-11-24T05:56:22Z",
    "players": {}
   },
   "nottingham forest": {
@@ -194,7 +194,7 @@
    "id": 405,
    "slug": "club",
    "name": "Aston Villa F.C.",
-   "fetchedAt": "2026-11-17T03:43:21Z",
+   "fetchedAt": "2026-11-24T05:56:22Z",
    "players": {}
   },
   "coventry city": {

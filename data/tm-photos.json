@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-24T05:56:22Z",
+ "updatedAt": "2026-11-24T17:31:51Z",
  "clubs": {
   "manchester united": {
    "id": 985,
@@ -173,21 +173,21 @@
    "id": 703,
    "slug": "club",
    "name": "Nottingham Forest F.C.",
-   "fetchedAt": "2026-11-17T13:10:16Z",
+   "fetchedAt": "2026-11-24T17:31:51Z",
    "players": {}
   },
   "lille": {
    "id": 1082,
    "slug": "club",
    "name": "Lille OSC",
-   "fetchedAt": "2026-11-17T13:10:16Z",
+   "fetchedAt": "2026-11-24T17:31:51Z",
    "players": {}
   },
   "napoli": {
    "id": 6195,
    "slug": "club",
    "name": "SSC Napoli",
-   "fetchedAt": "2026-11-17T13:10:16Z",
+   "fetchedAt": "2026-11-24T17:31:51Z",
    "players": {}
   },
   "aston villa": {
@@ -201,49 +201,49 @@
    "id": 990,
    "slug": "club",
    "name": "Coventry City F.C.",
-   "fetchedAt": "2026-11-17T13:10:16Z",
+   "fetchedAt": "2026-11-24T17:31:51Z",
    "players": {}
   },
   "viking fk": {
    "id": 239,
    "slug": "club",
    "name": "Viking FK",
-   "fetchedAt": "2026-11-17T13:10:16Z",
+   "fetchedAt": "2026-11-24T17:31:51Z",
    "players": {}
   },
   "fenerbahce": {
    "id": 36,
    "slug": "club",
    "name": "Fenerbahçe Istanbul",
-   "fetchedAt": "2026-11-17T13:10:16Z",
+   "fetchedAt": "2026-11-24T17:31:51Z",
    "players": {}
   },
   "club brugge": {
    "id": 2282,
    "slug": "club",
    "name": "Club Brugge K.V.",
-   "fetchedAt": "2026-11-17T13:10:16Z",
+   "fetchedAt": "2026-11-24T17:31:51Z",
    "players": {}
   },
   "reading": {
    "id": 1032,
    "slug": "club",
    "name": "Reading F.C.",
-   "fetchedAt": "2026-11-17T13:10:16Z",
+   "fetchedAt": "2026-11-24T17:31:51Z",
    "players": {}
   },
   "birmingham city": {
    "id": 337,
    "slug": "club",
    "name": "Birmingham City F.C.",
-   "fetchedAt": "2026-11-17T13:10:16Z",
+   "fetchedAt": "2026-11-24T17:31:51Z",
    "players": {}
   },
   "jablonec": {
    "id": 1322,
    "slug": "club",
    "name": "FK Jablonec",
-   "fetchedAt": "2026-11-17T13:10:16Z",
+   "fetchedAt": "2026-11-24T17:31:51Z",
    "players": {}
   },
   "crystal palace": {
@@ -418,7 +418,7 @@
    "id": 11177,
    "slug": "club",
    "name": "Fleetwood Town F.C.",
-   "fetchedAt": "2026-11-17T13:10:16Z",
+   "fetchedAt": "2026-11-24T17:31:51Z",
    "players": {}
   },
   "as roma": {
@@ -579,7 +579,7 @@
    "id": 141,
    "slug": "club",
    "name": "Galatasaray S.K.",
-   "fetchedAt": "2026-11-16T09:29:46Z",
+   "fetchedAt": "2026-11-24T17:31:51Z",
    "players": {}
   },
   "aek athens": {

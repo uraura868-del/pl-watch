@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-24T05:56:22Z",
+ "updatedAt": "2026-11-24T17:31:51Z",
  "manager": {
   "name": "Mikel Arteta",
   "role": "Manager",
@@ -232,6 +232,15 @@
    "birthPlace": "London",
    "posInfo": "Central Defender",
    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p616065.png"
+  },
+  {
+   "id": "400750",
+   "name": "Josh Ogunnaike",
+   "jersey": null,
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
   },
   {
    "id": "203669",

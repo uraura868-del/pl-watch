@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-24T05:56:22Z",
+ "updatedAt": "2026-11-24T17:31:51Z",
  "enabled": true,
  "players": {
   "336794": {
@@ -56,7 +56,7 @@
    "name": "Abdulakh Khaybulaev",
    "query": "Abdulakh Khaybulaev skills",
    "videos": [],
-   "fetchedAt": "2026-10-25T13:08:56Z"
+   "fetchedAt": "2026-11-24T17:31:51Z"
   },
   "122268": {
    "name": "Adam Smith",
@@ -100,13 +100,13 @@
      "publishedAt": "2026-01-09"
     },
     {
-     "id": "A3VFJu0FJME",
-     "title": "Lookman’s skill 👏",
-     "channel": "UEFA",
-     "publishedAt": "2026-04-18"
+     "id": "p2calz-3CqY",
+     "title": "Ademola Lookman SKILLS 2026 | Elite Dribbling Winger 🔥",
+     "channel": "ALLSKILLS",
+     "publishedAt": "2026-01-30"
     }
    ],
-   "fetchedAt": "2026-10-25T13:08:56Z"
+   "fetchedAt": "2026-11-24T17:31:51Z"
   },
   "332563": {
    "name": "Aden Mccarthy",
@@ -119,19 +119,19 @@
      "publishedAt": "2026-09-01"
     },
     {
-     "id": "jHuXKjUNxHE",
-     "title": "Aden McCarthy - 19 year old LCB/ LB (South African International)",
-     "channel": "Media - Lamont Sports Management",
-     "publishedAt": "2023-08-14"
-    },
-    {
      "id": "dk2KeAmfrq0",
      "title": "Aden McCarthy is a Beast in The Making! 👀",
      "channel": "HugoFilmz",
      "publishedAt": "2026-10-22"
+    },
+    {
+     "id": "jHuXKjUNxHE",
+     "title": "Aden McCarthy - 19 year old LCB/ LB (South African International)",
+     "channel": "Media - Lamont Sports Management",
+     "publishedAt": "2023-08-14"
     }
    ],
-   "fetchedAt": "2026-10-25T13:08:56Z"
+   "fetchedAt": "2026-11-24T17:31:51Z"
   },
   "305684": {
    "name": "Adrien Truffert",
@@ -27503,6 +27503,531 @@
     }
    ],
    "fetchedAt": "2026-11-10T08:19:50Z"
+  },
+  "193149": {
+   "name": "Abdülkerim Bardakçi",
+   "query": "Abdülkerim Bardakçi skills",
+   "videos": [
+    {
+     "id": "H5X_WTTrAiU",
+     "title": "ABDÜLKERİM BARDAKÇI SKİLLS EDİT",
+     "channel": "Baray",
+     "publishedAt": "2023-11-19"
+    },
+    {
+     "id": "SNdbj7kzaGo",
+     "title": "Abdülkerim Bardakcı | Tırnaklarımla Kazıdım",
+     "channel": "gdh spor",
+     "publishedAt": "2025-04-27"
+    },
+    {
+     "id": "zuX6SDFxJK0",
+     "title": "Abdülkerim Bardakçı • 2021/22 🔥 Best Defensive Skills & Tackles  [ WELCOME TO FENERBAHÇE ]",
+     "channel": "nassautv",
+     "publishedAt": "2022-06-23"
+    }
+   ],
+   "fetchedAt": "2026-11-24T17:31:51Z"
+  },
+  "355113": {
+   "name": "Alexey Batrakov",
+   "query": "Alexey Batrakov skills",
+   "videos": [
+    {
+     "id": "gx2oAigTViI",
+     "title": "Aleksey Batrakov - Technique That Makes the Difference",
+     "channel": "Brazil Scout Comps",
+     "publishedAt": "2026-08-16"
+    },
+    {
+     "id": "LZ5VOSRKhvw",
+     "title": "ALEKSEY BATRAKOV 2026 ● WELCOME TO GALATASARAY 🟡🔴",
+     "channel": "SVMM",
+     "publishedAt": "2026-08-20"
+    },
+    {
+     "id": "kTyVkeX_1iQ",
+     "title": "Aleksey Batrakov - Full Season Show - 2026ᴴᴰ",
+     "channel": "Brazil Scout ",
+     "publishedAt": "2026-06-02"
+    }
+   ],
+   "fetchedAt": "2026-11-24T17:31:51Z"
+  },
+  "322538": {
+   "name": "Baris Alper Yilmaz",
+   "query": "Baris Alper Yilmaz skills",
+   "videos": [
+    {
+     "id": "9h7nr4CS3Qg",
+     "title": "Barış Alper Yılmaz, Koridoru Gösteriyor Ve İsabetli Pasın Ardından Eren Elmalı’ya Tebriğini İletiyor",
+     "channel": "beIN SPORTS Türkiye",
+     "publishedAt": "2025-04-19"
+    },
+    {
+     "id": "enxR7YMC8l4",
+     "title": "Barış Alper Yılmaz – Explosive Winger 🇹🇷 | 2026ᴴᴰ",
+     "channel": "FS Scout",
+     "publishedAt": "2026-02-27"
+    },
+    {
+     "id": "2w8HLELAt2Y",
+     "title": "Barış Alper Yılmaz’ın Golleri - Trendyol Süper Lig 2024/25 Sezonu",
+     "channel": "beIN SPORTS Türkiye",
+     "publishedAt": "2025-06-08"
+    }
+   ],
+   "fetchedAt": "2026-11-24T17:31:51Z"
+  },
+  "392690": {
+   "name": "Berat Lus",
+   "query": "Berat Lus skills",
+   "videos": [
+    {
+     "id": "OacYN_V8Hwc",
+     "title": "🌟 Berat Luş | Boluspor - Galatasaray",
+     "channel": "Galatasaray Haberleri",
+     "publishedAt": "2025-02-06"
+    },
+    {
+     "id": "Ab3bxvZH-Ao",
+     "title": "Berat Lus Is Insane Turkish Wonderkid on FC25 Career Mode! 🔥",
+     "channel": "IvoZ",
+     "publishedAt": "2025-06-19"
+    },
+    {
+     "id": "zKfIalThoUY",
+     "title": "Berat Lus - LW - 2007 - Galatasaray",
+     "channel": "Scoutsourced",
+     "publishedAt": "2025-03-03"
+    }
+   ],
+   "fetchedAt": "2026-11-24T17:31:51Z"
+  },
+  "197105": {
+   "name": "Davinson Sánchez",
+   "query": "Davinson Sánchez skills",
+   "videos": [
+    {
+     "id": "tOzM1Iy-H24",
+     "title": "Davinson Sánchez 2025 ▶ EL PATRON ● Tackling, Defending Skills | ᴴᴰ",
+     "channel": "HÇ editz",
+     "publishedAt": "2025-03-25"
+    },
+    {
+     "id": "NYm77HGkpX8",
+     "title": "Davinson Sanchez Best Skills 2026 🇨🇴 | Welcome to COMO 1907 🔵⚪️ ",
+     "channel": "Metwell",
+     "publishedAt": "2026-07-12"
+    },
+    {
+     "id": "ppjJ15hJe4o",
+     "title": "Davinson Sanchez ● Welcome to Galatasaray 🟡🔴 Best Defensive Skills & Passes",
+     "channel": "SVMM",
+     "publishedAt": "2023-07-10"
+    }
+   ],
+   "fetchedAt": "2026-11-24T17:31:51Z"
+  },
+  "350513": {
+   "name": "Deniz Gül",
+   "query": "Deniz Gül skills",
+   "videos": [
+    {
+     "id": "KlizTvPgsj0",
+     "title": "Deniz Gül – Complete Striker Talent 🇹🇷 | 2026ᴴᴰ",
+     "channel": "FS Scout",
+     "publishedAt": "2026-09-06"
+    },
+    {
+     "id": "kM59zi50b04",
+     "title": "Deniz Gül ● Galatasaray Transfer Target 2026 🟡🔴🇹🇷",
+     "channel": "SVMM",
+     "publishedAt": "2026-08-29"
+    },
+    {
+     "id": "va9oPn1eL_Q",
+     "title": "Deniz Gül – Physical Striker Prospect 🇹🇷 | 2026ᴴᴰ",
+     "channel": "FS Scout",
+     "publishedAt": "2026-06-07"
+    }
+   ],
+   "fetchedAt": "2026-11-24T17:31:51Z"
+  },
+  "304740": {
+   "name": "El Chadaille Bitshiabu",
+   "query": "El Chadaille Bitshiabu skills",
+   "videos": [
+    {
+     "id": "FrY3L8CTkSA",
+     "title": "Chadaille Bitshiabu ▶ Next-Gen Defender ● Skills, Defensive Actions & Speed",
+     "channel": "YES Skills Vault",
+     "publishedAt": "2026-01-11"
+    },
+    {
+     "id": "ztm4AXYsvwQ",
+     "title": "El Chadaille Bitshiabu 2026 ● Welcome to Galatasaray 🟡🔴🇫🇷 Best Defensive Skills & Passes",
+     "channel": "SVMM",
+     "publishedAt": "2026-09-01"
+    },
+    {
+     "id": "4YyL9uzm-8Q",
+     "title": "El Chadaille Bitshiabu – Powerful Defender Talent 🇫🇷 | 2026ᴴᴰ",
+     "channel": "FS Scout",
+     "publishedAt": "2026-09-02"
+    }
+   ],
+   "fetchedAt": "2026-11-24T17:31:51Z"
+  },
+  "287678": {
+   "name": "Eren Elmali",
+   "query": "Eren Elmali skills",
+   "videos": [
+    {
+     "id": "eM7SUz_0m2M",
+     "title": "Eren Elmalı | 2024/2025 ᴴᴰ",
+     "channel": "HÇ editz",
+     "publishedAt": "2025-05-31"
+    },
+    {
+     "id": "wQyRPttzFB8",
+     "title": "Eren Elmalı çalım yiyor, dönüp yetişiyor bir daha çalım yiyor.",
+     "channel": "6 PAS",
+     "publishedAt": "2025-09-13"
+    },
+    {
+     "id": "Sfsp9LUGUJY",
+     "title": "Galatasaray'da EREN ELMALI Gerçekten HARİKA! ",
+     "channel": "Osicomps",
+     "publishedAt": "2025-08-09"
+    }
+   ],
+   "fetchedAt": "2026-11-24T17:31:51Z"
+  },
+  "268478": {
+   "name": "Gabriel Sara",
+   "query": "Gabriel Sara skills",
+   "videos": [
+    {
+     "id": "67G2XrO7zXQ",
+     "title": "Gabriel Sara – Midfield Maestro 🇧🇷 | 2026ᴴᴰ",
+     "channel": "FS Scout",
+     "publishedAt": "2026-02-18"
+    },
+    {
+     "id": "xqbslHMoonk",
+     "title": "Gabriel Sara – Complete Midfield Maestro 🇧🇷 | 2026ᴴᴰ",
+     "channel": "FS Scout",
+     "publishedAt": "2026-07-26"
+    },
+    {
+     "id": "ImVHfIVQo8U",
+     "title": "🤤 Gabriel Sara, Amrabat'ın Gururuyla Oynuyor | Fenerbahçe-Galatasaray",
+     "channel": "Galatasaray Haberleri",
+     "publishedAt": "2025-04-03"
+    }
+   ],
+   "fetchedAt": "2026-11-24T17:31:51Z"
+  },
+  "217267": {
+   "name": "Günay Güvenc",
+   "query": "Günay Güvenc skills",
+   "videos": [
+    {
+     "id": "LYiKMVtRxOs",
+     "title": "GÜNAY GÜVENÇ SKİLLS - 2021 - İMPOSSİBLE SAVES",
+     "channel": "Twenty Eight",
+     "publishedAt": "2021-01-18"
+    },
+    {
+     "id": "qSL-jXHhENI",
+     "title": "Günayın antrenmandaki hırsı🔥 Kalede sizce Günay mı olmalı,yoksa Uğurcan mı? #galatasaray #şampiyon",
+     "channel": "Gala Shorts",
+     "publishedAt": "2025-09-11"
+    },
+    {
+     "id": "2kHfHs591G0",
+     "title": "Günay inanılmaz kurtarışlar yaptı😯😯 #galatasaray #cr7 #football #keşfetbeniöneçıkar #ultraslan #fyp",
+     "channel": "Turkish Tigers",
+     "publishedAt": "2025-01-13"
+    }
+   ],
+   "fetchedAt": "2026-11-24T17:31:51Z"
+  },
+  "131424": {
+   "name": "Ilkay Gündogan",
+   "query": "Ilkay Gündogan skills",
+   "videos": [
+    {
+     "id": "PpbGAlENJTw",
+     "title": "This is Why Pep Loves Ilkay Gündogan..",
+     "channel": "F10K Productions",
+     "publishedAt": "2023-05-29"
+    },
+    {
+     "id": "imgB_qIwkew",
+     "title": "İlkay Gündoğan the most PERFECT midfielder",
+     "channel": "KS7HD",
+     "publishedAt": "2023-05-07"
+    },
+    {
+     "id": "v8X096_rnIM",
+     "title": "ILKAY GÜNDOGAN | Skills | Borussia Dortmund | 2014/2015 (HD)",
+     "channel": "ScoutHouseHD",
+     "publishedAt": "2015-08-15"
+    }
+   ],
+   "fetchedAt": "2026-11-24T17:31:51Z"
+  },
+  "268796": {
+   "name": "Ismail Jakobs",
+   "query": "Ismail Jakobs skills",
+   "videos": [
+    {
+     "id": "OIPDtVHSbs4",
+     "title": "Ismail Jakobs 🥶",
+     "channel": "Bilal Soydaş",
+     "publishedAt": "2025-10-01"
+    },
+    {
+     "id": "1wBLE--T7QQ",
+     "title": "Ismail Jakobs ● Galatasaray Transfer Target 🟡🔴🇸🇳 Skills, Tackles & Passes",
+     "channel": "SVMM",
+     "publishedAt": "2024-08-20"
+    },
+    {
+     "id": "EpcY8O7tH1Y",
+     "title": "Ismail Jakobs • Great Defensive Skills & Passes | HD",
+     "channel": "football plus",
+     "publishedAt": "2025-04-06"
+    }
+   ],
+   "fetchedAt": "2026-11-24T17:31:51Z"
+  },
+  "324895": {
+   "name": "Jankat Yilmaz",
+   "query": "Jankat Yilmaz skills",
+   "videos": [
+    {
+     "id": "mrY7uNgGo7I",
+     "title": "Jankat Yılmaz en iyi kurtarışlar.",
+     "channel": "Sahte999",
+     "publishedAt": "2026-08-10"
+    },
+    {
+     "id": "-CzLGer4WPg",
+     "title": "🔥🧤Jankat Yılmaz’dan Muhteşem Kurtarışlar!",
+     "channel": "Furkan Bozoğlu",
+     "publishedAt": "2026-08-09"
+    },
+    {
+     "id": "HXtO29gY2k0",
+     "title": "Jankat Yılmaz Kimdir? Günay’ın Önüne Geçti mi? | 3 Dakikada",
+     "channel": "TaktiXPro",
+     "publishedAt": "2026-08-10"
+    }
+   ],
+   "fetchedAt": "2026-11-24T17:31:51Z"
+  },
+  "202641": {
+   "name": "Leroy Sané",
+   "query": "Leroy Sané skills",
+   "videos": [
+    {
+     "id": "Ey1GFAgaw7E",
+     "title": "Galatasaray is not aware how good Leroy Sane actually is",
+     "channel": "mr bundesteam",
+     "publishedAt": "2025-06-15"
+    },
+    {
+     "id": "rEO2nGS0o7w",
+     "title": "Leroy SANÉ in a 1️⃣🆚1️⃣",
+     "channel": "Bundesliga",
+     "publishedAt": "2023-11-13"
+    },
+    {
+     "id": "xee9yp6NEeQ",
+     "title": "Leroy Sané - Full Season Show - 2022ᴴᴰ",
+     "channel": "Brazil Scout ",
+     "publishedAt": "2022-07-20"
+    }
+   ],
+   "fetchedAt": "2026-11-24T17:31:51Z"
+  },
+  "309563": {
+   "name": "Lesley Ugochukwu",
+   "query": "Lesley Ugochukwu skills",
+   "videos": [
+    {
+     "id": "GtLwR1rvUr4",
+     "title": "Lesley Ugochukwu – Midfield Powerhouse 🇫🇷 | 2026ᴴᴰ",
+     "channel": "FS Scout",
+     "publishedAt": "2026-07-06"
+    },
+    {
+     "id": "hHPQdXztrnA",
+     "title": "Lesley Ugochukwu 2026 • Incredible Tackles, Skills & Control • Burnley ᴴᴰ",
+     "channel": "Mega Football",
+     "publishedAt": "2026-07-10"
+    },
+    {
+     "id": "fP_p785N4rk",
+     "title": "Lesley Ugochukwu ● Welcome to Burnley 🟣🇫🇷 Best Skills, Tackles & Passes",
+     "channel": "SVMM",
+     "publishedAt": "2025-08-04"
+    }
+   ],
+   "fetchedAt": "2026-11-24T17:31:51Z"
+  },
+  "212973": {
+   "name": "Lucas Torreira",
+   "query": "Lucas Torreira skills",
+   "videos": [
+    {
+     "id": "JnFt5VUHOoc",
+     "title": "LUCAS TORREIRA | ALL ACTIONS AND SKILLS | GALATASARAY 2025/26",
+     "channel": "FB Highlights",
+     "publishedAt": "2026-08-14"
+    },
+    {
+     "id": "dvQvQC69f8Q",
+     "title": "Lucas Torreira | 2024/2025 ᴴᴰ",
+     "channel": "HÇ editz",
+     "publishedAt": "2025-06-22"
+    },
+    {
+     "id": "PeWiXzDqTck",
+     "title": "Torreira out of nowhere! 😮",
+     "channel": "UEFA",
+     "publishedAt": "2025-08-04"
+    }
+   ],
+   "fetchedAt": "2026-11-24T17:31:51Z"
+  },
+  "181729": {
+   "name": "Mario Lemina",
+   "query": "Mario Lemina skills",
+   "videos": [
+    {
+     "id": "FshwFLgIAVw",
+     "title": "MARIO LEMINA | ALL ACTIONS AND SKILLS | GALATASARAY 2025/26",
+     "channel": "FB Highlights",
+     "publishedAt": "2026-06-12"
+    },
+    {
+     "id": "ffPC0Qd5OIg",
+     "title": "Mario Lemina ► Dribbling & Defensive Skills Galatasaray 2020 HD",
+     "channel": "MAÇ KANALI GÜNLÜK FUTBOL MEHMET DAĞLI (JARDEL)",
+     "publishedAt": "2020-06-12"
+    },
+    {
+     "id": "NQHBYc6Uhr8",
+     "title": "Mario Lemina 🥶🦁 #football #shorts",
+     "channel": "Bilal Soydaş",
+     "publishedAt": "2025-02-25"
+    }
+   ],
+   "fetchedAt": "2026-11-24T17:31:51Z"
+  },
+  "402986": {
+   "name": "Renato Nhaga",
+   "query": "Renato Nhaga skills",
+   "videos": [
+    {
+     "id": "Gb_j7bSRm68",
+     "title": "Renato Nhaga soğukkanlı gol 👏",
+     "channel": "Forza Aslan",
+     "publishedAt": "2026-11-13"
+    },
+    {
+     "id": "ZAzirFmmPik",
+     "title": "Renato Nhaga – Box To Box Midfield Talent 🇵🇹 | 2026ᴴᴰ",
+     "channel": "FS Scout",
+     "publishedAt": "2026-02-01"
+    },
+    {
+     "id": "Y2rj_S0ftqw",
+     "title": "Renato Nhaga müthiş asist 👏",
+     "channel": "Forza Aslan",
+     "publishedAt": "2026-09-30"
+    }
+   ],
+   "fetchedAt": "2026-11-24T17:31:51Z"
+  },
+  "222922": {
+   "name": "Ugurcan Çakir",
+   "query": "Ugurcan Çakir skills",
+   "videos": [
+    {
+     "id": "ROZIyAJIZ4A",
+     "title": "Uğurcan Çakır ● Turkish wall 2026 🇹🇷 Best Skills | Best Saves | HD",
+     "channel": "Bidebanasor",
+     "publishedAt": "2026-04-27"
+    },
+    {
+     "id": "2ihf6mQ1kso",
+     "title": "Uğurcan Çakır'ın 2025/26 Sezonundaki En İyi Kurtarışları | Trendyol Süper Lig",
+     "channel": "beIN SPORTS Türkiye",
+     "publishedAt": "2026-06-10"
+    },
+    {
+     "id": "QjKKsShzU7U",
+     "title": "UĞURCAN ÇAKIR - Şampiyon kaleci | 2022 ᴴᴰ",
+     "channel": "BORDOMAVİADAM",
+     "publishedAt": "2022-08-08"
+    }
+   ],
+   "fetchedAt": "2026-11-24T17:31:51Z"
+  },
+  "286569": {
+   "name": "Wilfried Singo",
+   "query": "Wilfried Singo skills",
+   "videos": [
+    {
+     "id": "Cv5cedabEbA",
+     "title": "Wilfried Singo 2025 - Here’s Why Liverpool Want Him 🇨🇮🔴 Best Defensive Skills & Passes",
+     "channel": "ATSS",
+     "publishedAt": "2025-12-11"
+    },
+    {
+     "id": "4uMbI7fdVJ8",
+     "title": "Singo 💪💪💪",
+     "channel": "UEFA",
+     "publishedAt": "2025-10-08"
+    },
+    {
+     "id": "a1NCQ2TcqyI",
+     "title": "Wilfried Singo - OP Young Wingback",
+     "channel": "Brazil Scout ",
+     "publishedAt": "2022-01-24"
+    }
+   ],
+   "fetchedAt": "2026-11-24T17:31:51Z"
+  },
+  "266575": {
+   "name": "Yunus Akgün",
+   "query": "Yunus Akgün skills",
+   "videos": [
+    {
+     "id": "B0VaLN95tek",
+     "title": "Yunus Akgün inanılmaz gol #yunusakgün #osimhen #ıcardi #keşfet #futbol #galatasaray #elfsborg",
+     "channel": "Erdem Söylemez ",
+     "publishedAt": "2024-10-23"
+    },
+    {
+     "id": "JisthSoeMbk",
+     "title": "Yunus Akgün şovu🥳#futbol#edit#galatasaray",
+     "channel": "draftedit",
+     "publishedAt": "2025-09-19"
+    },
+    {
+     "id": "iwgKoVeL8uA",
+     "title": "Yunus Akgün Skills",
+     "channel": "Meşin Yuvarlak ",
+     "publishedAt": "2025-04-16"
+    }
+   ],
+   "fetchedAt": "2026-11-24T17:31:51Z"
   }
  }
 }

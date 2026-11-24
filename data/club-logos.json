@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-24T05:56:22Z",
+ "updatedAt": "2026-11-24T17:31:51Z",
  "logos": {
   "nat:england": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
   "club:swindon town": "https://a.espncdn.com/i/teamlogos/soccer/500/341.png",
@@ -533,6 +533,7 @@
   "club:desna chernihiv": null,
   "club:america": "https://a.espncdn.com/i/teamlogos/soccer/500/227.png",
   "club:akademisk boldklub": null,
-  "club:lecce": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png"
+  "club:lecce": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
+  "club:sevilla atletico": null
  }
 }

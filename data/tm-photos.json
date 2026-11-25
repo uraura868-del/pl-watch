@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-24T17:31:51Z",
+ "updatedAt": "2026-11-25T02:19:01Z",
  "clubs": {
   "manchester united": {
    "id": 985,
@@ -250,77 +250,77 @@
    "id": 873,
    "slug": "club",
    "name": "Crystal Palace F.C.",
-   "fetchedAt": "2026-11-17T13:10:16Z",
+   "fetchedAt": "2026-11-25T02:19:01Z",
    "players": {}
   },
   "kauno zalgiris": {
    "id": 40090,
    "slug": "club",
    "name": "FK Kauno Žalgiris",
-   "fetchedAt": "2026-11-17T22:12:58Z",
+   "fetchedAt": "2026-11-25T02:19:01Z",
    "players": {}
   },
   "luton town": {
    "id": 1031,
    "slug": "club",
    "name": "Luton Town F.C.",
-   "fetchedAt": "2026-11-17T22:12:58Z",
+   "fetchedAt": "2026-11-25T02:19:01Z",
    "players": {}
   },
   "plymouth argyle": {
    "id": 2262,
    "slug": "club",
    "name": "Plymouth Argyle F.C.",
-   "fetchedAt": "2026-11-17T22:12:58Z",
+   "fetchedAt": "2026-11-25T02:19:01Z",
    "players": {}
   },
   "besiktas": {
    "id": 114,
    "slug": "club",
    "name": "Beşiktaş J.K.",
-   "fetchedAt": "2026-11-17T22:12:58Z",
+   "fetchedAt": "2026-11-25T02:19:01Z",
    "players": {}
   },
   "lyon": {
    "id": 1041,
    "slug": "club",
    "name": "Olympique Lyonnais",
-   "fetchedAt": "2026-11-17T22:12:58Z",
+   "fetchedAt": "2026-11-25T02:19:01Z",
    "players": {}
   },
   "lech poznan": {
    "id": 238,
    "slug": "club",
    "name": "Lech Poznań",
-   "fetchedAt": "2026-11-17T22:12:58Z",
+   "fetchedAt": "2026-11-25T02:19:01Z",
    "players": {}
   },
   "middlesbrough": {
    "id": 641,
    "slug": "club",
    "name": "Middlesbrough F.C.",
-   "fetchedAt": "2026-11-17T22:12:58Z",
+   "fetchedAt": "2026-11-25T02:19:01Z",
    "players": {}
   },
   "wolverhampton wanderers": {
    "id": 543,
    "slug": "club",
    "name": "Wolverhampton Wanderers F.C.",
-   "fetchedAt": "2026-11-17T22:12:58Z",
+   "fetchedAt": "2026-11-25T02:19:01Z",
    "players": {}
   },
   "preston north end": {
    "id": 466,
    "slug": "club",
    "name": "Preston North End F.C.",
-   "fetchedAt": "2026-11-17T22:12:58Z",
+   "fetchedAt": "2026-11-25T02:19:01Z",
    "players": {}
   },
   "west ham united": {
    "id": 379,
    "slug": "club",
    "name": "West Ham United F.C.",
-   "fetchedAt": "2026-11-17T22:12:58Z",
+   "fetchedAt": "2026-11-25T02:19:01Z",
    "players": {}
   },
   "afc wimbledon": {
@@ -481,7 +481,7 @@
    "id": 16,
    "slug": "club",
    "name": "Borussia Dortmund",
-   "fetchedAt": "2026-11-13T16:10:53Z",
+   "fetchedAt": "2026-11-25T02:19:01Z",
    "players": {}
   },
   "sporting cp": {

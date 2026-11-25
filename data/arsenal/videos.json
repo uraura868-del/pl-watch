@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-24T17:31:51Z",
+ "updatedAt": "2026-11-25T02:19:01Z",
  "enabled": true,
  "players": {
   "169532": {
@@ -801,6 +801,31 @@
     }
    ],
    "fetchedAt": "2026-11-24T17:31:51Z"
+  },
+  "390095": {
+   "name": "Jack Porter",
+   "query": "Jack Porter skills",
+   "videos": [
+    {
+     "id": "p8aHN_adT4M",
+     "title": "JACK PORTER | Arsenal Future Star 2024 🔴⚪ Saves, Reflexes, GK Exits & Distribution (HD)",
+     "channel": "WorldOfFootballHD",
+     "publishedAt": "2024-09-25"
+    },
+    {
+     "id": "eLUd8DDjxYY",
+     "title": "This was the SCARIEST Version of Jack Porter Impossible Skills ⚽  BLUE FOOTBALL",
+     "channel": "BLUE FOOTBALL",
+     "publishedAt": "2025-11-07"
+    },
+    {
+     "id": "7EbYRUyo0WA",
+     "title": "IS HE THE FUTURE OF ARSENAL? 👀 | JACK PORTER EDITION",
+     "channel": "Rising Ballers",
+     "publishedAt": "2025-09-29"
+    }
+   ],
+   "fetchedAt": "2026-11-25T02:19:01Z"
   }
  }
 }

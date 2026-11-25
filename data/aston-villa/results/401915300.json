@@ -1,0 +1,24 @@
+{
+ "eventId": "401915300",
+ "date": "2026-11-24T17:45:00Z",
+ "opponent": {
+  "name": "Galatasaray",
+  "abbr": "GAL"
+ },
+ "isHome": false,
+ "score": {
+  "us": 0,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Deniz Gül",
+   "assist": null,
+   "minute": "77'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

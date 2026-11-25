@@ -1,0 +1,78 @@
+{
+ "eventId": "401915295",
+ "date": "2026-11-24T20:00:00Z",
+ "opponent": {
+  "name": "Borussia Dortmund",
+  "abbr": "DOR"
+ },
+ "ht": {
+  "us": {
+   "shots": 13,
+   "onTarget": 2,
+   "offTarget": 7,
+   "blocked": 4,
+   "corners": 3,
+   "fouls": 4,
+   "offsides": 1,
+   "yellow": 0,
+   "red": 0
+  },
+  "opp": {
+   "shots": 8,
+   "onTarget": 1,
+   "offTarget": 5,
+   "blocked": 2,
+   "corners": 4,
+   "fouls": 14,
+   "offsides": 3,
+   "yellow": 0,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 28,
+   "onTarget": 3,
+   "offTarget": 15,
+   "blocked": 10,
+   "corners": 8,
+   "fouls": 14,
+   "offsides": 1,
+   "yellow": 0,
+   "red": 0,
+   "possession": "63.2",
+   "passesAccurate": "501",
+   "passes": "574",
+   "passAcc": "0.9",
+   "crossesAccurate": "8",
+   "crosses": "26",
+   "tacklesWon": "10",
+   "tackles": "15",
+   "interceptions": "8",
+   "clearances": "18"
+  },
+  "opp": {
+   "shots": 12,
+   "onTarget": 3,
+   "offTarget": 6,
+   "blocked": 3,
+   "corners": 5,
+   "fouls": 24,
+   "offsides": 4,
+   "yellow": 0,
+   "red": 0,
+   "possession": "36.8",
+   "passesAccurate": "273",
+   "passes": "336",
+   "passAcc": "0.8",
+   "crossesAccurate": "2",
+   "crosses": "14",
+   "tacklesWon": "10",
+   "tackles": "18",
+   "interceptions": "10",
+   "clearances": "53"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

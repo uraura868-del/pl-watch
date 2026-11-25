@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-24T17:31:51Z",
+ "updatedAt": "2026-11-25T02:19:01Z",
  "manager": {
   "name": "Mikel Arteta",
   "role": "Manager",
@@ -56,6 +56,22 @@
    "birthPlace": "Lorient",
    "posInfo": "Goalkeeper",
    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p437495.png"
+  },
+  {
+   "id": "390095",
+   "name": "Jack Porter",
+   "jersey": "55",
+   "pos": "G",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p616059.png",
+   "injuries": [],
+   "dob": "2008-07-15",
+   "nat": "England",
+   "natCode": "GB-ENG",
+   "height": 185,
+   "joined": "2024-09-18",
+   "birthPlace": "Chelmsford",
+   "posInfo": "Goalkeeper",
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p616059.png"
   },
   {
    "id": "231859",

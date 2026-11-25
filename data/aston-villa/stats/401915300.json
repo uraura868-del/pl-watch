@@ -1,0 +1,78 @@
+{
+ "eventId": "401915300",
+ "date": "2026-11-24T17:45:00Z",
+ "opponent": {
+  "name": "Galatasaray",
+  "abbr": "GAL"
+ },
+ "ht": {
+  "us": {
+   "shots": 3,
+   "onTarget": 0,
+   "offTarget": 2,
+   "blocked": 1,
+   "corners": 1,
+   "fouls": 16,
+   "offsides": 1,
+   "yellow": 1,
+   "red": 0
+  },
+  "opp": {
+   "shots": 1,
+   "onTarget": 0,
+   "offTarget": 0,
+   "blocked": 1,
+   "corners": 1,
+   "fouls": 18,
+   "offsides": 0,
+   "yellow": 0,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 4,
+   "onTarget": 0,
+   "offTarget": 3,
+   "blocked": 1,
+   "corners": 1,
+   "fouls": 24,
+   "offsides": 2,
+   "yellow": 4,
+   "red": 0,
+   "possession": "54.6",
+   "passesAccurate": "385",
+   "passes": "443",
+   "passAcc": "0.9",
+   "crossesAccurate": "2",
+   "crosses": "9",
+   "tacklesWon": "7",
+   "tackles": "11",
+   "interceptions": "6",
+   "clearances": "30"
+  },
+  "opp": {
+   "shots": 8,
+   "onTarget": 1,
+   "offTarget": 3,
+   "blocked": 4,
+   "corners": 5,
+   "fouls": 24,
+   "offsides": 1,
+   "yellow": 2,
+   "red": 0,
+   "possession": "45.4",
+   "passesAccurate": "290",
+   "passes": "357",
+   "passAcc": "0.8",
+   "crossesAccurate": "7",
+   "crosses": "21",
+   "tacklesWon": "18",
+   "tackles": "23",
+   "interceptions": "10",
+   "clearances": "12"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

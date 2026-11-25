@@ -1,0 +1,45 @@
+{
+ "eventId": "401915379",
+ "date": "2026-11-24T20:00:00Z",
+ "opponent": {
+  "name": "Napoli",
+  "abbr": "NAP"
+ },
+ "isHome": true,
+ "score": {
+  "us": 2,
+  "opp": 2
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Rasmus Højlund",
+   "assist": "Billy Gilmour",
+   "minute": "55'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Ayyoub Bouaddi",
+   "assist": "Jérémy Doku",
+   "minute": "67'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Noa Lang",
+   "assist": "Leonardo Spinazzola",
+   "minute": "76'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Rayan Cherki",
+   "assist": "Iliman Ndiaye",
+   "minute": "86'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

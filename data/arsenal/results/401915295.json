@@ -1,0 +1,31 @@
+{
+ "eventId": "401915295",
+ "date": "2026-11-24T20:00:00Z",
+ "opponent": {
+  "name": "Borussia Dortmund",
+  "abbr": "DOR"
+ },
+ "isHome": true,
+ "score": {
+  "us": 1,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Viktor Gyökeres",
+   "assist": "Noni Madueke",
+   "minute": "10'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Maximilian Beier",
+   "assist": "Kouakou Gadou",
+   "minute": "55'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-25T12:40:15Z",
+ "updatedAt": "2026-11-25T22:26:08Z",
  "clubs": {
   "manchester united": {
    "id": 985,
@@ -942,21 +942,21 @@
    "id": 2432,
    "slug": "club",
    "name": "S.C.U. Torreense",
-   "fetchedAt": "2026-11-18T04:10:41Z",
+   "fetchedAt": "2026-11-25T22:26:08Z",
    "players": {}
   },
   "az alkmaar": {
    "id": 1090,
    "slug": "club",
    "name": "AZ Alkmaar",
-   "fetchedAt": "2026-11-18T04:10:41Z",
+   "fetchedAt": "2026-11-25T22:26:08Z",
    "players": {}
   },
   "charlton athletic": {
    "id": 358,
    "slug": "club",
    "name": "Charlton Athletic F.C.",
-   "fetchedAt": "2026-11-18T13:50:27Z",
+   "fetchedAt": "2026-11-25T22:26:08Z",
    "players": {}
   },
   "fleetwood town": {

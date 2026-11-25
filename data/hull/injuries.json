@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-25T12:40:15Z",
+ "updatedAt": "2026-11-25T22:26:08Z",
  "fetchedOk": true,
  "players": [
   {
@@ -8,10 +8,10 @@
    "reasonJa": "十字靭帯損傷",
    "type": "負傷",
    "since": "2026-04-25",
-   "until": "2027-02-19",
+   "until": "2026-11-25",
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-25",
-   "active": true
+   "active": false
   },
   {
    "name": "Charlie Hughes",
@@ -19,10 +19,10 @@
    "reasonJa": "Inguinal hernia",
    "type": "負傷",
    "since": "2026-05-24",
-   "until": null,
+   "until": "2026-11-25",
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-25",
-   "active": true
+   "active": false
   },
   {
    "name": "Darko Gyabi",
@@ -74,10 +74,10 @@
    "reasonJa": "足首の負傷",
    "type": "負傷",
    "since": "2026-10-09",
-   "until": "2026-12-19",
+   "until": "2026-11-25",
    "firstSeen": "2026-11-13",
    "lastSeen": "2026-11-25",
-   "active": true
+   "active": false
   },
   {
    "name": "Hidemasa Morita",
@@ -96,10 +96,10 @@
    "reasonJa": "ハムストリング負傷",
    "type": "負傷",
    "since": "2026-11-05",
-   "until": null,
+   "until": "2026-11-25",
    "firstSeen": "2026-11-13",
    "lastSeen": "2026-11-25",
-   "active": true
+   "active": false
   },
   {
    "name": "Elliot Stroud",
@@ -107,10 +107,10 @@
    "reasonJa": "ハムストリング負傷",
    "type": "負傷",
    "since": "2026-11-07",
-   "until": null,
+   "until": "2026-11-25",
    "firstSeen": "2026-11-13",
    "lastSeen": "2026-11-25",
-   "active": true
+   "active": false
   },
   {
    "name": "Semi Ajayi",
@@ -118,10 +118,10 @@
    "reasonJa": "ハムストリング負傷",
    "type": "負傷",
    "since": "2026-11-07",
-   "until": null,
+   "until": "2026-11-25",
    "firstSeen": "2026-11-13",
    "lastSeen": "2026-11-25",
-   "active": true
+   "active": false
   }
  ]
 }

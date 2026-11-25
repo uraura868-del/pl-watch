@@ -1,0 +1,51 @@
+{
+ "eventId": "401915373",
+ "date": "2026-11-25T20:00:00Z",
+ "opponent": {
+  "name": "Sporting CP",
+  "abbr": "SCP"
+ },
+ "isHome": false,
+ "score": {
+  "us": 2,
+  "opp": 2
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Luis Suárez",
+   "assist": null,
+   "minute": "33'",
+   "kind": "pen"
+  },
+  {
+   "side": "us",
+   "scorer": "Bruno Fernandes",
+   "assist": null,
+   "minute": "48'",
+   "kind": "pen"
+  },
+  {
+   "side": "us",
+   "scorer": "Bruno Fernandes",
+   "assist": "Amad Diallo",
+   "minute": "50'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Luis Suárez",
+   "assist": null,
+   "minute": "80'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [
+  {
+   "side": "us",
+   "name": "Youri Tielemans",
+   "minute": "90'+3'"
+  }
+ ],
+ "source": "ESPN"
+}

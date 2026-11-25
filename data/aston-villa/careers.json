@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-25T12:40:15Z",
+ "updatedAt": "2026-11-25T22:26:08Z",
  "players": {
   "132233": {
    "name": "Marco Bizot",
@@ -610,7 +610,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png"
     }
    ],
-   "fetchedAt": "2026-10-26T12:38:46Z"
+   "fetchedAt": "2026-11-25T22:26:08Z"
   },
   "281121": {
    "name": "Taylor Harwood-Bellis",
@@ -650,7 +650,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/441.png"
     }
    ],
-   "fetchedAt": "2026-10-26T12:38:46Z"
+   "fetchedAt": "2026-11-25T22:26:08Z"
   },
   "281125": {
    "name": "Ian Maatsen",
@@ -734,7 +734,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png"
     }
    ],
-   "fetchedAt": "2026-10-26T12:38:46Z"
+   "fetchedAt": "2026-11-25T22:26:08Z"
   },
   "297229": {
    "name": "Matteo Ruggeri",
@@ -807,13 +807,13 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png"
     }
    ],
-   "fetchedAt": "2026-10-26T12:38:46Z"
+   "fetchedAt": "2026-11-25T22:26:08Z"
   },
   "392682": {
    "name": "Modou Cissé",
    "qid": "Q132719377",
    "career": [],
-   "fetchedAt": "2026-10-26T12:38:46Z"
+   "fetchedAt": "2026-11-25T22:26:08Z"
   },
   "152469": {
    "name": "Ross Barkley",
@@ -919,7 +919,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png"
     }
    ],
-   "fetchedAt": "2026-10-26T12:38:46Z"
+   "fetchedAt": "2026-11-25T22:26:08Z"
   },
   "162843": {
    "name": "John McGinn",
@@ -992,7 +992,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png"
     }
    ],
-   "fetchedAt": "2026-10-26T12:38:46Z"
+   "fetchedAt": "2026-11-25T22:26:08Z"
   },
   "174550": {
    "name": "Leon Goretzka",
@@ -1109,7 +1109,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png"
     }
    ],
-   "fetchedAt": "2026-10-26T12:38:46Z"
+   "fetchedAt": "2026-11-25T22:26:08Z"
   },
   "214375": {
    "name": "Emiliano Buendía",
@@ -1141,7 +1141,7 @@
      "club": "ヘタフェCF",
      "clubEn": "Getafe CF",
      "start": "2014",
-     "end": null,
+     "end": "2018",
      "apps": null,
      "national": false,
      "youth": false,
@@ -1158,9 +1158,53 @@
      "youth": true,
      "loan": false,
      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png"
+    },
+    {
+     "club": "ノリッジ・シティFC",
+     "clubEn": "Norwich City F.C.",
+     "start": "2018",
+     "end": "2021",
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/381.png"
+    },
+    {
+     "club": "アストン・ヴィラFC",
+     "clubEn": "Aston Villa F.C.",
+     "start": "2021",
+     "end": "2025",
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png"
+    },
+    {
+     "club": "バイエル・レバークーゼン",
+     "clubEn": "Bayer 04 Leverkusen",
+     "start": "2025",
+     "end": "2025",
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png"
+    },
+    {
+     "club": "アストン・ヴィラFC",
+     "clubEn": "Aston Villa F.C.",
+     "start": "2025",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png"
     }
    ],
-   "fetchedAt": "2026-10-26T12:38:46Z"
+   "fetchedAt": "2026-11-25T22:26:08Z"
   },
   "250936": {
    "name": "Boubacar Kamara",
@@ -1189,13 +1233,13 @@
      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png"
     }
    ],
-   "fetchedAt": "2026-10-26T12:38:46Z"
+   "fetchedAt": "2026-11-25T22:26:08Z"
   },
   "301524": {
    "name": "João Gomes",
    "qid": "Q103312425",
    "career": [],
-   "fetchedAt": "2026-10-26T12:38:46Z"
+   "fetchedAt": "2026-11-25T22:26:08Z"
   },
   "304799": {
    "name": "Amadou Onana",
@@ -1301,7 +1345,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png"
     }
    ],
-   "fetchedAt": "2026-10-26T12:38:46Z"
+   "fetchedAt": "2026-11-25T22:26:08Z"
   },
   "310607": {
    "name": "Lamare Bogarde",
@@ -1319,17 +1363,6 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png"
     },
     {
-     "club": "Netherlands national under-16 association football team",
-     "clubEn": "Netherlands national under-16 association football team",
-     "start": null,
-     "end": null,
-     "apps": null,
-     "national": true,
-     "youth": true,
-     "loan": false,
-     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png"
-    },
-    {
      "club": "アストン・ヴィラFC",
      "clubEn": "Aston Villa F.C.",
      "start": null,
@@ -1339,9 +1372,20 @@
      "youth": false,
      "loan": false,
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png"
+    },
+    {
+     "club": "Netherlands national under-16 association football team",
+     "clubEn": "Netherlands national under-16 association football team",
+     "start": null,
+     "end": null,
+     "apps": null,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png"
     }
    ],
-   "fetchedAt": "2026-10-26T12:38:46Z"
+   "fetchedAt": "2026-11-25T22:26:08Z"
   },
   "366248": {
    "name": "George Hemmings",
@@ -1359,7 +1403,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png"
     }
    ],
-   "fetchedAt": "2026-10-26T12:38:46Z"
+   "fetchedAt": "2026-11-25T22:26:08Z"
   },
   "386992": {
    "name": "Johan Manzambi",
@@ -1454,7 +1498,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png"
     }
    ],
-   "fetchedAt": "2026-10-26T12:38:46Z"
+   "fetchedAt": "2026-11-25T22:26:08Z"
   },
   "236209": {
    "name": "Tammy Abraham",
@@ -1615,7 +1659,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png"
     }
    ],
-   "fetchedAt": "2026-10-26T12:38:46Z"
+   "fetchedAt": "2026-11-25T22:26:08Z"
   },
   "308524": {
    "name": "Nicolas Jackson",
@@ -1721,7 +1765,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png"
     }
    ],
-   "fetchedAt": "2026-10-26T12:38:46Z"
+   "fetchedAt": "2026-11-25T22:26:08Z"
   },
   "325555": {
    "name": "Alejandro Garnacho",
@@ -1775,7 +1819,7 @@
      "club": "チェルシーFC",
      "clubEn": "Chelsea F.C.",
      "start": "2025",
-     "end": null,
+     "end": "2026",
      "apps": 24,
      "national": false,
      "youth": false,
@@ -1794,13 +1838,13 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png"
     }
    ],
-   "fetchedAt": "2026-10-26T12:38:46Z"
+   "fetchedAt": "2026-11-25T22:26:08Z"
   },
   "382839": {
    "name": "Alysson",
    "qid": "Q127257240",
    "career": [],
-   "fetchedAt": "2026-10-26T12:38:46Z"
+   "fetchedAt": "2026-11-25T22:26:08Z"
   },
   "388522": {
    "name": "Ibrahim Mbaye",
@@ -1873,13 +1917,13 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png"
     }
    ],
-   "fetchedAt": "2026-10-26T12:38:46Z"
+   "fetchedAt": "2026-11-25T22:26:08Z"
   },
   "401451": {
    "name": "Brian Madjo",
    "qid": "Q133462797",
    "career": [],
-   "fetchedAt": "2026-10-26T12:38:46Z"
+   "fetchedAt": "2026-11-25T22:26:08Z"
   }
  }
 }

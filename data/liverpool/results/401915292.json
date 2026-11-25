@@ -1,0 +1,38 @@
+{
+ "eventId": "401915292",
+ "date": "2026-11-25T20:00:00Z",
+ "opponent": {
+  "name": "Club Brugge",
+  "abbr": "BRU"
+ },
+ "isHome": false,
+ "score": {
+  "us": 3,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Alexander Isak",
+   "assist": "Dominik Szoboszlai",
+   "minute": "13'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Florian Wirtz",
+   "assist": "Rio Ngumoha",
+   "minute": "79'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Alexander Isak",
+   "assist": "Alisson Becker",
+   "minute": "82'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-25T12:40:15Z",
+ "updatedAt": "2026-11-25T22:26:08Z",
  "players": {
   "111114": {
    "name": "Jason Steele",
@@ -72,13 +72,13 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png"
     }
    ],
-   "fetchedAt": "2026-10-26T12:38:46Z"
+   "fetchedAt": "2026-11-25T22:26:08Z"
   },
   "182573": {
    "name": "Steven Hall",
    "qid": "Q110442637",
    "career": [],
-   "fetchedAt": "2026-10-26T12:38:46Z"
+   "fetchedAt": "2026-11-25T22:26:08Z"
   },
   "248761": {
    "name": "Tom McGill",
@@ -184,7 +184,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2594.png"
     }
    ],
-   "fetchedAt": "2026-10-26T12:38:46Z"
+   "fetchedAt": "2026-11-25T22:26:08Z"
   },
   "291609": {
    "name": "Bart Verbruggen",
@@ -257,7 +257,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png"
     }
    ],
-   "fetchedAt": "2026-10-26T12:38:46Z"
+   "fetchedAt": "2026-11-25T22:26:08Z"
   },
   "147106": {
    "name": "Lewis Dunk",
@@ -308,7 +308,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
     }
    ],
-   "fetchedAt": "2026-10-26T12:38:46Z"
+   "fetchedAt": "2026-11-25T22:26:08Z"
   },
   "216017": {
    "name": "Olivier Boscagli",
@@ -370,7 +370,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png"
     }
    ],
-   "fetchedAt": "2026-10-26T13:04:00Z"
+   "fetchedAt": "2026-11-25T22:26:08Z"
   },
   "238318": {
    "name": "Ferdi Kadioglu",
@@ -476,7 +476,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png"
     }
    ],
-   "fetchedAt": "2026-10-26T13:04:00Z"
+   "fetchedAt": "2026-11-25T22:26:08Z"
   },
   "246771": {
    "name": "Pascal Struijk",
@@ -516,7 +516,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png"
     }
    ],
-   "fetchedAt": "2026-10-26T13:04:00Z"
+   "fetchedAt": "2026-11-25T22:26:08Z"
   },
   "274285": {
    "name": "Costinha",
@@ -532,9 +532,20 @@
      "youth": true,
      "loan": false,
      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png"
+    },
+    {
+     "club": "オリンピアコスFC",
+     "clubEn": "Olympiacos F.C.",
+     "start": "2024",
+     "end": "2026",
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/435.png"
     }
    ],
-   "fetchedAt": "2026-10-26T13:04:00Z"
+   "fetchedAt": "2026-11-25T22:26:08Z"
   },
   "289942": {
    "name": "Michael Svoboda",

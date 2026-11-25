@@ -1,0 +1,78 @@
+{
+ "eventId": "401915373",
+ "date": "2026-11-25T20:00:00Z",
+ "opponent": {
+  "name": "Sporting CP",
+  "abbr": "SCP"
+ },
+ "ht": {
+  "us": {
+   "shots": 2,
+   "onTarget": 0,
+   "offTarget": 2,
+   "blocked": 0,
+   "corners": 0,
+   "fouls": 13,
+   "offsides": 5,
+   "yellow": 2,
+   "red": 0
+  },
+  "opp": {
+   "shots": 4,
+   "onTarget": 0,
+   "offTarget": 3,
+   "blocked": 1,
+   "corners": 1,
+   "fouls": 12,
+   "offsides": 1,
+   "yellow": 0,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 5,
+   "onTarget": 0,
+   "offTarget": 4,
+   "blocked": 1,
+   "corners": 2,
+   "fouls": 22,
+   "offsides": 7,
+   "yellow": 2,
+   "red": 1,
+   "possession": "49.2",
+   "passesAccurate": "395",
+   "passes": "460",
+   "passAcc": "0.9",
+   "crossesAccurate": "0",
+   "crosses": "7",
+   "tacklesWon": "14",
+   "tackles": "20",
+   "interceptions": "11",
+   "clearances": "14"
+  },
+  "opp": {
+   "shots": 8,
+   "onTarget": 1,
+   "offTarget": 6,
+   "blocked": 1,
+   "corners": 3,
+   "fouls": 36,
+   "offsides": 1,
+   "yellow": 2,
+   "red": 0,
+   "possession": "50.8",
+   "passesAccurate": "413",
+   "passes": "470",
+   "passAcc": "0.9",
+   "crossesAccurate": "2",
+   "crosses": "15",
+   "tacklesWon": "7",
+   "tackles": "13",
+   "interceptions": "15",
+   "clearances": "13"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

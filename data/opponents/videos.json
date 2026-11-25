@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-25T02:19:01Z",
+ "updatedAt": "2026-11-25T12:40:15Z",
  "enabled": true,
  "players": {
   "336794": {
@@ -613,6 +613,12 @@
    "query": "Alberto Dossena skills",
    "videos": [
     {
+     "id": "Velh7SyQF9o",
+     "title": "Il riscatto di Alberto Dossena",
+     "channel": "Sport Channel 214",
+     "publishedAt": "2021-06-05"
+    },
+    {
      "id": "fCR4CmSTgXA",
      "title": "Dossena, giornata fondamentale",
      "channel": "Sport Channel 214",
@@ -623,40 +629,34 @@
      "title": "La crescita di Alberto Dossena, ora è dura tenerlo in panchina",
      "channel": "Prima Tivvù (prima tivvù)",
      "publishedAt": "2021-04-07"
-    },
-    {
-     "id": "Ri2nOBvV3XQ",
-     "title": "Un lupo in famiglia: Alberto Dossena | 14",
-     "channel": "Prima Tivvù (prima tivvù)",
-     "publishedAt": "2021-03-18"
     }
    ],
-   "fetchedAt": "2026-10-26T10:59:31Z"
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "262071": {
    "name": "Anastasios Douvikas",
    "query": "Anastasios Douvikas skills",
    "videos": [
     {
-     "id": "gtlj3YPE-lY",
-     "title": "Anastasios Douvikas: Striker Haus Gol Dibalik Keajaiban Como Musim Ini!",
-     "channel": "Ruang Bola",
-     "publishedAt": "2026-05-25"
-    },
-    {
-     "id": "PY3VYjZWOFs",
-     "title": "Striker Tak Terduga! Kisah Anastasios Douvikas yang Mengubah Como di Serie A",
-     "channel": "SoccerVerse ID",
-     "publishedAt": "2026-03-15"
+     "id": "9ygepjRQ1oQ",
+     "title": "Anastasios Douvikas is so Underrated..",
+     "channel": "Brazil Scout ",
+     "publishedAt": "2026-11-05"
     },
     {
      "id": "TsUVyzI0H7c",
      "title": "Anastasios Douvikas is UNSTOPPABLE in 2026 ᴴᴰ",
      "channel": "Derecha de Neymar",
      "publishedAt": "2026-03-09"
+    },
+    {
+     "id": "1YRBPZKEF5o",
+     "title": "Why Anastasios Douvikas Could Be the NEXT Big Striker",
+     "channel": "Die Hard Football",
+     "publishedAt": "2026-08-11"
     }
    ],
-   "fetchedAt": "2026-10-26T10:59:31Z"
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "323273": {
    "name": "Ivan Smolcic",
@@ -669,19 +669,19 @@
      "publishedAt": "2025-07-21"
     },
     {
-     "id": "FadvMNbBA4U",
-     "title": "Visi Tajam & Tekel Akurat: Apa yang Membuat Ivan Smolčić Begitu Spesial?\"",
-     "channel": "bigergol ",
-     "publishedAt": "2026-02-22"
-    },
-    {
      "id": "NRwnYHSCv5o",
      "title": "Cesc Fàbregas explained the role of Smolčić 🇭🇷  and Jacobo Ramon 🇪🇸  against Roma #como1907 #seriea",
      "channel": "Como 1907",
      "publishedAt": "2026-03-20"
+    },
+    {
+     "id": "FadvMNbBA4U",
+     "title": "Visi Tajam & Tekel Akurat: Apa yang Membuat Ivan Smolčić Begitu Spesial?\"",
+     "channel": "bigergol ",
+     "publishedAt": "2026-02-22"
     }
    ],
-   "fetchedAt": "2026-10-26T10:59:31Z"
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "380318": {
    "name": "Jacobo Ramón",
@@ -706,7 +706,7 @@
      "publishedAt": "2026-01-30"
     }
    ],
-   "fetchedAt": "2026-10-26T10:59:31Z"
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "214740": {
    "name": "Jean Butez",
@@ -731,7 +731,7 @@
      "publishedAt": "2026-08-24"
     }
    ],
-   "fetchedAt": "2026-10-26T10:59:31Z"
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "317233": {
    "name": "Kaiki",
@@ -756,13 +756,20 @@
      "publishedAt": "2025-07-24"
     }
    ],
-   "fetchedAt": "2026-10-26T10:59:31Z"
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "3140451": {
    "name": "Lorenzo Luigi Ginelli",
    "query": "Lorenzo Luigi Ginelli skills",
-   "videos": [],
-   "fetchedAt": "2026-10-26T10:59:31Z"
+   "videos": [
+    {
+     "id": "k3FzRt5h2-M",
+     "title": "รู้จัก 'นิโกโล่ เตรโซลดี้' หอกเยอรมันเชื้อสายอิตาเลี่ยน แฟนมิลานผู้ระเบิดแฮตทริกใส่งูใหญ่",
+     "channel": "FootballMax",
+     "publishedAt": "2026-10-21"
+    }
+   ],
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "291285": {
    "name": "Lucas Da Cunha",
@@ -775,19 +782,19 @@
      "publishedAt": "2026-03-28"
     },
     {
-     "id": "fMrcx5tLSw0",
-     "title": "Dibuang Klub Besar, Kini Jadi Pemimpin di Serie A dan Jantung Permainan Como! Kisah Lucas Da Cunha!",
-     "channel": "SoccerVerse Reborn",
-     "publishedAt": "2026-07-30"
+     "id": "JaGahhib8LM",
+     "title": "Lucas Da Cunha - Underrated Central Midfielder • 2026",
+     "channel": "90 Minutes Football",
+     "publishedAt": "2026-10-02"
     },
     {
-     "id": "NJLFXM0WwHc",
-     "title": "Da Cunha’s Thunderbolt | Every Angle | Serie A 2025/26",
-     "channel": "Serie A",
-     "publishedAt": "2026-03-11"
+     "id": "l_DvTPXkTnk",
+     "title": "Lucas Da Cunha is a Good Midfielder! - 2026",
+     "channel": "SilvaSkills",
+     "publishedAt": "2026-04-03"
     }
    ],
-   "fetchedAt": "2026-10-26T10:59:31Z"
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "264211": {
    "name": "Luis Milla",
@@ -806,13 +813,13 @@
      "publishedAt": "2026-08-18"
     },
     {
-     "id": "7GNLmwVKa0Y",
-     "title": "أهداف ومهارات لويس ميلا🔥 صفقة النصر السعودي المنتظرة Luis Milla ✍️⚽",
-     "channel": "Football Magic",
-     "publishedAt": "2026-05-26"
+     "id": "qrEcXsxm5sg",
+     "title": "Don Luis Milla. 🎩",
+     "channel": "LALIGA EA SPORTS",
+     "publishedAt": "2026-02-22"
     }
    ],
-   "fetchedAt": "2026-10-26T10:59:31Z"
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "175887": {
    "name": "Marc-Oliver Kempf",
@@ -831,24 +838,18 @@
      "publishedAt": "2026-02-07"
     },
     {
-     "id": "CC79Ys2fDQg",
-     "title": "Marc-Oliver Kempf | Willkommen beim VfB | VfB ein Leben lang",
-     "channel": "VfB ein Leben lang",
-     "publishedAt": "2018-05-26"
+     "id": "CG9FMZjc36M",
+     "title": "Spectacular Header by Kempf 🇩🇪  Secures 3 Points for Como 1907 Against Lecce! 💙 #como1907 #seriea",
+     "channel": "Como 1907",
+     "publishedAt": "2026-03-02"
     }
    ],
-   "fetchedAt": "2026-10-26T10:59:31Z"
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "311475": {
    "name": "Martin Baturina",
    "query": "Martin Baturina skills",
    "videos": [
-    {
-     "id": "LbU-bL70mPI",
-     "title": "Martin Baturina - Class in Every Touch",
-     "channel": "Brazil Scout Comps",
-     "publishedAt": "2026-04-08"
-    },
     {
      "id": "JpYEOVBd5dQ",
      "title": "Martin Baturina – Creative Midfield Talent 🇭🇷 | 2026ᴴᴰ",
@@ -856,13 +857,19 @@
      "publishedAt": "2026-10-17"
     },
     {
-     "id": "UpdQnjCa64o",
-     "title": "Best of Martin Baturina | Rising Star: January 2026 | Serie A 2025/26",
-     "channel": "Serie A",
-     "publishedAt": "2026-01-29"
+     "id": "LbU-bL70mPI",
+     "title": "Martin Baturina - Class in Every Touch",
+     "channel": "Brazil Scout Comps",
+     "publishedAt": "2026-04-08"
+    },
+    {
+     "id": "1O_n9xna9Yc",
+     "title": "Martin Baturina Is Stepping Up 🇭🇷",
+     "channel": "Pure Magic",
+     "publishedAt": "2026-01-22"
     }
    ],
-   "fetchedAt": "2026-10-26T10:59:31Z"
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "387723": {
    "name": "Mattia Liberali",
@@ -881,13 +888,13 @@
      "publishedAt": "2026-04-17"
     },
     {
-     "id": "ZAEoVU7Bk90",
-     "title": "Here's Why Como Signed Mattia Liberali - 2026",
-     "channel": "JARAAXZ",
-     "publishedAt": "2026-06-14"
+     "id": "8h3GWoD1YAc",
+     "title": "Mattia Liberali debut in Champions League 🇮🇹 💙 #Como1907 #UCL",
+     "channel": "Como 1907",
+     "publishedAt": "2026-10-16"
     }
    ],
-   "fetchedAt": "2026-10-26T10:59:31Z"
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "265912": {
    "name": "Maxence Caqueret",
@@ -906,13 +913,13 @@
      "publishedAt": "2024-10-23"
     },
     {
-     "id": "nhES_tYdYrM",
-     "title": "Quality and Intensity | A Chat with Maxence Caqueret | Serie A 2025/26",
-     "channel": "Serie A",
-     "publishedAt": "2026-04-25"
+     "id": "bfqVpaRUB4I",
+     "title": "Maxence Caqueret  to como1907 _ Complete midfielder",
+     "channel": "GOOL",
+     "publishedAt": "2025-01-11"
     }
    ],
-   "fetchedAt": "2026-10-26T10:59:31Z"
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "309241": {
    "name": "Máximo Perrone",
@@ -937,23 +944,23 @@
      "publishedAt": "2026-04-01"
     }
    ],
-   "fetchedAt": "2026-10-26T10:59:31Z"
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "337970": {
    "name": "Nico Paz",
    "query": "Nico Paz skills",
    "videos": [
     {
-     "id": "U0vJsuhwFxI",
-     "title": "Nico Paz is INSANE! 🔥",
+     "id": "PcX9yVGh6sE",
+     "title": "Nico Paz is on ANOTHER LEVEL! 🔥",
      "channel": "Sebisaac2",
-     "publishedAt": "2026-10-22"
+     "publishedAt": "2026-11-05"
     },
     {
-     "id": "qT2pGiIKQeA",
-     "title": "Nico Paz is a Footballing Genius in 2026! 🪄",
-     "channel": "HugoFilmz",
-     "publishedAt": "2026-10-08"
+     "id": "EnoWMKhTuHg",
+     "title": "17 Minutes Of Nico Paz MAGIC! 🤯",
+     "channel": "Thiago Productions",
+     "publishedAt": "2026-11-05"
     },
     {
      "id": "wKHYmwBEA6E",
@@ -962,7 +969,7 @@
      "publishedAt": "2026-10-25"
     }
    ],
-   "fetchedAt": "2026-10-26T10:59:31Z"
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "108662": {
    "name": "Robert Sánchez",
@@ -981,13 +988,13 @@
      "publishedAt": "2024-12-18"
     },
     {
-     "id": "1h4R10V9b3o",
-     "title": "Robert Sanchez - All Mistakes for Chelsea",
-     "channel": "WeTalkFootball",
-     "publishedAt": "2025-01-27"
+     "id": "9b8re_waTbU",
+     "title": "I found the last 30 shots against Robert Sánchez...",
+     "channel": "FootballComps",
+     "publishedAt": "2026-03-25"
     }
    ],
-   "fetchedAt": "2026-10-26T10:59:31Z"
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "276822": {
    "name": "Samuele Ricci",
@@ -1012,23 +1019,23 @@
      "publishedAt": "2025-01-06"
     }
    ],
-   "fetchedAt": "2026-10-26T10:59:31Z"
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "297084": {
    "name": "Yan Couto",
    "query": "Yan Couto skills",
    "videos": [
     {
-     "id": "RcI_xhq0iDA",
-     "title": "Yan Couto - Welcome to Como 1907!",
-     "channel": "90 Minutes Football",
-     "publishedAt": "2026-06-03"
-    },
-    {
      "id": "wcEVr3Vbks0",
      "title": "Yan Couto - Complete Season in 2024!",
      "channel": "SilvaSkills",
      "publishedAt": "2024-09-14"
+    },
+    {
+     "id": "RcI_xhq0iDA",
+     "title": "Yan Couto - Welcome to Como 1907!",
+     "channel": "90 Minutes Football",
+     "publishedAt": "2026-06-03"
     },
     {
      "id": "7Furtr48eN0",
@@ -1037,7 +1044,7 @@
      "publishedAt": "2024-01-23"
     }
    ],
-   "fetchedAt": "2026-10-26T10:59:31Z"
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "192146": {
    "name": "Álex Valle",
@@ -1050,19 +1057,19 @@
      "publishedAt": "2025-01-29"
     },
     {
-     "id": "e8rDdLpWwSk",
-     "title": "Fabregas ball. Alex Valle 🇪🇸 & Baturina 🇭🇷 #Como1907 #ComoInter #SerieA",
-     "channel": "Como 1907",
-     "publishedAt": "2026-04-16"
-    },
-    {
      "id": "vJS7rt1WLsM",
      "title": "Álex Valle is a Marking Machine! - 2025",
      "channel": "SilvaSkills",
      "publishedAt": "2025-03-06"
+    },
+    {
+     "id": "e8rDdLpWwSk",
+     "title": "Fabregas ball. Alex Valle 🇪🇸 & Baturina 🇭🇷 #Como1907 #ComoInter #SerieA",
+     "channel": "Como 1907",
+     "publishedAt": "2026-04-16"
     }
    ],
-   "fetchedAt": "2026-10-26T10:59:31Z"
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "304802": {
    "name": "Anton Stach",
@@ -1569,16 +1576,16 @@
    "query": "Alejandro Grimaldo skills",
    "videos": [
     {
-     "id": "jHRKIo8EPG4",
-     "title": "Alejandro GRIMALDO: Europe's MOST PROFILIC Defender ⚽🚀",
-     "channel": "Bundesliga",
-     "publishedAt": "2025-11-19"
-    },
-    {
      "id": "_38lonAxAB0",
      "title": "Alejandro Grimaldo ● Best Tackles, Passes & Skills 🇪🇸",
      "channel": "SVMM",
      "publishedAt": "2025-04-29"
+    },
+    {
+     "id": "jHRKIo8EPG4",
+     "title": "Alejandro GRIMALDO: Europe's MOST PROFILIC Defender ⚽🚀",
+     "channel": "Bundesliga",
+     "publishedAt": "2025-11-19"
     },
     {
      "id": "vQMEzE1RrTs",
@@ -1587,7 +1594,7 @@
      "publishedAt": "2026-06-19"
     }
    ],
-   "fetchedAt": "2026-10-26T10:59:31Z"
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "188230": {
    "name": "Alexander Sørloth",
@@ -1600,19 +1607,19 @@
      "publishedAt": "2026-03-01"
     },
     {
-     "id": "WQAeV-2yh-A",
-     "title": "This Is Why Man Utd Want Alexander Sørloth 🇳🇴🔴⚫️",
-     "channel": "anthonyprod",
-     "publishedAt": "2026-08-28"
-    },
-    {
      "id": "EMfRgV7ZedI",
      "title": "I found Alexander Sørloth's Last 18 Shots...",
      "channel": "NXT Raid",
      "publishedAt": "2026-07-13"
+    },
+    {
+     "id": "oZ2_wENRU3Q",
+     "title": "Alexander Sørloth ● Juventus Transfer Target 2026 ⚪️⚫️🇳🇴",
+     "channel": "SVMM",
+     "publishedAt": "2026-06-07"
     }
    ],
-   "fetchedAt": "2026-10-26T10:59:31Z"
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "328289": {
    "name": "Arnau Ortiz",
@@ -1625,19 +1632,19 @@
      "publishedAt": "2026-08-19"
     },
     {
-     "id": "V6pnrMu1S0o",
-     "title": "Arnau Ortiz #scouting ",
-     "channel": "N. A. | Entrenador Scout Fútbol",
-     "publishedAt": "2026-02-18"
-    },
-    {
      "id": "xPTE4WQwL-8",
      "title": "🦊 ARNAU ORTIZ - REAL MURCIA 2022/2023 | “Cosas de la Edad”",
      "channel": "Grana Fondo",
      "publishedAt": "2023-05-30"
+    },
+    {
+     "id": "V6pnrMu1S0o",
+     "title": "Arnau Ortiz #scouting ",
+     "channel": "N. A. | Entrenador Scout Fútbol",
+     "publishedAt": "2026-02-18"
     }
    ],
-   "fetchedAt": "2026-10-26T10:59:31Z"
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "96970": {
    "name": "Cristian Romero",
@@ -1662,23 +1669,23 @@
      "publishedAt": "2026-08-12"
     }
    ],
-   "fetchedAt": "2026-10-26T10:59:31Z"
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "368593": {
    "name": "Daniel Martinez",
    "query": "Daniel Martinez skills",
    "videos": [
     {
+     "id": "LSu5Qdd6FG0",
+     "title": "How To Play Bass For Beginners Lesson #1 by Daniel Martinez",
+     "channel": "Oscar Martinez Drums",
+     "publishedAt": "2025-10-13"
+    },
+    {
      "id": "B_-BvLLx51c",
      "title": "Daniel Martinez - OF/P, Class of 2026",
      "channel": "Texas Rangers Youth Academy",
      "publishedAt": "2025-11-17"
-    },
-    {
-     "id": "GJYFKIxsOtc",
-     "title": "David Martinez Morales - The Best Venezuelan Talent Ever 🇻🇪",
-     "channel": "Sudamerica Comps",
-     "publishedAt": "2025-01-10"
     },
     {
      "id": "dOOlS86bcjM",
@@ -1687,7 +1694,7 @@
      "publishedAt": "2019-12-19"
     }
    ],
-   "fetchedAt": "2026-10-26T10:59:31Z"
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "257786": {
    "name": "Dávid Hancko",
@@ -1700,35 +1707,35 @@
      "publishedAt": "2025-07-18"
     },
     {
-     "id": "MEqZHuzJCcA",
-     "title": "Hancko. 🎩",
-     "channel": "LALIGA EA SPORTS",
-     "publishedAt": "2025-10-05"
-    },
-    {
      "id": "LooB1xUxsiY",
      "title": "The Defensive Brilliance of Dávid Hancko",
      "channel": "FUTScoutHD",
      "publishedAt": "2024-12-03"
+    },
+    {
+     "id": "MEqZHuzJCcA",
+     "title": "Hancko. 🎩",
+     "channel": "LALIGA EA SPORTS",
+     "publishedAt": "2025-10-05"
     }
    ],
-   "fetchedAt": "2026-10-26T10:59:31Z"
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "323838": {
    "name": "Giuliano Simeone",
    "query": "Giuliano Simeone skills",
    "videos": [
     {
-     "id": "T8zO4HEhEoc",
-     "title": "Giuliano Simeone is UNDERRATED",
-     "channel": "Fabian Football",
-     "publishedAt": "2025-07-03"
-    },
-    {
      "id": "1ZGsXtAjpKo",
      "title": "SIMEONE Father & Son Combination 🥹❤️",
      "channel": "LALIGA EA SPORTS",
      "publishedAt": "2024-11-08"
+    },
+    {
+     "id": "T8zO4HEhEoc",
+     "title": "Giuliano Simeone is UNDERRATED",
+     "channel": "Fabian Football",
+     "publishedAt": "2025-07-03"
     },
     {
      "id": "XpeEaVdh8Qw",
@@ -1737,23 +1744,23 @@
      "publishedAt": "2026-08-24"
     }
    ],
-   "fetchedAt": "2026-10-26T10:59:31Z"
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "149622": {
    "name": "Jan Oblak",
    "query": "Jan Oblak skills",
    "videos": [
     {
-     "id": "mXxoZbhqdu4",
-     "title": "Jan Oblak • BEST SAVES • 2024",
-     "channel": "OblakGK",
-     "publishedAt": "2024-10-29"
-    },
-    {
      "id": "h1D-ZM7MWWc",
      "title": "Lo MEJOR de JAN OBLAK en LALIGA",
      "channel": "LALIGA EA SPORTS",
      "publishedAt": "2025-10-12"
+    },
+    {
+     "id": "mXxoZbhqdu4",
+     "title": "Jan Oblak • BEST SAVES • 2024",
+     "channel": "OblakGK",
+     "publishedAt": "2024-10-29"
     },
     {
      "id": "pcoyLS_mkV0",
@@ -1762,7 +1769,7 @@
      "publishedAt": "2021-08-06"
     }
    ],
-   "fetchedAt": "2026-10-26T10:59:31Z"
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "290802": {
    "name": "Johnny Cardoso",
@@ -1775,44 +1782,38 @@
      "publishedAt": "2025-07-09"
     },
     {
-     "id": "qv4SlN77340",
-     "title": "JOHNNY CARDOSO MUST PLAY FOR USMNT",
-     "channel": "herculez gomez",
-     "publishedAt": "2026-10-13"
-    },
-    {
      "id": "wBDRlHZk58g",
      "title": "Johnny Cardoso - Combination of Technique and Bravery - 2023ᴴᴰ",
      "channel": "Brazil Scout ",
      "publishedAt": "2023-10-26"
+    },
+    {
+     "id": "qv4SlN77340",
+     "title": "JOHNNY CARDOSO MUST PLAY FOR USMNT",
+     "channel": "herculez gomez",
+     "publishedAt": "2026-10-13"
     }
    ],
-   "fetchedAt": "2026-10-26T10:59:31Z"
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "273499": {
    "name": "Jonathan David",
    "query": "Jonathan David skills",
    "videos": [
     {
-     "id": "ItqnCFI8SPs",
-     "title": "30s to know Jonathan David 🥶",
-     "channel": "Atlético de Madrid",
-     "publishedAt": "2026-09-02"
+     "id": "5RW-qFA7mGg",
+     "title": "Jonathan David - Full Season Show - 2024ᴴᴰ",
+     "channel": "Brazil Scout ",
+     "publishedAt": "2024-06-13"
     },
     {
-     "id": "UlsCJZwSthE",
-     "title": "REACCIONANDO A JONATHAN DAVID | EL NUEVO DELANTERO DEL ATLÉTICO DE MADRID 2026/2027",
-     "channel": "Big Zeta",
-     "publishedAt": "2026-08-31"
-    },
-    {
-     "id": "DwPLZGMID2w",
-     "title": "Juventus Resmi Gaet Jonathan David, Kontrak Lima Tahun hingga 2030 #jonathandavid #juventus",
-     "channel": "TheATClipper ",
-     "publishedAt": "2025-07-06"
+     "id": "FERzUAMj3ds",
+     "title": "Jonathan David - Welcome to Juve",
+     "channel": "colo99",
+     "publishedAt": "2025-07-02"
     }
    ],
-   "fetchedAt": "2026-10-26T10:59:31Z"
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "184757": {
    "name": "Jorge Castillo",
@@ -1831,13 +1832,13 @@
      "publishedAt": "2026-05-09"
     },
     {
-     "id": "Ntz0rjfCccg",
-     "title": "Jorge Castillo - Functional Android",
-     "channel": "Kotlin London",
-     "publishedAt": "2021-04-28"
+     "id": "JVIoTJP9s2Q",
+     "title": "Rompe el silencio \"El rey de la salada\": Jorge Castillo mano a mano con Crónica",
+     "channel": "Crónica TV",
+     "publishedAt": "2025-12-10"
     }
    ],
-   "fetchedAt": "2026-10-26T10:59:31Z"
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "354378": {
    "name": "Jorge Domínguez",
@@ -1850,19 +1851,19 @@
      "publishedAt": "2026-08-30"
     },
     {
-     "id": "f25NBbBpmTU",
-     "title": "Jorge Domínguez is a Spanish Talent! - 2026",
-     "channel": "SilvaSkills PRO",
-     "publishedAt": "2026-09-01"
-    },
-    {
      "id": "lZvr8UmPPm4",
      "title": "Man City - Atlético Madrid | 16-Year-Old Jorge Domínguez Scores! 🤯 | Pre-Season Friendly 🔥",
      "channel": "YatzeQ Studios",
      "publishedAt": "2026-08-09"
+    },
+    {
+     "id": "f25NBbBpmTU",
+     "title": "Jorge Domínguez is a Spanish Talent! - 2026",
+     "channel": "SilvaSkills PRO",
+     "publishedAt": "2026-09-01"
     }
    ],
-   "fetchedAt": "2026-10-26T10:59:31Z"
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "177927": {
    "name": "Juan Musso",
@@ -1887,18 +1888,12 @@
      "publishedAt": "2026-04-09"
     }
    ],
-   "fetchedAt": "2026-10-26T10:59:31Z"
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "277206": {
    "name": "Julián Álvarez",
    "query": "Julián Álvarez skills",
    "videos": [
-    {
-     "id": "1-GSMBW0aXc",
-     "title": "Julián Álvarez 🔵🔴 Too Clinical | Skills 2026",
-     "channel": "ALLSKILLS",
-     "publishedAt": "2026-05-29"
-    },
     {
      "id": "1NAnuKSEBTw",
      "title": "Here's Why Barcelona Want Julian Alvarez 🇦🇷🔵🔴",
@@ -1906,13 +1901,19 @@
      "publishedAt": "2026-05-29"
     },
     {
-     "id": "iZ2OR3agNF8",
-     "title": "Julián Álvarez ● Full Season Show ● 2024/25 HD",
-     "channel": "Fabian Football",
-     "publishedAt": "2025-06-04"
+     "id": "1-GSMBW0aXc",
+     "title": "Julián Álvarez 🔵🔴 Too Clinical | Skills 2026",
+     "channel": "ALLSKILLS",
+     "publishedAt": "2026-05-29"
+    },
+    {
+     "id": "bCwRbiE36c4",
+     "title": "JULIÁN ALVAREZ. ✨",
+     "channel": "LALIGA EA SPORTS",
+     "publishedAt": "2026-10-24"
     }
    ],
-   "fetchedAt": "2026-10-26T10:59:31Z"
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "274197": {
    "name": "Lee Kang-In",
@@ -1931,38 +1932,38 @@
      "publishedAt": "2024-04-13"
     },
     {
-     "id": "Lo-GTu_QR_o",
-     "title": "Lee Kang-in is Exceptionally Amazing !! Best skills ever 🔥",
+     "id": "2MrKOPpCBt0",
+     "title": "Lee Kang-in Amazing Skill Show 23/24 🔥",
      "channel": "rom7ooo",
-     "publishedAt": "2026-07-09"
+     "publishedAt": "2024-07-27"
     }
    ],
-   "fetchedAt": "2026-10-26T10:59:31Z"
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "332613": {
    "name": "Marc Pubill",
    "query": "Marc Pubill skills",
    "videos": [
     {
-     "id": "2PG7Znq5XZs",
-     "title": "Marc Pubill - Full Season Show - 2026ᴴᴰ",
-     "channel": "Brazil Scout ",
+     "id": "jVZz3JinSsE",
+     "title": "Marc Pubill - Complete Season in 2026!",
+     "channel": "SilvaSkills PLUS",
      "publishedAt": "2026-05-28"
     },
     {
-     "id": "v0fWSngOLcI",
-     "title": "Marc Pubill - Defensive Show | HD",
-     "channel": "Fabian Football",
-     "publishedAt": "2026-01-18"
+     "id": "zJmDxGMM98U",
+     "title": "Marc Pubill • Incredible Skills, Tackles & Passes | Almeria",
+     "channel": "football plus",
+     "publishedAt": "2025-04-07"
     },
     {
-     "id": "OYwvD1O0Ui0",
-     "title": "Atlético’s New Beast – Marc Pubill! 🔴⚪",
-     "channel": "ALLSKILLS",
-     "publishedAt": "2025-07-22"
+     "id": "owfgwv_A12w",
+     "title": "PUBILL salvó al Almería 👼🔒",
+     "channel": "LALIGA HYPERMOTION",
+     "publishedAt": "2025-02-17"
     }
    ],
-   "fetchedAt": "2026-10-26T10:59:31Z"
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "206474": {
    "name": "Marcos Llorente",
@@ -1975,30 +1976,24 @@
      "publishedAt": "2025-05-02"
     },
     {
-     "id": "VUP6iT4PpK8",
-     "title": "Marcos Llorente 2025 - The Perfect Full-Back | HD",
-     "channel": "Fabian Football",
-     "publishedAt": "2025-10-30"
-    },
-    {
      "id": "qUhoc2D5kG0",
      "title": "The Magical Skills of Marcos Llorente",
      "channel": "BLUFFIN Football",
      "publishedAt": "2026-01-17"
+    },
+    {
+     "id": "VUP6iT4PpK8",
+     "title": "Marcos Llorente 2025 - The Perfect Full-Back | HD",
+     "channel": "Fabian Football",
+     "publishedAt": "2025-10-30"
     }
    ],
-   "fetchedAt": "2026-10-26T10:59:31Z"
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "274911": {
    "name": "Morten Hjulmand",
    "query": "Morten Hjulmand skills",
    "videos": [
-    {
-     "id": "Kwenq3Nk5M4",
-     "title": "Morten Hjulmand – Tactical Midfield Leader 🇩🇰 | 2026ᴴᴰ",
-     "channel": "FS Scout",
-     "publishedAt": "2026-05-19"
-    },
     {
      "id": "8JCQSPl9pMg",
      "title": "Morten Hjulmand ● Welcome to Atletico Madrid 2026 ⚪️🔴🇩🇰 Best Tackles, Passes & Skills",
@@ -2006,13 +2001,19 @@
      "publishedAt": "2026-07-09"
     },
     {
-     "id": "g4IoAdlGLxs",
-     "title": "Morten Hjulmand ▶ Midfield ARCHITECT ● Full Season Skills",
-     "channel": "YES Skills Vault",
-     "publishedAt": "2026-05-16"
+     "id": "RdK3ITr5rw0",
+     "title": "Tic-Tac-Toe w/ Morten Hjulmand 😁 #TicTacToe #TicTacToeChallenge #SportingCP #Hjulmand",
+     "channel": "Sporting Clube de Portugal",
+     "publishedAt": "2023-09-27"
+    },
+    {
+     "id": "Kwenq3Nk5M4",
+     "title": "Morten Hjulmand – Tactical Midfield Leader 🇩🇰 | 2026ᴴᴰ",
+     "channel": "FS Scout",
+     "publishedAt": "2026-05-19"
     }
    ],
-   "fetchedAt": "2026-10-26T10:59:31Z"
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "336634": {
    "name": "Pablo Barrios",
@@ -2037,12 +2038,18 @@
      "publishedAt": "2026-09-04"
     }
    ],
-   "fetchedAt": "2026-10-26T10:59:31Z"
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "214888": {
    "name": "Robin Le Normand",
    "query": "Robin Le Normand skills",
    "videos": [
+    {
+     "id": "OZsvPS9aZt0",
+     "title": "Robin Le Normand • Unreal Skills & Tackles • Real Sociedad",
+     "channel": "football plus",
+     "publishedAt": "2024-06-21"
+    },
     {
      "id": "NdjO38iAkWU",
      "title": "This is why Atletico Madrid Sign Robin Le Normand - Defensive Skills 2024",
@@ -2050,19 +2057,13 @@
      "publishedAt": "2024-07-27"
     },
     {
-     "id": "EEVzbp-P6Go",
-     "title": "Le Normand Try to ANNOYED Ronaldo😡Dont touch Him #cr7 #ronaldo #cristianoronaldo #lenormand",
-     "channel": "DMbappéshow",
-     "publishedAt": "2025-06-12"
-    },
-    {
-     "id": "OZsvPS9aZt0",
-     "title": "Robin Le Normand • Unreal Skills & Tackles • Real Sociedad",
-     "channel": "football plus",
-     "publishedAt": "2024-06-21"
+     "id": "tPEvwiUXp-g",
+     "title": "Robin Le Normand Is Very Good Defender on FC25 Career Mode! 🔥",
+     "channel": "IvoZ",
+     "publishedAt": "2025-07-12"
     }
    ],
-   "fetchedAt": "2026-10-26T10:59:31Z"
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "74630": {
    "name": "Rodrigo Mendoza",
@@ -2075,30 +2076,24 @@
      "publishedAt": "2026-02-02"
     },
     {
-     "id": "BSjTw_LvOSc",
-     "title": "Rodrigo Mendoza - Welcome to Atlético de Madrid - HD",
-     "channel": "Fabian Football",
-     "publishedAt": "2026-02-03"
+     "id": "cS5MHP4avc8",
+     "title": "Rodri Mendoza - Spanish Technique",
+     "channel": "Brazil Scout Comps",
+     "publishedAt": "2025-11-25"
     },
     {
-     "id": "iEkM6Oi6Bvg",
-     "title": "Rodrigo Mendoza ● Arsenal Transfer Target 2026⚪🔴🇪🇸",
-     "channel": "SVMM",
-     "publishedAt": "2025-11-25"
+     "id": "RSjXHVVm2B8",
+     "title": "Rodrigo Mendoza ▶ Technical Genius Skills",
+     "channel": "YES Skills Vault",
+     "publishedAt": "2025-11-28"
     }
    ],
-   "fetchedAt": "2026-10-26T10:59:31Z"
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "297373": {
    "name": "Álex Baena",
    "query": "Álex Baena skills",
    "videos": [
-    {
-     "id": "Ixf9VcV7NuQ",
-     "title": "Baena Shows NO MERCY 😱⚽️",
-     "channel": "LALIGA EA SPORTS",
-     "publishedAt": "2025-04-01"
-    },
     {
      "id": "HJJAy3KzNPI",
      "title": "ÁLEX BAENA ya brilla con el Atlético de Madrid en LALIGA EA SPORTS ✨",
@@ -2110,9 +2105,15 @@
      "title": "Lo MEJOR de ÁLEX BAENA en LALIGA hasta ahora",
      "channel": "LALIGA EA SPORTS",
      "publishedAt": "2025-03-31"
+    },
+    {
+     "id": "Ixf9VcV7NuQ",
+     "title": "Baena Shows NO MERCY 😱⚽️",
+     "channel": "LALIGA EA SPORTS",
+     "publishedAt": "2025-04-01"
     }
    ],
-   "fetchedAt": "2026-10-26T10:59:31Z"
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "324393": {
    "name": "Antonín Kinsky",

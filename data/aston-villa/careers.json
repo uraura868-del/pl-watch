@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-25T02:19:01Z",
+ "updatedAt": "2026-11-25T12:40:15Z",
  "players": {
   "132233": {
    "name": "Marco Bizot",
@@ -75,21 +75,54 @@
      "club": "KRCヘンク",
      "clubEn": "K.R.C. Genk",
      "start": "2014",
-     "end": null,
+     "end": "2017",
      "apps": null,
      "national": false,
      "youth": false,
      "loan": false,
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/938.png"
+    },
+    {
+     "club": "AZアルクマール",
+     "clubEn": "AZ Alkmaar",
+     "start": "2017",
+     "end": "2021",
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/140.png"
+    },
+    {
+     "club": "スタッド・ブレスト29",
+     "clubEn": "Stade Brestois 29",
+     "start": "2021",
+     "end": "2025",
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": null
+    },
+    {
+     "club": "アストン・ヴィラFC",
+     "clubEn": "Aston Villa F.C.",
+     "start": "2025",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png"
     }
    ],
-   "fetchedAt": "2026-10-26T12:16:14Z"
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "235319": {
    "name": "James Wright",
    "qid": "Q130279495",
    "career": [],
-   "fetchedAt": "2026-10-26T12:16:14Z"
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "265958": {
    "name": "Zion Suzuki",
@@ -151,7 +184,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png"
     }
    ],
-   "fetchedAt": "2026-10-26T12:16:14Z"
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "409310": {
    "name": "Owen Asemota",
@@ -219,17 +252,6 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png"
     },
     {
-     "club": "サッカーイングランド代表",
-     "clubEn": "England men's national association football team",
-     "start": "2019",
-     "end": null,
-     "apps": null,
-     "national": true,
-     "youth": false,
-     "loan": false,
-     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
-    },
-    {
      "club": "アストン・ヴィラFC",
      "clubEn": "Aston Villa F.C.",
      "start": "2019",
@@ -239,9 +261,20 @@
      "youth": false,
      "loan": false,
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png"
+    },
+    {
+     "club": "サッカーイングランド代表",
+     "clubEn": "England men's national association football team",
+     "start": "2019",
+     "end": null,
+     "apps": null,
+     "national": true,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
     }
    ],
-   "fetchedAt": "2026-10-26T12:38:46Z"
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "204679": {
    "name": "Victor Lindelöf",
@@ -358,7 +391,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png"
     }
    ],
-   "fetchedAt": "2026-10-26T12:38:46Z"
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "234698": {
    "name": "Matty Cash",
@@ -409,7 +442,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/pol.png"
     }
    ],
-   "fetchedAt": "2026-10-26T12:38:46Z"
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "250945": {
    "name": "Aaron Wan-Bissaka",
@@ -504,7 +537,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png"
     }
    ],
-   "fetchedAt": "2026-10-26T12:38:46Z"
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "251100": {
    "name": "Pau Torres",

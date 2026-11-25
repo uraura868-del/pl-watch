@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-25T02:19:01Z",
+ "updatedAt": "2026-11-25T12:40:15Z",
  "logos": {
   "nat:england": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
   "club:swindon town": "https://a.espncdn.com/i/teamlogos/soccer/500/341.png",
@@ -534,6 +534,9 @@
   "club:america": "https://a.espncdn.com/i/teamlogos/soccer/500/227.png",
   "club:akademisk boldklub": null,
   "club:lecce": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
-  "club:sevilla atletico": null
+  "club:sevilla atletico": null,
+  "nat:basque country regional": null,
+  "club:audax sao paulo esporte": null,
+  "club:stade brestois": null
  }
 }

@@ -1,0 +1,329 @@
+{
+ "updatedAt": "2026-11-25T12:40:15Z",
+ "id": "387",
+ "name": "Bradford City",
+ "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/387.png",
+ "manager": {
+  "name": "Michael Duff",
+  "role": "Manager",
+  "nat": "United Kingdom",
+  "natCode": null,
+  "dob": "1978-01-11",
+  "source": "wikidata"
+ },
+ "players": [
+  {
+   "id": "190880",
+   "name": "Cameron Dawson",
+   "jersey": "1",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "239250",
+   "name": "Jon McCracken",
+   "jersey": "21",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "379898",
+   "name": "Zac Hadi",
+   "jersey": "31",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "3142488",
+   "name": "Harry Barrow",
+   "jersey": "41",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "3144175",
+   "name": "Colin Anthony Doyle",
+   "jersey": "13",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "192197",
+   "name": "Matthew Pennington",
+   "jersey": "28",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "192360",
+   "name": "Ibou Touray",
+   "jersey": "3",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "212277",
+   "name": "Aden Baldwin",
+   "jersey": "15",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "227435",
+   "name": "Macaulay Gillesphey",
+   "jersey": "5",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "250881",
+   "name": "Corey O'Keefe",
+   "jersey": "27",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "266424",
+   "name": "Josh Neufville",
+   "jersey": "7",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "317858",
+   "name": "Reece Welch",
+   "jersey": "2",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "354939",
+   "name": "Hayden Matthews",
+   "jersey": "14",
+   "pos": "D",
+   "photo": "data/photos/39304f7010d324fa.jpg",
+   "injuries": [],
+   "dob": "1994-02-10",
+   "nat": "England",
+   "natCode": "GB-ENG",
+   "height": 184,
+   "joined": "2021-07-13",
+   "posInfo": "Goalkeeper",
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p169593.png"
+  },
+  {
+   "id": "398707",
+   "name": "George Pratt",
+   "jersey": "16",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "3122128",
+   "name": "Oscar Lunn",
+   "jersey": "30",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "5332474",
+   "name": "Oliver Hewitt",
+   "jersey": "42",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "148519",
+   "name": "Antoni Sarcevic",
+   "jersey": "10",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "150469",
+   "name": "Nick Powell",
+   "jersey": "25",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "206250",
+   "name": "Adam Phillips",
+   "jersey": "8",
+   "pos": "M",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p167825.png",
+   "injuries": [],
+   "dob": "1995-06-11",
+   "nat": "England",
+   "natCode": "GB-ENG",
+   "height": 188,
+   "joined": "2025-07-01",
+   "posInfo": "Goalkeeper",
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p167825.png"
+  },
+  {
+   "id": "234695",
+   "name": "Callum Connolly",
+   "jersey": "6",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "249814",
+   "name": "George Lapslie",
+   "jersey": "32",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "290346",
+   "name": "Tyreik Wright",
+   "jersey": "17",
+   "pos": "M",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p481283.png",
+   "injuries": [],
+   "dob": "2004-12-02",
+   "nat": "England",
+   "natCode": "GB-ENG",
+   "height": 188,
+   "joined": "2023-03-31",
+   "posInfo": "Goalkeeper",
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p481283.png"
+  },
+  {
+   "id": "350629",
+   "name": "Henry Cartwright",
+   "jersey": "20",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "392106",
+   "name": "Kieran Morgan",
+   "jersey": "22",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "5332473",
+   "name": "Gabriel Holt",
+   "jersey": "44",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "5332475",
+   "name": "Leeroy Gomes",
+   "jersey": "43",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "191598",
+   "name": "Kayden Jackson",
+   "jersey": "19",
+   "pos": "F",
+   "photo": "data/photos/66a0f5e4522ad6d1.jpg",
+   "injuries": [],
+   "dob": "2001-06-20",
+   "nat": "Senegal",
+   "natCode": "SN",
+   "height": 187,
+   "joined": "2026-08-28",
+   "birthPlace": "Banjul",
+   "posInfo": "Striker",
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p517052.png"
+  },
+  {
+   "id": "203649",
+   "name": "Jake Beesley",
+   "jersey": "9",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "251071",
+   "name": "Stephen Humphrys",
+   "jersey": "11",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "310821",
+   "name": "Will Swan",
+   "jersey": "24",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "366331",
+   "name": "Bobby Pointon",
+   "jersey": "23",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "387483",
+   "name": "Harry Ibbitson",
+   "jersey": "29",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  }
+ ]
+}

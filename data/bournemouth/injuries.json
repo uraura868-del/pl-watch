@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-25T02:19:01Z",
+ "updatedAt": "2026-11-25T12:40:15Z",
  "fetchedOk": true,
  "players": [
   {
@@ -41,10 +41,10 @@
    "reasonJa": "ハムストリング負傷",
    "type": "負傷",
    "since": "2026-09-10",
-   "until": "2026-11-22",
+   "until": "2026-11-29",
    "firstSeen": "2026-11-22",
-   "lastSeen": "2026-11-22",
-   "active": false
+   "lastSeen": "2026-11-25",
+   "active": true
   },
   {
    "name": "Alex Scott",
@@ -63,10 +63,10 @@
    "reasonJa": "ハムストリング負傷",
    "type": "負傷",
    "since": "2026-10-23",
-   "until": "2026-11-22",
+   "until": "2027-02-06",
    "firstSeen": "2026-11-13",
-   "lastSeen": "2026-11-22",
-   "active": false
+   "lastSeen": "2026-11-25",
+   "active": true
   },
   {
    "name": "Juanlu Sánchez",
@@ -74,10 +74,10 @@
    "reasonJa": "足首の負傷",
    "type": "負傷",
    "since": "2026-11-05",
-   "until": "2026-11-22",
+   "until": null,
    "firstSeen": "2026-11-13",
-   "lastSeen": "2026-11-22",
-   "active": false
+   "lastSeen": "2026-11-25",
+   "active": true
   },
   {
    "name": "Ryan Christie",

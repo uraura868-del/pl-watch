@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-25T02:19:01Z",
+ "updatedAt": "2026-11-25T12:40:15Z",
  "fetchedOk": true,
  "players": [
   {
@@ -26,14 +26,14 @@
   },
   {
    "name": "Bukayo Saka",
-   "reason": "Thigh problems",
-   "reasonJa": "太ももの負傷",
+   "reason": "Hamstring injury",
+   "reasonJa": "ハムストリング負傷",
    "type": "負傷",
    "since": "2026-10-23",
-   "until": "2026-11-22",
+   "until": "2026-12-18",
    "firstSeen": "2026-11-13",
-   "lastSeen": "2026-11-22",
-   "active": false
+   "lastSeen": "2026-11-25",
+   "active": true
   },
   {
    "name": "Ezri Konsa",
@@ -45,6 +45,28 @@
    "firstSeen": "2026-11-13",
    "lastSeen": "2026-11-16",
    "active": false
+  },
+  {
+   "name": "Martín Zubimendi",
+   "reason": "Thigh problems",
+   "reasonJa": "太ももの負傷",
+   "type": "負傷",
+   "since": "2026-11-16",
+   "until": "2026-12-11",
+   "firstSeen": "2026-11-25",
+   "lastSeen": "2026-11-25",
+   "active": true
+  },
+  {
+   "name": "David Raya",
+   "reason": "Shoulder injury",
+   "reasonJa": "肩の負傷",
+   "type": "負傷",
+   "since": "2026-11-21",
+   "until": "2026-12-04",
+   "firstSeen": "2026-11-25",
+   "lastSeen": "2026-11-25",
+   "active": true
   }
  ]
 }

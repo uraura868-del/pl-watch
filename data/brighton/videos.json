@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-25T02:19:01Z",
+ "updatedAt": "2026-11-25T12:40:15Z",
  "enabled": true,
  "players": {
   "111114": {
@@ -19,13 +19,13 @@
      "publishedAt": "2023-10-11"
     },
     {
-     "id": "zqE1TJmcFq4",
-     "title": "El golazo de Kaoru Mitoma con asistencia del portero Jason Steele | Telemundo Deportes",
-     "channel": "Telemundo Deportes",
-     "publishedAt": "2023-04-01"
+     "id": "pANgWDmuchE",
+     "title": "What makes Jason Steele as #1 GK for Brighton & Hove Albion ?",
+     "channel": "Yuta Nomura",
+     "publishedAt": "2023-07-20"
     }
    ],
-   "fetchedAt": "2026-10-26T12:38:46Z"
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "182573": {
    "name": "Steven Hall",
@@ -38,10 +38,10 @@
      "publishedAt": "2011-04-26"
     },
     {
-     "id": "BMxK4ehUy3g",
-     "title": "🌀 How to Hypnotise 🌀 by Steven Hall (Complete Audio Book) -  Beginners Guide to Genuine hypnosis",
-     "channel": "Free Hypnosis Course",
-     "publishedAt": "2022-11-22"
+     "id": "o6ruwc6DKoE",
+     "title": "Watercolour the Wesson Way with Steve Hall -Town House Films - Jackson's Art Supplies",
+     "channel": "Jackson's Art",
+     "publishedAt": "2012-07-05"
     },
     {
      "id": "ohSOwD9uPrU",
@@ -50,7 +50,7 @@
      "publishedAt": "2011-04-18"
     }
    ],
-   "fetchedAt": "2026-10-26T12:38:46Z"
+   "fetchedAt": "2026-11-25T12:40:15Z"
   },
   "248761": {
    "name": "Tom McGill",

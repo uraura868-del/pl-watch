@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-26T15:00:45Z",
+ "updatedAt": "2026-11-26T23:45:15Z",
  "manager": {
   "name": "Régis Le Bris",
   "role": "Manager",
@@ -24,6 +24,15 @@
    "birthPlace": "Sandown",
    "posInfo": "Goalkeeper",
    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p74854.png"
+  },
+  {
+   "id": "289988",
+   "name": "Joseph Cowan",
+   "jersey": "60",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
   },
   {
    "id": "301449",
@@ -445,7 +454,7 @@
    "id": "340645",
    "name": "Malick Fofana",
    "jersey": "39",
-   "pos": "D",
+   "pos": "F",
    "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p549940.png",
    "injuries": [],
    "dob": "2005-03-31",

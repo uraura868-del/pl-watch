@@ -1,0 +1,44 @@
+{
+ "eventId": "401915504",
+ "date": "2026-11-26T20:00:00Z",
+ "opponent": {
+  "name": "Real Sociedad",
+  "abbr": "RSO"
+ },
+ "isHome": true,
+ "score": {
+  "us": 2,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Mamadou Sarr",
+   "assist": "Job Ochieng",
+   "minute": "66'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Jean-Philippe Mateta",
+   "assist": null,
+   "minute": "73'",
+   "kind": "pen"
+  },
+  {
+   "side": "us",
+   "scorer": "Dwight McNeil",
+   "assist": "Jørgen Strand Larsen",
+   "minute": "81'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [
+  {
+   "side": "opp",
+   "name": "Jon Martín",
+   "minute": "71'"
+  }
+ ],
+ "source": "ESPN"
+}

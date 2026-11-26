@@ -1,0 +1,338 @@
+{
+ "updatedAt": "2026-11-26T23:45:15Z",
+ "id": "443",
+ "name": "Panathinaikos",
+ "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/443.png",
+ "manager": {
+  "name": "Jacob Neestrup",
+  "role": "Manager",
+  "nat": "Kingdom of Denmark",
+  "natCode": null,
+  "dob": "1988-03-08",
+  "source": "wikidata"
+ },
+ "players": [
+  {
+   "id": "214534",
+   "name": "Konstantinos Kotsaris",
+   "jersey": "70",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "215870",
+   "name": "Lucas Cháves",
+   "jersey": "12",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "282680",
+   "name": "Iñaki Peña",
+   "jersey": "1",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "415170",
+   "name": "Christos Geitonas",
+   "jersey": "71",
+   "pos": "G",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "141443",
+   "name": "Stefan de Vrij",
+   "jersey": "6",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "191124",
+   "name": "Sverrir Ingason",
+   "jersey": "15",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "191847",
+   "name": "Erik Palmer-Brown",
+   "jersey": "14",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "194747",
+   "name": "Davide Calabria",
+   "jersey": "2",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "213207",
+   "name": "Georgios Kyriakopoulos",
+   "jersey": "77",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "229562",
+   "name": "Rick Van Drongelen",
+   "jersey": "55",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "297296",
+   "name": "Anass Salah-Eddine",
+   "jersey": "5",
+   "pos": "D",
+   "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/297296.png",
+   "injuries": [],
+   "photoSrc": "https://a.espncdn.com/i/headshots/soccer/players/full/297296.png"
+  },
+  {
+   "id": "310991",
+   "name": "Victor Kristiansen",
+   "jersey": "34",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "366064",
+   "name": "Georgios Katris",
+   "jersey": "3",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "411856",
+   "name": "Vasilios Lavdas",
+   "jersey": "56",
+   "pos": "D",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "104658",
+   "name": "Moussa Sissoko",
+   "jersey": null,
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "222212",
+   "name": "Pedro Chirivella",
+   "jersey": "4",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "283699",
+   "name": "Imran Louza",
+   "jersey": "26",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "289073",
+   "name": "Kings Kangwa",
+   "jersey": "42",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "290538",
+   "name": "Facundo Pellistri",
+   "jersey": "28",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "291552",
+   "name": "Azzedine Ounahi",
+   "jersey": "21",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "312550",
+   "name": "Etienne Camara",
+   "jersey": "22",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "346306",
+   "name": "Triantafyllos Tsapras",
+   "jersey": "19",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "368536",
+   "name": "Sotiris Kontouris",
+   "jersey": "18",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "402292",
+   "name": "Adriano Jagusic",
+   "jersey": "8",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "3098500",
+   "name": "Panagiotis Biniaris",
+   "jersey": "44",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "212250",
+   "name": "Cyriel Dessers",
+   "jersey": "9",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "224632",
+   "name": "Levi García",
+   "jersey": "99",
+   "pos": "F",
+   "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p551466.png",
+   "injuries": [],
+   "dob": "2004-03-24",
+   "nat": "Spain",
+   "natCode": "ES",
+   "height": 182,
+   "joined": "2026-08-03",
+   "birthPlace": "Madrid",
+   "posInfo": "Left/Centre/Right Winger",
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p551466.png"
+  },
+  {
+   "id": "320850",
+   "name": "Elmin Rastoder",
+   "jersey": "74",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "324043",
+   "name": "Vicente Taborda",
+   "jersey": "20",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "365703",
+   "name": "Andrews Tetteh",
+   "jersey": "7",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "368085",
+   "name": "Pavlos Pantelidis",
+   "jersey": "17",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "392253",
+   "name": "Santino Andino",
+   "jersey": "10",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "409603",
+   "name": "Giannis Bokos",
+   "jersey": "39",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "415169",
+   "name": "Sotiris Terzis",
+   "jersey": null,
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "416234",
+   "name": "Iason Nempis",
+   "jersey": "53",
+   "pos": "F",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  }
+ ]
+}

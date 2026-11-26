@@ -1,0 +1,51 @@
+{
+ "eventId": "401915814",
+ "date": "2026-11-26T17:45:00Z",
+ "opponent": {
+  "name": "Universitatea Craiova",
+  "abbr": "CRA"
+ },
+ "isHome": true,
+ "score": {
+  "us": 4,
+  "opp": 0
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Ibrahim Osman",
+   "assist": "Jack Hinshelwood",
+   "minute": "3'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Maxim De Cuyper",
+   "assist": null,
+   "minute": "33'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Charalambos Kostoulas",
+   "assist": "Ibrahim Osman",
+   "minute": "61'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Ibrahim Osman",
+   "assist": "Ferdi Kadioglu",
+   "minute": "63'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [
+  {
+   "side": "opp",
+   "name": "Vladimir Screciu",
+   "minute": "39'"
+  }
+ ],
+ "source": "ESPN"
+}

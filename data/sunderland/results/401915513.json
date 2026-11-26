@@ -1,0 +1,31 @@
+{
+ "eventId": "401915513",
+ "date": "2026-11-26T20:00:00Z",
+ "opponent": {
+  "name": "Jagiellonia Bialystok",
+  "abbr": "JAG"
+ },
+ "isHome": true,
+ "score": {
+  "us": 1,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Tymur Tutierov",
+   "assist": "Enzo Le Fée",
+   "minute": "47'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Kamil Jozwiak",
+   "assist": null,
+   "minute": "52'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}

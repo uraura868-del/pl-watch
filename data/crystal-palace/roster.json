@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-26T15:00:45Z",
+ "updatedAt": "2026-11-26T23:45:15Z",
  "manager": {
   "name": "Oliver Glasner",
   "role": "Manager",
@@ -273,6 +273,22 @@
    "birthPlace": null,
    "posInfo": "Defender",
    "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p643426.png"
+  },
+  {
+   "id": "409810",
+   "name": "Charlie Walker-Smith",
+   "jersey": "56",
+   "pos": "D",
+   "photo": "data/photos/da3f2ab42e4b8896.jpg",
+   "injuries": [],
+   "dob": "1991-04-29",
+   "nat": "England",
+   "natCode": "GB-ENG",
+   "height": 180,
+   "joined": "2014-01-28",
+   "birthPlace": null,
+   "posInfo": "Right Full Back",
+   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p54469.png"
   },
   {
    "id": "3141489",

@@ -1,0 +1,44 @@
+{
+ "eventId": "401915519",
+ "date": "2026-11-26T17:45:00Z",
+ "opponent": {
+  "name": "Celta Vigo",
+  "abbr": "CEL"
+ },
+ "isHome": false,
+ "score": {
+  "us": 2,
+  "opp": 1
+ },
+ "goals": [
+  {
+   "side": "opp",
+   "scorer": "Iago Aspas",
+   "assist": "Javi Rueda",
+   "minute": "19'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Álvaro Rodríguez",
+   "assist": "Amine Adli",
+   "minute": "47'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Rayan",
+   "assist": "Marcus Tavernier",
+   "minute": "78'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [
+  {
+   "side": "us",
+   "name": "Bafodé Diakité",
+   "minute": "23'"
+  }
+ ],
+ "source": "ESPN"
+}

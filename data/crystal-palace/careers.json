@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-26T15:00:45Z",
+ "updatedAt": "2026-11-26T23:45:15Z",
  "players": {
   "195738": {
    "name": "Walter Benítez",
@@ -1827,7 +1827,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png"
     }
    ],
-   "fetchedAt": "2026-10-26T13:26:10Z"
+   "fetchedAt": "2026-11-26T23:45:15Z"
   },
   "288924": {
    "name": "Evann Guessand",
@@ -1900,19 +1900,180 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png"
     }
    ],
-   "fetchedAt": "2026-10-26T13:26:10Z"
+   "fetchedAt": "2026-11-26T23:45:15Z"
   },
   "374519": {
    "name": "Zavier Gozo",
    "qid": "Q123090257",
    "career": [],
-   "fetchedAt": "2026-10-26T13:26:10Z"
+   "fetchedAt": "2026-11-26T23:45:15Z"
   },
   "3141489": {
    "name": "Nathanael James Kalembo",
    "qid": null,
    "career": [],
    "fetchedAt": "2026-11-26T15:00:45Z"
+  },
+  "409810": {
+   "name": "Charlie Walker-Smith",
+   "qid": "Q59065",
+   "career": [
+    {
+     "club": "U-16サッカーイングランド代表",
+     "clubEn": "England national under-16 association football team",
+     "start": "2006",
+     "end": "2007",
+     "apps": 3,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
+    },
+    {
+     "club": "U-17サッカーイングランド代表",
+     "clubEn": "England national under-17 association football team",
+     "start": "2006",
+     "end": "2008",
+     "apps": 3,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
+    },
+    {
+     "club": "トッテナム・ホットスパーFC",
+     "clubEn": "Tottenham Hotspur F.C.",
+     "start": "2008",
+     "end": "2014",
+     "apps": 1,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png"
+    },
+    {
+     "club": "U-19サッカーイングランド代表",
+     "clubEn": "England national under-19 association football team",
+     "start": "2009",
+     "end": "2009",
+     "apps": 1,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
+    },
+    {
+     "club": "ウィコム・ワンダラーズFC",
+     "clubEn": "Wycombe Wanderers F.C.",
+     "start": "2009",
+     "end": "2009",
+     "apps": 3,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/344.png"
+    },
+    {
+     "club": "トーキー・ユナイテッドFC",
+     "clubEn": "Torquay United F.C.",
+     "start": "2009",
+     "end": "2010",
+     "apps": 16,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/321.png"
+    },
+    {
+     "club": "AFCボーンマス",
+     "clubEn": "AFC Bournemouth",
+     "start": "2010",
+     "end": "2011",
+     "apps": 38,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png"
+    },
+    {
+     "club": "U-20サッカーイングランド代表",
+     "clubEn": "England national under-20 association football team",
+     "start": "2011",
+     "end": "2011",
+     "apps": 5,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
+    },
+    {
+     "club": "ミルトン・キーンズ・ドンズFC",
+     "clubEn": "Milton Keynes Dons F.C.",
+     "start": "2011",
+     "end": "2012",
+     "apps": 17,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21062.png"
+    },
+    {
+     "club": "サッカーイングランドU-21代表",
+     "clubEn": "England national under-21 association football team",
+     "start": "2011",
+     "end": "2013",
+     "apps": 11,
+     "national": true,
+     "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
+    },
+    {
+     "club": "リーズ・ユナイテッドAFC",
+     "clubEn": "Leeds United F.C.",
+     "start": "2012",
+     "end": "2012",
+     "apps": 3,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png"
+    },
+    {
+     "club": "ミルウォールFC",
+     "clubEn": "Millwall F.C.",
+     "start": "2012",
+     "end": "2013",
+     "apps": 25,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/391.png"
+    },
+    {
+     "club": "ダービー・カウンティFC",
+     "clubEn": "Derby County F.C.",
+     "start": "2013",
+     "end": "2013",
+     "apps": 8,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/374.png"
+    },
+    {
+     "club": "AFCボーンマス",
+     "clubEn": "AFC Bournemouth",
+     "start": "2014",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png"
+    }
+   ],
+   "fetchedAt": "2026-11-26T23:45:15Z"
   }
  }
 }

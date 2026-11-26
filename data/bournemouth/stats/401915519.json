@@ -1,0 +1,78 @@
+{
+ "eventId": "401915519",
+ "date": "2026-11-26T17:45:00Z",
+ "opponent": {
+  "name": "Celta Vigo",
+  "abbr": "CEL"
+ },
+ "ht": {
+  "us": {
+   "shots": 3,
+   "onTarget": 2,
+   "offTarget": 1,
+   "blocked": 0,
+   "corners": 4,
+   "fouls": 18,
+   "offsides": 0,
+   "yellow": 2,
+   "red": 1
+  },
+  "opp": {
+   "shots": 10,
+   "onTarget": 3,
+   "offTarget": 4,
+   "blocked": 3,
+   "corners": 0,
+   "fouls": 12,
+   "offsides": 4,
+   "yellow": 0,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 8,
+   "onTarget": 4,
+   "offTarget": 2,
+   "blocked": 2,
+   "corners": 5,
+   "fouls": 24,
+   "offsides": 1,
+   "yellow": 2,
+   "red": 1,
+   "possession": "35.5",
+   "passesAccurate": "265",
+   "passes": "333",
+   "passAcc": "0.8",
+   "crossesAccurate": "2",
+   "crosses": "11",
+   "tacklesWon": "7",
+   "tackles": "14",
+   "interceptions": "10",
+   "clearances": "29"
+  },
+  "opp": {
+   "shots": 19,
+   "onTarget": 4,
+   "offTarget": 8,
+   "blocked": 7,
+   "corners": 6,
+   "fouls": 30,
+   "offsides": 6,
+   "yellow": 3,
+   "red": 0,
+   "possession": "64.5",
+   "passesAccurate": "529",
+   "passes": "608",
+   "passAcc": "0.9",
+   "crossesAccurate": "4",
+   "crosses": "16",
+   "tacklesWon": "4",
+   "tackles": "9",
+   "interceptions": "6",
+   "clearances": "20"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

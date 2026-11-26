@@ -1,0 +1,78 @@
+{
+ "eventId": "401915814",
+ "date": "2026-11-26T17:45:00Z",
+ "opponent": {
+  "name": "Universitatea Craiova",
+  "abbr": "CRA"
+ },
+ "ht": {
+  "us": {
+   "shots": 9,
+   "onTarget": 1,
+   "offTarget": 5,
+   "blocked": 3,
+   "corners": 2,
+   "fouls": 8,
+   "offsides": 2,
+   "yellow": 0,
+   "red": 0
+  },
+  "opp": {
+   "shots": 2,
+   "onTarget": 2,
+   "offTarget": 0,
+   "blocked": 0,
+   "corners": 0,
+   "fouls": 8,
+   "offsides": 0,
+   "yellow": 0,
+   "red": 1
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 23,
+   "onTarget": 5,
+   "offTarget": 11,
+   "blocked": 7,
+   "corners": 9,
+   "fouls": 24,
+   "offsides": 3,
+   "yellow": 2,
+   "red": 0,
+   "possession": "74.9",
+   "passesAccurate": "658",
+   "passes": "745",
+   "passAcc": "0.9",
+   "crossesAccurate": "10",
+   "crosses": "32",
+   "tacklesWon": "8",
+   "tackles": "13",
+   "interceptions": "7",
+   "clearances": "2"
+  },
+  "opp": {
+   "shots": 4,
+   "onTarget": 2,
+   "offTarget": 1,
+   "blocked": 1,
+   "corners": 0,
+   "fouls": 14,
+   "offsides": 0,
+   "yellow": 2,
+   "red": 1,
+   "possession": "25.1",
+   "passesAccurate": "163",
+   "passes": "256",
+   "passAcc": "0.6",
+   "crossesAccurate": "0",
+   "crosses": "1",
+   "tacklesWon": "13",
+   "tackles": "19",
+   "interceptions": "15",
+   "clearances": "37"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

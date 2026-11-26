@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-26T15:00:45Z",
+ "updatedAt": "2026-11-26T23:45:15Z",
  "players": {
   "149517": {
    "name": "Benjamin Lecomte",
@@ -94,7 +94,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png"
     }
    ],
-   "fetchedAt": "2026-10-26T13:39:05Z"
+   "fetchedAt": "2026-11-26T23:45:15Z"
   },
   "153765": {
    "name": "Bernd Leno",
@@ -108,6 +108,17 @@
      "apps": 57,
      "national": false,
      "youth": true,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png"
+    },
+    {
+     "club": "VfBシュトゥットガルト",
+     "clubEn": "VfB Stuttgart",
+     "start": "2011",
+     "end": "2011",
+     "apps": null,
+     "national": false,
+     "youth": false,
      "loan": false,
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png"
     },
@@ -156,13 +167,13 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png"
     }
    ],
-   "fetchedAt": "2026-10-26T13:39:05Z"
+   "fetchedAt": "2026-11-26T23:45:15Z"
   },
   "362553": {
    "name": "Alex Borto",
    "qid": "Q141321320",
    "career": [],
-   "fetchedAt": "2026-10-26T13:39:05Z"
+   "fetchedAt": "2026-11-26T23:45:15Z"
   },
   "190974": {
    "name": "Kenny Tete",
@@ -216,7 +227,7 @@
      "club": "アヤックス・アムステルダム",
      "clubEn": "AFC Ajax",
      "start": "2013",
-     "end": null,
+     "end": "2017",
      "apps": null,
      "national": false,
      "youth": false,
@@ -227,7 +238,7 @@
      "club": "アヤックス・アムステルダム",
      "clubEn": "AFC Ajax",
      "start": "2014",
-     "end": null,
+     "end": "2017",
      "apps": null,
      "national": false,
      "youth": false,
@@ -268,7 +279,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png"
     }
    ],
-   "fetchedAt": "2026-10-26T13:39:05Z"
+   "fetchedAt": "2026-11-26T23:45:15Z"
   },
   "196081": {
    "name": "Joachim Andersen",
@@ -333,7 +344,7 @@
      "club": "FCトゥウェンテ",
      "clubEn": "FC Twente",
      "start": "2014",
-     "end": null,
+     "end": "2017",
      "apps": null,
      "national": false,
      "youth": false,
@@ -352,7 +363,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/den.png"
     }
    ],
-   "fetchedAt": "2026-10-26T13:39:05Z"
+   "fetchedAt": "2026-11-26T23:45:15Z"
   },
   "197163": {
    "name": "Timothy Castagne",
@@ -447,7 +458,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png"
     }
    ],
-   "fetchedAt": "2026-10-26T13:39:05Z"
+   "fetchedAt": "2026-11-26T23:45:15Z"
   },
   "222396": {
    "name": "Antonee Robinson",
@@ -476,6 +487,17 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png"
     },
     {
+     "club": "ボルトン・ワンダラーズFC",
+     "clubEn": "Bolton Wanderers F.C.",
+     "start": "2017",
+     "end": "2018",
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/358.png"
+    },
+    {
      "club": "ウィガン・アスレティックFC",
      "clubEn": "Wigan Athletic F.C.",
      "start": "2019",
@@ -498,7 +520,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png"
     }
    ],
-   "fetchedAt": "2026-10-26T13:39:05Z"
+   "fetchedAt": "2026-11-26T23:45:15Z"
   },
   "252031": {
    "name": "Jorge Cuenca",
@@ -604,7 +626,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png"
     }
    ],
-   "fetchedAt": "2026-10-26T13:39:05Z"
+   "fetchedAt": "2026-11-26T23:45:15Z"
   },
   "263110": {
    "name": "Calvin Bassey",
@@ -633,7 +655,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png"
     }
    ],
-   "fetchedAt": "2026-10-26T13:39:05Z"
+   "fetchedAt": "2026-11-26T23:45:15Z"
   },
   "313230": {
    "name": "David Affengruber",
@@ -728,13 +750,13 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png"
     }
    ],
-   "fetchedAt": "2026-10-26T13:39:05Z"
+   "fetchedAt": "2026-11-26T23:45:15Z"
   },
   "376050": {
    "name": "Bradley Slade",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-11-25T02:19:01Z"
+   "fetchedAt": "2026-11-26T23:45:15Z"
   },
   "12172": {
    "name": "César Palacios",
@@ -818,7 +840,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png"
     }
    ],
-   "fetchedAt": "2026-10-26T13:39:05Z"
+   "fetchedAt": "2026-11-26T23:45:15Z"
   },
   "140033": {
    "name": "Tom Cairney",
@@ -902,7 +924,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png"
     }
    ],
-   "fetchedAt": "2026-10-26T13:39:05Z"
+   "fetchedAt": "2026-11-26T23:45:15Z"
   },
   "193246": {
    "name": "Harrison Reed",
@@ -975,7 +997,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png"
     }
    ],
-   "fetchedAt": "2026-10-26T13:39:05Z"
+   "fetchedAt": "2026-11-26T23:45:15Z"
   },
   "218998": {
    "name": "Sander Berge",
@@ -1070,7 +1092,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png"
     }
    ],
-   "fetchedAt": "2026-10-26T13:39:05Z"
+   "fetchedAt": "2026-11-26T23:45:15Z"
   },
   "241328": {
    "name": "Ryan Sessegnon",
@@ -1102,7 +1124,7 @@
      "club": "トッテナム・ホットスパーFC",
      "clubEn": "Tottenham Hotspur F.C.",
      "start": "2019",
-     "end": null,
+     "end": "2024",
      "apps": null,
      "national": false,
      "youth": false,
@@ -1110,7 +1132,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png"
     }
    ],
-   "fetchedAt": "2026-10-26T13:39:05Z"
+   "fetchedAt": "2026-11-26T23:45:15Z"
   },
   "266697": {
    "name": "Emile Smith Rowe",
@@ -1159,21 +1181,32 @@
      "youth": false,
      "loan": true,
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/335.png"
+    },
+    {
+     "club": "フラムFC",
+     "clubEn": "Fulham F.C.",
+     "start": "2024",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png"
     }
    ],
-   "fetchedAt": "2026-10-26T13:39:05Z"
+   "fetchedAt": "2026-11-26T23:45:15Z"
   },
   "307111": {
    "name": "Oscar Bobb",
    "qid": "Q110466658",
    "career": [],
-   "fetchedAt": "2026-10-26T13:39:05Z"
+   "fetchedAt": "2026-11-26T23:45:15Z"
   },
   "324164": {
    "name": "Shea Charles",
    "qid": "Q112214607",
    "career": [],
-   "fetchedAt": "2026-10-26T13:39:05Z"
+   "fetchedAt": "2026-11-26T23:45:15Z"
   },
   "336460": {
    "name": "Hugo Larsson",
@@ -1202,31 +1235,31 @@
      "logo": null
     }
    ],
-   "fetchedAt": "2026-10-26T13:39:05Z"
+   "fetchedAt": "2026-11-26T23:45:15Z"
   },
   "364812": {
    "name": "Manuel Ángel",
    "qid": "Q119454675",
    "career": [],
-   "fetchedAt": "2026-10-26T13:39:05Z"
+   "fetchedAt": "2026-11-26T23:45:15Z"
   },
   "365351": {
    "name": "Chibuzo Nwoko",
    "qid": "Q141582821",
    "career": [],
-   "fetchedAt": "2026-10-26T13:39:05Z"
+   "fetchedAt": "2026-11-26T23:45:15Z"
   },
   "409541": {
    "name": "Josh King",
    "qid": "Q131518757",
    "career": [],
-   "fetchedAt": "2026-10-26T13:39:05Z"
+   "fetchedAt": "2026-11-26T23:45:15Z"
   },
   "87297": {
    "name": "Gonzalo García",
    "qid": "Q118869601",
    "career": [],
-   "fetchedAt": "2026-10-26T13:39:05Z"
+   "fetchedAt": "2026-11-26T23:45:15Z"
   },
   "175063": {
    "name": "Alex Iwobi",
@@ -1310,19 +1343,19 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png"
     }
    ],
-   "fetchedAt": "2026-10-26T13:39:05Z"
+   "fetchedAt": "2026-11-26T23:45:15Z"
   },
   "301525": {
    "name": "Rodrigo Muniz",
    "qid": "Q97097982",
    "career": [],
-   "fetchedAt": "2026-10-26T13:39:05Z"
+   "fetchedAt": "2026-11-26T23:45:15Z"
   },
   "330764": {
    "name": "Kevin",
    "qid": "Q110056642",
    "career": [],
-   "fetchedAt": "2026-10-26T13:39:05Z"
+   "fetchedAt": "2026-11-26T23:45:15Z"
   },
   "369363": {
    "name": "Jonah Kusi-Asare",
@@ -1351,7 +1384,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/8221.png"
     }
    ],
-   "fetchedAt": "2026-10-26T13:39:05Z"
+   "fetchedAt": "2026-11-26T23:45:15Z"
   },
   "392697": {
    "name": "Macauley Zepa",
@@ -1363,7 +1396,7 @@
    "name": "Dino Kaiser",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-11-25T02:19:01Z"
+   "fetchedAt": "2026-11-26T23:45:15Z"
   }
  }
 }

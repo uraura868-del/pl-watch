@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-26T15:00:45Z",
+ "updatedAt": "2026-11-26T23:45:15Z",
  "enabled": true,
  "players": {
   "111114": {
@@ -57,30 +57,36 @@
    "query": "Tom McGill skills",
    "videos": [
     {
+     "id": "pIiFg7TnKGA",
+     "title": "Rickey McGill flops, Tom Vodanovich gets a tech",
+     "channel": "Sal's NBL",
+     "publishedAt": "2023-06-23"
+    },
+    {
+     "id": "_C9ZAapT7oo",
+     "title": "Ormond McGill teaches hypnosis in England amazing method demonstration",
+     "channel": "Tom Silver",
+     "publishedAt": "2012-12-23"
+    },
+    {
      "id": "C89EKtI8a3o",
      "title": "The McGill Big 3 (HOW TO DO IT CORRECTLY)",
      "channel": "Squat University",
      "publishedAt": "2022-04-29"
-    },
-    {
-     "id": "7cCbKXE34Vc",
-     "title": "Cone Line Footwork",
-     "channel": "Pinnacles FC",
-     "publishedAt": "2023-07-04"
-    },
-    {
-     "id": "uzMYRO05kJw",
-     "title": "Modified Curl Up for stability! #mcgill #drstuart #backpain",
-     "channel": "Dr.Stuart McGill SpineLab",
-     "publishedAt": "2024-08-10"
     }
    ],
-   "fetchedAt": "2026-10-27T07:42:47Z"
+   "fetchedAt": "2026-11-26T23:45:15Z"
   },
   "291609": {
    "name": "Bart Verbruggen",
    "query": "Bart Verbruggen skills",
    "videos": [
+    {
+     "id": "qRc7DqDpm24",
+     "title": "Bart Verbruggen ▶ Reflex MONSTER & Elite Distribution Skills",
+     "channel": "YES Skills Vault",
+     "publishedAt": "2026-11-03"
+    },
     {
      "id": "Bgc_HNspOjY",
      "title": "Best Of Bart Verbruggen 2024/25 | Best Saves And THAT Assist!",
@@ -88,19 +94,13 @@
      "publishedAt": "2025-06-05"
     },
     {
-     "id": "qm4-JIG1Row",
-     "title": "Bart Verbruggen - Full Season Show - 2026ᴴᴰ",
-     "channel": "Brazil Scout ",
-     "publishedAt": "2026-06-30"
-    },
-    {
-     "id": "Casml1XLpFQ",
-     "title": "Bart Verbruggen's INCREDIBLE Double Save 😱",
-     "channel": "Premier League",
-     "publishedAt": "2025-12-08"
+     "id": "e6aS91vawOA",
+     "title": "Bart Verbruggen - Unbelievable Saves & Passes 2027 ∣ HD",
+     "channel": "Full Time Goalkeepers",
+     "publishedAt": "2026-11-01"
     }
    ],
-   "fetchedAt": "2026-10-27T07:42:47Z"
+   "fetchedAt": "2026-11-26T23:45:15Z"
   },
   "147106": {
    "name": "Lewis Dunk",

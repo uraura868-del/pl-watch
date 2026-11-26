@@ -1,0 +1,78 @@
+{
+ "eventId": "401915513",
+ "date": "2026-11-26T20:00:00Z",
+ "opponent": {
+  "name": "Jagiellonia Bialystok",
+  "abbr": "JAG"
+ },
+ "ht": {
+  "us": {
+   "shots": 8,
+   "onTarget": 2,
+   "offTarget": 4,
+   "blocked": 2,
+   "corners": 4,
+   "fouls": 12,
+   "offsides": 0,
+   "yellow": 1,
+   "red": 0
+  },
+  "opp": {
+   "shots": 6,
+   "onTarget": 1,
+   "offTarget": 2,
+   "blocked": 3,
+   "corners": 2,
+   "fouls": 8,
+   "offsides": 0,
+   "yellow": 0,
+   "red": 0
+  }
+ },
+ "ft": {
+  "us": {
+   "shots": 15,
+   "onTarget": 5,
+   "offTarget": 5,
+   "blocked": 5,
+   "corners": 8,
+   "fouls": 28,
+   "offsides": 0,
+   "yellow": 1,
+   "red": 0,
+   "possession": "50.1",
+   "passesAccurate": "336",
+   "passes": "435",
+   "passAcc": "0.8",
+   "crossesAccurate": "3",
+   "crosses": "17",
+   "tacklesWon": "9",
+   "tackles": "15",
+   "interceptions": "6",
+   "clearances": "30"
+  },
+  "opp": {
+   "shots": 11,
+   "onTarget": 4,
+   "offTarget": 4,
+   "blocked": 3,
+   "corners": 3,
+   "fouls": 18,
+   "offsides": 0,
+   "yellow": 2,
+   "red": 0,
+   "possession": "49.9",
+   "passesAccurate": "330",
+   "passes": "437",
+   "passAcc": "0.8",
+   "crossesAccurate": "4",
+   "crosses": "15",
+   "tacklesWon": "9",
+   "tackles": "14",
+   "interceptions": "12",
+   "clearances": "31"
+  }
+ },
+ "source": "ESPN",
+ "note": "得点・PK・セーブ数は含めていません。シュート数はゴールになったものを除いた数です。"
+}

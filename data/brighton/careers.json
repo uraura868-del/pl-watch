@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-25T22:26:08Z",
+ "updatedAt": "2026-11-26T04:56:56Z",
  "players": {
   "111114": {
    "name": "Jason Steele",
@@ -563,7 +563,7 @@
      "logo": null
     }
    ],
-   "fetchedAt": "2026-10-26T13:04:00Z"
+   "fetchedAt": "2026-11-26T04:56:56Z"
   },
   "301327": {
    "name": "Maxim De Cuyper",
@@ -658,7 +658,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png"
     }
    ],
-   "fetchedAt": "2026-10-26T13:04:00Z"
+   "fetchedAt": "2026-11-26T04:56:56Z"
   },
   "306033": {
    "name": "Jaouen Hadjam",
@@ -698,7 +698,7 @@
      "logo": null
     }
    ],
-   "fetchedAt": "2026-10-26T13:04:00Z"
+   "fetchedAt": "2026-11-26T04:56:56Z"
   },
   "364962": {
    "name": "Luka Vuskovic",
@@ -793,7 +793,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png"
     }
    ],
-   "fetchedAt": "2026-10-26T13:04:00Z"
+   "fetchedAt": "2026-11-26T04:56:56Z"
   },
   "132659": {
    "name": "Pascal Gross",
@@ -932,7 +932,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png"
     }
    ],
-   "fetchedAt": "2026-10-26T13:04:00Z"
+   "fetchedAt": "2026-11-26T04:56:56Z"
   },
   "192278": {
    "name": "Diego Gómez",
@@ -1005,7 +1005,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png"
     }
    ],
-   "fetchedAt": "2026-10-26T13:04:00Z"
+   "fetchedAt": "2026-11-26T04:56:56Z"
   },
   "261087": {
    "name": "Matt O'Riley",
@@ -1100,7 +1100,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png"
     }
    ],
-   "fetchedAt": "2026-10-26T13:04:00Z"
+   "fetchedAt": "2026-11-26T04:56:56Z"
   },
   "274278": {
    "name": "Kaoru Mitoma",
@@ -1162,7 +1162,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png"
     }
    ],
-   "fetchedAt": "2026-10-26T13:04:00Z"
+   "fetchedAt": "2026-11-26T04:56:56Z"
   },
   "282186": {
    "name": "Mats Wieffer",
@@ -1224,7 +1224,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png"
     }
    ],
-   "fetchedAt": "2026-10-26T13:04:00Z"
+   "fetchedAt": "2026-11-26T04:56:56Z"
   },
   "304242": {
    "name": "Yasin Ayari",
@@ -1242,6 +1242,17 @@
      "logo": null
     },
     {
+     "club": "コヴェントリー・シティFC",
+     "clubEn": "Coventry City F.C.",
+     "start": "2023",
+     "end": "2024",
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png"
+    },
+    {
      "club": "ブライトン・アンド・ホーヴ・アルビオンFC",
      "clubEn": "Brighton & Hove Albion F.C.",
      "start": "2023",
@@ -1251,15 +1262,26 @@
      "youth": false,
      "loan": false,
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png"
+    },
+    {
+     "club": "ブラックバーン・ローヴァーズFC",
+     "clubEn": "Blackburn Rovers F.C.",
+     "start": "2024",
+     "end": "2024",
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/365.png"
     }
    ],
-   "fetchedAt": "2026-10-26T13:04:00Z"
+   "fetchedAt": "2026-11-26T04:56:56Z"
   },
   "328011": {
    "name": "Jack Hinshelwood",
    "qid": "Q118791841",
    "career": [],
-   "fetchedAt": "2026-10-26T13:04:00Z"
+   "fetchedAt": "2026-11-26T04:56:56Z"
   },
   "359097": {
    "name": "Malick Yalcouyé",
@@ -1277,7 +1299,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2556.png"
     }
    ],
-   "fetchedAt": "2026-10-26T13:04:00Z"
+   "fetchedAt": "2026-11-26T04:56:56Z"
   },
   "387489": {
    "name": "Chema Andrés",
@@ -1372,25 +1394,25 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png"
     }
    ],
-   "fetchedAt": "2026-10-26T13:04:00Z"
+   "fetchedAt": "2026-11-26T04:56:56Z"
   },
   "399697": {
    "name": "Nehemiah Oriola",
    "qid": "Q137189904",
    "career": [],
-   "fetchedAt": "2026-10-26T13:04:00Z"
+   "fetchedAt": "2026-11-26T04:56:56Z"
   },
   "411697": {
    "name": "Shane Nti",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-11-25T02:19:01Z"
+   "fetchedAt": "2026-11-26T04:56:56Z"
   },
   "413274": {
    "name": "Younes Ibrahim",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-11-25T02:19:01Z"
+   "fetchedAt": "2026-11-26T04:56:56Z"
   },
   "278061": {
    "name": "Georginio Rutter",
@@ -1474,7 +1496,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png"
     }
    ],
-   "fetchedAt": "2026-10-26T13:04:00Z"
+   "fetchedAt": "2026-11-26T04:56:56Z"
   },
   "289645": {
    "name": "Evan Ferguson",
@@ -1503,13 +1525,13 @@
      "logo": null
     }
    ],
-   "fetchedAt": "2026-10-26T13:04:00Z"
+   "fetchedAt": "2026-11-26T04:56:56Z"
   },
   "308402": {
    "name": "Femi Azeez",
    "qid": "Q105789835",
    "career": [],
-   "fetchedAt": "2026-10-26T13:04:00Z"
+   "fetchedAt": "2026-11-26T04:56:56Z"
   },
   "318522": {
    "name": "Promise David",
@@ -1538,7 +1560,7 @@
      "logo": null
     }
    ],
-   "fetchedAt": "2026-10-26T13:04:00Z"
+   "fetchedAt": "2026-11-26T04:56:56Z"
   },
   "348787": {
    "name": "Yankuba Minteh",
@@ -1600,25 +1622,37 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png"
     }
    ],
-   "fetchedAt": "2026-10-26T13:04:00Z"
+   "fetchedAt": "2026-11-26T04:56:56Z"
   },
   "357165": {
    "name": "Stefanos Tzimas",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-11-25T02:19:01Z"
+   "fetchedAt": "2026-11-26T04:56:56Z"
   },
   "359400": {
    "name": "Ibrahim Osman",
    "qid": "Q117350353",
    "career": [],
-   "fetchedAt": "2026-10-26T13:04:00Z"
+   "fetchedAt": "2026-11-26T04:56:56Z"
   },
   "387655": {
    "name": "Charalambos Kostoulas",
    "qid": "Q117360254",
-   "career": [],
-   "fetchedAt": "2026-10-26T13:04:00Z"
+   "career": [
+    {
+     "club": "オリンピアコスFC",
+     "clubEn": "Olympiacos F.C.",
+     "start": "2024",
+     "end": "2025",
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/435.png"
+    }
+   ],
+   "fetchedAt": "2026-11-26T04:56:56Z"
   },
   "407059": {
    "name": "Zadok Yohanna",
@@ -1636,7 +1670,7 @@
      "logo": null
     }
    ],
-   "fetchedAt": "2026-10-26T13:04:00Z"
+   "fetchedAt": "2026-11-26T04:56:56Z"
   }
  }
 }

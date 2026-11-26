@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-26T04:56:56Z",
+ "updatedAt": "2026-11-26T15:00:45Z",
  "enabled": true,
  "players": {
   "141705": {
@@ -7,25 +7,25 @@
    "query": "Mark Gillespie skills",
    "videos": [
     {
-     "id": "hf8Mr6QideI",
-     "title": "Mark Gillespie amazing save",
-     "channel": "Willy Wonka",
-     "publishedAt": "2013-07-20"
-    },
-    {
      "id": "JIw7TFSnfGE",
      "title": "Mark Gillespie joins the 'Well",
      "channel": "Motherwell FC",
      "publishedAt": "2018-06-05"
     },
     {
-     "id": "9W85w-HwvQw",
-     "title": "ZOOM ARMY 👨‍💻 | Mark Gillespie Answers Your Questions",
-     "channel": "Newcastle United",
-     "publishedAt": "2020-11-03"
+     "id": "vRUsVJ-1h20",
+     "title": "Mark Gillespie support movie",
+     "channel": "CUOSC",
+     "publishedAt": "2020-06-26"
+    },
+    {
+     "id": "qH-S7xrVVrU",
+     "title": "Absolutely nailed it 👌🔥| 🎥 IG/markjgillespie #football #premierleague #nufc #newcastle",
+     "channel": "SPORTbible Shorts",
+     "publishedAt": "2026-08-08"
     }
    ],
-   "fetchedAt": "2026-10-27T07:42:47Z"
+   "fetchedAt": "2026-11-26T15:00:45Z"
   },
   "161715": {
    "name": "Nick Pope",

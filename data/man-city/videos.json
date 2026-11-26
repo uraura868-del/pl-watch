@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-26T04:56:56Z",
+ "updatedAt": "2026-11-26T15:00:45Z",
  "enabled": true,
  "players": {
   "167192": {
@@ -32,25 +32,25 @@
    "query": "Marcus Bettinelli skills",
    "videos": [
     {
+     "id": "k9-rGH2BHW8",
+     "title": "Marcus Bettinelli the ELITE bench warmer?",
+     "channel": "DMac",
+     "publishedAt": "2025-06-20"
+    },
+    {
      "id": "P8s-Gr8qK5k",
      "title": "🤩 Bettinelli showing his skills! 😁 #football #skills #mancity #premierleague #shorts",
      "channel": "Man City",
      "publishedAt": "2026-09-12"
     },
     {
-     "id": "WGzz3K7i5Vc",
-     "title": "Portugal Teammates - Marcus Bettinelli",
-     "channel": "Fulham Football Club",
-     "publishedAt": "2016-07-25"
-    },
-    {
-     "id": "EDa3KiH0ghY",
-     "title": "Marcus Bettinelli | Best Saves Compilation | HD 720p",
-     "channel": "Fortaleza Productions",
-     "publishedAt": "2015-09-24"
+     "id": "qOi8L-amKQ4",
+     "title": "Role Reversal ! Marcus Bettinelli #shorts",
+     "channel": "A club",
+     "publishedAt": "2022-02-19"
     }
    ],
-   "fetchedAt": "2026-10-27T07:42:47Z"
+   "fetchedAt": "2026-11-26T15:00:45Z"
   },
   "217092": {
    "name": "Gianluigi Donnarumma",

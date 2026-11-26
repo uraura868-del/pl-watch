@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-26T04:56:56Z",
+ "updatedAt": "2026-11-26T15:00:45Z",
  "enabled": true,
  "players": {
   "169532": {
@@ -13,19 +13,19 @@
      "publishedAt": "2025-06-05"
     },
     {
-     "id": "9gYnkDyW1Ac",
-     "title": "Kepa Arrizabalaga 2019/20 - Amazing Saves & Skills||HD",
-     "channel": "Christian Hernández",
-     "publishedAt": "2020-03-24"
-    },
-    {
      "id": "FL9uP9tmSZI",
      "title": "When Kepa Gave Advice To Lunin👏",
      "channel": "Fearron",
      "publishedAt": "2025-10-15"
+    },
+    {
+     "id": "9gYnkDyW1Ac",
+     "title": "Kepa Arrizabalaga 2019/20 - Amazing Saves & Skills||HD",
+     "channel": "Christian Hernández",
+     "publishedAt": "2020-03-24"
     }
    ],
-   "fetchedAt": "2026-10-27T07:42:47Z"
+   "fetchedAt": "2026-11-26T15:00:45Z"
   },
   "196176": {
    "name": "David Raya",
@@ -44,13 +44,13 @@
      "publishedAt": "2025-10-03"
     },
     {
-     "id": "q7pc4-wNdkc",
-     "title": "The Best Of David Raya This Season At Arsenal",
-     "channel": "Premier League",
-     "publishedAt": "2026-04-08"
+     "id": "Ko1saFJGGV0",
+     "title": "STUNNING DAVID RAYA SAVE!",
+     "channel": "Arsenal",
+     "publishedAt": "2025-12-04"
     }
    ],
-   "fetchedAt": "2026-10-27T07:42:47Z"
+   "fetchedAt": "2026-11-26T15:00:45Z"
   },
   "265921": {
    "name": "Illan Meslier",
@@ -75,12 +75,18 @@
      "publishedAt": "2023-09-20"
     }
    ],
-   "fetchedAt": "2026-10-27T07:42:47Z"
+   "fetchedAt": "2026-11-26T15:00:45Z"
   },
   "231859": {
    "name": "Ezri Konsa",
    "query": "Ezri Konsa skills",
    "videos": [
+    {
+     "id": "iCJRmub39-A",
+     "title": "Ezri Konsa Is a NIGHTMARE for Attackers! 😈",
+     "channel": "RED LDN",
+     "publishedAt": "2026-11-02"
+    },
     {
      "id": "ODH4WZq3PN0",
      "title": "EZRI KONSA | Arsenal New Player 2026 🔴⚪ Elite Skills, Tackles, Interceptions, Passes | Aston Villa",
@@ -88,19 +94,13 @@
      "publishedAt": "2026-08-19"
     },
     {
-     "id": "CxKZTTPW8Og",
-     "title": "Ezri Konsa Is a DEFENSIVE MONSTER! 🤯🔥",
-     "channel": "RED LDN",
-     "publishedAt": "2026-10-14"
-    },
-    {
-     "id": "MtEwl8W9Xp8",
-     "title": "Ezri Konsa ▶ Technique Skills, Tackles & Defensive IQ",
-     "channel": "YES Skills Vault",
-     "publishedAt": "2026-07-15"
+     "id": "xuiqsMvVd80",
+     "title": "Best of Ezri Konsa 2026 | Welcome to Arsenal! 🔴⚪",
+     "channel": "Tenz HD",
+     "publishedAt": "2026-08-19"
     }
    ],
-   "fetchedAt": "2026-10-27T07:42:47Z"
+   "fetchedAt": "2026-11-26T15:00:45Z"
   },
   "236322": {
    "name": "Gabriel Magalhães",
@@ -125,7 +125,7 @@
      "publishedAt": "2026-01-17"
     }
    ],
-   "fetchedAt": "2026-10-27T07:42:47Z"
+   "fetchedAt": "2026-11-26T15:00:45Z"
   },
   "241077": {
    "name": "Ben White",
@@ -144,29 +144,29 @@
      "publishedAt": "2024-03-07"
     },
     {
-     "id": "i99vWnVFA0M",
-     "title": "SUPER SLIDE FROM BEN WHITE!",
-     "channel": "Arsenal",
-     "publishedAt": "2026-05-08"
+     "id": "OaV_3HMQNsc",
+     "title": "Ben White a Genius Playmaker in a CB position || Welcome to Arsenal ||",
+     "channel": "rom7ooo",
+     "publishedAt": "2021-06-25"
     }
    ],
-   "fetchedAt": "2026-10-27T07:42:47Z"
+   "fetchedAt": "2026-11-26T15:00:45Z"
   },
   "277385": {
    "name": "William Saliba",
    "query": "William Saliba skills",
    "videos": [
     {
-     "id": "BMOO9bU-xqw",
-     "title": "Art of Defending by William Saliba",
-     "channel": "ASNLProds",
-     "publishedAt": "2025-12-24"
-    },
-    {
      "id": "DCPmjPOOvPM",
      "title": "Saliba is playing at an unbelievable level (2025/26)",
      "channel": "GunnerTV",
      "publishedAt": "2026-01-18"
+    },
+    {
+     "id": "BMOO9bU-xqw",
+     "title": "Art of Defending by William Saliba",
+     "channel": "ASNLProds",
+     "publishedAt": "2025-12-24"
     },
     {
      "id": "RPegeoaNbf4",
@@ -175,7 +175,7 @@
      "publishedAt": "2026-02-09"
     }
    ],
-   "fetchedAt": "2026-10-27T07:42:47Z"
+   "fetchedAt": "2026-11-26T15:00:45Z"
   },
   "282716": {
    "name": "Jurriën Timber",
@@ -188,19 +188,19 @@
      "publishedAt": "2025-11-27"
     },
     {
-     "id": "D3LnpR96wkU",
-     "title": "COOLNESS. JURRIEN TIMBER SKILLS 🥶",
-     "channel": "Arsenal",
-     "publishedAt": "2024-09-02"
-    },
-    {
      "id": "_Dk8-aSoM-o",
      "title": "Jurrien Timber – The Perfect Modern Full-Back",
      "channel": "ZXfootball",
      "publishedAt": "2025-10-08"
+    },
+    {
+     "id": "D3LnpR96wkU",
+     "title": "COOLNESS. JURRIEN TIMBER SKILLS 🥶",
+     "channel": "Arsenal",
+     "publishedAt": "2024-09-02"
     }
    ],
-   "fetchedAt": "2026-10-27T07:42:47Z"
+   "fetchedAt": "2026-11-26T15:00:45Z"
   },
   "292062": {
    "name": "Piero Hincapié",
@@ -225,7 +225,7 @@
      "publishedAt": "2026-02-25"
     }
    ],
-   "fetchedAt": "2026-10-27T07:42:47Z"
+   "fetchedAt": "2026-11-26T15:00:45Z"
   },
   "298329": {
    "name": "Riccardo Calafiori",
@@ -250,7 +250,7 @@
      "publishedAt": "2026-06-04"
     }
    ],
-   "fetchedAt": "2026-10-27T07:42:47Z"
+   "fetchedAt": "2026-11-26T15:00:45Z"
   },
   "328497": {
    "name": "Cristhian Mosquera",
@@ -275,23 +275,23 @@
      "publishedAt": "2026-02-16"
     }
    ],
-   "fetchedAt": "2026-10-27T07:42:47Z"
+   "fetchedAt": "2026-11-26T15:00:45Z"
   },
   "352758": {
    "name": "Myles Lewis-Skelly",
    "query": "Myles Lewis-Skelly skills",
    "videos": [
     {
-     "id": "vIzc1qbvCWI",
-     "title": "Myles Lewis-Skelly Crazy Skill Show",
-     "channel": "rom7ooo",
-     "publishedAt": "2026-08-15"
-    },
-    {
      "id": "GuKndidLd0k",
      "title": "Myles Lewis-Skelly - A Masterclass in Midfield Play",
      "channel": "GunnerTV",
      "publishedAt": "2026-09-16"
+    },
+    {
+     "id": "aPkduMgpvIg",
+     "title": "Myles-Lewis Skelly is simply too good 🦁",
+     "channel": "GunnerTV",
+     "publishedAt": "2025-05-05"
     },
     {
      "id": "51EXnYFGkws",
@@ -300,23 +300,23 @@
      "publishedAt": "2026-09-26"
     }
    ],
-   "fetchedAt": "2026-10-27T07:42:47Z"
+   "fetchedAt": "2026-11-26T15:00:45Z"
   },
   "400284": {
    "name": "Marli Salmon",
    "query": "Marli Salmon skills",
    "videos": [
     {
-     "id": "nQO9mJ62aUU",
-     "title": "MARLI SALMON 2026/2027 | Superstar In The Making 🔴⚪ Elite Skills, Tackles & Passes | Arsenal (HD)",
-     "channel": "WorldOfFootballHD",
-     "publishedAt": "2026-08-15"
-    },
-    {
      "id": "795gtTfQeMA",
      "title": "16 Year Old Marli Salmon Is A Rolls-Royce Defender!",
      "channel": "PBcomps",
      "publishedAt": "2025-12-01"
+    },
+    {
+     "id": "nQO9mJ62aUU",
+     "title": "MARLI SALMON 2026/2027 | Superstar In The Making 🔴⚪ Elite Skills, Tackles & Passes | Arsenal (HD)",
+     "channel": "WorldOfFootballHD",
+     "publishedAt": "2026-08-15"
     },
     {
      "id": "2mw3bV8XRLE",
@@ -325,18 +325,12 @@
      "publishedAt": "2025-07-20"
     }
    ],
-   "fetchedAt": "2026-10-27T07:42:47Z"
+   "fetchedAt": "2026-11-26T15:00:45Z"
   },
   "203669": {
    "name": "Martin Ødegaard",
    "query": "Martin Ødegaard skills",
    "videos": [
-    {
-     "id": "CL2FgXgYcsw",
-     "title": "Martin Ødegaard: The Midfield Maestro💫",
-     "channel": "ASNLProds",
-     "publishedAt": "2026-09-10"
-    },
     {
      "id": "eV4X64G6XAA",
      "title": "Martin Ødegaard being a Genius for 10 minutes 💡(2024)",
@@ -344,13 +338,19 @@
      "publishedAt": "2024-12-06"
     },
     {
-     "id": "JhmkXT4yHaY",
-     "title": "Martin Ødegaard is better than you think.",
-     "channel": "GunnerTV",
-     "publishedAt": "2026-07-22"
+     "id": "3R6b2MA9Cg4",
+     "title": "Martin Ødegaard Plays Magicial Football 2026/27",
+     "channel": "RED LDN",
+     "publishedAt": "2026-11-08"
+    },
+    {
+     "id": "CL2FgXgYcsw",
+     "title": "Martin Ødegaard: The Midfield Maestro💫",
+     "channel": "ASNLProds",
+     "publishedAt": "2026-09-10"
     }
    ],
-   "fetchedAt": "2026-10-27T07:42:47Z"
+   "fetchedAt": "2026-11-26T15:00:45Z"
   },
   "209581": {
    "name": "Mikel Merino",
@@ -369,13 +369,13 @@
      "publishedAt": "2025-12-04"
     },
     {
-     "id": "OFq5X88ekMA",
-     "title": "Mikel Merino - Full Season Show - 2026ᴴᴰ",
-     "channel": "Brazil Scout ",
-     "publishedAt": "2026-02-08"
+     "id": "1Ju6SlQO_sg",
+     "title": "MIKEL MERINO MASTERCLASS IN MIDFIELD!",
+     "channel": "Arsenal",
+     "publishedAt": "2026-09-17"
     }
    ],
-   "fetchedAt": "2026-10-27T07:42:47Z"
+   "fetchedAt": "2026-11-26T15:00:45Z"
   },
   "218522": {
    "name": "Bruno Guimarães",
@@ -400,18 +400,12 @@
      "publishedAt": "2026-06-25"
     }
    ],
-   "fetchedAt": "2026-10-27T07:42:47Z"
+   "fetchedAt": "2026-11-26T15:00:45Z"
   },
   "238262": {
    "name": "Declan Rice",
    "query": "Declan Rice skills",
    "videos": [
-    {
-     "id": "Ov7B09KhJ5I",
-     "title": "Declan Rice is The Most Complete Midfielder  🤯",
-     "channel": "RED LDN",
-     "publishedAt": "2026-10-22"
-    },
     {
      "id": "1dBqacO6CuE",
      "title": "Declan Rice - The Midfield Colossus (2025/26)",
@@ -419,13 +413,19 @@
      "publishedAt": "2026-06-25"
     },
     {
-     "id": "U0TdBZ-jeDs",
-     "title": "Declan Rice Epic Skill Video 🔥",
-     "channel": "rom7ooo",
-     "publishedAt": "2025-09-10"
+     "id": "Ov7B09KhJ5I",
+     "title": "Declan Rice is The Most Complete Midfielder  🤯",
+     "channel": "RED LDN",
+     "publishedAt": "2026-10-22"
+    },
+    {
+     "id": "Fvm1lkPI91Q",
+     "title": "Declan Rice Player of the Year level in 2026/27",
+     "channel": "GunnerTV",
+     "publishedAt": "2026-11-10"
     }
    ],
-   "fetchedAt": "2026-10-27T07:42:47Z"
+   "fetchedAt": "2026-11-26T15:00:45Z"
   },
   "251400": {
    "name": "Eberechi Eze",
@@ -438,55 +438,49 @@
      "publishedAt": "2025-08-23"
     },
     {
-     "id": "RhrthpZIxgM",
-     "title": "EZE is the most entertaining Arsenal player 🍿",
-     "channel": "GunnerTV",
-     "publishedAt": "2026-04-26"
-    },
-    {
      "id": "zprMn8gn6_s",
      "title": "The BEST of Eberechi Eze at Crystal Palace",
      "channel": "Premier League",
      "publishedAt": "2025-08-23"
+    },
+    {
+     "id": "61ZWydr-rn8",
+     "title": "Eberechi Eze - Show His True Level",
+     "channel": "ASNLProds",
+     "publishedAt": "2026-02-23"
     }
    ],
-   "fetchedAt": "2026-10-27T07:42:47Z"
+   "fetchedAt": "2026-11-26T15:00:45Z"
   },
   "287266": {
    "name": "Martín Zubimendi",
    "query": "Martín Zubimendi skills",
    "videos": [
     {
-     "id": "9cipi8_-AVQ",
-     "title": "Martin Zubimendi - Tempo Control 🇪🇸",
-     "channel": "GunnerTV",
-     "publishedAt": "2025-07-16"
+     "id": "dEhg4YaInes",
+     "title": "Best of Martín Zubimendi 🇪🇸 | Chelsea's Transfer Target 🔵",
+     "channel": "Tenz HD",
+     "publishedAt": "2026-11-10"
     },
     {
-     "id": "0kIP3yID6mg",
-     "title": "ZUBIMENDI INSTRUMENTAL AS GYÖKERES SCORES",
-     "channel": "Arsenal",
-     "publishedAt": "2025-10-23"
+     "id": "8lHYQHEXlwc",
+     "title": "Here Is Why Chelsea Want Martín Zubimendi🇪🇸🔵",
+     "channel": "Nino12x",
+     "publishedAt": "2026-11-12"
     },
     {
-     "id": "ua5S3l8uGy0",
-     "title": "MARTIN ZUBIMENDI X KAI HAVERTZ",
-     "channel": "Arsenal",
-     "publishedAt": "2026-03-16"
+     "id": "zUTOTuJ3IMs",
+     "title": "Here Is Why Real Madrid Want Martin Zubimendi 🇪🇸⚪️",
+     "channel": "Sebisaac2",
+     "publishedAt": "2026-08-09"
     }
    ],
-   "fetchedAt": "2026-10-27T07:42:47Z"
+   "fetchedAt": "2026-11-26T15:00:45Z"
   },
   "393424": {
    "name": "Theo Julienne",
    "query": "Theo Julienne skills",
    "videos": [
-    {
-     "id": "zQnLnHJUVZQ",
-     "title": "Theo Julienne! Arsenal’s 16-Year-Old Hale End Star Is SPECIAL! ",
-     "channel": "Best Sports +256",
-     "publishedAt": "2026-08-12"
-    },
     {
      "id": "kQRO3ZDorKo",
      "title": "Arsenal Have Found Yet Another INSANE Wonderkid",
@@ -494,18 +488,30 @@
      "publishedAt": "2026-02-28"
     },
     {
-     "id": "nw_mu_C78Pc",
-     "title": "Train with the Pro's Theo Julienne",
-     "channel": "The PSD Group",
-     "publishedAt": "2026-10-05"
+     "id": "zQnLnHJUVZQ",
+     "title": "Theo Julienne! Arsenal’s 16-Year-Old Hale End Star Is SPECIAL! ",
+     "channel": "Best Sports +256",
+     "publishedAt": "2026-08-12"
+    },
+    {
+     "id": "EcSY2rBtals",
+     "title": "Theo Julienne DEBUT!",
+     "channel": "CashionAFC",
+     "publishedAt": "2026-08-13"
     }
    ],
-   "fetchedAt": "2026-10-27T07:42:47Z"
+   "fetchedAt": "2026-11-26T15:00:45Z"
   },
   "399007": {
    "name": "Maalik Hashi",
    "query": "Maalik Hashi skills",
    "videos": [
+    {
+     "id": "RPl-JOnoWoQ",
+     "title": "Maalik Hashi - A Talent You NEED to Know - 2026ᴴᴰ",
+     "channel": "Brazil Scout ",
+     "publishedAt": "2026-10-24"
+    },
     {
      "id": "jMCBNHBiFoQ",
      "title": "IS THIS THE NEXT ARSENAL WONDERKID? MAALIK HASHI 👀 #arsenal #football #wonderkid",
@@ -517,31 +523,25 @@
      "title": "Maalik Hashi Signs First Professional Contract",
      "channel": "AFC Zone TV",
      "publishedAt": "2026-02-24"
-    },
-    {
-     "id": "RPl-JOnoWoQ",
-     "title": "Maalik Hashi - A Talent You NEED to Know - 2026ᴴᴰ",
-     "channel": "Brazil Scout ",
-     "publishedAt": "2026-10-24"
     }
    ],
-   "fetchedAt": "2026-10-27T07:42:47Z"
+   "fetchedAt": "2026-11-26T15:00:45Z"
   },
   "399894": {
    "name": "Ife Ibrahim",
    "query": "Ife Ibrahim skills",
    "videos": [
     {
-     "id": "xF7mCdX8NJc",
-     "title": "Ife Ibrahim - Beast in the Making",
-     "channel": "Brazil Scout Comps",
-     "publishedAt": "2026-09-05"
-    },
-    {
      "id": "0WhC2nwVlYU",
      "title": "18 year old Ife Ibrahim Is An Absolute Gem!",
      "channel": "PBcomps",
      "publishedAt": "2026-10-13"
+    },
+    {
+     "id": "xF7mCdX8NJc",
+     "title": "Ife Ibrahim - Beast in the Making",
+     "channel": "Brazil Scout Comps",
+     "publishedAt": "2026-09-05"
     },
     {
      "id": "KM_a4jRkEsM",
@@ -550,7 +550,7 @@
      "publishedAt": "2026-08-02"
     }
    ],
-   "fetchedAt": "2026-10-27T07:42:47Z"
+   "fetchedAt": "2026-11-26T15:00:45Z"
   },
   "231182": {
    "name": "Kai Havertz",
@@ -563,19 +563,19 @@
      "publishedAt": "2026-09-23"
     },
     {
-     "id": "ua5S3l8uGy0",
-     "title": "MARTIN ZUBIMENDI X KAI HAVERTZ",
-     "channel": "Arsenal",
-     "publishedAt": "2026-03-16"
-    },
-    {
      "id": "gu643BSSjHQ",
      "title": "The Clutch Mentality of Kai Havertz",
      "channel": "ASNLProds",
      "publishedAt": "2026-04-08"
+    },
+    {
+     "id": "p0teqxQI5nA",
+     "title": "The Intelligence Of Kai Havertz 🧠",
+     "channel": "Premier League",
+     "publishedAt": "2026-11-21"
     }
    ],
-   "fetchedAt": "2026-10-27T07:42:47Z"
+   "fetchedAt": "2026-11-26T15:00:45Z"
   },
   "258906": {
    "name": "Viktor Gyökeres",
@@ -588,19 +588,19 @@
      "publishedAt": "2026-01-27"
     },
     {
-     "id": "jVMhm1hya3g",
-     "title": "When Gyökeres met Saliba!",
-     "channel": "UEFA",
-     "publishedAt": "2025-06-18"
+     "id": "c0Q_TbWajus",
+     "title": "Victor Gyökeres dumped his girlfriend to make sure Arteta wins the Premier League. 😳💀",
+     "channel": "FutVibes",
+     "publishedAt": "2025-07-08"
     },
     {
-     "id": "oJ7Ks9KKfIE",
-     "title": "This Is Why Barcelona Want Viktor Gyokeres 🇸🇪🔵🔴",
-     "channel": "anthonyprod",
-     "publishedAt": "2026-08-17"
+     "id": "OoE4_yQAnEs",
+     "title": "WHAT A STRIKE FROM GYÖKERES! 🤯⚽",
+     "channel": "Fkfootball99 ",
+     "publishedAt": "2026-09-07"
     }
    ],
-   "fetchedAt": "2026-10-27T07:42:47Z"
+   "fetchedAt": "2026-11-26T15:00:45Z"
   },
   "280555": {
    "name": "Bukayo Saka",
@@ -613,10 +613,10 @@
      "publishedAt": "2025-09-14"
     },
     {
-     "id": "zIbmX1StqkY",
-     "title": "Bukayo Saka is a Phenomenal Talent",
+     "id": "A71N4h8WjG8",
+     "title": "This is Bukayo Saka at 50% ",
      "channel": "GunnerTV",
-     "publishedAt": "2023-07-29"
+     "publishedAt": "2026-08-15"
     },
     {
      "id": "5sJhiM2CrOg",
@@ -625,37 +625,43 @@
      "publishedAt": "2025-10-27"
     }
    ],
-   "fetchedAt": "2026-10-27T07:42:47Z"
+   "fetchedAt": "2026-11-26T15:00:45Z"
   },
   "293236": {
    "name": "Noni Madueke",
    "query": "Noni Madueke skills",
    "videos": [
     {
-     "id": "UA97SRTnAgg",
-     "title": "Eze & Madueke Skills 💀",
-     "channel": "Brother Highlights",
-     "publishedAt": "2025-10-28"
+     "id": "-l5Lsq6PqxY",
+     "title": "Noni Madueke is ON FIRE",
+     "channel": "RED LDN",
+     "publishedAt": "2026-11-05"
+    },
+    {
+     "id": "O1HVCmd72n4",
+     "title": "NONI MADUEKE WITH BRILLIANT BALL CONTROL!",
+     "channel": "Arsenal",
+     "publishedAt": "2026-11-26"
     },
     {
      "id": "jakAflS1czA",
      "title": "Noni Madueke is UNSTOPPABLE! 🤯🔥",
      "channel": "RED LDN",
      "publishedAt": "2026-10-19"
-    },
-    {
-     "id": "pEfNz65fZPU",
-     "title": "Subbed on 🔄 First assist secured ⚡️ Noni Madueke 🔥",
-     "channel": "England",
-     "publishedAt": "2025-09-13"
     }
    ],
-   "fetchedAt": "2026-10-27T07:42:47Z"
+   "fetchedAt": "2026-11-26T15:00:45Z"
   },
   "303793": {
    "name": "Christos Tzolis",
    "query": "Christos Tzolis skills",
    "videos": [
+    {
+     "id": "SXulz-tL1iA",
+     "title": "Christos Tzolis is AMAZING!🇬🇷",
+     "channel": "RED LDN",
+     "publishedAt": "2026-11-12"
+    },
     {
      "id": "QWeY2bLJEl4",
      "title": "This Is Why Arsenal Want Christos Tzolis 🔴⚪",
@@ -667,20 +673,20 @@
      "title": "Here's Why Arsenal Want Christos Tzolis 🇬🇷🔴⚪",
      "channel": "ScoutNation",
      "publishedAt": "2026-06-13"
-    },
-    {
-     "id": "0P4gLQZpGFU",
-     "title": "CHRISTOS TZOLIS ● WELCOME TO ARSENAL 🔴⚪🇬🇷",
-     "channel": "SVMM",
-     "publishedAt": "2026-07-16"
     }
    ],
-   "fetchedAt": "2026-10-27T07:42:47Z"
+   "fetchedAt": "2026-11-26T15:00:45Z"
   },
   "381341": {
    "name": "Ceadach O’Neill",
    "query": "Ceadach O’Neill skills",
    "videos": [
+    {
+     "id": "UUcVlM56VrM",
+     "title": "Ceadach O'Neill - Time to Shine",
+     "channel": "Brazil Scout ",
+     "publishedAt": "2026-10-30"
+    },
     {
      "id": "mGYvP-gwLk8",
      "title": "Ceadach O’Neill - 25/26 So Far At Arsenal U18",
@@ -688,19 +694,13 @@
      "publishedAt": "2025-12-14"
     },
     {
-     "id": "pLI6MvQVQLw",
-     "title": "SCORING AGAINST HIS OLD TEAM!",
-     "channel": "Arsenal",
-     "publishedAt": "2025-10-28"
-    },
-    {
-     "id": "mrUrs2ddT4o",
-     "title": "🚨 Arsenal’s NEXT Max Dowman? Hale End’s 17-Year-Old Wonderkid Ceadach O’Neill Is Taking Over! 🔥",
-     "channel": "Arsenal News TV",
-     "publishedAt": "2025-10-30"
+     "id": "q6jaVHZBP7E",
+     "title": "Ceadach O'Neill is a Northern Irish Talent! - 2026",
+     "channel": "SilvaSkills PLUS",
+     "publishedAt": "2026-11-03"
     }
    ],
-   "fetchedAt": "2026-10-27T07:42:47Z"
+   "fetchedAt": "2026-11-26T15:00:45Z"
   },
   "397263": {
    "name": "Max Dowman",
@@ -713,19 +713,19 @@
      "publishedAt": "2026-09-16"
     },
     {
+     "id": "kaGUD1Pyrgc",
+     "title": "7 Times Max Dowman Showed INSANE Talent at Just 16! 🤯",
+     "channel": "RED LDN",
+     "publishedAt": "2026-11-17"
+    },
+    {
      "id": "g3tfz9BL0rs",
      "title": "Max Dowman - The Best Moments so far ⭐",
      "channel": "GunnerTV",
      "publishedAt": "2026-03-20"
-    },
-    {
-     "id": "ErXeiqAMCuc",
-     "title": "Max Dowman Mind-blowing Skills 2026 !!",
-     "channel": "rom7ooo",
-     "publishedAt": "2026-04-02"
     }
    ],
-   "fetchedAt": "2026-10-27T07:42:47Z"
+   "fetchedAt": "2026-11-26T15:00:45Z"
   },
   "399893": {
    "name": "Marcell Washington",

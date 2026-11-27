@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-24T05:56:22Z",
+ "updatedAt": "2026-11-27T08:11:58Z",
  "id": "11420",
  "name": "RB Leipzig",
  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
@@ -205,6 +205,15 @@
    "id": "413837",
    "name": "Benno Kaltefleiter",
    "jersey": "37",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
+  },
+  {
+   "id": "5334375",
+   "name": "Toni Stefan Langsteiner",
+   "jersey": "8",
    "pos": "M",
    "photo": null,
    "injuries": [],

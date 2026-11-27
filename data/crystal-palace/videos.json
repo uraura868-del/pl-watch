@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-26T23:45:15Z",
+ "updatedAt": "2026-11-27T08:11:58Z",
  "enabled": true,
  "players": {
   "195738": {
@@ -38,19 +38,19 @@
      "publishedAt": "2016-03-24"
     },
     {
-     "id": "HXRP6rG6SSs",
-     "title": "Remi Matthews 1v1 Ahead of West Brom U21s",
-     "channel": "Norwich City Football Club",
-     "publishedAt": "2014-02-12"
-    },
-    {
      "id": "Byc98jP2ijo",
      "title": "Keeper makes brilliant save with first touch seconds after coming on for debut!",
      "channel": "SPFL",
      "publishedAt": "2016-10-01"
+    },
+    {
+     "id": "KLCTSzEQmng",
+     "title": "Daily Palace: Oily Adama, Glasner's Good Vibes and Remi Matthews' Bartending Skills",
+     "channel": "Global Sports Podcast Network",
+     "publishedAt": "2025-02-22"
     }
    ],
-   "fetchedAt": "2026-10-27T20:01:43Z"
+   "fetchedAt": "2026-11-27T08:11:58Z"
   },
   "234172": {
    "name": "Dean Henderson",
@@ -75,7 +75,7 @@
      "publishedAt": "2025-08-20"
     }
    ],
-   "fetchedAt": "2026-10-27T23:44:18Z"
+   "fetchedAt": "2026-11-27T08:11:58Z"
   },
   "3114844": {
    "name": "Lucca Benetton",
@@ -813,6 +813,31 @@
    "query": "Nathanael James Kalembo skills",
    "videos": [],
    "fetchedAt": "2026-11-05T18:41:28Z"
+  },
+  "409810": {
+   "name": "Charlie Walker-Smith",
+   "query": "Charlie Walker-Smith skills",
+   "videos": [
+    {
+     "id": "5SddJPFEdLE",
+     "title": "Charlie Walker - To Love You",
+     "channel": "Charlie Walker",
+     "publishedAt": "2010-09-23"
+    },
+    {
+     "id": "D96qxuNsgKg",
+     "title": "Charlie Walker - Hold Me",
+     "channel": "Charlie Walker",
+     "publishedAt": "2009-02-13"
+    },
+    {
+     "id": "lmqOHMvUOq0",
+     "title": "Charlie Walker Musician Extraordinaire",
+     "channel": "PMAUS Media",
+     "publishedAt": "2018-05-29"
+    }
+   ],
+   "fetchedAt": "2026-11-27T08:11:58Z"
   }
  }
 }

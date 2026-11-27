@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-26T23:45:15Z",
+ "updatedAt": "2026-11-27T08:11:58Z",
  "enabled": true,
  "players": {
   "7441": {
@@ -7,36 +7,30 @@
    "query": "Mark Travers skills",
    "videos": [
     {
-     "id": "qnHTYCAqYAA",
-     "title": "Pre-Season Shot Stopping | Mark Travers | AFC Bournemouth | #Shorts",
+     "id": "Tp3kBqevk7Y",
+     "title": "Crossing Practice | Mark Travers | AFC Bournemouth | #Shorts",
      "channel": "KeeperAnalyst",
-     "publishedAt": "2022-08-01"
+     "publishedAt": "2022-05-11"
     },
     {
-     "id": "1FIovcCxBoQ",
-     "title": "Pre-Season Handling | Mark Travers | AFC Bournemouth | #Shorts",
-     "channel": "KeeperAnalyst",
-     "publishedAt": "2022-07-30"
+     "id": "24yyQ6XVIy8",
+     "title": "60second Player Review 25/26 Travers/Aznou Bramley Moore Blues #everton #premierleague",
+     "channel": "Bramley Moore Blues",
+     "publishedAt": "2026-06-05"
     },
     {
-     "id": "hB04yoeF-xo",
-     "title": "What A Performance Mark Travers ( AFC Bournemouth )",
-     "channel": "CM MEDIA",
-     "publishedAt": "2019-05-07"
+     "id": "ymgCC9ieNiA",
+     "title": "What Is the Most Important Skill for Relationship Survival?",
+     "channel": "Content Analysis",
+     "publishedAt": "2026-02-26"
     }
    ],
-   "fetchedAt": "2026-10-27T07:42:47Z"
+   "fetchedAt": "2026-11-27T08:11:58Z"
   },
   "148515": {
    "name": "Tom King",
    "query": "Tom King skills",
    "videos": [
-    {
-     "id": "OXd3uoq6f8A",
-     "title": "Tom King #footbal #GK",
-     "channel": "What if the things?",
-     "publishedAt": "2022-08-12"
-    },
     {
      "id": "hT2EXRgCRr4",
      "title": "Tom king 👑 longest kick ever (105yard)#shorts #football #tomking",
@@ -44,29 +38,35 @@
      "publishedAt": "2022-06-05"
     },
     {
-     "id": "1_xFiriQU4M",
-     "title": "Tom king fazendo Gol de longe",
-     "channel": "Ian Melo",
-     "publishedAt": "2023-10-06"
+     "id": "OXd3uoq6f8A",
+     "title": "Tom King #footbal #GK",
+     "channel": "What if the things?",
+     "publishedAt": "2022-08-12"
+    },
+    {
+     "id": "cIsMhDaiLD0",
+     "title": "Tom King World Record 🔥🔥🔥",
+     "channel": "FIFA",
+     "publishedAt": "2024-03-11"
     }
    ],
-   "fetchedAt": "2026-10-27T07:42:47Z"
+   "fetchedAt": "2026-11-27T08:11:58Z"
   },
   "159443": {
    "name": "Jordan Pickford",
    "query": "Jordan Pickford skills",
    "videos": [
     {
-     "id": "m5IO2ed2BXs",
-     "title": "Pickford's unbelievable saves 🥶🔥 Subscribe for more edits 👑",
-     "channel": "Regoo7",
-     "publishedAt": "2026-07-23"
-    },
-    {
      "id": "6NtX8Rmp7vM",
      "title": "The BEST Of Jordan Pickford | Impossible Saves",
      "channel": "Premier League",
      "publishedAt": "2026-03-03"
+    },
+    {
+     "id": "m5IO2ed2BXs",
+     "title": "Pickford's unbelievable saves 🥶🔥 Subscribe for more edits 👑",
+     "channel": "Regoo7",
+     "publishedAt": "2026-07-23"
     },
     {
      "id": "gNtOFaMB5p0",
@@ -75,7 +75,7 @@
      "publishedAt": "2025-10-16"
     }
    ],
-   "fetchedAt": "2026-10-27T07:42:47Z"
+   "fetchedAt": "2026-11-27T08:11:58Z"
   },
   "4946": {
    "name": "Michael Keane",
@@ -94,49 +94,43 @@
      "publishedAt": "2025-11-27"
     },
     {
-     "id": "7LDjmHavVM8",
-     "title": "Michael Keane • Fantastic Defensive Skills | Everton",
-     "channel": "Mega Football",
-     "publishedAt": "2020-12-30"
+     "id": "q7u809mUx1A",
+     "title": "Michael Keane gives Everton the lead against Bournemouth | Premier League | NBC Sports",
+     "channel": "NBC Sports",
+     "publishedAt": "2024-08-31"
     }
    ],
-   "fetchedAt": "2026-10-27T07:42:47Z"
+   "fetchedAt": "2026-11-27T08:11:58Z"
   },
   "155226": {
    "name": "James Tarkowski",
    "query": "James Tarkowski skills",
    "videos": [
     {
-     "id": "q6F5UFUOYCM",
-     "title": "James Tarkowski Of Everton Full Season 2021/2022 ᴴᴰ",
-     "channel": "Ccomps",
-     "publishedAt": "2022-07-03"
-    },
-    {
-     "id": "G5OcBBYjBUw",
-     "title": "James Tarkowski & Ben Mee 2019 ● BURNLEY ● Crazy Tackles & Defensive Skills | HD",
-     "channel": "FZ Football",
-     "publishedAt": "2019-10-09"
-    },
-    {
      "id": "Heq7lMb1zJs",
      "title": "James Tarkowski • Amazing Tackles & Passes | Burnley",
      "channel": "Mega Football",
      "publishedAt": "2020-12-22"
+    },
+    {
+     "id": "OWTT8mVpvLw",
+     "title": "CAPTAINS Trying To Wind Each Other Up 🤪",
+     "channel": "Premier League",
+     "publishedAt": "2025-09-24"
+    },
+    {
+     "id": "RBQSMYkP2Lw",
+     "title": "Van Dijk and Tarkowski rivalry 🔥💪",
+     "channel": "Ranefut",
+     "publishedAt": "2026-04-25"
     }
    ],
-   "fetchedAt": "2026-10-27T07:42:47Z"
+   "fetchedAt": "2026-11-27T08:11:58Z"
   },
   "262594": {
    "name": "Vitaliy Mykolenko",
    "query": "Vitaliy Mykolenko skills",
    "videos": [
-    {
-     "id": "_XY7EAHr6ZE",
-     "title": "Vitaliy Mykolenko - Napoli Transfer target 🇺🇦  2024",
-     "channel": "90 Minutes Football",
-     "publishedAt": "2024-07-17"
-    },
     {
      "id": "fHjhNMBapaQ",
      "title": "Vitaliy Mykolenko Deserves to be Seen in 2024!",
@@ -144,13 +138,19 @@
      "publishedAt": "2024-01-08"
     },
     {
-     "id": "7MHwPwM9PNo",
-     "title": "Mykolenko, what a pass🔥🥵",
-     "channel": "Chershir Sports",
-     "publishedAt": "2022-12-28"
+     "id": "_XY7EAHr6ZE",
+     "title": "Vitaliy Mykolenko - Napoli Transfer target 🇺🇦  2024",
+     "channel": "90 Minutes Football",
+     "publishedAt": "2024-07-17"
+    },
+    {
+     "id": "DHg1PWeSzCc",
+     "title": "Vitaliy Mykolenko - Welcome to Everton? 2021ᴴᴰ",
+     "channel": "Brazil Scout ",
+     "publishedAt": "2021-12-17"
     }
    ],
-   "fetchedAt": "2026-10-27T07:42:47Z"
+   "fetchedAt": "2026-11-27T08:11:58Z"
   },
   "283586": {
    "name": "Jake O'Brien",

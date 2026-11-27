@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-26T23:45:15Z",
+ "updatedAt": "2026-11-27T08:11:58Z",
  "enabled": true,
  "players": {
   "138481": {
@@ -50,7 +50,7 @@
      "publishedAt": "2025-12-30"
     }
    ],
-   "fetchedAt": "2026-10-28T05:28:42Z"
+   "fetchedAt": "2026-11-27T08:11:58Z"
   },
   "307800": {
    "name": "Melker Ellborg",
@@ -820,6 +820,31 @@
     }
    ],
    "fetchedAt": "2026-10-31T09:30:35Z"
+  },
+  "289988": {
+   "name": "Joseph Cowan",
+   "query": "Joseph Cowan skills",
+   "videos": [
+    {
+     "id": "VwpVfVhny8A",
+     "title": "Easton Cowan teaches the offensive stick disrupt | Team Canada Skills",
+     "channel": "TSN",
+     "publishedAt": "2023-12-26"
+    },
+    {
+     "id": "z_fIYhxj8AQ",
+     "title": "Joe Cowan: Inside the World of Small Business Remodelling",
+     "channel": "Carter Rethwisch",
+     "publishedAt": "2025-04-01"
+    },
+    {
+     "id": "UcA4G4ncvvI",
+     "title": "Easton Cowan - Maple Leafs Development Camp Hockey 🏒",
+     "channel": "SB12 Sports",
+     "publishedAt": "2024-07-07"
+    }
+   ],
+   "fetchedAt": "2026-11-27T08:11:58Z"
   }
  }
 }

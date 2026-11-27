@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-24T05:56:22Z",
+ "updatedAt": "2026-11-27T08:11:58Z",
  "id": "160",
  "name": "Paris Saint-Germain",
  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
@@ -17,27 +17,27 @@
    "name": "Matvei Safonov",
    "jersey": "39",
    "pos": "G",
-   "photo": null,
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/318470-1732658603.jpg?lm=4711",
    "injuries": [],
-   "photoSrc": null
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/318470-1732658603.jpg?lm=4711"
   },
   {
    "id": "288925",
    "name": "Lucas Chevalier",
    "jersey": "30",
    "pos": "G",
-   "photo": null,
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/463600-1708342501.jpg?lm=4711",
    "injuries": [],
-   "photoSrc": null
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/463600-1708342501.jpg?lm=4711"
   },
   {
    "id": "387725",
    "name": "Alessandro Longoni",
    "jersey": "16",
    "pos": "G",
-   "photo": null,
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/1074986-1762506045.jpg?lm=4711",
    "injuries": [],
-   "photoSrc": null
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1074986-1762506045.jpg?lm=4711"
   },
   {
    "id": "3143886",
@@ -62,142 +62,142 @@
    "name": "Marquinhos",
    "jersey": "5",
    "pos": "D",
-   "photo": null,
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/181767-1672303747.jpg?lm=4711",
    "injuries": [],
-   "photoSrc": null
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/181767-1672303747.jpg?lm=4711"
   },
   {
    "id": "160115",
    "name": "Lucas Digne",
    "jersey": "12",
    "pos": "D",
-   "photo": null,
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/126664-1736160616.jpg?lm=4711",
    "injuries": [],
-   "photoSrc": null
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/126664-1736160616.jpg?lm=4711"
   },
   {
    "id": "196200",
    "name": "Lucas Hernández",
    "jersey": "21",
    "pos": "D",
-   "photo": null,
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/281963-1667830435.jpg?lm=4711",
    "injuries": [],
-   "photoSrc": null
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/281963-1667830435.jpg?lm=4711"
   },
   {
    "id": "240233",
    "name": "Achraf Hakimi",
    "jersey": "2",
    "pos": "D",
-   "photo": null,
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/398073-1672304327.jpg?lm=4711",
    "injuries": [],
-   "photoSrc": null
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/398073-1672304327.jpg?lm=4711"
   },
   {
    "id": "287005",
    "name": "Willian Pacho",
    "jersey": "51",
    "pos": "D",
-   "photo": null,
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/661171-1696508666.jpg?lm=4711",
    "injuries": [],
-   "photoSrc": null
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/661171-1696508666.jpg?lm=4711"
   },
   {
    "id": "290591",
    "name": "Nuno Mendes",
    "jersey": "25",
    "pos": "D",
-   "photo": null,
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/616341-1749417164.jpg?lm=4711",
    "injuries": [],
-   "photoSrc": null
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/616341-1749417164.jpg?lm=4711"
   },
   {
    "id": "304503",
    "name": "Illia Zabarnyi",
    "jersey": "6",
    "pos": "D",
-   "photo": null,
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/659089-1760065378.jpg?lm=4711",
    "injuries": [],
-   "photoSrc": null
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/659089-1760065378.jpg?lm=4711"
   },
   {
    "id": "316128",
    "name": "Lucas Beraldo",
    "jersey": "4",
    "pos": "D",
-   "photo": null,
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/872171-1715107660.jpg?lm=4711",
    "injuries": [],
-   "photoSrc": null
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/872171-1715107660.jpg?lm=4711"
   },
   {
    "id": "403981",
    "name": "David Boly",
    "jersey": "42",
    "pos": "D",
-   "photo": null,
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/1193405-1765213774.jpg?lm=4711",
    "injuries": [],
-   "photoSrc": null
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1193405-1765213774.jpg?lm=4711"
   },
   {
    "id": "214596",
    "name": "Fabián Ruiz",
    "jersey": "8",
    "pos": "M",
-   "photo": null,
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/350219-1718958379.jpg?lm=4711",
    "injuries": [],
-   "photoSrc": null
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/350219-1718958379.jpg?lm=4711"
   },
   {
    "id": "288897",
    "name": "Vitinha",
    "jersey": "17",
    "pos": "M",
-   "photo": null,
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/487469-1749415169.jpg?lm=4711",
    "injuries": [],
-   "photoSrc": null
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/487469-1749415169.jpg?lm=4711"
   },
   {
    "id": "329690",
    "name": "Maghnes Akliouche",
    "jersey": "11",
    "pos": "M",
-   "photo": null,
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/745200-1717406573.jpg?lm=4711",
    "injuries": [],
-   "photoSrc": null
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/745200-1717406573.jpg?lm=4711"
   },
   {
    "id": "345581",
    "name": "Warren Zaïre-Emery",
    "jersey": "33",
    "pos": "M",
-   "photo": null,
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/810092-1777411744.jpg?lm=4711",
    "injuries": [],
-   "photoSrc": null
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/810092-1777411744.jpg?lm=4711"
   },
   {
    "id": "355061",
    "name": "João Neves",
    "jersey": "87",
    "pos": "M",
-   "photo": null,
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/670681-1701295511.jpg?lm=4711",
    "injuries": [],
-   "photoSrc": null
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/670681-1701295511.jpg?lm=4711"
   },
   {
    "id": "379088",
    "name": "Senny Mayulu",
    "jersey": "24",
    "pos": "M",
-   "photo": null,
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/903693-1794821976.jpg?lm=4711",
    "injuries": [],
-   "photoSrc": null
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/903693-1794821976.jpg?lm=4711"
   },
   {
    "id": "403578",
    "name": "Dro Fernández",
    "jersey": "27",
    "pos": "M",
-   "photo": "data/photos/ec96601db1b3d7bc.jpg",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/1071596-1793742650.jpg?lm=4711",
    "injuries": [],
    "dob": "2001-01-17",
    "nat": "Argentina",
@@ -206,7 +206,7 @@
    "joined": "2026-09-01",
    "birthPlace": "San Martín",
    "posInfo": "Centre Central Midfielder",
-   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p448047.png"
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1071596-1793742650.jpg?lm=4711"
   },
   {
    "id": "3121652",
@@ -222,16 +222,16 @@
    "name": "Ousmane Dembélé",
    "jersey": "10",
    "pos": "F",
-   "photo": null,
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/288230-1684148641.jpg?lm=4711",
    "injuries": [],
-   "photoSrc": null
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/288230-1684148641.jpg?lm=4711"
   },
   {
    "id": "265869",
    "name": "Ferran Torres",
    "jersey": "9",
    "pos": "F",
-   "photo": "data/photos/ae2fa00a7391f0ba.jpg",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/398184-1779789996.jpg?lm=4711",
    "injuries": [],
    "dob": "1997-01-16",
    "nat": "Spain",
@@ -240,43 +240,43 @@
    "joined": "2023-07-12",
    "birthPlace": "Villarreal",
    "posInfo": "Central Defender",
-   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p244954.png"
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/398184-1779789996.jpg?lm=4711"
   },
   {
    "id": "274745",
    "name": "Khvicha Kvaratskhelia",
    "jersey": "7",
    "pos": "F",
-   "photo": null,
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/502670-1777411223.jpg?lm=4711",
    "injuries": [],
-   "photoSrc": null
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/502670-1777411223.jpg?lm=4711"
   },
   {
    "id": "336388",
    "name": "Désiré Doué",
    "jersey": "14",
    "pos": "F",
-   "photo": null,
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/914562-1793742713.jpg?lm=4711",
    "injuries": [],
-   "photoSrc": null
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/914562-1793742713.jpg?lm=4711"
   },
   {
    "id": "353363",
    "name": "Mika Godts",
    "jersey": "22",
    "pos": "F",
-   "photo": null,
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/748804-1793744689.jpg?lm=4711",
    "injuries": [],
-   "photoSrc": null
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/748804-1793744689.jpg?lm=4711"
   },
   {
    "id": "403419",
    "name": "Quentin Ndjantou",
    "jersey": "47",
    "pos": "F",
-   "photo": null,
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/1053208-1759747972.jpg?lm=4711",
    "injuries": [],
-   "photoSrc": null
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1053208-1759747972.jpg?lm=4711"
   }
  ]
 }

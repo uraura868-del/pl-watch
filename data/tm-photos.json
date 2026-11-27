@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-26T23:45:15Z",
+ "updatedAt": "2026-11-27T08:11:58Z",
  "clubs": {
   "manchester united": {
    "id": 985,
@@ -1098,28 +1098,28 @@
    "id": 197,
    "slug": "club",
    "name": "AC Sparta Prague",
-   "fetchedAt": "2026-11-20T03:02:09Z",
+   "fetchedAt": "2026-11-27T08:11:58Z",
    "players": {}
   },
   "tsg hoffenheim": {
    "id": 533,
    "slug": "club",
    "name": "TSG 1899 Hoffenheim",
-   "fetchedAt": "2026-11-20T03:02:09Z",
+   "fetchedAt": "2026-11-27T08:11:58Z",
    "players": {}
   },
   "getafe": {
    "id": 3709,
    "slug": "club",
    "name": "Getafe CF",
-   "fetchedAt": "2026-11-20T03:02:09Z",
+   "fetchedAt": "2026-11-27T08:11:58Z",
    "players": {}
   },
   "dinamo zagreb": {
    "id": 419,
    "slug": "club",
    "name": "GNK Dinamo Zagreb",
-   "fetchedAt": "2026-11-20T03:02:09Z",
+   "fetchedAt": "2026-11-27T08:11:58Z",
    "players": {}
   },
   "borussia dortmund": {

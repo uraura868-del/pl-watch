@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-27T08:11:58Z",
+ "updatedAt": "2026-11-27T18:51:51Z",
  "players": {
   "111337": {
    "name": "David Button",
@@ -968,7 +968,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/139.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:01:25Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "256607": {
    "name": "Florentino",
@@ -986,7 +986,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1929.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:01:25Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "301554": {
    "name": "Marcelino Núñez",
@@ -1026,13 +1026,13 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/381.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:01:25Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "307073": {
    "name": "Kasey McAteer",
    "qid": "Q110086287",
    "career": [],
-   "fetchedAt": "2026-10-26T14:01:25Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "308891": {
    "name": "Anis Mehmeti",
@@ -1127,13 +1127,13 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:01:25Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "3132863": {
    "name": "Matthew Charles Compton",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-11-25T02:19:01Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "181092": {
    "name": "Chuba Akpom",
@@ -1272,6 +1272,17 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png"
     },
     {
+     "club": "シント＝トロイデンVV",
+     "clubEn": "Sint-Truidense V.V.",
+     "start": "2018",
+     "end": "2018",
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/936.png"
+    },
+    {
      "club": "PAOKテッサロニキ",
      "clubEn": "PAOK FC",
      "start": "2018",
@@ -1303,9 +1314,42 @@
      "youth": false,
      "loan": false,
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/139.png"
+    },
+    {
+     "club": "LOSCリール",
+     "clubEn": "Lille OSC",
+     "start": "2025",
+     "end": "2025",
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": null
+    },
+    {
+     "club": "イプスウィッチ・タウンFC",
+     "clubEn": "Ipswich Town F.C.",
+     "start": "2025",
+     "end": "2026",
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png"
+    },
+    {
+     "club": "イプスウィッチ・タウンFC",
+     "clubEn": "Ipswich Town F.C.",
+     "start": "2026",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:01:25Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "261598": {
    "name": "Zian Flemming",
@@ -1323,7 +1367,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/139.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:01:25Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "269343": {
    "name": "Jack Clarke",
@@ -1341,7 +1385,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:01:25Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "286347": {
    "name": "Daizen Maeda",
@@ -1447,7 +1491,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:01:25Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "295370": {
    "name": "Jaden Philogene",
@@ -1520,7 +1564,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:01:25Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "318680": {
    "name": "Fatawu Issahaku",
@@ -1626,13 +1670,13 @@
      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:01:25Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "322654": {
    "name": "Emersonn",
    "qid": "Q117089936",
    "career": [],
-   "fetchedAt": "2026-10-26T14:01:25Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "330045": {
    "name": "Sindre Walle Egeli",
@@ -1738,7 +1782,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:01:25Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   }
  }
 }

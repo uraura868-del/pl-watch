@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-27T08:11:58Z",
+ "updatedAt": "2026-11-27T18:51:51Z",
  "enabled": true,
  "players": {
   "158626": {
@@ -82,6 +82,12 @@
    "query": "Mike Penders skills",
    "videos": [
     {
+     "id": "H9prXjgGRPA",
+     "title": "Mike Penders 2026/27 - Amazing Saves, Skills & Reflexes | HD",
+     "channel": "Xabi Scout",
+     "publishedAt": "2026-11-02"
+    },
+    {
      "id": "l7xoa214ieQ",
      "title": "Here Is Why Mike Penders Can Be Chelsea Number One 🧤",
      "channel": "NinoMichael",
@@ -92,15 +98,9 @@
      "title": "Mike Penders - Full Season Show - 2026ᴴᴰ",
      "channel": "Brazil Scout ",
      "publishedAt": "2026-06-13"
-    },
-    {
-     "id": "KAeICo6pjC8",
-     "title": "Mike Penders' howler gifts Spurs lead against Chelsea | Premier League",
-     "channel": "NBC Sports",
-     "publishedAt": "2026-10-24"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "189007": {
    "name": "Reece James",

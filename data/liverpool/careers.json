@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-27T08:11:58Z",
+ "updatedAt": "2026-11-27T18:51:51Z",
  "players": {
   "194121": {
    "name": "Freddie Woodman",
@@ -116,7 +116,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/260.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "196876": {
    "name": "Alisson Becker",
@@ -189,31 +189,31 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "274742": {
    "name": "Giorgi Mamardashvili",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-11-25T02:19:01Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "289840": {
    "name": "Vitezslav Jaros",
    "qid": "Q112503285",
    "career": [],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "315879": {
    "name": "Harvey Davies",
    "qid": "Q115145113",
    "career": [],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "32572": {
    "name": "Luke Chambers",
    "qid": "Q112791108",
    "career": [],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "102053": {
    "name": "Joe Gomez",
@@ -297,7 +297,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "157892": {
    "name": "Virgil van Dijk",
@@ -381,7 +381,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "226177": {
    "name": "Kostas Tsimikas",
@@ -476,7 +476,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "250183": {
    "name": "Conor Bradley",
@@ -505,17 +505,6 @@
      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nir.png"
     },
     {
-     "club": "サッカー北アイルランド代表",
-     "clubEn": "Northern Ireland men's national association football team",
-     "start": "2021",
-     "end": null,
-     "apps": 24,
-     "national": true,
-     "youth": false,
-     "loan": false,
-     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nir.png"
-    },
-    {
      "club": "リヴァプールFC",
      "clubEn": "Liverpool F.C.",
      "start": "2021",
@@ -525,6 +514,17 @@
      "youth": false,
      "loan": false,
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png"
+    },
+    {
+     "club": "サッカー北アイルランド代表",
+     "clubEn": "Northern Ireland men's national association football team",
+     "start": "2021",
+     "end": null,
+     "apps": 24,
+     "national": true,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nir.png"
     },
     {
      "club": "ボルトン・ワンダラーズFC",
@@ -538,7 +538,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/358.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "270821": {
    "name": "Ronald Araujo",
@@ -633,7 +633,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "281119": {
    "name": "Jeremie Frimpong",
@@ -717,7 +717,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "323110": {
    "name": "Milos Kerkez",
@@ -790,7 +790,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "355980": {
    "name": "Jérémy Jacquet",
@@ -885,13 +885,13 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "379855": {
    "name": "Wellity Lucky",
    "qid": "Q118727330",
    "career": [],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "380082": {
    "name": "Giovanni Leoni",
@@ -942,7 +942,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "152479": {
    "name": "Wataru Endo",

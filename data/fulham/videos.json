@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-27T08:11:58Z",
+ "updatedAt": "2026-11-27T18:51:51Z",
  "enabled": true,
  "players": {
   "149517": {
@@ -57,25 +57,25 @@
    "query": "Alex Borto skills",
    "videos": [
     {
-     "id": "nRjYYSfBnHM",
-     "title": "Alex Borto PK save",
-     "channel": "Betty Borto",
-     "publishedAt": "2019-03-06"
-    },
-    {
-     "id": "B028djQGRN8",
-     "title": "Is Alex Borto The Next Tim Howard?",
-     "channel": "Ladcast",
-     "publishedAt": "2020-12-12"
-    },
-    {
      "id": "c-a0nqDVgpY",
      "title": "Alex Borto, 16 year old GK Fulham FC",
      "channel": "Betty Borto",
      "publishedAt": "2020-08-05"
+    },
+    {
+     "id": "_dRKNaC3tks",
+     "title": "I18 GK Podcast Live w/ Fulham FC's Alex Borto (Depth From Distance)",
+     "channel": "Inside the 18 Goalkeeper Podcast",
+     "publishedAt": "2022-10-25"
+    },
+    {
+     "id": "nRjYYSfBnHM",
+     "title": "Alex Borto PK save",
+     "channel": "Betty Borto",
+     "publishedAt": "2019-03-06"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "190974": {
    "name": "Kenny Tete",

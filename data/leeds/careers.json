@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-27T08:11:58Z",
+ "updatedAt": "2026-11-27T18:51:51Z",
  "players": {
   "164148": {
    "name": "Alex Cairns",
@@ -61,7 +61,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/402.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:01:25Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "184550": {
    "name": "Michael Zetterer",
@@ -112,7 +112,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/137.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:01:25Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "307118": {
    "name": "James Trafford",
@@ -251,19 +251,19 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:01:25Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "346913": {
    "name": "Darryl Ombang",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-11-25T02:19:01Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "407583": {
    "name": "Rory Mahady",
    "qid": "Q132732272",
    "career": [],
-   "fetchedAt": "2026-10-26T13:51:51Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "212237": {
    "name": "Nico Elvedi",
@@ -358,7 +358,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "231863": {
    "name": "James Justin",
@@ -431,7 +431,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "232325": {
    "name": "Joe Rodon",
@@ -526,7 +526,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "243408": {
    "name": "Jayden Bogle",
@@ -544,25 +544,13 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/374.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "250166": {
    "name": "Gabriel Gudmundsson",
    "qid": "Q29318963",
-   "career": [
-    {
-     "club": "ハルムスタッズBK",
-     "clubEn": "Halmstads BK",
-     "start": null,
-     "end": null,
-     "apps": null,
-     "national": false,
-     "youth": false,
-     "loan": false,
-     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3017.png"
-    }
-   ],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "career": [],
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "265923": {
    "name": "Melvin Bard",
@@ -580,7 +568,7 @@
      "logo": null
     }
    ],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "274649": {
    "name": "Jaka Bijol",
@@ -664,7 +652,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "318390": {
    "name": "Tarik Muharemovic",
@@ -748,13 +736,13 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "408959": {
    "name": "Jayden Lienou",
    "qid": "Q140047230",
    "career": [],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "30116": {
    "name": "Ilia Gruev",
@@ -783,7 +771,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/137.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "241317": {
    "name": "Ethan Ampadu",
@@ -900,7 +888,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "251658": {
    "name": "Sean Longstaff",
@@ -951,7 +939,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "253173": {
    "name": "Ao Tanaka",
@@ -1013,7 +1001,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "259653": {
    "name": "Brenden Aaronson",
@@ -1053,7 +1041,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "304802": {
    "name": "Anton Stach",
@@ -1159,25 +1147,25 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "407584": {
    "name": "Rhys Chadwick",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-11-25T02:19:01Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "408489": {
    "name": "Alfie Cresswell",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-11-25T02:19:01Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "409924": {
    "name": "Callum Mills",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-11-25T02:19:01Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "194801": {
    "name": "Harry Wilson",
@@ -1228,6 +1216,17 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/396.png"
     },
     {
+     "club": "リヴァプールFC",
+     "clubEn": "Liverpool F.C.",
+     "start": "2015",
+     "end": "2021",
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png"
+    },
+    {
      "club": "U-21サッカーウェールズ代表",
      "clubEn": "Wales national under-21 football team",
      "start": "2015",
@@ -1239,15 +1238,26 @@
      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/wal.png"
     },
     {
-     "club": "リヴァプールFC",
-     "clubEn": "Liverpool F.C.",
-     "start": "2015",
-     "end": null,
+     "club": "ハル・シティAFC",
+     "clubEn": "Hull City A.F.C.",
+     "start": "2018",
+     "end": "2018",
      "apps": null,
      "national": false,
      "youth": false,
-     "loan": false,
-     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png"
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png"
+    },
+    {
+     "club": "ダービー・カウンティFC",
+     "clubEn": "Derby County F.C.",
+     "start": "2018",
+     "end": "2019",
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/374.png"
     },
     {
      "club": "AFCボーンマス",
@@ -1259,9 +1269,42 @@
      "youth": false,
      "loan": true,
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png"
+    },
+    {
+     "club": "カーディフ・シティFC",
+     "clubEn": "Cardiff City F.C.",
+     "start": "2020",
+     "end": "2021",
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/347.png"
+    },
+    {
+     "club": "フラムFC",
+     "clubEn": "Fulham F.C.",
+     "start": "2021",
+     "end": "2026",
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png"
+    },
+    {
+     "club": "リーズ・ユナイテッドAFC",
+     "clubEn": "Leeds United F.C.",
+     "start": "2026",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "197717": {
    "name": "Dominic Calvert-Lewin",
@@ -1356,7 +1399,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "203072": {
    "name": "Daniel James",
@@ -1405,9 +1448,42 @@
      "youth": false,
      "loan": false,
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png"
+    },
+    {
+     "club": "リーズ・ユナイテッドAFC",
+     "clubEn": "Leeds United F.C.",
+     "start": "2021",
+     "end": "2022",
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png"
+    },
+    {
+     "club": "フラムFC",
+     "clubEn": "Fulham F.C.",
+     "start": "2022",
+     "end": "2023",
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png"
+    },
+    {
+     "club": "リーズ・ユナイテッドAFC",
+     "clubEn": "Leeds United F.C.",
+     "start": "2023",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "258956": {
    "name": "Lukas Nmecha",
@@ -1524,7 +1600,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/441.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "270641": {
    "name": "Noah Okafor",
@@ -1542,7 +1618,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/989.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   },
   "346662": {
    "name": "Jean-Mattéo Bahoya",
@@ -1626,7 +1702,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-27T18:51:51Z"
   }
  }
 }

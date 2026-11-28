@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-28T01:54:00Z",
+ "updatedAt": "2026-11-28T10:14:39Z",
  "enabled": true,
  "players": {
   "111114": {
@@ -332,10 +332,10 @@
    "query": "Pascal Gross skills",
    "videos": [
     {
-     "id": "CFjWTdyoCSU",
-     "title": "Pascal Groß - Complete Season in 2024!",
-     "channel": "SilvaSkills",
-     "publishedAt": "2024-07-28"
+     "id": "7cj1BVwC-ZQ",
+     "title": "Pascal Groß - The Maestro of the Midfield - 2026ᴴᴰ",
+     "channel": "Brazil Scout Comps",
+     "publishedAt": "2026-10-28"
     },
     {
      "id": "891eLi9Uw9A",
@@ -344,13 +344,13 @@
      "publishedAt": "2026-09-25"
     },
     {
-     "id": "3r_PW2Gk9FM",
-     "title": "The Genius Of Pascal Groß Analysed.",
-     "channel": "Ryan Hurst",
-     "publishedAt": "2026-09-23"
+     "id": "CFjWTdyoCSU",
+     "title": "Pascal Groß - Complete Season in 2024!",
+     "channel": "SilvaSkills",
+     "publishedAt": "2024-07-28"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "192278": {
    "name": "Diego Gómez",
@@ -363,44 +363,44 @@
      "publishedAt": "2025-11-10"
     },
     {
-     "id": "Qok2b7gCfwU",
-     "title": "Diego Gomez - Full Season Show - 2024ᴴᴰ",
-     "channel": "Brazil Scout ",
-     "publishedAt": "2024-11-18"
-    },
-    {
      "id": "oQJe8MNLQaQ",
      "title": "Diego Gómez ▶ Box-To-Box BEAST Skills",
      "channel": "YES Skills Vault",
      "publishedAt": "2026-10-25"
+    },
+    {
+     "id": "Qok2b7gCfwU",
+     "title": "Diego Gomez - Full Season Show - 2024ᴴᴰ",
+     "channel": "Brazil Scout ",
+     "publishedAt": "2024-11-18"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "261087": {
    "name": "Matt O'Riley",
    "query": "Matt O'Riley skills",
    "videos": [
     {
+     "id": "IaMnRrrQx48",
+     "title": "Matthew O'Reilly: \"Am I dying?\" The honest answer.",
+     "channel": "TED",
+     "publishedAt": "2014-09-25"
+    },
+    {
+     "id": "Z-P0cU-ya2Q",
+     "title": "MATT O'RILEY | 25 minutes of MAGIC 🪄 | William Hill Premiership",
+     "channel": "SPFL",
+     "publishedAt": "2025-09-05"
+    },
+    {
      "id": "9IrhQrNsQyE",
      "title": "MATT O'RILEY | Everything He Did In Marseille",
      "channel": "Le Talent Comps",
      "publishedAt": "2026-02-05"
-    },
-    {
-     "id": "DmX0dgpIx8M",
-     "title": "Matt O'Riley is a Baller This Season",
-     "channel": "Brazil Scout ",
-     "publishedAt": "2023-12-09"
-    },
-    {
-     "id": "2AAnvejehFw",
-     "title": "Matt O'Riley Turn Drops Cantwell #shorts",
-     "channel": "SPFL",
-     "publishedAt": "2023-09-04"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "274278": {
    "name": "Kaoru Mitoma",
@@ -425,7 +425,7 @@
      "publishedAt": "2025-03-12"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "282186": {
    "name": "Mats Wieffer",
@@ -438,19 +438,19 @@
      "publishedAt": "2024-03-02"
     },
     {
-     "id": "CZtk07dAUy8",
-     "title": "Mats Wieffer ● Welcome to Brighton 🔵🇳🇱 Best Tackles, Skills & Passes",
-     "channel": "SVMM",
-     "publishedAt": "2024-06-12"
-    },
-    {
      "id": "_WNWZy9sLHk",
      "title": "Mats Wieffer Plays Like Rodri!",
      "channel": "HugoFilmz",
      "publishedAt": "2024-04-17"
+    },
+    {
+     "id": "CZtk07dAUy8",
+     "title": "Mats Wieffer ● Welcome to Brighton 🔵🇳🇱 Best Tackles, Skills & Passes",
+     "channel": "SVMM",
+     "publishedAt": "2024-06-12"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "304242": {
    "name": "Yasin Ayari",
@@ -469,13 +469,13 @@
      "publishedAt": "2026-10-22"
     },
     {
-     "id": "nRTuPNJ8X5s",
-     "title": "Yasin Ayari - Technical Midfielder - 2024ᴴᴰ",
-     "channel": "Brazil Scout ",
-     "publishedAt": "2024-03-23"
+     "id": "5oaHUXCO--g",
+     "title": "Yasin Ayari - Generational Swedish Midfielder - Brighton Skills 2026/27",
+     "channel": "90 Minutes Football",
+     "publishedAt": "2026-10-26"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "328011": {
    "name": "Jack Hinshelwood",
@@ -494,24 +494,18 @@
      "publishedAt": "2026-08-25"
     },
     {
-     "id": "glbPxeDliV8",
-     "title": "Here's Why Arsenal FC Want Jack Hinshelwood 🏴󠁧󠁢󠁥󠁮󠁧󠁿 🔥 ",
-     "channel": "90 Minutes Football",
-     "publishedAt": "2026-08-15"
+     "id": "geHUt3AJoEc",
+     "title": "Jack Hinshelwood - Complete Season in 2026!",
+     "channel": "SilvaSkills",
+     "publishedAt": "2026-08-29"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "359097": {
    "name": "Malick Yalcouyé",
    "query": "Malick Yalcouyé skills",
    "videos": [
-    {
-     "id": "gIshsRfZmm8",
-     "title": "Malick Yalcouyé is Brighton´s New Starboy! 🌟",
-     "channel": "HugoFilmz",
-     "publishedAt": "2026-09-05"
-    },
     {
      "id": "2zG2jQoFO3k",
      "title": "Malick Yalcouyé Is all over The Field - 2026",
@@ -523,19 +517,25 @@
      "title": "Malick Junior Yalcouye doubles Brighton's lead on the breakaway | Premier League | NBC Sports",
      "channel": "NBC Sports",
      "publishedAt": "2026-09-13"
+    },
+    {
+     "id": "8o4194VKyUI",
+     "title": "Malick Yalcouyé - Beast in the Making",
+     "channel": "Brazil Scout ",
+     "publishedAt": "2024-05-17"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "387489": {
    "name": "Chema Andrés",
    "query": "Chema Andrés skills",
    "videos": [
     {
-     "id": "FG4-HVptiXI",
-     "title": "Chema Andrés is Showing His Talent at Stuttgart",
-     "channel": "Brazil Scout Comps",
-     "publishedAt": "2026-04-24"
+     "id": "nlEd4s09g-o",
+     "title": "How Chema Andrés TRANSFORMED Brighton Into DARK HORSES",
+     "channel": "Pythagoras in Boots",
+     "publishedAt": "2026-11-10"
     },
     {
      "id": "WFAEuvlOoMc",
@@ -550,7 +550,7 @@
      "publishedAt": "2026-09-01"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "399697": {
    "name": "Nehemiah Oriola",
@@ -561,34 +561,46 @@
      "title": "\"I Be Nigerian!\" | Why Brighton’s Nehemiah Oriola Is Snubbing England For Super Eagles",
      "channel": "The Sports Verdict",
      "publishedAt": "2026-04-17"
+    },
+    {
+     "id": "5c4455NTcKk",
+     "title": "This Brighton Wonderkid Has EVERYTHING 🤯",
+     "channel": "Rising Ballers",
+     "publishedAt": "2026-11-03"
+    },
+    {
+     "id": "gk83r3i3j5o",
+     "title": "I'M SORRY...BUT THIS PLAYER SHOULD BE INVITED TO SUPER EAGLES.",
+     "channel": "The Sports Verdict",
+     "publishedAt": "2026-04-18"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "411697": {
    "name": "Shane Nti",
    "query": "Shane Nti skills",
    "videos": [
     {
-     "id": "IiTL-c5-NtI",
-     "title": "Adama Traoré - Fastest sprint in the Premier League",
-     "channel": "Football 97",
-     "publishedAt": "2016-11-03"
+     "id": "JUddaz6i5A0",
+     "title": "How to Learn the Rainbow Flick Fast 😳 #football #neymar",
+     "channel": "ShapBowl",
+     "publishedAt": "2026-10-09"
     },
     {
-     "id": "61mQdKVuLNM",
-     "title": "A Ruthless CEO Was in a Coma for 3 Years! His 3-Year-Old Daughter Woke Him With a Magic Gourd!",
-     "channel": "Secret Stories of Love",
-     "publishedAt": "2026-10-27"
+     "id": "lXS_CYaFNUo",
+     "title": "A lot of serious soccer skills on the Toronto Blue Jays ⚽️ #MLB #BlueJays #Toronto",
+     "channel": "Toronto Blue Jays",
+     "publishedAt": "2026-07-23"
     },
     {
-     "id": "jSLE15t-3B0",
-     "title": "10 dramatic last lap battles from the past decade | Supercars 2022",
-     "channel": "Supercars",
-     "publishedAt": "2022-07-13"
+     "id": "NEOAwEgWTLo",
+     "title": "Sistema de anti run no Jujutsu Shenanigans #jujutsushenanigans #jjkgame #roblox #jjs",
+     "channel": "Caxux",
+     "publishedAt": "2026-05-17"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "413274": {
    "name": "Younes Ibrahim",
@@ -601,19 +613,19 @@
      "publishedAt": "2025-10-11"
     },
     {
+     "id": "lA01wnUrjCE",
+     "title": "مهارات و اهداف الموهبه المصريه يونس ابراهيم Younes Ibrahim 🔥صاحب ال ١٨ عام لاعب برايتون الانجليزي 🔥",
+     "channel": "صنايعي كورة 🛠⚽",
+     "publishedAt": "2026-10-28"
+    },
+    {
      "id": "2fXwu5jDy0g",
      "title": "يونس إبراهيم.. جوكر برايتون الإنجليزي ومستقبل هجوم منتخب مصر القادم😳🔥",
      "channel": "الطوفان +",
      "publishedAt": "2026-04-19"
-    },
-    {
-     "id": "PH9icpO_rr0",
-     "title": "Younes Ibrahim Is Always Aware Of His Surroundings #bhafc #brightonandhovealbion #egypt #shorts",
-     "channel": "Louis Selling",
-     "publishedAt": "2026-10-13"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "278061": {
    "name": "Georginio Rutter",
@@ -638,7 +650,7 @@
      "publishedAt": "2026-04-18"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "289645": {
    "name": "Evan Ferguson",
@@ -657,13 +669,13 @@
      "publishedAt": "2026-07-10"
     },
     {
-     "id": "nti9zQYYYBc",
-     "title": "From WONDERKID to Career Limbo… What Now for Evan Ferguson?! 👀",
-     "channel": "Mikey FC",
-     "publishedAt": "2025-06-23"
+     "id": "1RgT0DYfijo",
+     "title": "Evan Ferguson's Comeback 📈",
+     "channel": "Pêche Football",
+     "publishedAt": "2025-09-18"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "308402": {
    "name": "Femi Azeez",
@@ -682,29 +694,29 @@
      "publishedAt": "2026-04-03"
     },
     {
-     "id": "fltsIhdlc8c",
-     "title": "Femi Azeez — Unstoppable in 1v1",
+     "id": "t6ooxvyHJKs",
+     "title": "Femi Azeez Looks Like a Winger Defenders Can’t Fully Read 🔥",
      "channel": "BlazeControl",
-     "publishedAt": "2026-03-12"
+     "publishedAt": "2026-05-27"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "318522": {
    "name": "Promise David",
    "query": "Promise David skills",
    "videos": [
     {
-     "id": "UZRQyBpQBYQ",
-     "title": "Promise David - The Tower Up Front",
-     "channel": "Brazil Scout ",
-     "publishedAt": "2026-08-19"
-    },
-    {
      "id": "HkWkalJWcdc",
      "title": "Best Skills of Promise David in 2026!",
      "channel": "SilvaSkills",
      "publishedAt": "2026-08-21"
+    },
+    {
+     "id": "UZRQyBpQBYQ",
+     "title": "Promise David - The Tower Up Front",
+     "channel": "Brazil Scout ",
+     "publishedAt": "2026-08-19"
     },
     {
      "id": "fnKkDX3wVW8",
@@ -713,7 +725,7 @@
      "publishedAt": "2026-02-18"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "348787": {
    "name": "Yankuba Minteh",
@@ -726,24 +738,30 @@
      "publishedAt": "2026-08-21"
     },
     {
-     "id": "oI9JImpsVeY",
-     "title": "Yankuba Minteh | Skills & Dribbling | 2026 | Welcome to Liverpool ?",
-     "channel": "Futbol Transfer",
-     "publishedAt": "2026-05-26"
-    },
-    {
      "id": "ejYUYOz_PFw",
      "title": "Yankuba Minteh Is HIM ᴳᴹ",
      "channel": "JRXComps",
      "publishedAt": "2025-10-28"
+    },
+    {
+     "id": "BgIk-jVA69E",
+     "title": "Best of Yankuba Minteh 🇬🇲 | Welcome to Liverpool ?",
+     "channel": "Tenz HD",
+     "publishedAt": "2026-08-21"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "357165": {
    "name": "Stefanos Tzimas",
    "query": "Stefanos Tzimas skills",
    "videos": [
+    {
+     "id": "T19Rk4DkFeM",
+     "title": "Stefanos Tzimas doubles Brighton's lead over Nottingham Forest | Premier League | NBC Sports",
+     "channel": "NBC Sports",
+     "publishedAt": "2025-11-30"
+    },
     {
      "id": "u_S9FiP4zYg",
      "title": "TZIMAS IS ON FIRE 🔥 #football",
@@ -755,15 +773,9 @@
      "title": "WHY STEFANOS TZIMAS CAN BE BRIGHTON'S BEST EVER STRIKER",
      "channel": "Louis Selling",
      "publishedAt": "2026-09-17"
-    },
-    {
-     "id": "qV4mqk9FeDM",
-     "title": "Stefanos Tzimas Skills",
-     "channel": "Meşin Yuvarlak ",
-     "publishedAt": "2025-04-25"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "359400": {
    "name": "Ibrahim Osman",
@@ -788,43 +800,37 @@
      "publishedAt": "2026-01-21"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "387655": {
    "name": "Charalambos Kostoulas",
    "query": "Charalambos Kostoulas skills",
    "videos": [
     {
-     "id": "GG6_yYFgchc",
-     "title": "17-Year Old Charalampos Kostoulas is A Rare Talent 24/25!",
-     "channel": "HugoFilmz",
-     "publishedAt": "2025-03-06"
+     "id": "OhugPIJd-O8",
+     "title": "Charalampos Kostoulas - Technical Striker - 2026ᴴᴰ",
+     "channel": "Brazil Scout ",
+     "publishedAt": "2026-11-15"
     },
     {
-     "id": "VMf2aIQfEf8",
-     "title": "Charalampos Kostoulas debut in Premier League 🦁#kostoulas #soccer #premierleague",
-     "channel": "OIS Agency",
-     "publishedAt": "2025-10-20"
+     "id": "8fVP0rH-E5Q",
+     "title": "CHARALAMPOS KOSTOULAS: Brighton’s £30M Striker. INSANE Signing 😱",
+     "channel": "football wonderkids",
+     "publishedAt": "2026-10-12"
     },
     {
-     "id": "RMVEBmtCHaY",
-     "title": "Kostoulas looks like the REAL DEAL",
-     "channel": "JJCharlton",
-     "publishedAt": "2026-09-20"
+     "id": "5FUiIHPTDso",
+     "title": "Charalampos Kostoulas Deserves to be Seen in 2026!",
+     "channel": "SilvaSkills",
+     "publishedAt": "2026-11-16"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "407059": {
    "name": "Zadok Yohanna",
    "query": "Zadok Yohanna skills",
    "videos": [
-    {
-     "id": "H-5iJElgDRI",
-     "title": "The story of Zadok Yohanna is inspiring! Congratulations 👏",
-     "channel": "Beyond The Match",
-     "publishedAt": "2026-06-06"
-    },
     {
      "id": "XFKWYgJUzfA",
      "title": "Zadok Yohanna - Debut for Brighton & Hove Albion - 08/08/2026",
@@ -832,13 +838,19 @@
      "publishedAt": "2026-08-08"
     },
     {
-     "id": "hx70XMKJ76g",
-     "title": "🚨 DONE DEAL! Brighton Sign Zadok Yohanna For £21.5M! | Chelsea & Newcastle Beaten To Winger!",
-     "channel": "Fabrizio News (Fan Account)",
-     "publishedAt": "2026-06-07"
+     "id": "Vb5zu4h3lLc",
+     "title": "Zadok Yohanna - The New King Of Dribbling in 2026",
+     "channel": "ED-Football",
+     "publishedAt": "2026-04-16"
+    },
+    {
+     "id": "CtwEoj09kvU",
+     "title": "Zadok Yohanna Is Already an Absolute BEAST 🇳🇬🔥 Welcome to Brighton?",
+     "channel": "jh vids",
+     "publishedAt": "2026-05-17"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   }
  }
 }

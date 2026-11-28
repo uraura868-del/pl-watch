@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-28T01:54:00Z",
+ "updatedAt": "2026-11-28T10:14:39Z",
  "enabled": true,
  "players": {
   "179497": {
@@ -32,16 +32,16 @@
    "query": "John Victor skills",
    "videos": [
     {
-     "id": "JkUImTw2X4g",
-     "title": "John Victor ● Welcome to Nottingham Forest 2025 🔴🇧🇷 Best Saves, Reflexes & Passes",
-     "channel": "SVMM",
-     "publishedAt": "2025-07-12"
-    },
-    {
      "id": "OhOUYBOLl1o",
      "title": "John Victor 2025 - Best Saves Show | HD",
      "channel": "LUTYHD",
      "publishedAt": "2025-08-01"
+    },
+    {
+     "id": "JkUImTw2X4g",
+     "title": "John Victor ● Welcome to Nottingham Forest 2025 🔴🇧🇷 Best Saves, Reflexes & Passes",
+     "channel": "SVMM",
+     "publishedAt": "2025-07-12"
     },
     {
      "id": "r6a9AiBd4zU",
@@ -50,7 +50,7 @@
      "publishedAt": "2025-09-04"
     }
    ],
-   "fetchedAt": "2026-10-28T18:48:10Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "266846": {
    "name": "Steven Benda",

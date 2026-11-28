@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-28T01:54:00Z",
+ "updatedAt": "2026-11-28T10:14:39Z",
  "players": {
   "138481": {
    "name": "Simon Moore",
@@ -72,7 +72,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/333.png"
     }
    ],
-   "fetchedAt": "2026-10-26T22:36:15Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "301449": {
    "name": "Robin Roefs",
@@ -1296,6 +1296,12 @@
    "qid": "Q106778648",
    "career": [],
    "fetchedAt": "2026-10-26T22:36:15Z"
+  },
+  "289988": {
+   "name": "Joseph Cowan",
+   "qid": null,
+   "career": [],
+   "fetchedAt": "2026-11-28T10:14:39Z"
   }
  }
 }

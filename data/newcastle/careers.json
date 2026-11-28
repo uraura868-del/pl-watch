@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-28T01:54:00Z",
+ "updatedAt": "2026-11-28T10:14:39Z",
  "players": {
   "141705": {
    "name": "Mark Gillespie",
@@ -700,7 +700,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
     }
    ],
-   "fetchedAt": "2026-10-26T17:17:41Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "303444": {
    "name": "Malick Thiaw",
@@ -740,7 +740,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png"
     }
    ],
-   "fetchedAt": "2026-10-26T17:17:41Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "308979": {
    "name": "Amar Dedic",
@@ -857,13 +857,13 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png"
     }
    ],
-   "fetchedAt": "2026-10-26T17:17:41Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "346776": {
    "name": "Miodrag Pivas",
    "qid": "Q127867854",
    "career": [],
-   "fetchedAt": "2026-10-26T17:17:41Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "172836": {
    "name": "Jacob Murphy",
@@ -991,7 +991,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png"
     }
    ],
-   "fetchedAt": "2026-10-26T17:17:41Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "202232": {
    "name": "Joelinton",
@@ -1064,7 +1064,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png"
     }
    ],
-   "fetchedAt": "2026-10-26T17:17:41Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "243386": {
    "name": "Harvey Barnes",
@@ -1159,7 +1159,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png"
     }
    ],
-   "fetchedAt": "2026-10-26T17:17:41Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "259517": {
    "name": "Joe Willock",
@@ -1199,7 +1199,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png"
     }
    ],
-   "fetchedAt": "2026-10-26T17:17:41Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "286090": {
    "name": "Jacob Ramsey",
@@ -1250,7 +1250,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png"
     }
    ],
-   "fetchedAt": "2026-10-26T17:17:41Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "323986": {
    "name": "Nico González",
@@ -1343,9 +1343,20 @@
      "youth": false,
      "loan": false,
      "logo": null
+    },
+    {
+     "club": "ニューカッスル・ユナイテッドFC",
+     "clubEn": "Newcastle United F.C.",
+     "start": "2026",
+     "end": null,
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png"
     }
    ],
-   "fetchedAt": "2026-10-26T17:17:41Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "349078": {
    "name": "Lewis Miley",
@@ -1374,7 +1385,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png"
     }
    ],
-   "fetchedAt": "2026-10-26T17:17:41Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "384372": {
    "name": "Sean Steur",
@@ -1414,7 +1425,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png"
     }
    ],
-   "fetchedAt": "2026-10-26T17:17:41Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "396630": {
    "name": "Aladji Bamba",
@@ -1443,13 +1454,13 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png"
     }
    ],
-   "fetchedAt": "2026-10-26T17:17:41Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "416448": {
    "name": "Mason Miley",
    "qid": "Q141680813",
    "career": [],
-   "fetchedAt": "2026-10-26T17:17:41Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "224077": {
    "name": "Yoane Wissa",
@@ -1467,6 +1478,17 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2995.png"
     },
     {
+     "club": "アンジェSCO",
+     "clubEn": "Angers SCO",
+     "start": "2016",
+     "end": "2017",
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": null
+    },
+    {
      "club": "スタッド・ラヴァル",
      "clubEn": "Stade Lavallois",
      "start": "2017",
@@ -1476,6 +1498,17 @@
      "youth": false,
      "loan": false,
      "logo": null
+    },
+    {
+     "club": "ACアジャクシオ",
+     "clubEn": "A.C. Ajaccio",
+     "start": "2017",
+     "end": "2018",
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": true,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2503.png"
     },
     {
      "club": "FCロリアン",
@@ -1522,7 +1555,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png"
     }
    ],
-   "fetchedAt": "2026-10-26T17:17:41Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "296622": {
    "name": "Anthony Elanga",
@@ -1606,7 +1639,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png"
     }
    ],
-   "fetchedAt": "2026-10-26T17:17:41Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "319431": {
    "name": "William Osula",
@@ -1668,7 +1701,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png"
     }
    ],
-   "fetchedAt": "2026-10-26T17:17:41Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "359108": {
    "name": "Bazoumana Touré",
@@ -1730,7 +1763,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png"
     }
    ],
-   "fetchedAt": "2026-10-26T17:17:41Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "359651": {
    "name": "Matias Fernandez-Pardo",
@@ -1792,25 +1825,25 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png"
     }
    ],
-   "fetchedAt": "2026-10-26T17:17:41Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "385593": {
    "name": "Vakho Salia",
    "qid": "Q125338651",
    "career": [],
-   "fetchedAt": "2026-10-26T17:17:41Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "414116": {
    "name": "Kyran Thompson",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-11-24T17:31:51Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "418769": {
    "name": "Michael Mills",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-11-24T17:31:51Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   }
  }
 }

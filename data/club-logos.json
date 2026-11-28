@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-28T01:54:00Z",
+ "updatedAt": "2026-11-28T10:14:39Z",
  "logos": {
   "nat:england": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
   "club:swindon town": "https://a.espncdn.com/i/teamlogos/soccer/500/341.png",
@@ -540,6 +540,7 @@
   "club:stade brestois": null,
   "club:chicago fire": "https://a.espncdn.com/i/teamlogos/soccer/500/182.png",
   "club:troms": null,
-  "club:deportivo maldonado": "https://a.espncdn.com/i/teamlogos/soccer/500/10000.png"
+  "club:deportivo maldonado": "https://a.espncdn.com/i/teamlogos/soccer/500/10000.png",
+  "club:ajaccio": "https://a.espncdn.com/i/teamlogos/soccer/500/2503.png"
  }
 }

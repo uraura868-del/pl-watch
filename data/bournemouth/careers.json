@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-28T01:54:00Z",
+ "updatedAt": "2026-11-28T10:14:39Z",
  "players": {
   "93193": {
    "name": "Fraser Forster",
@@ -268,7 +268,7 @@
    "name": "Mack Allan",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-11-27T08:11:58Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "122268": {
    "name": "Adam Smith",
@@ -1471,7 +1471,7 @@
    "name": "Junior Kroupi",
    "qid": null,
    "career": [],
-   "fetchedAt": "2026-11-27T08:11:58Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   }
  }
 }

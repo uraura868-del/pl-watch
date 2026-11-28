@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-25T02:19:01Z",
+ "updatedAt": "2026-11-28T10:14:39Z",
  "id": "437",
  "name": "FC Porto",
  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/437.png",
@@ -17,27 +17,27 @@
    "name": "João Costa",
    "jersey": "24",
    "pos": "G",
-   "photo": null,
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/198638-1773342461.jpg?lm=4711",
    "injuries": [],
-   "photoSrc": null
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/198638-1773342461.jpg?lm=4711"
   },
   {
    "id": "142670",
    "name": "Cláudio Ramos",
    "jersey": "14",
    "pos": "G",
-   "photo": null,
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/155396-1773342545.jpg?lm=4711",
    "injuries": [],
-   "photoSrc": null
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/155396-1773342545.jpg?lm=4711"
   },
   {
    "id": "238903",
    "name": "Diogo Costa",
    "jersey": "99",
    "pos": "G",
-   "photo": null,
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/357153-1716296015.jpg?lm=4711",
    "injuries": [],
-   "photoSrc": null
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/357153-1716296015.jpg?lm=4711"
   },
   {
    "id": "396599",
@@ -53,36 +53,36 @@
    "name": "Chris Smalling",
    "jersey": "6",
    "pos": "D",
-   "photo": null,
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/103427-1765232730.png?lm=4711",
    "injuries": [],
-   "photoSrc": null
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/103427-1765232730.png?lm=4711"
   },
   {
    "id": "221788",
    "name": "Jan Bednarek",
    "jersey": "5",
    "pos": "D",
-   "photo": null,
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/243028-1709158468.jpg?lm=4711",
    "injuries": [],
-   "photoSrc": null
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/243028-1709158468.jpg?lm=4711"
   },
   {
    "id": "268437",
    "name": "Nehuén Pérez",
    "jersey": "18",
    "pos": "D",
-   "photo": null,
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/491693-1695029359.jpg?lm=4711",
    "injuries": [],
-   "photoSrc": null
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/491693-1695029359.jpg?lm=4711"
   },
   {
    "id": "274289",
    "name": "Moura",
    "jersey": "74",
    "pos": "D",
-   "photo": null,
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/478365-1758830803.jpg?lm=4711",
    "injuries": [],
-   "photoSrc": null
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/478365-1758830803.jpg?lm=4711"
   },
   {
    "id": "289513",
@@ -98,61 +98,61 @@
    "name": "Jakub Kiwior",
    "jersey": "4",
    "pos": "D",
-   "photo": null,
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/425918-1683101307.jpg?lm=4711",
    "injuries": [],
-   "photoSrc": null
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/425918-1683101307.jpg?lm=4711"
   },
   {
    "id": "345752",
    "name": "Dominik Prpic",
    "jersey": "21",
    "pos": "D",
-   "photo": null,
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/921533-1758830918.jpg?lm=4711",
    "injuries": [],
-   "photoSrc": null
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/921533-1758830918.jpg?lm=4711"
   },
   {
    "id": "346111",
    "name": "Alberto Costa",
    "jersey": "20",
    "pos": "D",
-   "photo": null,
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/877139-1739281459.jpg?lm=4711",
    "injuries": [],
-   "photoSrc": null
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/877139-1739281459.jpg?lm=4711"
   },
   {
    "id": "364656",
    "name": "Luís Gomes",
    "jersey": "64",
    "pos": "D",
-   "photo": null,
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/1004725-1758830735.jpg?lm=4711",
    "injuries": [],
-   "photoSrc": null
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1004725-1758830735.jpg?lm=4711"
   },
   {
    "id": "364657",
    "name": "Martim Fernandes",
    "jersey": "52",
    "pos": "D",
-   "photo": null,
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/935480-1775770086.jpg?lm=4711",
    "injuries": [],
-   "photoSrc": null
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/935480-1775770086.jpg?lm=4711"
   },
   {
    "id": "371532",
    "name": "Souza",
    "jersey": "33",
    "pos": "D",
-   "photo": null,
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/1086258-1769207185.jpg?lm=4711",
    "injuries": [],
-   "photoSrc": null
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1086258-1769207185.jpg?lm=4711"
   },
   {
    "id": "184118",
    "name": "Seko Fofana",
    "jersey": "42",
    "pos": "M",
-   "photo": "data/photos/71a558350577bdd9.jpg",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/182893-1653394911.jpg?lm=4711",
    "injuries": [],
    "dob": "2000-12-17",
    "nat": "France",
@@ -161,25 +161,25 @@
    "joined": "2022-08-31",
    "birthPlace": "Marseille",
    "posInfo": "Centre Central Defender",
-   "photoSrc": "https://resources.premierleague.com/premierleague/photos/players/250x250/p444463.png"
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/182893-1653394911.jpg?lm=4711"
   },
   {
    "id": "194289",
    "name": "Tiago Silva",
    "jersey": "58",
    "pos": "M",
-   "photo": null,
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/198008-1724336978.jpg?lm=4711",
    "injuries": [],
-   "photoSrc": null
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/198008-1724336978.jpg?lm=4711"
   },
   {
    "id": "223776",
    "name": "Pablo Rosario",
    "jersey": "13",
    "pos": "M",
-   "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/223776.png",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/370791-1773342182.jpg?lm=4711",
    "injuries": [],
-   "photoSrc": "https://a.espncdn.com/i/headshots/soccer/players/full/223776.png"
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/370791-1773342182.jpg?lm=4711"
   },
   {
    "id": "280061",
@@ -195,36 +195,36 @@
    "name": "Gabri Veiga",
    "jersey": "10",
    "pos": "M",
-   "photo": null,
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/699704-1790620184.jpg?lm=4711",
    "injuries": [],
-   "photoSrc": null
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/699704-1790620184.jpg?lm=4711"
   },
   {
    "id": "307601",
    "name": "Alan Varela",
    "jersey": "22",
    "pos": "M",
-   "photo": null,
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/756990-1758829907.jpg?lm=4711",
    "injuries": [],
-   "photoSrc": null
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/756990-1758829907.jpg?lm=4711"
   },
   {
    "id": "332687",
    "name": "Vasco Sousa",
    "jersey": "15",
    "pos": "M",
-   "photo": null,
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/575716-1725014523.png?lm=4711",
    "injuries": [],
-   "photoSrc": null
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/575716-1725014523.png?lm=4711"
   },
   {
    "id": "373520",
    "name": "Victor Froholdt",
    "jersey": "8",
    "pos": "M",
-   "photo": null,
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/926993-1779796148.jpg?lm=4711",
    "injuries": [],
-   "photoSrc": null
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/926993-1779796148.jpg?lm=4711"
   },
   {
    "id": "399216",
@@ -249,81 +249,81 @@
    "name": "André Silva",
    "jersey": "19",
    "pos": "F",
-   "photo": null,
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/198008-1724336978.jpg?lm=4711",
    "injuries": [],
-   "photoSrc": null
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/198008-1724336978.jpg?lm=4711"
   },
   {
    "id": "256909",
    "name": "Pepê",
    "jersey": "11",
    "pos": "F",
-   "photo": null,
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/520662-1758830033.jpg?lm=4711",
    "injuries": [],
-   "photoSrc": null
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/520662-1758830033.jpg?lm=4711"
   },
   {
    "id": "260775",
    "name": "Santiago Gimenez",
    "jersey": "29",
    "pos": "F",
-   "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/260775.png",
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/552955-1739903736.jpg?lm=4711",
    "injuries": [],
-   "photoSrc": "https://a.espncdn.com/i/headshots/soccer/players/full/260775.png"
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/552955-1739903736.jpg?lm=4711"
   },
   {
    "id": "292268",
    "name": "Borja Sainz",
    "jersey": "17",
    "pos": "F",
-   "photo": null,
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/634461-1773342111.jpg?lm=4711",
    "injuries": [],
-   "photoSrc": null
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/634461-1773342111.jpg?lm=4711"
   },
   {
    "id": "364815",
    "name": "Samu Aghehowa",
    "jersey": "9",
    "pos": "F",
-   "photo": null,
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/991268-1732829288.jpg?lm=4711",
    "injuries": [],
-   "photoSrc": null
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/991268-1732829288.jpg?lm=4711"
   },
   {
    "id": "375383",
    "name": "Oskar Pietuszewski",
    "jersey": "77",
    "pos": "F",
-   "photo": null,
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/1162012-1758896902.jpg?lm=4711",
    "injuries": [],
-   "photoSrc": null
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1162012-1758896902.jpg?lm=4711"
   },
   {
    "id": "376664",
    "name": "William Gomes",
    "jersey": "7",
    "pos": "F",
-   "photo": null,
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/1004725-1758830735.jpg?lm=4711",
    "injuries": [],
-   "photoSrc": null
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1004725-1758830735.jpg?lm=4711"
   },
   {
    "id": "399421",
    "name": "Gabriel Mec",
    "jersey": "37",
    "pos": "F",
-   "photo": null,
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/1228661-1757072570.png?lm=4711",
    "injuries": [],
-   "photoSrc": null
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1228661-1757072570.png?lm=4711"
   },
   {
    "id": "403875",
    "name": "Duarte Cunha",
    "jersey": "57",
    "pos": "F",
-   "photo": null,
+   "photo": "https://img.a.transfermarkt.technology/portrait/header/1182538-1761736431.png?lm=4711",
    "injuries": [],
-   "photoSrc": null
+   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1182538-1761736431.png?lm=4711"
   },
   {
    "id": "3116605",

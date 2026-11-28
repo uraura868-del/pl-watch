@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-28T01:54:00Z",
+ "updatedAt": "2026-11-28T10:14:39Z",
  "enabled": true,
  "players": {
   "194121": {
@@ -57,16 +57,16 @@
    "query": "Giorgi Mamardashvili skills",
    "videos": [
     {
-     "id": "43tX3zQ7rP8",
-     "title": "¡Lo MEJOR de GIORGI MAMARDASHVILI en LALIGA!",
-     "channel": "LALIGA EA SPORTS",
-     "publishedAt": "2025-09-09"
+     "id": "RT2mz1XzGEw",
+     "title": "Giorgi Mamardashvili • Incredible  Saves Show • Valencia",
+     "channel": "football plus",
+     "publishedAt": "2024-08-13"
     },
     {
-     "id": "TbQlS0OY2PI",
-     "title": "Big save from Mamardashvili 💪",
-     "channel": "Liverpool FC",
-     "publishedAt": "2025-07-30"
+     "id": "4Yw6wTNjVNo",
+     "title": "Giorgi Mamardashvili 2024 ● Valencia ► Full Season Show",
+     "channel": "RED TOWN",
+     "publishedAt": "2024-06-01"
     },
     {
      "id": "eeheK2Svnu8",
@@ -75,7 +75,7 @@
      "publishedAt": "2024-08-05"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "289840": {
    "name": "Vitezslav Jaros",

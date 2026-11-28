@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-28T01:54:00Z",
+ "updatedAt": "2026-11-28T10:14:39Z",
  "enabled": true,
  "players": {
   "141705": {
@@ -57,12 +57,6 @@
    "query": "Lukás Hornícek skills",
    "videos": [
     {
-     "id": "9Yr1aZh17AI",
-     "title": "Lukáš Horníček - The Czech Wall - 2025ᴴᴰ",
-     "channel": "Brazil Scout Comps",
-     "publishedAt": "2025-10-09"
-    },
-    {
      "id": "Mk4zwQXP7pA",
      "title": "Lukas Hornicek - 2025/26 Saves | SC Braga",
      "channel": "FM Comps",
@@ -73,9 +67,15 @@
      "title": "Lukáš Horníček ● Welcome to Newcastle 2026 ⚫️⚪️🇨🇿 Best Reflexes, Saves & Passes",
      "channel": "SVMM",
      "publishedAt": "2026-07-29"
+    },
+    {
+     "id": "9Yr1aZh17AI",
+     "title": "Lukáš Horníček - The Czech Wall - 2025ᴴᴰ",
+     "channel": "Brazil Scout Comps",
+     "publishedAt": "2025-10-09"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "347523": {
    "name": "Ewen Jaouen",
@@ -88,35 +88,35 @@
      "publishedAt": "2026-05-21"
     },
     {
+     "id": "J71bJ2vxhrg",
+     "title": "Ewen Jaouen ● Welcome to Newcastle 2026 ⚫️⚪️🇫🇷 Best Reflexes, Saves & Passes",
+     "channel": "SVMM",
+     "publishedAt": "2026-06-05"
+    },
+    {
      "id": "9caO12hzM3k",
      "title": "Ewen JAOUEN, best-of 2025/2026",
      "channel": "La P'tite Histoire du Stade de Reims",
      "publishedAt": "2026-05-11"
-    },
-    {
-     "id": "0p117ZFMf0Q",
-     "title": "EWEN JAOUEN | France’s Young Guardian",
-     "channel": "Le Talent Comps",
-     "publishedAt": "2025-11-07"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "106139": {
    "name": "Lewis Hall",
    "query": "Lewis Hall skills",
    "videos": [
     {
-     "id": "E1Dx83w_2zg",
-     "title": "Lewis Hall 2026 - Insane Skills, Tackles & Assists | HD",
-     "channel": "Xabi Scout",
-     "publishedAt": "2026-03-11"
+     "id": "3ESDcNekBzk",
+     "title": "Here Is Why Liverpool Want Lewis Hall! 🇬🇧",
+     "channel": "Tenz HD",
+     "publishedAt": "2026-11-16"
     },
     {
-     "id": "vWCNkdcUjPA",
-     "title": "Lewis Hall Is a Baller | Manchester United Transfer Target 🔴",
-     "channel": "Tenz HD",
-     "publishedAt": "2026-06-03"
+     "id": "zvo3gpJ0AOU",
+     "title": "Lewis Hall Is RELENTLESS 😤",
+     "channel": "Premier League",
+     "publishedAt": "2026-03-11"
     },
     {
      "id": "td2O01rVfhY",
@@ -125,7 +125,7 @@
      "publishedAt": "2026-07-31"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "179233": {
    "name": "Fabian Schär",

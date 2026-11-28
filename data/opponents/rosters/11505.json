@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-25T02:19:01Z",
+ "updatedAt": "2026-11-28T10:14:39Z",
  "id": "11505",
  "name": "Jagiellonia Bialystok",
  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11505.png",
@@ -17,18 +17,18 @@
    "name": "Slawomir Abramowicz",
    "jersey": "50",
    "pos": "G",
-   "photo": "https://img.a.transfermarkt.technology/portrait/header/805834-1760513981.JPG?lm=4711",
+   "photo": null,
    "injuries": [],
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/805834-1760513981.JPG?lm=4711"
+   "photoSrc": null
   },
   {
    "id": "407468",
    "name": "Adrian Damasiewicz",
    "jersey": "66",
    "pos": "G",
-   "photo": "https://img.a.transfermarkt.technology/portrait/header/1205033-1760514054.JPG?lm=4711",
+   "photo": null,
    "injuries": [],
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1205033-1760514054.JPG?lm=4711"
+   "photoSrc": null
   },
   {
    "id": "407692",
@@ -44,99 +44,99 @@
    "name": "Michał Perchel",
    "jersey": "1",
    "pos": "G",
-   "photo": "https://img.a.transfermarkt.technology/portrait/header/1161772-1752830879.jpg?lm=4711",
+   "photo": null,
    "injuries": [],
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1161772-1752830879.jpg?lm=4711"
+   "photoSrc": null
   },
   {
    "id": "303927",
    "name": "Apostolos Konstantopoulos",
    "jersey": "44",
    "pos": "D",
-   "photo": "https://img.a.transfermarkt.technology/portrait/header/554393-1757087452.png?lm=4711",
+   "photo": null,
    "injuries": [],
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/554393-1757087452.png?lm=4711"
+   "photoSrc": null
   },
   {
    "id": "305431",
    "name": "Dusan Stojinovic",
    "jersey": "3",
    "pos": "D",
-   "photo": "https://img.a.transfermarkt.technology/portrait/header/469688-1760514289.JPG?lm=4711",
+   "photo": null,
    "injuries": [],
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/469688-1760514289.JPG?lm=4711"
+   "photoSrc": null
   },
   {
    "id": "321360",
    "name": "Bernardo Vital",
    "jersey": "5",
    "pos": "D",
-   "photo": "https://img.a.transfermarkt.technology/portrait/header/690273-1760514167.JPG?lm=4711",
+   "photo": null,
    "injuries": [],
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/690273-1760514167.JPG?lm=4711"
+   "photoSrc": null
   },
   {
    "id": "323813",
    "name": "Rodrigo Conceição",
    "jersey": "27",
    "pos": "D",
-   "photo": "https://img.a.transfermarkt.technology/portrait/header/426213-1720616605.png?lm=4711",
+   "photo": null,
    "injuries": [],
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/426213-1720616605.png?lm=4711"
+   "photoSrc": null
   },
   {
    "id": "341444",
    "name": "Bartlomiej Wdowik",
    "jersey": "20",
    "pos": "D",
-   "photo": "https://img.a.transfermarkt.technology/portrait/header/589013-1760514248.JPG?lm=4711",
+   "photo": null,
    "injuries": [],
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/589013-1760514248.JPG?lm=4711"
+   "photoSrc": null
   },
   {
    "id": "346925",
    "name": "Yuki Kobayashi",
    "jersey": "4",
    "pos": "D",
-   "photo": "https://img.a.transfermarkt.technology/portrait/header/405386-1760514642.JPG?lm=4711",
+   "photo": null,
    "injuries": [],
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/405386-1760514642.JPG?lm=4711"
+   "photoSrc": null
   },
   {
    "id": "382108",
    "name": "Cezary Polak",
    "jersey": "2",
    "pos": "D",
-   "photo": "https://img.a.transfermarkt.technology/portrait/header/705826-1760514703.JPG?lm=4711",
+   "photo": null,
    "injuries": [],
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/705826-1760514703.JPG?lm=4711"
+   "photoSrc": null
   },
   {
    "id": "382780",
    "name": "Guilherme Montoia",
    "jersey": "23",
    "pos": "D",
-   "photo": "https://img.a.transfermarkt.technology/portrait/header/575717-1743698400.jpg?lm=4711",
+   "photo": null,
    "injuries": [],
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/575717-1743698400.jpg?lm=4711"
+   "photoSrc": null
   },
   {
    "id": "387768",
    "name": "Bartlomiej Krasiewicz",
    "jersey": "61",
    "pos": "D",
-   "photo": "https://img.a.transfermarkt.technology/portrait/header/1046873-1760514771.JPG?lm=4711",
+   "photo": null,
    "injuries": [],
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1046873-1760514771.JPG?lm=4711"
+   "photoSrc": null
   },
   {
    "id": "399460",
    "name": "Norbert Wojtuszek",
    "jersey": "15",
    "pos": "D",
-   "photo": "https://img.a.transfermarkt.technology/portrait/header/607435-1760514206.JPG?lm=4711",
+   "photo": null,
    "injuries": [],
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/607435-1760514206.JPG?lm=4711"
+   "photoSrc": null
   },
   {
    "id": "422185",
@@ -161,81 +161,81 @@
    "name": "Jesus Imaz",
    "jersey": "11",
    "pos": "M",
-   "photo": "https://img.a.transfermarkt.technology/portrait/header/176423-1760515049.JPG?lm=4711",
+   "photo": null,
    "injuries": [],
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/176423-1760515049.JPG?lm=4711"
+   "photoSrc": null
   },
   {
    "id": "220849",
    "name": "Taras Romanczuk",
    "jersey": "6",
    "pos": "M",
-   "photo": "https://img.a.transfermarkt.technology/portrait/header/280939-1760515131.JPG?lm=4711",
+   "photo": null,
    "injuries": [],
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/280939-1760515131.JPG?lm=4711"
+   "photoSrc": null
   },
   {
    "id": "235672",
    "name": "Kamil Jozwiak",
    "jersey": "72",
    "pos": "M",
-   "photo": "https://img.a.transfermarkt.technology/portrait/header/289167-1760515689.JPG?lm=4711",
+   "photo": "https://a.espncdn.com/i/headshots/soccer/players/full/235672.png",
    "injuries": [],
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/289167-1760515689.JPG?lm=4711"
+   "photoSrc": "https://a.espncdn.com/i/headshots/soccer/players/full/235672.png"
   },
   {
    "id": "268751",
    "name": "Sergio Lozano",
    "jersey": "21",
-   "pos": "D",
-   "photo": "https://img.a.transfermarkt.technology/portrait/header/341277-1760514977.JPG?lm=4711",
+   "pos": "M",
+   "photo": null,
    "injuries": [],
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/341277-1760514977.JPG?lm=4711"
+   "photoSrc": null
   },
   {
    "id": "272148",
    "name": "Hampus Finndell",
    "jersey": "14",
    "pos": "M",
-   "photo": "https://img.a.transfermarkt.technology/portrait/header/405313-1706791414.jpg?lm=4711",
+   "photo": null,
    "injuries": [],
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/405313-1706791414.jpg?lm=4711"
+   "photoSrc": null
   },
   {
    "id": "303934",
    "name": "Anders Klynge",
    "jersey": "19",
    "pos": "M",
-   "photo": "https://img.a.transfermarkt.technology/portrait/header/542762-1715881583.jpg?lm=4711",
+   "photo": null,
    "injuries": [],
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/542762-1715881583.jpg?lm=4711"
+   "photoSrc": null
   },
   {
    "id": "345447",
    "name": "Ousmane Sow",
    "jersey": "30",
    "pos": "M",
-   "photo": "https://img.a.transfermarkt.technology/portrait/header/1071651-1725881497.jpg?lm=4711",
+   "photo": null,
    "injuries": [],
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1071651-1725881497.jpg?lm=4711"
+   "photoSrc": null
   },
   {
    "id": "363718",
    "name": "Dawid Drachal",
    "jersey": "8",
    "pos": "M",
-   "photo": "https://img.a.transfermarkt.technology/portrait/header/895298-1760515012.JPG?lm=4711",
+   "photo": null,
    "injuries": [],
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/895298-1760515012.JPG?lm=4711"
+   "photoSrc": null
   },
   {
    "id": "370144",
    "name": "Kajetan Szmyt",
    "jersey": "7",
    "pos": "M",
-   "photo": "https://img.a.transfermarkt.technology/portrait/header/658730-1765128107.png?lm=4711",
+   "photo": null,
    "injuries": [],
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/658730-1765128107.png?lm=4711"
+   "photoSrc": null
   },
   {
    "id": "392560",
@@ -260,9 +260,9 @@
    "name": "Zachary Zalewski",
    "jersey": "80",
    "pos": "M",
-   "photo": "https://img.a.transfermarkt.technology/portrait/header/1325371-1776620768.jpg?lm=4711",
+   "photo": null,
    "injuries": [],
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1325371-1776620768.jpg?lm=4711"
+   "photoSrc": null
   },
   {
    "id": "3115026",
@@ -278,63 +278,72 @@
    "name": "Jakub Kucharski",
    "jersey": null,
    "pos": "M",
-   "photo": "https://img.a.transfermarkt.technology/portrait/header/1212049-1752793240.jpg?lm=4711",
+   "photo": null,
    "injuries": [],
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1212049-1752793240.jpg?lm=4711"
+   "photoSrc": null
+  },
+  {
+   "id": "5334561",
+   "name": "Olaf Pawelczyk",
+   "jersey": "58",
+   "pos": "M",
+   "photo": null,
+   "injuries": [],
+   "photoSrc": null
   },
   {
    "id": "296557",
    "name": "Aleksandar Cirkovic",
    "jersey": "32",
    "pos": "F",
-   "photo": "https://img.a.transfermarkt.technology/portrait/header/452218-1765113794.png?lm=4711",
+   "photo": null,
    "injuries": [],
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/452218-1765113794.png?lm=4711"
+   "photoSrc": null
   },
   {
    "id": "307060",
    "name": "Nik Prelec",
    "jersey": "99",
    "pos": "F",
-   "photo": "https://img.a.transfermarkt.technology/portrait/header/469690-1775589275.jpg?lm=4711",
+   "photo": null,
    "injuries": [],
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/469690-1775589275.jpg?lm=4711"
+   "photoSrc": null
   },
   {
    "id": "312714",
    "name": "Youssuf Sylla",
    "jersey": "17",
    "pos": "F",
-   "photo": "https://img.a.transfermarkt.technology/portrait/header/667903-1760515761.JPG?lm=4711",
+   "photo": null,
    "injuries": [],
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/667903-1760515761.JPG?lm=4711"
+   "photoSrc": null
   },
   {
    "id": "381082",
    "name": "Jeremy Agbonifo",
    "jersey": "10",
    "pos": "F",
-   "photo": "https://img.a.transfermarkt.technology/portrait/header/1057820-1723715143.jpg?lm=4711",
+   "photo": null,
    "injuries": [],
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1057820-1723715143.jpg?lm=4711"
+   "photoSrc": null
   },
   {
    "id": "388725",
    "name": "Dimitris Rallis",
    "jersey": "9",
    "pos": "F",
-   "photo": "https://img.a.transfermarkt.technology/portrait/header/747953-1760515583.JPG?lm=4711",
+   "photo": null,
    "injuries": [],
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/747953-1760515583.JPG?lm=4711"
+   "photoSrc": null
   },
   {
    "id": "3115027",
    "name": "Maksim Kononov",
    "jersey": "65",
    "pos": "F",
-   "photo": "https://img.a.transfermarkt.technology/portrait/header/1105398-1767783591.png?lm=4711",
+   "photo": null,
    "injuries": [],
-   "photoSrc": "https://img.a.transfermarkt.technology/portrait/header/1105398-1767783591.png?lm=4711"
+   "photoSrc": null
   }
  ]
 }

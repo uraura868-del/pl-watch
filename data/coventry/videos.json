@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-28T01:54:00Z",
+ "updatedAt": "2026-11-28T10:14:39Z",
  "enabled": true,
  "players": {
   "143007": {
@@ -7,16 +7,16 @@
    "query": "Daniel Bentley skills",
    "videos": [
     {
+     "id": "P7S3e6v_4d4",
+     "title": "Daniel Bentley - Top 20 INSANE saves 2019/20",
+     "channel": "BCFC Videos",
+     "publishedAt": "2020-04-20"
+    },
+    {
      "id": "RyukpoqTPug",
      "title": "DANIEL BENTLEY | BEST SAVES",
      "channel": "Naylor United",
      "publishedAt": "2016-03-20"
-    },
-    {
-     "id": "ZFmC1riq_d8",
-     "title": "Daniel Bentley visits the Community Sports Trust's October Soccer School",
-     "channel": "Brentford Football Club",
-     "publishedAt": "2016-10-27"
     },
     {
      "id": "rZHvGgr2wq8",
@@ -25,7 +25,7 @@
      "publishedAt": "2017-06-11"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "169619": {
    "name": "Ben Wilson",
@@ -44,38 +44,38 @@
      "publishedAt": "2026-02-22"
     },
     {
-     "id": "s2MVn33lIXk",
-     "title": "Group Accounting Explained in 15 Minutes",
-     "channel": "ACCA Ben Wilson AAA",
-     "publishedAt": "2026-04-25"
+     "id": "ezmrJK8QnQc",
+     "title": "7 Minute Daily Strength Routine For Life - All Abilities ",
+     "channel": "Ben Wilson ",
+     "publishedAt": "2026-07-15"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "307069": {
    "name": "Carl Rushworth",
    "query": "Carl Rushworth skills",
    "videos": [
     {
-     "id": "TW4eBEDwUBg",
-     "title": "Bruno to Arsenal off ? + Newcastle United WANT James Trafford or Carl Rushworth TO REPLACE NICK POPE",
-     "channel": "Adam Pearson",
-     "publishedAt": "2026-07-16"
+     "id": "pGpM_1GhohQ",
+     "title": "Carl Rushworth🏴󠁧󠁢󠁥󠁮󠁧󠁿 #efl #pusb #coventrycity #scfc #swanseacity #bhafc #wonderkids",
+     "channel": "Ryan Hurst",
+     "publishedAt": "2026-02-18"
     },
     {
-     "id": "E4iWeUh-vJ4",
-     "title": "Exclusive: Carl Rushworth joins the Saddlers on a season-long loan from Brighton and Hove Albion",
-     "channel": "Walsall FC Official",
-     "publishedAt": "2021-07-15"
+     "id": "7XkONet63Us",
+     "title": "WHAT a save from Carl Rushworth against Espanyol! 🤯🧤",
+     "channel": "YourMateLee",
+     "publishedAt": "2026-08-10"
     },
     {
-     "id": "7tuxe7I9BH0",
-     "title": "Rushworth has skills ⚽️ #coventry #coventrycity #coventrycityfc #cov #pusb #football #ccfc",
-     "channel": "Zain Al-Ramadani",
-     "publishedAt": "2026-08-15"
+     "id": "zsZMVsOY3L8",
+     "title": "What a save from Carl Rushworth 🔥🔥",
+     "channel": "@lizzyeditsccfc💙⚽️",
+     "publishedAt": "2026-02-26"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "143533": {
    "name": "Jake Bidwell",
@@ -100,32 +100,32 @@
      "publishedAt": "2020-04-17"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "206172": {
    "name": "Jay Da Silva",
    "query": "Jay Da Silva skills",
    "videos": [
     {
-     "id": "KGYqfiHlmUM",
-     "title": "THE BEST OF: JAY DASILVA",
-     "channel": "Ciara Grimstead",
-     "publishedAt": "2019-09-05"
-    },
-    {
-     "id": "4eYMSW5-f10",
-     "title": "Football Made To Look Easy 🥵",
-     "channel": "Premier League",
-     "publishedAt": "2026-09-20"
+     "id": "sXoSTLRvNpY",
+     "title": "Jay Dasilva Just Ended Coventry’s 25 Year Wait 😱⚽",
+     "channel": "PitchBorn",
+     "publishedAt": "2026-09-22"
     },
     {
      "id": "bZvtfd0F5mA",
      "title": "J.Dasilva long distance #Dasulva #Brentford",
      "channel": "FOOTBALL LEAGUE",
      "publishedAt": "2023-08-11"
+    },
+    {
+     "id": "KGYqfiHlmUM",
+     "title": "THE BEST OF: JAY DASILVA",
+     "channel": "Ciara Grimstead",
+     "publishedAt": "2019-09-05"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "241093": {
    "name": "Ethan Pinnock",
@@ -150,7 +150,7 @@
      "publishedAt": "2026-08-24"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "260168": {
    "name": "Joel Latibeaudiere",
@@ -175,7 +175,7 @@
      "publishedAt": "2023-01-19"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "261083": {
    "name": "Luke Woolfenden",
@@ -188,19 +188,19 @@
      "publishedAt": "2022-12-08"
     },
     {
-     "id": "lK490UotP0o",
-     "title": "EFL YOUTH DEVELOPMENT WEEK | LUKE WOOLFENDEN",
-     "channel": "Ipswich Town FC",
-     "publishedAt": "2022-02-10"
-    },
-    {
      "id": "z0n7_VdtHZE",
      "title": "LUKE WOOLFENDEN signs for Coventry City on Deadline Day ✍️ | City Unseen EP139 ⛫",
      "channel": "Coventry City FC",
      "publishedAt": "2025-09-02"
+    },
+    {
+     "id": "yR1qh3eqQaE",
+     "title": "#AD “Torpy is just good at everything” 📈",
+     "channel": "Coventry City FC",
+     "publishedAt": "2025-12-23"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "281139": {
    "name": "Milan van Ewijk",
@@ -225,7 +225,7 @@
      "publishedAt": "2025-07-20"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "294308": {
    "name": "Kaine Kesler Hayden",
@@ -244,18 +244,24 @@
      "publishedAt": "2022-11-21"
     },
     {
-     "id": "jvBHpVLOUdo",
-     "title": "Kaine Kesler Hayden - The Perfect Modern Fullback",
-     "channel": "PBcomps",
-     "publishedAt": "2021-08-04"
+     "id": "-q3QPHrZfUQ",
+     "title": "Kaine Kesler-Hayden's inspirations & career journey so far 🌠 | The Moments That Make Us",
+     "channel": "Sky Sports Football",
+     "publishedAt": "2024-10-05"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "303931": {
    "name": "Bobby Thomas",
    "query": "Bobby Thomas skills",
    "videos": [
+    {
+     "id": "T1fBvkRFq5k",
+     "title": "Bobby Thomas Is The New Dan Ballard.🧱 #footballtactics #bobbythomas #tacticalbreakdown #transfers",
+     "channel": "Ryan Hurst",
+     "publishedAt": "2026-10-13"
+    },
     {
      "id": "pOh_uWy9qBI",
      "title": "Bobby Thomas Sent Him Flying 👋",
@@ -263,19 +269,13 @@
      "publishedAt": "2026-09-01"
     },
     {
-     "id": "XWUddu1lr6A",
-     "title": "Bobby Thomas was rocking Newcastle #epl #laliga #football #footballshorts #entertainment",
-     "channel": "Shortsssss",
-     "publishedAt": "2026-10-13"
-    },
-    {
-     "id": "T1fBvkRFq5k",
-     "title": "Bobby Thomas Is The New Dan Ballard.🧱 #footballtactics #bobbythomas #tacticalbreakdown #transfers",
-     "channel": "Ryan Hurst",
-     "publishedAt": "2026-10-13"
+     "id": "_o0RvBLSaVE",
+     "title": "Scouting Report: Bobby Thomas (Centre-back, Coventry City/England)",
+     "channel": "From The Anvil: West Ham United",
+     "publishedAt": "2025-06-30"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "319404": {
    "name": "Aurèle Amenda",
@@ -300,7 +300,7 @@
      "publishedAt": "2025-08-05"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "374220": {
    "name": "Stephen Mfuni",
@@ -325,7 +325,7 @@
      "publishedAt": "2025-12-12"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "191337": {
    "name": "Matt Grimes",
@@ -338,19 +338,19 @@
      "publishedAt": "2020-05-09"
     },
     {
-     "id": "UyfL9CqBLlc",
-     "title": "Matt Grimes | 10 Years at the Swans",
-     "channel": "Swansea City AFC",
-     "publishedAt": "2025-01-03"
+     "id": "llmS_idXlh8",
+     "title": "Matt Grimes skills 2020 - midfielder perfect!",
+     "channel": "Football HD",
+     "publishedAt": "2020-07-07"
     },
     {
-     "id": "OHEjVduS_1g",
-     "title": "Matt Grimes - Passes, Tackles, Interceptions & Skills",
-     "channel": "Swonz",
-     "publishedAt": "2020-09-25"
+     "id": "u4GJoCOaThA",
+     "title": "The Complete English Midfielder - Matt Grimes Scout Report",
+     "channel": "CWFootball",
+     "publishedAt": "2020-02-21"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "236912": {
    "name": "Gustavo Hamer",
@@ -369,13 +369,13 @@
      "publishedAt": "2026-08-07"
     },
     {
-     "id": "YI22npdiHjk",
-     "title": "Gustavo Hamer - Complete Season in 2026!",
-     "channel": "SilvaSkills PLUS",
-     "publishedAt": "2026-05-09"
+     "id": "AAhmgzrGn-o",
+     "title": "Gustavo Hamer Deserves to be Seen in 2024!",
+     "channel": "SilvaSkills",
+     "publishedAt": "2024-04-15"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "246954": {
    "name": "Ephron Mason-Clark",
@@ -394,24 +394,18 @@
      "publishedAt": "2026-02-22"
     },
     {
-     "id": "85OII0wtKJQ",
-     "title": "Ephron Mason-Clark Barnet F.C. 2019/20",
-     "channel": "CSN Football Videos",
-     "publishedAt": "2020-05-28"
+     "id": "tOUC6sPPvOU",
+     "title": "Mason-Clark scores CRAZY Overhead Kick At Stoke City",
+     "channel": "Alex Craig",
+     "publishedAt": "2025-11-09"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "256015": {
    "name": "Victor Torp",
    "query": "Victor Torp skills",
    "videos": [
-    {
-     "id": "bq9CpQylyOY",
-     "title": "Congratulations to Victor Torp who made his 100th appearance for the Sky Blues on Tuesday night. 🩵",
-     "channel": "Coventry City FC",
-     "publishedAt": "2026-04-24"
-    },
     {
      "id": "HZFIB90uh9c",
      "title": "Coventry City signs Danish midfielder VICTOR TORP! ⚡",
@@ -419,13 +413,19 @@
      "publishedAt": "2024-01-11"
     },
     {
-     "id": "pZ_7c-uJb78",
-     "title": "🪄 Magic from Torp and Coventry #efl",
-     "channel": "EFL",
-     "publishedAt": "2025-08-23"
+     "id": "bq9CpQylyOY",
+     "title": "Congratulations to Victor Torp who made his 100th appearance for the Sky Blues on Tuesday night. 🩵",
+     "channel": "Coventry City FC",
+     "publishedAt": "2026-04-24"
+    },
+    {
+     "id": "PvFGIS79FkY",
+     "title": "Victor Torp🇩🇰",
+     "channel": "Mads Nygaard Jacobsen",
+     "publishedAt": "2026-06-06"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "258491": {
    "name": "Frank Onyeka",
@@ -438,19 +438,19 @@
      "publishedAt": "2026-04-30"
     },
     {
-     "id": "bSPOnCrC9Sk",
-     "title": "Frank Onyeka's first day as Coventry City player! 💼",
-     "channel": "Coventry City FC",
-     "publishedAt": "2026-02-05"
+     "id": "mfw1BHjV2sM",
+     "title": "Frank Onyeka did not allow the Algerian player go! #football #supereagles #afcon2025",
+     "channel": "Richard Nwajei ",
+     "publishedAt": "2026-01-12"
     },
     {
-     "id": "mnLZ6SIfPZQ",
-     "title": "Frank Onyeka’s fiery approach today 😮‍💨🔥#coventrycity #premierleague #covcovcov #pusb #nigeria",
-     "channel": "Joner Fat Cat",
-     "publishedAt": "2026-08-08"
+     "id": "e2Hu9nqMJGE",
+     "title": "Frank Onyeka clashes with linesman 😳",
+     "channel": "Naija Bias Football Channel",
+     "publishedAt": "2026-07-20"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "277614": {
    "name": "Josh Eccles",
@@ -463,19 +463,19 @@
      "publishedAt": "2023-10-01"
     },
     {
-     "id": "7irtPKNEhnI",
-     "title": "Josh Eccles signs new LONG-TERM deal with the Sky Blues | \"It's a dream come true!\"",
-     "channel": "Coventry City FC",
-     "publishedAt": "2023-01-12"
-    },
-    {
      "id": "bmfo1bO0ViQ",
      "title": "Football's Smoothest Elastico 🤯",
      "channel": "JM-Haz",
      "publishedAt": "2026-06-05"
+    },
+    {
+     "id": "dRVbyABFjB0",
+     "title": "Josh Spinks Motocross Coaching - Live Learning",
+     "channel": "Lets Torque Bikes",
+     "publishedAt": "2021-01-28"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "286967": {
    "name": "Jack Rudoni",
@@ -488,35 +488,35 @@
      "publishedAt": "2026-03-01"
     },
     {
-     "id": "wgtPWooRtjY",
-     "title": "My Journey to the Premier League | Jack Rudoni",
-     "channel": "Jack Rudoni",
-     "publishedAt": "2026-10-13"
-    },
-    {
      "id": "RCIVSKeqUFo",
      "title": "Jack Rudoni - Welcome to Newcastle United",
      "channel": "90 Minutes Football",
      "publishedAt": "2025-05-23"
+    },
+    {
+     "id": "NxqEc67xb_g",
+     "title": "Jack Rudoni | Video Scouting and Analysis Report",
+     "channel": "ScoutDeck®",
+     "publishedAt": "2025-07-08"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "302002": {
    "name": "Tatsuhiro Sakamoto",
    "query": "Tatsuhiro Sakamoto skills",
    "videos": [
     {
-     "id": "C06cbVAy0VU",
-     "title": "From Japan to the Motor City 🇯🇵 | Tatsuhiro Sakamoto & Ayao Komatsu’s story | Sent to Coventry",
-     "channel": "Coventry City FC",
-     "publishedAt": "2026-03-26"
+     "id": "sC-V0JXAtKw",
+     "title": "'STUNNING!' 😲 Tatsuhiro Sakamoto's screamer lifts Coventry ahead of Crystal Palace | Premier League",
+     "channel": "NBC Sports",
+     "publishedAt": "2026-11-21"
     },
     {
-     "id": "_8i21PnnD2k",
-     "title": "100 City appearances for Tatsuhiro Sakamoto! 🩵",
-     "channel": "Coventry City FC",
-     "publishedAt": "2025-12-31"
+     "id": "G5z9txfM7pE",
+     "title": "Tatsuhiro Sakamoto blasts Coventry City ahead of Sunderland | Premier League",
+     "channel": "NBC Sports",
+     "publishedAt": "2026-10-31"
     },
     {
      "id": "qT02AsHxTWE",
@@ -525,32 +525,32 @@
      "publishedAt": "2025-12-10"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "387659": {
    "name": "Caleb Yirenkyi",
    "query": "Caleb Yirenkyi skills",
    "videos": [
     {
-     "id": "BXT-Ma204c8",
-     "title": "BREAKING   CALEB YIRENKYI TO REAL MADRID DETAILS",
-     "channel": "Sahara Football",
-     "publishedAt": "2026-06-05"
+     "id": "BEKwdB06qUQ",
+     "title": "Caleb Yirenkyi -Allrounding Midfielder",
+     "channel": "Brazil Scout ",
+     "publishedAt": "2026-01-02"
     },
     {
-     "id": "v8bQU-oPo4w",
-     "title": "Who Is Caleb Yirenkyi? 👀 Arsenal Fans Need to Watch This Talent",
-     "channel": "Robz Arsenal Recap",
-     "publishedAt": "2026-06-23"
+     "id": "SUE9CNalCI0",
+     "title": "Caleb Yirenkyi ● Welcome to Coventry City 2026 🔵⚪️🇬🇭 Best Tackles, Skills & Passes",
+     "channel": "SVMM",
+     "publishedAt": "2026-08-05"
     },
     {
-     "id": "t7HlDL2Pi1o",
-     "title": "Caleb Yirenkyi - Complete Season in 2026!",
-     "channel": "SilvaSkills",
-     "publishedAt": "2026-06-05"
+     "id": "b_7yEyaZzA4",
+     "title": "Caleb Yirenkyi - Full Season Show - 2026ᴴᴰ",
+     "channel": "Brazil Scout ",
+     "publishedAt": "2026-05-30"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "194686": {
    "name": "Taiwo Awoniyi",
@@ -563,13 +563,19 @@
      "publishedAt": "2025-06-22"
     },
     {
-     "id": "-jBHOXect48",
-     "title": "Taiwo Awoniyi gives Nottingham Forest fast start against Fulham | Premier League | NBC Sports",
+     "id": "ca31BzNvt44",
+     "title": "ALLE TORE von Taiwo Awoniyi | 1. FC Union Berlin",
+     "channel": "1. FC Union Berlin",
+     "publishedAt": "2022-06-25"
+    },
+    {
+     "id": "PbFUOVLBmAk",
+     "title": "Taiwo Awoniyi pulls one back for Forest against Arsenal | Premier League | NBC Sports",
      "channel": "NBC Sports",
-     "publishedAt": "2022-09-16"
+     "publishedAt": "2023-08-12"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "220474": {
    "name": "Haji Wright",
@@ -582,19 +588,19 @@
      "publishedAt": "2025-10-16"
     },
     {
+     "id": "Ia-fGaJYWgU",
+     "title": "Haji Wright Breaks Defenses",
+     "channel": "Brazil Scout ",
+     "publishedAt": "2024-04-22"
+    },
+    {
      "id": "lacR7r-j3QA",
      "title": "Haji Wright builds the perfect baller 🤩",
      "channel": "GOAL BACKUP",
      "publishedAt": "2023-12-18"
-    },
-    {
-     "id": "yWTnhqjJTao",
-     "title": "The Championship Has A Haji Wright Problem",
-     "channel": "PedTalksSports",
-     "publishedAt": "2026-04-01"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "240495": {
    "name": "Brandon Thomas-Asante",
@@ -619,7 +625,7 @@
      "publishedAt": "2026-06-12"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "277383": {
    "name": "Yann Gboho",
@@ -644,7 +650,7 @@
      "publishedAt": "2026-05-12"
     }
    ],
-   "fetchedAt": "2026-10-28T12:42:19Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "282647": {
    "name": "Ellis Simms",
@@ -669,7 +675,7 @@
      "publishedAt": "2026-01-25"
     }
    ],
-   "fetchedAt": "2026-10-29T05:37:11Z"
+   "fetchedAt": "2026-11-28T10:14:39Z"
   },
   "324541": {
    "name": "Loum Tchaouna",

@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-27T18:51:51Z",
+ "updatedAt": "2026-11-28T01:54:00Z",
  "players": {
   "194121": {
    "name": "Freddie Woodman",
@@ -1059,7 +1059,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-28T01:54:00Z"
   },
   "249299": {
    "name": "Alexis Mac Allister",
@@ -1143,7 +1143,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-28T01:54:00Z"
   },
   "257206": {
    "name": "Dominik Szoboszlai",
@@ -1216,6 +1216,17 @@
      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/hun.png"
     },
     {
+     "club": "RBライプツィヒ",
+     "clubEn": "RB Leipzig",
+     "start": "2021",
+     "end": "2023",
+     "apps": null,
+     "national": false,
+     "youth": false,
+     "loan": false,
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png"
+    },
+    {
      "club": "リヴァプールFC",
      "clubEn": "Liverpool F.C.",
      "start": "2023",
@@ -1227,7 +1238,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-28T01:54:00Z"
   },
   "274632": {
    "name": "Ryan Gravenberch",
@@ -1322,7 +1333,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-28T01:54:00Z"
   },
   "303748": {
    "name": "Florian Wirtz",
@@ -1406,13 +1417,13 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-28T01:54:00Z"
   },
   "326230": {
    "name": "James McConnell",
    "qid": "Q118767830",
    "career": [],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-28T01:54:00Z"
   },
   "356075": {
    "name": "Trey Nyoni",
@@ -1430,7 +1441,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-28T01:54:00Z"
   },
   "380624": {
    "name": "Michael Laffey",
@@ -1498,7 +1509,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-28T01:54:00Z"
   },
   "235662": {
    "name": "Alexander Isak",
@@ -1582,7 +1593,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-28T01:54:00Z"
   },
   "249524": {
    "name": "Cody Gakpo",
@@ -1644,7 +1655,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-28T01:54:00Z"
   },
   "304901": {
    "name": "Hugo Ekitike",
@@ -1761,7 +1772,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-28T01:54:00Z"
   },
   "328238": {
    "name": "Bradley Barcola",
@@ -1856,13 +1867,13 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-28T01:54:00Z"
   },
   "350661": {
    "name": "Lewis Koumas",
    "qid": "Q118725657",
    "career": [],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-28T01:54:00Z"
   },
   "354737": {
    "name": "Jayden Danns",
@@ -1902,7 +1913,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-28T01:54:00Z"
   },
   "379588": {
    "name": "Rio Ngumoha",
@@ -1931,13 +1942,13 @@
      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-28T01:54:00Z"
   },
   "395890": {
    "name": "Joshua Lambie",
    "qid": "Q137368522",
    "career": [],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-28T01:54:00Z"
   },
   "397545": {
    "name": "Víctor Muñoz",
@@ -1999,7 +2010,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png"
     }
    ],
-   "fetchedAt": "2026-10-26T14:08:26Z"
+   "fetchedAt": "2026-11-28T01:54:00Z"
   }
  }
 }

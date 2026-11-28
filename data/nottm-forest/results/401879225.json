@@ -1,0 +1,52 @@
+{
+ "eventId": "401879225",
+ "date": "2026-11-27T20:00:00Z",
+ "opponent": {
+  "name": "Chelsea",
+  "abbr": "CHE"
+ },
+ "isHome": true,
+ "score": {
+  "us": 3,
+  "opp": 2
+ },
+ "goals": [
+  {
+   "side": "us",
+   "scorer": "Igor Jesus",
+   "assist": "Daniel Muñoz",
+   "minute": "5'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Morgan Gibbs-White",
+   "assist": null,
+   "minute": "51'",
+   "kind": "pen"
+  },
+  {
+   "side": "opp",
+   "scorer": "Emmanuel Emegha",
+   "assist": null,
+   "minute": "54'",
+   "kind": "goal"
+  },
+  {
+   "side": "us",
+   "scorer": "Morgan Gibbs-White",
+   "assist": "Xaver Schlager",
+   "minute": "72'",
+   "kind": "goal"
+  },
+  {
+   "side": "opp",
+   "scorer": "Emmanuel Emegha",
+   "assist": "Pedro Neto",
+   "minute": "89'",
+   "kind": "goal"
+  }
+ ],
+ "redCards": [],
+ "source": "ESPN"
+}
